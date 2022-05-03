@@ -33,9 +33,9 @@
         (future
           (try
             ;; only do the 'full' sync if this is a "full sync" database. Otherwise just do metadata sync only
-            (if (:is_full_sync database)
-              (sync/sync-database! database)
-              (sync-metadata/sync-db-metadata! database))
+            ;(if (:is_full_sync database)
+            ;  (sync/sync-database! database)
+            (sync-metadata/sync-db-metadata! database)
             (catch Throwable e
               (log/error e (trs "Error syncing Database {0}" (u/the-id database))))))))
     (catch Throwable e

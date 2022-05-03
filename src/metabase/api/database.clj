@@ -748,8 +748,8 @@
   ;; just wrap this in a future so it happens async
   (let [db (api/write-check (Database id))]
     (future
-      (sync-metadata/sync-db-metadata! db)
-      (analyze/analyze-db! db)))
+      (sync-metadata/sync-db-metadata! db)))
+      ;(analyze/analyze-db! db)))
   {:status :ok})
 
 ;; TODO - do we also want an endpoint to manually trigger analysis. Or separate ones for classification/fingerprinting?

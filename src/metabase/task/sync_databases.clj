@@ -64,12 +64,12 @@
                             (do
                               (unschedule-tasks-for-db! (database/map->DatabaseInstance {:id database-id}))
                               (log/warn (trs "Cannot sync Database {0}: Database does not exist." database-id))))]
-      (sync-metadata/sync-db-metadata! database)
+      (sync-metadata/sync-db-metadata! database))))
       ;; only run analysis if this is a "full sync" database
-      (when (:is_full_sync database)
-        (let [results (analyze/analyze-db! database)]
-          (when (and (:refingerprint database) (should-refingerprint-fields? results))
-            (analyze/refingerprint-db! database)))))))
+      ;(when (:is_full_sync database)
+      ;  (let [results (analyze/analyze-db! database)]
+      ;    (when (and (:refingerprint database) (should-refingerprint-fields? results))
+      ;      (analyze/refingerprint-db! database)))))))
 
 (jobs/defjob ^{org.quartz.DisallowConcurrentExecution true} SyncAndAnalyzeDatabase [job-context]
   (sync-and-analyze-database! job-context))

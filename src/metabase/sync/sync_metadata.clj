@@ -7,6 +7,7 @@
    3.  Sync FKs    (`metabase.sync.sync-metadata.fks`)
    4.  Sync Metabase Metadata table (`metabase.sync.sync-metadata.metabase-metadata`)"
   (:require [metabase.sync.interface :as i]
+            [clojure.tools.logging :as log]
             [metabase.sync.sync-metadata.fields :as sync-fields]
             [metabase.sync.sync-metadata.fks :as sync-fks]
             [metabase.sync.sync-metadata.metabase-metadata :as metabase-metadata]
@@ -39,9 +40,9 @@
    ;; Now for each table, sync the fields
    (sync-util/create-sync-step "sync-fields" sync-fields/sync-fields! sync-fields-summary)
    ;; Now for each table, sync the FKS. This has to be done after syncing all the fields to make sure target fields exist
-   (sync-util/create-sync-step "sync-fks" sync-fks/sync-fks! sync-fks-summary)
+   (sync-util/create-sync-step "sync-fks" sync-fks/sync-fks! sync-fks-summary)])
    ;; finally, sync the metadata metadata table if it exists.
-   (sync-util/create-sync-step "sync-metabase-metadata" metabase-metadata/sync-metabase-metadata!)])
+   ;(sync-util/create-sync-step "sync-metabase-metadata" metabase-metadata/sync-metabase-metadata!)])
 
 (s/defn sync-db-metadata!
   "Sync the metadata for a Metabase `database`. This makes sure child Table & Field objects are synchronized."
@@ -55,5 +56,6 @@
 (s/defn sync-table-metadata!
   "Sync the metadata for an individual `table` -- make sure Fields and FKs are up-to-date."
   [table :- i/TableInstance]
-  (sync-fields/sync-fields-for-table! table)
-  (sync-fks/sync-fks-for-table! table))
+  ( (log/info (u/format-color 'green (str "[no-sync-fix] deleted fn sync-table-metadata!"))) ))
+  ;(sync-fields/sync-fields-for-table! table)
+  ;(sync-fks/sync-fks-for-table! table))
