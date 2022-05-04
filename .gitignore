@@ -64,8 +64,6 @@
 bin/node_modules/
 bin/release/aws-eb/metabase-aws-eb.zip
 coverage-summary.json
-pom.xml
-pom.xml.asc
 profiles.clj
 target/checksum.txt
 xcshareddata
