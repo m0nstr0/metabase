@@ -31,6 +31,61 @@
 
 (driver/register! :oracle, :parent #{:sql-jdbc ::sql.qp.empty-string-is-null/empty-string-is-null})
 
+(defmethod driver/display-name :oracle [_] "Oracle")
+
+(defmethod driver/connection-properties :oracle
+  [_]
+  (->>
+    [driver.common/default-host-details
+     (assoc driver.common/default-port-details :default 1521)
+     {:name  "sid"
+      :display-name "Oracle system ID (SID)"
+      :placeholder "Usually something like ORCL or XE. Optional if using service name"}
+     {:name "service-name"
+      :display-name  "Oracle service name"
+      :placeholder "Optional TNS alias"}
+     driver.common/default-user-details
+     driver.common/default-password-details
+     driver.common/cloud-ip-address-info
+     driver.common/default-ssl-details
+     {:name "ssl-use-keystore"
+      :display-name "Use SSL server certificate?"
+      :type :boolean
+      :visible-if {"ssl" true}}
+      {:name "ssl-keystore"
+       :display-name "Keystore"
+       :type :secret
+       :secret-kind :keystore
+       :placeholder "/path/to/keystore.jks"
+       :visible-if   {"ssl-use-keystore" true}}
+     {:name "ssl-keystore-password"
+      :display-name "Keystore password"
+      :type :secret
+      :secret-kind :password
+      :required false
+      :visible-if {"ssl-use-keystore" true}}
+     {:name "ssl-use-truststore"
+      :display-name "Use SSL truststore?"
+      :type :boolean
+      :visible-if {"ssl" true}}
+     {:name "ssl-truststore"
+      :display-name "Truststore"
+      :type :secret
+      :secret-kind :keystore
+      :placeholder "/path/to/truststore.jks"
+      :visible-if {"ssl-use-truststore" true}}
+     {:name "ssl-truststore-password"
+      :display-name "Truststore password"
+      :type :secret
+      :secret-kind :password
+      :required false
+      :visible-if {"ssl-use-truststore" true}}
+     driver.common/ssh-tunnel-preferences
+     driver.common/advanced-options-start
+     driver.common/default-advanced-options]
+    (map u/one-or-many)
+    (apply concat)))
+
 (def ^:private database-type->base-type
   (sql-jdbc.sync/pattern-based-database-type->base-type
    [;; Any types -- see http://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements001.htm#i107578

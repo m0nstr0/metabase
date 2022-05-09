@@ -9,6 +9,8 @@
             metabase.driver.h2
             metabase.driver.mysql
             metabase.driver.postgres
+            metabase.driver.mongo
+            metabase.driver.oracle
             [metabase.events :as events]
             [metabase.models.user :refer [User]]
             [metabase.plugins :as plugins]
@@ -26,7 +28,9 @@
   ;; Load up the drivers shipped as part of the main codebase, so they will show up in the list of available DB types
 (comment metabase.driver.h2/keep-me
          metabase.driver.mysql/keep-me
-         metabase.driver.postgres/keep-me)
+         metabase.driver.postgres/keep-me
+         metabase.driver.mongo/keep-me
+         metabase.driver.oracle/keep-me)
 
 ;; don't i18n this, it's legalese
 (log/info

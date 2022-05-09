@@ -32,6 +32,41 @@
 ;; integrations with Cheshire.
 (comment monger.json/keep-me)
 
+(defmethod driver/display-name :mongo [_] "Mongo")
+
+(defmethod driver/connection-properties :mongo
+  [_]
+  (->>
+    [driver.common/default-host-details
+     driver.common/default-dbname-details
+     {:name         "conn-uri"
+      :display-name "Paste your connection string"
+      :type         :string
+      :placeholder  "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[dbname][?options]]"
+      :required     true}
+     (assoc driver.common/default-port-details :default 27017)
+     (assoc driver.common/default-user-details :required false)
+     (assoc driver.common/default-password-details :required false)
+     {:name "authdb"
+      :display-name "Authentication database (optional)"
+      :placeholder "admin"}
+     driver.common/cloud-ip-address-info
+     driver.common/default-ssl-details
+     {:name "ssl-cert"
+      :type :string
+      :display-name "Server SSL certificate chain"
+      :visible-if {"ssl" true}}
+     driver.common/ssh-tunnel-preferences
+     driver.common/advanced-options-start
+     (assoc driver.common/additional-options :display-name "Additional connection string options (optional)" :placeholder "retryWrites=true&w=majority&authSource=admin&readPreference=nearest&replicaSet=test")
+     {:name "use-srv"
+      :type :boolean
+      :default false
+      :visible-if {"advanced-options", true}}
+     driver.common/default-advanced-options]
+    (map u/one-or-many)
+    (apply concat)))
+
 ;; JSON Encoding (etc.)
 
 ;; Encode BSON undefined like `nil`
@@ -42,18 +77,18 @@
                      (.writeUTF data-output (.toHexString oid)))
 
 (nippy/extend-thaw :mongodb/ObjectId
-  [data-input]
-  (ObjectId. (.readUTF data-input)))
+                   [data-input]
+                   (ObjectId. (.readUTF data-input)))
 
 (driver/register! :mongo)
 
 (defmethod driver/can-connect? :mongo
   [_ details]
   (with-mongo-connection [^DB conn, details]
-    (= (float (-> (cmd/db-stats conn)
-                  (m.conversion/from-db-object :keywordize)
-                  :ok))
-       1.0)))
+                         (= (float (-> (cmd/db-stats conn)
+                                       (m.conversion/from-db-object :keywordize)
+                                       :ok))
+                            1.0)))
 
 (defmethod driver/humanize-connection-error-message :mongo
   [_ message]
@@ -79,7 +114,7 @@
     #".*MongoSocketReadException: Prematurely reached end of stream.*"
     (driver.common/connection-error-messages :requires-ssl)
 
-    #".*"                               ; default
+    #".*"                                                   ; default
     message))
 
 
@@ -90,7 +125,7 @@
 (defmethod driver/sync-in-context :mongo
   [_ database do-sync-fn]
   (with-mongo-connection [_ database]
-    (do-sync-fn)))
+                         (do-sync-fn)))
 
 (defn- val->semantic-type [field-value]
   (cond
@@ -124,9 +159,9 @@
       (update :types (fn [types]
                        (update types (type field-value) u/safe-inc)))
       (update :semantic-types (fn [semantic-types]
-                               (if-let [st (val->semantic-type field-value)]
-                                 (update semantic-types st u/safe-inc)
-                                 semantic-types)))
+                                (if-let [st (val->semantic-type field-value)]
+                                  (update semantic-types st u/safe-inc)
+                                  semantic-types)))
       (update :nested-fields (fn [nested-fields]
                                (if (map? field-value)
                                  (find-nested-fields field-value nested-fields)
@@ -150,34 +185,34 @@
     (driver.common/class->base-type klass)))
 
 (defn- describe-table-field [field-kw field-info idx]
-  (let [most-common-object-type  (most-common-object-type (vec (:types field-info)))
+  (let [most-common-object-type (most-common-object-type (vec (:types field-info)))
         [nested-fields idx-next]
-          (reduce
-           (fn [[nested-fields idx] nested-field]
-             (let [[nested-field idx-next] (describe-table-field nested-field
-                                                                 (nested-field (:nested-fields field-info))
-                                                                 idx)]
-               [(conj nested-fields nested-field) idx-next]))
-           [#{} (inc idx)]
-           (keys (:nested-fields field-info)))]
+        (reduce
+          (fn [[nested-fields idx] nested-field]
+            (let [[nested-field idx-next] (describe-table-field nested-field
+                                                                (nested-field (:nested-fields field-info))
+                                                                idx)]
+              [(conj nested-fields nested-field) idx-next]))
+          [#{} (inc idx)]
+          (keys (:nested-fields field-info)))]
     [(cond-> {:name              (name field-kw)
               :database-type     (some-> most-common-object-type .getName)
               :base-type         (class->base-type most-common-object-type)
               :database-position idx}
-       (= :_id field-kw)           (assoc :pk? true)
-       (:semantic-types field-info) (assoc :semantic-type (->> (:semantic-types field-info)
-                                                             (filterv #(some? (first %)))
-                                                             (sort-by second)
-                                                             last
-                                                             first))
-       (:nested-fields field-info) (assoc :nested-fields nested-fields)) idx-next]))
+             (= :_id field-kw) (assoc :pk? true)
+             (:semantic-types field-info) (assoc :semantic-type (->> (:semantic-types field-info)
+                                                                     (filterv #(some? (first %)))
+                                                                     (sort-by second)
+                                                                     last
+                                                                     first))
+             (:nested-fields field-info) (assoc :nested-fields nested-fields)) idx-next]))
 
 (defmethod driver/describe-database :mongo
   [_ database]
   (with-mongo-connection [^com.mongodb.DB conn database]
-    {:tables  (set (for [collection (disj (mdb/get-collection-names conn) "system.indexes")]
-                    {:schema nil, :name collection}))
-     :version (get (mg/command conn {:buildInfo 1}) "version")}))
+                         {:tables  (set (for [collection (disj (mdb/get-collection-names conn) "system.indexes")]
+                                          {:schema nil, :name collection}))
+                          :version (get (mg/command conn {:buildInfo 1}) "version")}))
 
 (defn- table-sample-column-info
   "Sample the rows (i.e., documents) in `table` and return a map of information about the column keys we found in that
@@ -190,27 +225,27 @@
     (->> (mc/find-maps conn (:name table))
          (take metadata-queries/max-sample-rows)
          (reduce
-          (fn [field-defs row]
-            (loop [[k & more-keys] (keys row), fields field-defs]
-              (if-not k
-                fields
-                (recur more-keys (update fields k (partial update-field-attrs (k row)))))))
-          {}))
+           (fn [field-defs row]
+             (loop [[k & more-keys] (keys row), fields field-defs]
+               (if-not k
+                 fields
+                 (recur more-keys (update fields k (partial update-field-attrs (k row)))))))
+           {}))
     (catch Throwable t
       (log/error (format "Error introspecting collection: %s" (:name table)) t))))
 
 (defmethod driver/describe-table :mongo
   [_ database table]
   (with-mongo-connection [^com.mongodb.DB conn database]
-    (let [column-info (table-sample-column-info conn table)]
-      {:schema nil
-       :name   (:name table)
-       :fields (first
-                (reduce (fn [[fields idx] [field info]]
-                          (let [[described-field new-idx] (describe-table-field field info idx)]
-                            [(conj fields described-field) new-idx]))
-                        [#{} 0]
-                        column-info))})))
+                         (let [column-info (table-sample-column-info conn table)]
+                           {:schema nil
+                            :name   (:name table)
+                            :fields (first
+                                      (reduce (fn [[fields idx] [field info]]
+                                                (let [[described-field new-idx] (describe-table-field field info idx)]
+                                                  [(conj fields described-field) new-idx]))
+                                              [#{} 0]
+                                              column-info))})))
 
 (doseq [feature [:basic-aggregations
                  :nested-fields
@@ -231,7 +266,7 @@
 (defmethod driver/execute-reducible-query :mongo
   [_ query context respond]
   (with-mongo-connection [_ (qp.store/database)]
-    (execute/execute-reducible-query query context respond)))
+                         (execute/execute-reducible-query query context respond)))
 
 (defmethod driver/substitute-native-parameters :mongo
   [driver inner-query]
