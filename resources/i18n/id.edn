@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"Sedang melakukan sinkronisasi database"
+
+"Scanning for Filter Values"
+"Memindai untuk Nilai Filter"
+
+"When should Metabase automatically scan and cache field values?"
+"Kapan Metabase secara otomatis memindai dan meng-cache nilai lapangan?"
+
+"Other"
+"Lain"
+
+"Email"
+"Email"
+
+"{0} table"
+"Tabel {0}"
+
+"Password"
+"Kata sandi"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Anda memerlukan administrator untuk membuat akun metabase sebelum Anda dapat menggunakan Google untuk masuk."
+
+"Our analytics"
+"Analytics kami"
+
+"Unknown"
+"Tidak dikenal"
+
+"Count"
+"Menghitung"
+
+"number"
+"nomor"
+
+"Native query"
+"Kueri asli"
+
+"Today"
+"Hari ini"
+
+"Yesterday"
+"Kemarin"
+
+"Week"
+"Pekan"
+
+"Month"
+"Bulan"
+
+"Year"
+"Tahun"
+
+"Slack"
+"Kendur"
+
+"results"
+"HASIL"
+
+"Count of {0}"
+"Hitungan {0}"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"Hapus / API / Peringatan /: ID sudah usang. Sebagai gantinya, ubah nilai `diarsipkan` melalui put / API / Alert /: ID."
+
+"invalid show value"
+"Nilai Tampilkan Tidak Valid."
+
+"invalid value for prefix"
+"Nilai tidak valid untuk awalan"
+
+"invalid value for rule name"
+"Nilai Tidak Valid untuk Nama Aturan"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"Nilai tidak dapat diuraikan sebagai Base64 yang dikodekan JSON"
+
+"Invalid entity type"
+"Tipe Entitas Tidak Valid."
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"Jenis entitas perbandingan tidak valid. Hanya bisa menjadi salah satu \"tabel\", \"segmen\", atau \"adhoc\""
+
+"Error running query to determine Card result metadata:"
+"Kesalahan menjalankan kueri untuk menentukan metadata hasil kartu:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"Hapus / API / Kartu /: ID sudah usang. Sebagai gantinya, ubah nilai `diarsipkan` melalui put / API / kartu /: ID."
+
+"Invalid field: {0}"
+"Bidang Tidak Valid: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"Nilai tidak valid '' {0} '' untuk '' {1} '': {2}"
+
+"must be one of: {0}"
+"harus salah satu dari: {0}"
+
+"Invalid Request."
+"Permintaan tidak valid."
+
+"Not found."
+"Tidak ditemukan."
+
+"You don''t have permissions to do that."
+"Anda tidak memiliki izin untuk melakukan itu."
+
+"Internal server error."
+"Kesalahan server dari dalam."
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"PERINGATAN: endpoint {0} / {1} tidak memiliki docstring."
+
+"starting streaming request"
+"Mulai Permintaan Streaming"
+
+"connection closed, canceling request"
+"Koneksi Ditutup, Permintaan Membatalkan"
+
+"Response not ready, writing one byte & sleeping..."
+"Respons tidak siap, menulis satu byte & tidur ..."
+
+"Public sharing is not enabled."
+"Berbagi publik tidak diaktifkan."
+
+"Embedding is not enabled."
+"Embedding tidak diaktifkan."
+
+"The object has been archived."
+"Objek telah diarsipkan."
+
+"Source query for this query is Card {0}"
+"Kueri sumber untuk permintaan ini adalah kartu {0}"
+
+"Invalid export format: {0}"
+"Format ekspor tidak valid: {0}"
+
+"Invalid JSON URL or resource: {0}"
+"URL atau sumber daya JSON tidak valid: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON berisi informasi tentang file GeoJSON khusus untuk digunakan dalam visualisasi peta alih-alih status AS default atau Geojson dunia."
+
+"Invalid custom GeoJSON key: {0}"
+"Kunci Geojson kustom tidak valid: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"Hapus / API / PULSE /: ID sudah usang. Sebagai gantinya, ubah nilai `diarsipkan` melalui put / API / Pulse /: ID."
+
+"API endpoint does not exist."
+"Titik akhir API tidak ada."
+
+"Password did not match stored password."
+"Kata sandi tidak cocok dengan kata sandi yang tersimpan."
+
+"did not match stored password"
+"tidak cocok dengan kata sandi yang tersimpan"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"Masalah yang menghubungkan ke server LDAP, akan mundur ke otentikasi lokal {0}"
+
+"Invalid reset token"
+"Token Reset Tidak Valid."
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"Ketika diatur, izinkan pengguna untuk mendaftar sendiri jika alamat email akun Google mereka dari domain ini."
+
+"Email is not verified."
+"Email tidak terverifikasi."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Anda akan memerlukan administrator untuk membuat akun metabase sebelum Anda dapat menggunakan Google untuk masuk."
+
+"Add a database"
+"Tambahkan database"
+
+"Get connected"
+"Dapatkan terhubung"
+
+"Connect to your data so your whole team can start to explore."
+"Hubungkan ke data Anda sehingga seluruh tim Anda dapat mulai menjelajah."
+
+"Set up email"
+"Siapkan email"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"Tambahkan kredensial email sehingga Anda dapat lebih mudah mengundang anggota tim dan mendapatkan pembaruan melalui pulsa."
+
+"Set Slack credentials"
+"Atur kredensial kendur"
+
+"Invite team members"
+"Undang Anggota Tim"
+
+"Share answers and data with the rest of your team."
+"Bagikan jawaban dan data dengan sisa tim Anda."
+
+"Hide irrelevant tables"
+"Sembunyikan tabel yang tidak relevan."
+
+"Curate your data"
+"KATASKAN DATA ANDA"
+
+"If your data contains technical or irrelevant info you can hide it."
+"Jika data Anda mengandung info teknis atau tidak relevan, Anda dapat menyembunyikannya."
+
+"Organize questions"
+"Mengatur pertanyaan"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"Memiliki banyak pertanyaan yang disimpan di {0}? Buat koleksi untuk membantu mengelolanya dan menambah konteks."
+
+"Metabase"
+"Metabase."
+
+"Create metrics"
+"Buat Metrics."
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"Tentukan metrik kanonik untuk memudahkan tim Anda untuk mendapatkan jawaban yang benar."
+
+"Create segments"
+"Buat segmen"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"Simpan semua orang di halaman yang sama dengan membuat set canonical filter yang dapat digunakan siapa pun saat mengajukan pertanyaan."
+
+"Table ''{0}'' is now visible. Resyncing."
+"Tabel '' {0} '' sekarang terlihat. Sinkronisasi ulang."
+
+"Auto bin"
+"Auto Bin."
+
+"Don''t bin"
+"Jangan Bin"
+
+"Day"
+"Hari"
+
+"Minute"
+"Menit"
+
+"Hour"
+"Jam"
+
+"Quarter"
+"Perempat"
+
+"Minute of Hour"
+"Menit jam"
+
+"Hour of Day"
+"Jam sehari."
+
+"Day of Week"
+"Hari dalam seminggu"
+
+"Day of Month"
+"Hari bulan."
+
+"Day of Year"
+"Hari tahun"
+
+"Week of Year"
+"Minggu tahun"
+
+"Month of Year"
+"Bulan tahun"
+
+"Quarter of Year"
+"Seperempat tahun"
+
+"10 bins"
+"10 tempat sampah"
+
+"50 bins"
+"50 tempat sampah"
+
+"100 bins"
+"100 tempat sampah"
+
+"Bin every 0.1 degrees"
+"Bin setiap 0,1 derajat"
+
+"Bin every 1 degree"
+"Bin setiap 1 derajat"
+
+"Bin every 10 degrees"
+"Bin setiap 10 derajat"
+
+"Bin every 20 degrees"
+"Bin setiap 20 derajat"
+
+"No appropriate image writer found!"
+"Tidak ada penulis gambar yang sesuai!"
+
+"Email address already in use."
+"Alamat email sudah ada yang menggunakan."
+
+"Email address already associated to another user."
+"Alamat email sudah terkait dengan pengguna lain."
+
+"Not able to reactivate an active user"
+"Tidak dapat mengaktifkan kembali pengguna aktif"
+
+"Invalid password"
+"Kata sandi salah"
+
+"All {0}"
+"Semua {0}"
+
+"{0}, all {1}"
+"{0}, semua {1}"
+
+"Comparison of {0} and {1}"
+"Perbandingan {0} dan {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"Dashboard perbandingan yang dihasilkan secara otomatis membandingkan {0} dan {1}"
+
+"sum"
+"jumlah"
+
+"average"
+"rata-rata"
+
+"minumum"
+"Minumum."
+
+"maximum"
+"maksimum"
+
+"distinct count"
+"Hitungan yang berbeda"
+
+"standard deviation"
+"standar deviasi."
+
+"cumulative count"
+"jumlah kumulatif"
+
+"cumulative sum"
+"jumlah kumulatif"
+
+"{0} and {1}"
+"{0} dan {1}"
+
+"{0} of {1}"
+"{0} {1}"
+
+"{0} by {1}"
+"{0} oleh {1}"
+
+"{0} in the {1} segment"
+"{0} di segmen {1}"
+
+"{0} segment"
+"{0} segmen"
+
+"{0} metric"
+"{0} Metric"
+
+"{0} field"
+"{0} Bidang"
+
+"\"{0}\" question"
+"\"{0}\" pertanyaan"
+
+"Compare with {0}"
+"Bandingkan dengan {0}"
+
+"Compare with entire dataset"
+"Bandingkan dengan seluruh dataset"
+
+"Applying heuristic %s to %s."
+"Menerapkan% s heuristik ke% s."
+
+"Dimensions bindings:n%s"
+"Dimensi Binding: n% s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"Menggunakan definisi: nmetrics: n% snfilters: n% s"
+
+"Can''t create dashboard for {0}"
+"Tidak dapat membuat dasbor untuk {0}"
+
+"{0}st"
+"{0} st"
+
+"{0}nd"
+"{0} nd"
+
+"{0}rd"
+"{0} Rd"
+
+"{0}th"
+"{0} th"
+
+"at {0}"
+"di {0}"
+
+"on {0}"
+"pada {0}"
+
+"in {0} week - {1}"
+"dalam {0} minggu - {1}"
+
+"in {0}"
+"dalam {0}"
+
+"in Q{0} - {1}"
+"dalam q {0} - {1}"
+
+"Q{0}"
+"Q {0}"
+
+"{0} is {1}"
+"{0} adalah {1}"
+
+"{0} is between {1} and {2}"
+"{0} adalah antara {1} dan {2}"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0} adalah antara {1} dan {2}; dan {3} adalah antara {4} dan {5}"
+
+"where {0}"
+"dimana {0}"
+
+"A closer look at {0}"
+"Melihat lebih dekat pada {0}"
+
+"A closer look at the {0}"
+"Melihat lebih dekat pada {0}"
+
+"Adding %s cards to dashboard %s:n%s"
+"Menambahkan% S Kartu ke Dashboard% S: n% s"
+
+"0 <= score <= {0}"
+"0 <= skor <= {0}"
+
+"1 <= width <= {0}"
+"1 <= WIDTH <= {0}"
+
+"Valid metrics references"
+"Referensi metrik yang valid."
+
+"Valid filters references"
+"Filter yang valid Referensi"
+
+"Valid group references"
+"Referensi Grup yang valid"
+
+"Valid order_by references"
+"Referensi Orde_by yang valid"
+
+"Valid dashboard filters references"
+"Referensi Filter Dashboard yang valid"
+
+"Valid dimension references"
+"Referensi dimensi yang valid"
+
+"Valid card dimension references"
+"Referensi Dimensi Kartu Valid"
+
+"Error parsing %s:n%s"
+"Kesalahan parsing% s: n% s"
+
+"No user found with email address ''{0}''. "
+"Tidak ada pengguna yang ditemukan dengan alamat email '' {0} ''."
+
+"Please check the spelling and try again."
+"Silakan periksa ejaan dan coba lagi."
+
+"Resetting password for {0}..."
+"Menyetel ulang kata sandi untuk {0} ..."
+
+"OK [[[{0}]]]"
+"OK [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"GAGAL [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Silakan gunakan URL berikut untuk mengatur instalasi metabase Anda:"
+
+"Metabase Shutting Down ..."
+"Metabase Mematikan ..."
+
+"Metabase Shutdown COMPLETE"
+"Metabase Shutdown selesai"
+
+"Starting Metabase version {0} ..."
+"Memulai Versi Metabase {0} ..."
+
+"System timezone is ''{0}'' ..."
+"TimeZone sistem adalah '' {0} '' ..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Mengatur dan memigrasi metabase db. Silakan duduk kencang, ini mungkin membutuhkan waktu satu menit ..."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"Sepertinya ini adalah instalasi baru ... Menyiapkan Wisaya Pengaturan"
+
+"Metabase Initialization COMPLETE"
+"Inisialisasi metabase selesai"
+
+"Launching Embedded Jetty Webserver with config:"
+"Meluncurkan WebServer Jetty Tertanam dengan Config:"
+
+"Shutting Down Embedded Jetty Webserver"
+"Mematikan Webserver Jetty Tertanam"
+
+"Starting Metabase in STANDALONE mode"
+"Mulai Metabase dalam Mode Standalone"
+
+"Metabase Initialization FAILED"
+"Inisialisasi Metabase gagal"
+
+"Database has migration lock; cannot run migrations."
+"Database memiliki kunci migrasi; tidak dapat menjalankan migrasi."
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"Anda dapat memaksa-melepaskan kunci-kunci ini dengan menjalankan `java -jar metabase.jar memigrasi rilis-locks`."
+
+"Checking if Database has unrun migrations..."
+"Memeriksa apakah basis data memiliki migrasi unrun ..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"Basis data memiliki migrasi Belum Belum. Menunggu kunci migrasi untuk dibersihkan ..."
+
+"Migration lock is cleared. Running migrations..."
+"Kunci migrasi dihapus. Menjalankan migrasi ..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"Kunci migrasi dibersihkan, tetapi tidak ada hubungannya di sini! Migrasi selesai dengan contoh lain."
+
+"Setting up Liquibase..."
+"Menyiapkan Liquibase ..."
+
+"Liquibase is ready."
+"Livisibase sudah siap."
+
+"Verifying {0} Database Connection ..."
+"Memverifikasi {0} Koneksi database ..."
+
+"Verify Database Connection ... "
+"Verifikasi koneksi basis data ..."
+
+"Running Database Migrations..."
+"Menjalankan migrasi basis data ..."
+
+"Database Migrations Current ... "
+"Migrasi Database Saat Ini ..."
+
+"Hmm, we couldn''t connect to the database."
+"Hmm, kami tidak bisa terhubung ke database."
+
+"Make sure your host and port settings are correct"
+"Pastikan pengaturan host dan port Anda benar"
+
+"We couldn''t connect to the ssh tunnel host."
+"Kami tidak dapat terhubung ke Host Tunnel SSH."
+
+"Check the username, password."
+"Periksa nama pengguna, kata sandi."
+
+"Check the hostname and port."
+"Periksa nama host dan port."
+
+"Looks like the database name is incorrect."
+"Sepertinya nama database salah."
+
+"It looks like your host is invalid."
+"Sepertinya tuan rumah Anda tidak valid."
+
+"Please double-check it and try again."
+"Harap periksa ulang dan coba lagi."
+
+"Looks like your password is incorrect."
+"Sepertinya kata sandi Anda salah."
+
+"Looks like you forgot to enter your password."
+"Sepertinya Anda lupa memasukkan kata sandi Anda."
+
+"Looks like your username is incorrect."
+"Sepertinya nama pengguna Anda salah."
+
+"Looks like the username or password is incorrect."
+"Sepertinya nama pengguna atau kata sandi salah."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"Waktu koneksi untuk digunakan saat mengeksekusi kueri. Default ke timeZone sistem."
+
+"Registered driver {0} {1}"
+"Driver Terdaftar {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"No -init-driver Function ditemukan untuk '' {0} ''"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"Tidak dapat mengurai string tanggal '' {0} '' untuk mesin basis data '' {1} ''"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"Jangan tahu cara memetakan kelas '' {0} '' ke basis lapangan_type, jatuh kembali ke: Type / *."
+
+"Failed to connect to database: {0}"
+"Gagal terhubung ke basis data: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"Pengidentifikasi bigquery tidak valid: '' {0} ''"
+
+"BigQuery statements can't be parameterized!"
+"Pernyataan BigQuery tidak dapat diparameterisasi!"
+
+"Failed to set timezone:"
+"Gagal mengatur zona waktu:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"Menjalankan kueri SQL terhadap database H2 menggunakan default (admin) pengguna basis data dilarang."
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"Kesalahan: metabase.driver.fixedhivedriver didaftarkan, tetapi JDBC tampaknya tidak menggunakannya."
+
+"Found metabase.driver.FixedHiveDriver."
+"Ditemukan metabase.driver.fixedhivedriver."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"Berhasil terdaftar metabase.driver.fixedhivedriver dengan jdbc."
+
+"Email address you want to use as the sender of Metabase."
+"Alamat email yang ingin Anda gunakan sebagai pengirim metabase."
+
+"The address of the SMTP server that handles your emails."
+"Alamat server SMTP yang menangani email Anda."
+
+"SMTP username."
+"Nama pengguna SMTP."
+
+"SMTP password."
+"Kata sandi SMTP."
+
+"The port your SMTP server uses for outgoing emails."
+"Port Server SMTP Anda menggunakan email keluar."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"SMTP Secure Connection Protocol. (TLS, SSL, Starttls, atau tidak ada)"
+
+"none"
+"tidak ada"
+
+"SMTP host is not set."
+"Host SMTP tidak diatur."
+
+"Failed to send email"
+"Gagal mengirim email"
+
+"Error testing SMTP connection"
+"Tes Kesalahan Koneksi SMTP"
+
+"Enable LDAP authentication."
+"Aktifkan otentikasi LDAP."
+
+"Server hostname."
+"Nama host server."
+
+"Server port, usually 389 or 636 if SSL is used."
+"Port server, biasanya 389 atau 636 jika SSL digunakan."
+
+"Use SSL, TLS or plain text."
+"Gunakan SSL, TLS atau teks biasa."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"Nama terhormat untuk mengikat sebagai (jika ada), pengguna ini akan digunakan untuk mencari informasi tentang pengguna lain."
+
+"The password to bind with for the lookup user."
+"Kata sandi untuk mengikat untuk pengguna pencarian."
+
+"Search base for users. (Will be searched recursively)"
+"Cari basis untuk pengguna. (Akan dicari secara rekursif)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"Filter pencarian pengguna, placeholder '{login}' akan diganti oleh login yang disediakan pengguna."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Atribut untuk digunakan untuk email pengguna. (biasanya 'surat' ',' 'email' 'atau' 'userprincipalname' ')"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"Atribut untuk digunakan untuk nama depan pengguna. (biasanya 'diberikanName')"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"Atribut untuk digunakan untuk nama belakang pengguna. (biasanya '' sn '')"
+
+"Enable group membership synchronization with LDAP."
+"Aktifkan sinkronisasi keanggotaan grup dengan LDAP."
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"Cari dasar untuk grup, tidak diperlukan jika direktori LDAP Anda menyediakan overlay '' anggota ''. (Akan dicari secara rekursif)"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON berisi LDAP ke Metabase Grup Pemetaan."
+
+"Here''s what I can {0}:"
+"Ini yang saya bisa {0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"Saya tidak tahu bagaimana {0} `{1}` .n {2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"Di sini {0} Anda kartu terbaru: n {1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"Bisakah Anda menjadi sedikit lebih spesifik? Saya menemukan kartu-kartu ini dengan nama yang cocok: n {0}"
+
+"Not Found"
+"Tidak ditemukan"
+
+"Go home websocket, you're drunk."
+"Go Home Webset, Anda mabuk."
+
+"Base-64 encoded public key for this site's SSL certificate."
+"DASAR-64 Kunci publik yang dikodekan untuk sertifikat SSL situs ini."
+
+"Specify this to enable HTTP Public Key Pinning."
+"Tentukan ini untuk mengaktifkan pinning kunci publik HTTP."
+
+"See {0} for more information."
+"Lihat {0} untuk informasi lebih lanjut."
+
+"Cannot save Question: source query has circular references."
+"Tidak dapat menyimpan pertanyaan: Permintaan sumber memiliki referensi melingkar."
+
+"Card {0} does not exist."
+"Kartu {0} tidak ada."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"Anda tidak memiliki izin untuk menjalankan kueri asli ad-hoc terhadap basis data {0}."
+
+"Invalid color"
+"Warna tidak valid."
+
+"must be a valid 6-character hex color code"
+"harus menjadi kode warna hex 6 karakter yang valid"
+
+"Collection name cannot be blank!"
+"Nama koleksi tidak bisa kosong!"
+
+"cannot be blank"
+"tidak bisa kosong"
+
+"Invalid Collection location: path is invalid."
+"Lokasi pengumpulan tidak valid: Path tidak valid."
+
+"You cannot move a Personal Collection."
+"Anda tidak dapat memindahkan koleksi pribadi."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"Lokasi pengumpulan tidak valid: beberapa atau semua leluhur tidak ada."
+
+"You cannot archive the Root Collection."
+"Anda tidak dapat mengarsipkan koleksi root."
+
+"You cannot archive a Personal Collection."
+"Anda tidak dapat mengarsipkan koleksi pribadi."
+
+"You cannot move the Root Collection."
+"Anda tidak dapat memindahkan koleksi root."
+
+"You cannot move a Collection into itself or into one of its descendants."
+"Anda tidak dapat memindahkan koleksi ke dalam dirinya sendiri atau menjadi salah satu keturunannya."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"Koleksi bergerak {0} dan keturunannya dari {1} ke {2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"Anda tidak diizinkan mengubah pemilik koleksi pribadi."
+
+"You're not allowed to move a Personal Collection."
+"Anda tidak diizinkan memindahkan koleksi pribadi."
+
+"You cannot move a Collection and archive it at the same time."
+"Anda tidak dapat memindahkan koleksi dan mengarsipkannya pada saat yang sama."
+
+"You cannot delete a Personal Collection!"
+"Anda tidak dapat menghapus koleksi pribadi!"
+
+"{0} {1}''s Personal Collection"
+"{0} {1} 'koleksi pribadi"
+
+"You cannot update a CollectionRevision!"
+"Anda tidak dapat memperbarui pengumpulan!"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"Field {0} sebelumnya secara otomatis diatur untuk menampilkan daftar widget, tetapi sekarang memiliki nilai {1}."
+
+"Switching Field to use a search widget instead."
+"Switching field untuk menggunakan widget pencarian."
+
+"Storing updated FieldValues for Field {0}..."
+"Menyimpan ViidValue yang diperbarui untuk bidang {0} ..."
+
+"Storing FieldValues for Field {0}..."
+"Menyimpan VAIDVALUES untuk bidang {0} ..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase dapat mencoba mengubah tabel dan nama bidang Anda menjadi versi yang lebih masuk akal, dapat dibaca manusia, mis. \"Somehorblename\" menjadi \"beberapa nama yang mengerikan\"."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"Ini tidak berhasil dengan baik jika nama-nama itu dalam bahasa selain bahasa Inggris."
+
+"Do you want us to take a guess?"
+"Apakah Anda ingin kami menebak?"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"Anda tidak dapat membuat atau mencabut izin untuk grup 'Admin'."
+
+"Invalid permissions object path: ''{0}''."
+"Jalur objek izin tidak valid: '' {0} ''."
+
+"You cannot update a permissions entry!"
+"Anda tidak dapat memperbarui izin izin!"
+
+"Delete it and create a new one."
+"Hapus dan buat yang baru."
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"Anda tidak dapat mengedit izin untuk koleksi pribadi atau keturunannya."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"Sepertinya orang lain mengedit izin dan data Anda ketinggalan zaman."
+
+"Please fetch new data and try again."
+"Silakan ambil data baru dan coba lagi."
+
+"A group with that name already exists."
+"Sebuah kelompok dengan nama itu sudah ada."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"Anda tidak dapat mengedit atau menghapus '' {0} '' grup izin!"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"Anda tidak dapat menambah atau menghapus pengguna ke / dari grup 'Metabot'."
+
+"You cannot add or remove users to/from the 'All Users' group."
+"Anda tidak dapat menambah atau menghapus pengguna ke / dari grup 'Semua Pengguna'."
+
+"You cannot remove the last member of the 'Admin' group!"
+"Anda tidak dapat menghapus anggota terakhir dari grup 'Admin'!"
+
+"You cannot update a PermissionsRevision!"
+"Anda tidak dapat memperbarui izin izin!"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"Peringatan tidak valid: peringatan tidak memiliki kartu asso ..."
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"Nilai harus berupa peta dengan tombol `{0}`, `{1}`, dan `{2}`."
+
+"value must be a map with the following keys `({0})`"
+"Nilai harus berupa peta dengan tombol berikut `({0})`"
+
+"Error calculating permissions for query: {0}"
+"Kesalahan menghitung izin untuk kueri: {0}"
+
+"Invalid query type: {0}"
+"Jenis kueri tidak valid: {0}"
+
+"You cannot update a QueryExecution!"
+"Anda tidak dapat memperbarui queryExecution!"
+
+"You cannot update a Revision!"
+"Anda tidak dapat memperbarui revisi!"
+
+"Updating value of settings-last-updated in DB..."
+"Memperbarui nilai pengaturan-terakhir-diperbarui dalam db ..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"Memeriksa apakah pengaturan cache sudah ketinggalan zaman (memerlukan panggilan DB) ..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"Pengaturan telah diubah pada contoh lain, dan akan dimuat ulang di sini."
+
+"Refreshing Settings cache..."
+"Pengaturan menyegarkan cache ..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"Nilai string tidak valid: harus \"benar\" atau \"salah\" (case-insensitive)."
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"Anda tidak dapat memperbarui `Pengaturan-Last-Diperbarui` sendiri! Ini dilakukan secara otomatis."
+
+"Error inserting a new Setting:"
+"Kesalahan memasukkan pengaturan baru:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"Dengan asumsi pengaturan sudah ada di DB dan memperbarui nilai yang ada."
+
+"value must be a map with each value either a string or number."
+"Nilai harus berupa peta dengan setiap nilai baik string atau angka."
+
+"Loading plugins in directory {0}..."
+"Memuat plugin dalam direktori {0} ..."
+
+"Loading plugin {0}... "
+"Memuat plugin {0} ..."
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Sepertinya Anda memiliki beberapa dependensi eksternal di direktori Metabase Plugins Anda."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"Dengan Java 9 atau lebih tinggi, Metabase tidak dapat secara otomatis menambahkannya ke Classpath Anda."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"Sebaliknya, Anda harus memasukkannya saat diluncurkan dengan opsi -CP. Sebagai contoh:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"Lihat https://metabase.com/docs/latest/operations-guide/start.html#java-versions untuk lebih jelasnya."
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(Jika Anda sudah menjalankan metabase dengan cara ini, Anda dapat mengabaikan pesan ini.)"
+
+"Identify when new versions of Metabase are available."
+"Identifikasi kapan versi baru metabase tersedia."
+
+"Information about available versions of Metabase."
+"Informasi tentang versi metabase yang tersedia."
+
+"The name used for this instance of Metabase."
+"Nama yang digunakan untuk instance metabase ini."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"URL dasar instance metabase ini, mis. \"http://metabase.my-company.com\"."
+
+"The default language for this Metabase instance."
+"Bahasa default untuk contoh metabase ini."
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"Ini hanya berlaku untuk email, pulsa, dll. Browser pengguna akan menentukan bahasa yang digunakan dalam antarmuka pengguna."
+
+"The email address users should be referred to if they encounter a problem."
+"Pengguna alamat email harus dirujuk jika mereka mengalami masalah."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Aktifkan pengumpulan data penggunaan anonim untuk membantu metabase membaik."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"Templat Url Server Peta yang digunakan dalam visualisasi peta, misalnya dari OpenStreetMaps atau Mapbox."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"Aktifkan admin untuk membuat tautan yang dapat dilihat secara publik (dan iframes empedabable) untuk pertanyaan dan dasbor?"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"Izinkan admin untuk menyematkan pertanyaan dan dasbor dengan aman dalam aplikasi lain?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"Mengaktifkan caching akan menghemat hasil kueri yang membutuhkan waktu lama untuk dijalankan."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"Ukuran maksimum cache, per pertanyaan yang disimpan, dalam kilobyte:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"Waktu maksimum absolut untuk menjaga hasil query cache, dalam hitungan detik."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase akan menyimpan semua pertanyaan yang disimpan dengan waktu eksekusi query rata-rata lebih lama dari detik ini:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"Untuk menentukan berapa lama setiap hasil yang disimpan oleh hasil yang disimpan harus menempel, kami mengambil waktu eksekusi rata-rata kueri dan berlipat ganda dengan apa pun yang Anda masukkan di sini."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"Jadi jika kueri membutuhkan rata-rata 2 menit untuk dijalankan, dan Anda memasukkan 10 untuk pengganda Anda, entri cache akan bertahan selama 20 menit."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"Saat menggunakan strategi binning default dan sejumlah tempat sampah tidak disediakan, angka ini akan digunakan sebagai default."
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"Saat menggunakan strategi binning default untuk bidang koordinat tipe (seperti garis lintang dan bujur), angka ini akan digunakan sebagai lebar nampan default (dalam derajat)."
+
+"Unable to validate token."
+"Tidak dapat memvalidasi token."
+
+"Error fetching token status:"
+"Kesalahan mengambil status token:"
+
+"There was an error checking whether this token was valid."
+"Ada kesalahan memeriksa apakah token ini valid."
+
+"Token validation timed out."
+"Token validasi habis."
+
+"Invalid token: token isn't in the right format."
+"Token tidak valid: Token tidak dalam format yang benar."
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"Memeriksa dengan metastore untuk melihat apakah {0} Apakah valid ..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"Token untuk embedding premium. Pergi ke metastore untuk mendapatkan milikmu!"
+
+"Token is valid."
+"Token valid."
+
+"Error setting premium embedding token"
+"Pengaturan Kesalahan Token Embedding Premium"
+
+"Unable to compare results to goal for alert."
+"Tidak dapat membandingkan hasil dengan tujuan untuk peringatan."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"ID Pertanyaan adalah '' {0} '' dengan pengaturan visualisasi '' {1} ''"
+
+"Unrecognized alert with condition ''{0}''"
+"Peringatan yang tidak dikenal dengan kondisi '' {0} ''"
+
+"Unrecognized channel type {0}"
+"Jenis saluran yang tidak dikenal {0}"
+
+"Error sending notification!"
+"Kesalahan Mengirim Pemberitahuan!"
+
+"Can't find JS color selector at ''{0}''"
+"Tidak dapat menemukan pemilih warna JS di '' {0} ''"
+
+"Card has errors: {0}"
+"Kartu memiliki kesalahan: {0}"
+
+"Pulse card render error"
+"Kesalahan Render Kartu Pulse"
+
+"Trimming trailing comment from card with id {0}"
+"Pemangkasan trailing komentar dari kartu dengan ID {0}"
+
+"Can't find field with ID: {0}"
+"Tidak dapat menemukan bidang dengan ID: {0}"
+
+"''{0}'' is a required param."
+"'' {0} '' adalah param yang diperlukan."
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"Ditemukan '' {0} '' tanpa berakhir '' {1} '' dalam kueri '' {2} ''"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"Tidak dapat mengganti '' {0} '': param tidak ditentukan.nfound: {1}"
+
+"You do not have permissions to view Card {0}."
+"Anda tidak memiliki izin untuk melihat kartu {0}."
+
+"You do not have permissions to run this query."
+"Anda tidak memiliki izin untuk menjalankan kueri ini."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"Pembaruan sidik jari dicoba {0}, diperbarui {1}, tidak ada data yang ditemukan {2}, gagal {3}"
+
+"Total number of fields classified {0}, {1} failed"
+"Jumlah total bidang yang diklasifikasikan {0}, {1} Gagal"
+
+"Total number of tables classified {0}, {1} updated"
+"Jumlah total tabel yang diklasifikasikan {0}, {1} Diperbarui"
+
+"Error generating fingerprint for {0}"
+"Kesalahan menghasilkan sidik jari untuk {0}"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"Diperbarui {0} set nilai bidang, dibuat {1}, dihapus {2} dengan kesalahan {3}"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"Jumlah total sinkronisasi bidang {0}, jumlah bidang yang diperbarui {1}"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"Total jumlah tabel sinkron''d {0}, jumlah tabel yang diperbarui {1}"
+
+"Found timezone id {0}"
+"Ditemukan ID Timezone {0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"Jumlah total sinkronisasi kunci asing'd {0}, {1} diperbarui dan {2} tables gagal memperbarui"
+
+"{0} Database {1} ''{2}''"
+"{0} basis data {1} '' {2} ''"
+
+"Table {0} ''{1}''"
+"Tabel {0} '' {1} ''"
+
+"Field {0} ''{1}''"
+"Bidang {0} '' {1} '' '"
+
+"Field ''{0}''"
+"Bidang '' {0} ''"
+
+"step ''{0}'' for {1}"
+"Langkah '' {0} '' untuk {1}"
+
+"Completed {0} on {1}"
+"Selesai {0} pada {1}"
+
+"Start: {0}"
+"Mulai: {0}"
+
+"End: {0}"
+"Akhir: {0}"
+
+"Duration: {0}"
+"Durasi: {0}"
+
+"Completed step ''{0}''"
+"Langkah selesai '' {0} ''"
+
+"Loading tasks namespace:"
+"Memuat tugas namespace:"
+
+"Starting Quartz Scheduler"
+"Memulai penjadwal kuarsa"
+
+"Stopping Quartz Scheduler"
+"Menghentikan penjadwal kuarsa"
+
+"Job already exists:"
+"Pekerjaan sudah ada:"
+
+"Loading Metabase..."
+"Memuat Metabase ..."
+
+"Possible timezone conflict found on database {0}."
+"Kemungkinan konflik zona waktu ditemukan pada basis data {0}."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"JVM Timezone adalah {0} dan database database yang terdeteksi adalah {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"Konfigurasikan waktu laporan laporan untuk memastikan konversi tanggal dan waktu yang tepat."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"Kunci rahasia digunakan untuk menandatangani Token Web JSON untuk permintaan ke titik akhir `/ API / EMBED`."
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_encrytiption_secret_key harus minimal 16 karakter."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"Enkripsi kredensial yang disimpan diaktifkan untuk instance metabase ini."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"Enkripsi kredensial yang disimpan dinonaktifkan untuk instance metabase ini."
+
+"nFor more information, see"
+"nolah informasi lebih lanjut, lihat"
+
+"value must be an integer."
+"Nilai harus berupa bilangan bulat."
+
+"value must be a string."
+"Nilai harus berupa string."
+
+"value must be a boolean."
+"Nilai harus boolean."
+
+"value must be a string that matches the regex `{0}`."
+"Nilai harus berupa string yang cocok dengan regex `{0}`."
+
+"value must satisfy one of the following requirements: "
+"Nilai harus memenuhi salah satu persyaratan berikut:"
+
+"value may be nil, or if non-nil, {0}"
+"Nilai mungkin nol, atau jika non-nil, {0}"
+
+"value must be one of: {0}."
+"Nilai harus salah satu dari: {0}."
+
+"value must be an array."
+"Nilai harus berupa array."
+
+"Each {0}"
+"Masing-masing {0}"
+
+"The array cannot be empty."
+"Array tidak boleh kosong."
+
+"value must be a non-blank string."
+"Nilai harus berupa string yang tidak kosong."
+
+"Integer greater than zero"
+"Integer lebih besar dari nol"
+
+"value must be an integer greater than zero."
+"Nilai harus berupa integer lebih besar dari nol."
+
+"Number greater than zero"
+"Angka lebih besar dari nol"
+
+"value must be a number greater than zero."
+"Nilai harus berupa angka yang lebih besar dari nol."
+
+"Keyword or string"
+"Kata kunci atau string."
+
+"Valid field type"
+"Jenis bidang yang valid."
+
+"value must be a valid field type."
+"Nilai harus berupa jenis bidang yang valid."
+
+"Valid field type (keyword or string)"
+"Jenis bidang yang valid (kata kunci atau string)"
+
+"value must be a valid field type (keyword or string)."
+"Nilai harus berupa jenis bidang yang valid (kata kunci atau string)."
+
+"Valid entity type (keyword or string)"
+"Jenis entitas yang valid (kata kunci atau string)"
+
+"value must be a valid entity type (keyword or string)."
+"Nilai harus berupa jenis entitas yang valid (kata kunci atau string)."
+
+"Valid map"
+"Peta yang valid."
+
+"value must be a map."
+"Nilai harus berupa peta."
+
+"Valid email address"
+"Alamat email yang sah"
+
+"value must be a valid email address."
+"Nilai harus berupa alamat email yang valid."
+
+"Insufficient password strength"
+"Kekuatan kata sandi yang tidak memadai"
+
+"value must be a valid integer."
+"Nilai harus berupa integer yang valid."
+
+"value must be a valid integer greater than zero."
+"Nilai harus berupa integer yang valid lebih besar dari nol."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"Nilai harus berupa string boolean yang valid ('' benar '' atau '' salah '')."
+
+"value must be a valid JSON string."
+"Nilai harus berupa string JSON yang valid."
+
+"value must be a valid embedding params map."
+"Nilai harus berupa peta params embedding yang valid."
+
+"No results"
+"Tidak ada hasil"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"Instance pemindahan {0} yang tidak dalam koleksi ke {1} koleksi {2}"
+
+"Failed to grant permissions: {0}"
+"Gagal memberikan izin: {0}"
+
+"Host"
+"Tuan rumah"
+
+"Port"
+"Pelabuhan"
+
+"Database username"
+"Nama Pengguna Database"
+
+"Database password"
+"Kata sandi basis data"
+
+"Database name"
+"Nama basis data"
+
+"birds_of_the_world"
+"Birds_Of_the_world."
+
+"Additional JDBC connection string options"
+"Opsi string koneksi JDBC tambahan"
+
+"praxis-beacon-120871"
+"Praxis-Beacon-120871"
+
+"toucanSightings"
+"ToucansieSt"
+
+"Hosts"
+"Host."
+
+"Broker node port"
+"Broker node port."
+
+"Google Analytics Account ID"
+"ID Akun Google Analytics"
+
+"Connection String"
+"String koneksi"
+
+"Users/camsaul/bird_sightings/toucans"
+"Pengguna / Camsaul / Bird_sighings / Toucans"
+
+"carrierPigeonDeliveries"
+"carrierpigeondellivery."
+
+"Authentication Database"
+"Database otentikasi"
+
+"Optional database to use when authenticating"
+"Basis data opsional untuk digunakan saat mengautentikasi"
+
+"Additional Mongo connection string options"
+"Opsi String Koneksi Mongo Tambahan"
+
+"Oracle system ID (SID)"
+"Oracle System ID (SID)"
+
+"Usually something like ORCL or XE."
+"Biasanya sesuatu seperti orcl atau xe."
+
+"Optional if using service name"
+"Opsional jika menggunakan nama layanan"
+
+"Oracle service name"
+"Nama Layanan Oracle"
+
+"Optional TNS alias"
+"Opsional TNS alias."
+
+"hive"
+"sarang lebah"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-ast-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"Toucan_Sightings."
+
+"default"
+"bawaan"
+
+"Filename"
+"Nama file"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sighings.sqlite 😋."
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"nama instance Database"
+
+"N/A"
+"N/A"
+
+"Windows domain"
+"domain Windows"
+
+"Unable to release the Liquibase lock after a migration failure"
+"Tidak dapat melepaskan kunci livisibase setelah kegagalan migrasi"
+
+"Use JVM Time Zone"
+"Gunakan zona waktu JVM"
+
+"Not a valid integer: ''{0}''"
+"Bukan integer yang valid: '' {0} ''"
+
+"Embedding is not enabled for this object."
+"Embedding tidak diaktifkan untuk objek ini."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"Masalah yang menghubungkan ke server LDAP, akan mundur ke otentikasi lokal: {0}"
+
+"When including an offset, a limit must also be included."
+"Saat memasukkan offset, batas juga harus dimasukkan."
+
+"When including a limit, an offset must also be included."
+"Saat memasukkan batas, offset juga harus dimasukkan."
+
+"Applying heuristic {0} to {1}."
+"Menerapkan heuristik {0} ke {1}."
+
+"Dimensions bindings:n{0}"
+"Dimensi Binding: n {0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"Menggunakan definisi: nmetrics: n {0} nfilters: n {1}"
+
+"minute"
+"menit"
+
+"hour"
+"jam"
+
+"day of week"
+"hari dalam seminggu"
+
+"day of month"
+"hari bulan."
+
+"day of year"
+"hari tahun"
+
+"week"
+"pekan"
+
+"month"
+"bulan"
+
+"quarter"
+"perempat"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"Menambahkan {0} kartu ke dasbor {1}: n {2}"
+
+"Error parsing {0}:n{1}"
+"Error parsing {0}: n {1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"Peringatan: Filtering hanya berfungsi pada dimensi! '' {0} '' adalah metrik. Mengabaikan filter."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"Peringatan: Tanggal tidak dapat termasuk dalam beberapa interval diskrit, sehingga dan mereka bersama tidak masuk akal."
+
+"Ignoring these intervals: {0}"
+"Mengabaikan interval ini: {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"PERINGATAN: Tidak tahu cara meniadakan: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"Peringatan: Druid Doenst memungkinkan limitspec dalam pertanyaan Timesery. Mengabaikan klausa batas."
+
+"HoneySQL Form:"
+"Formulir HONEYSQL:"
+
+"Unable to parse date ''{0}''"
+"Tidak dapat mengurai tanggal '' {0} ''"
+
+"Client closed connection, cancelling query"
+"Koneksi tertutup Klien, Membatalkan Kueri"
+
+"Setting timezone with statement: {0}"
+"Pengaturan zona waktu dengan pernyataan: {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"Pipa Agregasi Mongo:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"GALAT: Kolom tidak cocok dalam hasil! Diharapkan: {0} GOT: {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"Tidak dapat membuat file temp di `{0}` untuk lampiran email"
+
+"Error preprocessing query:"
+"Kueri Preprocessing Kesalahan:"
+
+"Illegal filter clause: {0}"
+"Klausa filter ilegal: {0}"
+
+"Invalid clause:"
+"Klausul tidak valid:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Kesalahan: Permintaan sumber kueri belum terselesaikan. Anda mungkin perlu `preprocess` kueri terlebih dahulu."
+
+"No expression named ''{0}''"
+"Tidak ada ekspresi bernama '' {0} ''"
+
+"No aggregation at index: {0}"
+"Tidak ada agregasi pada indeks: {0}"
+
+"Field values total length is {0} (max {1})."
+"Nilai bidang Total panjang adalah {0} (maks {1})."
+
+"FieldValues are allowed for this Field."
+"Value Field diperbolehkan untuk bidang ini."
+
+"FieldValues are NOT allowed for this Field."
+"Value Field tidak diizinkan untuk bidang ini."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"Bidang {0} '' {1} '' harus memiliki nilai Field dan termasuk dalam basis data dengan nilai lapangan yang sesuai permintaan."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"Anda tidak dapat membuat atau mencabut izin untuk grup '' admin ''."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"Anda tidak dapat menambah atau menghapus pengguna ke / dari grup '' semua pengguna '."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"Anda tidak dapat menghapus anggota terakhir dari grup '' admin '!"
+
+"Error inserting a new Setting: {0}"
+"Kesalahan memasukkan pengaturan baru: {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"Deskripsi Defsetting String harus `: internal?` atau internasionalisasi, ditemukan: `{0}`"
+
+"Loading plugin {0}... {1}"
+"Memuat plugin {0} ... {1}"
+
+"Object keyed by type, containing formatting settings"
+"Objek dikunci berdasarkan jenis, berisi pengaturan pemformatan"
+
+"Allow users to explore data using X-rays"
+"Izinkan pengguna untuk mengeksplorasi data menggunakan x-rays"
+
+"Unable to validate token: 404 not found."
+"Tidak dapat memvalidasi token: 404 tidak ditemukan."
+
+"There was an error checking whether this token was valid:"
+"Ada kesalahan memeriksa apakah token ini valid:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"Token untuk fitur premium. Pergi ke metastore untuk mendapatkan milikmu!"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"Format token tidak valid. Token harus 64 karakter heksadesimal."
+
+"Error setting premium features token"
+"Pengaturan Kesalahan Fitur Premium Token"
+
+"Error validating token:"
+"Token Validasi Kesalahan:"
+
+"Error preprocessing query"
+"Kesalahan Preprocessing Query."
+
+"No native form returned."
+"Tidak ada formulir asli yang dikembalikan."
+
+"Invalid response from database driver. No :status provided."
+"Tanggapan tidak valid dari driver basis data. Tidak: Status disediakan."
+
+"General error"
+"Kesalahan umum"
+
+"Missing query hash!"
+"Hash kueri yang hilang!"
+
+"Table ''{0}'' has no Fields associated with it."
+"Tabel '' {0} '' tidak memiliki bidang yang terkait dengannya."
+
+"Max concurrent query limit reached"
+"Batas permintaan MAX Concurrent tercapai"
+
+"Don't know how to get information about Field:"
+"Tidak tahu cara mendapatkan informasi tentang bidang:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.Query-Processor.interface / * driver * tidak terikat."
+
+"Query processor error: mismatched number of columns in query and results."
+"Kesalahan prosesor kueri: Jumlah kolom yang tidak cocok dalam kueri dan hasil."
+
+"Expected {0} fields, got {1}"
+"Diharapkan {0} Fields, dapatkan {1}"
+
+"Expected: {0}"
+"Diharapkan: {0}"
+
+"Actual: {0}"
+"Sebenarnya: {0}"
+
+"Unable to bin Field without a min/max value"
+"Tidak dapat membeli bidang tanpa nilai min / maks"
+
+"{0} is not supported by this driver."
+"{0} tidak didukung oleh driver ini."
+
+"Segment {0} does not exist, or is invalid."
+"Segmen {0} tidak ada, atau tidak valid."
+
+"Metric {0} does not exist, or is invalid."
+"Metric {0} tidak ada, atau tidak valid."
+
+"Missing source query in Card {0}"
+"Kueri sumber yang hilang dalam kartu {0}"
+
+"Fetched source query from Card {0}:"
+"Permintaan sumber yang diambil dari kartu {0}:"
+
+"Error transforming MBQL query to native:"
+"Kesalahan mengubah kueri MBQL ke asli:"
+
+"Cannot run query: could not find source table {0}."
+"Tidak dapat menjalankan kueri: Tidak dapat menemukan tabel sumber {0}."
+
+"Error recording results metadata for query:"
+"Kesalahan Rekaman Hasil Metadata untuk Kueri:"
+
+"Error: Query Processor store is not initialized."
+"GALAT: Toko prosesor kueri tidak diinisialisasi."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"GALAT: Tabel {0} tidak ada di toko prosesor kueri."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"GALAT: Field {0} tidak ada di toko prosesor kueri."
+
+"Task history cleanup successful, rows were {0}deleted"
+"Pembersihan Sejarah Tugas berhasil, barisnya {0} Dihapus"
+
+"not"
+"bukan"
+
+"For more information, see"
+"Untuk informasi lebih lanjut, lihat"
+
+"Integer greater than or equal to zero"
+"Integer lebih besar dari atau sama dengan nol"
+
+"value must be an integer greater than or equal to zero."
+"Nilai harus berupa integer lebih besar dari atau sama dengan nol."
+
+"value must be an integer zero or greater."
+"Nilai harus berupa nol bilangan bulat atau lebih besar."
+
+"value must be a valid integer greater than or equal to zero."
+"Nilai harus berupa integer yang valid lebih besar dari atau sama dengan nol."
+
+"Unable to parse resource `{0}` as JSON"
+"Tidak dapat menguraikan sumber daya `{0}` sebagai json"
+
+"Unable to find JSON via relative path `{0}`"
+"Tidak dapat menemukan JSON melalui jalur relatif `{0}`"
+
+"Connection to host timed out for URL `{0}`"
+"Koneksi ke host waktu habis untuk url `{0}`"
+
+"Unable to connect to unknown host at URL `{0}`"
+"Tidak dapat terhubung ke host yang tidak dikenal di URL `{0}`"
+
+"Unable to connect to host at URL `{0}`"
+"Tidak dapat terhubung ke host di URL `{0}`"
+
+"Connection refused by host at for URL `{0}`"
+"Koneksi ditolak oleh host di untuk URL `{0}`"
+
+"Unable to retrieve resource at URL `{0}`"
+"Tidak dapat mengambil sumber daya di URL `{0}`"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"Tidak dapat menguraikan sumber daya di URL `{0}` sebagai JSON"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"Masalah yang menghubungkan ke server LDAP, akan kembali ke otentikasi lokal: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"Pernyataan BigQuery tidak dapat diparameterisasi!"
+
+"We’d love your feedback."
+"Kami akan menyukai umpan balik Anda."
+
+"It looks like Metabase wasn’t quite a match for you."
+"Sepertinya Metabase tidak cocok untukmu."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Maukah Anda mengambil survei pertunjukan 5 cepat untuk membantu tim metabase memahami mengapa dan membuat segalanya lebih baik di masa depan?"
+
+"We hope you''ve been enjoying Metabase."
+"Kami harap Anda menikmati Metabase."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"Maukah Anda mengambil survei fast 6 pertanyaan untuk memberi tahu kami bagaimana itu terjadi?"
+
+"{0} created a Metabase account"
+"{0} Membuat akun metabase"
+
+"{0} accepted their Metabase invite"
+"{0} menerima undangan metabase mereka"
+
+"[Metabase] Password Reset Request"
+"[Metabase] Permintaan Reset Kata Sandi"
+
+"[Metabase] Notification"
+"Pemberitahuan [Metabase]"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] membantu membuat metabase lebih baik."
+
+"[Metabase] Tell us how things are going."
+"[Metabase] beri tahu kami bagaimana keadaannya."
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"Kesalahan: Permintaan sumber kueri belum terselesaikan. Anda mungkin perlu `preprocess` kueri terlebih dahulu."
+
+"Don't know what to do with:"
+"Tidak tahu apa yang harus dilakukan dengan:"
+
+"Don't know how to wrap:"
+"Tidak tahu cara membungkus:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"Gagal pengaturan `query-caching-max-kb` ke {0}."
+
+"Values greater than {1} are not allowed."
+"Nilai lebih besar dari {1} tidak diizinkan."
+
+"Database {0} does not exist."
+"Basis data {0} tidak ada."
+
+"Error: Database is not present in the Query Processor Store."
+"GALAT: Basis data tidak ada di toko prosesor kueri."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"Kunci embedding-rahasia tidak valid! Kunci rahasia harus menjadi kunci 256-bit yang dikodekan heksadesimal (I.E., string 64 karakter)."
+
+"JWT is missing `alg`."
+"JWT tidak ada `alg`."
+
+"JWT `alg` cannot be `none`."
+"Jwt `alg` tidak bisa` none`."
+
+"The embedding secret key has not been set."
+"Kunci Rahasia Embedding belum ditetapkan."
+
+"Token is missing value for keypath"
+"Token adalah nilai yang hilang untuk keypath"
+
+"Previous {0}"
+"Sebelumnya {0}"
+
+"value must be a valid database engine."
+"Nilai harus menjadi mesin basis data yang valid."
+
+"Connection refused by host for URL `{0}`"
+"Koneksi ditolak oleh host untuk URL `{0}`"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"Peringatan: Menggunakan metabase dengan database aplikasi H2 tidak direkomendasikan untuk penyebaran produksi."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"Lihat https://metabase.com/docs/latest/operations-guide/start.html#migrasi-drom-using-the-h2-database-to-mysql-or-postgres untuk informasi lebih lanjut."
+
+"Unable to connect to Metabase {0} DB."
+"Tidak dapat terhubung ke metabase {0} dB."
+
+"Failed to notify {0} Database {1} updated"
+"Gagal memberi tahu {0} basis data {1} Diperbarui"
+
+"Loading driver {0} {1}"
+"Memuat driver {0} {1}"
+
+"Load driver {0}"
+"LOAD DRIVER {0}"
+
+"Driver not registered after loading: {0}"
+"Driver tidak terdaftar setelah memuat: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"Kesalahan: Mencoba untuk mengubah {0} Properti `: Abstrak?` Dari {1} ke {2}."
+
+"Registered abstract driver {0}"
+"Driver abstrak terdaftar {0}"
+
+"Registered driver {0}"
+"Driver Terdaftar {0}"
+
+"(parents: {0})"
+"(orang tua: {0})"
+
+"Initializing driver {0}..."
+"Inisialisasi driver {0} ..."
+
+"Reason:"
+"Alasan:"
+
+"Invalid driver feature: {0}"
+"Fitur driver tidak valid: {0}"
+
+"Invalid HoneySQL form:"
+"Bentuk honeysql tidak valid:"
+
+"Closing connection pool for database {0} ..."
+"Tutup koneksi kumpulan untuk basis data {0} ..."
+
+"Error loading namespace"
+"Kesalahan memuat namespace."
+
+"Starting events listener:"
+"Mulai Acara Pendengar:"
+
+"Unexpected error listening on events"
+"Kesalahan tak terduga mendengarkan acara"
+
+"Error syncing Database {0}"
+"Database Sinkronisasi Kesalahan {0}"
+
+"Failed to process sync-database event."
+"Gagal memproses acara sinkronisasi-basis data."
+
+"Bad nested-query-level: query does not have a source query"
+"Tingkat Kueri Buruk-Kueri: Kueri tidak memiliki kueri sumber"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"Value FieldValue untuk bidang {0} tetap tidak berubah. Melewatkan ..."
+
+"Unable to normalize:"
+"Tidak dapat menormalkan:"
+
+"Could not find matching Field ID for target:"
+"Tidak dapat menemukan ID bidang yang cocok untuk target:"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabase tidak memiliki izin untuk menulis ke direktori plugin {0}"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabase tidak dapat menggunakan direktori plugin {0}"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"Pastikan direktori ada dan metabase itu memiliki izin untuk menulis ke sana."
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"Anda dapat mengubah penggunaan metabase direktori untuk modul dengan mengatur variabel lingkungan MB_Plugins_dir."
+
+"Falling back to a temporary directory for now."
+"Jatuh kembali ke direktori sementara untuk saat ini."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabase tidak dapat menulis ke direktori sementara. Harap atur MB_plugins_dir ke direktori yang dapat ditulis dan restart metabase."
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"Spark-deps.jar tidak lagi dibutuhkan oleh Metabase 1.0+. Anda dapat menghapusnya dari direktori plugins."
+
+"Failied to initialize plugin {0}"
+"Kegunaan untuk menginisialisasi plugin {0}"
+
+"Loading plugins in {0}..."
+"Memuat Plugin di {0} ..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Menggunakan clojure base loader sebagai classloader konteks bersama: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"Mengatur Current Thread Contexter Classloader ke Shared Classloader {0} ..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"Mengatur Kelas Konteks Thread Saat Ini untuk Classloader yang baru dibuat {0} ..."
+
+"Added URL {0} to classpath"
+"Menambahkan URL {0} ke Classpath"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"Plugin {0} menyatakan ketergantungan yang metabase tidak mengerti: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"Lihat referensi plugin manifest untuk daftar lengkap dependensi plugin yang valid:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"Metabase tidak dapat menginisialisasi plugin {0} karena dependensi yang diperlukan."
+
+"Class not found: {0}"
+"Kelas tidak ditemukan: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"Plugin '' {0} '' Tergantung pada plugin '' {1} ''"
+
+"{0} dependency {1} satisfied? {2}"
+"{0} Ketergantungan {1} Puas? {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"Plugin dengan deps yang tidak puas: {0}"
+
+"Extract file {0} -> {1}"
+"Ekstrak file {0} -> {1}"
+
+"Resource does not exist."
+"Sumber daya tidak ada."
+
+"Loading plugin namespace {0}..."
+"Memuat namespace plugin {0} ..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"Dependensi puas; Plugin ini sekarang akan dimuat: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"Mendaftarkan driver proxy JDBC untuk {0} ..."
+
+"Deregistering original JDBC driver {0}..."
+"Driver JDBC asli Deregistering {0} ..."
+
+"Default connection property {0} does not exist."
+"Properti koneksi default {0} tidak ada."
+
+"Invalid connection property {0}: not a string or map."
+"Properti koneksi tidak valid {0}: bukan string atau peta."
+
+"Load lazy loading driver {0}"
+"Memuat driver pemuatan malas {0}"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"Tidak dapat menginisialisasi plugin: Hilang Diperlukan Properti `Driver-Name`"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"Peringatan: plugin manifes untuk {0} tidak termasuk properti koneksi"
+
+"Registering lazy loading driver {0}..."
+"Mendaftarkan driver pemuatan malas {0} ..."
+
+"Error running query for Card {0}"
+"Kesalahan menjalankan kueri untuk kartu {0}"
+
+"Last week"
+"Minggu lalu"
+
+"This week"
+"Minggu ini"
+
+"Last month"
+"Bulan lalu"
+
+"This month"
+"Bulan ini"
+
+"Last quarter"
+"Kuartal terakhir"
+
+"This quarter"
+"Kuartal ini"
+
+"Last year"
+"Tahun lalu"
+
+"This year"
+"Tahun ini"
+
+"*driver* is unbound."
+"* Driver * tidak terikat."
+
+"Error syncing Fields for Table ''{0}''"
+"Kesalahan sinkronisasi bidang untuk tabel '' {0} ''"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"Hash of {0} pertandingan disimpan hash, schipping fields sinkronisasi"
+
+"Field"
+"Bidang"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"Kesalahan memeriksa apakah bidang {0} perlu dibuat atau diaktifkan kembali"
+
+"Marking Field ''{0}'' as inactive."
+"Bidang menandai '' {0} '' tidak aktif."
+
+"Error retiring {0}"
+"Kesalahan pensiun {0}"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"Jenis basis data {0} telah berubah dari '' {1} '' ke '' {2} ''."
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"Jenis dasar {0} telah berubah dari '' {1} '' ke '' {2} ''."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"Jenis khusus {0} telah berubah dari '' {1} '' ke '' {2} ''."
+
+"Comment has been added for {0}."
+"Komentar telah ditambahkan untuk {0}."
+
+"Stopping Quartz Scheduler {0}"
+"Menghentikan Penjadwal Quartz {0}"
+
+"Starting Quartz Scheduler {0}"
+"Memulai scheduler kuarsa {0}"
+
+"Error loading tasks namespace {0}"
+"Kesalahan memuat tugas namespace {0}"
+
+"Initializing task {0}"
+"Inisialisasi Tugas {0}"
+
+"Error initializing task {0}"
+"Kesalahan menginisialisasi tugas {0}"
+
+"Problem sending abandonment email"
+"Masalah pengiriman email pengabaian"
+
+"Sending anonymous usage stats."
+"Mengirim statistik penggunaan anonim."
+
+"Error sending anonymous usage stats"
+"Kesalahan Mengirim Statistik Penggunaan Anonim"
+
+"Error sending Pulse {0}"
+"Kesalahan Mengirim Pulse {0}"
+
+"Sending scheduled pulses..."
+"Mengirim pulsa yang dijadwalkan ..."
+
+"SendPulses task failed"
+"Tugas sendpulses gagal"
+
+"Failed to scheduler tasks for Database {0}"
+"Gagal menjadwalkan tugas untuk basis data {0}"
+
+"Cleaning up task history"
+"Membersihkan riwayat tugas"
+
+"Task history cleanup successful, rows were deleted"
+"Pembersihan Sejarah Tugas berhasil, baris dihapus"
+
+"Task history cleanup successful, no rows were deleted"
+"Pembersihan Sejarah Tugas berhasil, tidak ada baris yang dihapus"
+
+"Checking for new Metabase version info."
+"Memeriksa info versi metabase baru."
+
+"Error fetching version info"
+"Kesalahan pengambilan info versi"
+
+"Maximum memory available to JVM: {0}"
+"Memori maksimum yang tersedia untuk JVM: {0}"
+
+"Not something with an ID: {0}"
+"Bukan sesuatu dengan ID: {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"Hasil kartu Metadata yang diteruskan ke API dikeluarkan. Menjalankan kueri untuk mengambil metadata yang benar."
+
+"{0} was autocorrected to {1}"
+"{0} diduga otomatis ke {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"Hapus / API / Metric /: ID sudah usang. Sebagai gantinya, ubah nilai `diarsipkan` melalui put / API / Metric /: ID."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"Hapus / API / Segmen /: ID sudah usang. Sebagai gantinya, ubah nilai `diarsipkan` melalui put / API / Segmen /: ID."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"Nilai IS_SUperuser harus sesuai dengan keberadaan ID Grup Admin di group_ids."
+
+"Unexpected error writing keepalive characters"
+"Kesalahan tak terduga Menulis karakter Keepalive"
+
+"Unexpected output in async API response"
+"Output yang tidak terduga dalam respons API Async"
+
+"starting streaming response"
+"memulai respons streaming"
+
+"Output chan closed, canceling keepalive request."
+"Output Chan ditutup, membatalkan permintaan keepalive."
+
+"Async response finished, closing channels."
+"Respons Async selesai, menutup saluran."
+
+"No response after waiting {0}. Canceling request."
+"Tidak ada respons setelah menunggu {0}. Permintaan pembatalan."
+
+"Input channel unexpectedly closed."
+"Saluran input secara tak terduga ditutup."
+
+"f finished, permit will be returned"
+"f selesai, izin akan dikembalikan"
+
+"request canceled, permit will be returned"
+"Permintaan dibatalkan, izin akan dikembalikan"
+
+"Unexpected error attempting to run function after obtaining permit"
+"Kesalahan tak terduga berusaha menjalankan fungsi setelah mendapatkan izin"
+
+"Not running pending function call: output channel already closed."
+"Tidak Menjalankan Panggilan Fungsi Tertunda: Saluran keluaran sudah ditutup."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"Utas saat ini sudah memiliki izin untuk {0}, tidak akan menunggu untuk memperoleh yang lain"
+
+"Output channel closed, will skip running {0}."
+"Saluran keluaran ditutup, akan melewati menjalankan {0}."
+
+"Running {0} on separate thread..."
+"Menjalankan {0} pada utas terpisah ..."
+
+"Caught error running {0}"
+"Kesalahan ketahuan berjalan {0}"
+
+"Request canceled, canceling future"
+"Permintaan dibatalkan, membatalkan masa depan"
+
+"Closing old connection pool for database {0} ..."
+"Menutup kumpulan koneksi lama untuk basis data {0} ..."
+
+"Here''s your {0} most recent cards:"
+"Ini kartu Anda {0} Anda:"
+
+"Card {0} not found."
+"Kartu {0} tidak ditemukan."
+
+"Exception in API call"
+"Pengecualian dalam panggilan API"
+
+"Request canceled before finishing."
+"Permintaan dibatalkan sebelum finishing."
+
+"Metabase only supports JSON requests."
+"Metabase hanya mendukung permintaan JSON."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Pastikan Anda menetapkan header 'Tipe-Konten: / JSON'."
+
+"Setting Metabase site URL to {0}"
+"Mengatur URL Situs Metabase ke {0}"
+
+"Error scheduling tasks for DB"
+"Tugas Penjadwalan Kesalahan untuk DB"
+
+"Error unscheduling tasks for DB."
+"Kesalahan tugas yang tidak dijelaskan untuk DB."
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} basis data '' {1} '' jadwal sinkronisasi telah berubah!"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"Sinkronkan Metadata adalah: '' {0} '' sekarang: '' {1} ''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Cache FieldValue adalah: '' {0} '', sekarang: '' {1} ''"
+
+"You cannot update the creator_id of a Metric."
+"Anda tidak dapat memperbarui creator_id dari metrik."
+
+"Failed to grant permissions"
+"Gagal memberikan izin"
+
+"Changing permissions"
+"Mengubah izin"
+
+"FROM:"
+"DARI:"
+
+"TO:"
+"KE:"
+
+"You cannot update the creator_id of a Segment."
+"Anda tidak dapat memperbarui creator_id dari segmen."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"Berusaha mengatur pengaturan {0} untuk nilai yang dikaburkan. Mengabaikan perubahan."
+
+"Using value of env var {0}"
+"Menggunakan nilai env var {0}"
+
+"Adding User {0} to All Users permissions group..."
+"Menambahkan pengguna {0} untuk semua pengguna izin grup ..."
+
+"Adding User {0} to Admin permissions group..."
+"Menambahkan Pengguna {0} Ke Admin Izin Group ..."
+
+"Query failure"
+"Kueri Kegagalan"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"Jumlah maksimum kueri simultan untuk memungkinkan per database yang terhubung."
+
+"Timed out after {0} milliseconds."
+"Habis setelah {0} milidetik."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"Masalah yang menghubungkan ke server LDAP, akan kembali ke otentikasi lokal"
+
+"Cannot create Database: cannot find driver {0}."
+"Tidak dapat membuat basis data: Tidak dapat menemukan driver {0}."
+
+"Query failed"
+"Kueri gagal"
+
+"Warning: {0} returned `nil`"
+"PERINGATAN: {0} Kembali `nil`"
+
+"Unexpected error writing result to output channel: already closed"
+"Hasil penulisan kesalahan yang tidak terduga ke saluran output: sudah ditutup"
+
+"Unexpected error writing exception to output channel: already closed"
+"Pengecualian Menulis Kesalahan Tak Terduga untuk Keluaran Saluran: sudah ditutup"
+
+"Request canceled, canceling future."
+"Permintaan dibatalkan, membatalkan masa depan."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase hanya dapat mentransfer data dari H2 ke Postgres atau MySQL / MariaDB."
+
+"Application database setup"
+"Pengaturan Basis Data Aplikasi"
+
+"Could not find {0} driver."
+"Tidak dapat menemukan driver {0}."
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"ABSTRAK Driver tidak dapat berasal dari driver induk beton."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"Anda mungkin perlu menambahkan 'TrustServerCertificate = true' ke opsi koneksi tambahan untuk terhubung dengan SSL."
+
+"Don't know how to alias {0}, expected an Identifer."
+"Tidak tahu cara alias {0}, diharapkan sebagai pengenal."
+
+"Client closed connection, canceling query"
+"Koneksi tertutup Klien, Membatalkan Kueri"
+
+"{0} is not a valid DN."
+"{0} bukan DN yang valid."
+
+"Error logging API request"
+"Kesalahan Pencatatan Permintaan API"
+
+"Failed to set site-url"
+"Gagal mengatur Situs-URL"
+
+"Error destroying thread pool for DB."
+"Kesalahan menghancurkan kolam benang untuk DB."
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"Memperbarui Nama Tampilan untuk {0} '' {1} '': '' {2} '' -> '' {3} ''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"Strategi humanisasi tidak valid '' {0} ''. Strategi yang valid adalah: {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Tabel Chaning & Nama Lapangan Strategi humanisasi dari '' {0} '' ke '' {1} ''"
+
+"Error saving task history"
+"Kesalahan menyimpan riwayat tugas"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"Spark-deps.jar tidak lagi dibutuhkan oleh Metabase 0.32.0+. Anda dapat menghapusnya dari direktori plugins."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"Menggunakan classloader yang baru dibuat sebagai classloader konteks bersama: {0}"
+
+"Failed to copy file"
+"Gagal menyalin file"
+
+"Invalid site URL: {0}"
+"URL Situs Tidak Valid: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"Situs-URL tidak valid; mengembalikan nihil untuk saat ini. Akan diatur ulang pada permintaan berikutnya."
+
+"More results have been included as a file attachment"
+"Lebih banyak hasil telah dimasukkan sebagai lampiran file"
+
+"This question has been included as a file attachment"
+"Pertanyaan ini telah dimasukkan sebagai lampiran file"
+
+"We were unable to display this Pulse."
+"Kami tidak dapat menampilkan pulsa ini."
+
+"Please view this card in Metabase."
+"Silakan lihat kartu ini di Metabase."
+
+"An error occurred while displaying this card."
+"Terjadi kesalahan saat menampilkan kartu ini."
+
+"Can only determine expected columns for MBQL queries."
+"Hanya dapat menentukan kolom yang diharapkan untuk kueri MBQL."
+
+"No columns returned."
+"Tidak ada kolom yang dikembalikan."
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Warining: Tidak dapat menentukan bidang untuk `Source-Query` eksplisit kecuali Anda juga memasukkan` Sumber-Metadata`."
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"Tidak dapat menyelesaikan {0}: Bidang tidak ada, atau tabelnya milik basis data yang berbeda."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"Tidak dapat menyelesaikan: bidang-literal di dalam: FK-> Kecuali jika di dalam bergabung dengan eksplisit: alias."
+
+"Cannot find Table ID for {0}"
+"Tidak dapat menemukan ID tabel untuk {0}"
+
+"No matching info found."
+"Tidak ditemukan info yang cocok."
+
+"Could not resolve {0}"
+"Tidak bisa menyelesaikan {0}"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"FK-> klausa: tidak ada tempat untuk menambahkan bergabung yang sesuai."
+
+"{0} driver does not support foreign keys."
+"{0} Driver tidak mendukung kunci asing."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"Tidak dapat menyimpulkan `: sumber-metadata` untuk kueri sumber dengan kueri sumber asli tanpa metadata sumber."
+
+"Query processor error: number of columns returned by driver does not match results."
+"Kesalahan prosesor kueri: Jumlah kolom yang dikembalikan oleh driver tidak cocok dengan hasil."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"Diharapkan {0} kolom, tetapi baris pertama dari resuls memiliki kolom {1}."
+
+"No expression named {0} found. Found: {1}"
+"Tidak ada ekspresi bernama {0} ditemukan. Ditemukan: {1}"
+
+"Distinct values of {0}"
+"Nilai yang berbeda dari {0}"
+
+"Average of {0}"
+"Rata-rata {0}"
+
+"Sum of {0}"
+"Jumlah {0}"
+
+"SD of {0}"
+"Sd {0}"
+
+"Min of {0}"
+"Min {0}"
+
+"Max of {0}"
+"Maks {0}"
+
+"Sum of {0} matching condition"
+"Jumlah dari kondisi pencocokan {0}"
+
+"Share of rows matching condition"
+"Bagikan kondisi pencocokan baris"
+
+"Count of rows matching condition"
+"Hitungan kondisi pencocokan baris"
+
+"Request already canceled, will not run synchronous QP code."
+"Permintaan sudah dibatalkan, tidak akan menjalankan kode QP sinkron."
+
+"Unexpectedly got `nil` Query Processor response."
+"Tanpa diduga mendapat respons prosesor `nil`."
+
+"Got InterruptedException. Canceling query."
+"Mendapat interruptedexception. Membatalkan kueri."
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"Pengecualian yang tidak ditangani, middleware `catch-exceptions` yang dikeluarkan untuk menanganinya."
+
+"Query timed out after %s"
+"Kueri habis setelah% s"
+
+"Creating new query thread pool for Database {0}"
+"Membuat Kueri Baru Thread Pool untuk Database {0}"
+
+"Destroying query thread pool for Database {0}"
+"Menghancurkan query thread pool untuk basis data {0}"
+
+"Request canceled, canceling pending query"
+"Permintaan dibatalkan, membatalkan permintaan yang tertunda"
+
+"Cannot update binned field: query is missing source-metadata"
+"Tidak dapat memperbarui bidang binned: Query hilang Sumber-Metadata"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"Tidak dapat memperbarui bidang binned: tidak dapat menemukan metadata sumber pencocokan untuk bidang '' {0} ''"
+
+"Using query processor cache backend: {0}"
+"Menggunakan backend cache prosesor kueri: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"Metric Tidak Valid: {0} Alasan: {1}"
+
+"Unknown error"
+"Kesalahan yang tidak diketahui"
+
+"Unexpected nil response from query processor."
+"Tanggapan NIL yang tak terduga dari prosesor kueri."
+
+"Query canceled"
+"Kueri dibatalkan"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"Tidak dapat menyelesaikan driver untuk permintaan: Hilang atau tidak valid `: Database` ID."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"Tidak dapat menyelesaikan driver untuk kueri: basis data {0} tidak ada."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"Tidak dapat menggunakan: Fields: Semua dalam bergabung dengan kueri sumber kecuali memiliki: sumber-metadata."
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"Buruk: Bergabung-bidang klausa: Bergabunglah dengan alias '' {0} '' tidak ada. Ditemukan: {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"Tidak valid: tabel sumber '' {0} '': harus diselesaikan ke ID tabel sekarang."
+
+"Cannot store Tables or Fields before Database is stored."
+"Tidak dapat menyimpan tabel atau bidang sebelum basis data disimpan."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"Mencoba mengambil database kedua. Kueri hanya dapat merujuk satu basis data."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"Gagal mengambil tabel {0}: tabel tidak ada, atau milik basis data yang berbeda."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"Gagal mengambil bidang {0}: bidang tidak ada, atau milik basis data yang berbeda."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"Gagal memuat templat '' {0} ''. Apakah Anda ingat untuk membangun frontend metabase?"
+
+"Found new tables:"
+"Ditemukan tabel baru:"
+
+"Marking tables as inactive:"
+"Menandai tabel sebagai tidak aktif:"
+
+"Updating description for tables:"
+"Memperbarui deskripsi untuk tabel:"
+
+"Rescheduling job {0}"
+"Job Rescheduling {0}"
+
+"Error rescheduling job"
+"Kesalahan menjadwal ulang pekerjaan"
+
+"Starting Pulse Execution: {0}"
+"Memulai eksekusi pulsa: {0}"
+
+"Finished Pulse Execution: {0}"
+"Eksekusi pulsa jadi: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"Gagal menjadwalkan tugas untuk basis data {0}"
+
+"All elements must be distinct."
+"Semua elemen harus berbeda."
+
+"Don't know how to alias {0}, expected an Identifier."
+"Tidak tahu cara alias {0}, diharapkan pengidentifikasi."
+
+"Error adding User {0} to Group {1}"
+"Kesalahan menambahkan pengguna {0} ke grup {1}"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Mengubah Tabel & Nama Lapangan Strategi humanisasi dari '' {0} '' ke '' {1} ''"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"Loop Infinite terdeteksi: Kueri Praproses Rekursif {0} kali."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Peringatan: tidak dapat menentukan bidang untuk `sumber-permintaan` eksplisit kecuali Anda juga menyertakan` source-metadata`."
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"Pengecualian yang ditangani, middleware `catch-exception` yang diharapkan untuk menanganinya."
+
+"All"
+"Semua"
+
+"An error occurred while running the query."
+"Terjadi kesalahan saat menjalankan kueri."
+
+"Output H2 database already exists: %s, removing."
+"Basis data output H2 sudah ada:% s, menghapus."
+
+"Don't need to migrate, just use the existing H2 file"
+"Tidak perlu bermigrasi, cukup gunakan file H2 yang ada"
+
+"Target DB is already populated!"
+"Target DB sudah diisi!"
+
+"System info:n {0}"
+"Info Sistem: n {0}"
+
+"Database setup"
+"Pengaturan Basis Data"
+
+"Invalid '{{...}}' clause: expected a param name"
+"'{{...}}}' Clause: diharapkan nama param"
+
+"'{{...}}' clauses cannot be empty."
+"'{{...}}}' Clauses tidak boleh kosong."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"Klausul '[[...]]' harus mengandung setidaknya satu '{{...}}' klausa."
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"Kueri tidak valid: Ditemukan '[[' atau '{{' tanpa cocok ']]' atau '}}'"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"Anda harus memilih nilai untuk '' {0} '' sebelum kueri ini dapat berjalan."
+
+"Can''t find field with ID: {0}"
+"Tidak dapat menemukan bidang dengan ID: {0}"
+
+"Error loading driver namespace"
+"Kesalahan memuat namespace driver"
+
+"Could not load {0} driver."
+"Tidak dapat memuat driver {0}."
+
+"Don''t know how to parse {0} {1}"
+"Jangan tahu cara menguraikan {0} {1}"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"Jangan tahu cara alias {0}, diharapkan pengidentifikasi."
+
+"Don''t know how to unprepare values of class {0}"
+"Jangan tahu cara mengucapkan nilai-nilai kelas {0}"
+
+"Creating new connection pool for {0} database {1} ..."
+"Membuat kumpulan koneksi baru untuk {0} basis data {1} ..."
+
+"Invalid timezone ''{0}''"
+"Zona waktu tidak valid '' {0} ''"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"Tidak dapat mengatur zona waktu: string format SQL yang tidak valid atau hilang untuk driver {0}."
+
+"Did you implement set-timezone-sql?"
+"Apakah Anda menerapkan set-timezone-sql?"
+
+"Failed to set timezone ''{0}''"
+"Gagal mengatur zona waktu '' {0} ''"
+
+"Error parsing JSON"
+"Error parsing json."
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"Apakah akan menampilkan data di beranda. Admin mungkin mematikan ini untuk mengarahkan pengguna ke konten yang lebih baik daripada data mentah"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Apakah akan menampilkan saran x-ray di beranda. Mereka juga akan disembunyikan jika ada dasbor yang disematkan. Admin mungkin menyembunyikan ini untuk mengarahkan pengguna ke konten yang lebih baik daripada data mentah"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"Identifikasi sumber permintaan HTTP dengan nilai header ini, alih-alih alamat jarak jauhnya."
+
+"Could not resolve Setting {0}/{1}"
+"Tidak dapat menyelesaikan pengaturan {0} / {1}"
+
+"Invalid Setting: {0}/{1}"
+"Pengaturan Tidak Valid: {0} / {1}"
+
+"reached its goal"
+"mencapai tujuannya"
+
+"gone below its goal"
+"pergi di bawah tujuannya"
+
+"Sending Pulse ({0}: {1}) via email"
+"Mengirim Pulse ({0}: {1}) melalui email"
+
+"Pulse: {0}"
+"Pulsa: {0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Mengirim Pulse ({0}: {1}) melalui Slack"
+
+"Sending Alert ({0}: {1}) via email"
+"Mengirim Peringatan ({0}: {1}) melalui email"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Mengirim Peringatan ({0}: {1}) melalui Slack"
+
+"Alert: {0}"
+"Peringatan: {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"Tidak dapat menemukan pemilih warna JS di '' {0} ''"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"FixMe: Ini bukan literal temporal yang valid: {0} {1}. Mengapa kita menetap untuk memformatnya dengan demikian?"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"Tidak ada info yang cocok ditemukan untuk bergabung dengan tabel {0} '' {1} '' pada bidang {2} '' {3} '' via fk {4} '' {5} '' {5} ''"
+
+"Don''t know how to get information about Field: {0}"
+"Jangan tahu cara mendapatkan informasi tentang bidang: {0}"
+
+"Query timed out after {0}"
+"Kueri habis setelah {0}"
+
+"Formatting rows with results timezone ID {0}"
+"Memformat baris dengan Hasil zone ID {0}"
+
+"Invalid timezone ID ''{0}''"
+"ID Timezone tidak valid '' {0} ''"
+
+"Saving fingerprint for {0}"
+"Menyimpan sidik jari untuk {0}"
+
+"Sending abandoment email!"
+"Mengirim Email Abaikan!"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"Transformasi yang dihasilkan tidak sesuai dengan harapan.nexpected: {0}"
+
+"Timed out after {0}"
+"Habis setelah {0}"
+
+"No temporal adjuster named {0}"
+"Tidak ada adjuster temporal bernama {0}"
+
+"Invalid unit: {0}"
+"Unit Tidak Valid: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"Jangan tahu cara menguraikan {0} menggunakan format {1}"
+
+"Token is missing value for keypath {0}"
+"Token hilang nilai untuk tombol {0}"
+
+"Sending usage stats FAILED"
+"Mengirim Statistik Penggunaan Gagal"
+
+"or"
+"atau"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase dapat memindai nilai yang ada di setiap bidang dalam database ini untuk mengaktifkan filter kotak centang di dashboard dan pertanyaan. Ini bisa menjadi proses yang agak intensif sumber daya, terutama jika Anda memiliki basis data yang sangat besar."
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"Koneksi ke '' {0}: {1} '' berhasil, tetapi tidak dapat terhubung ke db."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"Koneksi ke host '' {0} '' berhasil, tetapi port {1} tidak valid."
+
+"Host ''{0}'' is not reachable"
+"Host '' {0} '' tidak dapat dijangkau"
+
+"Unable to connect to database."
+"Tidak dapat terhubung ke database."
+
+"Cannot connect to Database"
+"Tidak dapat terhubung ke basis data"
+
+"You''re not allowed to specify a value for {0}."
+"Anda tidak diizinkan menentukan nilai untuk {0}."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"Anda tidak dapat menentukan nilai untuk {0} jika 'sudah diatur di JWT."
+
+"You must specify a value for {0} in the JWT."
+"Anda harus menentukan nilai untuk {0} di JWT."
+
+"You can only specify a value for {0} in the JWT."
+"Anda hanya dapat menentukan nilai untuk {0} di JWT."
+
+"Error searching field values"
+"Kesalahan mencari nilai bidang"
+
+"Error searching for remapping"
+"Kesalahan mencari remapping"
+
+"Double check that it matches in Google and Metabase."
+"Periksa kembali bahwa itu cocok di Google dan Metabase."
+
+"Everything else"
+"Yang lainnya"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"Peringatan: Anda telah mendukung pelacakan namespace, yang dapat mencatat informasi sensitif seperti kata sandi DB."
+
+"Database Upgrade Required"
+"Diperlukan Upgrade Basis Data"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"PEMBERITAHUAN: Basis data Anda memerlukan pembaruan untuk bekerja dengan Metabase versi ini."
+
+"Please execute the following sql commands on your database before proceeding."
+"Silakan jalankan perintah SQL berikut pada database Anda sebelum melanjutkan."
+
+"Once your database is updated try running the application again."
+"Setelah basis data Anda diperbarui, coba jalankan aplikasi lagi."
+
+"Database requires manual upgrade."
+"Basis data membutuhkan peningkatan manual."
+
+"Successfully verified {0} {1} application database connection."
+"Koneksi database berhasil diverifikasi {0} {1}."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"Jangan Tahu Cara Parse Tanggal Param '' {0} '' - Format Tidak Valid"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"Sub-kueri dari pertanyaan referensi # {0} Gagal dengan kesalahan berikut: {1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"Peringatan: Metabase hanya secara resmi mendukung MySQL {0} / mariaadb {1} dan di atas."
+
+"All Metabase features may not work properly when using an unsupported version."
+"Semua fitur metabase mungkin tidak berfungsi dengan baik saat menggunakan versi yang tidak didukung."
+
+"Cannot run the query: missing required parameters: {0}"
+"Tidak dapat menjalankan kueri: Parameter yang diperlukan hilang: {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"Jangan tahu cara menguraikan {0} {1} sebagai literal temporal"
+
+"Setting {0} database timezone with statement: {1}"
+"Pengaturan {0} Basis data TimesZone dengan pernyataan: {1}"
+
+"Error setting connection to readwrite"
+"Koneksi pengaturan kesalahan ke readwrite"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"Gagal mengatur zona waktu '' {0} '' untuk {1} basis data"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"Pengaturan kesalahan tingkat isolasi transaksi untuk basis data {0} ke {1}"
+
+"Error setting connection to read-only"
+"Kesalahan pengaturan koneksi ke read-only"
+
+"Error setting default holdability for connection"
+"Kesalahan mengatur pemegang default untuk koneksi"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"Kueri dibatalkan, menelepon decorystatement.cancel ()"
+
+"Failed to connect to database"
+"Gagal terhubung ke basis data"
+
+"Unable to determine connection properties for driver {0}"
+"Tidak dapat menentukan properti koneksi untuk driver {0}"
+
+"Error fetching field values"
+"Kesalahan Mengambil Nilai Bidang"
+
+"You cannot set {0}; it is a read-only setting."
+"Anda tidak dapat mengatur {0}; Ini adalah pengaturan read-only."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"Deskripsi Defsetting String harus memiliki `: visibilty``: internal`, `: setter``: none`, atau internasionalisasi, ditemukan: `{0}"
+
+"Setting {0} is internal"
+"Pengaturan {0} internal"
+
+"Loading local plugin manifest at {0}"
+"Memuat Plugin Lokal Manifes di {0}"
+
+"Google Analytics tracking code."
+"Kode Pelacakan Google Analytics."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"Mengirim Pulse ({0}: {1}) dengan kartu {2} melalui email"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Mengirim Pulse ({0}: {1}) dengan kartu {2} melalui Slack"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"Render kartu pulsa dengan jenis grafik {0} dan render-type {1}"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"FixMe: Ini bukan literal temporal yang valid: {0} {1}. Mengapa kita berusaha memformatnya dengan demikian?"
+
+"Error reducing result rows"
+"Kesalahan mengurangi baris hasil"
+
+"Unexpected nil result"
+"Hasil nil tak terduga"
+
+"Query timed out after {0} ms, raising timeout exception."
+"Kueri habis setelah {0} MS, menaikkan pengecualian batas waktu."
+
+"Timed out after {0}."
+"Habis setelah {0}."
+
+"Query canceled before finishing."
+"Kueri dibatalkan sebelum finishing."
+
+"Unknown query type {0}"
+"Jenis permintaan tidak diketahui {0}"
+
+"Caching results for next time for query with hash {0}."
+"Hasil caching untuk waktu berikutnya untuk kueri dengan hash {0}."
+
+"Error saving query results to cache."
+"Kesalahan menyimpan hasil kueri ke cache."
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"Kueri mengambil {0} untuk menjalankan; Miminum untuk kelayakan cache adalah {1}"
+
+"Results are too large to cache."
+"Hasilnya terlalu besar untuk cache."
+
+"Error parsing serialized results"
+"Kesalahan parsing hasil serial"
+
+"Error purging old cache entries"
+"Kesalahan membersihkan entri cache lama"
+
+"Caching results for query with hash {0}."
+"Hasil caching untuk kueri dengan hash {0}."
+
+"Cannot save QueryExecution, missing :context"
+"Tidak dapat menghemat pertanyaan permintaan, hilang: konteks"
+
+"Error saving query execution info"
+"Kesalahan menyimpan info eksekusi kueri"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"Tidak dapat menyelesaikan basis data untuk permintaan: Hilang atau tidak valid `: Database` ID."
+
+"Unable to resolve driver for query"
+"Tidak dapat menyelesaikan driver untuk kueri"
+
+"Referenced question #{0} could not be found"
+"Pertanyaan yang direferensikan # {0} tidak dapat ditemukan"
+
+"Referenced query is from a different database"
+"Permintaan referensi berasal dari database yang berbeda"
+
+"This query has circular referencing sub-queries. "
+"Kueri ini memiliki sub-kueri referensi melingkar."
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"Pertanyaan-pertanyaan ini tampaknya menjadi bagian dari masalah: \"{0}\" dan \"{1}\"."
+
+"Error recording results metadata for query"
+"Kesalahan Rekaman Hasil Metadata Untuk Permintaan"
+
+"Query result"
+"Hasil kueri"
+
+"Error generating insights for column:"
+"Kesalahan menghasilkan wawasan untuk kolom:"
+
+"Sending abandonment email!"
+"Mengirim Email Abandonment!"
+
+"SSH Authentication"
+"Otentikasi ssh."
+
+"SSH Key"
+"Ssh kunci."
+
+"Server SSL certificate chain"
+"Server SSL Rantai Sertifikat"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"Durasi eksekusi rata-rata pertanyaan adalah {0}; menggunakan '' ajaib '' ttl {1}"
+
+"A snippet with that name already exists. Please pick a different name."
+"Cuplikan dengan nama itu sudah ada. Silakan pilih nama yang berbeda."
+
+"[Unknown Metric]"
+"[Metrik Tidak Dikenal]"
+
+"[Unknown Segment]"
+"[Segmen yang tidak diketahui]"
+
+"Error writing error to output stream"
+"Kesalahan menulis kesalahan ke stream output"
+
+"Caught unexpected Exception in streaming response body"
+"Tertangkap pengecualian tak terduga dalam streaming respons tubuh"
+
+"bound-fn caught unexpected Exception"
+"Bound-fn menangkap pengecualian yang tidak terduga"
+
+"Error determining whether HTTP request was canceled"
+"Kesalahan menentukan apakah permintaan HTTP dibatalkan"
+
+"Check cancelation status timed out after {0}"
+"Periksa status pembatalan habis setelah {0}"
+
+"Unexpected exception in do-f-async"
+"Pengecualian tak terduga dalam do-f-async"
+
+"Unexpected exception writing error response"
+"Respon Kesalahan Menulis Pengecualian yang Tidak Terduga"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"Sertifikat Server tidak dipercaya - Apakah Anda menentukan rantai sertifikat SSL yang benar?"
+
+"Server appears to require SSL - please enable SSL above"
+"Server tampaknya memerlukan SSL - harap aktifkan SSL di atas"
+
+"Username"
+"Nama pengguna"
+
+"Don''t know how to parse parameter of type {0}"
+"Jangan tahu cara menguraikan parameter tipe {0}"
+
+"Invalid :card parameter: missing `:card-id`"
+"Tidak valid: Parameter Kartu: Hilang `: Card-ID`"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"Tidak dapat menyelesaikan cuplikan: Hilang `: Snippet-ID`"
+
+"Snippet {0} {1} not found."
+"Cuplikan {0} {1} tidak ditemukan."
+
+"Error determining value for parameter"
+"Kesalahan menentukan nilai untuk parameter"
+
+"Error building query parameter map"
+"GALAT BANGUNAN PARAMETER PARAMETER MAP"
+
+"ASYNC"
+"Async."
+
+"{0} ({1} DB calls)"
+"{0} ({1} panggilan db)"
+
+"App DB connections: {0}/{1}"
+"Koneksi db aplikasi: {0} / {1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"Thread Jetty: {0} / {1} ({2} idle, {3} antri)"
+
+"({0} total active threads)"
+"({0} Total utas aktif)"
+
+"Queries in flight: {0}"
+"Kueri dalam penerbangan: {0}"
+
+"({0} queued)"
+"({0} antri)"
+
+"Collection must be in the same namespace as its parent"
+"Koleksi harus berada di namespace yang sama dengan induknya"
+
+"Personal Collections must be in the default namespace"
+"Koleksi pribadi harus di namespace default"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"Anda tidak dapat memindahkan koleksi ke namespace yang berbeda setelah dibuat."
+
+"Collection does not exist."
+"Koleksi tidak ada."
+
+"A {0} can only go in Collections in the {1} namespace."
+"A {0} hanya bisa masuk dalam koleksi di namespace {1}."
+
+"Error sending database deletion notification"
+"Kesalahan Mengirim Pemberitahuan Penghapusan Basis Data"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"Anda tidak dapat memperbarui creator_id dari nalamiersnippet."
+
+"Error fetching value of Setting"
+"Kesalahan Mengambil Nilai Pengaturan"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Bahasa yang harus digunakan untuk UI Metabase, email sistem, pulsa, dan peringatan."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"Ini juga bahasa default untuk semua pengguna, yang dapat mereka ubah dari pengaturan akun mereka sendiri."
+
+"Invalid locale {0}"
+"LOCALE INVALID {0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"Paksa semua lalu lintas untuk menggunakan HTTPS melalui redirect, jika URL situs adalah https"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"Tidak dapat mengarahkan permintaan ke HTTPS kecuali `Situs-URL` adalah https."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"Kesalahan Mendaftarkan Font: Metabase tidak akan dapat mengirim pulsa."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"Ini adalah masalah yang diketahui dengan JVM tertentu. Lihat {0} dan untuk detail lebih lanjut."
+
+"Error rendering Pulse"
+"Kesalahan Rendering Pulse."
+
+"Query timed out after {0}, raising timeout exception."
+"Kueri habis setelah {0}, menaikkan pengecualian batas waktu."
+
+"No fields found for table {0}."
+"Tidak ada bidang yang ditemukan untuk tabel {0}."
+
+"Case"
+"Kasus"
+
+"Variance of {0}"
+"Varians {0}"
+
+"Median of {0}"
+"Median {0}"
+
+"{0}th percentile of {1}"
+"{0} pers persentile dari {1}"
+
+"Not caching results: results are larger than {0} KB"
+"Bukan Hasil Caching: Hasilnya lebih besar dari {0} KB"
+
+"Cannot cache results: expected byte array, got {0}"
+"Tidak dapat menyembunyikan hasil: array byte yang diharapkan, dapatkan {0}"
+
+"Request is closed; no one to return cached results to"
+"Permintaan ditutup; tidak ada yang mengembalikan hasil yang di-cache"
+
+"Error preparing statement to fetch cached query results"
+"Kesalahan menyiapkan pernyataan untuk mengambil hasil query cache"
+
+"Error processing query: {0}"
+"Kueri pemrosesan kesalahan: {0}"
+
+"Unexpected exception in endpoint"
+"Pengecualian tak terduga di titik akhir"
+
+"Unexpected Exception in API request handler"
+"Pengecualian tak terduga di pawang permintaan API"
+
+"Error reducing {0}"
+"Kesalahan mengurangi {0}"
+
+"Error generating timeseries insight keyed by: {0}"
+"Kesalahan Menghasilkan Wawasan Timesery Kunci oleh: {0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"Posisi basis data {0} telah berubah dari '' {1} '' ke '' {2} ''."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"Tugas Tidak Dijelajahi untuk Database {0}: Pemicu: {1}"
+
+"value must be a keyword or string."
+"Nilai harus berupa kata kunci atau string."
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"String harus berupa bahasa ISO dua huruf yang valid atau kode negara-negara mis. 'en' atau 'en_us'."
+
+"Dashboard does not have a parameter with the ID {0}"
+"Dasbor tidak memiliki parameter dengan ID {0}"
+
+"Parameter {0} does not have any Fields associated with it"
+"Parameter {0} tidak memiliki bidang yang terkait dengannya"
+
+"include must be either empty or the value 'tables'"
+"termasuk harus kosong atau nilai 'tabel'"
+
+"`database` is required for all queries whose type is not `internal`."
+"`Database` diperlukan untuk semua pertanyaan yang jenisnya tidak` internal`."
+
+"Password login is disabled for this instance."
+"Login kata sandi dinonaktifkan untuk instance ini."
+
+"Your account is disabled. Please contact your administrator."
+"Akun Anda dinonaktifkan. Silakan hubungi administrator Anda."
+
+"Your account is disabled."
+"Akun Anda dinonaktifkan."
+
+"Invalid Slack token."
+"Token kendur tidak valid."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"Perintah '' {0} '' hanya tersedia dalam Metabase Enterprise Edition."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Ekstensi Edisi Metabase Enterprise hadir."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Penggunaan fitur Edisi Metabase Enterprise tunduk pada Lisensi Komersial Metabase."
+
+"See {0} for details."
+"Lihat {0} untuk detailnya."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Ekstensi Edisi Enterprise Metabase tidak ada."
+
+"You''re invited to join {0}''s {1}"
+"Anda diundang untuk bergabung {0} '' s {1}"
+
+"{0} created a {1} account"
+"{0} Membuat akun {1}"
+
+"{0} accepted their {1} invite"
+"{0} menerima undangan {1} mereka"
+
+"[{0}] Password Reset Request"
+"[{0}] Permintaan Reset Kata Sandi"
+
+"[{0}] Notification"
+"[{0}] notifikasi"
+
+"[{0}] Help make [{1}] better."
+"[{0}] Bantu buat [{1}] lebih baik."
+
+"[{0}] Tell us how things are going."
+"[{0}] Beri tahu kami bagaimana keadaannya."
+
+"Error starting events listener"
+"Kesalahan Memulai Acara Pendengar"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"Haruskah kita menyinkronkan atribut pengguna ketika seseorang masuk melalui LDAP?"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"Daftar atribut pengguna yang dipisahkan koma untuk melewati sinkronisasi untuk pengguna LDAP."
+
+"Invalid token"
+"Token tidak valid."
+
+"Slack API error: {0}"
+"Kesalahan API Slack: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Silakan buat atau tidak mencairkan saluran untuk menyelesaikan integrasi kendur."
+
+"Uploaded image"
+"Gambar yang diunggah"
+
+"Invalid session. Expected an instance of Session."
+"Sesi tidak valid. Diharapkan contoh sesi."
+
+"Top folder"
+"Folder atas"
+
+":parameters must be a sequence of maps with String :id keys"
+": Parameter harus berurutan peta dengan string: kunci ID"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"Nilai-nilai yang dapat dibaca manusia tidak valid: Nilai harus berurutan; Setiap item harus nol atau string"
+
+":values must be present to fetch :human_readable_values"
+": Nilai harus hadir untuk mengambil: human_readable_values"
+
+"Field values total length is > {0}."
+"Nilai bidang Total panjangnya> {0}."
+
+"snippet names cannot include '}' or start with spaces"
+"Nama cuplikan tidak dapat memasukkan '}' atau mulai dengan spasi"
+
+"Error executing chain filter query"
+"Kesalahan mengeksekusi kueri filter rantai"
+
+"Field {0} does not exist."
+"Bidang {0} tidak ada."
+
+"Cannot search against non-Text Field {0} {1}"
+"Tidak dapat mencari di bidang non-teks {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"Memberikan izin untuk grup {0}: {1}"
+
+"Revoking permissions for group {0}: {1}"
+"Cabut izin untuk grup {0}: {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"Izin DB Tidak Valid: Jika Anda memiliki akses tulis untuk kueri asli, Anda harus memiliki akses data lengkap."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"Permission DB tidak valid: Jika Anda memiliki akses permintaan asli Readonly, Anda juga harus memiliki akses data."
+
+"Changing permissions from: {0} to: {1}"
+"Mengubah izin dari: {0} ke: {1}"
+
+"login attribute keys must be a keyword or string"
+"Kunci atribut login harus menjadi kata kunci atau string"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Bahasa default untuk semua pengguna di MetaBase UI, email sistem, pulsa, dan peringatan."
+
+"Users can individually override this default language from their own account settings."
+"Pengguna secara individual dapat menimpa bahasa default ini dari pengaturan akun mereka sendiri."
+
+"Default page to show the user"
+"Halaman default untuk menampilkan pengguna"
+
+"Allow this origin to embed the full Metabase application"
+"Izinkan asal ini untuk menanamkan aplikasi metabase penuh"
+
+"Values greater than {0} ({1}) are not allowed."
+"Nilai lebih besar dari {0} ({1}) tidak diizinkan."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"Ini akan menggantikan kata \"Metabase\" di mana pun muncul."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"Ini adalah warna utama yang digunakan dalam grafik dan di seluruh metabase. Anda mungkin perlu menyegarkan browser Anda untuk melihat perubahan Anda berlaku."
+
+"For best results, use an SVG file with a transparent background."
+"Untuk hasil terbaik, gunakan file SVG dengan latar belakang transparan."
+
+"The url or image that you want to use as the favicon."
+"URL atau gambar yang ingin Anda gunakan sebagai Favicon."
+
+"Allow logging in by email and password."
+"Izinkan masuk melalui email dan kata sandi."
+
+"Unable to validate token"
+"Tidak dapat memvalidasi token"
+
+"Token format is invalid."
+"Format token tidak valid."
+
+"Error validating token"
+"Kesalahan Validasi Token."
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"Penyaringan kesalahan terhadap bidang {0}: Tidak dapat menguraikan string {1} ke {2}"
+
+"Error fetching details for Job: {0}"
+"Kesalahan mengambil detail untuk pekerjaan: {0}"
+
+"Starting sync task for Database {0}."
+"Mulai Sinkronisasi tugas untuk basis data {0}."
+
+"Cannot sync Database {0}: Database does not exist."
+"Tidak dapat menyinkronkan basis data {0}: Basis data tidak ada."
+
+"Update Field values task triggered for Database {0}."
+"Perbarui nilai bidang bidang yang dipicu untuk basis data {0}."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"Pembaruan Skipping, pembaruan nilai bidang otomatis dinonaktifkan untuk basis data {0}."
+
+"Periodically refingerprint tables"
+"Tabel RefringRint secara berkala"
+
+"Unable to run internal query function: cannot resolve {0}"
+"Tidak dapat menjalankan fungsi kueri internal: tidak dapat menyelesaikan {0}"
+
+"Audit App queries are not enabled on this instance."
+"Kueri aplikasi audit tidak diaktifkan pada contoh ini."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"Fungsi kueri internal tidak valid: {0} tidak ditandai sebagai ^: internal-query-fn"
+
+"Error: sandboxing is not enabled for this instance."
+"GALAT: Sandboxing tidak diaktifkan untuk instance ini."
+
+"Please check you have set a valid Enterprise token and try again."
+"Silakan periksa Anda telah menetapkan token perusahaan yang valid dan coba lagi."
+
+"No permissions found for current user"
+"Tidak ada izin yang ditemukan untuk pengguna saat ini"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"Pengguna '' {0} '' berusaha mengakses bidang yang tidak dapat diakses. Bidang yang dapat diakses {1}, bidang dalam kueri {2}"
+
+"User not able to query field"
+"Pengguna tidak dapat menanyakan bidang"
+
+"Found more than one group table access policy for user ''{0}''"
+"Menemukan lebih dari satu kebijakan akses tabel grup untuk pengguna '{0}' '"
+
+"Query requires user attribute `{0}`"
+"Kueri membutuhkan atribut pengguna `{0}`"
+
+"invalid --mode value"
+"Nilai - moda tidak valid."
+
+"invalid --on-error value"
+"Nilai Kesalahan - tanpa kesalahan"
+
+"invalid context seed value"
+"Nilai benih konteks tidak valid"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"Dump diproduksi menggunakan versi metabase yang berbeda. Semuanya bisa pecah!"
+
+"Error loading dump: {0}"
+"Kesalahan memuat dump: {0}"
+
+"{0} is not a valid user"
+"{0} bukan pengguna yang valid"
+
+"Error dumping {0}"
+"Kesalahan dumping {0}"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"Tidak ditemukan pengguna admin! Setidaknya satu pengguna admin diperlukan untuk bertindak sebagai pemilik untuk semua entitas yang dimuat."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"Galat Memuat Ketergantungan: Referensi ke entitas yang tidak dikenal {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"Tidak bisa menyelesaikan {0} dalam nama sepenuhnya memenuhi syarat {1}"
+
+"Model {0} does not support upsert"
+"Model {0} tidak mendukung upsert"
+
+"Error inserting {0}"
+"Kesalahan memasukkan {0}"
+
+"Inserting {0}"
+"Memasukkan {0}"
+
+"{0} already exists -- skipping"
+"{0} sudah ada - melewatkan"
+
+"Skipping {0} (nothing to update)"
+"Melewatkan {0} (tidak ada untuk memperbarui)"
+
+"Updating {0}"
+"Memperbarui {0}"
+
+"Error updating {0}"
+"GALAT Memperbarui {0}"
+
+"SSO has not been enabled and/or configured"
+"SSO belum diaktifkan dan / atau dikonfigurasi"
+
+"SSO requires a valid token"
+"SSO membutuhkan token yang valid"
+
+"Error returning SSO entry point"
+"Kesalahan mengembalikan titik masuk SSO"
+
+"Error logging in"
+"Kesalahan saat masuk"
+
+"Can't create new JWT user when JWT is not configured"
+"Tidak dapat membuat pengguna JWT baru ketika JWT tidak dikonfigurasi"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO belum diaktifkan dan / atau dikonfigurasi"
+
+"Invalid SAML configuration: could not find user email."
+"Konfigurasi SAML tidak valid: Tidak dapat menemukan email pengguna."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"Kami mencoba mencari {0}, tetapi tidak dapat menemukan atributnya."
+
+"Please make sure your SAML IdP is properly configured."
+"Pastikan SAML IDP Anda dikonfigurasi dengan benar."
+
+"SAML has not been enabled and/or configured"
+"SAML belum diaktifkan dan / atau dikonfigurasi"
+
+"Warning: expected `redirect` param, but none is present"
+"PERINGATAN: Param Redirect` yang diharapkan, tetapi tidak ada yang ada"
+
+"Error generating SAML request"
+"Kesalahan menghasilkan permintaan SAML"
+
+"Unable to log in: SAML IdP certificate is not set."
+"Tidak dapat masuk: Sertifikat IDP SAML tidak diatur."
+
+"SAML response validation failed"
+"Validasi respons SAML gagal"
+
+"Unable to log in: SAML response validation failed"
+"Tidak dapat masuk: validasi respons SAML gagal"
+
+"Unable to log in: SAML info does not contain user attributes."
+"Tidak dapat masuk: Info SAML tidak mengandung atribut pengguna."
+
+"Enable SAML authentication."
+"Aktifkan otentikasi SAML."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"Ini adalah URL di mana pengguna Anda pergi untuk masuk ke penyedia identitas Anda. Tergantung pada IDP mana Anda akan\nMenggunakan, ini biasanya terlihat seperti https://your-org-name.example.com atau https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"Kesalahan parsing sertifikat penyedia identitas SAML"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"Sertifikat Penyedia Identitas Tidak Valid. Sertifikat harus berupa string yang dikodekan basis-64."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"Sertifikat yang dikodekan untuk penyedia identitas. Tergantung pada IDP Anda, Anda mungkin perlu mengunduh ini,\nBuka dalam editor teks, lalu salin dan tempel konten sertifikat di sini."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"Ini adalah pengidentifikasi unik untuk IDP. Sering disebut sebagai id entitas atau hanya 'emiten'. Tergantung\nPada IDP Anda, ini biasanya terlihat seperti http://www.example.com/141xkex604w0q5pn724v"
+
+"This application name will be used for requests to the Identity Provider"
+"Nama aplikasi ini akan digunakan untuk permintaan ke penyedia identitas"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"Jalur absolut ke file keystore untuk digunakan untuk menandatangani permintaan SAML"
+
+"Password for opening the keystore"
+"Kata sandi untuk membuka keystore"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Alias ​​untuk kunci yang harus digunakan metabase untuk menandatangani permintaan SAML"
+
+"SAML attribute for the user''s email address"
+"Atribut SAML untuk alamat email pengguna"
+
+"SAML attribute for the user''s first name"
+"Atribut SAML untuk nama depan pengguna"
+
+"SAML attribute for the user''s last name"
+"Atribut SAML untuk nama belakang pengguna"
+
+"Enable group membership synchronization with SAML."
+"Aktifkan sinkronisasi keanggotaan grup dengan SAML."
+
+"SAML attribute for group syncing"
+"Atribut SAML untuk sinkronisasi grup"
+
+"JSON containing SAML to Metabase group mappings."
+"JSON berisi SAML ke Metabase Group Mappings."
+
+"Enable JWT based authentication"
+"Aktifkan Otentikasi Berbasis JWT"
+
+"URL of JWT based login page"
+"URL Halaman Login Berbasis JWT"
+
+"String used to seed the private key used to validate JWT messages"
+"String digunakan untuk menyaui kunci pribadi yang digunakan untuk memvalidasi pesan JWT"
+
+"Key to retrieve the JWT user's email address"
+"Kunci untuk mengambil alamat email pengguna JWT"
+
+"Key to retrieve the JWT user's first name"
+"Kunci untuk mengambil nama depan pengguna JWT"
+
+"Key to retrieve the JWT user's last name"
+"Kunci untuk mengambil nama belakang pengguna JWT"
+
+"Key to retrieve the JWT user's groups"
+"Kunci untuk mengambil grup pengguna JWT"
+
+"Enable group membership synchronization with JWT."
+"Aktifkan sinkronisasi keanggotaan grup dengan JWT."
+
+"JSON containing JWT to Metabase group mappings."
+"JSON berisi JWT ke Metabase Group Mappings."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"Haruskah pemberitahuan email baru dikirim ke Admin, untuk semua pengguna SSO baru?"
+
+"New SSO user created: {0} ({1})"
+"Pengguna SSO baru dibuat: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"Peringatan Tidak Valid: Peringatan tidak memiliki kartu yang terkait dengannya"
+
+"Error determining whether Database supports nested queries"
+"Kesalahan menentukan apakah basis data mendukung kueri bersarang"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"Param query tidak valid: tidak dapat menentukan sclug untuk parameter dengan ID {0}"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"Tidak dapat mencari nilai: {0} bukan parameter yang diaktifkan."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"Anda tidak dapat menentukan nilai untuk {0} jika sudah diatur di JWT."
+
+"Error compiling HoneySQL form"
+"Kesalahan Mengompilasi Formulir HoneySQL"
+
+"Not a valid Database/Database ID/JDBC spec"
+"Bukan basis data / data basis data yang valid / spesifikasi JDBC"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"Nilai harus berupa peta dengan tombol `{0}`, `{1}`, `{2}`, dan `{3}`."
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"Tidak Membuat Driver Proxy JDBC untuk Kelas {0} - Driver Asli dimuat oleh System Classloader"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"Kueri mengambil {0} untuk menjalankan; minimum untuk kelayakan cache adalah {1}"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"Tidak dapat menyelesaikan bidang yang bergabung karena ambigu bergabung: tabel {0} (id {1}) bergabung beberapa kali. Anda perlu membungkus referensi bidang secara eksplisit: klausa bidang bergabung."
+
+"Error normalizing form."
+"Kesalahan bentuk normalisasi."
+
+"Error canonicalizing query"
+"Kesalahan Canonicicizing Query."
+
+"Error performing whole query transformations"
+"Kesalahan melakukan transformasi query utuh"
+
+"Error normalizing query"
+"Kesalahan menormalkan kueri"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"Kartu Sandbox tidak dapat mengembalikan kolom yang tidak ada di tabel mereka kotak pasir."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"Kartu Sandbox tidak dapat mengembalikan kolom yang memiliki tipe yang berbeda dari tabel yang mereka sandboxing."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"Tidak dapat memperbarui kartu: Kartu digunakan untuk sandboxing, dan pembaruan akan melanggar aturan kotak pasir."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"Anda tidak dapat mengubah ID tabel gtap setelah dibuat."
+
+"`database` is required for all queries."
+"`Database` diperlukan untuk semua kueri."
+
+"copied {0} instances."
+"disalin instance {0}."
+
+"Copying instances of {0}..."
+"Menyalin instance {0} ..."
+
+"Error copying instances of {0}"
+"Kesalahan menyalin instance {0}"
+
+"Temporarily disabling DB constraints..."
+"Menonaktifkan kendala DB sementara ..."
+
+"Re-enabling DB constraints..."
+"Mengaktifkan kembali kendala DB ..."
+
+"Setting Postgres sequence ids to proper values..."
+"Pengaturan ID urutan Postgres ke nilai yang tepat ..."
+
+"Set up {0} source database and run migrations..."
+"Atur {0} basis data sumber dan jalankan migrasi ..."
+
+"Set up {0} target database and run migrations..."
+"Siapkan {0} basis data target dan jalankan migrasi ..."
+
+"Testing if target {0} database is already populated..."
+"Pengujian jika target {0} basis data sudah diisi ..."
+
+"Unsupported application database type: {0} is not currently supported."
+"Jenis basis data aplikasi yang tidak didukung: {0} saat ini tidak didukung."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"Periksa nilai MB_DB_Connection_uri."
+
+"Driver {0} does not support {1}"
+"Driver {0} tidak mendukung {1}"
+
+"No magnitude known for {0}"
+"Tidak ada besarnya yang dikenal dengan {0}"
+
+"Error resolving source query"
+"Kueri Sumber Penyelesaian Kesalahan"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"Lokasi file geojson tidak valid: harus dimulai dengan http: // atau https: // atau menjadi jalur relatif ke file di ClassPath."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"URL mengacu pada host yang memasok metadata hosting internal dilarang."
+
+"Invalid custom GeoJSON."
+"Geojson kustom tidak valid."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"Tidak valid {0}: breakout yang ditentukan pada indeks {1}, tetapi kami hanya memiliki {2} breakouts"
+
+"Error generating pivot queries"
+"Kesalahan menghasilkan kueri pivot"
+
+"Sync the admin group?"
+"Sinkronkan grup admin?"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"Pertanyaan kotak pasir tidak dapat mengembalikan kolom yang memiliki jenis yang berbeda dari tabel yang mereka sandboxing."
+
+"Error preprocessing source query when applying GTAP"
+"Kesalahan Preprocessing Source Query Saat Menerapkan GTAP"
+
+"Error running query to determine metadata"
+"Kesalahan menjalankan kueri untuk menentukan metadata"
+
+"Can't create new SAML user when SAML is not configured"
+"Tidak dapat membuat pengguna SAML baru ketika SAML tidak dikonfigurasi"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"Pengaturan kesalahan disiapkan pernyataan ambil arah ke fetch_forward"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"Pengaturan kesalahan pernyataan ambil arah ke fetch_forward"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"Anda tidak dapat menyimpan pertanyaan ini karena Anda tidak memiliki izin untuk menjalankan kueri-nya."
+
+"Authentication endpoint error"
+"Otentikasi Endpoint Error."
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"Tunnel SSH hanya dapat dibuat untuk koneksi H2 menggunakan protokol TCP"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"Tunnel SSH untuk basis data {0} terlihat tertutup; menandai kolam tidak valid untuk membuka kembali itu"
+
+"Query canceled, calling Statement.cancel()"
+"Query Dibatalkan, Memanggil Pernyataan.Cancel ()"
+
+"Select statement did not produce a ResultSet for native query"
+"Pernyataan Pilih tidak menghasilkan hasil untuk kueri asli"
+
+"We''ve Noticed a New {0} Login, {1}"
+"Kami sudah perhatikan login {0} baru, {1}"
+
+"Don''t know how to process event with model {0}"
+"Jangan tahu cara memproses acara dengan model {0}"
+
+"Failed to process activity event {0}"
+"Gagal memproses acara kegiatan {0}"
+
+"Error sending ''login from new device'' notification email"
+"Kesalahan Mengirim '' Login dari Perangkat Baru '' Email Pemberitahuan"
+
+"You can''t update a LoginHistory after it has been created."
+"Anda tidak dapat memperbarui loginhistory setelah dibuat."
+
+"Setting {0} already registered in {1}"
+"Setting {0} sudah terdaftar di {1}"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"Kontrol seberapa sering detak jantung dikirim ketika terowongan SSH dibuat (dalam hitungan detik)."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"Tidak dapat menemukan ID tabel FK yang cocok untuk FK Field {0}"
+
+"Error optimizing temporal filter clause"
+"Terjadi kesalahan saat mengoptimalkan klausa filter temporal"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"Tidak dapat menyelesaikan bidang yang bergabung karena ambigu bergabung: tabel {0} (id {1}) bergabung beberapa kali. Anda perlu menentukan eksplisit `: alias alias` dalam referensi bidang."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"Bucketing temporal yang tidak didukung: Anda tidak dapat mengikat bidang {0} oleh {1}."
+
+"Error processing additional pivot table query"
+"Kesalahan memproses kueri tabel pivot tambahan"
+
+"Invalid cell format"
+"Format sel tidak benar"
+
+"Enable typeahead search in the Metabase navbar?"
+"Aktifkan pencarian tipeah di navbar metabase?"
+
+"Login request is missing user-agent information"
+"Permintaan login tidak ada informasi agen pengguna"
+
+"Unable to determine login request IP address"
+"Tidak dapat menentukan alamat IP permintaan login"
+
+"Error determining login history for request"
+"Kesalahan menentukan riwayat login untuk permintaan"
+
+"unknown"
+"tidak dikenal"
+
+"Unknown device type"
+"Tipe Perangkat Tidak Dikenal"
+
+"Unknown OS"
+"OS tidak dikenal"
+
+"Unknown browser"
+"Browser tidak dikenal"
+
+"Error geocoding IP addresses"
+"Kesalahan geocoding alamat IP"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"Jenis semantik {0} telah berubah dari '' {1} '' ke '' {2} ''."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"Nama {0} telah berubah dari '' {1} '' ke '' {2} ''."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"Jangan tahu cara memformat {0} sebagai tanggal / waktu yang dapat dibaca manusia"
+
+"Valid coercion strategy"
+"Strategi pemaksaan yang benar"
+
+"value must be a valid coercion strategy."
+"Nilai harus menjadi strategi paksaan yang valid."
+
+"Saved Questions"
+"Pertanyaan yang disimpan"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"Filter pencarian keanggotaan grup. Placeholder '{dn}' dan '{UID}' akan diganti dengan nama dan UID yang dapat dibedakan pengguna."
+
+"Error deleting Sandboxes: {0}"
+"Kesalahan menghapus kotak pasir: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"Mulai beban dari {0} dengan konteks {1}"
+
+"Finished first pass of load; now performing second pass"
+"Selesai first pass found; Sekarang melakukan pass kedua"
+
+"END LOAD from {0} with context {1}"
+"End load dari {0} dengan konteks {1}"
+
+"ERROR LOAD from {0}: {1}"
+"Beban kesalahan dari {0}: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"Mulai dump ke {0} via pengguna {1}"
+
+"END DUMP to {0} via user {1}"
+"Ujung dump ke {0} via pengguna {1}"
+
+"Could not find context for fully qualified card name {0}"
+"Tidak dapat menemukan konteks untuk nama kartu yang sepenuhnya berkualitas {0}"
+
+"Could not find context for fully qualified snippet name {0}"
+"Tidak dapat menemukan konteks untuk nama cuplikan yang sepenuhnya memenuhi syarat {0}"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"Gagal mengeksekusi kueri untuk kartu yang dimuat \"{0}\": {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"Tidak dapat terhubung ke basis data '' {0} '' untuk menyinkronkan tabel yang tidak disembunyikan"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"Tidak dapat mendekripsi aplikasi db dengan mb_encroction_secret_key"
+
+"Invalid domain"
+"Domain tidak valid."
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"Filter pencarian pengguna. Placeholder '{login}' akan diganti dengan login yang disediakan pengguna."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Atribut untuk digunakan untuk email pengguna. (biasanya 'surat' ',' 'email' 'atau' 'userprincipalname' ')"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"Cari basis untuk grup. Tidak diperlukan untuk direktori LDAP yang menyediakan overlay '' anggota '', seperti Active Directory. (Akan dicari secara rekursif)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"Anda tidak diizinkan mengubah pemilik koleksi pribadi."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"Anda tidak diizinkan mengubah tingkat otoritas koleksi pribadi."
+
+"You are not allowed to move a Personal Collection."
+"Anda tidak diizinkan memindahkan koleksi pribadi."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"Anda tidak dapat memperbarui pengumpulanMissionSegrvevision!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"Bidang tidak valid {0} {1}: jatuh kembali ke {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"Untuk membuat nama tabel dan lapangan lebih ramah manusia, Metabase akan menggantikan tanda hubung dan menggarisbawahi di dalamnya dengan spasi."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"Kami akan memodalkan setiap kata saat itu, jadi 'last_visited_at' akan menjadi 'terakhir dikunjungi di'."
+
+"Setting names in would collide: {0} and {1}"
+"Menetapkan nama di akan bertabrakan: {0} dan {1}"
+
+"Indicates when Metabase last checked for new versions."
+"Menunjukkan ketika metabase terakhir diperiksa untuk versi baru."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"URL ini digunakan untuk hal-hal seperti membuat tautan dalam email, penulis redirect,"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"Dan dalam beberapa skenario embedding, sehingga berubah bisa merusak fungsi atau membuat Anda terkunci dari contoh ini."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"Ketika diatur, memberlakukan penggunaan cookie sesi untuk semua pengguna yang kedaluwarsa ketika browser ditutup."
+
+"Error parsing paging parameters: {0}"
+"Kesalahan parsing parameter paging: {0}"
+
+"Error running sync step"
+"Kesalahan menjalankan langkah sinkronisasi"
+
+"Error in sync step {0}"
+"Kesalahan dalam sinkronisasi langkah {0}"
+
+"Error fetching version info; setting version-info value to nil"
+"Error mengambil info versi; Mengatur nilai info versi ke nihil"
+
+"Valid field semantic type"
+"Jenis semantik bidang yang valid"
+
+"value must be a valid field semantic type."
+"Nilai harus berupa jenis semantik bidang yang valid."
+
+"Valid field relation type"
+"Jenis hubungan lapangan yang valid"
+
+"value must be a valid field relation type."
+"Nilai harus berupa jenis hubungan lapangan yang valid."
+
+"Valid field semantic or relation type"
+"Jenis semantik atau jenis hubungan yang valid"
+
+"value must be a valid field semantic or relation type."
+"Nilai harus berupa semantik bidang atau jenis hubungan yang valid."
+
+"Valid field data type (keyword or string)"
+"Jenis data bidang yang valid (kata kunci atau string)"
+
+"value must be a valid field data type (keyword or string)."
+"Nilai harus berupa tipe data bidang yang valid (kata kunci atau string)."
+
+"Valid field semantic type (keyword or string)"
+"Jenis semantik bidang yang valid (kata kunci atau string)"
+
+"value must be a valid field semantic type (keyword or string)."
+"Nilai harus berupa jenis semantik bidang yang valid (kata kunci atau string)."
+
+"Valid field relation type (keyword or string)"
+"Jenis Hubungan Lapangan yang Valid (Kata Kunci atau String)"
+
+"value must be a valid field relation type (keyword or string)."
+"Nilai harus berupa jenis hubungan lapangan yang valid (kata kunci atau string)."
+
+"Valid field semantic or relation type (keyword or string)"
+"Tipe semantik atau jenis hubungan yang valid (kata kunci atau string)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"Nilai harus berupa semantik bidang atau jenis hubungan (kata kunci atau string)."
+
+"value must be a valid coercion strategy (keyword or string)."
+"Nilai harus berupa strategi paksaan yang valid (kata kunci atau string)."
+
+"password is too common."
+"Kata sandi terlalu umum."
+
+"Invalid custom GeoJSON"
+"Geojson kustom yang tidak valid"
+
+"GeoJSON URL failed to load"
+"URL Geojson gagal memuat"
+
+"Error building query parameter map: {0}"
+"Galat Building Query Parameter Peta: {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"Plugin '' {0} '' Tergantung pada variabel lingkungan '' {1} '' sedang diatur ke sesuatu"
+
+"Down"
+"Turun"
+
+"Up"
+"Ke atas"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"Diizinkan alamat email Domain (S) untuk dasbor baruPript dan peringatan. Tidak mempengaruhi langganan yang ada."
+
+"Invalid email address: {0}"
+"Alamat email tidak valid: {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"Anda tidak dapat membuat langganan baru untuk domain {0}. Domain yang diizinkan adalah: {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"Titik akhir API ini hanya diaktifkan jika Anda memiliki token premium dengan fitur {0}."
+
+"Error compiling audit query: {0}"
+"Kesalahan kompilasi kueri audit: {0}"
+
+"Error running audit query: {0}"
+"Kesalahan menjalankan kueri audit: {0}"
+
+"Error parsing Pulse parameters: {0}"
+"Kesalahan parsing parameter pulsa: {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Diblokir: Anda tidak diizinkan menjalankan kueri dengan basis data {0}."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"Tidak dapat menguraikan grafik izin karena tidak valid: {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"Hash dari basis data {0} Detail berubah; menandai kolam tidak valid untuk membuka kembali itu"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"Izin DB Tidak Valid: Jika Anda memiliki akses tulis untuk kueri asli, Anda harus memiliki akses data lengkap."
+
+"Error parsing permissions tree {0}"
+"Kesalahan parsing izin pohon {0}"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"ID Koleksi dari langganan dasbor tidak dapat dimodifikasi secara langsung"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"ID Dasbor dari langganan dasbor tidak dapat dimodifikasi"
+
+"Javascript resource not found: {0}"
+"Sumber daya javascript tidak ditemukan: {0}"
+
+"Found new version for DB: {0}"
+"Ditemukan versi baru untuk db: {0}"
+
+"Rerun queries for simple explorations"
+"Runer Queries untuk eksplorasi sederhana"
+
+"Choose when syncs and scans happen"
+"Pilih saat sinkronisasi dan pemindaian terjadi"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"Secara default, Metabase melakukan sinkronisasi per jam ringan dan pemindaian harian intensif nilai bidang. Jika Anda memiliki basis data besar, putar ini untuk membuat perubahan."
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"Ini memungkinkan metabase untuk memindai nilai bidang tambahan selama sinkronisasi yang memungkinkan perilaku yang lebih cerdas, seperti menaikkan binning otomatis pada grafik bar Anda."
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"Secara default \"Situs URL\" digunakan dalam tautan pemberitahuan, tetapi dapat diganti."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"Kesalahan Preprocessing Source Query Saat Menerapkan GTAP: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Pengidentifikasi unik untuk digunakan dalam analitik salju, untuk mengidentifikasi instance metabase ini."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"Ini adalah pengaturan publik karena beberapa peristiwa analitik dikirim sebelum pengaturan awal."
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Boolean menunjukkan apakah kolektor salju tersedia untuk menerima acara analitik."
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Harus diatur melalui variabel lingkungan dalam tes Cypress atau selama pengembangan lokal."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Boolean menunjukkan apakah peristiwa Analytics sedang dikirim ke Snowplow."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"Benar Jika pelacakan anonim diaktifkan untuk contoh ini, dan kolektor salju tersedia."
+
+"The URL of the Snowplow collector to send analytics events to."
+"URL pengumpul bajak salju untuk mengirim acara analitik ke."
+
+"Error sending Snowplow analytics event {0}"
+"Kesalahan Mengirim Acara Snowplow Analytics {0}"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"Waktu perkiraan di mana instance metabase ini dibuat, untuk dimasukkan dalam analitik."
+
+"Unverified due to edit"
+"Tidak terverifikasi karena edit"
+
+"Card {0} does not exist or does not have a valid query."
+"Kartu {0} tidak ada atau tidak memiliki kueri yang valid."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"Anda harus memiliki izin data untuk menambahkan parameter yang mereferensikan tabel {0}."
+
+"No matching parameter with slug {0}. Found: {1}"
+"Tidak ada parameter yang cocok dengan Slug {0}. Ditemukan: {1}"
+
+"Could not invite user because email is not configured."
+"Tidak dapat mengundang pengguna karena email tidak dikonfigurasi."
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"Apakah tim Anda menggunakan kendur? Jika demikian, Anda dapat mengirim pembaruan otomatis melalui langganan dasbor."
+
+"invalid token"
+"Token tidak valid."
+
+"Slack channel not found."
+"Slack Channel tidak ditemukan."
+
+"channel not found"
+"Saluran tidak ditemukan"
+
+"Unrecognized modal: {0}"
+"Modal tidak dikenal: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"Tidak dapat mendekripsi nilai rahasia dengan mb_encroction_secret_key"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"Alamat IP database Anda (mis. 98.137.149.56) atau nama domainnya (mis. Esc.mydatabase.com)."
+
+"username"
+"nama pengguna"
+
+"Use a secure connection (SSL)"
+"Gunakan koneksi yang aman (SSL)"
+
+"Use an SSH tunnel"
+"Gunakan terowongan SSH"
+
+"Enable this ssh tunnel?"
+"Aktifkan terowongan SSH ini?"
+
+"SSH tunnel host"
+"Host Tunnel SSH."
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"Nama host yang Anda gunakan untuk terhubung untuk terhubung ke terowongan SSH."
+
+"SSH tunnel port"
+"SSH Tunnel Port."
+
+"SSH tunnel username"
+"SSH Tunnel Username."
+
+"The username you use to login to your SSH tunnel."
+"Nama pengguna yang Anda gunakan untuk masuk ke terowongan SSH Anda."
+
+"SSH tunnel password"
+"Kata sandi Tunnel SSH."
+
+"SSH private key to connect to the tunnel"
+"Kunci pribadi SSH untuk terhubung ke terowongan"
+
+"Paste the contents of an ssh private key here"
+"Rekatkan isi kunci pribadi SSH di sini"
+
+"Passphrase for SSH private key"
+"Frasa sandi untuk kunci pribadi SSH"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"Kami mengeksekusi kueri yang mendasarinya ketika Anda menjelajahi data menggunakan Ringkasan atau Filter."
+
+"This is on by default but you can turn it off if performance is slow."
+"Ini secara default tetapi Anda dapat mematikannya jika kinerja lambat."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"Ini adalah proses ringan yang memeriksa pembaruan untuk skema basis data ini."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"Dalam kebanyakan kasus, Anda harus baik-baik saja meninggalkan set ini untuk menyinkronkan setiap jam."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"Jika database Anda berada di belakang firewall, Anda mungkin perlu mengizinkan koneksi dari alamat IP Metabase Cloud kami:"
+
+"Error querying database {0} for current time: {1}"
+"Database kueri kesalahan {0} untuk waktu saat ini: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"GALAT: Beberapa nilai yang ditentukan untuk parameter; Parameter filter non-bidang hanya dapat memiliki satu nilai."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"Jalur lokal relatif terhadap di mana metabase sedang berjalan. String Anda seharusnya tidak termasuk ekstensi .mv.db."
+
+"SSL Mode"
+"Mode SSL."
+
+"SSL Root Certificate (PEM)"
+"Sertifikat Root SSL (PEM)"
+
+"Authenticate client certificate?"
+"Mengotentikasi sertifikat klien?"
+
+"SSL Client Certificate (PEM)"
+"Sertifikat Klien SSL (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"Kunci Klien SSL (PKCS-8 / DER atau PKCS-12)"
+
+"SSL Client Key Password"
+"Kata Sandi Klien Klien SSL"
+
+"Unable to substitute parameters: {0}"
+"Tidak dapat mengganti parameter: {0}"
+
+"Expected native source query to be a string, got: {0}"
+"Permintaan sumber asli yang diharapkan menjadi string, dapatkan: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"Parameter kueri sumber asli yang diharapkan untuk berurutan, dapatkan: {0}"
+
+"No expression named {0} at this level of the query"
+"Tidak ada ekspresi bernama {0} pada tingkat kueri ini"
+
+"Error compiling :field clause: {0}"
+"Kompilasi Kesalahan: klausa bidang: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"Peringatan: driver {0} menggunakan {1}. Metode ini sudah usang dalam {2} dan akan dihapus dalam rilis di masa depan."
+
+"Error setting connection to autoCommit false"
+"Kesalahan pengaturan koneksi ke autocommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"Pengaturan kesalahan disiapkan Pernyataan ambil ukuran untuk mengambil ukuran"
+
+"Error setting statement fetch size to fetch-size"
+"Kesalahan pengaturan pernyataan ambil ukuran untuk mengambil ukuran"
+
+"Error executing query: {0}"
+"Kesalahan mengeksekusi kueri: {0}"
+
+"Local file path"
+"Jalur file lokal"
+
+"Uploaded file path"
+"Path file yang diunggah"
+
+"File path"
+"File path."
+
+"Error invoking getter for connection property {0}"
+"Error donoking getter untuk properti koneksi {0}"
+
+"Only these..."
+"Hanya ini..."
+
+"All except..."
+"Semua kecuali..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"Nama yang dipisahkan koma {0} yang <strong> harus </ strong> muncul dalam metabase"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"Anda dapat menggunakan pola seperti <strong> auth * </ strong> untuk mencocokkan beberapa {0}"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"Nama-nama koma yang dipisahkan dari {0} yang <strong> tidak boleh </ strong> muncul dalam metabase"
+
+"Your Slack connection stopped working"
+"Koneksi kendur Anda berhenti bekerja"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"ID Klien untuk Google Masuk. Jika ini diatur, Google Masuk dianggap diaktifkan."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"ID Klien Masuk Google Tidak Valid: harus diakhiri dengan \".Apps.googleusercontent.com\""
+
+"Invalid Google Sign-In token."
+"Token sign-in google tidak valid."
+
+"Google Sign-In token appears to be incorrect. "
+"Token Masuk Google tampaknya salah."
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"Berhasil mengautentikasi token sign-in google untuk: {0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"Token Slack API yang usang untuk menghubungkan Metabase Slack Bot."
+
+"Please use a new Slack app integration instead."
+"Silakan gunakan integrasi aplikasi slack baru sebagai gantinya."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"Bot Pengguna OAuth Token untuk menghubungkan aplikasi Metabase Slack."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"Ini harus digunakan untuk semua integrasi slack baru yang dimulai pada metabase v0.42.0."
+
+"Whether the current Slack app token, if set, is valid."
+"Apakah token aplikasi slack saat ini, jika diatur, valid."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Setel ke 'false' jika permintaan API kendur mengembalikan kesalahan auth."
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"Nama saluran yang dimaksud dengan file metabase harus diunggah"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 Token otorisasi slack Anda tidak valid atau telah dicabut. Harap perbarui integrasi Anda dalam Pengaturan Admin -> Slack."
+
+"Slack channel named `{0}` is missing!"
+"Saluran Slack bernama `{0}` hilang!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"Saluran digunakan untuk menyimpan gambar yang termasuk dalam langganan dasbor."
+
+"You do not have curate permissions for this Collection."
+"Anda tidak memiliki izin kurasi untuk koleksi ini."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"Dashboard {0} tidak memiliki dashboardcard dengan ID {1}"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"Menghapus ID rahasia {0} dari aplikasi DB karena database kepunyaan ({1}) sedang dihapus"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Nilai tidak valid untuk kolom bidang {0}: {1} bukan keturunan dari semua jenis ini: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"Tidak dapat menggunakan izin blok tanpa memiliki fitur premium izin lanjutan"
+
+"User {0} does not exist."
+"Pengguna {0} tidak ada."
+
+"Wrong email address for User {0}."
+"Alamat email yang salah untuk pengguna {0}."
+
+"Secret ID {0}"
+"ID Rahasia {0}"
+
+"File path for {0}"
+"Path file untuk {0}"
+
+"Path"
+"Jalur"
+
+"{0} points to non-existent file: {1}"
+"{0} Poin ke file yang tidak ada: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (jalur file lokal) tidak dapat digunakan dalam lingkungan yang dihosting metabase"
+
+"Error parsing Setting {0}: {1}"
+"Kesalahan pengaturan parsing {0}: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"Nilai situs-lebar tidak diizinkan untuk mengatur {0}"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"Pengaturan {0} sudah usang pada metabase {1} dan dapat dihapus dalam versi mendatang."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"Menetapkan nama '' {0} '' sudah pensiun; Gunakan nama yang berbeda sebagai gantinya"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Boolean menunjukkan apakah data analitik harus dikirim ke Google Analytics pada frontend"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"Versi metabase yang pemberitahuan tentang penggunaan fitur usang telah ditunjukkan."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Apakah akan menampilkan pesan tentang dasbor pinning. Ini juga akan disembunyikan jika ada dasbor yang disematkan. Admin mungkin menyembunyikan ini untuk mengarahkan pengguna ke konten yang lebih baik daripada data mentah"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"Ini akan mempengaruhi hal-hal seperti pengelompokan minggu atau memfilter dalam kueri GUI."
+
+"It won''t affect most SQL queries,"
+"Itu tidak akan mempengaruhi sebagian besar kueri SQL,"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+" Meskipun digunakan untuk mengatur variabel sesi Week_Start di Snowflake."
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Kesalahan mengambil metabase awan gateway alamat IP:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"Metabase Cloud Gateway IP alamat, untuk mengkonfigurasi koneksi ke DBS di belakang firewall"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"Apakah modal pengantar harus ditampilkan setelah koneksi basis data berikutnya ditambahkan."
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"Default ke FALSE Jika ada basis data non-default telah selesai menyinkronkan instance ini."
+
+"Alert: {0} has {1}"
+"Peringatan: {0} memiliki {1}"
+
+"Nothing to compare to."
+"Tidak ada yang bisa dibandingkan."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"Ketik parameter tidak valid {0} untuk parameter {1}. Jenis parameter harus menjadi salah satu dari: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"Parameter tidak valid: kartu {0} tidak memiliki tag templat bernama {1}."
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"Tidak dapat menyelesaikan parameter kueri yang tidak valid: Parameter tidak ada: ID"
+
+"Dashboard does not have a parameter with ID {0}."
+"Dasbor tidak memiliki parameter dengan ID {0}."
+
+"Query: {0}"
+"Kueri: {0}"
+
+"Error determining expected columns for query: {0}"
+"Kesalahan menentukan kolom yang diharapkan untuk kueri: {0}"
+
+"Nested queries are disabled"
+"Kueri bersarang dinonaktifkan"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"Buruk: klausa bidang {0} untuk bidang {1} pada {2}: klausa harus memiliki: bergabung alias."
+
+"Guessing join {0}"
+"Menebak bergabung {0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"Tidak dapat menyimpulkan gabungan yang sesuai. Kueri mungkin tidak berfungsi seperti yang diharapkan."
+
+"Error resolving Fields in query: {0}"
+"Fields Penyelesaian Kesalahan dalam Kueri: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"Peringatan: Klausa {0} tidak cocok dengan kolom dalam kueri sumber. Mencoba mengoreksi ini menjadi {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"Peringatan: Klausa {0} mengacu pada bidang yang mungkin tidak ada dalam kueri sumber. Kueri mungkin tidak berfungsi seperti yang diharapkan. Ditemukan: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"Diharapkan: klausa Opsi Agregasi, dapatkan {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"Tidak dapat menentukan tabel sumber atau kueri untuk klausa bidang {0}"
+
+"Aggregation does not exist at index {0}"
+"Agregasi tidak ada pada indeks {0}"
+
+"No expression named {0}"
+"Tidak ada ekspresi bernama {0}"
+
+"Sample database DB file ''{0}'' cannot be found."
+"Contoh basis data file db '' {0} '' tidak dapat ditemukan."
+
+"Loading sample database"
+"Memuat database sampel"
+
+"Failed to load sample database"
+"Gagal memuat basis data sampel"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"Sesi Soba Cookie dikonfigurasi ke \"Tidak Ada\", tetapi situs disajikan melalui koneksi tidak aman. Beberapa browser akan menolak cookie dalam kondisi ini."
+
+"Login request is missing device ID information"
+"Permintaan login adalah informasi ID perangkat yang hilang"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"Tidak dapat mendekripsi terenkripsi {0}. Sudahkah Anda mengubah atau lupa untuk mengatur MB_encrytiption_secret_key?"
+
+"Enable this SSH tunnel?"
+"Aktifkan terowongan SSH ini?"
+
+"The hostname that you use to connect to SSH tunnels."
+"Nama host yang Anda gunakan untuk terhubung ke terowongan SSH."
+
+"Paste the contents of an SSH private key here"
+"Rekatkan konten kunci pribadi SSH di sini"
+
+"Allow using a saved question or Model as the source for other queries?"
+"Izinkan menggunakan pertanyaan atau Model yang disimpan sebagai sumber untuk kueri lain?"
+
+"Pulse card query error"
+"Kesalahan kueri kartu pulsa"
+
+"There was a problem with this question."
+"Ada masalah dengan pertanyaan ini."
+
+"Copy of "
+"Salinan dari "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"Rute /api/setup hanya dapat digunakan untuk membuat pengguna pertama, namun pengguna saat ini ada."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"Jumlah maksimum baris yang akan ditampilkan secara khusus pada kueri jenis :rows melalui API."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"Domain alamat email yang diizinkan untuk Langganan dan Lansiran Dasbor baru. Untuk menentukan beberapa domain, pisahkan setiap domain dengan koma, tanpa spasi di antaranya (mis., \"domain1,domain2\"). Untuk mengizinkan semua domain, biarkan bidang kosong. Setelan ini tidak memengaruhi langganan yang ada."
+
+"You do not have permissions to download the results of this query."
+"Anda tidak memiliki izin untuk mengunduh hasil kueri ini."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"Pengguna non-admin tanpa izin pemantauan atau berlangganan hanya diizinkan untuk memperbarui peringatan yang mereka buat"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"Pengguna non-admin tanpa izin pemantauan atau berlangganan tidak diizinkan mengubah saluran untuk peringatan"
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"Pengguna non-admin tanpa izin berlangganan tidak diizinkan untuk menambahkan penerima"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"Manajer Grup hanya diaktifkan jika Anda memiliki token premium dengan fitur izin lanjutan."
+
+"Admin cant be a group manager."
+"Admin tidak bisa menjadi manajer grup."
+
+"Timeline with id {0} not found"
+"Garis waktu dengan id {0} tidak ditemukan"
+
+"Timestamp cannot be null"
+"Stempel waktu tidak boleh nol"
+
+"ERROR {0}: {1}"
+"GALAT {0}: {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Menghapus entri default yang dibuat oleh migrasi Liquibase..."
+
+"Don''t know how to parse date string {0}"
+"Tidak tahu cara mengurai string tanggal {0}"
+
+"Invalid values provided for operator: {0}"
+"Nilai yang diberikan tidak valid untuk operator: {0}"
+
+"Unrecognized operation: {0}"
+"Operasi tidak dikenal: {0}"
+
+"Error determining value for parameter {0}: {1}"
+"Galat saat menentukan nilai untuk parameter {0}: {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"Anda tidak dapat memperbarui ApplicationPermissionsRevision!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"Filter Bidang Tidak Valid: Bidang {0} milik Basis Data {1}, tetapi kuerinya bertentangan dengan Basis Data {2}"
+
+"The engine on a sample database cannot be changed."
+"Mesin pada database sampel tidak dapat diubah."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"Fungsi izin {0} hanya diaktifkan jika Anda memiliki token premium dengan fitur izin lanjutan."
+
+"Unknown setting: {0}"
+"Setelan tidak diketahui: {0}"
+
+"You do not have access to the setting {0}"
+"Anda tidak memiliki akses ke setelan {0}"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"Setelan {0} memungkinkan nilai lokal pengguna dan lokal basis data; ini tidak didukung"
+
+"Error purging old cache entries: {0}"
+"Terjadi kesalahan saat menghapus entri cache lama: {0}"
+
+"Error saving query results to cache: {0}"
+"Terjadi kesalahan saat menyimpan hasil kueri ke cache: {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"Kesalahan saat mencoba mengambil hasil cache untuk kueri dengan hash {0}: {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Cache startup pengguna/saluran yang kendur disegarkan dengan {0} entri, membutuhkan waktu {1}md."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack tidak dikonfigurasi, tidak menyegarkan cache pengguna/saluran slack."
+
+"value must be a valid date string"
+"nilai harus berupa string tanggal yang valid"
+
+"Not allowed to edit group memberships"
+"Tidak diizinkan untuk mengedit keanggotaan grup"
+
+"Connected to"
+"Terhubung dengan"
+
+}

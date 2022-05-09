@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"Database synchroniseren"
+
+"Scanning for Filter Values"
+"Aan het zoeken naar filterwaarden"
+
+"When should Metabase automatically scan and cache field values?"
+"Wanneer moet Metabase de waarden van deze velden automatisch scannen en cachen?"
+
+"Other"
+"Anders"
+
+"Email"
+"E-mail"
+
+"{0} table"
+"{0} tabel"
+
+"Password"
+"Wachtwoord"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Je hebt een beheerder nodig om een Metabase account aan te maken voordat je met Google kan inloggen."
+
+"Our analytics"
+"Onze analyse"
+
+"Unknown"
+"Onbekend"
+
+"Count"
+"Aantal"
+
+"number"
+"aantal"
+
+"Native query"
+"Native query"
+
+"Today"
+"Vandaag"
+
+"Yesterday"
+"Gisteren"
+
+"Week"
+"Week"
+
+"Month"
+"Maand"
+
+"Year"
+"Jaar"
+
+"Slack"
+"Slack"
+
+"results"
+"resultaten"
+
+"Count of {0}"
+"Aantal {0}"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"DELETE /api/alert/:id is verouderd. Wijzig in plaats daarvan de `gearchiveerde` waarde via PUT /api/alert/:id"
+
+"invalid show value"
+"ongeldige showwaarde"
+
+"invalid value for prefix"
+"ongeldige waarde voor voorvoegsel"
+
+"invalid value for rule name"
+"ongeldige waarde voor regelnaam"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"waarde kon niet worden ontleed als base64 gecodeerde JSON"
+
+"Invalid entity type"
+"Ongeldig entiteitstype"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"Ongeldig type vergelijkingsentiteit. Kan alleen een van 'tabel', 'segment' of 'adhoc' zijn"
+
+"Error running query to determine Card result metadata:"
+"Fout bij uitvoeren van zoekopdracht om kaartmetagegevens te bepalen:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+
+"Invalid field: {0}"
+"Ongeldig veld: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"Ongeldige waarde ''{0}'' voor ''{1}'': {2}"
+
+"must be one of: {0}"
+"Moet een van {0} zijn"
+
+"Invalid Request."
+"Ongeldig verzoek."
+
+"Not found."
+"Niet gevonden"
+
+"You don''t have permissions to do that."
+"U hebt geen rechten om dat te doen."
+
+"Internal server error."
+"Interne server foutmelding"
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"Waarschunwing: endpoint {0}/{1} heeft geen docstring."
+
+"starting streaming request"
+"Starten met streamen van request"
+
+"connection closed, canceling request"
+"Connectie gesloten, verzoek annuleren"
+
+"Response not ready, writing one byte & sleeping..."
+"Reactie is niet klaar, 1 byte schrijven & slapen..."
+
+"Public sharing is not enabled."
+"Publiek delen is niet ingeschakeld."
+
+"Embedding is not enabled."
+"Embedden is niet ingeschakeld."
+
+"The object has been archived."
+"Dit object is gearchiveerd. "
+
+"Source query for this query is Card {0}"
+"Bron query voor deze query kaart  is {0}"
+
+"Invalid export format: {0}"
+"Invalide export formaat: {0}"
+
+"Invalid JSON URL or resource: {0}"
+"Invalide JSON URL of object: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON met informatie over aangepaste GeoJSON-bestanden voor gebruik in kaartvisualisaties in plaats van de standaard US State of World GeoJSON."
+
+"Invalid custom GeoJSON key: {0}"
+"Invalide aangepaste GeoJSON sleutel: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+
+"API endpoint does not exist."
+"API endpoint bestaat niet"
+
+"Password did not match stored password."
+"Wachtwoord komt niet overheen met opgeslagen wachtwoord."
+
+"did not match stored password"
+"Komt niet overheen met opgeslagen wachtwoord"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"Probleem met het verbinden met de LDAP server, teruggevallen op lokale authenticatie {0}"
+
+"Invalid reset token"
+"Invalide reset token"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"Als dit is ingesteld, sta je gebruikers toe zich zelf aan te melden als het e-mailadres van hun Google-account afkomstig is van dit domein."
+
+"Email is not verified."
+"E-mailadres is niet geverifieerd."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Je hebt een beheerder nodig om een Metabase-account te maken voordat je Google kunt gebruiken om in te loggen."
+
+"Add a database"
+"Database toevoegen"
+
+"Get connected"
+"Maak verbinding"
+
+"Connect to your data so your whole team can start to explore."
+"Verbind je data zodat je hele team kan verkennen"
+
+"Set up email"
+"E-mail instellen"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"Voeg e-mail instellingen toe zodat je eenvoudig teamleden kan uitnodigen en aan de gang kan met pulsen."
+
+"Set Slack credentials"
+"Slack omgeving koppelen"
+
+"Invite team members"
+"Teamleden uitnodigen"
+
+"Share answers and data with the rest of your team."
+"Deel je antwoorden en data met de rest van je team"
+
+"Hide irrelevant tables"
+"Verberg irrelevante tabellen"
+
+"Curate your data"
+"Beheer je gegevens"
+
+"If your data contains technical or irrelevant info you can hide it."
+"Als je gegevens technische of irrelevante informatie bevatten, kun je deze verbergen."
+
+"Organize questions"
+"Vragen organiseren"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"Heb je veel vragen opgeslagen in {0}? Maak collecties om ze te helpen beheren en context toe te voegen."
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"Metrieken aanmaken"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"Definieer canonieke statistieken om het voor de rest van je team gemakkelijker te maken om de juiste antwoorden te krijgen."
+
+"Create segments"
+"Segmenten aanmaken"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"Houd iedereen op de hoogte door canonieke sets filters te maken die iedereen kan gebruiken bij het stellen van vragen."
+
+"Table ''{0}'' is now visible. Resyncing."
+"Tabel \"{0}\" is nu zichtbaar. Hersynchroniseren."
+
+"Auto bin"
+"Automatische prullenbak"
+
+"Don''t bin"
+"Verwijder niet"
+
+"Day"
+"Dag"
+
+"Minute"
+"Minuut"
+
+"Hour"
+"Uur"
+
+"Quarter"
+"Kwartaal"
+
+"Minute of Hour"
+"Minuut van uur"
+
+"Hour of Day"
+"Uur van dag"
+
+"Day of Week"
+"Dag van de week"
+
+"Day of Month"
+"Dag van de maand"
+
+"Day of Year"
+"Dag van jaar"
+
+"Week of Year"
+"Week van jaar"
+
+"Month of Year"
+"Maand van jaar"
+
+"Quarter of Year"
+"Kwartaal van jaar"
+
+"10 bins"
+"10 verwijderd"
+
+"50 bins"
+"50 verwijderd"
+
+"100 bins"
+"100 verwijderd"
+
+"Bin every 0.1 degrees"
+"Verwijder elke 0.1 graden"
+
+"Bin every 1 degree"
+"Verwijder elke 1 graad"
+
+"Bin every 10 degrees"
+"Verwijder elke 10 graden"
+
+"Bin every 20 degrees"
+"Verwijder elke 20 graden"
+
+"No appropriate image writer found!"
+"Geen geschikte beeldschrijver gevonden!"
+
+"Email address already in use."
+"E-mailadres is al in gebruik."
+
+"Email address already associated to another user."
+"E-mailadres is al in gebruik door een andere gebruiker."
+
+"Not able to reactivate an active user"
+"Kan een actieve gebruiker niet opnieuw activeren"
+
+"Invalid password"
+"Ongeldig wachtwoord"
+
+"All {0}"
+"Alle {0}"
+
+"{0}, all {1}"
+"{0}, alle {1}"
+
+"Comparison of {0} and {1}"
+"Vergelijk {0} en {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"Automatisch gegenereerd vergelijkingsdashboard dat {0} en {1} vergelijkt"
+
+"sum"
+"som"
+
+"average"
+"gemiddelde"
+
+"minumum"
+"Minimum"
+
+"maximum"
+"Maximum"
+
+"distinct count"
+"Unieke rijen"
+
+"standard deviation"
+"standaardafwijking"
+
+"cumulative count"
+"cumulatieve telling"
+
+"cumulative sum"
+"cumulatieve som"
+
+"{0} and {1}"
+"{0} en {1}"
+
+"{0} of {1}"
+"{0} of {1}"
+
+"{0} by {1}"
+"{0} bij {1}"
+
+"{0} in the {1} segment"
+"{0} in het {1} segment"
+
+"{0} segment"
+"{0} segment"
+
+"{0} metric"
+"metriek"
+
+"{0} field"
+"{0} veld"
+
+"\"{0}\" question"
+"\"{0}\" vraag"
+
+"Compare with {0}"
+"Vergelijk met {0}"
+
+"Compare with entire dataset"
+"Vergelijk met volledige dataset"
+
+"Applying heuristic %s to %s."
+"Heuristische %s toepassen op %s."
+
+"Dimensions bindings:n%s"
+"Dimensies binden: n%s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"Using definitions:nMetrics:n%snFilters:n%s"
+
+"Can''t create dashboard for {0}"
+"Kan geen dashboard aanmaken voor {0}"
+
+"{0}st"
+"{0}ste"
+
+"{0}nd"
+"{0}e"
+
+"{0}rd"
+"{0}e"
+
+"{0}th"
+"{0}e"
+
+"at {0}"
+"{0}e"
+
+"on {0}"
+"op {0}"
+
+"in {0} week - {1}"
+"in {0} week - {1}"
+
+"in {0}"
+"in {0}"
+
+"in Q{0} - {1}"
+"in Q{0} - {1}"
+
+"Q{0}"
+"Q{0}"
+
+"{0} is {1}"
+"{0} is {1}"
+
+"{0} is between {1} and {2}"
+"{0} ligt tussen {1} en {2}"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0} ligt tussen {1} en {2}; en {3} ligt tussen {4} en {5}"
+
+"where {0}"
+"waar {0}"
+
+"A closer look at {0}"
+"{0} nader bekijken"
+
+"A closer look at the {0}"
+"{0} nader bekijken"
+
+"Adding %s cards to dashboard %s:n%s"
+"%s kaarten toevoegen aan dashboard %s:n%s"
+
+"0 <= score <= {0}"
+"0 <= score <= {0}"
+
+"1 <= width <= {0}"
+"1 <= breedte <= {0}"
+
+"Valid metrics references"
+"Geldige metriekreferenties"
+
+"Valid filters references"
+"Geldige filtersreferenties"
+
+"Valid group references"
+"Geldige groepsreferenties"
+
+"Valid order_by references"
+"Geldige sorteren bij referenties"
+
+"Valid dashboard filters references"
+"Geldige dashboard filter referenties"
+
+"Valid dimension references"
+"Geldige dimensiereferenties"
+
+"Valid card dimension references"
+"Geldige kaart dimensiereferenties"
+
+"Error parsing %s:n%s"
+"Fout bij het behandelen van %s:n%s"
+
+"No user found with email address ''{0}''. "
+"Geen gebruiker gevonden met e-mailadres \"{0}\""
+
+"Please check the spelling and try again."
+"Controleer de spelling en probeer het opnieuw."
+
+"Resetting password for {0}..."
+"Wachtwoord wordt opnieuw ingesteld voor {0}..."
+
+"OK [[[{0}]]]"
+"OK [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"FAIL [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Gebruik de volgende URL voor je Metabase installatie:"
+
+"Metabase Shutting Down ..."
+"Metabase wordt afgesloten..."
+
+"Metabase Shutdown COMPLETE"
+"Metabase is afgesloten"
+
+"Starting Metabase version {0} ..."
+"Metabase versie {0} wordt gestart..."
+
+"System timezone is ''{0}'' ..."
+"Tijdzone van het systeem is \"{0}\"..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Bezig met initialiseren en migreren van de database. Even geduld, er is tijd voor een bakje koffie..."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"Het lijkt er op dat dit een nieuwe installatie is, bezig met het voorbereiden van de installatiewizard. "
+
+"Metabase Initialization COMPLETE"
+"Metabase Initialization COMPLETE"
+
+"Launching Embedded Jetty Webserver with config:"
+"Launching Embedded Jetty Webserver with config:"
+
+"Shutting Down Embedded Jetty Webserver"
+"Shutting Down Embedded Jetty Webserver"
+
+"Starting Metabase in STANDALONE mode"
+"Starting Metabase in STANDALONE mode"
+
+"Metabase Initialization FAILED"
+"Metabase Initialization FAILED"
+
+"Database has migration lock; cannot run migrations."
+"Database has migration lock; cannot run migrations."
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+
+"Checking if Database has unrun migrations..."
+"Checking if Database has unrun migrations..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+
+"Migration lock is cleared. Running migrations..."
+"Migration lock is cleared. Running migrations..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+
+"Setting up Liquibase..."
+"Setting up Liquibase..."
+
+"Liquibase is ready."
+"Liquibase is ready."
+
+"Verifying {0} Database Connection ..."
+"Verifying {0} Database Connection ..."
+
+"Verify Database Connection ... "
+"Verify Database Connection..."
+
+"Running Database Migrations..."
+"Running Database Migrations..."
+
+"Database Migrations Current ... "
+"Database Migrations Current ..."
+
+"Hmm, we couldn''t connect to the database."
+"Hmmm, we konden geen verbinding maken met de database."
+
+"Make sure your host and port settings are correct"
+"Controleer de ingestelde host en poort instellingen."
+
+"We couldn''t connect to the ssh tunnel host."
+"We konden geen verbinding maken met de SSH tunnel host."
+
+"Check the username, password."
+"Controleer de gebruikersnaam en het wachtwoord."
+
+"Check the hostname and port."
+"Controleer de host en poort."
+
+"Looks like the database name is incorrect."
+"Het lijkt er op dat de databasenaam niet klopt."
+
+"It looks like your host is invalid."
+"Het lijkt er op dat de host ongeldig is."
+
+"Please double-check it and try again."
+"Controleer de gegevens en probeer het opnieuw."
+
+"Looks like your password is incorrect."
+"Het lijkt er op dat het wachtwoord niet klopt."
+
+"Looks like you forgot to enter your password."
+"Het lijkt er op dat je vergeten bent om het wachtwoord in te vullen."
+
+"Looks like your username is incorrect."
+"Het lijkt er op dat je gebruikersnaam niet klopt."
+
+"Looks like the username or password is incorrect."
+"Het lijkt er op dat je gebruikersnaam of wachtwoord niet juist is."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"Connection timezone to use when executing queries. Defaults to system timezone."
+
+"Registered driver {0} {1}"
+"Registered driver {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"No -init-driver function found for ''{0}''"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+
+"Failed to connect to database: {0}"
+"Verbinden met database mislukt: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"Invalid BigQuery identifier: ''{0}''"
+
+"BigQuery statements can't be parameterized!"
+"BigQuery statements can't be parameterized!"
+
+"Failed to set timezone:"
+"Instellen van tijdzone mislukt:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"SQL queries uitvoeren op een H2 database met de standaard admin gebruiker is niet toegestaan. "
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+
+"Found metabase.driver.FixedHiveDriver."
+"Found metabase.driver.FixedHiveDriver."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+
+"Email address you want to use as the sender of Metabase."
+"E-mailadres die je wilt gebruiker als afzender van Metabase."
+
+"The address of the SMTP server that handles your emails."
+"Het adres van de SMTP server die uw e-mail verstuurt."
+
+"SMTP username."
+"SMTP gebruikersnaam."
+
+"SMTP password."
+"SMTP wachtwoord."
+
+"The port your SMTP server uses for outgoing emails."
+"De poort van de SMTP server die uw e-mail verstuurt."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"SMTP beveiligde protocol. (tls, ssl, starttls, of geen)"
+
+"none"
+"geen"
+
+"SMTP host is not set."
+"SMTP host is niet ingesteld."
+
+"Failed to send email"
+"E-mail verzenden mislukt"
+
+"Error testing SMTP connection"
+"Foutmelding bij het testen van SMTP verbinding"
+
+"Enable LDAP authentication."
+"LDAP authenticatie ingeschakeld."
+
+"Server hostname."
+"Server hostnaam."
+
+"Server port, usually 389 or 636 if SSL is used."
+"Server poort, vaak 389 of 636 wanneer SSL wordt gebruikt."
+
+"Use SSL, TLS or plain text."
+"Gebruik SSL, TLS of platte tekst."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"De onderscheidende naam om te binden (wanneer aanwezig), deze gebruiker wordt gebruikt om informatie op te halen van andere gebruikers."
+
+"The password to bind with for the lookup user."
+"Het wachtwoord om te binden voor het opzoeken van gebruikers."
+
+"Search base for users. (Will be searched recursively)"
+"Zoekbasis voor gebruikers. (Wordt recursief doorzocht)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"Filter voor gebruikersopzoeking, de tijdelijke aanduiding '{login}' wordt vervangen door de door de gebruiker opgegeven login."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Kenmerk om te gebruiken voor de e-mail van de gebruiker. (meestal \"mail\", \"email\" of \"userPrincipalName\")"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"Attribuut om te gebruiken voor de voornaam van de gebruiker. (meestal \"givenName\")"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"Attribuut om te gebruiken voor de achternaam van de gebruiker. (meestal \"sn\")"
+
+"Enable group membership synchronization with LDAP."
+"Synchronisatie van groepslidmaatschap met LDAP inschakelen."
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"Zoekbasis voor groepen, niet vereist als uw LDAP-directory een overap met \"memberOf\" biedt. (Wordt recursief doorzocht)"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON met LDAP naar Metabase-groepstoewijzingen."
+
+"Here''s what I can {0}:"
+"Dit is wat ik kan {0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"Ik weet niet hoe ik {0} `{1}` .n {2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"Hier zijn je {0} meest recente kaarten: n {1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"Zou je wat specifieker kunnen zijn? Ik heb deze kaarten gevonden met namen die overeenkomen:n{0}"
+
+"Not Found"
+"Niet gevonden"
+
+"Go home websocket, you're drunk."
+"Ga naar huis websocket, je bent dronken."
+
+"Base-64 encoded public key for this site's SSL certificate."
+"Base-64 gecodeerde openbare sleutel voor het SSL-certificaat van deze site."
+
+"Specify this to enable HTTP Public Key Pinning."
+"Geef dit op om HTTP Public Key Pinning in te schakelen."
+
+"See {0} for more information."
+"Zie {0} voor meer informatie."
+
+"Cannot save Question: source query has circular references."
+"Kan vraag niet opslaan Vraag: bronquery heeft cirkelvormige verwijzingen."
+
+"Card {0} does not exist."
+"Kaart {0} bestaat niet."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"Je hebt geen rechten om native ad-hocquery's uit te voeren voor Database {0}."
+
+"Invalid color"
+"Invalide kleur"
+
+"must be a valid 6-character hex color code"
+"moet een geldige hex-kleurcode van 6 tekens zijn"
+
+"Collection name cannot be blank!"
+"Verzamelingsnaam kan niet leeg zijn!"
+
+"cannot be blank"
+"kan niet leeg zijn"
+
+"Invalid Collection location: path is invalid."
+"Ongeldige afhaallocatie: pad is ongeldig."
+
+"You cannot move a Personal Collection."
+"Je kunt een persoonlijke collectie niet verplaatsen."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"Ongeldige verzamellocatie: sommige of alle bovenliggende items bestaan niet."
+
+"You cannot archive the Root Collection."
+"Je kunt de rootcollectie niet archiveren."
+
+"You cannot archive a Personal Collection."
+"Het is niet mogelijk om een persoonlijke verzameling te archiveren."
+
+"You cannot move the Root Collection."
+"Je kunt de rootcollectie niet verplaatsen."
+
+"You cannot move a Collection into itself or into one of its descendants."
+"Je kunt een verzameling niet naar zichzelf of naar een van zijn afstammelingen verplaatsen."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"Collectie {0} en zijn nakomelingen verplaatsen van {1} naar {2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"Het is niet toegestaan om de eigenaar van een persoonlijke verzameling te wijzigen."
+
+"You're not allowed to move a Personal Collection."
+"Het is niet toegestaan om een persoonlijke verzameling te verplaatsen."
+
+"You cannot move a Collection and archive it at the same time."
+"Je kunt een verzameling niet verplaatsen en tegelijkertijd archiveren."
+
+"You cannot delete a Personal Collection!"
+"U kunt een persoonlijke verzameling niet verwijderen!"
+
+"{0} {1}''s Personal Collection"
+"Persoonlijke verzameling van {0} {1}"
+
+"You cannot update a CollectionRevision!"
+"U kunt een CollectionRevision niet bijwerken!"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"Veld {0} was voorheen automatisch ingesteld om een lijstwidget weer te geven, maar heeft nu {1} waarden."
+
+"Switching Field to use a search widget instead."
+"Veld wijzigen om een zoekwidget te gebruiken."
+
+"Storing updated FieldValues for Field {0}..."
+"Bijgewerkte FieldValues opslaan voor veld {0} ..."
+
+"Storing FieldValues for Field {0}..."
+"Veldwaarden opslaan voor veld {0} ..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase kan proberen uw tabel- en veldnamen om te zetten in voor mensen leesbare versies, b.v. \"somehorriblename\" wordt \"Some Horrible Name\"."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"Dit werkt echter niet zo goed voor de namen in een andere taal dan het Engels."
+
+"Do you want us to take a guess?"
+"Wil je dat we raden?"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"Het is niet mogelijk om rechten van de 'Beheerders' groep weg te nemen."
+
+"Invalid permissions object path: ''{0}''."
+"Ongeldige rechten voor object pad: \"{0}\"."
+
+"You cannot update a permissions entry!"
+"U kunt geen rechten bewerken!"
+
+"Delete it and create a new one."
+"Verwijder een creëer een nieuwe."
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"Je kunt geen rechten bewerken voor een persoonlijke verzameling of de nakomelingen ervan."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"Het lijkt erop dat iemand anders de rechten heeft bewerkt en uw gegevens verouderd zijn."
+
+"Please fetch new data and try again."
+"Haal nieuwe gegevens op en probeer het opnieuw."
+
+"A group with that name already exists."
+"Een groep met deze naam bestaad reeds."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"Je kunt de groep '' {0} '' machtigingen niet bewerken of verwijderen!"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"Je kunt geen gebruikers toevoegen aan of verwijderen uit de groep 'MetaBot'."
+
+"You cannot add or remove users to/from the 'All Users' group."
+"Je kunt geen gebruikers toevoegen aan of verwijderen uit de groep 'Alle gebruikers'."
+
+"You cannot remove the last member of the 'Admin' group!"
+"Je kunt het laatste lid van de groep 'Beheerder' niet verwijderen!"
+
+"You cannot update a PermissionsRevision!"
+"Je kunt een machtigingsherziening niet bijwerken!"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"Ongeldigheidswaarschuwing: aan Alert is geen kaart gekoppeld"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"waarde moet een kaart zijn met de sleutels `{0}`, `{1}` en `{2}`."
+
+"value must be a map with the following keys `({0})`"
+"waarde moet een kaart zijn met de volgende sleutels `({0})`"
+
+"Error calculating permissions for query: {0}"
+"Fout bij het berekenen van machtigingen voor zoekopdracht: {0}"
+
+"Invalid query type: {0}"
+"Ongeldige query type"
+
+"You cannot update a QueryExecution!"
+"Je kunt een QueryExecution niet bijwerken!"
+
+"You cannot update a Revision!"
+"Je kunt een revisie niet bewerken!"
+
+"Updating value of settings-last-updated in DB..."
+"Waarde van instellingen bijwerken - laatst bijgewerkt in DB ..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"Controleren of instellingencache verouderd is (vereist DB-oproep) ..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"Instellingen zijn in een andere instantie gewijzigd en worden hier opnieuw geladen."
+
+"Refreshing Settings cache..."
+"Cache voor instellingen vernieuwen ..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"Ongeldige waarde voor tekenreeks: moet \"waar\" of \"onwaar\" (niet hoofdlettergevoelig) zijn."
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"Je kunt `settings-last-updated` niet zelf bijwerken! Dit gebeurt automatisch."
+
+"Error inserting a new Setting:"
+"Fout bij het invoegen van een nieuwe instelling:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"Er wordt vanuit gegaan dat de instelling al bestaat in de database. De huidige waarde wordt bijgewerkt."
+
+"value must be a map with each value either a string or number."
+"waarde moet een kaart zijn met elke waarde een tekenreeks of nummer."
+
+"Loading plugins in directory {0}..."
+"Plug-ins laden vanuit map {0} ..."
+
+"Loading plugin {0}... "
+"Plugin {0} laden..."
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Het lijkt erop dat u externe afhankelijkheden hebt in uw Metabase-plug-insmap."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"Met Java 9 of hoger kan Metabase ze niet automatisch toevoegen aan uw klassenpad."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"In plaats daarvan moet u ze bij de lancering opnemen met de optie -cp. Bijvoorbeeld:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"Zie https://metabase.com/docs/latest/operations-guide/start.html#java-versions voor meer informatie."
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(Als je Metabase al op deze manier gebruikt, kunt u dit bericht negeren.)"
+
+"Identify when new versions of Metabase are available."
+"Bepaal wanneer nieuwe versies van Metabase beschikbaar zijn."
+
+"Information about available versions of Metabase."
+"Informatie over beschikbare versies van Metabase."
+
+"The name used for this instance of Metabase."
+"De naam die gebruikt wordt voor deze installatie van Metabase."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"De basis-URL van deze Metabase-instantie, b.v. \"http://metabase.mijn-bedrijf.nl\"."
+
+"The default language for this Metabase instance."
+"De standaardtaal voor deze Metabase installatie."
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"Dit is alleen van toepassing op e-mails, pulsen, enz. Browsers van gebruikers geven de taal op die wordt gebruikt in de gebruikersinterface."
+
+"The email address users should be referred to if they encounter a problem."
+"Het e-mailadres wat gebruikers te zien krijgt wanneer zij een probleem tegenkomen."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Schakel het verzamelen van anonieme gebruiksgegevens in om Metabase te helpen verbeteren."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"De URL-sjabloon van de kaarttegelserver die wordt gebruikt in kaartvisualisaties, bijvoorbeeld van OpenStreetMaps of MapBox."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"Beheerders toestaan om openbaar zichtbare koppelingen (en insluitbare iframes) voor vragen en dashboards te maken?"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"Beheerders toestaan om vragen en dashboards veilig in andere applicaties in te sluiten?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"Door het inschakelen van caching zullen resultaten van queries die lang draaien opgeslagen worden."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"De maximale grootte van de cache, per opgeslagen vraag, in kilobytes:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"De absolute maximale tijd om resultaten in de cache te bewaren, in seconden."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase slaat alle opgeslagen vragen op in de cache met een gemiddelde uitvoeringstijd van een query langer dan zoveel seconden:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"Om te bepalen hoe lang het in de cache opgeslagen resultaat van elke opgeslagen vraag moet blijven, nemen we de gemiddelde uitvoeringstijd van de query en vermenigvuldigen die met wat u hier invoert."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"Dus als het uitvoeren van een zoekopdracht gemiddeld 2 minuten duurt en je 10 invoert voor de vermenigvuldiger, blijft de cache-invoer 20 minuten bestaan."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"Wanneer de standaardbinningstrategie wordt gebruikt en een aantal bins niet is opgegeven, wordt dit nummer als standaard gebruikt."
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"Wanneer u de standaardbinningstrategie gebruikt voor een veld van het type Coördinaat (zoals Breedtegraad en Lengtegraad), wordt dit nummer gebruikt als de standaard bin-breedte (in graden)."
+
+"Unable to validate token."
+"Kan token niet valideren."
+
+"Error fetching token status:"
+"Fout bij het ophalen van de tokenstatus:"
+
+"There was an error checking whether this token was valid."
+"Er is een fout opgetreden bij het controleren of deze token geldig was."
+
+"Token validation timed out."
+"Tokenvalidatie is verlopen."
+
+"Invalid token: token isn't in the right format."
+"Ongeldig token: token heeft niet de juiste indeling."
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"Bij de MetaStore controleren of {0} geldig is ..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"Token voor premium insluiting. Ga naar de MetaStore om de jouwe te krijgen!"
+
+"Token is valid."
+"Token is geldig."
+
+"Error setting premium embedding token"
+"Fout bij instellen van premium insluittoken"
+
+"Unable to compare results to goal for alert."
+"Kan resultaten niet vergelijken voor een doel waarschuwing."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"Vraag-ID is \"{0}\" met visualisatie-instellingen \"{1}\""
+
+"Unrecognized alert with condition ''{0}''"
+"Onbekende melding met voorwaarde '' {0} ''"
+
+"Unrecognized channel type {0}"
+"Onbekend kanaaltype {0}"
+
+"Error sending notification!"
+"Fout bij het verzenden van melding!"
+
+"Can't find JS color selector at ''{0}''"
+"Can't find JS color selector at ''{0}''"
+
+"Card has errors: {0}"
+"Kaart heeft fouten: {0}"
+
+"Pulse card render error"
+"Pulskaart renderfout"
+
+"Trimming trailing comment from card with id {0}"
+"Opmerking van kaart wordt bijgewerkt met ID {0}"
+
+"Can't find field with ID: {0}"
+"Kan veld met ID niet vinden: {0}"
+
+"''{0}'' is a required param."
+"\"{0}\" is een vereiste parameter."
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"'' {0} '' gevonden zonder \"{1}\" af te sluiten in zoekopdracht '' {2} ''"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"Kan \"{0}\" niet vervangen: parameter niet opgegeven. Gevonden: {1}"
+
+"You do not have permissions to view Card {0}."
+"Je hebt onvoldoende rechten om Kaart {0} te bekijken."
+
+"You do not have permissions to run this query."
+"Je hebt onvoldoende rechten om deze query uit te voeren."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"Bijwerken van vingerafdruk geprobeerd {0}, bijgewerkt {1}, geen gegevens gevonden {2}, mislukt {3}"
+
+"Total number of fields classified {0}, {1} failed"
+"Totaal aantal geclassificeerde velden {0}, {1} is mislukt"
+
+"Total number of tables classified {0}, {1} updated"
+"Totaal aantal tabellen geclassificeerd {0}, {1} bijgewerkt"
+
+"Error generating fingerprint for {0}"
+"Fout bij het genereren van vingerafdruk voor {0}"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"Bijgewerkte {0} veldwaardesets, {1} gemaakt, {2} verwijderd met {3} fouten"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"Totaal aantal gesynchroniseerde velden {0}, aantal bijgewerkte velden {1}"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"Totaal aantal gesynchroniseerde tabellen {0}, aantal bijgewerkte tabellen {1}"
+
+"Found timezone id {0}"
+"Tijdzone-ID gevonden {0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"Totaal aantal gesynchroniseerde foreign keys {0}, {1} bijgewerkt en {2} tabellen konden niet worden bijgewerkt"
+
+"{0} Database {1} ''{2}''"
+"{0} Database {1} ''{2}''"
+
+"Table {0} ''{1}''"
+"Tabel {0} \"{1}\""
+
+"Field {0} ''{1}''"
+"Veld {0} \"{1}\""
+
+"Field ''{0}''"
+"Veld \"{0}\""
+
+"step ''{0}'' for {1}"
+"stap \"{0}\" voor {1}"
+
+"Completed {0} on {1}"
+"Voltooid in {0} op {1}"
+
+"Start: {0}"
+"Start: {0}"
+
+"End: {0}"
+"Einde: {0}"
+
+"Duration: {0}"
+"Tijdsduur: {0}"
+
+"Completed step ''{0}''"
+"Stap \"{0}\" voltooid"
+
+"Loading tasks namespace:"
+"Loading tasks namespace:"
+
+"Starting Quartz Scheduler"
+"Starting Quartz Scheduler"
+
+"Stopping Quartz Scheduler"
+"Stopping Quartz Scheduler"
+
+"Job already exists:"
+"Taak bestaat al:"
+
+"Loading Metabase..."
+"Metabase wordt geladen..."
+
+"Possible timezone conflict found on database {0}."
+"Possible timezone conflict found on database {0}."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"JVM timezone is {0} and detected database timezone is {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"Configureer een rapporttijdzone om de juiste datum- en tijdconversies te garanderen."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"Saved credentials encryption is ENABLED for this Metabase instance."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"Saved credentials encryption is DISABLED for this Metabase instance."
+
+"nFor more information, see"
+"nFor more information, see"
+
+"value must be an integer."
+"waarde moet een getal zijn."
+
+"value must be a string."
+"waarde moet tekst zijn."
+
+"value must be a boolean."
+"waarde moet een boolean zijn."
+
+"value must be a string that matches the regex `{0}`."
+"waarde moet een string zijn die voldoet aan de volgende regex: \"{0}\"."
+
+"value must satisfy one of the following requirements: "
+"waarde moet voldoen aan een van de volgende vereisten:"
+
+"value may be nil, or if non-nil, {0}"
+"waarde kan nul zijn of, indien niet nul, {0}"
+
+"value must be one of: {0}."
+"waarde moet een van de volgende zijn: {0}."
+
+"value must be an array."
+"waarde moet een array zijn."
+
+"Each {0}"
+"Iedere {0}"
+
+"The array cannot be empty."
+"De array kan niet leeg zijn"
+
+"value must be a non-blank string."
+"waarde moet inhoud bevatten."
+
+"Integer greater than zero"
+"Getal groter dan nul"
+
+"value must be an integer greater than zero."
+"waarde moet een getal zijn groter dan nul."
+
+"Number greater than zero"
+"Getal groter dan nul"
+
+"value must be a number greater than zero."
+"waarde moet een getal zijn groter dan nul."
+
+"Keyword or string"
+"Sleutelwoord of tekst"
+
+"Valid field type"
+"Valide veldtype"
+
+"value must be a valid field type."
+"waarde moet een valide veldtype zijn."
+
+"Valid field type (keyword or string)"
+"Geldig veldtype (trefwoord of string)"
+
+"value must be a valid field type (keyword or string)."
+"waarde moet een geldig veldtype zijn (trefwoord of string)."
+
+"Valid entity type (keyword or string)"
+"Geldig entiteitstype (trefwoord of string)"
+
+"value must be a valid entity type (keyword or string)."
+"waarde moet een geldig entiteitstype zijn (trefwoord of string)."
+
+"Valid map"
+"Geldige kaart"
+
+"value must be a map."
+"waarde moet een kaart zijn."
+
+"Valid email address"
+"Valide e-mailadres"
+
+"value must be a valid email address."
+"waarde moet een valide e-mailadres zijn."
+
+"Insufficient password strength"
+"Onvoldoende wachtwoordsterkte"
+
+"value must be a valid integer."
+"waarde moet een geldig getal zijn."
+
+"value must be a valid integer greater than zero."
+"waarde moet een geldige integer en groter dan 0 zijn."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"waarde moet een geldige boolean zijn (\"true\" of \"false\")."
+
+"value must be a valid JSON string."
+"waarde moet een geldige JSON-string zijn."
+
+"value must be a valid embedding params map."
+"waarde moet een geldige embedding params-map zijn."
+
+"No results"
+"Geen resultaten"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"Instanties van {0} die zich niet in een verzameling bevinden, verplaatsen naar {1} verzameling {2}"
+
+"Failed to grant permissions: {0}"
+"Toekennen van rechten mislukt: {0}"
+
+"Host"
+"Host"
+
+"Port"
+"Poort"
+
+"Database username"
+"Database gebruikersnaam"
+
+"Database password"
+"Databasewachtwoord"
+
+"Database name"
+"Databasenaam"
+
+"birds_of_the_world"
+"birds_of_the_world"
+
+"Additional JDBC connection string options"
+"Extra JDBC-verbindingsreeksopties"
+
+"praxis-beacon-120871"
+"praxis-beacon-120871"
+
+"toucanSightings"
+"toucanSightings"
+
+"Hosts"
+"Host"
+
+"Broker node port"
+"Broker node port"
+
+"Google Analytics Account ID"
+"Google Analytics Account ID"
+
+"Connection String"
+"Connection String"
+
+"Users/camsaul/bird_sightings/toucans"
+"Users/camsaul/bird_sightings/toucans"
+
+"carrierPigeonDeliveries"
+"carrierPigeonDeliveries"
+
+"Authentication Database"
+"Database voor authenticatie"
+
+"Optional database to use when authenticating"
+"Optionele database die gebruikt wordt bij authenticeren"
+
+"Additional Mongo connection string options"
+"Extra Mongo-verbindingsreeksopties"
+
+"Oracle system ID (SID)"
+"Oracle system ID (SID)"
+
+"Usually something like ORCL or XE."
+"Meestal zoiets als ORCL of XE."
+
+"Optional if using service name"
+"Optioneel als u een service naam gebruikt"
+
+"Oracle service name"
+"Oracle service naam"
+
+"Optional TNS alias"
+"Optionele TNS alias"
+
+"hive"
+"hive"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"standaard"
+
+"Filename"
+"Bestandsnaam"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite 😋"
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"Naam van database instantie"
+
+"N/A"
+"N/B"
+
+"Windows domain"
+"Windows domein"
+
+"Unable to release the Liquibase lock after a migration failure"
+"Unable to release the Liquibase lock after a migration failure"
+
+"Use JVM Time Zone"
+"Gebruik JVM tijdzone"
+
+"Not a valid integer: ''{0}''"
+"Geen geldige integer: \"{0}\""
+
+"Embedding is not enabled for this object."
+"Embedden is niet ingeschakeld voor dit object."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"Probleem met het verbinden van de LDAP server, valt terug op lokale authenticatie: {0}"
+
+"When including an offset, a limit must also be included."
+"Bij het opnemen van een offset moet ook een limiet worden opgenomen."
+
+"When including a limit, an offset must also be included."
+"Bij het opnemen van een limiet moet ook een offset worden opgenomen."
+
+"Applying heuristic {0} to {1}."
+"Heuristisch {0} toepassen op {1}."
+
+"Dimensions bindings:n{0}"
+"Dimensies bindingen: n {0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"Definities gebruiken: nMetrieken:n{0}nFilters:n{1}"
+
+"minute"
+"minuut"
+
+"hour"
+"uur"
+
+"day of week"
+"dag van de week"
+
+"day of month"
+"dag van de maand"
+
+"day of year"
+"dag van jaar"
+
+"week"
+"week"
+
+"month"
+"maand"
+
+"quarter"
+"kwartaal"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"{0} kaarten toevoegen aan dashboard {1}: n {2}"
+
+"Error parsing {0}:n{1}"
+"Fout bij parsen {0}: n {1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"WAARSCHUWING: Filteren werkt alleen op dimensies! '' {0} '' is een metriek. Filter negeren."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"WAARSCHUWING: een datum kan niet tot meerdere afzonderlijke intervallen behoren, dus het is niet logisch deze samen te voegen."
+
+"Ignoring these intervals: {0}"
+"Deze intervallen: {0} worden genegeerd"
+
+"WARNING: Don't know how to negate: {0}"
+"WAARSCHUWING: Weet niet hoe de volgende waardes ontkend moet worden: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"WAARSCHUWING: Druid staat limitSpec niet toe in tijdreeksquery's. Negeren van de LIMIT-clausule."
+
+"HoneySQL Form:"
+"HoneySQL Form:"
+
+"Unable to parse date ''{0}''"
+"Kan datum \"{0}\" niet parsen"
+
+"Client closed connection, cancelling query"
+"Client heeft verbinding verbroken, zoekopdracht wordt geannuleerd"
+
+"Setting timezone with statement: {0}"
+"Tijdzone instellen met statement: {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"MONGO AGGREGATION PIPELINE:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"Fout: niet-overeenkomende kolommen in resultaten! Verwacht: {0} Got: {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"Kan geen tijdelijk bestand maken in `{0}` voor e-mailbijlagen"
+
+"Error preprocessing query:"
+"Fout bij het verwerken van de query:"
+
+"Illegal filter clause: {0}"
+"Illegale filterclausule: {0}"
+
+"Invalid clause:"
+"Ongeldige clausule:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Fout: de bronquery van de zoekopdracht is niet opgelost. Waarschijnlijk moet je eerst de query `preprocessen '."
+
+"No expression named ''{0}''"
+"Geen expressie met de naam '' {0} ''"
+
+"No aggregation at index: {0}"
+"Geen aggregatie bij index: {0}"
+
+"Field values total length is {0} (max {1})."
+"De totale lengte van veldwaarden is {0} (max {1})."
+
+"FieldValues are allowed for this Field."
+"Veldwaarden zijn toegestaan voor dit veld."
+
+"FieldValues are NOT allowed for this Field."
+"Veldwaarden zijn NIET toegestaan voor dit veld."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"Veld {0} '' {1} '' moet FieldValues hebben en hoort bij een database met on-demand FieldValues-updates."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"Je kunt geen machtigingen voor de groep '' Beheerder 'maken of intrekken."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"Je kunt geen gebruikers toevoegen aan of verwijderen uit de groep '' Alle gebruikers ''."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"Je kunt het laatste lid van de groep '' Beheerder 'niet verwijderen!"
+
+"Error inserting a new Setting: {0}"
+"Fout bij het invoegen van een nieuwe instelling: {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"tekenreeksen voor defsetting-beschrijvingen moeten zijn:: intern? of geïnternationaliseerd, gevonden: `{0}`"
+
+"Loading plugin {0}... {1}"
+"Plugin {0} laden... {1}"
+
+"Object keyed by type, containing formatting settings"
+"Object mapped bij type, bevat format instellingen"
+
+"Allow users to explore data using X-rays"
+"Gebruikers toestaan om data te verkennen met X-rays"
+
+"Unable to validate token: 404 not found."
+"Kan token niet valideren: 404 niet gevonden."
+
+"There was an error checking whether this token was valid:"
+"Er is een fout opgetreden bij het controleren of deze token geldig is:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"Token voor premium functies. Ga naar de MetaStore om de jouwe te krijgen!"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"Token-indeling is ongeldig. Het token moet 64 hexadecimale tekens zijn."
+
+"Error setting premium features token"
+"Fout bij het instellen van het premium-functietoken"
+
+"Error validating token:"
+"Fout bij het valideren van token:"
+
+"Error preprocessing query"
+"Fout bij het verwerken van de query"
+
+"No native form returned."
+"Geen native vorm geretourneerd."
+
+"Invalid response from database driver. No :status provided."
+"Ongeldig antwoord van databasestuurprogramma. Geen :status opgegeven."
+
+"General error"
+"Algemene fout"
+
+"Missing query hash!"
+"Ontbrekende query hash!"
+
+"Table ''{0}'' has no Fields associated with it."
+"Aan tabel \"{0}\" zijn geen velden gekoppeld."
+
+"Max concurrent query limit reached"
+"Maximale limiet voor gelijktijdige zoekopdracht bereikt"
+
+"Don't know how to get information about Field:"
+"Weet niet hoe je informatie over het volgende veld kunt krijgen:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface/*driver* is unbound."
+
+"Query processor error: mismatched number of columns in query and results."
+"Fout in queryprocessor: aantal kolommen in query en resultaten komt niet overeen."
+
+"Expected {0} fields, got {1}"
+"Verwachtte {0} velden, kreeg {1}"
+
+"Expected: {0}"
+"Verwacht: {0}"
+
+"Actual: {0}"
+"Werkelijk: {0}"
+
+"Unable to bin Field without a min/max value"
+"Kan veld niet binden zonder een min / max-waarde"
+
+"{0} is not supported by this driver."
+"{0} wordt niet ondersteund door dit stuurprogramma."
+
+"Segment {0} does not exist, or is invalid."
+"Segment {0} bestaat niet of is ongeldig."
+
+"Metric {0} does not exist, or is invalid."
+"Metriek {0} bestaat niet, of is ongeldig."
+
+"Missing source query in Card {0}"
+"Bron query mist in kaart {0}"
+
+"Fetched source query from Card {0}:"
+"Bron query opgehaald voor kaart {0}"
+
+"Error transforming MBQL query to native:"
+"Fout bij het transformeren van MBQL-query naar native:"
+
+"Cannot run query: could not find source table {0}."
+"Kan zoekopdracht niet uitvoeren: kan brontabel {0} niet vinden."
+
+"Error recording results metadata for query:"
+"Fout bij het vastleggen van resultaten en metagegevens voor zoekopdracht:"
+
+"Error: Query Processor store is not initialized."
+"Fout: de Query Processor Store is niet geïnitialiseerd."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"Fout: tabel {0} is niet aanwezig in de Query Processor Store."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"Fout: veld {0} is niet aanwezig in de Query Processor Store."
+
+"Task history cleanup successful, rows were {0}deleted"
+"Taakgeschiedenis succesvol opgeruimd, {0} rijen zijn verwijderd"
+
+"not"
+"niet"
+
+"For more information, see"
+"Voor meer informatie, zie"
+
+"Integer greater than or equal to zero"
+"Getal groter dan of gelijk aan nul"
+
+"value must be an integer greater than or equal to zero."
+"waarde moet een getal zijn dat groter is of gelijk is aan nul."
+
+"value must be an integer zero or greater."
+"waarde moet een getal zijn van nul of hoger."
+
+"value must be a valid integer greater than or equal to zero."
+"waarde moet een geldige integer zijn dat groter is of gelijk is aan nul."
+
+"Unable to parse resource `{0}` as JSON"
+"Kan resource `{0}` niet omzetten naar JSON"
+
+"Unable to find JSON via relative path `{0}`"
+"Kan JSON niet vinden via relatief pad `{0}`"
+
+"Connection to host timed out for URL `{0}`"
+"Verbinding met host verlopen voor URL `{0}`"
+
+"Unable to connect to unknown host at URL `{0}`"
+"Kan geen verbinding maken met onbekende host voor URL `{0}`"
+
+"Unable to connect to host at URL `{0}`"
+"Kan geen verbinding maken met host voor URL `{0}`"
+
+"Connection refused by host at for URL `{0}`"
+"Verbinding geweigerd door host op voor URL `{0}`"
+
+"Unable to retrieve resource at URL `{0}`"
+"Kan bron niet ophalen voor URL `{0}`"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"Kan bron voor URL `{0}` niet omzetten naar JSON"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"Probleem bij verbinding maken met LDAP-server, valt terug op lokale authenticatie: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"BigQuery statements can''t be parameterized!"
+
+"We’d love your feedback."
+"We stellen je feedback zeer op prijs."
+
+"It looks like Metabase wasn’t quite a match for you."
+"Het lijkt erop dat Metabase niet echt bij je past."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Zou je 5 korte vragen willen beantwoorden om het Metabase-team beter te helpen begrijpen waarom om zaken in de toekomst beter te maken?"
+
+"We hope you''ve been enjoying Metabase."
+"We hopen dat je geniet van het gebruik van Metabase."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"Zou je een vragenlijst van 6 vragen willen invullen om ons te vertellen hoe Metabase je bevalt?"
+
+"{0} created a Metabase account"
+"{0} heeft een Metabase-account gemaakt"
+
+"{0} accepted their Metabase invite"
+"{0} heeft een Metabase-uitnodiging geaccepteerd"
+
+"[Metabase] Password Reset Request"
+"[Metabase] Verzoek om wachtwoord opnieuw instellen"
+
+"[Metabase] Notification"
+"[Metabase] Kennisgeving"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] Help Metabase beter te maken."
+
+"[Metabase] Tell us how things are going."
+"[Metabase] Vertel ons hoe het gaat."
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+
+"Don't know what to do with:"
+"Weet niet wat te doen met:"
+
+"Don't know how to wrap:"
+"Weet niet hoe uit te lijnen:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"Failed setting `query-caching-max-kb` to {0}."
+
+"Values greater than {1} are not allowed."
+"Waardes groter dan {1} zijn niet toegestaan."
+
+"Database {0} does not exist."
+"Database {0} bestaat niet"
+
+"Error: Database is not present in the Query Processor Store."
+"Fout: database is niet aanwezig in de Query Processor Store."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+
+"JWT is missing `alg`."
+"JWT is missing `alg`."
+
+"JWT `alg` cannot be `none`."
+"JWT `alg` cannot be `none`."
+
+"The embedding secret key has not been set."
+"De embed secret key is niet meegegeven."
+
+"Token is missing value for keypath"
+"Token mist een waarde voor het sleutelpad"
+
+"Previous {0}"
+"Vorige {0}"
+
+"value must be a valid database engine."
+"Waarde moet een geldige database engine zijn."
+
+"Connection refused by host for URL `{0}`"
+"Verbinding geweigerd voor host voor URL `{0}`"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"WAARSCHUWING: het gebruik van Metabase met een H2-applicatiedatabase wordt niet aanbevolen voor productie-implementaties."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"Zie https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres voor meer informatie."
+
+"Unable to connect to Metabase {0} DB."
+"Kan geen verbinding maken met Metabase {0} DB."
+
+"Failed to notify {0} Database {1} updated"
+"Kan {0} database {1} niet bijwerken"
+
+"Loading driver {0} {1}"
+"Driver aan het laden {0} {1}"
+
+"Load driver {0}"
+"Driver laden {0}"
+
+"Driver not registered after loading: {0}"
+"Driver niet geregistreerd na het laden: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"Fout: poging om {0} eigenschap `:abstract?` te wijzigen van {1} naar {2}."
+
+"Registered abstract driver {0}"
+"Abstracte driver geregistreerd {0}"
+
+"Registered driver {0}"
+"Registreer driver {0}"
+
+"(parents: {0})"
+"(bovenliggend: {0})"
+
+"Initializing driver {0}..."
+"Driver initialiseren {0}..."
+
+"Reason:"
+"Reden:"
+
+"Invalid driver feature: {0}"
+"Invalid driver feature: {0}"
+
+"Invalid HoneySQL form:"
+"Invalid HoneySQL form:"
+
+"Closing connection pool for database {0} ..."
+"Closing connection pool for database {0} ..."
+
+"Error loading namespace"
+"Error loading namespace"
+
+"Starting events listener:"
+"Starting events listener:"
+
+"Unexpected error listening on events"
+"Unexpected error listening on events"
+
+"Error syncing Database {0}"
+"Fout bij synchroniseren van database {0}"
+
+"Failed to process sync-database event."
+"Kan sync-database-gebeurtenis niet verwerken."
+
+"Bad nested-query-level: query does not have a source query"
+"Onjuist genest-queryniveau: zoekopdracht heeft geen bronquery"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"Veldwaarden voor veld {0} blijven ongewijzigd. Overslaan ..."
+
+"Unable to normalize:"
+"Kan niet normaliseren:"
+
+"Could not find matching Field ID for target:"
+"Kan geen overeenkomende veld-ID voor doel vinden:"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabase heeft geen rechten om naar plug-ins directory {0} te schrijven"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabase kan de map met plug-ins {0} niet gebruiken"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"Zorg ervoor dat de map bestaat en dat Metabase toestemming heeft om ernaar te schrijven."
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"Je kunt de map die Metabase voor modules gebruikt wijzigen door de omgevingsvariabele MB_PLUGINS_DIR in te stellen."
+
+"Falling back to a temporary directory for now."
+"Voorlopig wordt er teruggevallen op een tijdelijke map."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabase kan niet naar een tijdelijke map schrijven. Stel MB_PLUGINS_DIR in op een beschrijfbare map en start Metabase opnieuw."
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deps.jar is niet langer nodig voor Metabase 1.0+. Je kunt deze verwijderen uit de map met plug-ins."
+
+"Failied to initialize plugin {0}"
+"Kan plug-in {0} niet initialiseren"
+
+"Loading plugins in {0}..."
+"Plug-ins laden in {0} ..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Clojure-basislader gebruiken als gedeelde contextklassenlader: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"Setting current thread context classloader to shared classloader {0}..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+
+"Added URL {0} to classpath"
+"Added URL {0} to classpath"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"Metabase cannot initialize plugin {0} due to required dependencies."
+
+"Class not found: {0}"
+"Class not found: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"Plugin ''{0}'' depends on plugin ''{1}''"
+
+"{0} dependency {1} satisfied? {2}"
+"{0} dependency {1} satisfied? {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"Plugins with unsatisfied deps: {0}"
+
+"Extract file {0} -> {1}"
+"Extract file {0} -> {1}"
+
+"Resource does not exist."
+"Resource does not exist."
+
+"Loading plugin namespace {0}..."
+"Loading plugin namespace {0}..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"Registering JDBC proxy driver for {0}..."
+
+"Deregistering original JDBC driver {0}..."
+"Deregistering original JDBC driver {0}..."
+
+"Default connection property {0} does not exist."
+"Default connection property {0} does not exist."
+
+"Invalid connection property {0}: not a string or map."
+"Invalid connection property {0}: not a string or map."
+
+"Load lazy loading driver {0}"
+"Load lazy loading driver {0}"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"Cannot initialize plugin: missing required property `driver-name`"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"Warning: plugin manifest for {0} does not include connection properties"
+
+"Registering lazy loading driver {0}..."
+"Registering lazy loading driver {0}..."
+
+"Error running query for Card {0}"
+"Error running query for Card {0}"
+
+"Last week"
+"Vorige week"
+
+"This week"
+"Deze week"
+
+"Last month"
+"Vorige maand"
+
+"This month"
+"Deze maand"
+
+"Last quarter"
+"Vorige kwartaal"
+
+"This quarter"
+"Dit kwartaal"
+
+"Last year"
+"Vorig jaar"
+
+"This year"
+"Dit jaar"
+
+"*driver* is unbound."
+"*driver* is unbound."
+
+"Error syncing Fields for Table ''{0}''"
+"Fout bij het synchroniseren van velden in tabel \"{0}\""
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"Hash van {0} komt overeen met de opgeslagen hash, velden synchronisatie wordt overgeslagen."
+
+"Field"
+"Veld"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"Fout bij het controleren of de velden {0} aangemaakt of opnieuw geactiveerd moeten worden."
+
+"Marking Field ''{0}'' as inactive."
+"Velden \"{0}\" markeren als inactief."
+
+"Error retiring {0}"
+"Fout bij het stoppen van {0}"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"Databasetype {0} is gewijzigd van \"{1}\"  in \"{2}\"."
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"Basistype van {0} is gewijzigd van \"{1}\" in \"{2}\"."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"Het speciale type {0} is gewijzigd van \"{1}\" in \"{2}\"."
+
+"Comment has been added for {0}."
+"Er is een reactie toegevoegd voor {0}."
+
+"Stopping Quartz Scheduler {0}"
+"Quartz planner wordt gestop {0}"
+
+"Starting Quartz Scheduler {0}"
+"Quartz planner wordt gestart {0}"
+
+"Error loading tasks namespace {0}"
+"Fout bij laden van taak namespace {0}"
+
+"Initializing task {0}"
+"Taak {0} initialiseren"
+
+"Error initializing task {0}"
+"Fout bij het initialiseren van taak {0}"
+
+"Problem sending abandonment email"
+"Probleem bij het verzenden van verlatingsmail"
+
+"Sending anonymous usage stats."
+"Anonieme gebruiksstatistieken verzenden."
+
+"Error sending anonymous usage stats"
+"Fout bij het verzenden van anonieme gebruiksstatistieken"
+
+"Error sending Pulse {0}"
+"Fout bij het versturen van puls {0}"
+
+"Sending scheduled pulses..."
+"Geplande pulsen verzenden ..."
+
+"SendPulses task failed"
+"De taak SendPulses is mislukt"
+
+"Failed to scheduler tasks for Database {0}"
+"Kan planner van taken voor database {0} niet uitvoeren"
+
+"Cleaning up task history"
+"Taakgeschiedenis opschonen"
+
+"Task history cleanup successful, rows were deleted"
+"Taakgeschiedenis opruimen geslaagd, rijen zijn verwijderd"
+
+"Task history cleanup successful, no rows were deleted"
+"Taakgeschiedenis opruimen geslaagd, er zijn geen rijen verwijderd"
+
+"Checking for new Metabase version info."
+"Zoeken naar nieuwe Metabase-versie-informatie."
+
+"Error fetching version info"
+"Fout bij het ophalen van versie-informatie"
+
+"Maximum memory available to JVM: {0}"
+"Maximum memory available to JVM: {0}"
+
+"Not something with an ID: {0}"
+"Iets met een ID niet gevonden: {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"Metagegevens van de kaartresultaten die zijn doorgegeven aan API ONTBREKEN. Bezig met uitvoeren van zoekopdracht om juiste metagegevens op te halen."
+
+"{0} was autocorrected to {1}"
+"{0} is automatisch gecorrigeerd naar {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"De waarde van is_superuser moet overeenkomen met de aanwezigheid van de beheerdersgroep-ID in groeps-id's."
+
+"Unexpected error writing keepalive characters"
+"Onverwachte fout bij het schrijven van keepalive-tekens"
+
+"Unexpected output in async API response"
+"Onverwachte uitvoer in async API-reactie"
+
+"starting streaming response"
+"starting streaming response"
+
+"Output chan closed, canceling keepalive request."
+"Output chan closed, canceling keepalive request."
+
+"Async response finished, closing channels."
+"Async response finished, closing channels."
+
+"No response after waiting {0}. Canceling request."
+"No response after waiting {0}. Canceling request."
+
+"Input channel unexpectedly closed."
+"Input channel unexpectedly closed."
+
+"f finished, permit will be returned"
+"f finished, permit will be returned"
+
+"request canceled, permit will be returned"
+"request canceled, permit will be returned"
+
+"Unexpected error attempting to run function after obtaining permit"
+"Unexpected error attempting to run function after obtaining permit"
+
+"Not running pending function call: output channel already closed."
+"Not running pending function call: output channel already closed."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"Current thread already has a permit for {0}, will not wait to acquire another"
+
+"Output channel closed, will skip running {0}."
+"Output channel closed, will skip running {0}."
+
+"Running {0} on separate thread..."
+"Running {0} on separate thread..."
+
+"Caught error running {0}"
+"Caught error running {0}"
+
+"Request canceled, canceling future"
+"Request canceled, canceling future"
+
+"Closing old connection pool for database {0} ..."
+"Closing old connection pool for database {0} ..."
+
+"Here''s your {0} most recent cards:"
+"Hier zijn je {0} meest recente kaarten:"
+
+"Card {0} not found."
+"Kaart {0} niet gevonden."
+
+"Exception in API call"
+"Exception in API call"
+
+"Request canceled before finishing."
+"Request canceled before finishing."
+
+"Metabase only supports JSON requests."
+"Metabase only supports JSON requests."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Make sure you set a 'Content-Type: application/json' header."
+
+"Setting Metabase site URL to {0}"
+"Metabase-site-URL instellen op {0}"
+
+"Error scheduling tasks for DB"
+"Fout bij het inplannen van taken voor DB"
+
+"Error unscheduling tasks for DB."
+"Fout bij het verwijderen uit de planning van taken voor DB."
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} Database '' {1} '' planningen voor synchronisatie / analyse zijn gewijzigd!"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"Synchronisatie-metadata was: '' {0} '' is nu: '' {1} ''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Cache FieldValues was: ''{0}'', is nu: ''{1}''"
+
+"You cannot update the creator_id of a Metric."
+"Je kunt de creator_id van een metriek niet bijwerken."
+
+"Failed to grant permissions"
+"Geen machtigingen verleend"
+
+"Changing permissions"
+"Rechten wijzigen"
+
+"FROM:"
+"VAN:"
+
+"TO:"
+"NAAR:"
+
+"You cannot update the creator_id of a Segment."
+"Je kunt de creator_id van een segment niet bijwerken."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"Poging om instelling {0} op verborgen waarde in te stellen. Verandering wordt genegeerd."
+
+"Using value of env var {0}"
+"De waarde van env var {0} gebruiken"
+
+"Adding User {0} to All Users permissions group..."
+"Gebruiker {0} toevoegen aan de machtigingengroep Alle gebruikers ..."
+
+"Adding User {0} to Admin permissions group..."
+"Gebruiker {0} toevoegen aan beheerdersgroep ..."
+
+"Query failure"
+"Query mislukt"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"Maximaal aantal gelijktijdige zoekopdrachten per aangesloten database."
+
+"Timed out after {0} milliseconds."
+"Time-out na {0} milliseconden."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"Probleem bij het verbinding maken met LDAP-server, valt terug op lokale authenticatie"
+
+"Cannot create Database: cannot find driver {0}."
+"Kan database niet aanmaken: kan driver niet vinden {0}"
+
+"Query failed"
+"Query mislukt"
+
+"Warning: {0} returned `nil`"
+"Warning: {0} returned `nil`"
+
+"Unexpected error writing result to output channel: already closed"
+"Unexpected error writing result to output channel: already closed"
+
+"Unexpected error writing exception to output channel: already closed"
+"Unexpected error writing exception to output channel: already closed"
+
+"Request canceled, canceling future."
+"Request canceled, canceling future."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase kan alleen gegevens overbrengen van H2 naar Postgres of MySQL / MariaDB."
+
+"Application database setup"
+"Applicatie database instellen"
+
+"Could not find {0} driver."
+"Kon driver {0} niet vinden."
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"Abstract drivers cannot derive from concrete parent drivers."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"Mogelijk moet je 'trustServerCertificate=true' toevoegen aan de verbindingsopties om verbinding te maken met SSL."
+
+"Don't know how to alias {0}, expected an Identifer."
+"Don't know how to alias {0}, expected an Identifer."
+
+"Client closed connection, canceling query"
+"Client heeft verbinding verbroken, zoekopdracht wordt geannuleerd"
+
+"{0} is not a valid DN."
+"{0} is geen geldige DN."
+
+"Error logging API request"
+"Fout bij het registreren van API-aanvraag"
+
+"Failed to set site-url"
+"Kan site-url niet instellen"
+
+"Error destroying thread pool for DB."
+"Fout bij het vernietigen van thread pool voor DB."
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"Weergavenaam voor {0} '' {1} '' bijwerken: '' {2} '' -> '' {3} ''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"Ongeldige humaniseringsstrategie '' {0} ''. Geldige strategieën zijn: {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Humanisatie-strategie voor tabel- en veldnamen wijzigen van '' {0} '' in '' {1} ''"
+
+"Error saving task history"
+"Fout bij het opslaan van taakgeschiedenis"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+
+"Failed to copy file"
+"Fout bij het kopiëren van bestand"
+
+"Invalid site URL: {0}"
+"Ongeldige site-URL: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"site-url is ongeldig; voorlopig nul. Wordt bij het volgende verzoek gereset."
+
+"More results have been included as a file attachment"
+"Meer resultaten zijn opgenomen als bestandsbijlage"
+
+"This question has been included as a file attachment"
+"Deze vraag is als bijlage toegevoegd"
+
+"We were unable to display this Pulse."
+"We konden deze puls niet weergeven."
+
+"Please view this card in Metabase."
+"Bekijk deze kaart in Metabase."
+
+"An error occurred while displaying this card."
+"Er is een fout opgetreden bij het weergeven van deze kaart."
+
+"Can only determine expected columns for MBQL queries."
+"Kan alleen verwachte kolommen bepalen voor MBQL-query's."
+
+"No columns returned."
+"Geen kolommen ontvangen."
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+
+"Cannot find Table ID for {0}"
+"Kan tabel-ID niet vinden voor {0}"
+
+"No matching info found."
+"Geen overeenkomende info gevonden."
+
+"Could not resolve {0}"
+"Could not resolve {0}"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"Invalid fk-> clause: nowhere to add corresponding join."
+
+"{0} driver does not support foreign keys."
+"driver {0} ondersteund geen foreign keys."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+
+"Query processor error: number of columns returned by driver does not match results."
+"Query processor error: number of columns returned by driver does not match results."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"Verwachtte {0} kolommen, maar eerste rij heeft {1} kolommen."
+
+"No expression named {0} found. Found: {1}"
+"Geen expressie met de naam {0} gevonden. Gevonden: {1}"
+
+"Distinct values of {0}"
+"Unieke waardes van {0}"
+
+"Average of {0}"
+"Gemiddelde van {0}"
+
+"Sum of {0}"
+"Som van {0}"
+
+"SD of {0}"
+"SD van {0}"
+
+"Min of {0}"
+"Minimum van {0}"
+
+"Max of {0}"
+"Maximum van {0}"
+
+"Sum of {0} matching condition"
+"Som van {0} met overeenkomende voorwaarde"
+
+"Share of rows matching condition"
+"Aandeel rijen met overeenkomende voorwaarde"
+
+"Count of rows matching condition"
+"Aantal rijen met overeenkomende voorwaarde"
+
+"Request already canceled, will not run synchronous QP code."
+"Request already canceled, will not run synchronous QP code."
+
+"Unexpectedly got `nil` Query Processor response."
+"Unexpectedly got `nil` Query Processor response."
+
+"Got InterruptedException. Canceling query."
+"Got InterruptedException. Canceling query."
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+
+"Query timed out after %s"
+"Query timed out after %s"
+
+"Creating new query thread pool for Database {0}"
+"Creating new query thread pool for Database {0}"
+
+"Destroying query thread pool for Database {0}"
+"Destroying query thread pool for Database {0}"
+
+"Request canceled, canceling pending query"
+"Aanvraag geannuleerd, queries in wacht worden geannuleerd"
+
+"Cannot update binned field: query is missing source-metadata"
+"Cannot update binned field: query is missing source-metadata"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+
+"Using query processor cache backend: {0}"
+"Using query processor cache backend: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"Invalid metric: {0} reason: {1}"
+
+"Unknown error"
+"Onbekende fout"
+
+"Unexpected nil response from query processor."
+"Onverwachte nil antwoord van de query processor."
+
+"Query canceled"
+"Query geannuleerd"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"Unable to resolve driver for query: Database {0} does not exist."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"Kan: fields: all in join niet gebruiken voor bronquery, tenzij het: source-metadata heeft."
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+
+"Cannot store Tables or Fields before Database is stored."
+"Kan tabellen of velden niet opslaan voordat de database is opgeslagen."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"Poging om tweede database op te halen. Query's kunnen slechts naar één database verwijzen."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"Kan tabel {0} niet ophalen: tabel bestaat niet of behoort tot een andere database."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"Kan veld {0} niet ophalen: veld bestaat niet of behoort tot een andere database."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"Kan template '' {0} '' niet laden. Heb je eraan gedacht om de Metabase-frontend te bouwen?"
+
+"Found new tables:"
+"Nieuwe tabellen gevonden:"
+
+"Marking tables as inactive:"
+"Tabellen worden als inactief gemarkeerd:"
+
+"Updating description for tables:"
+"Beschrijving bijwerken voor tabellen:"
+
+"Rescheduling job {0}"
+"Job {0} opnieuw inplannen"
+
+"Error rescheduling job"
+"Fout bij het opnieuw instellen van job"
+
+"Starting Pulse Execution: {0}"
+"Starten van pulsuitvoering: {0}"
+
+"Finished Pulse Execution: {0}"
+"Pulsuitvoering uitgevoerd: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"Kan taken voor database {0} niet plannen"
+
+"All elements must be distinct."
+"Alle elementen moeten uniek zijn."
+
+"Don't know how to alias {0}, expected an Identifier."
+"Weet niet hoe je alias {0} kunt gebruiken, verwacht een ID."
+
+"Error adding User {0} to Group {1}"
+"Fout bij toevoegen van gebruiker {0} aan groep {1}"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Humanisatie-strategie voor tabel- en veldnamen wijzigen van '' {0} '' in '' {1} ''"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"Oneindige lus gedetecteerd: recursief de query {0} keer verwerkt."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Waarschuwing: kan geen velden bepalen voor een expliciete `source-query` tenzij je ook` source-metadata` opneemt."
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"Onbehandelde exceptie, `catch-exceptions` middleware werd verwacht om dit af te handelen."
+
+"All"
+"Alles"
+
+"An error occurred while running the query."
+"Er was een fout bij het uitvoeren van de query."
+
+"Output H2 database already exists: %s, removing."
+"Output H2-database bestaat al: %s, bezig met verwijderen."
+
+"Don't need to migrate, just use the existing H2 file"
+"Er hoeft niets gemigreerd te worden, gebruik gewoon het bestaande H2-bestand"
+
+"Target DB is already populated!"
+"Doel-DB is al ingevuld!"
+
+"System info:n {0}"
+"System info:n {0}"
+
+"Database setup"
+"Database setup"
+
+"Invalid '{{...}}' clause: expected a param name"
+"Ongeldige clausule '{{...}}': verwacht een param-naam"
+
+"'{{...}}' clauses cannot be empty."
+"'{{...}}' clausules mogen niet leeg zijn."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"'[[...]]' clausules moeten ten minste één '{{...}}' clausule bevatten."
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"Ongeldige zoekopdracht: '[[' of '{{' zonder overeenkomst ']]' of '}} gevonden"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"Je moet een waarde kiezen voor '' {0} '' voordat deze query kan worden uitgevoerd."
+
+"Can''t find field with ID: {0}"
+"Kan veld met ID niet vinden: {0}"
+
+"Error loading driver namespace"
+"Fout bij het laden van de namespace van het stuurprogramma"
+
+"Could not load {0} driver."
+"Kan stuurprogramma {0} niet laden."
+
+"Don''t know how to parse {0} {1}"
+"Weet niet hoe {0} {1} geparsed moeten worden"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"Weet niet hoe alias {0} moet worden gebruiken, verwacht een ID."
+
+"Don''t know how to unprepare values of class {0}"
+"Weet niet hoe de waarden van klasse {0} moeten worden voorbereid"
+
+"Creating new connection pool for {0} database {1} ..."
+"Nieuwe verbindingspool maken voor {0} database {1} ..."
+
+"Invalid timezone ''{0}''"
+"Ongeldige tijdzone '{0}'"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"Kan tijdzone niet instellen: ongeldige of ontbrekende tekenreeks in SQL-indeling voor stuurprogramma {0}."
+
+"Did you implement set-timezone-sql?"
+"Heb je set-timezone-sql geïmplementeerd?"
+
+"Failed to set timezone ''{0}''"
+"Kan tijdzone '{0}' niet instellen"
+
+"Error parsing JSON"
+"Fout bij parsen van JSON"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"Al dan niet tonen van data op de homepagina. Beheerders kunnen dit uitschakelen om zo gebruikers meer richting goede data te sturen in plaats van ruwe data."
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Al dan niet tonen van x-ray suggesties op de homepagina. Deze suggesties worden niet getoond indien er vastgepinde dashboards zijn. Beheerders kunnen dit verbergen om zo gebruikers meer richting goede data te sturen in plaats van ruwe data."
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"Identificeer de bron van HTTP-aanvragen aan de hand van de waarde van deze kop in plaats van het externe adres."
+
+"Could not resolve Setting {0}/{1}"
+"Kan instelling {0}/{1} niet oplossen"
+
+"Invalid Setting: {0}/{1}"
+"Ongeldige instelling: {0}/{1}"
+
+"reached its goal"
+"heeft zijn doel bereikt"
+
+"gone below its goal"
+"is onder het doel gegaan"
+
+"Sending Pulse ({0}: {1}) via email"
+"Puls ({0}: {1}) verzenden via e-mail"
+
+"Pulse: {0}"
+"Puls: {0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Puls verzenden ({0}: {1}) via Slack"
+
+"Sending Alert ({0}: {1}) via email"
+"Waarschuwing versturen ({0}: {1}) via e-mail"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Waarschuwing versturen ({0}: {1}) via Slack"
+
+"Alert: {0}"
+"Waarschuwing: {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"Kan JS-kleurselector niet vinden op '{0}'"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"FIXME: Dit zijn geen geldige tijdelijke literals: {0} {1}. Waarom proberen we ze als zodanig te formatteren?"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"Geen overeenkomende info gevonden voor deelname aan tabel {0} '{1}' op veld {2} '{3}' via FK {4} '{5}'"
+
+"Don''t know how to get information about Field: {0}"
+"Geen idee hoe informatie over vel {0} kan worden verkregen"
+
+"Query timed out after {0}"
+"Er is een query time-out opgetreden na {0}"
+
+"Formatting rows with results timezone ID {0}"
+"Rijen opmaken met resultaten tijdzone-ID {0}"
+
+"Invalid timezone ID ''{0}''"
+"Ongeldige tijdzone-ID '{0}'"
+
+"Saving fingerprint for {0}"
+"Vingerafdruk opslaan voor {0}"
+
+"Sending abandoment email!"
+"Verlaten e-mail verzenden!"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"De resulterende transformaties voldoen niet aan de verwachtingen.nVerwacht: {0}"
+
+"Timed out after {0}"
+"Time-out na {0}"
+
+"No temporal adjuster named {0}"
+"Geen tijdelijke aanpassing met de naam {0}"
+
+"Invalid unit: {0}"
+"Ongeldige eenheid: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"Weet niet hoe {0} moet worden geparsed met indeling {1}"
+
+"Token is missing value for keypath {0}"
+"Waarde van token ontbreekt voor keypath {0}."
+
+"Sending usage stats FAILED"
+"Gebruiksstatistieken verzenden MISLUKT"
+
+"or"
+"of"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase kan de waarden in elk veld in deze database scannen om selectievakjesfilters in dashboards en vragen in te schakelen. Dit kan een ietwat resource-intensief proces zijn, vooral bij een zeer grote database."
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"Connectie tot \"{0}:{1}\" succesvol, maar kon geen verbinding maken met de database."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"Connectie tot host \"{0}\" succesvol, maar port {1} is ongeldig."
+
+"Host ''{0}'' is not reachable"
+"Host \"{0}\" is niet bereikbaar"
+
+"Unable to connect to database."
+"Niet mogelijk om verbinding te maken met database."
+
+"Cannot connect to Database"
+"Kan geen verbinding maken met database"
+
+"You''re not allowed to specify a value for {0}."
+"Je mag geen waarde opgeven voor {0}."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"Je kunt geen waarde opgeven voor {0} als deze al is ingesteld in de JWT."
+
+"You must specify a value for {0} in the JWT."
+"Je moet een waarde voor {0} opgeven in de JWT."
+
+"You can only specify a value for {0} in the JWT."
+"Je kunt alleen een waarde voor {0} opgeven in de JWT."
+
+"Error searching field values"
+"Fout bij het zoeken naar veldwaarden"
+
+"Error searching for remapping"
+"Fout bij zoeken naar opnieuw toewijzen"
+
+"Double check that it matches in Google and Metabase."
+"Controleer of dit overeenkomt in Google en Metabase"
+
+"Everything else"
+"Al het andere"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"WAARSCHUWING: je hebt het traceren van namespace ingeschakeld, waardoor gevoelige informatie zoals DB-wachtwoorden kan worden vastgelegd."
+
+"Database Upgrade Required"
+"Database upgrade noodzakelijk"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"MELDING: Je database moet geüpdatet worden om samen te kunnen werken met deze versie van Metabase."
+
+"Please execute the following sql commands on your database before proceeding."
+"Voer de volgende sql commando’s uit op je database voordat je doorgaat."
+
+"Once your database is updated try running the application again."
+"Wanneer je database geüpdatet is kun je de applicatie nogmaals starten."
+
+"Database requires manual upgrade."
+"Database moet handmatig geüpdatet worden."
+
+"Successfully verified {0} {1} application database connection."
+"{0} {1} verbinding met applicatiedatabase succesvol geverifieerd."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"Weet niet hoe ik datum param ''{0}'' moet ontleden - ongeldig formaat"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"De subquery van vraag # {0} waarnaar is verwezen, is mislukt met de volgende fout: {1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"WAARSCHUWING: Metabase ondersteunt officieel alleen MySQL {0} / MariaDB {1} en hoger."
+
+"All Metabase features may not work properly when using an unsupported version."
+"Alle Metabase-functies werken mogelijk niet correct bij gebruik van een niet-ondersteunde versie."
+
+"Cannot run the query: missing required parameters: {0}"
+"Kan de query niet uitvoeren: vereiste parameters ontbreken: {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"Weet niet hoe {0} {1} moet worden ontleed als een tijdelijke letterlijke"
+
+"Setting {0} database timezone with statement: {1}"
+"Tijdzone van {0} database instellen met statement: {1}"
+
+"Error setting connection to readwrite"
+"Fout bij het instellen van de verbinding met lezen/schrijven"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"Kan tijdzone ''{0}'' niet instellen voor database {1}"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"Fout bij het instellen van het transactie-isolatieniveau voor de {0} database op {1}"
+
+"Error setting connection to read-only"
+"Fout bij het instellen van de verbinding op alleen-lezen"
+
+"Error setting default holdability for connection"
+"Fout bij het instellen van de standaardhoudbaarheid voor verbinding"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"Zoekopdracht geannuleerd, bezig met aanroepen van PreparedStatement.cancel()"
+
+"Failed to connect to database"
+"Fout bij het verbinden met de database."
+
+"Unable to determine connection properties for driver {0}"
+"Kan geen verbindingseigenschappen bepalen voor stuurprogramma {0}"
+
+"Error fetching field values"
+"Fout bij het ophalen van veldwaarden"
+
+"You cannot set {0}; it is a read-only setting."
+"U kunt {0} niet instellen; het is een alleen-lezen instelling."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"definstelling beschrijvingen moet bevatten: `:visibilty` `:internal`, `:setter` `:none`, or internationalized, gevonden: `{0}`"
+
+"Setting {0} is internal"
+"Instelling {0} is intern"
+
+"Loading local plugin manifest at {0}"
+"Lokaal plug-in manifest laden vanaf {0}"
+
+"Google Analytics tracking code."
+"Google Analytics tracking code."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"Puls ({0}: {1}) verzenden met {2} kaarten via e-mail"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Puls verzenden ({0}: {1}) met {2} kaarten via slack"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"Weergavepulskaart met kaarttype {0} en rendertype {1}"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"FIXME: Dit zijn geen geldige tijdelijke literals: {0} {1}. Waarom proberen we ze als zodanig te formatteren?"
+
+"Error reducing result rows"
+"Fout bij het verminderen van resultaatrijen"
+
+"Unexpected nil result"
+"Onverwachte nil resultaat"
+
+"Query timed out after {0} ms, raising timeout exception."
+"Er is een time-out opgetreden voor de zoekopdracht na {0} ms, waardoor de time-outuitzondering is toegenomen."
+
+"Timed out after {0}."
+"Time-out na {0}."
+
+"Query canceled before finishing."
+"Query geannuleerd voor voltooing."
+
+"Unknown query type {0}"
+"Onbekend zoektype {0}"
+
+"Caching results for next time for query with hash {0}."
+"Resultaten in het cachegeheugen opslaan voor de volgende keer voor zoekopdracht met hash {0}."
+
+"Error saving query results to cache."
+"Fout bij het opslaan van queryresultaten in cache."
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"Query had {0} nodig om uit te voeren; minimum voor geschiktheid voor cache is {1}"
+
+"Results are too large to cache."
+"Resultaten zijn te groot om te cachen."
+
+"Error parsing serialized results"
+"Fout bij het ontleden van geserialiseerde resultaten"
+
+"Error purging old cache entries"
+"Fout bij het opschonen van oude cache-vermeldingen"
+
+"Caching results for query with hash {0}."
+"Resultaten in het cachegeheugen opslaan voor zoekopdracht met hash {0}."
+
+"Cannot save QueryExecution, missing :context"
+"Kan QueryExecution niet opslaan, ontbreekt: context"
+
+"Error saving query execution info"
+"Fout bij het opslaan van uitvoer informatie van aanvraag."
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"Kan database niet oplossen voor zoekopdracht: ontbrekende of ongeldige `: database`-ID."
+
+"Unable to resolve driver for query"
+"Kan stuurprogramma voor zoekopdracht niet oplossen"
+
+"Referenced question #{0} could not be found"
+"Vraag #{0} kan niet worden gevonden"
+
+"Referenced query is from a different database"
+"Zoekopdracht waarnaar wordt verwezen, komt uit een andere database"
+
+"This query has circular referencing sub-queries. "
+"Deze zoekopdracht bevat subquery's met circulaire verwijzingen. "
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"Deze vragen lijken een deel van het probleem te zijn: \"{0}\" en \"{1}\"."
+
+"Error recording results metadata for query"
+"Fout bij vastleggen resultaten metagegevens voor zoekopdracht"
+
+"Query result"
+"Query resultaat"
+
+"Error generating insights for column:"
+"Fout bij het genereren van inzichten voor kolom:"
+
+"Sending abandonment email!"
+"Verlaten e-mail verzenden!"
+
+"SSH Authentication"
+"SSH-authenticatie"
+
+"SSH Key"
+"SSH-sleutel"
+
+"Server SSL certificate chain"
+"SSL-certificatenketen van de server"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"De gemiddelde uitvoertijd van deze vraag is {0}, gebruik makend van magic TTL van {1}"
+
+"A snippet with that name already exists. Please pick a different name."
+"Er bestaat al een snippet met deze naam, kies een andere naam."
+
+"[Unknown Metric]"
+"[Onbekende metriek]"
+
+"[Unknown Segment]"
+"[Onbekend segment]"
+
+"Error writing error to output stream"
+"Fout bij het wegschrijven van een foutmelding"
+
+"Caught unexpected Exception in streaming response body"
+"Onverwachte uitzondering bij het wegschrijven van het respons"
+
+"bound-fn caught unexpected Exception"
+"Onverwachte uitzondering in bound-fn"
+
+"Error determining whether HTTP request was canceled"
+"Fout bij het bepalen of HTTP-aanvraag geannuleerd was"
+
+"Check cancelation status timed out after {0}"
+"Timout van het bepalen van annuleringsstatus na {0}"
+
+"Unexpected exception in do-f-async"
+"Onverwachte uitzondering in do-f-async"
+
+"Unexpected exception writing error response"
+"Onverwachte uitzondering bij het schrijven van foutrespons"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"Het servercertificaat kan niet worden vertrouwd: heeft u de goede SSL-certificatenketen aangegeven?"
+
+"Server appears to require SSL - please enable SSL above"
+"De server lijkt SSL te benodigen, zet SSL aan hierboven"
+
+"Username"
+"Gebruikersnaam"
+
+"Don''t know how to parse parameter of type {0}"
+"Geen idee hoe parameter van type {0} behandeld moet worden"
+
+"Invalid :card parameter: missing `:card-id`"
+"Ongeldig :card paramter: mist `:card-id`"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"Kon snippet niet gebruiken: mist `:snippet-id`"
+
+"Snippet {0} {1} not found."
+"Snippet {0} {1} niet gevonden."
+
+"Error determining value for parameter"
+"Fout bij het bepalen van parameterwaarde"
+
+"Error building query parameter map"
+"Fout tijdens bouwen van query parameter map"
+
+"ASYNC"
+"ASYNC"
+
+"{0} ({1} DB calls)"
+"{0} ({1} DB-aanroepen)"
+
+"App DB connections: {0}/{1}"
+"Applicatieverbindingen met DB: {0}/{1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"Jetty-threads: {0}/{1} ({2} wachtend, {3} in wachtrij)"
+
+"({0} total active threads)"
+"({0} totaal actieve threads)"
+
+"Queries in flight: {0}"
+"Query's actief nu: {0}"
+
+"({0} queued)"
+"({0} in wachtrij)"
+
+"Collection must be in the same namespace as its parent"
+"Collectie moet onderdeel zijn van dezelde bovenloggende namespace "
+
+"Personal Collections must be in the default namespace"
+"Persoonlijke collecties moeten zich in de standaard namespace bevinden"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"Je kunt een collectie niet verplaatsen naar een andere namespace nadat deze is gemaakt."
+
+"Collection does not exist."
+"Collectie bestaat niet."
+
+"A {0} can only go in Collections in the {1} namespace."
+"Een {0} mag alleen in Collecties in de namespace {1}."
+
+"Error sending database deletion notification"
+"Fout bij versturen van database verwijdering notificatie"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"Je kunt de creator_id van een NativeQuerySnippet niet bijwerken."
+
+"Error fetching value of Setting"
+"Fout bij ophalen van waarde van instelling"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"De taal die moet worden gebruikt voor de gebruikersinterface van Metabase, systeem-e-mails, pulsen en waarschuwingen."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"Dit is ook de standaardtaal voor alle gebruikers, die ze kunnen wijzigen vanuit hun eigen accountinstellingen."
+
+"Invalid locale {0}"
+"Ongeldige landinstelling {0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"Alle verkeer verplicht via HTTPS (indien URL met \"https\" begint)"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"Kan niet naar HTTPS doorsturen indien URL niet met \"https\" begint."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"Fout bij het registreren van fonts: Metabase zal geen Pulses kunnen verzenden."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"Dit is een bekend probleem met bepaalde JVM's. Zie {0} voor meer details."
+
+"Error rendering Pulse"
+"Fout bij het weergeven van een Pulse"
+
+"Query timed out after {0}, raising timeout exception."
+"Query-timeout na {0}, timeout-uitzondering activeren."
+
+"No fields found for table {0}."
+"Geen velden voor tabel {0} gevonden."
+
+"Case"
+"Zaak"
+
+"Variance of {0}"
+"Variantie van {0}"
+
+"Median of {0}"
+"Mediaan van {0}"
+
+"{0}th percentile of {1}"
+"{0}(st)e percentiel van {1}"
+
+"Not caching results: results are larger than {0} KB"
+"Resultaten worden niet gecachet: groter dan {0} KB"
+
+"Cannot cache results: expected byte array, got {0}"
+"Kan resultaten niet cachen: byte-array verwacht, {0} ontvangen"
+
+"Request is closed; no one to return cached results to"
+"Aanvraag is afgesloten; kan cacheresultaten aan niemand retourneren"
+
+"Error preparing statement to fetch cached query results"
+"Fout bij het voorbereiden van instructie om queryresultaten in cache op te halen"
+
+"Error processing query: {0}"
+"Fout bij het afhandelen van query: {0}"
+
+"Unexpected exception in endpoint"
+"Niet-opgevangen uitzondering binnen een eindpoint"
+
+"Unexpected Exception in API request handler"
+"Niet-opgevangen uitzondering binnen API request handler"
+
+"Error reducing {0}"
+"Fout bij het reduceren van {0}"
+
+"Error generating timeseries insight keyed by: {0}"
+"Fout bij het genereren van inzicht in tijdseries, ingegeven door: {0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"Databasepositie van {0} is van \"{1}\" in \"{2}\" veranderd."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"Taak ongedaan maken voor database {0}: trigger: {1}"
+
+"value must be a keyword or string."
+"waarde moet een trefwoord of tekenreeks zijn."
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"String moet een geldige tweeletterige ISO-taal of taal-landcode zijn, bijv. 'nl' of 'nl_NL'."
+
+"Dashboard does not have a parameter with the ID {0}"
+"Dashboard heeft geen parameter met de ID {0}"
+
+"Parameter {0} does not have any Fields associated with it"
+"Aan parameter {0} zijn geen velden gekoppeld"
+
+"include must be either empty or the value 'tables'"
+"include moet leeg zijn of de waarde 'tables'"
+
+"`database` is required for all queries whose type is not `internal`."
+"`database` is vereist voor alle queries waarvan het type niet` intern` is."
+
+"Password login is disabled for this instance."
+"Wachtwoordaanmelding is uitgeschakeld voor deze instantie."
+
+"Your account is disabled. Please contact your administrator."
+"Je account is uitgeschakeld. Neem contact op met de administrator."
+
+"Your account is disabled."
+"Je account is uitgeschakeld."
+
+"Invalid Slack token."
+"Ongeldig Slack-token."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"De opdracht ''{0}'' is alleen beschikbaar voor de Metabase Enterprise Edition."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Metabase Enterprise Edition-extensies zijn AANWEZIG."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Het gebruik van Metabase Enterprise Edition-functies is onderhevig aan de Metabase Commercial License."
+
+"See {0} for details."
+"Zie {0} voor details."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Metabase Enterprise Edition-extensies zijn NIET AANWEZIG."
+
+"You''re invited to join {0}''s {1}"
+"Je bent uitgenodigd om lid te worden van {0} 's {1}"
+
+"{0} created a {1} account"
+"{0} heeft een {1} account gemaakt"
+
+"{0} accepted their {1} invite"
+"{0} hebben hun {1} uitnodiging geaccepteerd"
+
+"[{0}] Password Reset Request"
+"[{0}] verzoek om wachtwoord opnieuw in te stellen"
+
+"[{0}] Notification"
+"[{0}] Melding"
+
+"[{0}] Help make [{1}] better."
+"[{0}] Help mee om [{1}] beter te maken."
+
+"[{0}] Tell us how things are going."
+"[{0}] Vertel ons hoe het gaat."
+
+"Error starting events listener"
+"Fout bij het starten van event listener"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"Moeten we gebruikersattributen synchroniseren wanneer iemand inlogt via LDAP?"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"Door komma's gescheiden lijst met gebruikersattributen om synchronisatie voor LDAP-gebruikers over te slaan."
+
+"Invalid token"
+"Ongeldige token"
+
+"Slack API error: {0}"
+"Slack API-fout: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Maak een kanaal aan of haal het uit het archief om de Slack-integratie te voltooien."
+
+"Uploaded image"
+"Geüploade afbeelding"
+
+"Invalid session. Expected an instance of Session."
+"Ongeldige sessie. Er werd een exemplaar van Session verwacht."
+
+"Top folder"
+"Bovenste map"
+
+":parameters must be a sequence of maps with String :id keys"
+":parameters moeten een reeks kaarten zijn met String :id toetsen"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"Ongeldige door mensen leesbare waarden: waarden moeten een reeks zijn; elk item moet nul of een string zijn"
+
+":values must be present to fetch :human_readable_values"
+":values moeten aanwezig zijn om :human_readable_values op te halen"
+
+"Field values total length is > {0}."
+"De totale lengte van de veldwaarden is > {0}."
+
+"snippet names cannot include '}' or start with spaces"
+"fragmentnamen mogen niet '}' bevatten of beginnen met spaties"
+
+"Error executing chain filter query"
+"Fout bij het uitvoeren van kettingfilterquery"
+
+"Field {0} does not exist."
+"Veld {0} bestaat niet."
+
+"Cannot search against non-Text Field {0} {1}"
+"Kan niet zoeken in niet-tekstveld {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"Toestemmingen verlenen voor groep {0}: {1}"
+
+"Revoking permissions for group {0}: {1}"
+"Rechten intrekken voor groep {0}: {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"Ongeldige DB-machtigingen: als je schrijftoegang hebt voor native queries, moet je volledige gegevenstoegang hebben."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"Ongeldige DB-machtigingen: als je alleen-lezen native query-toegang hebt, moet je ook gegevenstoegang hebben."
+
+"Changing permissions from: {0} to: {1}"
+"Rechten wijzigen van: {0} in: {1}"
+
+"login attribute keys must be a keyword or string"
+"inlogkenmerksleutels moeten een trefwoord of tekenreeks zijn"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"De standaardtaal voor alle gebruikers in de Metabase-gebruikersinterface, systeem-e-mails, pulsen en waarschuwingen."
+
+"Users can individually override this default language from their own account settings."
+"Gebruikers kunnen deze standaardtaal individueel overschrijven vanuit hun eigen accountinstellingen."
+
+"Default page to show the user"
+"Standaardpagina om de gebruiker te tonen"
+
+"Allow this origin to embed the full Metabase application"
+"Sta deze origin toe om de volledige Metabase-applicatie in te sluiten"
+
+"Values greater than {0} ({1}) are not allowed."
+"Waarden groter dan {0} ({1}) zijn niet toegestaan."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"Dit zal het woord \"Metabase\" vervangen waar het ook voorkomt."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"Dit zijn de primaire kleuren die worden gebruikt in grafieken en in Metabase. Mogelijk moet u uw browser vernieuwen om uw wijzigingen door te voeren."
+
+"For best results, use an SVG file with a transparent background."
+"Gebruik voor het beste resultaat een SVG-bestand met een transparante achtergrond."
+
+"The url or image that you want to use as the favicon."
+"De url of afbeelding die je als favicon wilt gebruiken."
+
+"Allow logging in by email and password."
+"Sta inloggen met e-mail en wachtwoord toe."
+
+"Unable to validate token"
+"Kan token niet valideren"
+
+"Token format is invalid."
+"Token-indeling is ongeldig."
+
+"Error validating token"
+"Fout bij valideren van token"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"Fout bij filteren op basis van veld {0}: kan tekenreeks {1} niet parsen naar een {2}"
+
+"Error fetching details for Job: {0}"
+"Fout bij het ophalen van details voor taak: {0}"
+
+"Starting sync task for Database {0}."
+"Synchronisatietaak starten voor Database {0}."
+
+"Cannot sync Database {0}: Database does not exist."
+"Kan database {0} niet synchroniseren: database bestaat niet."
+
+"Update Field values task triggered for Database {0}."
+"Werk veldwaarden-taak bij die is geactiveerd voor Database {0}."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"Update overslaan, automatische veldwaarde-updates zijn uitgeschakeld voor Database {0}."
+
+"Periodically refingerprint tables"
+"Periodiek nieuwe vingerafdrukken van tabellen"
+
+"Unable to run internal query function: cannot resolve {0}"
+"Kan interne queryfunctie niet uitvoeren: kan {0} niet oplossen"
+
+"Audit App queries are not enabled on this instance."
+"Audit-app-query's zijn niet ingeschakeld voor dit exemplaar."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"Ongeldige interne zoekfunctie: {0} is niet gemarkeerd als ^: internal-query-fn"
+
+"Error: sandboxing is not enabled for this instance."
+"Fout: sandboxing is niet ingeschakeld voor deze instantie."
+
+"Please check you have set a valid Enterprise token and try again."
+"Controleer of je een geldige Enterprise-token hebt ingesteld en probeer het opnieuw."
+
+"No permissions found for current user"
+"Geen machtigingen gevonden voor huidige gebruiker"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"Gebruiker \"{0}\" heeft geprobeerd toegang te krijgen tot een ontoegankelijk veld. Toegankelijke velden {1}, velden in zoekopdracht {2}"
+
+"User not able to query field"
+"Gebruiker kan veld niet opvragen"
+
+"Found more than one group table access policy for user ''{0}''"
+"Meer dan één toegangsbeleid voor groepstabellen gevonden voor gebruiker \"{0}\""
+
+"Query requires user attribute `{0}`"
+"Query vereist gebruikerskenmerk `{0}`"
+
+"invalid --mode value"
+"invalid --mode value"
+
+"invalid --on-error value"
+"invalid --on-error value"
+
+"invalid context seed value"
+"invalid context seed value"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"Dump is gemaakt met een andere versie van Metabase. Er kunnen dingen kapot gaan!"
+
+"Error loading dump: {0}"
+"Fout bij laden van dump: {0}"
+
+"{0} is not a valid user"
+"{0} is geen geldige gebruiker"
+
+"Error dumping {0}"
+"Fout bij het dumpen van {0}"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"Geen admin-gebruikers gevonden! Er is minimaal één admin-gebruiker nodig om als eigenaar voor alle geladen entiteiten te fungeren."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"Fout bij het laden van afhankelijkheden: verwijzing naar een onbekende entiteit {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"Kan {0} niet oplossen in volledig gekwalificeerde naam {1}"
+
+"Model {0} does not support upsert"
+"Model {0} ondersteunt geen upsert"
+
+"Error inserting {0}"
+"Fout bij het invoegen van {0}"
+
+"Inserting {0}"
+"{0} invoegen"
+
+"{0} already exists -- skipping"
+"{0} bestaat al - overslaan"
+
+"Skipping {0} (nothing to update)"
+"{0} overslaan (niets om bij te werken)"
+
+"Updating {0}"
+"Updaten {0}"
+
+"Error updating {0}"
+"Fout bij updaten van {0}"
+
+"SSO has not been enabled and/or configured"
+"SSO is niet ingeschakeld en / of geconfigureerd"
+
+"SSO requires a valid token"
+"SSO vereist een geldig token"
+
+"Error returning SSO entry point"
+"Fout bij het retourneren van SSO-toegangspunt"
+
+"Error logging in"
+"Fout bij inloggen"
+
+"Can't create new JWT user when JWT is not configured"
+"Kan geen nieuwe JWT-gebruiker maken als JWT niet is geconfigureerd"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO is niet ingeschakeld en / of geconfigureerd"
+
+"Invalid SAML configuration: could not find user email."
+"Ongeldige SAML-configuratie: kan e-mailadres van gebruiker niet vinden."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"We hebben geprobeerd te zoeken naar {0}, maar konden het kenmerk niet vinden."
+
+"Please make sure your SAML IdP is properly configured."
+"Zorg ervoor dat SAML IdP correct is geconfigureerd."
+
+"SAML has not been enabled and/or configured"
+"SAML is niet ingeschakeld en / of geconfigureerd"
+
+"Warning: expected `redirect` param, but none is present"
+"Waarschuwing: verwachte 'redirect'-parameter, maar er is geen aanwezig"
+
+"Error generating SAML request"
+"Fout bij het genereren van SAML-verzoek"
+
+"Unable to log in: SAML IdP certificate is not set."
+"Inloggen mislukt: SAML IdP-certificaat is niet ingesteld."
+
+"SAML response validation failed"
+"SAML-antwoordvalidatie mislukt"
+
+"Unable to log in: SAML response validation failed"
+"Inloggen mislukt: validatie van SAML-antwoord mislukt"
+
+"Unable to log in: SAML info does not contain user attributes."
+"Inloggen mislukt: SAML-informatie bevat geen gebruikerskenmerken."
+
+"Enable SAML authentication."
+"Schakel SAML-verificatie in."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"Dit is de URL waar de gebruikers naartoe gaan om in te loggen bij uw identiteitsprovider. Afhankelijk van welke IdP je gebruikt ziet dit er meestal uit als: https://your-org-name.example.com of https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"Fout bij het parsen van het SAML-identiteitsprovidercertificaat"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"Ongeldig identiteitsprovidercertificaat. Het certificaat moet een met base 64 gecodeerde tekenreeks zijn."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"Gecodeerd certificaat voor de identiteitsprovider. Afhankelijk van de IdP moet je dit mogelijk downloaden. Open het vervolgens in een teksteditor en kopieer en plak de inhoud van het certificaat hier."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"Dit is een unieke identificatie voor de IdP. Vaak aangeduid als Entiteits-ID of simpelweg 'Uitgever'. Afhankelijk\nop de IdP ziet dit er meestal ongeveer zo uit als: http://www.example.com/141xkex604w0Q5PN724v"
+
+"This application name will be used for requests to the Identity Provider"
+"Deze applicatienaam wordt gebruikt voor verzoeken aan de identiteitsprovider"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"Absoluut pad naar het keystore-bestand dat moet worden gebruikt voor het ondertekenen van SAML-verzoeken"
+
+"Password for opening the keystore"
+"Wachtwoord voor het openen van de keystore"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Alias voor de sleutel die Metabase moet gebruiken voor het ondertekenen van SAML-verzoeken"
+
+"SAML attribute for the user''s email address"
+"SAML-kenmerk voor het e-mailadres van de gebruiker"
+
+"SAML attribute for the user''s first name"
+"SAML-kenmerk voor de voornaam van de gebruiker"
+
+"SAML attribute for the user''s last name"
+"SAML-kenmerk voor de achternaam van de gebruiker"
+
+"Enable group membership synchronization with SAML."
+"Schakel synchronisatie van groepslidmaatschap met SAML in."
+
+"SAML attribute for group syncing"
+"SAML-kenmerk voor groepssynchronisatie"
+
+"JSON containing SAML to Metabase group mappings."
+"JSON met SAML naar Metabase-groepstoewijzingen."
+
+"Enable JWT based authentication"
+"Schakel op JWT gebaseerde authenticatie in"
+
+"URL of JWT based login page"
+"URL van op JWT gebaseerde inlogpagina"
+
+"String used to seed the private key used to validate JWT messages"
+"Tekenreeks die wordt gebruikt om de persoonlijke sleutel te seeden die wordt gebruikt om JWT-berichten te valideren"
+
+"Key to retrieve the JWT user's email address"
+"Sleutel om het e-mailadres van de JWT-gebruiker op te halen"
+
+"Key to retrieve the JWT user's first name"
+"Sleutel om de voornaam van de JWT-gebruiker op te halen"
+
+"Key to retrieve the JWT user's last name"
+"Sleutel om de achternaam van de JWT-gebruiker op te halen"
+
+"Key to retrieve the JWT user's groups"
+"Sleutel om de JWT-gebruikersgroepen op te halen"
+
+"Enable group membership synchronization with JWT."
+"Schakel synchronisatie van groepslidmaatschap met JWT in."
+
+"JSON containing JWT to Metabase group mappings."
+"JSON met JWT naar Metabase-groepstoewijzingen."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"Moeten er nieuwe e-mailmeldingen worden verzonden naar beheerders, voor alle nieuwe SSO-gebruikers?"
+
+"New SSO user created: {0} ({1})"
+"Nieuwe SSO-gebruiker gemaakt: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"Ongeldige waarschuwing: er is geen kaart aan een waarschuwing gekoppeld"
+
+"Error determining whether Database supports nested queries"
+"Fout bij het bepalen of de database geneste query's ondersteunt"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"Ongeldige queryparams: kan geen slug bepalen voor parameter met ID {0}"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"Kan geen waarden zoeken: {0} is geen ingeschakelde parameter."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"Je kunt geen waarde opgeven voor {0} als deze al is ingesteld in de JWT."
+
+"Error compiling HoneySQL form"
+"Fout bij het compileren van het HoneySQL-formulier"
+
+"Not a valid Database/Database ID/JDBC spec"
+"Geen geldige database / database-ID / JDBC-specificatie"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"waarde moet een kaart zijn met de sleutels '{0}', '{1}', '{2}' en '{3}'."
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"Zoekopdracht duurde {0} om uit te voeren; minimum om in aanmerking te komen voor cache is {1}"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"Kan samengevoegd veld niet omzetten vanwege onduidelijke joins: tabel {0} (ID {1}) is meerdere keren samengevoegd. U moet veldverwijzingen in expliciete: samengevoegde veldclausules plaatsen."
+
+"Error normalizing form."
+"Fout normaliserende vorm."
+
+"Error canonicalizing query"
+"Foutieve canonieke query"
+
+"Error performing whole query transformations"
+"Fout bij het uitvoeren van hele query transformaties"
+
+"Error normalizing query"
+"Fout in het normaliseren van de vraag"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"Zandbak Kaarten kunnen geen kolommen teruggeven die niet in de tabel aanwezig zijn ze zijn zandbak."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"Zandbak Kaarten kunnen geen kolommen teruggeven die andere typen hebben dan de Tabel die ze zandbakken."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"Kan de kaart niet updaten: Kaart wordt gebruikt voor Sandboxing, en updates zouden in strijd zijn met de sandbox regels."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"U kunt de tabel-ID van een GTAP niet meer wijzigen als deze eenmaal is aangemaakt."
+
+"`database` is required for all queries."
+"De `database` is nodig voor alle vragen."
+
+"copied {0} instances."
+"gekopieerde {\\an5} gevallen."
+
+"Copying instances of {0}..."
+"Het kopiëren van gevallen van {0}..."
+
+"Error copying instances of {0}"
+"Foutieve kopieën van {0}"
+
+"Temporarily disabling DB constraints..."
+"Tijdelijk uitschakelen van DB-beperkingen..."
+
+"Re-enabling DB constraints..."
+"Herinvoering van DB-beperkingen..."
+
+"Setting Postgres sequence ids to proper values..."
+"Het instellen van Postgres volgorde id's op de juiste waarden..."
+
+"Set up {0} source database and run migrations..."
+"Zet de brondatabase op en voer de migraties uit..."
+
+"Set up {0} target database and run migrations..."
+"Zet de doeldatabase op en voer de migraties uit..."
+
+"Testing if target {0} database is already populated..."
+"Testen of de {0} database van het doelwit al bevolkt is..."
+
+"Unsupported application database type: {0} is not currently supported."
+"Niet-ondersteunde applicatie database type: {0} wordt momenteel niet ondersteund."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"Controleer de waarde van MB_DB_CONNECTION_URI."
+
+"Driver {0} does not support {1}"
+"Bestuurder {0} ondersteunt niet {1}"
+
+"No magnitude known for {0}"
+"Er is geen magnitude bekend voor {0}"
+
+"Error resolving source query"
+"Fout in het oplossen van een bronvraag"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"Ongeldige GeoJSON-bestandslocatie: moet of beginnen met http:// of https:// of een relatief pad zijn naar een bestand op het classpath."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"URL's die verwijzen naar hosts die interne hostingmetadata leveren zijn verboden."
+
+"Invalid custom GeoJSON."
+"Ongeldige aangepaste GeoJSON."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"Ongeldige {0}: gespecificeerde uitbraak bij index {1}, maar we hebben alleen {2} uitbraken"
+
+"Error generating pivot queries"
+"Foutgenererende pivot query's"
+
+"Sync the admin group?"
+"Synchroniseer admin groep?"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"Sandbox-vragen kunnen geen kolommen retourneren die andere typen hebben dan de tabel waarin ze sandboxen."
+
+"Error preprocessing source query when applying GTAP"
+"Error preprocessing source query when applying GTAP"
+
+"Error running query to determine metadata"
+"Error running query to determine metadata"
+
+"Can't create new SAML user when SAML is not configured"
+"Can't create new SAML user when SAML is not configured"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"Error setting statement fetch direction to FETCH_FORWARD"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"Je kunt deze vraag niet opslaan omdat je niet gemachtigd bent om deze vraag uit te voeren."
+
+"Authentication endpoint error"
+"Authentication endpoint error"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"SSH-tunnel kan alleen tot stand worden gebracht voor H2-verbindingen die het TCP-protocol gebruiken"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+
+"Query canceled, calling Statement.cancel()"
+"Query canceled, calling Statement.cancel()"
+
+"Select statement did not produce a ResultSet for native query"
+"Select statement did not produce a ResultSet for native query"
+
+"We''ve Noticed a New {0} Login, {1}"
+"We hebben een nieuwe {0} loginpoging opgemerkt, {1}"
+
+"Don''t know how to process event with model {0}"
+"Don''t know how to process event with model {0}"
+
+"Failed to process activity event {0}"
+"Failed to process activity event {0}"
+
+"Error sending ''login from new device'' notification email"
+"Error sending ''login from new device'' notification email"
+
+"You can''t update a LoginHistory after it has been created."
+"Je kunt een login historie niet bijwerken nadat deze is gemaakt."
+
+"Setting {0} already registered in {1}"
+"Setting {0} already registered in {1}"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"Bepaalt hoe vaak de heartbeats worden verzonden wanneer een SSH-tunnel tot stand is gebracht (in seconden)."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"Kan geen overeenkomende FK-tabel-ID vinden voor FK-veld {0}"
+
+"Error optimizing temporal filter clause"
+"Error optimizing temporal filter clause"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"Kan samengevoegd veld niet omzetten vanwege onduidelijke joins: tabel {0} (ID {1}) is meerdere keren samengevoegd. Je moet een expliciete `:join-alias` specificeren in de veldverwijzing."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"Niet-ondersteunde tijdelijke bucketing: je kunt een {0} veld niet per {1} in een bucket plaatsen."
+
+"Error processing additional pivot table query"
+"Fout bij het verwerken van extra draaitabelquery"
+
+"Invalid cell format"
+"Ongeldig celformaat"
+
+"Enable typeahead search in the Metabase navbar?"
+"Typeahead-zoekopdracht inschakelen in de Metabase-navigatiebalk?"
+
+"Login request is missing user-agent information"
+"Inlogverzoek ontbreekt user-agent-informatie"
+
+"Unable to determine login request IP address"
+"Kan IP-adres van aanmeldingsverzoek niet bepalen"
+
+"Error determining login history for request"
+"Fout bij het bepalen van de aanmeldingsgeschiedenis voor het verzoek"
+
+"unknown"
+"onbekend"
+
+"Unknown device type"
+"Onbekend apparaattype"
+
+"Unknown OS"
+"Onbekend besturingssysteem"
+
+"Unknown browser"
+"Onbekende browser"
+
+"Error geocoding IP addresses"
+"Fout bij het geocoderen van IP-adressen"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"Semantisch type van {0} is gewijzigd van ''{1}'' in ''{2}''."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"De naam van {0} is gewijzigd van ''{1}'' in ''{2}''."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"Weet niet hoe {0} moet worden opgemaakt als een voor mensen leesbare datum / tijd"
+
+"Valid coercion strategy"
+"Geldige dwangstrategie"
+
+"value must be a valid coercion strategy."
+"waarde moet een geldige dwangstrategie zijn."
+
+"Saved Questions"
+"Opgeslagen vragen"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"Opzoekfilter voor groepslidmaatschap. De tijdelijke aanduidingen '{dn}' en '{uid}' worden vervangen door respectievelijk de Distinguished Name en UID van de gebruiker."
+
+"Error deleting Sandboxes: {0}"
+"Fout bij verwijderen van sandboxen: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"BEGIN LOAD from {0} with context {1}"
+
+"Finished first pass of load; now performing second pass"
+"Eerste doorgang van lading voltooid; voert nu tweede doorgang uit"
+
+"END LOAD from {0} with context {1}"
+"END LOAD from {0} with context {1}"
+
+"ERROR LOAD from {0}: {1}"
+"ERROR LOAD from {0}: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"BEGIN DUMP to {0} via user {1}"
+
+"END DUMP to {0} via user {1}"
+"END DUMP to {0} via user {1}"
+
+"Could not find context for fully qualified card name {0}"
+"Kon geen context vinden voor volledig gekwalificeerde kaartnaam {0}"
+
+"Could not find context for fully qualified snippet name {0}"
+"Kon geen context vinden voor volledig gekwalificeerde fragmentnaam {0}"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"Kan zoekopdracht voor geladen kaart \"{0}\" niet uitvoeren: {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"Kan geen verbinding maken met database ''{0}'' om niet-verborgen tabellen te synchroniseren"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+
+"Invalid domain"
+"Ongeldig domein"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"Opzoekfilter voor gebruikers. De tijdelijke aanduiding '{login}' wordt vervangen door de door de gebruiker opgegeven login."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Kenmerk dat moet worden gebruikt voor de e-mail van de gebruiker. (meestal ''mail'', ''e-mail'' of ''userPrincipalName'')"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"Zoekbasis voor groepen. Niet vereist voor LDAP-directory's die een ''memberOf''-overlay bieden, zoals Active Directory. (Wordt recursief gezocht)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"Je mag de eigenaar van een Persoonlijke Collectie niet wijzigen."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"Je mag het bevoegdheidsniveau van een Persoonlijke Collectie niet wijzigen."
+
+"You are not allowed to move a Personal Collection."
+"Je mag een Persoonlijke Collectie niet verplaatsen."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"Je kunt een CollectionPermissionGraphRevision niet bijwerken!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"Invalid Field {0} {1}: falling back to {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"Om tabel- en veldnamen mensvriendelijker te maken, vervangt Metabase streepjes en onderstrepingstekens daarin door spaties."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"We zullen elk woord met een hoofdletter schrijven, dus 'laatst_bezocht_om' wordt 'Laatst bezocht om'."
+
+"Setting names in would collide: {0} and {1}"
+"Het instellen van deze namen zou botsen tussen: {0} en {1}"
+
+"Indicates when Metabase last checked for new versions."
+"Geeft aan wanneer Metabase voor het laatst heeft gecontroleerd op nieuwe versies."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"Deze URL wordt gebruikt voor zaken als het maken van links in e-mails, auth-omleidingen,"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"en in sommige inbeddingsscenario's, dus het wijzigen ervan kan functionaliteit breken of je buitensluiten van deze instantie."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"Indien ingesteld, wordt het gebruik van sessiecookies voor alle gebruikers afgedwongen die verlopen wanneer de browser wordt gesloten."
+
+"Error parsing paging parameters: {0}"
+"Error parsing paging parameters: {0}"
+
+"Error running sync step"
+"Error running sync step"
+
+"Error in sync step {0}"
+"Error in sync step {0}"
+
+"Error fetching version info; setting version-info value to nil"
+"Error fetching version info; setting version-info value to nil"
+
+"Valid field semantic type"
+"Geldig veld semantisch type"
+
+"value must be a valid field semantic type."
+"waarde moet een geldig veldsemantisch type zijn."
+
+"Valid field relation type"
+"Geldig veldrelatietype"
+
+"value must be a valid field relation type."
+"waarde moet een geldig veldrelatietype zijn."
+
+"Valid field semantic or relation type"
+"Geldige veldsemantiek of relatietype"
+
+"value must be a valid field semantic or relation type."
+"waarde moet een geldig veldsemantisch of relatietype zijn."
+
+"Valid field data type (keyword or string)"
+"Geldig veldgegevenstype (zoekwoord of tekenreeks)"
+
+"value must be a valid field data type (keyword or string)."
+"waarde moet een geldig veldgegevenstype zijn (zoekwoord of tekenreeks)."
+
+"Valid field semantic type (keyword or string)"
+"Geldig semantisch veldtype (zoekwoord of tekenreeks)"
+
+"value must be a valid field semantic type (keyword or string)."
+"waarde moet een geldig semantisch veldtype zijn (zoekwoord of tekenreeks)."
+
+"Valid field relation type (keyword or string)"
+"Geldig veldrelatietype (zoekwoord of tekenreeks)"
+
+"value must be a valid field relation type (keyword or string)."
+"waarde moet een geldig veldrelatietype zijn (zoekwoord of tekenreeks)."
+
+"Valid field semantic or relation type (keyword or string)"
+"Geldige veldsemantiek of relatietype (zoekwoord of tekenreeks)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"waarde moet een geldig veldsemantisch of relatietype zijn (zoekwoord of tekenreeks)."
+
+"value must be a valid coercion strategy (keyword or string)."
+"waarde moet een geldige dwangstrategie zijn (zoekwoord of tekenreeks)."
+
+"password is too common."
+"wachtwoord komt te vaak voor."
+
+"Invalid custom GeoJSON"
+"Ongeldige aangepaste GeoJSON"
+
+"GeoJSON URL failed to load"
+"GeoJSON URL niet geladen"
+
+"Error building query parameter map: {0}"
+"Fout bij het maken van de query parameter map: {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"Plugin ''{0}'' hangt af van omgevingsvariabele ''{1}'' die op iets is ingesteld"
+
+"Down"
+"Down"
+
+"Up"
+"Up"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"Toegestane e-mailadresdomein(en) voor nieuwe Dashboard abonnementen en Alerts. Heeft geen invloed op bestaande abonnementen."
+
+"Invalid email address: {0}"
+"Ongeldig e-mailadres: {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"Je kunt geen nieuwe abonnementen maken voor het domein {0}. Toegestane domeinen zijn: {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"Dit API-eindpunt is alleen ingeschakeld als je een premium-token hebt met de functie {0}."
+
+"Error compiling audit query: {0}"
+"Error compiling audit query: {0}"
+
+"Error running audit query: {0}"
+"Error running audit query: {0}"
+
+"Error parsing Pulse parameters: {0}"
+"Error parsing Pulse parameters: {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Geblokkeerd: je mag geen query's uitvoeren op Database {0}."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"Cannot parse permissions graph because it is invalid: {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"Ongeldige DB-machtigingen: als je schrijftoegang hebt voor native query's, moet je volledige gegevenstoegang hebben."
+
+"Error parsing permissions tree {0}"
+"Error parsing permissions tree {0}"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"collectie-ID van een dashboardabonnement kan niet rechtstreeks worden gewijzigd"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"dashboard-ID van een dashboardabonnement kan niet worden gewijzigd"
+
+"Javascript resource not found: {0}"
+"Javascript resource not found: {0}"
+
+"Found new version for DB: {0}"
+"Found new version for DB: {0}"
+
+"Rerun queries for simple explorations"
+"Voer zoekopdrachten opnieuw uit voor eenvoudige verkenningen"
+
+"Choose when syncs and scans happen"
+"Kies wanneer te synchroniseren en te scannen"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"Standaard voert Metabase een lichtgewichte synchronisatie van veldwaardes elk uur en een uitgebreide scan dagelijks. Zet dit aan voor grotere databases om zelf te kiezen."
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"Hierdoor kan Metabase tijdens synchronisaties naar aanvullende veldwaarden scannen, wat slimmer gedrag mogelijk maakt, zoals verbeterde auto-binning op uw staafdiagrammen."
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"Standaard wordt \"Site-URL\" gebruikt in meldingslinks, maar dit kan overschreven worden."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"Fout bij voorverwerking van bronquery bij toepassen van GTAP: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Unieke identifier die moet worden gebruikt in Snowplow-analyses om deze instantie van Metabase te identificeren."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"Dit is een openbare instelling, aangezien sommige analysegebeurtenissen vóór de eerste installatie worden verzonden."
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Boolean waarde die aangeeft of een Snowplow collector beschikbaar is om analysegebeurtenissen te ontvangen."
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Moet worden ingesteld via omgevingsvariabele in Cypress-tests of tijdens lokale ontwikkeling."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Boolean waarde die aangeeft of analysegebeurtenissen naar Snowplow worden verzonden."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"Waar als anonieme tracking is ingeschakeld voor deze instantie en er een Snowplow collector beschikbaar is."
+
+"The URL of the Snowplow collector to send analytics events to."
+"De URL van de Snowplow-collector waarnaar analysegebeurtenissen moeten worden verzonden."
+
+"Error sending Snowplow analytics event {0}"
+"Error sending Snowplow analytics event {0}"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"Het geschatte tijdstempel waarop deze instantie van Metabase is gemaakt, voor opname in analyses."
+
+"Unverified due to edit"
+"Niet geverifieerd wegens bewerking"
+
+"Card {0} does not exist or does not have a valid query."
+"Kaart {0} bestaat niet of heeft geen geldige zoekopdracht."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"Je moet gegevensmachtigingen hebben om een parameter toe te voegen die verwijst naar de tabel {0}."
+
+"No matching parameter with slug {0}. Found: {1}"
+"Geen overeenkomende parameter met slug {0}. Gevonden: {1}"
+
+"Could not invite user because email is not configured."
+"Kan gebruiker niet uitnodigen omdat e-mail niet is geconfigureerd."
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"Gebruikt jouw team Slack? Dan kun je geautomatiseerde updates sturen via dashboardabonnementen."
+
+"invalid token"
+"Ongeldige Token"
+
+"Slack channel not found."
+"Slack-kanaal niet gevonden."
+
+"channel not found"
+"Kanaal niet gevonden"
+
+"Unrecognized modal: {0}"
+"Unrecognized modal: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"Het IP-adres van uw database (bijv. 98.137.149.56) of de domeinnaam (bijv. abc.mijndatabase.nl)."
+
+"username"
+"gebruikersnaam"
+
+"Use a secure connection (SSL)"
+"Gebruik een beveiligde verbinding (SSL)"
+
+"Use an SSH tunnel"
+"Gebruik een SSH tunnel"
+
+"Enable this ssh tunnel?"
+"Deze ssh-tunnel inschakelen?"
+
+"SSH tunnel host"
+"SSH-tunnel host"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"De hostnaam die je gebruikt om verbinding te maken met SSH-tunnels."
+
+"SSH tunnel port"
+"SSH-tunnel poort"
+
+"SSH tunnel username"
+"SSH-tunnel gebruikersnaam"
+
+"The username you use to login to your SSH tunnel."
+"De gebruikersnaam die je gebruikt om in te loggen op je SSH-tunnel."
+
+"SSH tunnel password"
+"SSH-tunnel wachtwoord"
+
+"SSH private key to connect to the tunnel"
+"SSH Private Key die je gebruikt om in te loggen"
+
+"Paste the contents of an ssh private key here"
+"Plak hier de inhoud van een ssh-privésleutel"
+
+"Passphrase for SSH private key"
+"Wachtwoord voor SSH-privésleutel"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"We voeren de onderliggende query uit wanneer je gegevens verkent met behulp van Samenvatten of Filteren."
+
+"This is on by default but you can turn it off if performance is slow."
+"Dit is standaard ingeschakeld, maar je kunt het uitschakelen als de prestaties traag zijn."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"Dit is een lichtgewicht proces dat controleert op updates voor het schema van deze database."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"In de meeste gevallen is het voldoende om deze elk uur te laten synchroniseren."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"Als je database zich achter een firewall bevindt, moet je mogelijk verbindingen toestaan vanaf onze Metabase Cloud IP-adressen:"
+
+"Error querying database {0} for current time: {1}"
+"Error querying database {0} for current time: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"Het lokale pad ten opzichte van waar Metabase draait. Je tekenreeks mag niet de extensie .mv.db bevatten."
+
+"SSL Mode"
+"SSL modus"
+
+"SSL Root Certificate (PEM)"
+"SSL-rootcertificaat (PEM)"
+
+"Authenticate client certificate?"
+"Clientcertificaat verifiëren?"
+
+"SSL Client Certificate (PEM)"
+"SSL-clientcertificaat (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"SSL-clientsleutel (PKCS-8/DER of PKCS-12)"
+
+"SSL Client Key Password"
+"Wachtwoord SSL-clientsleutel"
+
+"Unable to substitute parameters: {0}"
+"Kan parameters niet vervangen: {0}"
+
+"Expected native source query to be a string, got: {0}"
+"Expected native source query to be a string, got: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"Expected native source query parameters to be sequential, got: {0}"
+
+"No expression named {0} at this level of the query"
+"No expression named {0} at this level of the query"
+
+"Error compiling :field clause: {0}"
+"Error compiling :field clause: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+
+"Error setting connection to autoCommit false"
+"Error setting connection to autoCommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"Error setting prepared statement fetch size to fetch-size"
+
+"Error setting statement fetch size to fetch-size"
+"Error setting statement fetch size to fetch-size"
+
+"Error executing query: {0}"
+"Error executing query: {0}"
+
+"Local file path"
+"Lokaal bestandspad"
+
+"Uploaded file path"
+"Geüploade bestandspad"
+
+"File path"
+"Bestandspad"
+
+"Error invoking getter for connection property {0}"
+"Error invoking getter for connection property {0}"
+
+"Only these..."
+"Alleen deze..."
+
+"All except..."
+"Alles behalve..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"Komma-gescheiden namen van {0} die <strong>moeten</strong> verschijnen in Metabase"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"Je kunt patronen zoals <strong>auth*</strong> gebruiken om meerdere {0} te matchen"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"Komma-gescheiden namen van {0} die <strong>NIET</strong> in Metabase zouden moeten voorkomen"
+
+"Your Slack connection stopped working"
+"Je Slack-verbinding werkt niet meer"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"Client-ID voor aanmelding bij Google. Als dit is ingesteld, wordt Google Sign-In geacht te zijn ingeschakeld."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"Ongeldige Google Sign-In Client ID: moet eindigen op \".apps.googleusercontent.com\""
+
+"Invalid Google Sign-In token."
+"Ongeldige Google-inlogtoken."
+
+"Google Sign-In token appears to be incorrect. "
+"De Google-aanmeldingstoken lijkt onjuist te zijn. "
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"Geverifieerde Google-aanmeldingstoken voor: {0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"Verouderde Slack API-token voor het verbinden van de Metabase Slack-bot."
+
+"Please use a new Slack app integration instead."
+"Gebruik in plaats daarvan een nieuwe Slack-app-integratie."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"Bot-gebruiker OAuth-token voor het verbinden van de Metabase Slack-app."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"Dit moet worden gebruikt voor alle nieuwe Slack-integraties beginnend vanaf Metabase v0.42.0."
+
+"Whether the current Slack app token, if set, is valid."
+"Of het huidige Slack-app-token, indien ingesteld, geldig is."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Stel in op 'false' als een Slack API-verzoek een auth-fout retourneert."
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"De naam van het kanaal waarnaar Metabase-bestanden in eerste instantie moeten worden geüpload"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 Je Slack-autorisatietoken is ongeldig of is ingetrokken. Werk je integratie bij in Beheerdersinstellingen -> Slack."
+
+"Slack channel named `{0}` is missing!"
+"Slack-kanaal met de naam `{0}` ontbreekt!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"Het kanaal wordt gebruikt voor het opslaan van afbeeldingen die zijn opgenomen in dashboardabonnementen."
+
+"You do not have curate permissions for this Collection."
+"Je hebt geen beheerrechten voor deze collectie."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"Dashboard {0} heeft geen DashboardCard met ID {1}"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"Geheime ID {0} verwijderen uit app DB omdat de eigenaar van de database ({1}) wordt verwijderd"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Ongeldige waarde voor veldkolom {0}: {1} is geen afstammeling van een van deze typen: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"Kan geen blokkeringsrechten gebruiken zonder de premiumfunctie voor geavanceerde machtigingen"
+
+"User {0} does not exist."
+"Gebruiker {0} bestaat niet."
+
+"Wrong email address for User {0}."
+"Verkeerd e-mailadres voor gebruiker {0}."
+
+"Secret ID {0}"
+"Geheime ID {0}"
+
+"File path for {0}"
+"Bestandspad voor {0}"
+
+"Path"
+"Pad"
+
+"{0} points to non-existent file: {1}"
+"{0} verwijst naar een niet-bestaand bestand: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (een lokaal bestandspad) kan niet worden gebruikt in een door Metabase gehoste omgeving"
+
+"Error parsing Setting {0}: {1}"
+"Error parsing Setting {0}: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"Site-wide values are not allowed for Setting {0}"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"Setting name ''{0}'' is retired; use a different name instead"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Boolean die aangeeft of analytische gegevens naar Google Analytics op de frontend moeten worden verzonden"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"Metabase-versie waarvoor een melding over het gebruik van verouderde functies is weergegeven."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Wel of niet een bericht weergeven over het vastzetten van dashboards. Het wordt ook verborgen als dashboards zijn vastgezet. Beheerders kunnen dit verbergen om gebruikers naar betere inhoud te leiden dan onbewerkte gegevens"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"Dit heeft invloed op zaken als groeperen op week of filteren in GUI-query's."
+
+"It won''t affect most SQL queries,"
+"Dit heeft geen invloed op de meeste SQL-query's,"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+" hoewel het wordt gebruikt om de WEEK_START-sessievariabele in Snowflake in te stellen."
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Fout bij ophalen van IP-adressen van Metabase Cloud-gateway:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"Metabase Cloud gateway IP-adressen, om verbindingen met DB's achter firewalls te configureren"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"Of een introductie popup moet worden weergegeven nadat de volgende databaseverbinding is toegevoegd."
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"De standaardinstelling is onwaar als een niet-standaarddatabase al is gesynchroniseerd voor deze instantie."
+
+"Alert: {0} has {1}"
+"Alert: {0} has {1}"
+
+"Nothing to compare to."
+"Nothing to compare to."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"Unable to resolve invalid query parameter: parameter is missing :id"
+
+"Dashboard does not have a parameter with ID {0}."
+"Dashboard does not have a parameter with ID {0}."
+
+"Query: {0}"
+"Query: {0}"
+
+"Error determining expected columns for query: {0}"
+"Error determining expected columns for query: {0}"
+
+"Nested queries are disabled"
+"Nested queries are disabled"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+
+"Guessing join {0}"
+"Guessing join {0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"Unable to infer an appropriate join. Query may not work as expected."
+
+"Error resolving Fields in query: {0}"
+"Error resolving Fields in query: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"Expected :aggregation-options clause, got {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"Cannot determine the source table or query for Field clause {0}"
+
+"Aggregation does not exist at index {0}"
+"Aggregation does not exist at index {0}"
+
+"No expression named {0}"
+"No expression named {0}"
+
+"Sample database DB file ''{0}'' cannot be found."
+"Sample database DB file ''{0}'' cannot be found."
+
+"Loading sample database"
+"Voorbeelddatabase laden"
+
+"Failed to load sample database"
+"Kan voorbeelddatabase niet laden"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+
+"Login request is missing device ID information"
+"Login request is missing device ID information"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+
+"Enable this SSH tunnel?"
+"Deze SSH-tunnel inschakelen?"
+
+"The hostname that you use to connect to SSH tunnels."
+"De hostnaam die je gebruikt om verbinding te maken met SSH-tunnels."
+
+"Paste the contents of an SSH private key here"
+"Plak hier de inhoud van een SSH-privésleutel"
+
+"Allow using a saved question or Model as the source for other queries?"
+"Toestaan dat een opgeslagen vraag of model wordt gebruikt als bron voor andere zoekopdrachten?"
+
+"Pulse card query error"
+"Fout bij het opvragen van de pulskaart"
+
+"There was a problem with this question."
+"Er was een probleem met deze vraag."
+
+"Copy of "
+"Kopie van "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"De /api/setup route kan alleen gebruikt worden om de eerste gebruiker aan te maken, hoe een gebruiker op dit moment ook bestaat."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"Maximum aantal rijen om te retourneren specifiek op :rows type queries via de API."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"Toegestane e-mailadresdomein(en) voor nieuwe Dashboard-abonnementen en -waarschuwingen. Om meerdere domeinen op te geven, scheidt u elk domein met een komma, zonder spatie ertussen (bijvoorbeeld \"domein1,domein2\"). Laat het veld leeg om alle domeinen toe te staan. Deze instelling heeft geen invloed op bestaande abonnementen."
+
+"You do not have permissions to download the results of this query."
+"Je bent niet gemachtigd om de resultaten van deze zoekopdracht te downloaden."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"Niet-beheerders zonder toezicht- of abonnementsmachtigingen mogen alleen waarschuwingen bijwerken die ze hebben gemaakt"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"Niet-beheerders zonder toezicht- of abonnementsrechten mogen de kanalen voor een waarschuwing niet wijzigen"
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"Niet-beheerders zonder abonnementsrechten mogen geen ontvangers toevoegen"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"Groepsbeheer is alleen ingeschakeld als u een premium-token hebt met de functie voor geavanceerde machtigingen."
+
+"Admin cant be a group manager."
+"Beheerder kan geen groepsbeheerder zijn."
+
+"Timeline with id {0} not found"
+"Tijdlijn met id {0} niet gevonden"
+
+"Timestamp cannot be null"
+"Timestamp cannot be null"
+
+"ERROR {0}: {1}"
+"ERROR {0}: {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Clearing default entries created by Liquibase migrations..."
+
+"Don''t know how to parse date string {0}"
+"Don''t know how to parse date string {0}"
+
+"Invalid values provided for operator: {0}"
+"Invalid values provided for operator: {0}"
+
+"Unrecognized operation: {0}"
+"Unrecognized operation: {0}"
+
+"Error determining value for parameter {0}: {1}"
+"Error determining value for parameter {0}: {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"You cannot update a ApplicationPermissionsRevision!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+
+"The engine on a sample database cannot be changed."
+"De engine van een voorbeelddatabase kan niet worden gewijzigd."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"De functie voor {0}-machtigingen is alleen ingeschakeld als je een premium-token heeft met de functie voor geavanceerde machtigingen."
+
+"Unknown setting: {0}"
+"Onbekende instelling: {0}"
+
+"You do not have access to the setting {0}"
+"Je hebt geen toegang tot de instelling {0}"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"Setting {0} allows both user-local and database-local values; this is not supported"
+
+"Error purging old cache entries: {0}"
+"Error purging old cache entries: {0}"
+
+"Error saving query results to cache: {0}"
+"Error saving query results to cache: {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack is not configured, not refreshing slack user/channel cache."
+
+"value must be a valid date string"
+"value must be a valid date string"
+
+"Not allowed to edit group memberships"
+"Niet toegestaan om groepslidmaatschappen te bewerken"
+
+"Connected to"
+"Verbonden met"
+
+}

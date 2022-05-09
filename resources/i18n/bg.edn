@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"Базата данни се синхронизира"
+
+"Scanning for Filter Values"
+"Сканира за стойности на филтъра"
+
+"When should Metabase automatically scan and cache field values?"
+"Кога желаете Metabase автоматично да сканира и кешира стойности от полетата в базата данни?"
+
+"Other"
+"Друго"
+
+"Email"
+"Имейл"
+
+"{0} table"
+"{0} Таблица"
+
+"Password"
+"Парола"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Ще ви е необходим администратор, за да създадете акаунт в Metabase, преди да можете да използвате Google за влизане."
+
+"Our analytics"
+"Нашите анализи"
+
+"Unknown"
+"Неизвестно"
+
+"Count"
+"Броя"
+
+"number"
+"номер"
+
+"Native query"
+"Собствена заявка"
+
+"Today"
+"Днес"
+
+"Yesterday"
+"Вчера"
+
+"Week"
+"Седмица"
+
+"Month"
+"Месец"
+
+"Year"
+"Година"
+
+"Slack"
+"Отпуснат"
+
+"results"
+"резултати"
+
+"Count of {0}"
+"Брой на {0}"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"ИЗТРИВАНЕ / api / alert /: идентификаторът е остарял. Вместо това променете стойността на „архивирана“ чрез PUT / api / alert /: id."
+
+"invalid show value"
+"невалидна стойност"
+
+"invalid value for prefix"
+"невалидна стойност за префикс"
+
+"invalid value for rule name"
+"невалидна стойност за име на правило"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"Стойността не може да бъде анализирана като JSON, кодиран в base64"
+
+"Invalid entity type"
+"Невалиден тип обект"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"Невалиден тип обект за сравнение. Може да бъде само един от „таблица“, „сегмент“ или „adhoc“"
+
+"Error running query to determine Card result metadata:"
+"Грешка при изпълнение на заявка за определяне на метаданните за резултата от картата:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"DELETE / api / card /: идентификаторът е оттеглен. Вместо това променете стойността на „архивирана“ чрез PUT / api / card /: id."
+
+"Invalid field: {0}"
+"Невалидно поле: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"Невалидна стойност '' {0} '' за '' {1} '': {2}"
+
+"must be one of: {0}"
+"трябва да е едно от: {0}"
+
+"Invalid Request."
+"Невалидна заявка."
+
+"Not found."
+"Не е намерен."
+
+"You don''t have permissions to do that."
+"Нямате разрешения за това."
+
+"Internal server error."
+"Вътрешна сървърна грешка."
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"Предупреждение: крайната точка {0} / {1} няма документ."
+
+"starting streaming request"
+"стартиране на заявка за стрийминг"
+
+"connection closed, canceling request"
+"връзката затворена, заявка за анулиране"
+
+"Response not ready, writing one byte & sleeping..."
+"Отговорът не е готов, запис на един байт и сън ..."
+
+"Public sharing is not enabled."
+"Публичното споделяне не е активирано."
+
+"Embedding is not enabled."
+"Вграждането не е активирано."
+
+"The object has been archived."
+"Обектът е архивиран."
+
+"Source query for this query is Card {0}"
+"Заявка за източник за тази заявка е Карта {0}"
+
+"Invalid export format: {0}"
+"Невалиден формат за експортиране: {0}"
+
+"Invalid JSON URL or resource: {0}"
+"Невалиден JSON URL или ресурс: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON, съдържащ информация за персонализирани GeoJSON файлове за използване при визуализации на карти, вместо по подразбиране за щатския щат или World GeoJSON."
+
+"Invalid custom GeoJSON key: {0}"
+"Невалиден персонализиран ключ на GeoJSON: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"ИЗТРИВАНЕ / api / pulse /: id е остарял. Вместо това променете стойността на „архивирана“ чрез PUT / api / pulse /: id."
+
+"API endpoint does not exist."
+"Крайната точка на API не съществува."
+
+"Password did not match stored password."
+"Паролата не съответства на съхранената парола."
+
+"did not match stored password"
+"не съответства на съхранената парола"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"Проблем при свързване с LDAP сървър, ще се върне към локално удостоверяване {0}"
+
+"Invalid reset token"
+"Невалиден маркер за нулиране"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"Когато е зададено, позволете на потребителите да се регистрират сами, ако имейл адресът на акаунта им в Google е от този домейн."
+
+"Email is not verified."
+"Имейлът не е проверен."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Ще ви е необходим администратор, за да създадете акаунт в Metabase, преди да можете да използвате Google за влизане."
+
+"Add a database"
+"Добавете база данни"
+
+"Get connected"
+"Свържи се"
+
+"Connect to your data so your whole team can start to explore."
+"Свържете се с вашите данни, за да може целият ви екип да започне да изследва."
+
+"Set up email"
+"Настрой имейл"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"Добавете идентификационни данни за имейл, за да можете по-лесно да каните членове на екипа и да получавате актуализации чрез импулси."
+
+"Set Slack credentials"
+"Задайте идентификационни данни на Slack"
+
+"Invite team members"
+"Поканете членове на екипа"
+
+"Share answers and data with the rest of your team."
+"Споделете отговори и данни с останалата част от екипа си."
+
+"Hide irrelevant tables"
+"Скриване на неподходящи таблици"
+
+"Curate your data"
+"Подгответе вашите данни"
+
+"If your data contains technical or irrelevant info you can hide it."
+"Ако вашите данни съдържат техническа или неподходяща информация, можете да ги скриете."
+
+"Organize questions"
+"Организирайте въпроси"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"Имате ли много запазени въпроси в {0}? Създавайте колекции, за да помогнете за управлението им и да добавите контекст."
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"Създайте показатели"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"Дефинирайте канонични показатели, за да улесните останалите от вашия екип да получат правилните отговори."
+
+"Create segments"
+"Създайте сегменти"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"Дръжте всички на една и съща страница, като създавате канонични набори от филтри, които всеки може да използва, докато задава въпроси."
+
+"Table ''{0}'' is now visible. Resyncing."
+"Таблица „{0}“ вече е видима. Пресинхронизиране."
+
+"Auto bin"
+"Автоматично кошче"
+
+"Don''t bin"
+"Не бин"
+
+"Day"
+"Ден"
+
+"Minute"
+"Минута"
+
+"Hour"
+"Час"
+
+"Quarter"
+"Тримесечие"
+
+"Minute of Hour"
+"Минута час"
+
+"Hour of Day"
+"Час на деня"
+
+"Day of Week"
+"Ден на седмицата"
+
+"Day of Month"
+"Ден на месеца"
+
+"Day of Year"
+"Ден на годината"
+
+"Week of Year"
+"Седмица от годината"
+
+"Month of Year"
+"Месец на годината"
+
+"Quarter of Year"
+"Квартал на годината"
+
+"10 bins"
+"10 кошчета"
+
+"50 bins"
+"50 кошчета"
+
+"100 bins"
+"100 кошчета"
+
+"Bin every 0.1 degrees"
+"Кошче на всеки 0,1 градуса"
+
+"Bin every 1 degree"
+"Кошче на всеки 1 градус"
+
+"Bin every 10 degrees"
+"Кошче на всеки 10 градуса"
+
+"Bin every 20 degrees"
+"Кошче на всеки 20 градуса"
+
+"No appropriate image writer found!"
+"Не е намерен подходящ писател на изображения!"
+
+"Email address already in use."
+"Имейл адресът вече се използва."
+
+"Email address already associated to another user."
+"Имейл адрес, вече свързан с друг потребител."
+
+"Not able to reactivate an active user"
+"Не е в състояние да активира отново активен потребител"
+
+"Invalid password"
+"Невалидна парола"
+
+"All {0}"
+"Всички {0}"
+
+"{0}, all {1}"
+"{0}, всички {1}"
+
+"Comparison of {0} and {1}"
+"Сравнение на {0} и {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"Автоматично генерирано табло за сравнение, сравняващо {0} и {1}"
+
+"sum"
+"сума"
+
+"average"
+"средно аритметично"
+
+"minumum"
+"минимум"
+
+"maximum"
+"максимум"
+
+"distinct count"
+"отчетлив брой"
+
+"standard deviation"
+"стандартно отклонение"
+
+"cumulative count"
+"кумулативен брой"
+
+"cumulative sum"
+"кумулативна сума"
+
+"{0} and {1}"
+"{0} и {1}"
+
+"{0} of {1}"
+"{0} от {1}"
+
+"{0} by {1}"
+"{0} от {1}"
+
+"{0} in the {1} segment"
+"{0} в сегмента {1}"
+
+"{0} segment"
+"{0} сегмент"
+
+"{0} metric"
+"{0} метричен показател"
+
+"{0} field"
+"Поле {0}"
+
+"\"{0}\" question"
+"Въпрос „{0}“"
+
+"Compare with {0}"
+"Сравнете с {0}"
+
+"Compare with entire dataset"
+"Сравнете с целия набор от данни"
+
+"Applying heuristic %s to %s."
+"Прилагане на евристична% s към% s."
+
+"Dimensions bindings:n%s"
+"Размери обвързвания: n% s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"Използване на дефиниции: nMetrics: n% sn Филтри: n% s"
+
+"Can''t create dashboard for {0}"
+"Не мога да създам табло за управление за {0}"
+
+"{0}st"
+"{0} ул"
+
+"{0}nd"
+"{0} и"
+
+"{0}rd"
+"{0}"
+
+"{0}th"
+"{0} th"
+
+"at {0}"
+"в {0}"
+
+"on {0}"
+"на {0}"
+
+"in {0} week - {1}"
+"след {0} седмица - {1}"
+
+"in {0}"
+"в {0}"
+
+"in Q{0} - {1}"
+"в Q {0} - {1}"
+
+"Q{0}"
+"В {0}"
+
+"{0} is {1}"
+"{0} е {1}"
+
+"{0} is between {1} and {2}"
+"{0} е между {1} ​​и {2}"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0} е между {1} ​​и {2}; и {3} е между {4} и {5}"
+
+"where {0}"
+"където {0}"
+
+"A closer look at {0}"
+"По-подробен поглед към {0}"
+
+"A closer look at the {0}"
+"По-подробен поглед към {0}"
+
+"Adding %s cards to dashboard %s:n%s"
+"Добавяне на% s карти към таблото за управление% s: n% s"
+
+"0 <= score <= {0}"
+"0 <= резултат <= {0}"
+
+"1 <= width <= {0}"
+"1 <= ширина <= {0}"
+
+"Valid metrics references"
+"Валидни референции за показатели"
+
+"Valid filters references"
+"Валидни препратки към филтри"
+
+"Valid group references"
+"Валидни препратки към групата"
+
+"Valid order_by references"
+"Валиден ред_ по препратки"
+
+"Valid dashboard filters references"
+"Валидни справки за филтри на таблото за управление"
+
+"Valid dimension references"
+"Валидни препратки към измерения"
+
+"Valid card dimension references"
+"Валидни референтни размери на картата"
+
+"Error parsing %s:n%s"
+"Грешка при синтактичния анализ на% s: n% s"
+
+"No user found with email address ''{0}''. "
+"Не е намерен потребител с имейл адрес „„ {0} “."
+
+"Please check the spelling and try again."
+"Моля, проверете правописа и опитайте отново."
+
+"Resetting password for {0}..."
+"Нулиране на парола за {0} ..."
+
+"OK [[[{0}]]]"
+"ОК [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"FAIL [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Моля, използвайте следния URL, за да настроите вашата инсталация на Metabase:"
+
+"Metabase Shutting Down ..."
+"Metabase се изключва ..."
+
+"Metabase Shutdown COMPLETE"
+"Изключване на Metabase ЗАВЪРШЕНО"
+
+"Starting Metabase version {0} ..."
+"Стартира се версия на Metabase {0} ..."
+
+"System timezone is ''{0}'' ..."
+"Системната часова зона е „{0}“ ..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Настройка и мигриране на Metabase DB. Моля, седнете здраво, това може да отнеме минута ..."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"Изглежда, че това е нова инсталация ... подготвяне на съветника за настройка"
+
+"Metabase Initialization COMPLETE"
+"Инициализация на Metabase ЗАВЪРШЕНА"
+
+"Launching Embedded Jetty Webserver with config:"
+"Стартиране на Embedded Jetty Webserver с config:"
+
+"Shutting Down Embedded Jetty Webserver"
+"Изключване на вградения уеб сървър на Jetty"
+
+"Starting Metabase in STANDALONE mode"
+"Стартиране на Metabase в режим STANDALONE"
+
+"Metabase Initialization FAILED"
+"Инициализирането на Metabase НЕ Е УСПЕШНО"
+
+"Database has migration lock; cannot run migrations."
+"Базата данни има заключване за миграция; не може да изпълнява миграции."
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"Можете да освободите тези ключалки принудително, като стартирате `java -jar metabase.jar migrate release-locks`."
+
+"Checking if Database has unrun migrations..."
+"Проверка дали базата данни има неизпълнени миграции ..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"Базата данни има неизпълнени миграции. Изчаква се заключването на миграцията да бъде изчистено ..."
+
+"Migration lock is cleared. Running migrations..."
+"Заключването на миграцията е изчистено. Изпълняват миграции ..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"Заключването на миграцията е изчистено, но тук няма какво да се прави! Миграциите бяха завършени от друга инстанция."
+
+"Setting up Liquibase..."
+"Настройване на Liquibase ..."
+
+"Liquibase is ready."
+"Liquibase е готов."
+
+"Verifying {0} Database Connection ..."
+"Проверка на {0} връзка с база данни ..."
+
+"Verify Database Connection ... "
+"Проверка на връзката с база данни ..."
+
+"Running Database Migrations..."
+"Изпълняват се миграции на база данни ..."
+
+"Database Migrations Current ... "
+"Текущи миграции на база данни ..."
+
+"Hmm, we couldn''t connect to the database."
+"Хм, не успяхме да се свържем с базата данни."
+
+"Make sure your host and port settings are correct"
+"Уверете се, че настройките на вашия хост и порт са правилни"
+
+"We couldn''t connect to the ssh tunnel host."
+"Не успяхме да се свържем с ssh тунелния хост."
+
+"Check the username, password."
+"Проверете потребителското име, паролата."
+
+"Check the hostname and port."
+"Проверете името на хоста и порта."
+
+"Looks like the database name is incorrect."
+"Изглежда името на базата данни е неправилно."
+
+"It looks like your host is invalid."
+"Изглежда вашият хост е невалиден."
+
+"Please double-check it and try again."
+"Моля, проверете го отново и опитайте отново."
+
+"Looks like your password is incorrect."
+"Изглежда паролата ви е неправилна."
+
+"Looks like you forgot to enter your password."
+"Изглежда сте забравили да въведете паролата си."
+
+"Looks like your username is incorrect."
+"Изглежда потребителското ви име е неправилно."
+
+"Looks like the username or password is incorrect."
+"Изглежда потребителското име или паролата са неправилни."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"Часова зона на връзката, която да се използва при изпълнение на заявки. По подразбиране системната часова зона."
+
+"Registered driver {0} {1}"
+"Регистриран драйвер {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"Не е намерена функция -init-driver за „{0}“"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"Не може да се анализира низа на дата '' {0} '' за механизма на базата данни '' {1} ''"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"Не знам как да свържа клас '' {0} '' с поле base_type, връщайки се към: type / *."
+
+"Failed to connect to database: {0}"
+"Неуспешно свързване с база данни: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"Невалиден идентификатор на BigQuery: „„ {0} “"
+
+"BigQuery statements can't be parameterized!"
+"Операторите на BigQuery не могат да бъдат параметризирани!"
+
+"Failed to set timezone:"
+"Неуспешно задаване на часовата зона:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"Изпълнението на SQL заявки срещу H2 бази данни с използване на потребител на база данни (администратор) по подразбиране е забранено."
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"Грешка: metabase.driver.FixedHiveDriver е регистриран, но JDBC изглежда не го използва."
+
+"Found metabase.driver.FixedHiveDriver."
+"Намерен metabase.driver.FixedHiveDriver."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"Успешно регистриран metabase.driver.FixedHiveDriver с JDBC."
+
+"Email address you want to use as the sender of Metabase."
+"Имейл адрес, който искате да използвате като подател на Metabase."
+
+"The address of the SMTP server that handles your emails."
+"Адресът на SMTP сървъра, който обработва имейлите ви."
+
+"SMTP username."
+"SMTP потребителско име."
+
+"SMTP password."
+"SMTP парола."
+
+"The port your SMTP server uses for outgoing emails."
+"Портът, който вашият SMTP сървър използва за изходящи имейли."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"SMTP протокол за защитена връзка. (tls, ssl, starttls или няма)"
+
+"none"
+"нито един"
+
+"SMTP host is not set."
+"SMTP хост не е зададен."
+
+"Failed to send email"
+"Изпращането на имейл не бе успешно"
+
+"Error testing SMTP connection"
+"Грешка при тестване на SMTP връзка"
+
+"Enable LDAP authentication."
+"Активирайте LDAP удостоверяване."
+
+"Server hostname."
+"Име на хост на сървъра."
+
+"Server port, usually 389 or 636 if SSL is used."
+"Порт на сървъра, обикновено 389 или 636, ако се използва SSL."
+
+"Use SSL, TLS or plain text."
+"Използвайте SSL, TLS или обикновен текст."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"Отличителното име, което да се обвърже като (ако има такова), този потребител ще се използва за търсене на информация за други потребители."
+
+"The password to bind with for the lookup user."
+"Паролата, с която да се свържете за потребителя за търсене."
+
+"Search base for users. (Will be searched recursively)"
+"База за търсене на потребители. (Ще бъде търсено рекурсивно)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"Потребителски филтър за търсене, заместителят „{login}“ ще бъде заменен от предоставения от потребителя вход."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Атрибут, който да се използва за имейла на потребителя. (обикновено '' mail '', '' email '' или '' userPrincipalName '')"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"Атрибут, който да се използва за собственото име на потребителя. (обикновено '' givenName '')"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"Атрибут, който да се използва за фамилното име на потребителя. (обикновено '' sn '')"
+
+"Enable group membership synchronization with LDAP."
+"Активирайте синхронизирането на членството в група с LDAP."
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"База за търсене на групи, не се изисква, ако вашата LDAP директория предоставя наслагване '' memberOf ''. (Ще бъде търсено рекурсивно)"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON, съдържащ съпоставяния на LDAP към Metabase група."
+
+"Here''s what I can {0}:"
+"Ето какво мога {0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"Не знам как да {0} „{1}` .n {2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"Ето вашите {0} най-скорошни карти: n {1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"Бихте ли могли да бъдете малко по-конкретни? Намерих тези карти с имена, които съвпадат: n {0}"
+
+"Not Found"
+"Не е намерен"
+
+"Go home websocket, you're drunk."
+"Върнете се вкъщи, вие сте пиян."
+
+"Base-64 encoded public key for this site's SSL certificate."
+"Публичен ключ, кодиран в Base-64 за SSL сертификата на този сайт."
+
+"Specify this to enable HTTP Public Key Pinning."
+"Посочете това, за да активирате закрепването на HTTP публичен ключ."
+
+"See {0} for more information."
+"Вижте {0} за повече информация."
+
+"Cannot save Question: source query has circular references."
+"Въпросът не може да бъде запазен: заявката за източник има циркулярни препратки."
+
+"Card {0} does not exist."
+"Карта {0} не съществува."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"Нямате разрешения за изпълнение на ad-hoc естествени заявки срещу база данни {0}."
+
+"Invalid color"
+"Невалиден цвят"
+
+"must be a valid 6-character hex color code"
+"трябва да е валиден 6-знаков шестнадесетичен цветен код"
+
+"Collection name cannot be blank!"
+"Името на колекцията не може да бъде празно!"
+
+"cannot be blank"
+"не може да остане празно"
+
+"Invalid Collection location: path is invalid."
+"Невалидно местоположение на колекцията: пътят е невалиден."
+
+"You cannot move a Personal Collection."
+"Не можете да преместите Лична колекция."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"Невалидно местоположение на колекцията: някои или всички предци не съществуват."
+
+"You cannot archive the Root Collection."
+"Не можете да архивирате Root Collection."
+
+"You cannot archive a Personal Collection."
+"Не можете да архивирате Лична колекция."
+
+"You cannot move the Root Collection."
+"Не можете да преместите Root Collection."
+
+"You cannot move a Collection into itself or into one of its descendants."
+"Не можете да преместите колекция в себе си или в един от нейните потомци."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"Преместване на колекция {0} и нейните потомци от {1} в {2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"Нямате право да променяте собственика на лична колекция."
+
+"You're not allowed to move a Personal Collection."
+"Нямате право да премествате лична колекция."
+
+"You cannot move a Collection and archive it at the same time."
+"Не можете да премествате колекция и да я архивирате едновременно."
+
+"You cannot delete a Personal Collection!"
+"Не можете да изтриете Лична колекция!"
+
+"{0} {1}''s Personal Collection"
+"Лична колекция на {0} {1}"
+
+"You cannot update a CollectionRevision!"
+"Не можете да актуализирате CollectionRevision!"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"Полето {0} по-рано беше автоматично зададено да показва приспособление за списък, но сега има стойности {1}."
+
+"Switching Field to use a search widget instead."
+"Превключване на полето, за да се използва вместо това джаджа за търсене."
+
+"Storing updated FieldValues for Field {0}..."
+"Съхраняване на актуализирани FieldValues ​​за поле {0} ..."
+
+"Storing FieldValues for Field {0}..."
+"Съхраняване на FieldValues ​​за поле {0} ..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase може да се опита да трансформира имената на вашите таблици и полета в по-разумни, разбираеми за човека версии, напр. „Somehorriblename“ става „Some Horrible Name“."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"Това обаче не работи толкова добре, ако имената са на език, различен от английския, обаче."
+
+"Do you want us to take a guess?"
+"Искате ли да предположим?"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"Не можете да създавате или отменяте разрешения за групата „Администратор“."
+
+"Invalid permissions object path: ''{0}''."
+"Невалиден път на обекта за разрешения: „„ {0} “."
+
+"You cannot update a permissions entry!"
+"Не можете да актуализирате запис за разрешения!"
+
+"Delete it and create a new one."
+"Изтрийте го и създайте нов."
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"Не можете да редактирате разрешения за Лична колекция или нейните потомци."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"Изглежда някой друг е редактирал разрешенията и данните ви са остарели."
+
+"Please fetch new data and try again."
+"Моля, извлечете нови данни и опитайте отново."
+
+"A group with that name already exists."
+"Група с това име вече съществува."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"Не можете да редактирате или изтривате групата с разрешения ''{0}''!"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"Не можете да добавяте или премахвате потребители към / от групата „MetaBot“."
+
+"You cannot add or remove users to/from the 'All Users' group."
+"Не можете да добавяте или премахвате потребители към / от групата „Всички потребители“."
+
+"You cannot remove the last member of the 'Admin' group!"
+"Не можете да премахнете последния член на групата \"Администратор\"!"
+
+"You cannot update a PermissionsRevision!"
+"Не можете да актуализирате PermissionsRevision!"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"Невалидно предупреждение: Alert няма карта, свързана с него"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"стойността трябва да е карта с ключовете \"{0}\", \"{1}\" и \"{2}\"."
+
+"value must be a map with the following keys `({0})`"
+"стойност трябва да е карта със следните ключове `({0})`"
+
+"Error calculating permissions for query: {0}"
+"Грешка при изчисляването на разрешенията за заявка: {0}"
+
+"Invalid query type: {0}"
+"Невалиден тип заявка: {0}"
+
+"You cannot update a QueryExecution!"
+"Не можете да актуализирате QueryExecution!"
+
+"You cannot update a Revision!"
+"Не можете да актуализирате Ревизия!"
+
+"Updating value of settings-last-updated in DB..."
+"Актуализиране на стойността на настройките, последно актуализирани в DB ..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"Проверка дали кешът за настройки е остарял (изисква обаждане в DB) ..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"Настройките са променени в друг екземпляр и ще бъдат презаредени тук."
+
+"Refreshing Settings cache..."
+"Опресняване на кеша за настройки ..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"Невалидна стойност за низ: трябва да бъде или „true“, или „false“ (без регистрация)."
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"Не можете сами да актуализирате `settings-last-updated`! Това се прави автоматично."
+
+"Error inserting a new Setting:"
+"Грешка при вмъкването на нова настройка:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"Ако приемем, че вече съществува настройка в DB и актуализиране на съществуваща стойност."
+
+"value must be a map with each value either a string or number."
+"стойност трябва да бъде карта с всяка стойност или низ или число."
+
+"Loading plugins in directory {0}..."
+"Зареждат се приставки в директория {0} ..."
+
+"Loading plugin {0}... "
+"Приставката за зареждане {0} ..."
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Изглежда, че имате някои външни зависимости в директорията на вашите приставки Metabase."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"С Java 9 или по-нова версия, Metabase не може автоматично да ги добавя към вашия път на класа."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"Вместо това трябва да ги включите при стартиране с опцията -cp. Например:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"Вижте https://metabase.com/docs/latest/operations-guide/start.html#java-versions за повече подробности."
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(Ако вече използвате Metabase по този начин, можете да игнорирате това съобщение.)"
+
+"Identify when new versions of Metabase are available."
+"Определете кога са налични нови версии на Metabase."
+
+"Information about available versions of Metabase."
+"Информация за наличните версии на Metabase."
+
+"The name used for this instance of Metabase."
+"Името, използвано за този екземпляр на Metabase."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"Основният URL адрес на този екземпляр на Metabase, например \"http://metabase.my-company.com\"."
+
+"The default language for this Metabase instance."
+"Езикът по подразбиране за този екземпляр на Metabase."
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"Това се отнася само за имейли, импулси и др. Потребителските браузъри ще посочат езика, използван в потребителския интерфейс."
+
+"The email address users should be referred to if they encounter a problem."
+"Потребителите на имейл адреси трябва да бъдат насочени, ако срещнат проблем."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Активирайте събирането на анонимни данни за използване, за да помогнете на Metabase да се подобри."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"Шаблонът за URL адрес на сървъра за плочки на карта, използван при визуализации на карти, например от OpenStreetMaps или MapBox."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"Да се ​​разреши ли на администраторите да създават обществено видими връзки (и вграждащи се рамки) за Въпроси и табла за управление?"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"Да се ​​разреши ли на администраторите да вграждат сигурно въпроси и табла за управление в други приложения?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"Активирането на кеширането ще запази резултатите от заявките, които се изпълняват дълго време."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"Максималният размер на кеша за всеки запазен въпрос в килобайта:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"Абсолютното максимално време за запазване на всички кеширани резултати от заявка, в секунди."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase ще кешира всички запазени въпроси със средно време за изпълнение на заявката, по-дълго от толкова много секунди:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"За да определим колко дълго трябва да остане кешираният резултат на всеки запазен въпрос, вземаме средното време за изпълнение на заявката и умножаваме по това, което въведете тук."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"Така че, ако заявката отнеме средно 2 минути, за да се изпълни и въведете 10 за вашия множител, въвеждането в кеша ще продължи 20 минути."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"Когато се използва стратегията за разделяне по подразбиране и не се предоставят определен брой кошчета, този номер ще се използва като подразбиране."
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"Когато използвате стратегията за подреждане по подразбиране за поле от тип Coordinate (като Latitude и Longitude), този номер ще се използва като ширина на кошчето по подразбиране (в градуси)."
+
+"Unable to validate token."
+"Не може да се провери маркера."
+
+"Error fetching token status:"
+"Грешка при извличане на състоянието на маркера:"
+
+"There was an error checking whether this token was valid."
+"При проверката дали този маркер е валиден възникна грешка."
+
+"Token validation timed out."
+"Времето за валидиране на токена изтече."
+
+"Invalid token: token isn't in the right format."
+"Невалиден маркер: маркерът не е в правилния формат."
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"Проверка с MetaStore дали {0} е валидна ..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"Токен за първокласно вграждане. Отидете в MetaStore, за да вземете своя!"
+
+"Token is valid."
+"Токенът е валиден."
+
+"Error setting premium embedding token"
+"Грешка при задаване на премиум маркер за вграждане"
+
+"Unable to compare results to goal for alert."
+"Не може да се сравнят резултатите с целта за предупреждение."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"Идентификаторът на въпроса е „{0}“ „с настройки за визуализация“ „{1}“"
+
+"Unrecognized alert with condition ''{0}''"
+"Неразпознат сигнал с условие „{0}“"
+
+"Unrecognized channel type {0}"
+"Неразпознат тип канал {0}"
+
+"Error sending notification!"
+"Грешка при изпращане на известие!"
+
+"Can't find JS color selector at ''{0}''"
+"Не мога да намеря селектора за цвят на JS в „„ {0} “"
+
+"Card has errors: {0}"
+"Картата има грешки: {0}"
+
+"Pulse card render error"
+"Грешка при изобразяване на импулсна карта"
+
+"Trimming trailing comment from card with id {0}"
+"Изрязване на последващ коментар от карта с идентификатор {0}"
+
+"Can't find field with ID: {0}"
+"Не може да се намери поле с идентификатор: {0}"
+
+"''{0}'' is a required param."
+"„{0}“ е задължителен параметър."
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"Намерен „„ {0} “„ без край на „„ {1} “„ в заявката „„ {2} “"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"Не може да се замени '' {0} '': параметърът не е посочен.nFound: {1}"
+
+"You do not have permissions to view Card {0}."
+"Нямате разрешения за преглед на карта {0}."
+
+"You do not have permissions to run this query."
+"Нямате разрешения за изпълнение на тази заявка."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"Опит за актуализации на пръстови отпечатъци {0}, актуализиран {1}, няма намерени данни {2}, неуспешен {3}"
+
+"Total number of fields classified {0}, {1} failed"
+"Общият брой на класифицираните полета {0}, {1} е неуспешен"
+
+"Total number of tables classified {0}, {1} updated"
+"Общ брой класифицирани таблици {0}, {1} актуализирани"
+
+"Error generating fingerprint for {0}"
+"Грешка при генерирането на пръстов отпечатък за {0}"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"Актуализирани {0} набори от стойности на полета, създадени {1}, изтрити {2} с {3} грешки"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"Общ брой полета, синхронизирани {0}, брой полета актуализирани {1}"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"Общ брой таблици, синхронизирани {0}, брой таблици актуализирани {1}"
+
+"Found timezone id {0}"
+"Намерен идент. № на часовата зона {0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"Общият брой синхронизирани външни ключове {0}, {1} актуализирани и {2} таблици не успяха да се актуализират"
+
+"{0} Database {1} ''{2}''"
+"{0} База данни {1} „„ {2} “"
+
+"Table {0} ''{1}''"
+"Таблица {0} „{1}“"
+
+"Field {0} ''{1}''"
+"Поле {0} „{1}“"
+
+"Field ''{0}''"
+"Поле „{0}“"
+
+"step ''{0}'' for {1}"
+"стъпка „{0}“ за {1}"
+
+"Completed {0} on {1}"
+"Завършен {0} на {1}"
+
+"Start: {0}"
+"Начало: {0}"
+
+"End: {0}"
+"Край: {0}"
+
+"Duration: {0}"
+"Продължителност: {0}"
+
+"Completed step ''{0}''"
+"Изпълнена стъпка „{0}“"
+
+"Loading tasks namespace:"
+"Зареждане на пространство от имена на задачи:"
+
+"Starting Quartz Scheduler"
+"Стартиране на Quartz Scheduler"
+
+"Stopping Quartz Scheduler"
+"Спиране на Quartz планировчик"
+
+"Job already exists:"
+"Работата вече съществува:"
+
+"Loading Metabase..."
+"Metabase се зарежда ..."
+
+"Possible timezone conflict found on database {0}."
+"Намерен е възможен конфликт на часовата зона в базата данни {0}."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"Часовата зона на JVM е {0}, а установената часова зона на базата данни е {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"Конфигурирайте часовата зона на отчета, за да осигурите правилно преобразуване на дата и час."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"Секретен ключ, използван за подписване на JSON Web Tokens за заявки за крайни точки `/ api / embed`."
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEY трябва да съдържа поне 16 знака."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"Шифроването на запазените идентификационни данни е АКТИВИРАНО за този екземпляр на Metabase."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"Шифроването на запазените идентификационни данни е ЗАБРАНЕНО за този екземпляр на Metabase."
+
+"nFor more information, see"
+"nЗа повече информация вижте"
+
+"value must be an integer."
+"стойност трябва да е цяло число."
+
+"value must be a string."
+"стойност трябва да е низ."
+
+"value must be a boolean."
+"стойност трябва да е булева стойност."
+
+"value must be a string that matches the regex `{0}`."
+"стойност трябва да е низ, който съответства на регулярния израз \"{0}\"."
+
+"value must satisfy one of the following requirements: "
+"стойност трябва да отговаря на едно от следните изисквания:"
+
+"value may be nil, or if non-nil, {0}"
+"стойността може да е нула или ако не е нула, {0}"
+
+"value must be one of: {0}."
+"стойност трябва да е една от: {0}."
+
+"value must be an array."
+"стойност трябва да е масив."
+
+"Each {0}"
+"Всеки {0}"
+
+"The array cannot be empty."
+"Масивът не може да бъде празен."
+
+"value must be a non-blank string."
+"стойност трябва да е непразен низ."
+
+"Integer greater than zero"
+"Цяло число по-голямо от нула"
+
+"value must be an integer greater than zero."
+"стойност трябва да е цяло число, по-голямо от нула."
+
+"Number greater than zero"
+"Число по-голямо от нула"
+
+"value must be a number greater than zero."
+"стойност трябва да бъде число, по-голямо от нула."
+
+"Keyword or string"
+"Ключова дума или низ"
+
+"Valid field type"
+"Валиден тип поле"
+
+"value must be a valid field type."
+"стойност трябва да е валиден тип поле."
+
+"Valid field type (keyword or string)"
+"Валиден тип поле (ключова дума или низ)"
+
+"value must be a valid field type (keyword or string)."
+"стойност трябва да е валиден тип поле (ключова дума или низ)."
+
+"Valid entity type (keyword or string)"
+"Валиден тип обект (ключова дума или низ)"
+
+"value must be a valid entity type (keyword or string)."
+"стойност трябва да е валиден тип обект (ключова дума или низ)."
+
+"Valid map"
+"Валидна карта"
+
+"value must be a map."
+"стойност трябва да е карта."
+
+"Valid email address"
+"Валиден имейл адрес"
+
+"value must be a valid email address."
+"стойност трябва да е валиден имейл адрес."
+
+"Insufficient password strength"
+"Недостатъчна сила на паролата"
+
+"value must be a valid integer."
+"стойност трябва да е валидно цяло число."
+
+"value must be a valid integer greater than zero."
+"стойност трябва да е валидно цяло число, по-голямо от нула."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"Стойността трябва да е валиден булев низ ('' true '' или '' false '')."
+
+"value must be a valid JSON string."
+"стойността трябва да е валиден JSON низ."
+
+"value must be a valid embedding params map."
+"стойност трябва да е валидна карта за параметри за вграждане."
+
+"No results"
+"Няма резултати"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"Преместване на екземпляри на {0}, които не са в колекция, в {1} колекция {2}"
+
+"Failed to grant permissions: {0}"
+"Неуспешно предоставяне на разрешения: {0}"
+
+"Host"
+"Водещ"
+
+"Port"
+"Порт"
+
+"Database username"
+"Потребителско име за база данни"
+
+"Database password"
+"Парола за база данни"
+
+"Database name"
+"Име на базата данни"
+
+"birds_of_the_world"
+"птици_на_света"
+
+"Additional JDBC connection string options"
+"Допълнителни опции за низ на JDBC връзка"
+
+"praxis-beacon-120871"
+"praxis-маяк-120871"
+
+"toucanSightings"
+"toucanSightings"
+
+"Hosts"
+"Домакини"
+
+"Broker node port"
+"Порт за възел на посредник"
+
+"Google Analytics Account ID"
+"Идент. № на акаунт в Google Analytics"
+
+"Connection String"
+"Свързващ низ"
+
+"Users/camsaul/bird_sightings/toucans"
+"Потребители / camsaul / bird_sightings / toucans"
+
+"carrierPigeonDeliveries"
+"carrierPigeonDeliveries"
+
+"Authentication Database"
+"База данни за удостоверяване"
+
+"Optional database to use when authenticating"
+"Незадължителна база данни, която да се използва при удостоверяване"
+
+"Additional Mongo connection string options"
+"Допълнителни опции за низ за връзка на Mongo"
+
+"Oracle system ID (SID)"
+"Идентификатор на системата на Oracle (SID)"
+
+"Usually something like ORCL or XE."
+"Обикновено нещо като ORCL или XE."
+
+"Optional if using service name"
+"По избор, ако използвате име на услуга"
+
+"Oracle service name"
+"Име на услугата Oracle"
+
+"Optional TNS alias"
+"Незадължителен TNS псевдоним"
+
+"hive"
+"кошер"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"по подразбиране"
+
+"Filename"
+"Име на файл"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite 😋"
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"Име на екземпляр на база данни"
+
+"N/A"
+"Неприложимо"
+
+"Windows domain"
+"Windows домейн"
+
+"Unable to release the Liquibase lock after a migration failure"
+"Не може да освободи заключването на Liquibase след неуспешна миграция"
+
+"Use JVM Time Zone"
+"Използвайте часовата зона на JVM"
+
+"Not a valid integer: ''{0}''"
+"Не е валидно цяло число: „„ {0} “"
+
+"Embedding is not enabled for this object."
+"Вграждането не е активирано за този обект."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"Проблем при свързване с LDAP сървър, ще се върне към локално удостоверяване: {0}"
+
+"When including an offset, a limit must also be included."
+"Когато се включва отместване, трябва да се включи и лимит."
+
+"When including a limit, an offset must also be included."
+"Когато се включва лимит, трябва да се включи и отместване."
+
+"Applying heuristic {0} to {1}."
+"Прилагане на евристична {0} към {1}."
+
+"Dimensions bindings:n{0}"
+"Обвързвания с размери: n {0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"Използване на дефиниции: nMetrics: n {0} nFilters: n {1}"
+
+"minute"
+"минута"
+
+"hour"
+"час"
+
+"day of week"
+"ден на седмицата"
+
+"day of month"
+"ден от месеца"
+
+"day of year"
+"ден от годината"
+
+"week"
+"седмица"
+
+"month"
+"месец"
+
+"quarter"
+"тримесечие"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"Добавяне на {0} карти към таблото за управление {1}: n {2}"
+
+"Error parsing {0}:n{1}"
+"Грешка при синтактичния анализ на {0}: n {1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"ВНИМАНИЕ: Филтрирането работи само върху размери! „{0}“ е показател. Пренебрегване на филтъра."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"ПРЕДУПРЕЖДЕНИЕ: Датата не може да принадлежи на множество дискретни интервали, така че АНТИРАНЕТО им заедно няма смисъл."
+
+"Ignoring these intervals: {0}"
+"Пренебрегване на тези интервали: {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"ПРЕДУПРЕЖДЕНИЕ: Не знам как да отричам: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"ПРЕДУПРЕЖДЕНИЕ: Друидът не позволява limitSpec в запитванията за времеви серии. Пренебрегване на клаузата LIMIT."
+
+"HoneySQL Form:"
+"HoneySQL форма:"
+
+"Unable to parse date ''{0}''"
+"Не може да се анализира датата „„ {0} “"
+
+"Client closed connection, cancelling query"
+"Затворена връзка на клиента, анулиране на заявка"
+
+"Setting timezone with statement: {0}"
+"Задаване на часова зона с изявление: {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"MONGO АГРЕГАЦИОНЕН ТРУБОПРОВОД:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"Грешка: несъответстващи колони в резултатите! Очаквано: {0} Получено: {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"Не може да се създаде временен файл в „{0}“ за прикачени файлове към имейл"
+
+"Error preprocessing query:"
+"Грешка при предварителната обработка на заявката:"
+
+"Illegal filter clause: {0}"
+"Недопустима клауза за филтриране: {0}"
+
+"Invalid clause:"
+"Невалидна клауза:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Грешка: Изходната заявка на заявката не е разрешена. Вероятно първо трябва да `предварително обработите 'заявката."
+
+"No expression named ''{0}''"
+"Няма израз с име „„ {0} “"
+
+"No aggregation at index: {0}"
+"Няма агрегиране по индекс: {0}"
+
+"Field values total length is {0} (max {1})."
+"Общата дължина на стойностите на полето е {0} (макс. {1})."
+
+"FieldValues are allowed for this Field."
+"FieldValues ​​са разрешени за това поле."
+
+"FieldValues are NOT allowed for this Field."
+"FieldValues ​​НЕ са разрешени за това поле."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"Полето {0} '' {1} '' трябва да има FieldValues ​​и принадлежи към база данни с актуализиране на FieldValues ​​при поискване."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"Не можете да създавате или отменяте разрешения за групата „„ Администратор “."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"Не можете да добавяте или премахвате потребители към / от групата „Всички потребители“."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"Не можете да премахнете последния член на групата '' Администратор ''!"
+
+"Error inserting a new Setting: {0}"
+"Грешка при вмъкването на нова настройка: {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"десетирането на описателни низове трябва да бъде „: вътрешно?“ или интернационализирано, намерено: „{0}“"
+
+"Loading plugin {0}... {1}"
+"Приставката се зарежда {0} ... {1}"
+
+"Object keyed by type, containing formatting settings"
+"Обект, въведен по тип, съдържащ настройки за форматиране"
+
+"Allow users to explore data using X-rays"
+"Позволете на потребителите да изследват данни с помощта на рентгенов анализ."
+
+"Unable to validate token: 404 not found."
+"Не може да се провери маркера: 404 не е намерен."
+
+"There was an error checking whether this token was valid:"
+"При проверката дали този маркер е валиден възникна грешка:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"Токен за премиум функции. Отидете в MetaStore, за да вземете своя!"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"Форматът на маркера е невалиден. Токенът трябва да съдържа 64 шестнадесетични знака."
+
+"Error setting premium features token"
+"Грешка при задаване на токен на премиум функции"
+
+"Error validating token:"
+"Грешка при проверка на маркера:"
+
+"Error preprocessing query"
+"Грешка при предварителната обработка на заявката"
+
+"No native form returned."
+"Не е върната родна форма."
+
+"Invalid response from database driver. No :status provided."
+"Невалиден отговор от драйвера на базата данни. №: предоставен статус."
+
+"General error"
+"Обща грешка"
+
+"Missing query hash!"
+"Липсващ хеш на заявката!"
+
+"Table ''{0}'' has no Fields associated with it."
+"Таблица „{0}“ няма свързани полета."
+
+"Max concurrent query limit reached"
+"Достигнат е максималният лимит на едновременните заявки"
+
+"Don't know how to get information about Field:"
+"Не знам как да получа информация за Field:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface / * драйвер * е несвързан."
+
+"Query processor error: mismatched number of columns in query and results."
+"Грешка в процесора за заявки: несъответстващ брой колони в заявката и резултатите."
+
+"Expected {0} fields, got {1}"
+"Очаквани {0} полета, получихте {1}"
+
+"Expected: {0}"
+"Очаквано: {0}"
+
+"Actual: {0}"
+"Действително: {0}"
+
+"Unable to bin Field without a min/max value"
+"Не може да се смени полето без минимална / максимална стойност"
+
+"{0} is not supported by this driver."
+"{0} не се поддържа от този драйвер."
+
+"Segment {0} does not exist, or is invalid."
+"Сегмент {0} не съществува или е невалиден."
+
+"Metric {0} does not exist, or is invalid."
+"Показател {0} не съществува или е невалиден."
+
+"Missing source query in Card {0}"
+"Липсваща заявка за източник в карта {0}"
+
+"Fetched source query from Card {0}:"
+"Извлечена заявка за източник от карта {0}:"
+
+"Error transforming MBQL query to native:"
+"Грешка при трансформиране на MBQL заявка в native:"
+
+"Cannot run query: could not find source table {0}."
+"Не може да се изпълни заявка: не можа да се намери изходната таблица {0}."
+
+"Error recording results metadata for query:"
+"Грешка при запис на метаданни за резултатите за заявка:"
+
+"Error: Query Processor store is not initialized."
+"Грешка: Съхранението на процесора на заявки не е инициализирано."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"Грешка: Таблица {0} не присъства в хранилището на процесора на заявки."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"Грешка: Полето {0} не присъства в хранилището на процесора за заявки."
+
+"Task history cleanup successful, rows were {0}deleted"
+"Почистването на историята на задачите е успешно, редовете са {0} изтрити"
+
+"not"
+"не"
+
+"For more information, see"
+"За повече информация вижте"
+
+"Integer greater than or equal to zero"
+"Цяло число, по-голямо или равно на нула"
+
+"value must be an integer greater than or equal to zero."
+"стойност трябва да бъде цяло число, по-голямо или равно на нула."
+
+"value must be an integer zero or greater."
+"стойност трябва да бъде цяло число нула или по-голяма."
+
+"value must be a valid integer greater than or equal to zero."
+"стойност трябва да бъде валидно цяло число, по-голямо или равно на нула."
+
+"Unable to parse resource `{0}` as JSON"
+"Не може да се анализира ресурс „{0}“ като JSON"
+
+"Unable to find JSON via relative path `{0}`"
+"Не може да се намери JSON чрез относителна пътека „{0}“"
+
+"Connection to host timed out for URL `{0}`"
+"Времето за свързване с хоста изтече за URL адрес „{0}“"
+
+"Unable to connect to unknown host at URL `{0}`"
+"Не може да се свърже с неизвестен хост на URL адрес „{0}“"
+
+"Unable to connect to host at URL `{0}`"
+"Не може да се свърже с хост на URL адрес „{0}“"
+
+"Connection refused by host at for URL `{0}`"
+"Връзката е отказана от хоста при за URL адрес „{0}“"
+
+"Unable to retrieve resource at URL `{0}`"
+"Не може да се извлече ресурс на URL адрес „{0}“"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"Не може да се анализира ресурс на URL „{0}“ като JSON"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"Проблем с свързването към LDAP сървър, ще се върне към локалното удостоверяване: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"Операторите на BigQuery не могат да бъдат параметризирани!"
+
+"We’d love your feedback."
+"Ще се радваме на вашите отзиви."
+
+"It looks like Metabase wasn’t quite a match for you."
+"Изглежда, че Metabase не е съвсем подходящ за вас."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Бихте ли се възползвали от бързо проучване с 5 въпроса, за да помогнете на екипа на Metabase да разбере защо и да направи нещата по-добри в бъдеще?"
+
+"We hope you''ve been enjoying Metabase."
+"Надяваме се, че сте се наслаждавали на Metabase."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"Бихте ли имали нещо против да вземете бързо проучване с 6 въпроса, за да ни кажете как върви?"
+
+"{0} created a Metabase account"
+"{0} създаде акаунт в Metabase"
+
+"{0} accepted their Metabase invite"
+"{0} прие поканата си за Metabase"
+
+"[Metabase] Password Reset Request"
+"[Metabase] Заявка за нулиране на парола"
+
+"[Metabase] Notification"
+"[Metabase] Известие"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] Помогнете да подобрите Metabase."
+
+"[Metabase] Tell us how things are going."
+"[Metabase] Кажете ни как вървят нещата."
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"Грешка: заявката за източник на query не е разрешена. Вероятно първо трябва да `предварително обработите 'заявката."
+
+"Don't know what to do with:"
+"Не знам какво да правя с:"
+
+"Don't know how to wrap:"
+"Не знам как да опаковам:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"Неуспешна настройка на „query-caching-max-kb“ на {0}."
+
+"Values greater than {1} are not allowed."
+"Стойности, по-големи от {1}, не са разрешени."
+
+"Database {0} does not exist."
+"База данни {0} не съществува."
+
+"Error: Database is not present in the Query Processor Store."
+"Грешка: Базата данни не присъства в хранилището на процесора на заявки."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"Невалиден секретен ключ за вграждане! Тайният ключ трябва да бъде шестнадесетичен кодиран 256-битов ключ (т.е. 64-символен низ)."
+
+"JWT is missing `alg`."
+"JWT липсва `alg`."
+
+"JWT `alg` cannot be `none`."
+"JWT `alg` не може да бъде` none`."
+
+"The embedding secret key has not been set."
+"Тайният ключ за вграждане не е зададен."
+
+"Token is missing value for keypath"
+"За маркера липсва стойност за път на ключ"
+
+"Previous {0}"
+"Предишни {0}"
+
+"value must be a valid database engine."
+"стойност трябва да е валиден механизъм на базата данни."
+
+"Connection refused by host for URL `{0}`"
+"Връзката е отказана от хоста за URL адрес „{0}“"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"ПРЕДУПРЕЖДЕНИЕ: Използването на Metabase с база данни на приложения H2 не се препоръчва за производствени внедрения."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"Вижте https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres за повече информация."
+
+"Unable to connect to Metabase {0} DB."
+"Не може да се свърже с DB на Metabase {0}."
+
+"Failed to notify {0} Database {1} updated"
+"Уведомяването за {0} база данни {1} не бе актуализирано"
+
+"Loading driver {0} {1}"
+"Зарежда се драйвер {0} {1}"
+
+"Load driver {0}"
+"Заредете драйвер {0}"
+
+"Driver not registered after loading: {0}"
+"Шофьор не е регистриран след зареждане: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"Грешка: опит за промяна на {0} свойство `: abstract?` От {1} на {2}."
+
+"Registered abstract driver {0}"
+"Регистриран абстрактен драйвер {0}"
+
+"Registered driver {0}"
+"Регистриран водач {0}"
+
+"(parents: {0})"
+"(родители: {0})"
+
+"Initializing driver {0}..."
+"Инициализиране на драйвера {0} ..."
+
+"Reason:"
+"Причина:"
+
+"Invalid driver feature: {0}"
+"Невалидна функция на драйвера: {0}"
+
+"Invalid HoneySQL form:"
+"Невалиден HoneySQL формуляр:"
+
+"Closing connection pool for database {0} ..."
+"Затваряне на пула от връзки за база данни {0} ..."
+
+"Error loading namespace"
+"Грешка при зареждането на пространството от имена"
+
+"Starting events listener:"
+"Слушател на стартови събития:"
+
+"Unexpected error listening on events"
+"Неочаквана грешка при прослушването на събития"
+
+"Error syncing Database {0}"
+"Грешка при синхронизирането на базата данни {0}"
+
+"Failed to process sync-database event."
+"Неуспешно обработване на събитие за синхронизиране на база данни."
+
+"Bad nested-query-level: query does not have a source query"
+"Лошо ниво на вложена заявка: заявката няма заявка за източник"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"FieldValues ​​за поле {0} остават непроменени. Пропуска се ..."
+
+"Unable to normalize:"
+"Не може да се нормализира:"
+
+"Could not find matching Field ID for target:"
+"Не можах да намеря съвпадащ идентификатор на поле за цел:"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabase няма разрешения за запис в директорията на приставки {0}"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabase не може да използва директорията с приставки {0}"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"Моля, уверете се, че директорията съществува и че Metabase има разрешение да пише в нея."
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"Можете да промените директорията, която Metabase използва за модули, като зададете променливата на околната среда MB_PLUGINS_DIR."
+
+"Falling back to a temporary directory for now."
+"Засега се връщам към временна директория."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabase не може да пише във временна директория. Моля, задайте MB_PLUGINS_DIR на записваема директория и рестартирайте Metabase."
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deps.jar вече не е необходим на Metabase 1.0+. Можете да го изтриете от директорията с приставки."
+
+"Failied to initialize plugin {0}"
+"Неуспешно инициализиране на приставка {0}"
+
+"Loading plugins in {0}..."
+"Зареждане на приставки в {0} ..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Използване на Clojure базово зареждане като споделен контекстен loadloader: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"Задаване на текущ контекстен клас за изтегляне на нишка към споделен клас за зареждане {0} ..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"Задаване на текущ клас за зареждане на контекст на нишка на НОВО СЪЗДАДЕН classloader {0} ..."
+
+"Added URL {0} to classpath"
+"Добавен URL адрес {0} към пътя на класа"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"Приставката {0} декларира зависимост, която Metabase не разбира: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"Вижте препратката към манифеста на приставката за пълен списък на валидни зависимости на приставките:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"Metabase не може да инициализира приставката {0} поради необходими зависимости."
+
+"Class not found: {0}"
+"Класът не е намерен: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"Приставка „{0}“ зависи от приставка „„ {1} “"
+
+"{0} dependency {1} satisfied? {2}"
+"{0} зависимост {1} удовлетворена? {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"Приставки с незадоволени депа: {0}"
+
+"Extract file {0} -> {1}"
+"Извличане на файл {0} -> {1}"
+
+"Resource does not exist."
+"Ресурсът не съществува."
+
+"Loading plugin namespace {0}..."
+"Зарежда се пространство от имена на приставки {0} ..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"Удовлетворени зависимости; тези приставки вече ще бъдат заредени: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"Регистрира се JDBC прокси драйвер за {0} ..."
+
+"Deregistering original JDBC driver {0}..."
+"Отмяна на регистрацията на оригиналния драйвер на JDBC {0} ..."
+
+"Default connection property {0} does not exist."
+"Свойството по подразбиране за връзка {0} не съществува."
+
+"Invalid connection property {0}: not a string or map."
+"Невалидно свойство на връзката {0}: не е низ или карта."
+
+"Load lazy loading driver {0}"
+"Заредете драйвер за мързеливо зареждане {0}"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"Не може да се инициализира приставката: липсва необходимото свойство „име на драйвер“"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"Предупреждение: Манифестът на приставката за {0} не включва свойства на връзката"
+
+"Registering lazy loading driver {0}..."
+"Регистриране на драйвер за мързеливо зареждане {0} ..."
+
+"Error running query for Card {0}"
+"Грешка при изпълнение на заявката за карта {0}"
+
+"Last week"
+"Миналата седмица"
+
+"This week"
+"Тази седмица"
+
+"Last month"
+"Миналия месец"
+
+"This month"
+"Този месец"
+
+"Last quarter"
+"Последно тримесечие"
+
+"This quarter"
+"Това тримесечие"
+
+"Last year"
+"Миналата година"
+
+"This year"
+"Тази година"
+
+"*driver* is unbound."
+"* драйвер * е необвързан."
+
+"Error syncing Fields for Table ''{0}''"
+"Грешка при синхронизирането на полета за таблица „{0}“"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"Хеш от {0} съвпадащи съхранени хешове, като се пропуска синхронизирането на полета"
+
+"Field"
+"Поле"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"Грешка при проверката дали полетата {0} трябва да бъдат създадени или активирани отново"
+
+"Marking Field ''{0}'' as inactive."
+"Полето „{0}“ се маркира като неактивно."
+
+"Error retiring {0}"
+"Грешка при оттеглянето на {0}"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"Типът база данни на {0} се е променил от '' {1} '' на '' {2} ''."
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"Основният тип на {0} е променен от '' {1} '' на '' {2} ''."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"Специалният тип на {0} е променен от „„ {1} “на„ „{2}“."
+
+"Comment has been added for {0}."
+"Добавен е коментар за {0}."
+
+"Stopping Quartz Scheduler {0}"
+"Спиране на кварцов планировщик {0}"
+
+"Starting Quartz Scheduler {0}"
+"Стартиране на кварцов планировщик {0}"
+
+"Error loading tasks namespace {0}"
+"Грешка при зареждането на пространството от имена на задачите {0}"
+
+"Initializing task {0}"
+"Инициализиране на задача {0}"
+
+"Error initializing task {0}"
+"Грешка при инициализиране на задача {0}"
+
+"Problem sending abandonment email"
+"Проблем при изпращане на имейл за изоставяне"
+
+"Sending anonymous usage stats."
+"Изпращане на анонимни статистически данни за употребата."
+
+"Error sending anonymous usage stats"
+"Грешка при изпращане на анонимни статистически данни за употребата"
+
+"Error sending Pulse {0}"
+"Грешка при изпращане на импулс {0}"
+
+"Sending scheduled pulses..."
+"Изпращане на планирани импулси ..."
+
+"SendPulses task failed"
+"Задачата SendPulses не бе успешна"
+
+"Failed to scheduler tasks for Database {0}"
+"Неуспешно изпълнение на задачи по планиране за база данни {0}"
+
+"Cleaning up task history"
+"Почистване на историята на задачите"
+
+"Task history cleanup successful, rows were deleted"
+"Почистването на историята на задачите е успешно, редовете са изтрити"
+
+"Task history cleanup successful, no rows were deleted"
+"Почистването на историята на задачите е успешно, не са изтрити редове"
+
+"Checking for new Metabase version info."
+"Проверка за нова информация за версията на Metabase."
+
+"Error fetching version info"
+"Грешка при извличането на информацията за версията"
+
+"Maximum memory available to JVM: {0}"
+"Максимална памет, достъпна за JVM: {0}"
+
+"Not something with an ID: {0}"
+"Не е нещо с идентификатор: {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"Метаданните за резултатите от картите, предадени на API, са ISSING. Изпълнява се заявка за извличане на правилни метаданни."
+
+"{0} was autocorrected to {1}"
+"{0} бе автоматично коригирано на {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"ИЗТРИВАНЕ / api / metric /: id е остарял. Вместо това променете стойността на „архивирана“ чрез PUT / api / metric /: id."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"ИЗТРИВАНЕ / api / segment /: id е остарял. Вместо това променете стойността на „архивирана“ чрез PUT / api / segment /: id."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"Стойността на is_superuser трябва да съответства на присъствието на идентификатор на администраторска група в group_ids."
+
+"Unexpected error writing keepalive characters"
+"Неочаквана грешка при писане на поддържащи символи"
+
+"Unexpected output in async API response"
+"Неочакван изход в асинхронния API отговор"
+
+"starting streaming response"
+"стартиране на стрийминг отговор"
+
+"Output chan closed, canceling keepalive request."
+"Изходният канал е затворен, анулиране на заявка за поддържане."
+
+"Async response finished, closing channels."
+"Асинхронният отговор приключи, затваряне на канали."
+
+"No response after waiting {0}. Canceling request."
+"Няма отговор след изчакване {0}. Отмяна на заявка."
+
+"Input channel unexpectedly closed."
+"Входният канал неочаквано се затвори."
+
+"f finished, permit will be returned"
+"f завършено, разрешението ще бъде върнато"
+
+"request canceled, permit will be returned"
+"заявката е отменена, разрешението ще бъде върнато"
+
+"Unexpected error attempting to run function after obtaining permit"
+"Неочаквана грешка при опит за стартиране на функция след получаване на разрешение"
+
+"Not running pending function call: output channel already closed."
+"Не се изпълнява изчакващо извикване на функция: изходният канал вече е затворен."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"Текущата нишка вече има разрешение за {0}, няма да чака да придобие друга"
+
+"Output channel closed, will skip running {0}."
+"Изходният канал е затворен, пропускането на {0} ще бъде пропуснато."
+
+"Running {0} on separate thread..."
+"Изпълнява се {0} в отделна нишка ..."
+
+"Caught error running {0}"
+"Уловена грешка при стартиране на {0}"
+
+"Request canceled, canceling future"
+"Заявката е анулирана, анулирана в бъдеще"
+
+"Closing old connection pool for database {0} ..."
+"Затваря се стар пул от връзки за база данни {0} ..."
+
+"Here''s your {0} most recent cards:"
+"Ето вашите {0} най-скорошни карти:"
+
+"Card {0} not found."
+"Карта {0} не е намерена."
+
+"Exception in API call"
+"Изключение в API извикване"
+
+"Request canceled before finishing."
+"Заявката е анулирана преди завършване."
+
+"Metabase only supports JSON requests."
+"Metabase поддържа само JSON заявки."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Уверете се, че сте задали заглавката „Content-Type: application / json“."
+
+"Setting Metabase site URL to {0}"
+"Задаване на URL адрес на сайта на Metabase на {0}"
+
+"Error scheduling tasks for DB"
+"Грешка при планиране на задачи за DB"
+
+"Error unscheduling tasks for DB."
+"Грешка при разсрочване на задачи за DB."
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} Графиците за синхронизиране / анализ на базата данни „{1}“ са променени!"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"Синхронизираните метаданни бяха: „„ {0} “„ сега е: „„ {1} “"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Кеш FieldValues ​​беше: '' {0} '', сега е: '' {1} ''"
+
+"You cannot update the creator_id of a Metric."
+"Не можете да актуализирате creator_id на метрика."
+
+"Failed to grant permissions"
+"Неуспешно предоставяне на разрешения"
+
+"Changing permissions"
+"Промяна на разрешенията"
+
+"FROM:"
+"ОТ:"
+
+"TO:"
+"ДО:"
+
+"You cannot update the creator_id of a Segment."
+"Не можете да актуализирате Creator_id на сегмент."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"Опит за задаване на настройка {0} на неясна стойност. Пренебрегване на промяната."
+
+"Using value of env var {0}"
+"Използване на стойност на env var {0}"
+
+"Adding User {0} to All Users permissions group..."
+"Добавяне на потребител {0} към групата с разрешения за всички потребители ..."
+
+"Adding User {0} to Admin permissions group..."
+"Добавяне на потребител {0} към групата с разрешения за администратор ..."
+
+"Query failure"
+"Неуспешна заявка"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"Максимален брой едновременни заявки, които да се разрешат за свързана база данни."
+
+"Timed out after {0} milliseconds."
+"Времето за изчакване е след {0} милисекунди."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"Проблемът с свързването към LDAP сървъра ще се върне към локалното удостоверяване"
+
+"Cannot create Database: cannot find driver {0}."
+"Не може да се създаде база данни: не може да се намери драйвер {0}."
+
+"Query failed"
+"Заявката не бе успешна"
+
+"Warning: {0} returned `nil`"
+"Предупреждение: {0} върна `нула`"
+
+"Unexpected error writing result to output channel: already closed"
+"Неочаквана грешка при запис на резултата в изходния канал: вече затворен"
+
+"Unexpected error writing exception to output channel: already closed"
+"Неочаквана грешка при записване на изключение в изходния канал: вече е затворено"
+
+"Request canceled, canceling future."
+"Заявката е анулирана, анулирана в бъдеще."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase може да прехвърля данни само от H2 към Postgres или MySQL / MariaDB."
+
+"Application database setup"
+"Настройка на базата данни на приложението"
+
+"Could not find {0} driver."
+"Не можах да намеря драйвер за {0}."
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"Абстрактните драйвери не могат да произлизат от конкретни родителски драйвери."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"Може да се наложи да добавите 'trustServerCertificate = true' към допълнителните опции за свързване, за да се свържете с SSL."
+
+"Don't know how to alias {0}, expected an Identifer."
+"Не знам как да псевдоним {0}, очаква се идентификатор."
+
+"Client closed connection, canceling query"
+"Затворена връзка на клиента, анулиране на заявка"
+
+"{0} is not a valid DN."
+"{0} не е валиден DN."
+
+"Error logging API request"
+"Грешка при регистриране на заявката за API"
+
+"Failed to set site-url"
+"Неуспешно задаване на URL адрес на сайта"
+
+"Error destroying thread pool for DB."
+"Грешка при унищожаването на пула от нишки за DB."
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"Актуализиране на показваното име за {0} '' {1} '': '' {2} '' -> '' {3} ''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"Невалидна стратегия за хуманизация „„ {0} “. Валидни стратегии са: {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Стратегия за хуманизиране на имената на таблици и полета от „„ {0} “на„ „{1}“"
+
+"Error saving task history"
+"Грешка при запазване на историята на задачите"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"spark-deps.jar вече не е необходим на Metabase 0.32.0+. Можете да го изтриете от директорията с приставки."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"Използване на НОВО СЪЗДАДЕН classloader като споделен контекстен classloader: {0}"
+
+"Failed to copy file"
+"Копирането на файла не бе успешно"
+
+"Invalid site URL: {0}"
+"Невалиден URL адрес на сайта: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"URL адресът на сайта е невалиден; връщайки нула засега. Ще бъде нулиран при следваща заявка."
+
+"More results have been included as a file attachment"
+"Още резултати са включени като прикачен файл"
+
+"This question has been included as a file attachment"
+"Този въпрос е включен като прикачен файл"
+
+"We were unable to display this Pulse."
+"Не успяхме да покажем този импулс."
+
+"Please view this card in Metabase."
+"Моля, прегледай тази карта в Metabase."
+
+"An error occurred while displaying this card."
+"Възникна грешка при показване на тази карта."
+
+"Can only determine expected columns for MBQL queries."
+"Може да определя само очаквани колони за MBQL заявки."
+
+"No columns returned."
+"Няма върнати колони."
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Предупреждение: не може да определи полета за изрична „заявка за източник“, освен ако не включите и „метаданни за източника“."
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"Не може да се реши {0}: Полето не съществува или неговата таблица принадлежи на друга база данни."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"Не може да се реши: field-literal inside: fk-> освен ако вътре не се присъедини с изрично: псевдоним"
+
+"Cannot find Table ID for {0}"
+"Не мога да намеря идентификатор на таблица за {0}"
+
+"No matching info found."
+"Не е намерена съответстваща информация."
+
+"Could not resolve {0}"
+"{0} не можа да бъде разрешен"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"Невалидна клауза fk->: няма къде да се добави съответно присъединяване."
+
+"{0} driver does not support foreign keys."
+"{0} драйверът не поддържа външни ключове."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"Не може да се заключи `: source-metadata` за заявка за източник с входна заявка за източник без метаданни на източника."
+
+"Query processor error: number of columns returned by driver does not match results."
+"Грешка в процесора на заявките: броят на колоните, върнати от драйвера, не съответства на резултатите."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"Очаквани {0} колони, но първият ред с резултати има {1} колони."
+
+"No expression named {0} found. Found: {1}"
+"Не е намерен израз с име {0}. Намерено: {1}"
+
+"Distinct values of {0}"
+"Различни стойности на {0}"
+
+"Average of {0}"
+"Средно от {0}"
+
+"Sum of {0}"
+"Сума от {0}"
+
+"SD of {0}"
+"SD от {0}"
+
+"Min of {0}"
+"Минимално от {0}"
+
+"Max of {0}"
+"Макс. От {0}"
+
+"Sum of {0} matching condition"
+"Сума от {0} съвпадащо условие"
+
+"Share of rows matching condition"
+"Дял на редовете, отговарящи на условието"
+
+"Count of rows matching condition"
+"Брой редове, отговарящи на условието"
+
+"Request already canceled, will not run synchronous QP code."
+"Заявката вече е анулирана, няма да изпълнява синхронен QP код."
+
+"Unexpectedly got `nil` Query Processor response."
+"Неочаквано получи \"нулев\" отговор на процесора за заявки."
+
+"Got InterruptedException. Canceling query."
+"Получих InterruptException. Отмяна на заявката."
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"Необработено изключение, очаква се междинния софтуер на „catch-exceptions“, за да се справи с него."
+
+"Query timed out after %s"
+"Заявката изтече след% s"
+
+"Creating new query thread pool for Database {0}"
+"Създаване на нов пул от нишки за заявки за база данни {0}"
+
+"Destroying query thread pool for Database {0}"
+"Унищожаване на пула от нишки на заявки за база данни {0}"
+
+"Request canceled, canceling pending query"
+"Заявката е анулирана, анулиращата изчакваща заявка"
+
+"Cannot update binned field: query is missing source-metadata"
+"Не може да се актуализира свързаното поле: в заявката липсват метаданни източник"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"Не може да се актуализира свързаното поле: не можа да се намерят съответстващи метаданни на източника за поле „{0}“"
+
+"Using query processor cache backend: {0}"
+"Използване на бекенда на кеша на процесора на заявки: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"Невалиден показател: {0} причина: {1}"
+
+"Unknown error"
+"Неизвестна грешка"
+
+"Unexpected nil response from query processor."
+"Неочакван нулев отговор от процесора за заявки."
+
+"Query canceled"
+"Заявката е анулирана"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"Не може да се разреши драйвер за заявка: липсващ или невалиден идентификатор `: база данни`."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"Не може да се разреши драйвер за заявка: База данни {0} не съществува."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"Не може да се използват: полета: всички в присъединяване срещу заявка за източник, освен ако няма: източник-метаданни."
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"Лошо: клауза за присъединено поле: присъединяването с псевдоним '' {0} '' не съществува. Намерено: {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"Невалидно: таблица на източника „„ {0} “„: досега трябва да бъде преобразувана в идентификатор на таблица."
+
+"Cannot store Tables or Fields before Database is stored."
+"Не могат да се съхраняват таблици или полета, преди базата данни да се съхранява."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"Опит за извличане на втора база данни. Заявките могат да се позовават само на една база данни."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"Извличането на таблица не бе успешно {0}: Таблицата не съществува или принадлежи към друга база данни."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"Неуспешно извличане на поле {0}: Полето не съществува или принадлежи на друга база данни."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"Зареждането на шаблон „„ {0} “не бе успешно. Сетихте ли се да изградите интерфейса на Metabase?"
+
+"Found new tables:"
+"Намерени нови таблици:"
+
+"Marking tables as inactive:"
+"Означаване на таблици като неактивни:"
+
+"Updating description for tables:"
+"Актуализиране на описание за таблици:"
+
+"Rescheduling job {0}"
+"Промяна на заданието {0}"
+
+"Error rescheduling job"
+"Грешка при пренасрочване на заданието"
+
+"Starting Pulse Execution: {0}"
+"Стартиране на импулсното изпълнение: {0}"
+
+"Finished Pulse Execution: {0}"
+"Завършено импулсно изпълнение: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"Неуспешно планиране на задачи за база данни {0}"
+
+"All elements must be distinct."
+"Всички елементи трябва да са различни."
+
+"Don't know how to alias {0}, expected an Identifier."
+"Не знам как да псевдоним {0}, очаква се идентификатор."
+
+"Error adding User {0} to Group {1}"
+"Грешка при добавяне на потребител {0} към група {1}"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Промяна на стратегията за хуманизация на имената на таблици и полета от „„ {0} “на„ „{1}“"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"Открит е безкраен цикъл: рекурсивно предварително обработена заявка {0} пъти."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Внимание: не може да се определят полета за изрична „заявка за източник“, освен ако не включите и „метаданни за източника“."
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"Необработено изключение, очаква се междинният софтуер за „catch-exceptions“, който да се справи с него."
+
+"All"
+"всичко"
+
+"An error occurred while running the query."
+"При изпълнението на заявката възникна грешка."
+
+"Output H2 database already exists: %s, removing."
+"Изходна база данни H2 вече съществува:% s, премахване."
+
+"Don't need to migrate, just use the existing H2 file"
+"Не е необходимо да мигрирате, просто използвайте съществуващия H2 файл"
+
+"Target DB is already populated!"
+"Целевата DB вече е попълнена!"
+
+"System info:n {0}"
+"Информация за системата: n {0}"
+
+"Database setup"
+"Настройка на база данни"
+
+"Invalid '{{...}}' clause: expected a param name"
+"Невалидна клауза „{{...}}“: очаквано име на параметър"
+
+"'{{...}}' clauses cannot be empty."
+"„{{...}}“ не могат да бъдат празни."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"„[[...]]“ трябва да съдържат поне едin пaраметър от  „{{...}}“."
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"Невалидна заявка: намерено '[[' или '{{' без съвпадение ']]' или '}}'"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"Ще трябва да изберете стойност за „{0}“, преди тази заявка да може да се изпълни."
+
+"Can''t find field with ID: {0}"
+"Не мога да намеря поле с идентификатор: {0}"
+
+"Error loading driver namespace"
+"Грешка при зареждането на пространството от имена на драйвера"
+
+"Could not load {0} driver."
+"Драйверът на {0} не можа да се зареди."
+
+"Don''t know how to parse {0} {1}"
+"Не знам как да анализирам {0} {1}"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"Не знам как да псевдоним {0}, очаква се идентификатор."
+
+"Don''t know how to unprepare values of class {0}"
+"Не знам как да подготвям стойности на клас {0}"
+
+"Creating new connection pool for {0} database {1} ..."
+"Създава се нов пул за връзка за {0} база данни {1} ..."
+
+"Invalid timezone ''{0}''"
+"Невалидна часова зона „{0}“"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"Не може да се зададе часова зона: невалиден или липсващ низ на SQL формат за драйвер {0}."
+
+"Did you implement set-timezone-sql?"
+"Приложихте ли set-timezone-sql?"
+
+"Failed to set timezone ''{0}''"
+"Задаването на часовата зона „{0}“ не бе успешно"
+
+"Error parsing JSON"
+"Грешка при синтактичния анализ на JSON"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"Дали да се показват данни на началната страница. Администраторите могат да изключат това, за да насочат потребителите към по-добро съдържание от суровите данни"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Дали да се показва предложения за рентгенов анализ на на началната страница. Те също ще бъдат скрити, ако са закрепени някакви табла за управление. Администраторите могат да скрият това, за да насочат потребителите към по-добро съдържание от суровите данни"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"Идентифицирайте източника на HTTP заявки по стойността на тази заглавка, вместо по отдалечения адрес."
+
+"Could not resolve Setting {0}/{1}"
+"Настройката {0} / {1} не можа да бъде разрешена"
+
+"Invalid Setting: {0}/{1}"
+"Невалидна настройка: {0} / {1}"
+
+"reached its goal"
+"достигна целта си"
+
+"gone below its goal"
+"отиде под целта си"
+
+"Sending Pulse ({0}: {1}) via email"
+"Изпращане на импулс ({0}: {1}) по имейл"
+
+"Pulse: {0}"
+"Импулс: {0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Изпращане на импулс ({0}: {1}) чрез Slack"
+
+"Sending Alert ({0}: {1}) via email"
+"Изпращане на предупреждение ({0}: {1}) по имейл"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Изпращане на предупреждение ({0}: {1}) чрез Slack"
+
+"Alert: {0}"
+"Сигнал: {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"Не мога да намеря JS селектор за цвят в „{0}“"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"FIXME: Това не са валидни временни литерали: {0} {1}. Защо се опитваме да ги форматираме като такива?"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"Не е намерена съвпадаща информация за присъединяване срещу таблица {0} '' {1} '' в поле {2} '' {3} '' чрез FK {4} '' {5} ''"
+
+"Don''t know how to get information about Field: {0}"
+"Не знам как да получа информация за Field: {0}"
+
+"Query timed out after {0}"
+"Времето за изчакване на заявката изтече след {0}"
+
+"Formatting rows with results timezone ID {0}"
+"Форматиране на редове с идентификатор на часовата зона на резултатите {0}"
+
+"Invalid timezone ID ''{0}''"
+"Невалиден идентификатор на часовата зона „„ {0} “"
+
+"Saving fingerprint for {0}"
+"Запазване на пръстов отпечатък за {0}"
+
+"Sending abandoment email!"
+"Изпращане на имейл по поръчка!"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"Резултатните трансформации не отговарят на очакванията. N Очаквано: {0}"
+
+"Timed out after {0}"
+"Времето за изчакване е след {0}"
+
+"No temporal adjuster named {0}"
+"Няма временен регулатор на име {0}"
+
+"Invalid unit: {0}"
+"Невалидна единица: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"Не знам как да анализирам {0} с помощта на формат {1}"
+
+"Token is missing value for keypath {0}"
+"За маркера липсва стойност за път на ключ {0}"
+
+"Sending usage stats FAILED"
+"Изпращането на статистически данни за употребата не бе успешно"
+
+"or"
+"или"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase може да сканира стойностите, налични във всяко поле в тази база данни, за да активира филтрите за отметки в таблата и въпроси. Това може да бъде донякъде интензивен процес, особено ако имате много голяма база данни."
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"Връзката с „{0}: {1}“ е успешна, но не може да се свърже с DB."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"Връзката с хоста „{0}“ е успешна, но портът {1} е невалиден."
+
+"Host ''{0}'' is not reachable"
+"Хостът „{0}“ не е достъпен"
+
+"Unable to connect to database."
+"Не може да се свърже с база данни."
+
+"Cannot connect to Database"
+"Не може да се свърже с база данни"
+
+"You''re not allowed to specify a value for {0}."
+"Нямате право да посочвате стойност за {0}."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"Не можете да посочите стойност за {0}, ако тя вече е зададена в JWT."
+
+"You must specify a value for {0} in the JWT."
+"Трябва да посочите стойност за {0} в JWT."
+
+"You can only specify a value for {0} in the JWT."
+"Можете да посочите стойност само за {0} в JWT."
+
+"Error searching field values"
+"Грешка при търсене на стойности на полета"
+
+"Error searching for remapping"
+"Грешка при търсене на повторно картографиране"
+
+"Double check that it matches in Google and Metabase."
+"Проверете отново дали той съвпада в Google и Metabase."
+
+"Everything else"
+"Всичко друго"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"ПРЕДУПРЕЖДЕНИЕ: Активирали сте проследяване на пространство от имена, което може да регистрира чувствителна информация като db пароли."
+
+"Database Upgrade Required"
+"Необходимо е надстройване на базата данни"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"ЗАБЕЛЕЖКА: Вашата база данни изисква актуализации, за да работи с тази версия на Metabase."
+
+"Please execute the following sql commands on your database before proceeding."
+"Моля, изпълнете следните SQL команди във вашата база данни, преди да продължите."
+
+"Once your database is updated try running the application again."
+"След като вашата база данни се актуализира, опитайте да стартирате приложението отново."
+
+"Database requires manual upgrade."
+"Базата данни изисква ръчно надстройване."
+
+"Successfully verified {0} {1} application database connection."
+"Успешно потвърдена връзка с база данни на приложението {0} {1}."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"Не знам как да анализирам параметъра на датата „{0}“ - невалиден формат"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"Подзаявката от препратен въпрос № {0} не успя със следната грешка: {1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"ПРЕДУПРЕЖДЕНИЕ: Metabase поддържа официално само MySQL {0} / MariaDB {1} и по-нови версии."
+
+"All Metabase features may not work properly when using an unsupported version."
+"Всички функции на Metabase може да не работят правилно, когато използвате неподдържана версия."
+
+"Cannot run the query: missing required parameters: {0}"
+"Заявката не може да се изпълни: липсват необходимите параметри: {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"Не знам как да анализирам {0} {1} като временен литерал"
+
+"Setting {0} database timezone with statement: {1}"
+"Задаване на {0} часова зона на базата данни с изявление: {1}"
+
+"Error setting connection to readwrite"
+"Грешка при настройването на връзката за четене"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"Неуспешно задаване на часовата зона '' {0} '' за базата данни {1}"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"Грешка при задаване на ниво на изолиране на транзакциите за {0} база данни на {1}"
+
+"Error setting connection to read-only"
+"Грешка при настройването на връзката само за четене"
+
+"Error setting default holdability for connection"
+"Грешка при задаване на задържане по подразбиране за връзка"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"Заявката е анулирана, извиква се PreparedStatement.cancel ()"
+
+"Failed to connect to database"
+"Неуспешно свързване с база данни"
+
+"Unable to determine connection properties for driver {0}"
+"Не може да се определят свойствата на връзката за драйвер {0}"
+
+"Error fetching field values"
+"Грешка при извличането на стойностите на полетата"
+
+"You cannot set {0}; it is a read-only setting."
+"Не можете да зададете {0}; това е настройка само за четене."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"десетиращите описания низове трябва да имат \": visibilty\" \": internal\", \": setter\" \": none\" или интернационализирани, намерено: \"{0}\""
+
+"Setting {0} is internal"
+"Настройката {0} е вътрешна"
+
+"Loading local plugin manifest at {0}"
+"Зарежда се локален манифест на приставката на {0}"
+
+"Google Analytics tracking code."
+"Проследяващ код на Google Analytics."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"Изпращане на импулс ({0}: {1}) с {2} карти по имейл"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Изпращане на импулс ({0}: {1}) с {2} карти чрез Slack"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"Рендериране на импулсна карта с тип диаграма {0} и тип рендериране {1}"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"FIXME: Това не са валидни временни литерали: {0} {1}. Защо се опитваме да ги форматираме като такива?"
+
+"Error reducing result rows"
+"Грешка при намаляване на редовете с резултати"
+
+"Unexpected nil result"
+"Неочакван нулев резултат"
+
+"Query timed out after {0} ms, raising timeout exception."
+"Времето за изчакване на заявката изтече след {0} мс, повишавайки изключение за изчакване."
+
+"Timed out after {0}."
+"Времето за изчакване е след {0}."
+
+"Query canceled before finishing."
+"Заявката е анулирана преди завършване."
+
+"Unknown query type {0}"
+"Неизвестен тип заявка {0}"
+
+"Caching results for next time for query with hash {0}."
+"Кеширане на резултатите за следващ път за заявка с хеш {0}."
+
+"Error saving query results to cache."
+"Грешка при запазване на резултатите от заявката в кеш."
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"Заявката отне {0} за изпълнение; miminum за допустимост за кеш е {1}"
+
+"Results are too large to cache."
+"Резултатите са твърде големи за кеширане."
+
+"Error parsing serialized results"
+"Грешка при синтактичния анализ на сериализираните резултати"
+
+"Error purging old cache entries"
+"Грешка при изчистването на старите записи в кеша"
+
+"Caching results for query with hash {0}."
+"Кеширане на резултати за заявка с хеш {0}."
+
+"Cannot save QueryExecution, missing :context"
+"Не може да се запази QueryExecution, липсва: контекст"
+
+"Error saving query execution info"
+"Грешка при запазване на информация за изпълнение на заявката"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"Не може да се разреши база данни за заявка: липсващ или невалиден идентификатор на „: база данни“."
+
+"Unable to resolve driver for query"
+"Не може да се разреши драйвер за заявка"
+
+"Referenced question #{0} could not be found"
+"Препратен въпрос № {0} не можа да бъде намерен"
+
+"Referenced query is from a different database"
+"Запитването, на което се прави препратка, е от друга база данни"
+
+"This query has circular referencing sub-queries. "
+"Тази заявка има циркулярни препратки към подзаявки."
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"Тези въпроси изглежда са част от проблема: „{0}“ и „{1}“."
+
+"Error recording results metadata for query"
+"Грешка при запис на метаданни за резултатите за заявка"
+
+"Query result"
+"Резултат от заявката"
+
+"Error generating insights for column:"
+"Грешка при генериране на статистика за колона:"
+
+"Sending abandonment email!"
+"Изпращане на имейл за изоставяне!"
+
+"SSH Authentication"
+"SSH удостоверяване"
+
+"SSH Key"
+"SSH ключ"
+
+"Server SSL certificate chain"
+"Сървърна верига за SSL сертификати"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"Средната продължителност на изпълнение на въпроса е {0}; използвайки „магически“ TTL от {1}"
+
+"A snippet with that name already exists. Please pick a different name."
+"Фрагмент с това име вече съществува. Моля, изберете друго име."
+
+"[Unknown Metric]"
+"[Неизвестна метрика]"
+
+"[Unknown Segment]"
+"[Неизвестен сегмент]"
+
+"Error writing error to output stream"
+"Грешка при записване на грешка в изходния поток"
+
+"Caught unexpected Exception in streaming response body"
+"Хвана неочаквано изключение в тялото на отговора за стрийминг"
+
+"bound-fn caught unexpected Exception"
+"bound-fn улови неочаквано изключение"
+
+"Error determining whether HTTP request was canceled"
+"Грешка при определяне дали HTTP заявката е била отменена"
+
+"Check cancelation status timed out after {0}"
+"Проверете времето за анулиране на времето за изчакване след {0}"
+
+"Unexpected exception in do-f-async"
+"Неочаквано изключение в do-f-async"
+
+"Unexpected exception writing error response"
+"Неочакван отговор на грешка при писане на изключение"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"Сертификатът на сървъра не е надежден - посочихте ли правилната верига на SSL сертификати?"
+
+"Server appears to require SSL - please enable SSL above"
+"Изглежда, че сървърът изисква SSL - моля, активирайте SSL по-горе"
+
+"Username"
+"Потребителско име"
+
+"Don''t know how to parse parameter of type {0}"
+"Не знам как да анализирам параметър от тип {0}"
+
+"Invalid :card parameter: missing `:card-id`"
+"Невалиден: параметър на картата: липсва `: card-id`"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"Не може да се разреши Snippet: липсва `: snippet-id`"
+
+"Snippet {0} {1} not found."
+"Фрагментът {0} {1} не е намерен."
+
+"Error determining value for parameter"
+"Грешка при определяне на стойността на параметъра"
+
+"Error building query parameter map"
+"Грешка при изграждането на карта с параметри на заявката"
+
+"ASYNC"
+"ASYNC"
+
+"{0} ({1} DB calls)"
+"{0} ({1} DB обаждания)"
+
+"App DB connections: {0}/{1}"
+"Връзки с DB за приложения: {0} / {1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"Конци на джета: {0} / {1} ({2} в неактивност, {3} на опашка)"
+
+"({0} total active threads)"
+"(Общо {0} активни нишки)"
+
+"Queries in flight: {0}"
+"Запитвания в полет: {0}"
+
+"({0} queued)"
+"({0} на опашка)"
+
+"Collection must be in the same namespace as its parent"
+"Колекцията трябва да бъде в същото пространство на имена като нейния родител"
+
+"Personal Collections must be in the default namespace"
+"Личните колекции трябва да са в пространството на имената по подразбиране"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"Не можете да премествате колекция в друго пространство от имена, след като е създадена."
+
+"Collection does not exist."
+"Колекцията не съществува."
+
+"A {0} can only go in Collections in the {1} namespace."
+"А {0} може да отиде само в Колекции в пространството от имена {1}."
+
+"Error sending database deletion notification"
+"Грешка при изпращане на известие за изтриване на база данни"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"Не можете да актуализирате Creator_id на NativeQuerySnippet."
+
+"Error fetching value of Setting"
+"Грешка при извличането на стойността на настройката"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Езикът, който трябва да се използва за потребителския интерфейс на Metabase, системните имейли, импулси и сигнали."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"Това е и езикът по подразбиране за всички потребители, който те могат да променят от собствените си настройки на акаунта."
+
+"Invalid locale {0}"
+"Невалиден локал {0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"Принудете целия трафик да използва HTTPS чрез пренасочване, ако URL адресът на сайта е HTTPS"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"Не може да пренасочва заявки към HTTPS, освен ако адресът на сайта (site-url) не е HTTPS."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"Грешка при регистрацията на шрифтове: Metabase няма да може да изпраща импулси."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"Това е известен проблем с някои JVM. Вижте {0} и за повече подробности."
+
+"Error rendering Pulse"
+"Грешка при изобразяването на Pulse"
+
+"Query timed out after {0}, raising timeout exception."
+"Времето за изчакване на заявката изтече след {0}, повишавайки изключение за изчакване"
+
+"No fields found for table {0}."
+"Не са намерени полета за таблица {0}."
+
+"Case"
+"Дело"
+
+"Variance of {0}"
+"Дисперсия на {0}"
+
+"Median of {0}"
+"Медиана на {0}"
+
+"{0}th percentile of {1}"
+"{0}-ти процентил от {1}"
+
+"Not caching results: results are larger than {0} KB"
+"Резултатите не се кешират: резултатите са по-големи от {0} KB"
+
+"Cannot cache results: expected byte array, got {0}"
+"Резултатите не могат да се кешират: очакван байтов масив, има {0}"
+
+"Request is closed; no one to return cached results to"
+"Заявката е затворена; няма кой да върне кеширани резултати"
+
+"Error preparing statement to fetch cached query results"
+"Грешка при подготовката на изявление за извличане на кеширани резултати от заявка"
+
+"Error processing query: {0}"
+"Грешка при обработката на заявката: {0}"
+
+"Unexpected exception in endpoint"
+"Неочаквано изключение в крайна точка"
+
+"Unexpected Exception in API request handler"
+"Неочаквано изключение в обработчика на заявки за API"
+
+"Error reducing {0}"
+"Грешка при намаляване на {0}"
+
+"Error generating timeseries insight keyed by: {0}"
+"Грешка при генерирането на статистика за времевите серии, въведена от: {0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"Позицията на базата данни на {0} е променена от '' {1} '' на '' {2} ''."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"Задача за непланиране за база данни {0}: спусък: {1}"
+
+"value must be a keyword or string."
+"стойност трябва да е ключова дума или низ."
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"Низът трябва да е валиден двубуквен ISO език или код на държава-език, например „en“ или „en_US“."
+
+"Dashboard does not have a parameter with the ID {0}"
+"Таблото за управление няма параметър с идентификатор {0}"
+
+"Parameter {0} does not have any Fields associated with it"
+"Параметърът {0} няма свързани полета"
+
+"include must be either empty or the value 'tables'"
+"включва трябва да е или празно, или стойността \"таблици\""
+
+"`database` is required for all queries whose type is not `internal`."
+"„база данни“ се изисква за всички заявки, чийто тип не е „вътрешен“."
+
+"Password login is disabled for this instance."
+"Входът за парола е деактивиран за този случай."
+
+"Your account is disabled. Please contact your administrator."
+"Вашият акаунт е деактивиран. Моля, свържете се с вашия администратор."
+
+"Your account is disabled."
+"Вашият акаунт е деактивиран."
+
+"Invalid Slack token."
+"Невалиден маркер Slack."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"Командата '' {0} '' е налична само в Metabase Enterprise Edition."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Разширенията на Metabase Enterprise Edition са НАСТОЯЩИ."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Използването на функциите на Metabase Enterprise Edition е предмет на Търговския лиценз на Metabase."
+
+"See {0} for details."
+"Вижте {0} за подробности."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Разширенията на Metabase Enterprise Edition НЕ СА."
+
+"You''re invited to join {0}''s {1}"
+"Поканени сте да се присъедините към {1} на {0}"
+
+"{0} created a {1} account"
+"{0} създаде {1} акаунт"
+
+"{0} accepted their {1} invite"
+"{0} прие тяхната {1} покана"
+
+"[{0}] Password Reset Request"
+"[{0}] Заявка за нулиране на парола"
+
+"[{0}] Notification"
+"[{0}] Известие"
+
+"[{0}] Help make [{1}] better."
+"[{0}] Помогнете да подобрите [{1}]."
+
+"[{0}] Tell us how things are going."
+"[{0}] Кажете ни как вървят нещата."
+
+"Error starting events listener"
+"Грешка при стартиране на слушателя на събития"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"Трябва ли да синхронизираме потребителски атрибути, когато някой влезе чрез LDAP?"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"Списък със потребителски атрибути, разделен със запетая, за да пропуснете синхронизирането за LDAP потребители."
+
+"Invalid token"
+"Невалиден Жетон"
+
+"Slack API error: {0}"
+"Грешка в Slack API: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Моля, създайте или деархивирайте канала, за да завършите интеграцията на Slack."
+
+"Uploaded image"
+"Качено изображение"
+
+"Invalid session. Expected an instance of Session."
+"Невалидна сесия. Очаква се екземпляр на сесия."
+
+"Top folder"
+"Най-горната папка"
+
+":parameters must be a sequence of maps with String :id keys"
+": параметрите трябва да са последователност от карти с ключове String: id"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"Невалидни човешки четими стойности: стойностите трябва да са последователност; всеки елемент трябва да е нула или низ"
+
+":values must be present to fetch :human_readable_values"
+": стойностите трябва да присъстват за извличане: human_readable_values"
+
+"Field values total length is > {0}."
+"Общата дължина на стойностите на полето е> {0}."
+
+"snippet names cannot include '}' or start with spaces"
+"имената на фрагменти не могат да включват '}' или да започват с интервали"
+
+"Error executing chain filter query"
+"Грешка при изпълнение на заявката за верижен филтър"
+
+"Field {0} does not exist."
+"Поле {0} не съществува."
+
+"Cannot search against non-Text Field {0} {1}"
+"Не може да се търси в нетекстово поле {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"Предоставяне на разрешения за група {0}: {1}"
+
+"Revoking permissions for group {0}: {1}"
+"Отнемане на разрешения за група {0}: {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"Невалидни разрешения на DB: ако имате достъп за запис за собствени заявки, трябва да имате пълен достъп до данни."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"Невалидни разрешения на DB: ако имате достъп само за четене само за четене, трябва да имате и достъп до данни."
+
+"Changing permissions from: {0} to: {1}"
+"Промяна на разрешенията от: {0} на: {1}"
+
+"login attribute keys must be a keyword or string"
+"атрибутите за вход трябва да са ключова дума или низ"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Езикът по подразбиране за всички потребители в потребителския интерфейс на Metabase, системни имейли, импулси и сигнали."
+
+"Users can individually override this default language from their own account settings."
+"Потребителите могат индивидуално да заменят този език по подразбиране от собствените си настройки на акаунта."
+
+"Default page to show the user"
+"Страница по подразбиране за показване на потребителя"
+
+"Allow this origin to embed the full Metabase application"
+"Позволете на този произход да вгражда пълното приложение Metabase"
+
+"Values greater than {0} ({1}) are not allowed."
+"Стойности, по-големи от {0} ({1}), не са разрешени."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"Това ще замени думата \"Metabase\", където и да се появи."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"Това са основните цветове, използвани в диаграмите и в Metabase. Може да се наложи да опресните браузъра си, за да видите вашите промени да влязат в сила."
+
+"For best results, use an SVG file with a transparent background."
+"За най-добри резултати използвайте SVG файл с прозрачен фон."
+
+"The url or image that you want to use as the favicon."
+"URL адресът или изображението, които искате да използвате като фавикон."
+
+"Allow logging in by email and password."
+"Разрешаване на влизане по имейл и парола."
+
+"Unable to validate token"
+"Не може да се провери маркера"
+
+"Token format is invalid."
+"Форматът на маркера е невалиден."
+
+"Error validating token"
+"Грешка при проверка на маркера"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"Грешка при филтрирането срещу {0} поле: не може да се анализира низ {1} на {2}"
+
+"Error fetching details for Job: {0}"
+"Грешка при извличането на подробности за работа: {0}"
+
+"Starting sync task for Database {0}."
+"Стартиране на задача за синхронизиране за база данни {0}."
+
+"Cannot sync Database {0}: Database does not exist."
+"Не може да се синхронизира база данни {0}: Базата данни не съществува."
+
+"Update Field values task triggered for Database {0}."
+"Задача за актуализиране на стойности на полета, задействана за база данни {0}."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"Пропускане на актуализацията, автоматичните актуализации на стойността на полето са деактивирани за база данни {0}."
+
+"Periodically refingerprint tables"
+"Периодично смени фингърпринтинг-а на таблиците"
+
+"Unable to run internal query function: cannot resolve {0}"
+"Неуспех при изпълнението на вътрешна функция по заявка: не може да се ризолвне {0}"
+
+"Audit App queries are not enabled on this instance."
+"Заявки за одитиране на приложения не са активирани на този инстанс."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"Невалидна вътрешна функция по заявка: {0} не е маркиран като ^:internal-query-fn"
+
+"Error: sandboxing is not enabled for this instance."
+"Грешка: \"Пясъчникът\" не е активиран за този инстанс."
+
+"Please check you have set a valid Enterprise token and try again."
+"Моля проверете дали сте поставили валиден Enterprise ключ и опитайте отново."
+
+"No permissions found for current user"
+"Не са намерени разрешения за текущия потребител"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"Потребител \"{0}\" опита да достъпи недостъпно поле. Достъпни полета {1}, полета в заявката {2}"
+
+"User not able to query field"
+"Потребителя няма възможност за заявка по това поле"
+
+"Found more than one group table access policy for user ''{0}''"
+"Намерена е повече от една таблица за политика на достъп на група към потребител \"{0}\""
+
+"Query requires user attribute `{0}`"
+"Заявката изисква атрибут на потребителя `{0}`"
+
+"invalid --mode value"
+"непозволено --mode velue"
+
+"invalid --on-error value"
+"непозволено --on-error value"
+
+"invalid context seed value"
+"непозволена стойност на поставен контекст"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"Този Dump е резултат от различна версия на Metabase. Има опасност да се счупи нещо!"
+
+"Error loading dump: {0}"
+"Грешка при зарездането на dump: {0}"
+
+"{0} is not a valid user"
+"{0} не е валиден потребител"
+
+"Error dumping {0}"
+"Грешка при дъмпинг на {0}"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"Не са намерени потребители с администраторска роля! Поне един едминистратор е нужен за да служи като собственик на всички заредени звена."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"Грешка при зареждането на зависимостите: референция към неизвестно звено {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"Не може да ризолвне {0} при напълно валидно име {1}"
+
+"Model {0} does not support upsert"
+"Модел {0} не поддържа upsert"
+
+"Error inserting {0}"
+"Грешка при въвеждането на {0}"
+
+"Inserting {0}"
+"Въвежда се {0}"
+
+"{0} already exists -- skipping"
+"{0} вече съществува -- пропуска се"
+
+"Skipping {0} (nothing to update)"
+"Пропуска се {0} (няма нищо за осъвременяване)"
+
+"Updating {0}"
+"Осъвременява {0}"
+
+"Error updating {0}"
+"Грешка при осъвременяване на {0}"
+
+"SSO has not been enabled and/or configured"
+"SSO не е активиран и/или конфигуриран"
+
+"SSO requires a valid token"
+"SSO изисква валиден токен"
+
+"Error returning SSO entry point"
+"Грешка при връщането на SSO entry point"
+
+"Error logging in"
+"Грешка при вписване"
+
+"Can't create new JWT user when JWT is not configured"
+"Не може да се създаде нов JWT потребител, когато JWT не еконфигуриран"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO не е активиран и/или конфигуриран"
+
+"Invalid SAML configuration: could not find user email."
+"Невалидна SAML конфигурация: не е намерен имейл на потребител."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"Потърсихме {0}, но не намерихме този атрибут."
+
+"Please make sure your SAML IdP is properly configured."
+"Убедете се, че вашия SAML IdP е правилно конфигуриран"
+
+"SAML has not been enabled and/or configured"
+"SAML не е активиран и/или конфигуриран"
+
+"Warning: expected `redirect` param, but none is present"
+"Предупреждение: очакваше се `redirect` параметър, но нямаше такъв"
+
+"Error generating SAML request"
+"Грешка при генериране SAML заявка"
+
+"Unable to log in: SAML IdP certificate is not set."
+"Невъзможност за вписване: SAML Idp сертификат не е настроен."
+
+"SAML response validation failed"
+"Валидация на SAML отговор неуспешна"
+
+"Unable to log in: SAML response validation failed"
+"Невъзможност за вписване: Валидация на SAML отговор неуспешна"
+
+"Unable to log in: SAML info does not contain user attributes."
+"Невъзможност за вписване: Информацията от SAML не съдържа атрибутите на потребителя."
+
+"Enable SAML authentication."
+"Активирай SAML автентикация."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"Това е интернет адрес, където потребителите се вписват във вашия доставчик на проверка на самоличност. В зависимост от IdP, който използвате, този адрес нормално изглежда така https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"Грешка при парсване на сертификата за установяване на SAML самоличност"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"Невалиден сертификат за установяване на самоличност. Сертификатът трябва да е низ с base-64 енкодинг."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"Кодиран сертификат за доставчика на самоличност. В зависимост от вашия IdP, може да се наложи да изтеглите това, да го отворите го в текстов редактор, след което копирате и поставите съдържанието на сертификата тук."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"Това е уникален идентификатор за IdP. Често наричан Entity ID или просто „Издател“. В зависимост от вашия IdP, това обикновено изглежда като http://www.example.com/141xkex604w0Q5PN724v"
+
+"This application name will be used for requests to the Identity Provider"
+"Това име на приложението ще се използва за заявки към доставчика на самоличност"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"Абсолютен път до Keystore файла, който ще се използва за подписване на SAML заявки"
+
+"Password for opening the keystore"
+"Парола за отваряне на хранилището на ключове"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Псевдоним на ключа, който Metabase трябва да използва за подписване на SAML заявки"
+
+"SAML attribute for the user''s email address"
+"SAML атрибут за имейл адреса на потребителя"
+
+"SAML attribute for the user''s first name"
+"SAML атрибут за първото име на потребителя"
+
+"SAML attribute for the user''s last name"
+"SAML атрибут за фамилното име на потребителя"
+
+"Enable group membership synchronization with SAML."
+"Активирай синхронизиране на групово членството със SAML."
+
+"SAML attribute for group syncing"
+"SAML атрибут за групово синхронизиране"
+
+"JSON containing SAML to Metabase group mappings."
+"JSON, съдържащ съотнасяне на SAML към групата на Metabase."
+
+"Enable JWT based authentication"
+"Активирайте JWT удостоверяване"
+
+"URL of JWT based login page"
+"Адрес на на страницата за вход, базирана на JWT"
+
+"String used to seed the private key used to validate JWT messages"
+"Низ, използван за поставяне на частния ключ, използван за проверка на JWT съобщения"
+
+"Key to retrieve the JWT user's email address"
+"Ключ за извличане на имейл адреса на потребителя на JWT"
+
+"Key to retrieve the JWT user's first name"
+"Ключ за извличане на първото име на потребителя на JWT"
+
+"Key to retrieve the JWT user's last name"
+"Ключ за извличане на фамилното име на потребителя на JWT"
+
+"Key to retrieve the JWT user's groups"
+"Ключ за извличане на принадлежност към групи на потребителя на JWT"
+
+"Enable group membership synchronization with JWT."
+"Активирайте синхронизирането на членството в група чрез JWT."
+
+"JSON containing JWT to Metabase group mappings."
+"JSON, съдържащ съотнасяне на JWT към групата на Metabase."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"Трябва ли да се изпращат нови известия по имейл до администраторите за всички нови потребители на SSO?"
+
+"New SSO user created: {0} ({1})"
+"Създаден е нов потребител на SSO: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"Невалиден сигнал: Сигналът яма асоциирана карта"
+
+"Error determining whether Database supports nested queries"
+"Грешка при определяне дали базата данни поддържа вложени заявки"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"Невалидни параметри на заявката: не можа да се определи работно име (slug) за параметър с идентификатор {0}"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"Не може да се търсят стойности: {0} не е активиран параметър."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"Не можете да посочите стойност за {0}, ако тя вече е зададена в JWT."
+
+"Error compiling HoneySQL form"
+"Грешка при компилирането на HoneySQL формa"
+
+"Not a valid Database/Database ID/JDBC spec"
+"Не е валидна спецификация за база данни / ID на база данни / JDBC"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"стойността трябва да е карта с ключове „{0}“, „{1}“, „{2}“ и „{3}“."
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"Не се създава прокси JDBC драйвер за клас {0} - оригиналният драйвер е зареден от системния ClassLoader"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"Заявката отне {0} за изпълнение; минимумът за допустимост на кеша е {1}"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"Не може да се разреши присъединеното поле поради двусмислени съединения: таблица {0} (ID {1}) се присъединява няколко пъти. Трябва да увиете препратките към полета в изрични клаузи :joined-field clauses."
+
+"Error normalizing form."
+"Грешка при нормализиране на формуляра."
+
+"Error canonicalizing query"
+"Грешка при канонизиране на заявката"
+
+"Error performing whole query transformations"
+"Грешка при извършване на трансформации на цели заявки"
+
+"Error normalizing query"
+"Грешка при нормализиране на заявката"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"Картите в среда тип \"Пясъчник\" не могат да върнат колони, които не присъстват в таблицата, която обуслявя \"пясъчната\" среда."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"Sandbox картите не могат да върнат колони, които имат различни типове от таблицата, която са тестови."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"Картата не може да се актуализира: Картата се използва за пясъчник и актуализациите биха нарушили правилата на пясъчника."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"Не можете да промените идентификатора на таблицата на GTAP, след като е създаден."
+
+"`database` is required for all queries."
+"\"база данни\" се изисква за всички заявки."
+
+"copied {0} instances."
+"копирани {0} екземпляра."
+
+"Copying instances of {0}..."
+"Копиране на копия на {0} ..."
+
+"Error copying instances of {0}"
+"Грешка при копирането на копия на {0}"
+
+"Temporarily disabling DB constraints..."
+"Временно деактивиране на ограниченията на DB ..."
+
+"Re-enabling DB constraints..."
+"Повторно активиране на ограниченията на DB ..."
+
+"Setting Postgres sequence ids to proper values..."
+"Задаване на идентификатори на последователността Postgres на правилни стойности ..."
+
+"Set up {0} source database and run migrations..."
+"Настройте база данни {0} и стартирайте миграции ..."
+
+"Set up {0} target database and run migrations..."
+"Настройте {0} целевата база данни и изпълнете миграции ..."
+
+"Testing if target {0} database is already populated..."
+"Тестване дали базата данни {0} вече е попълнена ..."
+
+"Unsupported application database type: {0} is not currently supported."
+"Неподдържан тип база данни на приложението: {0} понастоящем не се поддържа."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"Проверете стойността на MB_DB_CONNECTION_URI."
+
+"Driver {0} does not support {1}"
+"Шофьорът {0} не поддържа {1}"
+
+"No magnitude known for {0}"
+"Не е известна величина за {0}"
+
+"Error resolving source query"
+"Грешка при разрешаването на заявка за източник"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"Невалидно местоположение на файла GeoJSON: трябва или да започва с http: // или https: // или да бъде относителна пътека към файл в пътя на класа."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"URL адресите, отнасящи се до хостове, които предоставят вътрешни метаданни за хостинг, са забранени."
+
+"Invalid custom GeoJSON."
+"Невалиден персонализиран GeoJSON."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"Невалиден {0}: посочен пробив при индекс {1}, но имаме само {2} пробиви"
+
+"Error generating pivot queries"
+"Грешка при генерирането на обобщени заявки"
+
+"Sync the admin group?"
+"Да се синхронизира ли група Администратор?"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"Въпросите в среда тип \"Пясъчник\" не могат да върнат колони, които са от различен вид спрямо колоните от таблицата в \"Пясъчника\" "
+
+"Error preprocessing source query when applying GTAP"
+"Грешка при предварителната обработка на първичната заявка при прилагане на GTAP"
+
+"Error running query to determine metadata"
+"Грешка при изпълнението на заявката за определяне на метадата"
+
+"Can't create new SAML user when SAML is not configured"
+"Не може да се създаде нов SAML потребител, когато SAML не е конфигуриран"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"Грешка при задаване на FETCH_FORWARD на предврителната посока на изготвяне на отчетa"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"Грешка при задаване на FETCH_FORWARD на посоката на изготвяне на отчетa"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"Не можете да запазите този въпрос, защото нямате разрешения за изпълнение на заявката му."
+
+"Authentication endpoint error"
+"Грешка при удостоверяване на крайната точка"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"SSH тунелът може да бъде установен само за H2 връзки, използващи протокола TCP"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"ssh тунел за база данни {0} изглежда затворен; маркиращия пул  е невалиден, за да го отвори отново"
+
+"Query canceled, calling Statement.cancel()"
+"Заявката е отменена, извиква се Statement.cancel ()"
+
+"Select statement did not produce a ResultSet for native query"
+"Операторът Select не върна резултат при собствена заявка"
+
+"We''ve Noticed a New {0} Login, {1}"
+"Забелязахме нов {0} Вписване, {1}"
+
+"Don''t know how to process event with model {0}"
+"Не знам как да обработя събитие с модел {0}"
+
+"Failed to process activity event {0}"
+"Неуспешна обработка на събитие за активност {0}"
+
+"Error sending ''login from new device'' notification email"
+"Грешка при изпращане на имейл за известие „влизане от ново устройство“"
+
+"You can''t update a LoginHistory after it has been created."
+"Не можете да актуализирате LoginHistory, след като е създаден."
+
+"Setting {0} already registered in {1}"
+"Настройката {0} вече е регистрирана в {1}"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"Контролира колко често се изпращат пулсове при установяване на SSH тунел (в секунди)."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"Не може да се намери съответстващ идентификатор на таблица FK за поле FK {0}"
+
+"Error optimizing temporal filter clause"
+"Грешка при оптимизиране на клаузата за времевия филтър"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"Не може да се разреши присъединено поле поради двусмислени присъединявания: таблица {0} (ID {1}) е присъединена многократно. Трябва да посочите изрично `:join-alias` в препратката към полето."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"Неподдържано времево групиране: Не може да се използва поле {0} по {1}."
+
+"Error processing additional pivot table query"
+"Грешка при обработката на допълнителна заявка за пивот таблица"
+
+"Invalid cell format"
+"Невалиден формат на клетката"
+
+"Enable typeahead search in the Metabase navbar?"
+"Активиране на търсенето тип \"напред\" в навигационната лента на Metabase?"
+
+"Login request is missing user-agent information"
+"В заявката за влизане липсва информация за потребителския агент"
+
+"Unable to determine login request IP address"
+"Не може да се определи IP адресът на заявката за вписване"
+
+"Error determining login history for request"
+"Грешка при определяне на историята на вписване за заявка"
+
+"unknown"
+"неизвестно"
+
+"Unknown device type"
+"Неизвестен тип устройство"
+
+"Unknown OS"
+"Неизвестна операционна система "
+
+"Unknown browser"
+"Неизвестен браузър"
+
+"Error geocoding IP addresses"
+"Грешка при геокодиране на IP адреси"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"Семантичният тип на {0} е променен от '' {1} '' на '' {2} ''."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"Името на {0} е променено от „„ {1} “на„ „{2}“."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"Не знам как да форматирам {0} като човекочитаема дата / час"
+
+"Valid coercion strategy"
+"Валидна стратегия за принуда"
+
+"value must be a valid coercion strategy."
+"стойност трябва да е валидна стратегия за принуда."
+
+"Saved Questions"
+"Запазени въпроси"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"Филтър за търсене на членство в група. Заместващите символи '{dn}' и '{uid}' ще бъдат заменени съответно с Distinguished Name и UID на потребителя."
+
+"Error deleting Sandboxes: {0}"
+"Грешка при изтриването на Sandboxes: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"BEGIN LOAD от {0} с контекст {1}"
+
+"Finished first pass of load; now performing second pass"
+"Завършено е първото зареждане; сега се извършва второто зареждане"
+
+"END LOAD from {0} with context {1}"
+"END LOAD от {0} с контекст {1}"
+
+"ERROR LOAD from {0}: {1}"
+"Грешка при зареждане от {0}: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"BEGIN DUMP към {0} чрез потребител {1}"
+
+"END DUMP to {0} via user {1}"
+"END DUMP към {0} чрез потребител {1}"
+
+"Could not find context for fully qualified card name {0}"
+"Не можа да се намери контекст за напълно квалифицираното име на картата {0}"
+
+"Could not find context for fully qualified snippet name {0}"
+"Не беше намерен контекст за напълно квалифицираното име на фрагмента {0}"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"Не успя да изпълни заявка за заредена карта \"{0}\": {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"Не мога да се свържа с базата данни ''{0}'', за да синхронизирам скритите таблици"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"Не мога да декриптирам db на приложението с MB_ENCRYPTION_SECRET_KEY"
+
+"Invalid domain"
+"Невалиден домейн"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"Филтър за търсене на потребители. Заместващият символ '{login}' ще бъде заменен с въведеното от потребителя потребителско име."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Атрибут, който да се използва за имейла на потребителя. (обикновено ''mail'', ''email'' или ''userPrincipalName'')"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"Търсене в базата за групи. Не се изисква за директориите LDAP, които осигуряват наслагване на ''memberOf'', като например Active Directory. (Ще се търси рекурсивно)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"Нямате право да променяте собственика на лична колекция."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"Нямате право да променяте нивото на авторитет на лична колекция."
+
+"You are not allowed to move a Personal Collection."
+"Нямате право да премествате лична колекция."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"Не можете да актуализирате CollectionPermissionGraphRevision!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"Невалидно поле {0} {1}: връщане към {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"За да направи имената на таблиците и полетата по-удобни за хората, Metabase ще замени тиретата и подчертаванията в тях с интервали."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"Ще изписваме всяка дума с главна буква, така че \"last_visited_at\" ще стане \"Last Visited At\"."
+
+"Setting names in would collide: {0} and {1}"
+"Задаване на имена в ще се сблъскат: {0} и {1}"
+
+"Indicates when Metabase last checked for new versions."
+"Посочва кога за последен път Metabase е проверила за нови версии."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"Този URL адрес се използва за неща като създаване на връзки в имейли, пренасочване на автентични данни,"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"и в някои сценарии за вграждане, така че промяната му може да наруши функционалността или да ви блокира в този случай."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"Когато е зададена, се налага използването на сесийни бисквитки за всички потребители, които изтичат при затваряне на браузъра."
+
+"Error parsing paging parameters: {0}"
+"Грешка при разбора на параметрите на страниците: {0}"
+
+"Error running sync step"
+"Грешка при изпълнение на стъпка за синхронизиране"
+
+"Error in sync step {0}"
+"Грешка в стъпката за синхронизация {0}"
+
+"Error fetching version info; setting version-info value to nil"
+"Грешка при извличането на информация за версията; задаване на стойност version-info на nil"
+
+"Valid field semantic type"
+"Валиден семантичен тип на полето"
+
+"value must be a valid field semantic type."
+"стойността трябва да бъде валиден семантичен тип на полето."
+
+"Valid field relation type"
+"Валиден тип връзка на полето"
+
+"value must be a valid field relation type."
+"стойността трябва да бъде валиден тип полева връзка."
+
+"Valid field semantic or relation type"
+"Валиден семантичен тип на полето или връзката"
+
+"value must be a valid field semantic or relation type."
+"стойността трябва да бъде валиден семантичен тип на полето или на връзката."
+
+"Valid field data type (keyword or string)"
+"Валиден тип данни на полето (ключова дума или низ)"
+
+"value must be a valid field data type (keyword or string)."
+"стойността трябва да бъде валиден тип данни за полето (ключова дума или низ)."
+
+"Valid field semantic type (keyword or string)"
+"Валиден семантичен тип на полето (ключова дума или низ)"
+
+"value must be a valid field semantic type (keyword or string)."
+"стойността трябва да бъде валиден семантичен тип на полето (ключова дума или низ)."
+
+"Valid field relation type (keyword or string)"
+"Валиден тип връзка на полето (ключова дума или низ)"
+
+"value must be a valid field relation type (keyword or string)."
+"стойността трябва да бъде валиден тип на релация на полето (ключова дума или низ)."
+
+"Valid field semantic or relation type (keyword or string)"
+"Валиден семантичен тип на полето или връзката (ключова дума или низ)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"стойността трябва да бъде валиден семантичен тип на полето или на връзката (ключова дума или низ)."
+
+"value must be a valid coercion strategy (keyword or string)."
+"стойността трябва да бъде валидна стратегия за принуда (ключова дума или низ)."
+
+"password is too common."
+"паролата е твърде често срещана."
+
+"Invalid custom GeoJSON"
+"Невалиден потребителски GeoJSON"
+
+"GeoJSON URL failed to load"
+"URL адресът GeoJSON не успя да се зареди"
+
+"Error building query parameter map: {0}"
+"Грешка при изграждането на картата с параметри на заявката: {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"Плъгинът ''{0}'' зависи от това дали променливата на средата ''{1}'' е настроена на нещо"
+
+"Down"
+"Down"
+
+"Up"
+"Нагоре"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"Разрешени домейн (и) на имейл адреси за нови абонаменти и предупреждения за Dashboard. Не засяга съществуващите абонаменти."
+
+"Invalid email address: {0}"
+"Невалиден имейл адрес: {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"Не можете да създавате нови абонаменти за домейна {0}. Разрешените домейни са: {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"Тази крайна точка на API е активирана само ако имате премиум маркер с функцията {0}."
+
+"Error compiling audit query: {0}"
+"Грешка при компилирането на одиторска заявка: {0}"
+
+"Error running audit query: {0}"
+"Грешка при изпълнението на одиторска заявка: {0}"
+
+"Error parsing Pulse parameters: {0}"
+"Грешка при синтактичния анализ на параметрите на импулса: {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Блокиран: нямате право да изпълнявате заявки към база данни {0}."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"Графиката за разрешения не може да бъде анализирана, защото е невалидна: {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"Хеширането на данните за базата данни {0} е променено; пул за маркиране е невалиден, за да го отворите отново"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"Невалидни разрешения на БД: Ако имате достъп за запис за естествени заявки, трябва да имате пълен достъп до данни."
+
+"Error parsing permissions tree {0}"
+"Грешка при синтактичния анализ на дървото на разрешенията {0}"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"ID на колекцията на абонамент за табло не може да бъде променен директно"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"идентификационният номер на таблото за абонамент за табло не може да бъде променен"
+
+"Javascript resource not found: {0}"
+"Ресурс на JavaScript не е намерен: {0}"
+
+"Found new version for DB: {0}"
+"Намерена е нова версия за DB: {0}"
+
+"Rerun queries for simple explorations"
+"Повторете заявки за прости изследвания на данни"
+
+"Choose when syncs and scans happen"
+"Изберете кога да се извършват синхронизации и сканирания"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"По подразбиране Metabase извършва лека почасова синхронизация и интензивно ежедневно сканиране на стойностите на полета. Ако имате голяма база данни, включете това, за да направите промени."
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"Това позволява на Metabase да сканира за допълнителни стойности на полета по време на синхронизиране, което позволява по-интелигентно поведение, като подобрено автоматично комбиниране на вашите лентови диаграми."
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"По подразбиране „URL адрес на сайта“ се използва във връзките за уведомяване, но може да бъде отменен."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"Грешка при предварителната обработка на заявката за източник при прилагане на GTAP: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Уникален идентификатор, който да се използва в анализа на Snowplow, за да се идентифицира този инстанс на Metabase."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"Това е публична настройка, тъй като някои аналитични събития се изпращат преди първоначалната настройка."
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Булев низ, показващ дали колекторът на Snowplow е наличен за получаване на аналитични събития."
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Трябва да се задава чрез променлива на средата в тестове на Cypress или по време на локално развитие."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Булев низ, показваща дали аналитични събития се изпращат до Snowplow."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"Вярно е, ако анонимното проследяване е активирано за този инстанс и е наличен колектор на Snowplow."
+
+"The URL of the Snowplow collector to send analytics events to."
+"URL адресът на колектора на Snowplow за изпращане на аналитични събития."
+
+"Error sending Snowplow analytics event {0}"
+"Грешка при изпращане на събитие за анализ на Snowplow {0}"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"Приблизителното времеви печат, в който е създаден този инстанс на Metabase, за включване в анализа."
+
+"Unverified due to edit"
+"Непотвърдено поради редакция"
+
+"Card {0} does not exist or does not have a valid query."
+"Карта {0} не съществува или няма валидна заявка."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"Трябва да имате разрешения за данни, за да добавите параметър, препращащ таблицата {0}."
+
+"No matching parameter with slug {0}. Found: {1}"
+"Няма съвпадащ параметър с плуг {0}. Намерено: {1}"
+
+"Could not invite user because email is not configured."
+"Не можа да се покани потребител, защото имейлът не е конфигуриран."
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"Вашият екип използва ли Slack? Ако е така, можете да изпращате автоматизирани актуализации чрез абонаменти за табло за управление."
+
+"invalid token"
+"Невалиден Токен"
+
+"Slack channel not found."
+"Slack канал не е намерен."
+
+"channel not found"
+"каналът не е намерен"
+
+"Unrecognized modal: {0}"
+"Неразпознат модален: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"Не може да се дешифрира тайната стойност с MB_ENCRYPTION_SECRET_KEY"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"IP адресът на вашата база данни (напр. 98.137.149.56) или името на домейна (напр. esc.mydatabase.com)."
+
+"username"
+"потребителско име"
+
+"Use a secure connection (SSL)"
+"Използвайте защитена връзка (SSL)"
+
+"Use an SSH tunnel"
+"Използвайте SSH тунел"
+
+"Enable this ssh tunnel?"
+"Да се ​​активира ли този ssh тунел?"
+
+"SSH tunnel host"
+"SSH тунелен хост"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"Името на хоста, което използвате за свързване към SSH тунели."
+
+"SSH tunnel port"
+"SSH тунелен порт"
+
+"SSH tunnel username"
+"Потребителско име на SSH тунел"
+
+"The username you use to login to your SSH tunnel."
+"Потребителското име, което използвате, за да влезете във вашия SSH тунел."
+
+"SSH tunnel password"
+"SSH парола за тунел"
+
+"SSH private key to connect to the tunnel"
+"SSH частен ключ за свързване към тунела"
+
+"Paste the contents of an ssh private key here"
+"Поставете тук съдържанието на ssh частен ключ"
+
+"Passphrase for SSH private key"
+"Пропуск за SSH частен ключ"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"Ние изпълняваме основната заявка, когато изследвате данни с помощта на Summarize или Filter."
+
+"This is on by default but you can turn it off if performance is slow."
+"Това е включено по подразбиране, но можете да го изключите, ако производителността е бавна."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"Това е лек процес, който проверява за актуализации на схемата на тази база данни."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"В повечето случаи е добре да оставите този набор от данни да се синхронизира ежечасно."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"Ако вашата база данни е зад защитна стена, може да се наложи да разрешите връзки от нашите IP адреси в Metabase Cloud:"
+
+"Error querying database {0} for current time: {1}"
+"Грешка при заявка към база данни {0} за текущо време: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"Грешка: множество стойности, посочени за параметър; Параметрите на филтъра извън полето могат да имат само една стойност."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"Локалният път спрямо мястото, откъдето се изпълнява Metabase. Вашият низ не трябва да включва разширението .mv.db."
+
+"SSL Mode"
+"SSL режим"
+
+"SSL Root Certificate (PEM)"
+"SSL коренен сертификат (PEM)"
+
+"Authenticate client certificate?"
+"Удостоверяване на клиентски сертификат?"
+
+"SSL Client Certificate (PEM)"
+"SSL клиентски сертификат (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"SSL клиентски ключ (PKCS-8/DER или PKCS-12)"
+
+"SSL Client Key Password"
+"Парола за SSL клиентски ключ"
+
+"Unable to substitute parameters: {0}"
+"Параметрите не могат да бъдат заменени: {0}"
+
+"Expected native source query to be a string, got: {0}"
+"Очаква се заявката за естествен източник да бъде низ, получих: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"Очакваните параметри на заявката за естествен източник да бъдат последователни, получих: {0}"
+
+"No expression named {0} at this level of the query"
+"Няма израз с име {0} на това ниво на заявката"
+
+"Error compiling :field clause: {0}"
+"Грешка при компилирането на клауза :field: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"Предупреждение: Драйвер {0} използва {1}. Този метод е остарял през {2} и ще бъде премахнат в бъдеща версия."
+
+"Error setting connection to autoCommit false"
+"Грешка при настройка на връзката на autoCommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"Грешка при задаване на размера на извличане на подготвеното изявление на размер на извличане"
+
+"Error setting statement fetch size to fetch-size"
+"Грешка при задаване на размера на извличане на извлечение на извличане"
+
+"Error executing query: {0}"
+"Грешка при изпълнение на заявката: {0}"
+
+"Local file path"
+"Път на локален файл"
+
+"Uploaded file path"
+"Път на качения файл"
+
+"File path"
+"Файлова пътека"
+
+"Error invoking getter for connection property {0}"
+"Грешка при извикване на getter за свойството на връзката {0}"
+
+"Only these..."
+"Само тези..."
+
+"All except..."
+"Всички освен..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"Разделени със запетая имена на {0}, които <strong>трябва</strong> да се показват в Metabase"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"Можете да използвате шаблони като <strong>auth*</strong>, за да съответствате на няколко {0}"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"Разделени със запетая имена на {0}, които <strong>НЕ трябва</strong> да се показват в Metabase"
+
+"Your Slack connection stopped working"
+"Вашата Slack връзка спря да работи"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"Клиентски идентификатор за влизане в Google. Ако това е зададено, влизането в Google се счита за активирано."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"Невалиден клиентски идентификатор за влизане в Google: трябва да завършва с „.apps.googleusercontent.com“"
+
+"Invalid Google Sign-In token."
+"Невалиден токен за вход в Google."
+
+"Google Sign-In token appears to be incorrect. "
+"Изглежда, че токенът за вход в Google е неправилен."
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"Успешно удостоверен токен за вход в Google за: {0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"Оттеглен токен на Slack API за свързване на бота Metabase Slack."
+
+"Please use a new Slack app integration instead."
+"Моля, вместо това използвайте нова интеграция на приложението Slack."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"Потребителски токен OAuth на бот за свързване на приложението Metabase Slack."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"Това трябва да се използва за всички нови интеграции на Slack, започващи от Metabase v0.42.0."
+
+"Whether the current Slack app token, if set, is valid."
+"Дали текущият токен на приложението Slack, ако е зададен, е валиден."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Задайте на „false“, ако заявка за Slack API връща грешка при удостоверяване."
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"Името на канала, в който трябва да бъдат качени първоначално файловете на Metabase"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 Вашият токен за оторизация на Slack е невалиден или е анулиран. Моля, актуализирайте вашата интеграция в Настройки на администратора -> Slack."
+
+"Slack channel named `{0}` is missing!"
+"Slack каналът на име „{0}“ липсва!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"Каналът се използва за съхраняване на изображения, които са включени в абонаментите за таблото."
+
+"You do not have curate permissions for this Collection."
+"Нямате разрешения за куратор за тази колекция."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"Таблото за управление {0} няма DashboardCard с идентификационен номер {1}"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"Секретен идентификатор {0} се изтрива от базата данни на приложението, тъй като притежаващата база данни ({1}) се изтрива"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Невалидна стойност за полето, колона {0}: {1} не произлиза от нито един от тези типове: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"Не мога да използвам разрешения за блокиране, без да имаш първокласна функция за разширени разрешения"
+
+"User {0} does not exist."
+"Потребител {0} не съществува."
+
+"Wrong email address for User {0}."
+"Грешен имейл адрес за потребителя {0}."
+
+"Secret ID {0}"
+"Секретен идентификатор {0}"
+
+"File path for {0}"
+"Път на файла за {0}"
+
+"Path"
+"пътека"
+
+"{0} points to non-existent file: {1}"
+"{0} сочи към несъществуващ файл: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (локален път към файла) не може да се използва в хоствана среда на Metabase"
+
+"Error parsing Setting {0}: {1}"
+"Грешка при синтактичния анализ на настройка {0}: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"Стойностите за целия сайт не са разрешени за настройка {0}"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"Настройката {0} е отхвърлена от Metabase {1} и може да бъде премахната в бъдеща версия."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"Името на настройката ''{0}'' е оттеглено; вместо това използвайте друго име"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Булев низ, показваща дали данните от анализа трябва да се изпращат до Google Analytics на интерфейса"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"Версия на Metabase, за която е показано известие за използване на оттеглени функции."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Дали да се покаже или не съобщение за фиксиране на табла за управление. Също така ще бъде скрито, ако някакви табла за управление са фиксирани. Администраторите може да скрият това, за да насочат потребителите към по-добро съдържание от необработените данни"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"Това ще засегне неща като групиране по седмица или филтриране в GUI заявки."
+
+"It won''t affect most SQL queries,"
+"Няма да засегне повечето SQL заявки,"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+"въпреки че се използва за задаване на променливата на сесията WEEK_START в Snowflake."
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Грешка при извличане на IP адреси на шлюз на Metabase Cloud:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"IP адреси на шлюз на Metabase Cloud, за конфигуриране на връзки към DBs зад защитни стени"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"Дали трябва да се показва въвеждащ модален след добавяне на следващото свързване към базата данни."
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"По подразбиране е false, ако някоя база данни, която не е по подразбиране, вече е завършила синхронизирането за този инстанс."
+
+"Alert: {0} has {1}"
+"Сигнал: {0} има {1}"
+
+"Nothing to compare to."
+"Няма с какво да се сравнява."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"Невалиден тип параметър {0} за параметър {1}. Типът на параметъра трябва да е един от: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"Невалиден параметър: Картата {0} няма маркер за шаблон с име {1}."
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"Не може да се разреши невалиден параметър на заявката: липсва параметър :id"
+
+"Dashboard does not have a parameter with ID {0}."
+"Таблото за управление няма параметър с идентификатор {0}."
+
+"Query: {0}"
+"Заявка: {0}"
+
+"Error determining expected columns for query: {0}"
+"Грешка при определяне на очакваните колони за заявка: {0}"
+
+"Nested queries are disabled"
+"Вложените заявки са деактивирани"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"Лоша клауза :field {0} за поле {1} при {2}: клаузата трябва да има псевдоним :join."
+
+"Guessing join {0}"
+"Предполагам присъединяване към {0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"Не може да се направи извод за подходящо присъединяване. Заявката може да не работи според очакванията."
+
+"Error resolving Fields in query: {0}"
+"Грешка при разрешаването на полета в заявката: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"Предупреждение: Клауза {0} не съвпада с колона в изходната заявка. Опит за коригиране на това до {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"Предупреждение: клауза {0} се отнася до поле, което може да не присъства в изходната заявка. Заявката може да не работи според очакванията. Намерено: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"Очаквана клауза :aggregation-options, получих {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"Не може да се определи изходната таблица или заявка за клауза за поле {0}"
+
+"Aggregation does not exist at index {0}"
+"Агрегацията не съществува в индекс {0}"
+
+"No expression named {0}"
+"Няма израз с име {0}"
+
+"Sample database DB file ''{0}'' cannot be found."
+"Примерен DB файл на база данни ''{0}'' не може да бъде намерен."
+
+"Loading sample database"
+"Зареждане на примерна база данни"
+
+"Failed to load sample database"
+"Неуспешно зареждане на примерна база данни"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"SameSite на бисквитката на сесията е конфигуриран на „Няма“, но сайтът се обслужва през незащитена връзка. Някои браузъри ще отхвърлят бисквитките при тези условия."
+
+"Login request is missing device ID information"
+"В заявката за вход липсва информация за ID на устройството"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"Не може да се дешифрира криптиран {0}. Променихте или забравихте да зададете MB_ENCRYPTION_SECRET_KEY?"
+
+"Enable this SSH tunnel?"
+"Да се активира ли този SSH тунел?"
+
+"The hostname that you use to connect to SSH tunnels."
+"Името на хоста, което използвате за свързване към SSH тунели."
+
+"Paste the contents of an SSH private key here"
+"Поставете тук съдържанието на SSH частен ключ"
+
+"Allow using a saved question or Model as the source for other queries?"
+"Да се разреши ли използването на запазен въпрос или модел като източник за други заявки?"
+
+"Pulse card query error"
+"Грешка при заявка за импулсна карта"
+
+"There was a problem with this question."
+"Имаше проблем с този въпрос."
+
+"Copy of "
+"Копие на "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"Маршрутът /api/setup може да се използва само за създаване на първия потребител, независимо че в момента съществува такъв."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"Максимален брой редове, които да се връщат специално при заявки от типа :rows чрез API."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"Допустим(и) домейн(и) на имейл адрес за нови абонаменти за таблото за управление и сигнали. За да посочите няколко домейна, отделете всеки домейн със запетая, без интервал между тях (напр. \"домейн1,домейн2\"). За да разрешите всички домейни, оставете полето празно. Тази настройка не влияе на съществуващите абонаменти."
+
+"You do not have permissions to download the results of this query."
+"Нямате права за изтегляне на резултатите от тази заявка."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"Потребителите, които не са администратори и нямат права за мониторинг или абонамент, могат да актуализират само създадените от тях сигнали."
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"Потребителите, които не са администратори и нямат права за мониторинг или абонамент, нямат право да променят каналите за даден сигнал."
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"Потребителите, които не са администратори и нямат права за абонамент, нямат право да добавят получатели."
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"Функцията Group Manager е активирана само ако имате премиум токен с функцията за разширени разрешения."
+
+"Admin cant be a group manager."
+"Администраторът не може да бъде мениджър на група."
+
+"Timeline with id {0} not found"
+"Timeline с id {0} не е намерен"
+
+"Timestamp cannot be null"
+"Времевият печат не може да бъде null"
+
+"ERROR {0}: {1}"
+"ГРЕШКА {0}: {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Изчистване на записите по подразбиране, създадени от миграциите на Liquibase..."
+
+"Don''t know how to parse date string {0}"
+"Не знам как да анализирам низ с дата {0}"
+
+"Invalid values provided for operator: {0}"
+"Невалидни стойности, предоставени за оператора: {0}"
+
+"Unrecognized operation: {0}"
+"Неразпозната операция: {0}"
+
+"Error determining value for parameter {0}: {1}"
+"Грешка при определяне на стойността на параметъра {0}: {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"Не можете да актуализирате ApplicationPermissionsRevision!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"Невалиден филтър за полета: Поле {0} принадлежи на база данни {1}, но заявката е към база данни {2}."
+
+"The engine on a sample database cannot be changed."
+"Двигателят на примерна база данни не може да бъде променен."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"Функцията за разрешения {0} е активирана само ако имате премиум токен с функцията за разширени разрешения."
+
+"Unknown setting: {0}"
+"Неизвестна настройка: {0}"
+
+"You do not have access to the setting {0}"
+"Нямате достъп до настройката {0}"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"Задаването на {0} позволява както локални за потребителя, така и локални за базата данни стойности; това не се поддържа."
+
+"Error purging old cache entries: {0}"
+"Грешка при изчистването на стари записи в кеша: {0}"
+
+"Error saving query results to cache: {0}"
+"Грешка при запазване на резултатите от заявката в кеша: {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"Грешка при опит за извличане на кеширани резултати за заявка с хеш {0}: {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Кешът за стартиране на потребител/канал на Slack беше обновен с {0} записи, отне {1}ms."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack не е конфигуриран, не се обновява кешът на потребителите/каналите на Slack."
+
+"value must be a valid date string"
+"стойността трябва да бъде валиден низ за дата"
+
+"Not allowed to edit group memberships"
+"Нямате право да редактирате групови членства"
+
+"Connected to"
+"Свързан с"
+
+}

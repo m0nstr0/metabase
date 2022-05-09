@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"資料庫同步中"
+
+"Scanning for Filter Values"
+"根據篩選值進行掃描"
+
+"When should Metabase automatically scan and cache field values?"
+"Metabase應該在什麼時候自動掃描快取的欄位值"
+
+"Other"
+"其他"
+
+"Email"
+"信箱"
+
+"{0} table"
+"{0}表"
+
+"Password"
+"密碼"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"在您能夠使用Google帳戶登入之前，需要一個管理員來建立一個Metabase帳戶"
+
+"Our analytics"
+"分析"
+
+"Unknown"
+"未知"
+
+"Count"
+"計數"
+
+"number"
+"個數"
+
+"Native query"
+"原生查詢"
+
+"Today"
+"今天"
+
+"Yesterday"
+"昨天"
+
+"Week"
+"週"
+
+"Month"
+"月"
+
+"Year"
+"年"
+
+"Slack"
+"Slack"
+
+"results"
+"結果"
+
+"Count of {0}"
+"{0}計數"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"DELETE /api/alert/:id 已棄用，請使用  PUT /api/alert/:id 來更改它的 `archived` 值。"
+
+"invalid show value"
+"不可用顯示值"
+
+"invalid value for prefix"
+"不可用的前綴值"
+
+"invalid value for rule name"
+"不可用的規則名"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"值不能被基於64位編碼的JSON解析"
+
+"Invalid entity type"
+"不可用的實體類型"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"無效的比較實體類型。這只能是“表格”，“劃分”或“即席查詢”之一"
+
+"Error running query to determine Card result metadata:"
+"執行查詢以確定卡片結果後設資料時出錯："
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"DELETE /api/card/:id 已棄用，請使用  PUT /api/card/:id 來更改它的 `archived` 值。"
+
+"Invalid field: {0}"
+"無效領域：{0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"無效的值''{0}''給“{1}”：“{2}”"
+
+"must be one of: {0}"
+"必須是：{0}的其中一個"
+
+"Invalid Request."
+"不可用請求"
+
+"Not found."
+"未找到。"
+
+"You don''t have permissions to do that."
+"您沒有權限那麼做"
+
+"Internal server error."
+"內部伺服器錯誤。"
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"警告: 末端 {0}/{1} 不包含 docstring."
+
+"starting streaming request"
+"開始流請求"
+
+"connection closed, canceling request"
+"連結已關閉，正在取消請求"
+
+"Response not ready, writing one byte & sleeping..."
+"響應內容沒準備好，寫一個位元組然後暫停了......"
+
+"Public sharing is not enabled."
+"公開分享未啟用"
+
+"Embedding is not enabled."
+"嵌入功能未啟用"
+
+"The object has been archived."
+"已經歸檔"
+
+"Source query for this query is Card {0}"
+"這個查詢的查詢源是{0}卡片"
+
+"Invalid export format: {0}"
+"無效的導出格式：{0}"
+
+"Invalid JSON URL or resource: {0}"
+"不可用的JSON URL或源:{0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON包含關於關於在地圖可視化中使用，自訂GeoJSON的檔案，而不是預設的美國地圖或者世界GeoJSON。"
+
+"Invalid custom GeoJSON key: {0}"
+"不可用的自訂GeoJSON密鑰：{0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"DELETE /api/pulse/:id 已棄用，請使用 PUT /api/pulse/:id 來更改它的`archived`值。"
+
+"API endpoint does not exist."
+"API終點不存在"
+
+"Password did not match stored password."
+"密碼與存儲的密碼不匹配。"
+
+"did not match stored password"
+"與存儲的密碼不匹配"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"連接到LDAP伺服器時出現問題，將會完全返回本地授權驗證。"
+
+"Invalid reset token"
+"無效的重設記號"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"設定後，如果使用者的Google帳戶電子郵件地址來自此域，則允許使用者自行註冊。"
+
+"Email is not verified."
+"信箱未認證"
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"在您能夠使用Google來登入之前，您需要一個管理員來建立一個Metabase帳戶。"
+
+"Add a database"
+"新增一個資料庫"
+
+"Get connected"
+"連接上"
+
+"Connect to your data so your whole team can start to explore."
+"連接到您的資料，讓您的整個團隊可以開始探索。"
+
+"Set up email"
+"設定信箱"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"新增電子郵件憑據，以便您可以更輕鬆地邀請團隊成員並通過Pulses獲取更新。"
+
+"Set Slack credentials"
+"設定Slack憑證"
+
+"Invite team members"
+"邀請團隊成員"
+
+"Share answers and data with the rest of your team."
+"和團隊其餘成員分享您的成果和資料。"
+
+"Hide irrelevant tables"
+"隱藏相關的表單"
+
+"Curate your data"
+"策劃您的資料"
+
+"If your data contains technical or irrelevant info you can hide it."
+"如果您的封包含技術性的或者相關的訊息，您可以隱藏它們"
+
+"Organize questions"
+"組織提問"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"在{0}中有很多已儲存的問題？建立集合以幫助管理它們並新增上下文。"
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"建立量值"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"定義標準量值來讓它更容易被團隊其他成員用來得到正確的答案。"
+
+"Create segments"
+"建立區間"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"保持每個人在相同的頁面來創造任何人都能夠在提問時使用的標準篩選項。"
+
+"Table ''{0}'' is now visible. Resyncing."
+"表單''{0}''現在可以被看見了，重新連接中。"
+
+"Auto bin"
+"自動間隔"
+
+"Don''t bin"
+"無間隔"
+
+"Day"
+"天"
+
+"Minute"
+"分鐘"
+
+"Hour"
+"小時"
+
+"Quarter"
+"25美分硬幣"
+
+"Minute of Hour"
+"一小時中的分鐘"
+
+"Hour of Day"
+"一天中的小時"
+
+"Day of Week"
+"一週中的天"
+
+"Day of Month"
+"一個月中的天"
+
+"Day of Year"
+"一年中的天"
+
+"Week of Year"
+"一年中的周"
+
+"Month of Year"
+"一年中的月"
+
+"Quarter of Year"
+"一年中的季度"
+
+"10 bins"
+"10個刻度間隔"
+
+"50 bins"
+"間隔50"
+
+"100 bins"
+"間隔100"
+
+"Bin every 0.1 degrees"
+"按0.1度間隔"
+
+"Bin every 1 degree"
+"按1度間隔"
+
+"Bin every 10 degrees"
+"Bin每度10度"
+
+"Bin every 20 degrees"
+"按20度間隔"
+
+"No appropriate image writer found!"
+"找不到合適的圖像寫入器！"
+
+"Email address already in use."
+"信箱地址已經被使用。"
+
+"Email address already associated to another user."
+"信箱地址已經被另一個使用者關聯。"
+
+"Not able to reactivate an active user"
+"不能恢復活動一個已經處於活動狀態的使用者"
+
+"Invalid password"
+"不可用密碼"
+
+"All {0}"
+"全部 {0}"
+
+"{0}, all {1}"
+"{0}，所有的{1}"
+
+"Comparison of {0} and {1}"
+"比較 {0} 和 {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"自動生成的 {0} 和 {1} 的對比資訊看板"
+
+"sum"
+"總和"
+
+"average"
+"平均值"
+
+"minumum"
+"最小值"
+
+"maximum"
+"最大值"
+
+"distinct count"
+"不重複計數"
+
+"standard deviation"
+"標準差"
+
+"cumulative count"
+"累積計數"
+
+"cumulative sum"
+"累積總和"
+
+"{0} and {1}"
+"{0} 和 {1}"
+
+"{0} of {1}"
+"{0} 的 {1}"
+
+"{0} by {1}"
+"{0} by {1}"
+
+"{0} in the {1} segment"
+"劃分 {1} 中的 {0}"
+
+"{0} segment"
+"劃分 {0}"
+
+"{0} metric"
+"{0}指標"
+
+"{0} field"
+"欄位 {0}"
+
+"\"{0}\" question"
+"問題 ''{0}''"
+
+"Compare with {0}"
+"與{0}比較"
+
+"Compare with entire dataset"
+"與整個資料集進行比較"
+
+"Applying heuristic %s to %s."
+"將啟發式算法 %s 應用於 %s 。"
+
+"Dimensions bindings:n%s"
+"維度綁定中:n%s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"定義啟用中:n進度:n%sn過濾:n%s"
+
+"Can''t create dashboard for {0}"
+"不能為{0}建立資訊看板"
+
+"{0}st"
+"{0}st"
+
+"{0}nd"
+"{0}nd"
+
+"{0}rd"
+"{0}rd"
+
+"{0}th"
+"{0}th"
+
+"at {0}"
+"at {0}"
+
+"on {0}"
+"on {0}"
+
+"in {0} week - {1}"
+"在{0}-{1}周之間"
+
+"in {0}"
+"在{0}之內"
+
+"in Q{0} - {1}"
+"在Q{0}-{1}"
+
+"Q{0}"
+"Q{0}"
+
+"{0} is {1}"
+"{0}是{1}"
+
+"{0} is between {1} and {2}"
+"{0}是在{1}和{2}中間的"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0}在{1} 和 {2}之間; and {3} 在{4} 和 {5}之間；"
+
+"where {0}"
+"where {0}"
+
+"A closer look at {0}"
+"更詳細地檢視{0}"
+
+"A closer look at the {0}"
+"仔細觀察這個集合{ 0 }"
+
+"Adding %s cards to dashboard %s:n%s"
+"將%s卡新增到資訊看板%s:n%s"
+
+"0 <= score <= {0}"
+"0≤分數≤{0}"
+
+"1 <= width <= {0}"
+"1≤寬度≤{0}"
+
+"Valid metrics references"
+"有效的量值引用"
+
+"Valid filters references"
+"有效的篩選引用"
+
+"Valid group references"
+"有效的聚合引用"
+
+"Valid order_by references"
+"有效的分類引用"
+
+"Valid dashboard filters references"
+"有效的資訊看板篩選引用"
+
+"Valid dimension references"
+"有效的維度引用"
+
+"Valid card dimension references"
+"有效的卡片維度引用"
+
+"Error parsing %s:n%s"
+"錯誤解析%s:n%s"
+
+"No user found with email address ''{0}''. "
+"用信箱地址沒有找到使用者''{0}''"
+
+"Please check the spelling and try again."
+"請檢查拼寫並再試一遍"
+
+"Resetting password for {0}..."
+"為{0}重設密碼"
+
+"OK [[[{0}]]]"
+"成功 [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"失敗 [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"請使用下欄位URL來設定您的Metabase安裝程式:"
+
+"Metabase Shutting Down ..."
+"Metabase正在關閉……"
+
+"Metabase Shutdown COMPLETE"
+"Metabase關閉完成"
+
+"Starting Metabase version {0} ..."
+"開始Metabase 版本{0}……"
+
+"System timezone is ''{0}'' ..."
+"系統時區是''{0}''"
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Metabse資料庫設定、遷移中。坐穩了，這個可能要花一分鐘……"
+
+"Looks like this is a new installation ... preparing setup wizard"
+"看起來這是一個新的安裝過程……正在準備安裝嚮導"
+
+"Metabase Initialization COMPLETE"
+"Metabase初始化完成"
+
+"Launching Embedded Jetty Webserver with config:"
+"用配置啟動嵌入式Jetty Webserver"
+
+"Shutting Down Embedded Jetty Webserver"
+"關閉嵌入式Jetty We伺服器"
+
+"Starting Metabase in STANDALONE mode"
+"在離線模式下啟動Metabase"
+
+"Metabase Initialization FAILED"
+"Metabase初始化失敗"
+
+"Database has migration lock; cannot run migrations."
+"資料庫有遷移鎖；無法執行遷移"
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"您可以通過執行'java -jar metabase.jar migrate release-locks'來強制釋放這些鎖。"
+
+"Checking if Database has unrun migrations..."
+"檢查資料庫是否有未執行的遷移..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"資料庫有未執行的遷移。等待遷移鎖定被清除…"
+
+"Migration lock is cleared. Running migrations..."
+"清除遷移鎖。執行遷移…"
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"遷移鎖清除了，但這裡沒什麼可做的！遷移是由另一個實例完成的。"
+
+"Setting up Liquibase..."
+"Liquibase設定"
+
+"Liquibase is ready."
+"Liquibase已經準備好了"
+
+"Verifying {0} Database Connection ..."
+"{0}資料庫連接認證中"
+
+"Verify Database Connection ... "
+"認證資料庫連接……"
+
+"Running Database Migrations..."
+"正在執行資料庫遷移…"
+
+"Database Migrations Current ... "
+"資料庫遷移當前…"
+
+"Hmm, we couldn''t connect to the database."
+"嗯……我們不能連接到資料庫。"
+
+"Make sure your host and port settings are correct"
+"確保您的伺服器和埠設定正確"
+
+"We couldn''t connect to the ssh tunnel host."
+"我們不能連接到SSH通道伺服器。"
+
+"Check the username, password."
+"檢查使用者名稱、密碼。"
+
+"Check the hostname and port."
+"檢查伺服器名和埠。"
+
+"Looks like the database name is incorrect."
+"看起來資料庫名稱不正確。"
+
+"It looks like your host is invalid."
+"看起來您的伺服器不可用。"
+
+"Please double-check it and try again."
+"請再次確認並且重試一遍。"
+
+"Looks like your password is incorrect."
+"看起來您的密碼不正確。"
+
+"Looks like you forgot to enter your password."
+"看起來您忘了輸入密碼。"
+
+"Looks like your username is incorrect."
+"看起來您的使用者名稱不正確。"
+
+"Looks like the username or password is incorrect."
+"看起來使用者名稱或者密碼不正確。"
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"執行查詢時使用的連接時區。預設為系統時區"
+
+"Registered driver {0} {1}"
+"已註冊的驅動器 {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"對於''{0}''沒找到“init-driver”函數"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"資料庫引擎“{ 1 }”無法解析日期字串“{ 0 }”"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"不知道如何將類“{ 0 }”映射到欄位BaseType類型，落回到：type/*"
+
+"Failed to connect to database: {0}"
+"連接到資料庫失敗:{0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"無效的 BigQuery 標識符：''{0}''"
+
+"BigQuery statements can't be parameterized!"
+"BigQuery 語句不能參數化！"
+
+"Failed to set timezone:"
+"設定時區失敗:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"禁止使用預設使用者（admin）對 H2 資料庫執行 SQL 查詢。"
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"錯誤： metabase.driver.FixedHiveDriver 已經註冊，但是 JDBC 好像無法使用"
+
+"Found metabase.driver.FixedHiveDriver."
+"發現 metabase.driver.FixedHiveDriver."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"成功用JDBC註冊Metabse.驅動.修復的Hive驅動"
+
+"Email address you want to use as the sender of Metabase."
+"您想要使用的作為Metabse發送者的信箱地址"
+
+"The address of the SMTP server that handles your emails."
+"SMTP伺服器地址處理您的信箱。"
+
+"SMTP username."
+"SMTP使用者名稱"
+
+"SMTP password."
+"SMTP密碼"
+
+"The port your SMTP server uses for outgoing emails."
+"您的SMTP服務發送郵件使用的埠"
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"SMTP安全連接協議（tls，sll，starttls，或者沒有）"
+
+"none"
+"沒有"
+
+"SMTP host is not set."
+"SMTP伺服器未設定。"
+
+"Failed to send email"
+"發送郵件失敗"
+
+"Error testing SMTP connection"
+"測試SMTP連接錯誤"
+
+"Enable LDAP authentication."
+"啟用LDAP身份驗證。"
+
+"Server hostname."
+"伺服器主機名"
+
+"Server port, usually 389 or 636 if SSL is used."
+"伺服器埠，通常使用389或者636如果SSL被使用的話。"
+
+"Use SSL, TLS or plain text."
+"使用SSL、TLS或純文本"
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"要綁定的可分辨名稱（如果有的話），該使用者將被用來搜尋有關其他使用者的訊息。"
+
+"The password to bind with for the lookup user."
+"搜尋使用者綁定的密碼"
+
+"Search base for users. (Will be searched recursively)"
+"使用者搜索基礎.（將採用遞迴檢索）"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"使用者搜尋篩選器，占位符'{Login}'將被使用者提供的登入替換"
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"使用使用者的'mail'屬性。（通常是'mail', 'email' or 'userPrincipalName'）"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"使用使用者的'last name'屬性（通常是‘givenName’）"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"使用使用者的'first name'屬性（通常是‘SN’）"
+
+"Enable group membership synchronization with LDAP."
+"啟用團隊成員通過LDAP同步。"
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"如果您的LDAP目錄提供了“成員”的覆蓋，則不需要搜索組。（將遞迴檢索）"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON包含LDAP到Metabase 組映射"
+
+"Here''s what I can {0}:"
+"這裡是我能做的{0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"我不知道如何{0}`{1}`.n{2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"這是您的{0}張最新的卡片:n{1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"您能再具體一點嗎？我找到了這些名稱匹配{0}的卡片"
+
+"Not Found"
+"未找到"
+
+"Go home websocket, you're drunk."
+"回家吧 websocket，您喝醉了"
+
+"Base-64 encoded public key for this site's SSL certificate."
+"此站點的SSL證書公鑰（public key）需要通過Base-64加密"
+
+"Specify this to enable HTTP Public Key Pinning."
+"指定這個選項來打開HTTP Public Key Pinning"
+
+"See {0} for more information."
+"檢視{0}獲取更多訊息。"
+
+"Cannot save Question: source query has circular references."
+"不能儲存提問：源查詢擁有循環引用。"
+
+"Card {0} does not exist."
+"卡片{0}不存在"
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"您沒有權限來對資料庫{0}執行點對點原始查詢。"
+
+"Invalid color"
+"無效的顏色"
+
+"must be a valid 6-character hex color code"
+"必須是有效的6個字元的十六進位制顏色代碼"
+
+"Collection name cannot be blank!"
+"集合名字不能為空！"
+
+"cannot be blank"
+"不能是空白的"
+
+"Invalid Collection location: path is invalid."
+"集合位置無效：路徑無效。"
+
+"You cannot move a Personal Collection."
+"您無法移動個人集合。"
+
+"Invalid Collection location: some or all ancestors do not exist."
+"集合位置無效：部分或全部祖先不存在。"
+
+"You cannot archive the Root Collection."
+"您無法歸檔根集合。"
+
+"You cannot archive a Personal Collection."
+"您無法歸檔個人集合。"
+
+"You cannot move the Root Collection."
+"您無法移動根集合。"
+
+"You cannot move a Collection into itself or into one of its descendants."
+"您無法將一個集合移動到其自身或其後代中。"
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"將集合{0}及其後代從{1}移動到{2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"您無權更改個人集合的所有者。"
+
+"You're not allowed to move a Personal Collection."
+"您無權移動個人集合。"
+
+"You cannot move a Collection and archive it at the same time."
+"您無法同時移動集合併將其存檔。"
+
+"You cannot delete a Personal Collection!"
+"您無法刪除個人集合！"
+
+"{0} {1}''s Personal Collection"
+"{0} {1}的個人集合"
+
+"You cannot update a CollectionRevision!"
+"您無法更新集合修訂版！"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"欄位{0}之前自動設定顯示為一個欄位表組件，但是現在有{1}個值。"
+
+"Switching Field to use a search widget instead."
+"轉換領域來使用一個搜索組件。"
+
+"Storing updated FieldValues for Field {0}..."
+"儲存Field{0}更新過的FieldValues"
+
+"Storing FieldValues for Field {0}..."
+"儲存Field{0}的FieldValues"
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase 會嘗試將資料表名稱和表中欄位名稱轉換為適合閱讀的版本，例如：將somehorriblename轉換為 Some Horrible Name。"
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"然而，如果名字是用英語以外的語言命名的，這將不會工作的很好"
+
+"Do you want us to take a guess?"
+"您想讓我們猜一下嗎？"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"您無法為“管理員”組建立或撤消權限。"
+
+"Invalid permissions object path: ''{0}''."
+"不可用的許可對象路徑：''{0}''。"
+
+"You cannot update a permissions entry!"
+"您不能更新一個許可權限入口！"
+
+"Delete it and create a new one."
+"刪除它並且建立一個新的"
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"您無法編輯個人集合或其後代的權限。"
+
+"Looks like someone else edited the permissions and your data is out of date."
+"看起來別的什麼人編輯了許可，並且您的資料過期了。"
+
+"Please fetch new data and try again."
+"請獲取新的資料並且再次嘗試。"
+
+"A group with that name already exists."
+"組名稱已存在"
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"您不能編輯或刪除''{0}''權限群組"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"您不能在MetaBot群組中新增或者移除成員。"
+
+"You cannot add or remove users to/from the 'All Users' group."
+"您不能在所有使用者群組中新增或者移除成員。"
+
+"You cannot remove the last member of the 'Admin' group!"
+"您不能移除最後一個管理員群組的成員。"
+
+"You cannot update a PermissionsRevision!"
+"您不能更新一個許可權限的修訂版本！"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"不可用警告:警示沒有一個與它相關聯的卡片。"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"值必須是包含鍵`{0}`,`{1}`和`{2}`的map"
+
+"value must be a map with the following keys `({0})`"
+"值必須是帶有以下鍵的映射 `({0})`"
+
+"Error calculating permissions for query: {0}"
+"錯誤的查詢計算許可:{0}"
+
+"Invalid query type: {0}"
+"不可用的請求類型：{0}"
+
+"You cannot update a QueryExecution!"
+"您不能更新一個查詢執行方案！"
+
+"You cannot update a Revision!"
+"您不能更新一個修訂版本！"
+
+"Updating value of settings-last-updated in DB..."
+"將最新設定內容更新到資料庫中..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"查詢設定快取是否過期中（需要資料庫連接）"
+
+"Settings have been changed on another instance, and will be reloaded here."
+"設定已在另一個實例上更改，並將在此處重新載入。"
+
+"Refreshing Settings cache..."
+"刷新設定快取中……"
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"無效的值：內容必須為“true”或“false”（不區分大小寫）。"
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"您不能自己更新`settings-last-updated`！這是自動完成的。"
+
+"Error inserting a new Setting:"
+"插入一項新設定時錯誤:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"如果在資料庫中已經存在設定則更新存在的值"
+
+"value must be a map with each value either a string or number."
+"值必須是每一個數字或字串的映射值"
+
+"Loading plugins in directory {0}..."
+"在字典{0}中讀取插件……"
+
+"Loading plugin {0}... "
+"載入插件{0}……"
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"您的Metabase插件目錄中應該有一些外部依賴項。"
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"對於Java 9或更高版本，Metabase無法自動將它們新增到類路徑中。"
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"相反，您應該在啟動時使用-cp選項。 例如："
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"檢視更多細節： https://metabase.com/docs/latest/operations-guide/start.html#java-versions"
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"（如果您已經用這個方法執行了Metabse，您可以忽略這條訊息）"
+
+"Identify when new versions of Metabase are available."
+"確定新版本的Metabase何時可用。"
+
+"Information about available versions of Metabase."
+"關於Metabase可用版本的訊息"
+
+"The name used for this instance of Metabase."
+"用於此Metabase實例的名稱。"
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"此Metabase實例的基本URL，例如“http://metabase.my-company.com”。"
+
+"The default language for this Metabase instance."
+"這個Metabse實例的預設語言"
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"這個只應用於信箱、趨勢及其他。使用者的瀏覽器將指定在使用者界面中使用的語言"
+
+"The email address users should be referred to if they encounter a problem."
+"如果碰到問題，可以使用使用者的郵件地址"
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"啟用匿名使用資料的收集，以幫助改進Metabase。"
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"採用可視化地圖的過程中，要使用地圖伺服器的url模板，例如使用OpenStreetMaps or MapBox"
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"啟用管理員來為提問和資訊看板建立公開的可瀏覽連結（並且可嵌入的iframes框架）嗎？"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"允許管理員在其他應用程式中安全地嵌入報表和資訊看板?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"能夠使用快取儲存需要長時間執行的查詢結果集"
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"快取最大值，"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"保留任何快取查詢結果的絕對最長時間（以秒為單位）。"
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase會捕捉所有平均查詢時間大於這麼多秒的已儲存問題"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"為了確定每一個saved Question的快取結果應該持續多長時間，我們用查詢的平均執行時間乘以您輸入的數值。"
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"如果一個查詢平均要花了2分鐘，同時您輸入了10作為放大因子，那麼這個快取入口將持續20分鐘"
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"當使用預設的封裝（打包）策略是，如果沒有提供封裝（打包）的數量，該數字將用作預設值"
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"當使用坐標類型（例如經度和經度）欄位的預設封裝（打包）策略時，該編號將用作預設的封裝（打包）步長（以度為單位）"
+
+"Unable to validate token."
+"無法驗證令牌。"
+
+"Error fetching token status:"
+"獲取令牌狀態時出錯:"
+
+"There was an error checking whether this token was valid."
+"檢查token是否有效時報錯"
+
+"Token validation timed out."
+"令牌驗證逾時"
+
+"Invalid token: token isn't in the right format."
+"令牌無效：令牌格式不正確。"
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"檢查MetaStore確認 {0} 是否有效..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"請前往MetaStore獲取您的高級嵌入令牌。"
+
+"Token is valid."
+"有效令牌."
+
+"Error setting premium embedding token"
+"設定高級嵌入令牌時出錯"
+
+"Unable to compare results to goal for alert."
+"無法將結果與警示目標進行比較"
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"提問ID是''{0}''，可視化設定是“{1}”"
+
+"Unrecognized alert with condition ''{0}''"
+"無法識別帶有條件{0}的警示"
+
+"Unrecognized channel type {0}"
+"無法識別的頻道類型(0)"
+
+"Error sending notification!"
+"發送提醒錯誤！"
+
+"Can't find JS color selector at ''{0}''"
+"在''{0}''中找不到JS顏色選擇項"
+
+"Card has errors: {0}"
+"卡片存在錯誤:{0}"
+
+"Pulse card render error"
+"推送卡片顯示錯誤"
+
+"Trimming trailing comment from card with id {0}"
+"從id{0}的卡片末尾去除注釋"
+
+"Can't find field with ID: {0}"
+"無法找到ID: {0}欄位"
+
+"''{0}'' is a required param."
+"''{0}'' 是必要的參數"
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"在查詢''{2}''中找到沒有結束''{1}''的''{0}''"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"無法替換''{0}''：參數未指定。n未找到：{1}"
+
+"You do not have permissions to view Card {0}."
+"沒有檢視報表{0}的權限"
+
+"You do not have permissions to run this query."
+"沒有執行查詢的權限"
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"浮水印更新嘗試 {0}, 更新 {1}, 無資料{2}, 失敗 {3}"
+
+"Total number of fields classified {0}, {1} failed"
+"共分類了{0}個欄位，{1}個失敗"
+
+"Total number of tables classified {0}, {1} updated"
+"表數目分類 {0}, {1} 更新"
+
+"Error generating fingerprint for {0}"
+"{0}生成浮水印錯誤"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"更新{0}領域值集合，建立了{1}，刪除了{2}和{3}錯誤"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"共同步欄位{0}個，更新欄位{1}個"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"共同步表{0}個，更新表{1}個"
+
+"Found timezone id {0}"
+"發現時區id{0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"共同步外鍵{0}個，{1}個更新，{2}個表更新失敗"
+
+"{0} Database {1} ''{2}''"
+"{0}資料庫{1}“{2}”"
+
+"Table {0} ''{1}''"
+"表單{0}“{1}”"
+
+"Field {0} ''{1}''"
+"欄位 {0} ''{1}''"
+
+"Field ''{0}''"
+"欄位 ''{0}''"
+
+"step ''{0}'' for {1}"
+"為{1}執行步驟''{0}''"
+
+"Completed {0} on {1}"
+"完成 {0} on {1}"
+
+"Start: {0}"
+"開始:{0}"
+
+"End: {0}"
+"結束:{0}"
+
+"Duration: {0}"
+"進行中: {0}"
+
+"Completed step ''{0}''"
+"完成步驟''{0}''"
+
+"Loading tasks namespace:"
+"載入任務命名空間"
+
+"Starting Quartz Scheduler"
+"啟動Quartz調度"
+
+"Stopping Quartz Scheduler"
+"停止Quartz調度"
+
+"Job already exists:"
+"job已存在"
+
+"Loading Metabase..."
+"正在載入Metabase……"
+
+"Possible timezone conflict found on database {0}."
+"資料庫時區衝突"
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"jvm域資料庫時區不一致"
+
+"Configure a report timezone to ensure proper date and time conversions."
+"正確配置報表的日期格式"
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"用於簽署發起`/api/embed`請求的JSON Web令牌的金鑰"
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEY至少要16個字元"
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"已存儲的證書加密方式已經為這個Metabase事例啟用"
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"已存儲的證書加密方式已經為這個Metabase事例禁用"
+
+"nFor more information, see"
+"瀏覽更多訊息，參閱"
+
+"value must be an integer."
+"值必須是一個整數"
+
+"value must be a string."
+"值必須是字串"
+
+"value must be a boolean."
+"值必須是布爾值"
+
+"value must be a string that matches the regex `{0}`."
+"值必須是與正則表達式''{0}''匹配的字串。"
+
+"value must satisfy one of the following requirements: "
+"值必須滿足下欄位一個要求:"
+
+"value may be nil, or if non-nil, {0}"
+"值可以為空，如果不為空，則{0}"
+
+"value must be one of: {0}."
+"值必須是{0}其中之一。"
+
+"value must be an array."
+"值必須是一個數組。"
+
+"Each {0}"
+"遍歷 {0}"
+
+"The array cannot be empty."
+"數組不能為空。"
+
+"value must be a non-blank string."
+"值必須是非空字串。"
+
+"Integer greater than zero"
+"大於0的整數"
+
+"value must be an integer greater than zero."
+"值必須是一個大於0的整數。"
+
+"Number greater than zero"
+"大於0的數字"
+
+"value must be a number greater than zero."
+"值必須是一個大於0的數字"
+
+"Keyword or string"
+"關鍵字或字串"
+
+"Valid field type"
+"有效的欄位類型"
+
+"value must be a valid field type."
+"必須是有效的欄位類型"
+
+"Valid field type (keyword or string)"
+"有效的欄位類型(關鍵字或字串)"
+
+"value must be a valid field type (keyword or string)."
+"值必須有效的欄位類型(關鍵字或字串)"
+
+"Valid entity type (keyword or string)"
+"有效的實體類型（關鍵字或者字串）"
+
+"value must be a valid entity type (keyword or string)."
+"值必須是有效的實體類型（關鍵字或者字串）"
+
+"Valid map"
+"有效的地圖"
+
+"value must be a map."
+"必須是MAP"
+
+"Valid email address"
+"有效的信箱地址"
+
+"value must be a valid email address."
+"值必須是有效的信箱地址"
+
+"Insufficient password strength"
+"密碼長度不足"
+
+"value must be a valid integer."
+"值必須是個有效的整數。"
+
+"value must be a valid integer greater than zero."
+"值必須是個有效的大於0的整數。"
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"必須是布爾值（“true”或者“false”）"
+
+"value must be a valid JSON string."
+"值必須是個有效的JSON字串。"
+
+"value must be a valid embedding params map."
+"值必須是個有效的嵌入地圖的參數。"
+
+"No results"
+"沒有結果"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"移動{0}中不在集合{1}到集合{2}中的實例"
+
+"Failed to grant permissions: {0}"
+"無法獲取權限：{0}"
+
+"Host"
+"主機"
+
+"Port"
+"埠"
+
+"Database username"
+"資料庫使用者名稱"
+
+"Database password"
+"資料庫密碼"
+
+"Database name"
+"資料庫名稱"
+
+"birds_of_the_world"
+"birds_of_the_world"
+
+"Additional JDBC connection string options"
+"額外的JDBC連接字串選項"
+
+"praxis-beacon-120871"
+"praxis-beacon-120871"
+
+"toucanSightings"
+"toucanSightings"
+
+"Hosts"
+"域名"
+
+"Broker node port"
+"代理節點埠"
+
+"Google Analytics Account ID"
+"Google Analytics 帳戶ID"
+
+"Connection String"
+"連接字串"
+
+"Users/camsaul/bird_sightings/toucans"
+"Users/camsaul/bird_sightings/toucans"
+
+"carrierPigeonDeliveries"
+"carrierPigeonDeliveries"
+
+"Authentication Database"
+"認證資料庫"
+
+"Optional database to use when authenticating"
+"認證時使用的可選資料庫"
+
+"Additional Mongo connection string options"
+"附加的Mongo連接字串選項"
+
+"Oracle system ID (SID)"
+"Oracle系統ID(SID)"
+
+"Usually something like ORCL or XE."
+"通常是ORCL或XE之類的"
+
+"Optional if using service name"
+"如果使用服務名稱，可選"
+
+"Oracle service name"
+"Oracle服務名稱"
+
+"Optional TNS alias"
+"可選的TNS別名"
+
+"hive"
+"hive資料倉庫"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"預設"
+
+"Filename"
+"檔案名"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite"
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"資料庫實例名"
+
+"N/A"
+"不適用"
+
+"Windows domain"
+"Windows域名"
+
+"Unable to release the Liquibase lock after a migration failure"
+"遷移失敗後無法釋放Liquibase鎖"
+
+"Use JVM Time Zone"
+"使用Java虛擬機時區"
+
+"Not a valid integer: ''{0}''"
+"無效的整數：''{0}''"
+
+"Embedding is not enabled for this object."
+"這個對象的嵌入功能沒有啟用。"
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"連接LDAP服務發生錯誤，將使用本地認證：{0}"
+
+"When including an offset, a limit must also be included."
+"When including an offset, a limit must also be included."
+
+"When including a limit, an offset must also be included."
+"When including a limit, an offset must also be included."
+
+"Applying heuristic {0} to {1}."
+"Applying heuristic {0} to {1}."
+
+"Dimensions bindings:n{0}"
+"Dimensions bindings:n{0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"使用定義：nMetrics:n{0}nFilters:n{1}"
+
+"minute"
+"分"
+
+"hour"
+"小時"
+
+"day of week"
+"一週中的天"
+
+"day of month"
+"一個月中的天"
+
+"day of year"
+"一年中的天"
+
+"week"
+"周"
+
+"month"
+"月"
+
+"quarter"
+"季度"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"新增 {0} 卡片到資訊看板 {1}:n{2}"
+
+"Error parsing {0}:n{1}"
+"解析錯誤 {0}:n{1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"警告：過濾只在欄位上有效! \"{0}\"是一個量值。忽略過濾"
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"警告：日期不能屬於多個離散間隔，因此將它們組合（AND）在一起沒有意義。"
+
+"Ignoring these intervals: {0}"
+"忽略這些間隔：{0}"
+
+"WARNING: Don't know how to negate: {0}"
+"WARNING: Don't know how to negate: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"警告：Druid在時間序欄位查詢中不允許使用limitSpec。 忽略LIMIT子句。"
+
+"HoneySQL Form:"
+"HoneySQL 表單:"
+
+"Unable to parse date ''{0}''"
+"不能解析日期\"{0}\""
+
+"Client closed connection, cancelling query"
+"使用者端關閉了連接，正在取消查詢"
+
+"Setting timezone with statement: {0}"
+"使用語句設定時區： {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"MONGO AGGREGATION PIPELINE:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"Unable to create temp file in `{0}` for email attachments"
+
+"Error preprocessing query:"
+"預處理查詢時出錯："
+
+"Illegal filter clause: {0}"
+"非法的過濾條件：{0}"
+
+"Invalid clause:"
+"無效的語句:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+
+"No expression named ''{0}''"
+"No expression named ''{0}''"
+
+"No aggregation at index: {0}"
+"No aggregation at index: {0}"
+
+"Field values total length is {0} (max {1})."
+"欄位總長度為 {0} (最大值為 {1})."
+
+"FieldValues are allowed for this Field."
+"FieldValues are allowed for this Field."
+
+"FieldValues are NOT allowed for this Field."
+"FieldValues are NOT allowed for this Field."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"欄位{0}''{1}''應具有欄位值，並且屬於具有按需欄位值更新的資料庫。"
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"您不能為“管理員（Admin）”群組建立或撤銷權限"
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"您不能新增或移除‘All Users'組的成員"
+
+"You cannot remove the last member of the ''Admin'' group!"
+"您不能移除‘Admin’組的最後一個成員"
+
+"Error inserting a new Setting: {0}"
+"插入新設定時出錯： {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"defsetting敘述字串必須是`：internal？`或internationalized，found：`{0}`"
+
+"Loading plugin {0}... {1}"
+"載入插件 {0}...{1}"
+
+"Object keyed by type, containing formatting settings"
+"按類型鍵入的對象包含格式設定"
+
+"Allow users to explore data using X-rays"
+"允許使用者使用X-rays探索資料"
+
+"Unable to validate token: 404 not found."
+"不能驗證token：404 not found"
+
+"There was an error checking whether this token was valid:"
+"檢查此令牌是否有效時出錯："
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"令牌（Token）為進階功能。 轉到MetaStore來獲取您的令牌！"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"令牌格式無效。 令牌應為64個十六進位制字元。"
+
+"Error setting premium features token"
+"設定進階功能-令牌時出錯"
+
+"Error validating token:"
+"驗證令牌時出錯："
+
+"Error preprocessing query"
+"預處理查詢時出錯"
+
+"No native form returned."
+"沒有返回原生表格。"
+
+"Invalid response from database driver. No :status provided."
+"資料庫驅動程序的響應無效。 無 :status 提供。"
+
+"General error"
+"一般錯誤"
+
+"Missing query hash!"
+"缺少查詢哈希！"
+
+"Table ''{0}'' has no Fields associated with it."
+"表 ''{0}'' 和它沒有任何關聯欄位."
+
+"Max concurrent query limit reached"
+"達到最大並發查詢限制"
+
+"Don't know how to get information about Field:"
+"不知道如何獲取有關這個欄位的訊息："
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface/*driver* 未綁定."
+
+"Query processor error: mismatched number of columns in query and results."
+"查詢處理器錯誤：查詢和結果中的欄位數不匹配。"
+
+"Expected {0} fields, got {1}"
+"預期 {0} 個欄位，取得 {1} 個"
+
+"Expected: {0}"
+"預期： {0}"
+
+"Actual: {0}"
+"實際： {0}"
+
+"Unable to bin Field without a min/max value"
+"因缺少最大/最小值, 無法對該欄位進行切分."
+
+"{0} is not supported by this driver."
+"不支持{0}驅動程序"
+
+"Segment {0} does not exist, or is invalid."
+"劃分 {0} 無效或不存在."
+
+"Metric {0} does not exist, or is invalid."
+"量值 {0} 不存在或無效."
+
+"Missing source query in Card {0}"
+"卡片中缺少源查詢 {0}"
+
+"Fetched source query from Card {0}:"
+"從卡片 {0} 中獲取源查詢:"
+
+"Error transforming MBQL query to native:"
+"將MBQL查詢轉為本地時出錯："
+
+"Cannot run query: could not find source table {0}."
+"無法執行查詢：找不到源表 {0} 。"
+
+"Error recording results metadata for query:"
+"記錄查詢結果後設資料時出錯："
+
+"Error: Query Processor store is not initialized."
+"錯誤：未初始化查詢處理器存儲。"
+
+"Error: Table {0} is not present in the Query Processor Store."
+"錯誤：查詢處理器存儲中不存在表{0}。"
+
+"Error: Field {0} is not present in the Query Processor Store."
+"錯誤：查詢處理器存儲中不存在欄位{0}。"
+
+"Task history cleanup successful, rows were {0}deleted"
+"任務歷史清理完畢, 記錄刪除 {0}"
+
+"not"
+"不"
+
+"For more information, see"
+"檢視更多訊息，看"
+
+"Integer greater than or equal to zero"
+"大於等於0的整數"
+
+"value must be an integer greater than or equal to zero."
+"值必須是一個大於等於0的整數"
+
+"value must be an integer zero or greater."
+"值必須是一個大於等於0的整數"
+
+"value must be a valid integer greater than or equal to zero."
+"值必須是一個大於等於0的有效整數"
+
+"Unable to parse resource `{0}` as JSON"
+"無法將資源`{0}`解析為JSON格式"
+
+"Unable to find JSON via relative path `{0}`"
+"找不到JSON `{0}`"
+
+"Connection to host timed out for URL `{0}`"
+"建立連接至主機逾時：`{0}`"
+
+"Unable to connect to unknown host at URL `{0}`"
+"無法連接到未知主機：`{0}`"
+
+"Unable to connect to host at URL `{0}`"
+"無法連接至主機：`{0}`"
+
+"Connection refused by host at for URL `{0}`"
+"連接被主機拒絕：`{0}`"
+
+"Unable to retrieve resource at URL `{0}`"
+"無法獲取資源：`{0}`"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"無法將對應資源轉換為JSON格式：`{0}`"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"無法連接到配置的LDAP伺服器，改為使用本地鑒權：{0}"
+
+"BigQuery statements can''t be parameterized!"
+"BigQuery語句無法被參數化！"
+
+"We’d love your feedback."
+"我們需要您的回饋。"
+
+"It looks like Metabase wasn’t quite a match for you."
+"看起來似乎Metabase不是很適合您使用。"
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"為了幫助Metabase團隊改進產品，請參與完成包含5個簡單問題的調查，謝謝。"
+
+"We hope you''ve been enjoying Metabase."
+"我們希望您能對Metabase滿意。"
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"您是否願意幫助我們來快速填寫一個有著6個問題的調查問卷？"
+
+"{0} created a Metabase account"
+"{0}建立了一個Metabase帳號"
+
+"{0} accepted their Metabase invite"
+"{0}接受了Metabase的邀請"
+
+"[Metabase] Password Reset Request"
+"[Metabase] 重設密碼請求"
+
+"[Metabase] Notification"
+"[Metabase] 通知"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] 幫助Metabase變得更好"
+
+"[Metabase] Tell us how things are going."
+"[Metabase] 使用回饋"
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"錯誤：查詢語句無法解析，請先驗證查詢語句的正確性。"
+
+"Don't know what to do with:"
+"不知道要做什麼:"
+
+"Don't know how to wrap:"
+"不知道怎麼包裝："
+
+"Failed setting `query-caching-max-kb` to {0}."
+"設定參數query-caching-max-kb為{0}失敗。"
+
+"Values greater than {1} are not allowed."
+"不允許設定大於{1}的值。"
+
+"Database {0} does not exist."
+"資料庫 {0} 不存在。"
+
+"Error: Database is not present in the Query Processor Store."
+"錯誤：資料庫在查詢處理倉庫中不存在。"
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"錯誤的內建金鑰！金鑰必須為長度為256個比特的16進位制編碼的字串（比如，64個字元的字串）。"
+
+"JWT is missing `alg`."
+"JWT 確少 `alg`"
+
+"JWT `alg` cannot be `none`."
+"JWT的`alg`不能為`none`"
+
+"The embedding secret key has not been set."
+"內建金鑰沒有被設定。"
+
+"Token is missing value for keypath"
+"令牌（Token）的keypath的值缺失。"
+
+"Previous {0}"
+"上一頁{0}"
+
+"value must be a valid database engine."
+"數值必須是有效的資料庫引擎"
+
+"Connection refused by host for URL `{0}`"
+"連接被主機拒絕: `{0}`"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"警告：建議不要將Metabase與H2應用程式資料庫一起用於生產部署。"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"有關詳細訊息，請參閱https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres。"
+
+"Unable to connect to Metabase {0} DB."
+" 不能連接到 Metabase {0} 資料庫。"
+
+"Failed to notify {0} Database {1} updated"
+"每個[[GenericCategoryLarge]]的事件"
+
+"Loading driver {0} {1}"
+"正在載入驅動 {0} {1}"
+
+"Load driver {0}"
+"載入驅動{0}"
+
+"Driver not registered after loading: {0}"
+"繼續仔細看看每個國家的[[this]]"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"按產品銷售[[ProductCategory]]"
+
+"Registered abstract driver {0}"
+"[[this]]每[[GenericCategoryLarge]]，底部5"
+
+"Registered driver {0}"
+"已註冊的驅動程序 {0}"
+
+"(parents: {0})"
+"(父節點: {0})"
+
+"Initializing driver {0}..."
+"初始化驅動 {0}…"
+
+"Reason:"
+"原因: "
+
+"Invalid driver feature: {0}"
+"[[this.short-name]]在過去30天內新增"
+
+"Invalid HoneySQL form:"
+"無效的HoneySQL形式:"
+
+"Closing connection pool for database {0} ..."
+"每個國家/地區的[[GenericTable]]數量，以及每個國家/地區在不同類別中的表示方式。"
+
+"Error loading namespace"
+"載入命名空間失敗"
+
+"Starting events listener:"
+"開始監聽事件"
+
+"Unexpected error listening on events"
+"監聽事件時出現意外錯誤"
+
+"Error syncing Database {0}"
+"[[this]]每週的每一天"
+
+"Failed to process sync-database event."
+"[[this.short-name]]按[[Timestamp]]"
+
+"Bad nested-query-level: query does not have a source query"
+"[[GenericNumber]]按加入日期"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"加入[[this.short-name]]的幾個月"
+
+"Unable to normalize:"
+"上一頁{0} {1}"
+
+"Could not find matching Field ID for target:"
+"{0} {1}前"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"{0} {1}從現在開始"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabase不能使用plugins路徑下的{0}檔案"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"請確保該目錄存在，並且Metabase有權寫入該目錄。"
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"您可以透過設定環境變數MB_PLUGINS_DIR來更改Metabase用於模組的目錄。"
+
+"Falling back to a temporary directory for now."
+"暫時回到臨時目錄。"
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabase無法寫入臨時目錄。請將MB_PLUGINS_DIR設定為可寫目錄並重新啟動Metabase。"
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"Metabase 1.0+以上版本不再需要spark-deps.jar。您可以從plugins目錄中刪除它。"
+
+"Failied to initialize plugin {0}"
+"初始化插件 {0} 錯誤"
+
+"Loading plugins in {0}..."
+"正在載入 {0} 中的插件"
+
+"Using Clojure base loader as shared context classloader: {0}"
+"使用Clojure基礎載入程序作為共享上下文類載入器：{0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"{0}選擇"
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"將當前執行緒上下文類載入器設定為NEWLY CREATED類載入器{0} ..."
+
+"Added URL {0} to classpath"
+"將{0}新增到 classpath"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"插件{0}聲明了Metabase不理解的依賴項：{1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"有關有效插件依賴項的完整欄位表，請參閱插件清單引用："
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"由於所需的依賴性，Metabase無法初始化插件{0}。"
+
+"Class not found: {0}"
+"[Q]問"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"插件\"{0}\" 依賴\"{1}\""
+
+"{0} dependency {1} satisfied? {2}"
+"由{0}"
+
+"Plugins with unsatisfied deps: {0}"
+"無法通知{0}資料庫{1}已更新"
+
+"Extract file {0} -> {1}"
+"載入後未註冊的驅動程序：{0}"
+
+"Resource does not exist."
+"資源不存在"
+
+"Loading plugin namespace {0}..."
+"載入插件命名空間 {0}…"
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"錯誤：嘗試將{0}屬性`：abstract？`從{1}更改為{2}。"
+
+"Registering JDBC proxy driver for {0}..."
+"正在為 {0} 註冊JDBC代理伺服器..."
+
+"Deregistering original JDBC driver {0}..."
+"註冊抽象驅動程序{0}"
+
+"Default connection property {0} does not exist."
+"無效的驅動程式功能：{0}"
+
+"Invalid connection property {0}: not a string or map."
+"關閉資料庫{0}的連接池..."
+
+"Load lazy loading driver {0}"
+"同步資料庫{0}時出錯"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"無法初始化插件：缺少必需的‘driver-name’屬性"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"無法處理同步資料庫事件。"
+
+"Registering lazy loading driver {0}..."
+"錯誤的嵌套查詢級別：查詢沒有源查詢"
+
+"Error running query for Card {0}"
+"執行查詢發生錯誤"
+
+"Last week"
+"上週"
+
+"This week"
+"這週"
+
+"Last month"
+"上個月"
+
+"This month"
+"這個月"
+
+"Last quarter"
+"上季度"
+
+"This quarter"
+"本季度"
+
+"Last year"
+"去年"
+
+"This year"
+"今年"
+
+"*driver* is unbound."
+"*driver* 未綁定."
+
+"Error syncing Fields for Table ''{0}''"
+"同步表\"{0}\"欄位失敗"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"{0}的校驗值與當前存儲的相同, 跳過欄位同步"
+
+"Field"
+"欄位"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"我不知道如何`{0}`。"
+
+"Marking Field ''{0}'' as inactive."
+"將欄位 \"{0}\" 標記為不活躍的."
+
+"Error retiring {0}"
+"獲取 {0} 失敗"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"與此Slack事件關聯的Websocket與我們當前使用的websocket不同。"
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"欄位{0}的FieldValues保持不變。跳繩..."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"無法規範化："
+
+"Comment has been added for {0}."
+"為 {0} 新增注釋."
+
+"Stopping Quartz Scheduler {0}"
+"找不到匹配的目標欄位ID："
+
+"Starting Quartz Scheduler {0}"
+"Metabase無權寫入插件目錄{0}"
+
+"Error loading tasks namespace {0}"
+"將當前執行緒上下文類載入器設定為共享類載入器{0} ..."
+
+"Initializing task {0}"
+"初始化任務 {0}"
+
+"Error initializing task {0}"
+"初始化任務 {0} 異常"
+
+"Problem sending abandonment email"
+"發送放棄郵件的問題"
+
+"Sending anonymous usage stats."
+"發送匿名使用統計訊息"
+
+"Error sending anonymous usage stats"
+"發送匿名使用統計訊息失敗"
+
+"Error sending Pulse {0}"
+"發送定時任務報告失敗"
+
+"Sending scheduled pulses..."
+"正在發送定時任務報告..."
+
+"SendPulses task failed"
+"發送定時任務失敗"
+
+"Failed to scheduler tasks for Database {0}"
+"設定資料 {0} 的調度任務失敗"
+
+"Cleaning up task history"
+"正在清理任務歷史"
+
+"Task history cleanup successful, rows were deleted"
+"任務歷史清理完畢, 記錄已被刪除"
+
+"Task history cleanup successful, no rows were deleted"
+"任務歷史清理完畢, 無記錄被刪除"
+
+"Checking for new Metabase version info."
+"檢查Metabase新版本."
+
+"Error fetching version info"
+"獲取版本訊息失敗."
+
+"Maximum memory available to JVM: {0}"
+"JVM可用的最大記憶體量: {0}"
+
+"Not something with an ID: {0}"
+"將當前執行緒上下文類載入器設定為NEWLY CREATED類載入器{0} ..."
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"傳遞給API的卡片結果後設資料是ISSING。執行查詢以獲取正確的後設資料。"
+
+"{0} was autocorrected to {1}"
+"{0} 已經自動更正為 {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE /api/metric/:id 已棄用。取而代之，請以 PUT /api/metric/:id 修改其`archived`的取值。"
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE /api/segment/:id 已棄用。取而代之，請以 PUT /api/segment/:id 修改其`archived`的取值。"
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"is_superuser的值必須與group_ids中Admin組的ID相對應"
+
+"Unexpected error writing keepalive characters"
+"寫入持續連結字元時出現意外錯誤"
+
+"Unexpected output in async API response"
+"非同步API回應產生意外輸出"
+
+"starting streaming response"
+"開始串流回應"
+
+"Output chan closed, canceling keepalive request."
+"輸出通道關閉，取消持續連結請求"
+
+"Async response finished, closing channels."
+"非同步回應完成，關閉通道。"
+
+"No response after waiting {0}. Canceling request."
+"等待 {0} 之後無回應。取消請求"
+
+"Input channel unexpectedly closed."
+"輸入通道意外關閉。"
+
+"f finished, permit will be returned"
+"F完成後，將返回許可。"
+
+"request canceled, permit will be returned"
+"請求取消後，將返回許可。"
+
+"Unexpected error attempting to run function after obtaining permit"
+"獲得許可後嘗試執行函數時出現意外錯誤"
+
+"Not running pending function call: output channel already closed."
+"不能執行待處理函數調用：輸出通道已關閉。"
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"目前 {0} 執行緒已獲得許可，無法等待接受另一個請求"
+
+"Output channel closed, will skip running {0}."
+"輸出通道關閉, 將跳過執行 {0}."
+
+"Running {0} on separate thread..."
+"在單獨執行緒中執行 {0} …"
+
+"Caught error running {0}"
+"抓到錯誤執行 {0}"
+
+"Request canceled, canceling future"
+"請求已取消，未來請求取消中"
+
+"Closing old connection pool for database {0} ..."
+"關閉資料庫 {0} 的舊連接池..."
+
+"Here''s your {0} most recent cards:"
+"這是您的 {0} 最近卡片"
+
+"Card {0} not found."
+"卡片 {0} 未找到."
+
+"Exception in API call"
+"API調用異常"
+
+"Request canceled before finishing."
+"請求在完成之前取消。"
+
+"Metabase only supports JSON requests."
+"Metabase僅支持JSON請求"
+
+"Make sure you set a 'Content-Type: application/json' header."
+"確定您設定了一個'Content-Type：application / json' header。"
+
+"Setting Metabase site URL to {0}"
+"將Metabase的網站URL設定為{0}"
+
+"Error scheduling tasks for DB"
+"DB調度任務失敗"
+
+"Error unscheduling tasks for DB."
+"資料庫未安排任務出錯。"
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} 資料庫 ''{1}'' 同步/分析 排程已經變更"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"同步後設資料：''{0}'' 現在是： ''{1}''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"以下是[[this]]中人物的概述"
+
+"You cannot update the creator_id of a Metric."
+"您不能更新量值的建立者標識(creator_id)"
+
+"Failed to grant permissions"
+"授權失敗"
+
+"Changing permissions"
+"更改權限"
+
+"FROM:"
+"FROM:"
+
+"TO:"
+"TO:"
+
+"You cannot update the creator_id of a Segment."
+"您不能更新劃分的建立者標識(creator_id)"
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"嘗試變更設定{0}為不明確資料，忽略變更。"
+
+"Using value of env var {0}"
+"使用環境變數 {0}"
+
+"Adding User {0} to All Users permissions group..."
+"新增使用者{0}到所有使用者群組中..."
+
+"Adding User {0} to Admin permissions group..."
+"新增使用者{0}到所有管理者群組中..."
+
+"Query failure"
+"查詢失敗"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"每個已連接的資料庫允許的最大並發查詢數量。"
+
+"Timed out after {0} milliseconds."
+"{0} ms 後逾時."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"連接LDAP伺服器失敗, 將使用本地認證."
+
+"Cannot create Database: cannot find driver {0}."
+"無法建立資料庫: 找不到驅動程式 {0}."
+
+"Query failed"
+"查詢失敗"
+
+"Warning: {0} returned `nil`"
+"警告：{0} 回傳`nil`"
+
+"Unexpected error writing result to output channel: already closed"
+"將結果寫入輸出通道時出現意外錯誤：已關閉"
+
+"Unexpected error writing exception to output channel: already closed"
+"將異常寫入輸出通道時出現意外錯誤：已關閉"
+
+"Request canceled, canceling future."
+"請求已取消，以後將會取消。"
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase只能將資料從H2傳輸到Postgres或MySQL / MariaDB。"
+
+"Application database setup"
+"分析資料庫設定"
+
+"Could not find {0} driver."
+"找不到驅動程序 {0}。"
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"抽象驅動程式無法從具體的父驅動程式衍生。"
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"您可能需要將參數'trustServerCertificate = true'新增到其他連接選項以連接SSL"
+
+"Don't know how to alias {0}, expected an Identifer."
+"無法得知如何產生別名{0}，需要一個識別子。"
+
+"Client closed connection, canceling query"
+"使用者端關閉連接，取消查詢"
+
+"{0} is not a valid DN."
+"{0} 不是一個有效的 DN"
+
+"Error logging API request"
+"錯誤的日誌API請求"
+
+"Failed to set site-url"
+"設定網站URL失敗"
+
+"Error destroying thread pool for DB."
+"銷毀資料庫執行緒池時出錯。"
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"更新{0}''{1}''的顯示名稱：''{2}'' - >''{3}''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"無效的人性化策略''{0}''。 有效的策略是：{1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"更改資料表和欄位名稱以人性化策略從''{0}''更改為''{1}''"
+
+"Error saving task history"
+"儲存任務歷史失敗"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"0.32.0 及以上版本的Metabase不再需要spark-deps.jar了. 您可以從插件目錄中刪除它."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"使用NEWLY CREATED 類別載入器作為共享上下文類別載入器：{0}"
+
+"Failed to copy file"
+"複製檔案失敗"
+
+"Invalid site URL: {0}"
+"無效的網站URL: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"網站的URL無效; 現在返回空值。 下次請求時將被重設。"
+
+"More results have been included as a file attachment"
+"更多的結果被放在附件中"
+
+"This question has been included as a file attachment"
+"這個問題包含在附件中"
+
+"We were unable to display this Pulse."
+"我們無法展示這個排程任務"
+
+"Please view this card in Metabase."
+"請在metabase中檢視這個卡片"
+
+"An error occurred while displaying this card."
+"展示卡片發生錯誤"
+
+"Can only determine expected columns for MBQL queries."
+"只能確定以MBQL方式查詢的預期資料欄位。"
+
+"No columns returned."
+"沒有欄位返回。"
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"警告：無法確立一個明確的`source-query`（資料來源後設資料）欄位，除非您也包含`source-metadata`（資料來源後設資料）。"
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"無法解析 {0}：欄位不存在，或者屬於另一個資料庫"
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"以下是對每個國家[[this]]的詳細介紹"
+
+"Cannot find Table ID for {0}"
+"找不到{0}的表ID"
+
+"No matching info found."
+"未找到匹配的值。"
+
+"Could not resolve {0}"
+"無法解析 {0}"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"陳述句中無效的外鍵：無法新增相對應的連接。"
+
+"{0} driver does not support foreign keys."
+"{0}驅動程式無支援外鍵功能"
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"在沒有資料來源後設資料的情況下，無法使用原生資料查詢推斷資料來源後設資料。"
+
+"Query processor error: number of columns returned by driver does not match results."
+"查詢處理器錯誤：驅動程式返回的欄位與結果不匹配。"
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"預期有{0}欄位，但結果集所見是{1}欄位。"
+
+"No expression named {0} found. Found: {1}"
+"無表達式{0}被發現。發現：{1}"
+
+"Distinct values of {0}"
+"{0}的唯一值"
+
+"Average of {0}"
+"{0}的平均值"
+
+"Sum of {0}"
+"{0}的總和"
+
+"SD of {0}"
+"{0}的標準差"
+
+"Min of {0}"
+"{0}的最小值"
+
+"Max of {0}"
+"{0}的最大值"
+
+"Sum of {0} matching condition"
+"{0}符合條件的總和"
+
+"Share of rows matching condition"
+"共享符合條件行數"
+
+"Count of rows matching condition"
+"符合條件的行數"
+
+"Request already canceled, will not run synchronous QP code."
+"請求已經取消，無法執行同步QP code。"
+
+"Unexpectedly got `nil` Query Processor response."
+"意外地得到了`nil`的查詢處理器響應。"
+
+"Got InterruptedException. Canceling query."
+"發生中斷異常，正在取消查詢。"
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"未處理的異常，期望“catch-exceptions”中間件來處理它。"
+
+"Query timed out after %s"
+"查詢在%s秒後逾時"
+
+"Creating new query thread pool for Database {0}"
+"為{0}資料庫建立新查詢執行緒池"
+
+"Destroying query thread pool for Database {0}"
+"正在清理資料庫 {0} 的查詢執行緒池"
+
+"Request canceled, canceling pending query"
+"請求取消, 正在取消等待中的查詢"
+
+"Cannot update binned field: query is missing source-metadata"
+"無法更新分組欄位: 查詢缺少來源欄位的後設資料"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"等待{0}後沒有響應。取消請求。"
+
+"Using query processor cache backend: {0}"
+"當前執行緒已經擁有{0}的許可，不會等待獲取另一個"
+
+"Invalid metric: {0} reason: {1}"
+"無效量值: {0}, 原因: {1}"
+
+"Unknown error"
+"未知錯誤"
+
+"Unexpected nil response from query processor."
+"來自查詢處理器的意外零（空）響應。"
+
+"Query canceled"
+"查詢已取消"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"無法解析該查詢所使用的驅動程式: 缺少或無效的 `:database` 標識。"
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"無法解析該查詢所使用的驅動程式：資料庫 {0} 不存在。"
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"無法使用：資料欄位：所有使用來源查詢方式除非已有來源資料後設資料"
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"錯誤，連接欄位子句：連接別名{0}不存在。發現為''{1}''"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"無效的來源資料表後設資料''{0}''：目前解析為資料表ID"
+
+"Cannot store Tables or Fields before Database is stored."
+"在資料庫儲存之前無法儲存表或欄位。"
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"試圖獲取另一個資料庫的資料。 查詢只能引用一個資料庫。"
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"查詢資料表{0}失敗：資料表不存在，或者屬於另一個資料庫"
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"查詢欄位{0}失敗：欄位不存在，或者屬於另一個資料庫"
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"載入模板{0}失敗。您是否記得構建metabse的前端？"
+
+"Found new tables:"
+"發現新資料表"
+
+"Marking tables as inactive:"
+"標記資料表為非活躍狀態"
+
+"Updating description for tables:"
+"更新資料表的敘述"
+
+"Rescheduling job {0}"
+"重新調度任務"
+
+"Error rescheduling job"
+"重新調度任務發生錯誤"
+
+"Starting Pulse Execution: {0}"
+"報告任務開始執行"
+
+"Finished Pulse Execution: {0}"
+"報告任務執行結束"
+
+"Failed to schedule tasks for Database {0}"
+"資料庫任務調度失敗"
+
+"All elements must be distinct."
+"所有元素必須唯一"
+
+"Don't know how to alias {0}, expected an Identifier."
+"不知道如何重命名{0}，缺少標識"
+
+"Error adding User {0} to Group {1}"
+"新增使用者{0}到{1}群組失敗"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"更改資料表和欄位名稱策略從\"{0}\"到\"{1}\""
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"無限循環：遞迴查詢了{0}次了"
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"警告：如果您不提供`source-metadata`，無法決定哪個欄位執行`source-query`"
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"無法處理的異常,  希望`catch-exceptions`能夠處理它."
+
+"All"
+"全部"
+
+"An error occurred while running the query."
+"執行查詢時發生錯誤"
+
+"Output H2 database already exists: %s, removing."
+"導出H2資料庫已存在：％s，正在刪除。"
+
+"Don't need to migrate, just use the existing H2 file"
+"無需遷移，只使用現有的H2檔案"
+
+"Target DB is already populated!"
+"目標資料庫已準備完成!"
+
+"System info:n {0}"
+"系統訊息：n{0}"
+
+"Database setup"
+"資料庫設定"
+
+"Invalid '{{...}}' clause: expected a param name"
+"無效的'{{...}}'子句：預設為參數名稱"
+
+"'{{...}}' clauses cannot be empty."
+"'{{...}}'子句不能為空"
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"'[[...]]'子句必須包含至少一個'{{...}}'句子"
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"無效的查詢：找到了'[['或'{{'，但沒有匹配的']]'或'}}'"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"您需要為''{0}''選擇一個值，然後此查詢才能執行。"
+
+"Can''t find field with ID: {0}"
+"找不到ID為{0}的欄位"
+
+"Error loading driver namespace"
+"載入驅動程式命名空間時出錯"
+
+"Could not load {0} driver."
+"無法載入{0}驅動程式。"
+
+"Don''t know how to parse {0} {1}"
+"不知道如何解析{0} {1}"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"不知道如何命名別名{0}，預設為標識符。"
+
+"Don''t know how to unprepare values of class {0}"
+"不知道如何準備{0}類的值"
+
+"Creating new connection pool for {0} database {1} ..."
+"為{0}資料庫{1}建立新的連接池..."
+
+"Invalid timezone ''{0}''"
+"時區''{0}''無效"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"無法設定時區：驅動程式{0}的SQL格式字串無效或遺失"
+
+"Did you implement set-timezone-sql?"
+"請問您有實做set-timezone-sql？"
+
+"Failed to set timezone ''{0}''"
+"設定時區''{0}''失敗"
+
+"Error parsing JSON"
+"JSON解析錯誤"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"是否在首頁上顯示資料。 管理員可以關閉此功能，來讓使用者獲得比原始資料更好的內容"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"是否在首頁上顯示x-ray建議。 如果固定了任何資訊看板，它們也將被隱藏。 管理員可能會將其隱藏起來，來讓使用者獲得比原始資料更好的內容"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"透過此標頭的值而不是其遠程地址來標識HTTP請求的來源。"
+
+"Could not resolve Setting {0}/{1}"
+"無法解決設定{0} / {1}"
+
+"Invalid Setting: {0}/{1}"
+"無效的設定：{0} / {1}"
+
+"reached its goal"
+"目標達成"
+
+"gone below its goal"
+"低於目標"
+
+"Sending Pulse ({0}: {1}) via email"
+"通過郵件發送通知（{0}：{1}）"
+
+"Pulse: {0}"
+"通知：{0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"通過Slack發送通知（{0}：{1}）"
+
+"Sending Alert ({0}: {1}) via email"
+"通過信箱發送警告（{0}：{1}）"
+
+"Sending Alert ({0}: {1}) via Slack"
+"通過Slack發送警告（{0}：{1}）"
+
+"Alert: {0}"
+"警告：{0}"
+
+"Can''t find JS color selector at ''{0}''"
+"在''{0}''處找不到JS顏色選擇器"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"FIXME：這些不是有效的時間文字：{0} {1}。 為什麼要嘗試如此格式化它們？"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"找不到通過外鍵 {4} ''{5}''讓資料表{0} ''{1}''上欄位{2} ''{3}''連接的匹配訊息"
+
+"Don''t know how to get information about Field: {0}"
+"不知道如何獲取有關欄位：{0}的訊息"
+
+"Query timed out after {0}"
+"{0}後查詢逾時"
+
+"Formatting rows with results timezone ID {0}"
+"格式化結果時區為{0}的行"
+
+"Invalid timezone ID ''{0}''"
+"無效的時區ID''{0}''"
+
+"Saving fingerprint for {0}"
+"為{0}儲存指紋"
+
+"Sending abandoment email!"
+"發送廢棄電子郵件！"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"結果轉換不符合預期。期望：{0}"
+
+"Timed out after {0}"
+"{0}後逾時"
+
+"No temporal adjuster named {0}"
+"沒有名為{0}的時間調節器"
+
+"Invalid unit: {0}"
+"無效單位：{0}"
+
+"Don''t know how to parse {0} using format {1}"
+"不知道如何使用格式{1}解析{0}"
+
+"Token is missing value for keypath {0}"
+"Token缺少{0}關鍵路徑值"
+
+"Sending usage stats FAILED"
+"發送使用情況統計訊息失敗"
+
+"or"
+"or"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase 會掃描資料庫中每個欄位的資料值，方便在展示板與提問(查詢)點擊篩選核取方塊。這個動作會有一點耗費系統資源，尤其是資料內容非常大的時候。"
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"連線至 ''{0}:{1}'' 成功，但是無法連線至DB"
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"連線至主機 \"{0}\" 成功，但是 port {1} 是無效的"
+
+"Host ''{0}'' is not reachable"
+"無法訪問主機''{0}''"
+
+"Unable to connect to database."
+"無法連線至資料庫"
+
+"Cannot connect to Database"
+"無法連線至資料庫"
+
+"You''re not allowed to specify a value for {0}."
+"您不允許為{0}指定值"
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"您無法在JWT給{0}設定一個值，假如已經被設定"
+
+"You must specify a value for {0} in the JWT."
+"您必須在JWT給{0}設定一個值"
+
+"You can only specify a value for {0} in the JWT."
+"您只能在JWT給{0}設定一個值"
+
+"Error searching field values"
+"搜尋欄位資料錯誤"
+
+"Error searching for remapping"
+"搜索重新映射時出錯"
+
+"Double check that it matches in Google and Metabase."
+"仔細檢查它在Google和Metabase中是否匹配"
+
+"Everything else"
+"其他一切"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"警告：You have enabled namespace tracing, which could log sensitive information like db passwords"
+
+"Database Upgrade Required"
+"資料庫必須更新"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"注意:您的資料庫必須更新版本來讓此版本的Metabase可以使用"
+
+"Please execute the following sql commands on your database before proceeding."
+"在進行之前先在您的資料庫先執行過下列SQL語法"
+
+"Once your database is updated try running the application again."
+"一旦資料庫已更新，請重新執行應用程式"
+
+"Database requires manual upgrade."
+"資料庫需要手動更新"
+
+"Successfully verified {0} {1} application database connection."
+"已成功驗證{0} {1}應用程序數據庫連接"
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"不知道如何解析日期參數“ {0}”-無效格式"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"引用問題＃{0}的子查詢失敗，出現以下錯誤：{1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"警告：Metabase 官方支援 MySQL {0}/MariaDB {1} 以上之版本"
+
+"All Metabase features may not work properly when using an unsupported version."
+"若使用不支援的版本，Metabase 的功能可能無法適當地工作"
+
+"Cannot run the query: missing required parameters: {0}"
+"無法執行查詢，缺少必須參數 {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"無法解析 {0} {1} 為暫存文字"
+
+"Setting {0} database timezone with statement: {1}"
+"利用 {1} 敘述設定 {0} 資料庫時區"
+
+"Error setting connection to readwrite"
+"讀寫連線設定錯誤"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"設定 {1} 資料庫時區 設定 \"{0}\" 失敗 "
+
+"Error setting transaction isolation level for {0} database to {1}"
+"設定 {0} 資料庫事務交易隔離階層為 {1} 錯誤"
+
+"Error setting connection to read-only"
+"唯讀連線設定錯誤"
+
+"Error setting default holdability for connection"
+"此連線設定 default holdability 錯誤"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"查詢取消，calling PreparedStatement.cancel()"
+
+"Failed to connect to database"
+"連線至資料庫失敗"
+
+"Unable to determine connection properties for driver {0}"
+"無法決定 {0} 驅動程式連線屬性"
+
+"Error fetching field values"
+"撈取欄位資料錯誤"
+
+"You cannot set {0}; it is a read-only setting."
+"無法設定 {0} ，因為是唯讀設定"
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+
+"Setting {0} is internal"
+"設定 {0} 是內部的"
+
+"Loading local plugin manifest at {0}"
+"正在{0}加載本地插件清單"
+
+"Google Analytics tracking code."
+"Google Analytics（分析）跟踪代碼。"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"通過電子郵件使用{2}張卡發送脈衝（{0}：{1}）"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"通過鬆弛通過{2}卡發送脈衝（{0}：{1}）"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"Rendering pulse card with chart-type {0} and render-type {1}"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"修復我：這些不是有效的時間文字：{0} {1}。 我們為什麼要嘗試格式化它們？"
+
+"Error reducing result rows"
+"減少結果行數錯誤"
+
+"Unexpected nil result"
+"無預期 nil 結果"
+
+"Query timed out after {0} ms, raising timeout exception."
+"{0} 之後查詢超時，引發超時例外"
+
+"Timed out after {0}."
+"{0} 之後超時"
+
+"Query canceled before finishing."
+"完成前查詢取消"
+
+"Unknown query type {0}"
+"未知查詢類別 {0}"
+
+"Caching results for next time for query with hash {0}."
+"下次緩存結果以使用哈希{0}查詢。"
+
+"Error saving query results to cache."
+"儲存查詢結果快取錯誤"
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"查詢花費{0}運行； 符合緩存條件的最低要求是{1}"
+
+"Results are too large to cache."
+"結果太大無法快取進來"
+
+"Error parsing serialized results"
+"解析序列化結果時出錯"
+
+"Error purging old cache entries"
+"清除舊查詢結果快取錯誤"
+
+"Caching results for query with hash {0}."
+"使用哈希{0}緩存查詢結果。"
+
+"Cannot save QueryExecution, missing :context"
+"無法保存QueryExecution，缺少：context"
+
+"Error saving query execution info"
+"儲存執行0查詢資訊錯誤"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"無法解析資料庫查詢，遺失會無效資料庫ID"
+
+"Unable to resolve driver for query"
+"查詢無解析驅動程式"
+
+"Referenced question #{0} could not be found"
+"無法找到參照提問(查詢) #{0}"
+
+"Referenced query is from a different database"
+"參照提問(查詢)是從不同資料庫"
+
+"This query has circular referencing sub-queries. "
+"參照提問(查詢)有循環參照子查詢"
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"這些參照提問(查詢)似乎是 \"{0}\" 與 \"{1}\" 的某部分問題"
+
+"Error recording results metadata for query"
+"紀錄查詢結果後設資料(metadata)錯誤"
+
+"Query result"
+"查詢結果"
+
+"Error generating insights for column:"
+"從欄位產生 insights 錯誤"
+
+"Sending abandonment email!"
+"送出 abandonment email ！"
+
+"SSH Authentication"
+"SSH驗證"
+
+"SSH Key"
+"SSH密鑰"
+
+"Server SSL certificate chain"
+"服務器SSL證書鏈"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"問題的平均執行持續時間為{0}；使用{1}的“魔術” TTL"
+
+"A snippet with that name already exists. Please pick a different name."
+"具有該名稱的代碼段已存在。請選擇其他名稱。"
+
+"[Unknown Metric]"
+"[未知指標]"
+
+"[Unknown Segment]"
+"[未知細分]"
+
+"Error writing error to output stream"
+"將錯誤寫入輸出流時出錯"
+
+"Caught unexpected Exception in streaming response body"
+"流式響應正文中捕獲了意外的異常"
+
+"bound-fn caught unexpected Exception"
+"bound-fn捕獲了意外的異常"
+
+"Error determining whether HTTP request was canceled"
+"確定HTTP請求是否已取消時出錯"
+
+"Check cancelation status timed out after {0}"
+"{0}後檢查取消狀態超時"
+
+"Unexpected exception in do-f-async"
+"do-f-async中發生意外的異常"
+
+"Unexpected exception writing error response"
+"意外的異常寫入錯誤響應"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"服務器證書不受信任-您是否指定了正確的SSL證書鏈？"
+
+"Server appears to require SSL - please enable SSL above"
+"服務器似乎需要SSL-請在上面啟用SSL"
+
+"Username"
+"用戶名"
+
+"Don''t know how to parse parameter of type {0}"
+"不知道如何解析類型為{0}的參數"
+
+"Invalid :card parameter: missing `:card-id`"
+"：card參數無效：缺少`：card-id`"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"無法解析代碼段：缺少`：snippet-id`"
+
+"Snippet {0} {1} not found."
+"找不到代碼段{0} {1}。"
+
+"Error determining value for parameter"
+"確定參數值時出錯"
+
+"Error building query parameter map"
+"建立查詢參數圖時出錯"
+
+"ASYNC"
+"異步"
+
+"{0} ({1} DB calls)"
+"{0}（{1}個數據庫調用）"
+
+"App DB connections: {0}/{1}"
+"應用數據庫連接：{0} / {1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"碼頭線程：{0} / {1}（{2}空閒，{3}排隊）"
+
+"({0} total active threads)"
+"（{0}個活動線程總數）"
+
+"Queries in flight: {0}"
+"進行中的查詢：{0}"
+
+"({0} queued)"
+"（{0}已排隊）"
+
+"Collection must be in the same namespace as its parent"
+"集合必須與其父集合位於同一名稱空間中"
+
+"Personal Collections must be in the default namespace"
+"個人收藏集必須位於默認名稱空間中"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"創建集合後，您無法將其移動到其他名稱空間。"
+
+"Collection does not exist."
+"集合不存在。"
+
+"A {0} can only go in Collections in the {1} namespace."
+"{0}只能進入{1}名稱空間的Collections中。"
+
+"Error sending database deletion notification"
+"發送數據庫刪除通知時出錯"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"您無法更新NativeQuerySnippet的creator_id。"
+
+"Error fetching value of Setting"
+"獲取設置值時出錯"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Metabase的UI，系統電子郵件，脈沖和警報應使用的語言。"
+
+"This is also the default language for all users, which they can change from their own account settings."
+"這也是所有用戶的默認語言，他們可以從自己的帳戶設置中更改。"
+
+"Invalid locale {0}"
+"無效的語言環境{0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"如果站點URL為HTTPS，則強制所有流量通過重定向使用HTTPS"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"除非`site-url`是HTTPS，否則不能將請求重定向到HTTPS。"
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"註冊字體時出錯：Metabase無法發送Pulse。"
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"這是某些JVM的已知問題。有關更多詳細信息，請參見{0}。"
+
+"Error rendering Pulse"
+"錯誤呈現脈衝"
+
+"Query timed out after {0}, raising timeout exception."
+"查詢在{0}之後超時，引發超時異常。"
+
+"No fields found for table {0}."
+"找不到表{0}的字段。"
+
+"Case"
+"案件"
+
+"Variance of {0}"
+"{0}的方差"
+
+"Median of {0}"
+"{0}的中位數"
+
+"{0}th percentile of {1}"
+"{1}的第{0}個百分點"
+
+"Not caching results: results are larger than {0} KB"
+"不緩存結果：結果大於{0} KB"
+
+"Cannot cache results: expected byte array, got {0}"
+"無法緩存結果：預期的字節數組，得到了{0}"
+
+"Request is closed; no one to return cached results to"
+"請求已關閉；沒有人將緩存的結果返回給"
+
+"Error preparing statement to fetch cached query results"
+"錯誤準備語句以獲取緩存的查詢結果"
+
+"Error processing query: {0}"
+"處理查詢時出錯：{0}"
+
+"Unexpected exception in endpoint"
+"端點中的意外異常"
+
+"Unexpected Exception in API request handler"
+"API請求處理程序中的異常"
+
+"Error reducing {0}"
+"減少{0}時出錯"
+
+"Error generating timeseries insight keyed by: {0}"
+"生成時間序列洞察力時出錯，輸入鍵為：{0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"{0}的數據庫位置已從“ {1}”更改為“ {2}”。"
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"數據庫{0}的未調度任務：觸發器：{1}"
+
+"value must be a keyword or string."
+"值必須是關鍵字或字符串。"
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"字符串必須是有效的兩個字母的ISO語言或語言國家/地區代碼，例如“ en”或“ en_US”。"
+
+"Dashboard does not have a parameter with the ID {0}"
+"儀表板沒有ID為{0}的參數"
+
+"Parameter {0} does not have any Fields associated with it"
+"參數{0}沒有與之關聯的任何字段"
+
+"include must be either empty or the value 'tables'"
+"include必須為空或值'tables'"
+
+"`database` is required for all queries whose type is not `internal`."
+"所有非內部類型的查詢都必須使用“數據庫”。"
+
+"Password login is disabled for this instance."
+"該實例的密碼登錄已禁用。"
+
+"Your account is disabled. Please contact your administrator."
+"您的帳戶已被禁用。請與您的管理員聯繫。"
+
+"Your account is disabled."
+"您的帳戶已被禁用。"
+
+"Invalid Slack token."
+"無效的Slack令牌。"
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"“ {0}”命令僅在Metabase Enterprise Edition中可用。"
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Metabase Enterprise Edition擴展是當前的。"
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Metabase Enterprise Edition功能的使用須遵守Metabase商業許可。"
+
+"See {0} for details."
+"有關詳細信息，請參見{0}。"
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"不存在Metabase Enterprise Edition擴展。"
+
+"You''re invited to join {0}''s {1}"
+"邀請您加入{0}的{1}"
+
+"{0} created a {1} account"
+"{0}創建了一個{1}帳戶"
+
+"{0} accepted their {1} invite"
+"{0}接受了他們的{1}邀請"
+
+"[{0}] Password Reset Request"
+"[{0}]密碼重置請求"
+
+"[{0}] Notification"
+"[{0}]通知"
+
+"[{0}] Help make [{1}] better."
+"[{0}]幫助改善[{1}]。"
+
+"[{0}] Tell us how things are going."
+"[{0}]告訴我們情況如何。"
+
+"Error starting events listener"
+"啟動事件偵聽器時出錯"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"當有人通過LDAP登錄時，我們應該同步用戶屬性嗎？"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"用戶屬性的逗號分隔列表，以跳過LDAP用戶的同步。"
+
+"Invalid token"
+"令牌無效"
+
+"Slack API error: {0}"
+"鬆弛API錯誤：{0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"請創建或取消歸檔通道，以完成Slack集成。"
+
+"Uploaded image"
+"上傳的圖片"
+
+"Invalid session. Expected an instance of Session."
+"無效會話。預期為Session的實例。"
+
+"Top folder"
+"頂級文件夾"
+
+":parameters must be a sequence of maps with String :id keys"
+"：parameters必須是具有String：id鍵的映射序列"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"無效的人類可讀值：值必須是序列；每個項目必須為nil或字符串"
+
+":values must be present to fetch :human_readable_values"
+"：values必須存在才能獲取：human_read_values"
+
+"Field values total length is > {0}."
+"字段值的總長度> {0}。"
+
+"snippet names cannot include '}' or start with spaces"
+"摘要名稱不能包含'}'或以空格開頭"
+
+"Error executing chain filter query"
+"執行鍊式過濾器查詢時出錯"
+
+"Field {0} does not exist."
+"字段{0}不存在。"
+
+"Cannot search against non-Text Field {0} {1}"
+"無法針對非文本字段{0} {1}搜索"
+
+"Granting permissions for group {0}: {1}"
+"授予組{0}的權限：{1}"
+
+"Revoking permissions for group {0}: {1}"
+"撤銷組{0}的權限：{1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"無效的數據庫權限：如果您具有本地查詢的寫訪問權限，則必須具有完整的數據訪問權限。"
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"無效的數據庫權限：如果您具有隻讀的本機查詢訪問權限，則還必須具有數據訪問權限。"
+
+"Changing permissions from: {0} to: {1}"
+"將權限從{0}更改為：{1}"
+
+"login attribute keys must be a keyword or string"
+"登錄屬性鍵必須是關鍵字或字符串"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Metabase UI，系統電子郵件，脈沖和警報中所有用戶的默認語言。"
+
+"Users can individually override this default language from their own account settings."
+"用戶可以從自己的帳戶設置中單獨覆蓋此默認語言。"
+
+"Default page to show the user"
+"顯示用戶的默認頁面"
+
+"Allow this origin to embed the full Metabase application"
+"允許此來源嵌入完整的Metabase應用程序"
+
+"Values greater than {0} ({1}) are not allowed."
+"不允許大於{0}（{1}）的值。"
+
+"This will replace the word \"Metabase\" wherever it appears."
+"無論出現在何處，它將替換單詞“ Metabase”。"
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"這些是圖表和整個Metabase中使用的原色。您可能需要刷新瀏覽器才能看到更改生效。"
+
+"For best results, use an SVG file with a transparent background."
+"為了獲得最佳效果，請使用透明背景的SVG文件。"
+
+"The url or image that you want to use as the favicon."
+"您要用作網站圖標的URL或圖像。"
+
+"Allow logging in by email and password."
+"允許通過電子郵件和密碼登錄。"
+
+"Unable to validate token"
+"無法驗證令牌"
+
+"Token format is invalid."
+"令牌格式無效。"
+
+"Error validating token"
+"驗證令牌時出錯"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"針對{0}字段的過濾錯誤：無法將字符串{1}解析為{2}"
+
+"Error fetching details for Job: {0}"
+"提取作業{0}的詳細信息時出錯"
+
+"Starting sync task for Database {0}."
+"正在啟動數據庫{0}的同步任務。"
+
+"Cannot sync Database {0}: Database does not exist."
+"無法同步數據庫{0}：數據庫不存在。"
+
+"Update Field values task triggered for Database {0}."
+"已為數據庫{0}觸發了“更新字段值”任務。"
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"跳過更新，數據庫{0}的自動字段值更新被禁用。"
+
+"Periodically refingerprint tables"
+"定期指紋表"
+
+"Unable to run internal query function: cannot resolve {0}"
+"無法運行內部查詢功能：無法解析{0}"
+
+"Audit App queries are not enabled on this instance."
+"在此實例上未啟用Audit App查詢。"
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"無效的內部查詢功能：{0}未標記為^：internal-query-fn"
+
+"Error: sandboxing is not enabled for this instance."
+"錯誤：未為此實例啟用沙箱。"
+
+"Please check you have set a valid Enterprise token and try again."
+"請檢查您是否設置了有效的企業令牌，然後重試。"
+
+"No permissions found for current user"
+"找不到當前用戶的權限"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"用戶“ {0}”嘗試訪問不可訪問的字段。可訪問字段{1}，查詢{2}中的字段"
+
+"User not able to query field"
+"用戶無法查詢字段"
+
+"Found more than one group table access policy for user ''{0}''"
+"為用戶“ {0}”找到了多個組表訪問策略"
+
+"Query requires user attribute `{0}`"
+"查詢需要用戶屬性“ {0}”"
+
+"invalid --mode value"
+"無效的--mode值"
+
+"invalid --on-error value"
+"錯誤值無效"
+
+"invalid context seed value"
+"無效的上下文種子值"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"轉儲是使用其他版本的Metabase生成的。事情可能會破裂！"
+
+"Error loading dump: {0}"
+"加載轉儲時出錯：{0}"
+
+"{0} is not a valid user"
+"{0}不是有效的用戶"
+
+"Error dumping {0}"
+"轉儲{0}時出錯"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"找不到管理員用戶！需要至少一個管理員用戶充當所有已加載實體的所有者。"
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"加載依賴項時出錯：對未知實體{0}的引用"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"無法以完全限定的名稱{1}解析{0}"
+
+"Model {0} does not support upsert"
+"模型{0}不支持upsert"
+
+"Error inserting {0}"
+"插入{0}時出錯"
+
+"Inserting {0}"
+"插入{0}"
+
+"{0} already exists -- skipping"
+"{0}已存在-跳過"
+
+"Skipping {0} (nothing to update)"
+"跳過{0}（無更新）"
+
+"Updating {0}"
+"更新{0}"
+
+"Error updating {0}"
+"更新{0}時出錯"
+
+"SSO has not been enabled and/or configured"
+"尚未啟用和/或配置SSO"
+
+"SSO requires a valid token"
+"SSO需要有效的令牌"
+
+"Error returning SSO entry point"
+"返回SSO入口點時出錯"
+
+"Error logging in"
+"登錄時出錯"
+
+"Can't create new JWT user when JWT is not configured"
+"未配置JWT時無法創建新的JWT用戶"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO尚未啟用和/或配置"
+
+"Invalid SAML configuration: could not find user email."
+"SAML配置無效：找不到用戶電子郵件。"
+
+"We tried looking for {0}, but couldn't find the attribute."
+"我們嘗試尋找{0}，但找不到該屬性。"
+
+"Please make sure your SAML IdP is properly configured."
+"請確保正確配置了SAML IdP。"
+
+"SAML has not been enabled and/or configured"
+"尚未啟用和/或配置SAML"
+
+"Warning: expected `redirect` param, but none is present"
+"警告：預期的“重定向”參數，但不存在"
+
+"Error generating SAML request"
+"生成SAML請求時出錯"
+
+"Unable to log in: SAML IdP certificate is not set."
+"無法登錄：未設置SAML IdP證書。"
+
+"SAML response validation failed"
+"SAML響應驗證失敗"
+
+"Unable to log in: SAML response validation failed"
+"無法登錄：SAML響應驗證失敗"
+
+"Unable to log in: SAML info does not contain user attributes."
+"無法登錄：SAML信息不包含用戶屬性。"
+
+"Enable SAML authentication."
+"啟用SAML身份驗證。"
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"這是用戶用來登錄到身份提供者的URL。根據您是哪個IdP\n使用時，通常看起來像https://your-org-name.example.com或https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"解析SAML身份提供者證書時出錯"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"無效的身份提供者證書。證書應為以64為基數的字符串。"
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"身份提供者的編碼證書。根據您的IdP，您可能需要下載該文件，\n在文本編輯器中將其打開，然後在此處複製並粘貼證書的內容。"
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"這是IdP的唯一標識符。通常稱為實體ID或簡稱為“發行人”。取決於\n在您的IdP上，通常看起來像http://www.example.com/141xkex604w0Q5PN724v"
+
+"This application name will be used for requests to the Identity Provider"
+"該應用程序名稱將用於向身份提供者的請求"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"用於簽署SAML請求的密鑰庫文件的絕對路徑"
+
+"Password for opening the keystore"
+"打開密鑰庫的密碼"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Metabase用於簽署SAML請求的密鑰的別名"
+
+"SAML attribute for the user''s email address"
+"用戶電子郵件地址的SAML屬性"
+
+"SAML attribute for the user''s first name"
+"用戶名字的SAML屬性"
+
+"SAML attribute for the user''s last name"
+"用戶姓氏的SAML屬性"
+
+"Enable group membership synchronization with SAML."
+"啟用與SAML的組成員身份同步。"
+
+"SAML attribute for group syncing"
+"用於群組同步的SAML屬性"
+
+"JSON containing SAML to Metabase group mappings."
+"包含SAML到Metabase組映射的JSON。"
+
+"Enable JWT based authentication"
+"啟用基於JWT的身份驗證"
+
+"URL of JWT based login page"
+"基於JWT的登錄頁面的URL"
+
+"String used to seed the private key used to validate JWT messages"
+"用於種子用於驗證JWT消息的私鑰的字符串"
+
+"Key to retrieve the JWT user's email address"
+"檢索JWT用戶的電子郵件地址的鍵"
+
+"Key to retrieve the JWT user's first name"
+"檢索JWT用戶名字的鍵"
+
+"Key to retrieve the JWT user's last name"
+"檢索JWT用戶姓氏的鍵"
+
+"Key to retrieve the JWT user's groups"
+"檢索JWT用戶組的鍵"
+
+"Enable group membership synchronization with JWT."
+"啟用與JWT的組成員身份同步。"
+
+"JSON containing JWT to Metabase group mappings."
+"包含JWT到Metabase組映射的JSON。"
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"是否應該為所有新的SSO用戶發送新的電子郵件通知給管理員？"
+
+"New SSO user created: {0} ({1})"
+"已創建新的SSO用戶：{0}（{1}）"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"無效的警報：警報沒有與之關聯的卡"
+
+"Error determining whether Database supports nested queries"
+"確定數據庫是否支持嵌套查詢時出錯"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"無效的查詢參數：無法確定ID為{0}的參數是否出錯"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"無法搜索值：{0}不是啟用的參數。"
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"如果JWT中已經設置了{0}，則無法為其指定值。"
+
+"Error compiling HoneySQL form"
+"編譯HoneySQL表單時出錯"
+
+"Not a valid Database/Database ID/JDBC spec"
+"不是有效的數據庫/數據庫ID / JDBC規範"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"value必須是具有鍵“ {0}”，“ {1}”，“ {2}”和“ {3}”的映射。"
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"沒有為類{0}創建代理JDBC驅動程序-原始驅動程序由系統ClassLoader加載"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"查詢花費{0}運行；緩存資格的最小值為{1}"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"由於連接不明確，無法解析連接的字段：表{0}（ID {1}）多次連接。您需要將字段引用包裝在顯式的：joined-field子句中。"
+
+"Error normalizing form."
+"規範化表格時出錯。"
+
+"Error canonicalizing query"
+"錯誤規範化查詢"
+
+"Error performing whole query transformations"
+"執行整個查詢轉換時出錯"
+
+"Error normalizing query"
+"規範化查詢時出錯"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"沙箱卡無法返回未在其沙箱中顯示的表中的列。"
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"沙盒卡不能返回與沙盒表類型不同的列。"
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"無法更新卡：卡用於沙箱，更新將違反沙箱規則。"
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"一旦創建了GTAP，就無法更改其表ID。"
+
+"`database` is required for all queries."
+"所有查詢都需要`database`。"
+
+"copied {0} instances."
+"複製了{0}個實例。"
+
+"Copying instances of {0}..."
+"正在復制{0}的實例..."
+
+"Error copying instances of {0}"
+"複製{0}實例時出錯"
+
+"Temporarily disabling DB constraints..."
+"暫時停用數據庫約束..."
+
+"Re-enabling DB constraints..."
+"重新啟用數據庫約束..."
+
+"Setting Postgres sequence ids to proper values..."
+"將Postgres序列ID設置為適當的值..."
+
+"Set up {0} source database and run migrations..."
+"設置{0}源數據庫並運行遷移..."
+
+"Set up {0} target database and run migrations..."
+"設置{0}目標數據庫並運行遷移..."
+
+"Testing if target {0} database is already populated..."
+"測試目標{0}數據庫是否已經填充..."
+
+"Unsupported application database type: {0} is not currently supported."
+"不支持的應用程序數據庫類型：當前不支持{0}。"
+
+"Check the value of MB_DB_CONNECTION_URI."
+"檢查MB_DB_CONNECTION_URI的值。"
+
+"Driver {0} does not support {1}"
+"驅動程序{0}不支持{1}"
+
+"No magnitude known for {0}"
+"{0}的幅度未知"
+
+"Error resolving source query"
+"解決源查詢時出錯"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"無效的GeoJSON文件位置：必須以http：//或https：//開頭，或者是類路徑上文件的相對路徑。"
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"禁止引用提供內部託管元數據的主機的URL。"
+
+"Invalid custom GeoJSON."
+"無效的自定義GeoJSON。"
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"無效的{0}：在索引{1}處指定了突破，但我們只有{2}個突破"
+
+"Error generating pivot queries"
+"生成透視查詢時出錯"
+
+"Sync the admin group?"
+"同步管理組？"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"沙箱問題無法返回與沙箱中的表類型不同的列。"
+
+"Error preprocessing source query when applying GTAP"
+"應用GTAP時發生錯誤的預處理源查詢"
+
+"Error running query to determine metadata"
+"運行查詢以確定元數據時出錯"
+
+"Can't create new SAML user when SAML is not configured"
+"未配置SAML時無法創建新的SAML用戶"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"將準備好的語句提取方向設置為FETCH_FORWARD時出錯"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"設置語句獲取方向為FETCH_FORWARD時出錯"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"您無法保存此問題，因為您沒有運行其查詢的權限。"
+
+"Authentication endpoint error"
+"驗證端點錯誤"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"只能使用TCP協議為H2連接建立SSH隧道"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"數據庫{0}的ssh隧道已關閉；標記池無效以重新打開它"
+
+"Query canceled, calling Statement.cancel()"
+"查詢已取消，調用Statement.cancel（）"
+
+"Select statement did not produce a ResultSet for native query"
+"Select語句未為本機查詢生成ResultSet"
+
+"We''ve Noticed a New {0} Login, {1}"
+"我們注意到有一個新的{0}登錄名{1}"
+
+"Don''t know how to process event with model {0}"
+"不知道如何使用模型{0}處理事件"
+
+"Failed to process activity event {0}"
+"無法處理活動事件{0}"
+
+"Error sending ''login from new device'' notification email"
+"發送“從新設備登錄”通知電子郵件時出錯"
+
+"You can''t update a LoginHistory after it has been created."
+"創建LoginHistory後，您將無法更新它。"
+
+"Setting {0} already registered in {1}"
+"設置已經在{1}中註冊的{0}"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"控制建立SSH隧道時發送心跳的頻率（以秒為單位）。"
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"找不到FK字段{0}的匹配FK表ID"
+
+"Error optimizing temporal filter clause"
+"錯誤優化時間過濾子句"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"由於連接不明確，無法解析連接的字段：表{0}（ID {1}）多次連接。您需要在字段引用中指定顯式的`：join-alias`。"
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"不支持的時間段：您無法按{1}來存儲{0}字段。"
+
+"Error processing additional pivot table query"
+"處理其他數據透視表查詢時出錯"
+
+"Invalid cell format"
+"無效的儲存格格式"
+
+"Enable typeahead search in the Metabase navbar?"
+"在元數據庫導航欄中啟用提前輸入搜索？"
+
+"Login request is missing user-agent information"
+"登錄請求缺少用戶代理信息"
+
+"Unable to determine login request IP address"
+"無法確定登錄請求的IP地址"
+
+"Error determining login history for request"
+"確定請求的登錄歷史時出錯"
+
+"unknown"
+"未知"
+
+"Unknown device type"
+"未知的設備類型"
+
+"Unknown OS"
+"未知的作業系統"
+
+"Unknown browser"
+"未知的瀏覽器"
+
+"Error geocoding IP addresses"
+"對IP地址進行地址解析時發生錯誤"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"語義類型{0}已從“ {1}”更改為“ {2}”。"
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"{0}的名稱已從“ {1}”更改為“ {2}”。"
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"不知道如何將{0}格式化為人類可讀的日期/時間"
+
+"Valid coercion strategy"
+"有效的強制策略"
+
+"value must be a valid coercion strategy."
+"值必須是有效的強制策略。"
+
+"Saved Questions"
+"保存的問題"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"組成員查找過濾器。佔位符“{dn}”和“{uid}”將分別替換為用戶的專有名稱和 UID。"
+
+"Error deleting Sandboxes: {0}"
+"刪除沙盒時出錯：{0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"使用上下文 {1} 從 {0} 開始加載"
+
+"Finished first pass of load; now performing second pass"
+"完成第一次加載；現在執行第二遍"
+
+"END LOAD from {0} with context {1}"
+"END LOAD from {0} with context {1}"
+
+"ERROR LOAD from {0}: {1}"
+"來自 {0} 的錯誤加載：{1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"通過用戶 {1} 開始轉儲到 {0}"
+
+"END DUMP to {0} via user {1}"
+"通過用戶 {1} END DUMP 到 {0}"
+
+"Could not find context for fully qualified card name {0}"
+"找不到完全限定卡名稱 {0} 的上下文"
+
+"Could not find context for fully qualified snippet name {0}"
+"找不到完全限定代碼段名稱 {0} 的上下文"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"無法對加載的卡片“{0}”執行查詢：{1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"無法連接到數據庫“{0}”以同步未隱藏的表"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"無法使用 MB_ENCRYPTION_SECRET_KEY 解密應用數據庫"
+
+"Invalid domain"
+"無效域"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"用戶查找過濾器。佔位符“{login}”將被用戶提供的登錄名替換。"
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"用於用戶電子郵件的屬性。 （通常是 ''mail''、''email'' 或 ''userPrincipalName''）"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"組搜索庫。提供“memberOf”覆蓋的 LDAP 目錄（例如 Active Directory）不需要。 （將被遞歸搜索）"
+
+"You are not allowed to change the owner of a Personal Collection."
+"您不得更改個人收藏的所有者。"
+
+"You are not allowed to change the authority level of a Personal Collection."
+"您不得更改個人收藏的權限級別。"
+
+"You are not allowed to move a Personal Collection."
+"您不得移動個人收藏。"
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"您不能更新 CollectionPermissionGraphRevision！"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"無效字段 {0} {1}：回退到 {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"為了使表和字段名稱更人性化，Metabase 將用空格替換其中的破折號和下劃線。"
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"我們將大寫每個單詞，因此“last_visited_at”將成為“Last Visited At”。"
+
+"Setting names in would collide: {0} and {1}"
+"在中設置名稱會發生衝突：{0} 和 {1}"
+
+"Indicates when Metabase last checked for new versions."
+"指示 Metabase 上次檢查新版本的時間。"
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"此 URL 用於在電子郵件中創建鏈接、身份驗證重定向、"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"並且在某些嵌入場景中，因此更改它可能會破壞功能或讓您無法訪問此實例。"
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"設置後，強制所有用戶使用會話 cookie，這些用戶在瀏覽器關閉時過期。"
+
+"Error parsing paging parameters: {0}"
+"解析分頁參數時出錯：{0}"
+
+"Error running sync step"
+"運行同步步驟時出錯"
+
+"Error in sync step {0}"
+"同步步驟 {0} 出錯"
+
+"Error fetching version info; setting version-info value to nil"
+"獲取版本信息時出錯；將 version-info 值設置為 nil"
+
+"Valid field semantic type"
+"有效的字段語義類型"
+
+"value must be a valid field semantic type."
+"value 必須是有效的字段語義類型。"
+
+"Valid field relation type"
+"有效的字段關係類型"
+
+"value must be a valid field relation type."
+"值必須是有效的字段關係類型。"
+
+"Valid field semantic or relation type"
+"有效的字段語義或關係類型"
+
+"value must be a valid field semantic or relation type."
+"value 必須是有效的字段語義或關係類型。"
+
+"Valid field data type (keyword or string)"
+"有效的字段數據類型（關鍵字或字符串）"
+
+"value must be a valid field data type (keyword or string)."
+"值必須是有效的字段數據類型（關鍵字或字符串）。"
+
+"Valid field semantic type (keyword or string)"
+"有效的字段語義類型（關鍵字或字符串）"
+
+"value must be a valid field semantic type (keyword or string)."
+"value 必須是有效的字段語義類型（關鍵字或字符串）。"
+
+"Valid field relation type (keyword or string)"
+"有效的字段關係類型（關鍵字或字符串）"
+
+"value must be a valid field relation type (keyword or string)."
+"值必須是有效的字段關係類型（關鍵字或字符串）。"
+
+"Valid field semantic or relation type (keyword or string)"
+"有效的字段語義或關係類型（關鍵字或字符串）"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"值必須是有效的字段語義或關係類型（關鍵字或字符串）。"
+
+"value must be a valid coercion strategy (keyword or string)."
+"value 必須是有效的強制策略（關鍵字或字符串）。"
+
+"password is too common."
+"密碼太普通了。"
+
+"Invalid custom GeoJSON"
+"無效的自定義 GeoJSON"
+
+"GeoJSON URL failed to load"
+"GeoJSON URL 加載失敗"
+
+"Error building query parameter map: {0}"
+"構建查詢參數映射時出錯：{0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"插件 ''{0}'' 取決於環境變量 ''{1}'' 被設置為什麼"
+
+"Down"
+"下"
+
+"Up"
+"向上"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"允許用於新儀表板訂閱和警報的電子郵件地址域。不影響現有訂閱。"
+
+"Invalid email address: {0}"
+"無效的電子郵件地址：{0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"您不能為域 {0} 創建新訂閱。允許的域是：{1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"僅當您擁有具有 {0} 功能的高級令牌時才會啟用此 API 端點。"
+
+"Error compiling audit query: {0}"
+"編譯審核查詢時出錯：{0}"
+
+"Error running audit query: {0}"
+"運行審核查詢時出錯：{0}"
+
+"Error parsing Pulse parameters: {0}"
+"解析脈衝參數時出錯：{0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"已阻止：不允許對數據庫 {0} 運行查詢。"
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"無法解析權限圖，因為它無效：{0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"更改了數據庫 {0} 詳細信息的哈希值；標記池無效以重新打開它"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"無效的數據庫權限：如果您對本機查詢具有寫訪問權限，則必須具有完全數據訪問權限。"
+
+"Error parsing permissions tree {0}"
+"解析權限樹 {0} 時出錯"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"Dashboard訂閱的集合ID不能直接修改"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"無法修改儀表板訂閱的儀表板 ID"
+
+"Javascript resource not found: {0}"
+"未找到 Javascript 資源：{0}"
+
+"Found new version for DB: {0}"
+"找到數據庫的新版本：{0}"
+
+"Rerun queries for simple explorations"
+"重新運行查詢以進行簡單探索"
+
+"Choose when syncs and scans happen"
+"選擇何時進行同步和掃描"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"默認情況下，Metabase 會進行輕量級的每小時同步和每天對字段值的密集掃描。如果您有一個大型數據庫，請將其打開以進行更改。"
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"這使 Metabase 能夠在同步期間掃描其他字段值，從而實現更智能的行為，例如改進條形圖上的自動分箱。"
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"默認情況下，“站點 URL”用於通知鏈接，但可以被覆蓋。"
+
+"Error preprocessing source query when applying GTAP: {0}"
+"應用 GTAP 時預處理源查詢時出錯：{0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"要在 Snowplow 分析中使用的唯一標識符，用於標識此元數據庫實例。"
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"這是一個公共設置，因為一些分析事件是在初始設置之前發送的。"
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"指示 Snowplow 收集器是否可用於接收分析事件的布爾值。"
+
+"Should be set via environment variable in Cypress tests or during local development."
+"應在賽普拉斯測試或本地開發期間通過環境變量設置。"
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"指示分析事件是否正在發送到 Snowplow 的布爾值。"
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"如果為此實例啟用了匿名跟踪，並且 Snowplow 收集器可用，則為真。"
+
+"The URL of the Snowplow collector to send analytics events to."
+"要將分析事件發送到的 Snowplow 收集器的 URL。"
+
+"Error sending Snowplow analytics event {0}"
+"發送 Snowplow 分析事件 {0} 時出錯"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"創建此 Metabase 實例的大致時間戳，用於包含在分析中。"
+
+"Unverified due to edit"
+"因修改未驗證"
+
+"Card {0} does not exist or does not have a valid query."
+"卡 {0} 不存在或沒有有效的查詢。"
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"您必須具有數據權限才能添加引用表 {0} 的參數。"
+
+"No matching parameter with slug {0}. Found: {1}"
+"沒有與 slug {0} 匹配的參數。找到：{1}"
+
+"Could not invite user because email is not configured."
+"無法邀請用戶，因為未配置電子郵件。"
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"你的團隊使用 Slack 嗎？如果是這樣，您可以通過儀表板訂閱發送自動更新。"
+
+"invalid token"
+"令牌無效"
+
+"Slack channel not found."
+"未找到 Slack 頻道。"
+
+"channel not found"
+"找不到頻道"
+
+"Unrecognized modal: {0}"
+"無法識別的模式：{0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"無法使用 MB_ENCRYPTION_SECRET_KEY 解密秘密值"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"您的數據庫的 IP 地址（例如 98.137.149.56）或其域名（例如 esc.mydatabase.com）。"
+
+"username"
+"用戶名"
+
+"Use a secure connection (SSL)"
+"使用安全連接 (SSL)"
+
+"Use an SSH tunnel"
+"使用 SSH 隧道"
+
+"Enable this ssh tunnel?"
+"啟用此 ssh 隧道？"
+
+"SSH tunnel host"
+"SSH隧道主機"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"用於連接到 SSH 隧道的主機名。"
+
+"SSH tunnel port"
+"SSH隧道端口"
+
+"SSH tunnel username"
+"SSH隧道用戶名"
+
+"The username you use to login to your SSH tunnel."
+"用於登錄 SSH 隧道的用戶名。"
+
+"SSH tunnel password"
+"SSH隧道密碼"
+
+"SSH private key to connect to the tunnel"
+"SSH 私鑰連接到隧道"
+
+"Paste the contents of an ssh private key here"
+"在此處粘貼 ssh 私鑰的內容"
+
+"Passphrase for SSH private key"
+"SSH 私鑰的密碼"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"當您使用 Summarize 或 Filter 瀏覽數據時，我們會執行基礎查詢。"
+
+"This is on by default but you can turn it off if performance is slow."
+"默認情況下這是打開的，但如果性能很慢，您可以將其關閉。"
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"這是一個輕量級的過程，用於檢查對該數據庫模式的更新。"
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"在大多數情況下，您應該可以將此設置設置為每小時同步一次。"
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"如果您的數據庫位於防火牆後面，您可能需要允許來自我們的元數據庫雲 IP 地址的連接："
+
+"Error querying database {0} for current time: {1}"
+"為當前時間查詢數據庫 {0} 時出錯：{1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"錯誤：為參數指定了多個值；非字段過濾器參數只能有一個值。"
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"相對於元數據庫運行位置的本地路徑。您的字符串不應包含 .mv.db 擴展名。"
+
+"SSL Mode"
+"SSL 模式"
+
+"SSL Root Certificate (PEM)"
+"SSL 根證書 (PEM)"
+
+"Authenticate client certificate?"
+"驗證客戶端證書？"
+
+"SSL Client Certificate (PEM)"
+"SSL 客戶端證書 (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"SSL 客戶端密鑰（PKCS-8/DER 或 PKCS-12）"
+
+"SSL Client Key Password"
+"SSL 客戶端密鑰密碼"
+
+"Unable to substitute parameters: {0}"
+"無法替換參數：{0}"
+
+"Expected native source query to be a string, got: {0}"
+"預期本機源查詢為字符串，得到：{0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"預期的本地源查詢參數是連續的，得到：{0}"
+
+"No expression named {0} at this level of the query"
+"在此查詢級別沒有名為 {0} 的表達式"
+
+"Error compiling :field clause: {0}"
+"編譯錯誤：字段子句：{0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"警告：驅動程序 {0} 正在使用 {1}。此方法已在 {2} 中棄用，並將在未來版本中刪除。"
+
+"Error setting connection to autoCommit false"
+"錯誤設置連接到 autoCommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"將準備好的語句提取大小設置為 fetch-size 時出錯"
+
+"Error setting statement fetch size to fetch-size"
+"將語句 fetch size 設置為 fetch-size 時出錯"
+
+"Error executing query: {0}"
+"執行查詢時出錯：{0}"
+
+"Local file path"
+"本地文件路徑"
+
+"Uploaded file path"
+"上傳文件路徑"
+
+"File path"
+"文件路徑"
+
+"Error invoking getter for connection property {0}"
+"為連接屬性 {0} 調用 getter 時出錯"
+
+"Only these..."
+"只有這些..."
+
+"All except..."
+"除了..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"<strong>應該</strong>出現在元數據庫中的 {0} 的逗號分隔名稱"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"您可以使用 <strong>auth*</strong> 等模式來匹配多個 {0}"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"<strong>不應</strong>出現在元數據庫中的 {0} 的逗號分隔名稱"
+
+"Your Slack connection stopped working"
+"您的 Slack 連接停止工作"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"Google 登錄的客戶端 ID。如果設置了此項，則認為 Google 登錄已啟用。"
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"無效的 Google 登錄客戶端 ID：必須以“.apps.googleusercontent.com”結尾"
+
+"Invalid Google Sign-In token."
+"無效的 Google 登錄令牌。"
+
+"Google Sign-In token appears to be incorrect. "
+"Google 登錄令牌似乎不正確。 "
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"已成功通過身份驗證的 Google 登錄令牌：{0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"已棄用用於連接 Metabase Slack 機器人的 Slack API 令牌。"
+
+"Please use a new Slack app integration instead."
+"請改用新的 Slack 應用程序集成。"
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"用於連接 Metabase Slack 應用程序的 Bot 用戶 OAuth 令牌。"
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"這應該用於從 Metabase v0.42.0 開始的所有新的 Slack 集成。"
+
+"Whether the current Slack app token, if set, is valid."
+"當前 Slack 應用程序令牌（如果已設置）是否有效。"
+
+"Set to 'false' if a Slack API request returns an auth error."
+"如果 Slack API 請求返回身份驗證錯誤，則設置為“false”。"
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"最初應將元數據庫文件上傳到的通道的名稱"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 您的 Slack 授權令牌無效或已被撤銷。請在 Admin Settings -> Slack 中更新您的集成。"
+
+"Slack channel named `{0}` is missing!"
+"缺少名為“{0}”的 Slack 頻道！"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"該通道用於存儲儀表板訂閱中包含的圖像。"
+
+"You do not have curate permissions for this Collection."
+"您沒有此收藏集的策展人權限。"
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"儀表板 {0} 沒有 ID 為 {1} 的儀表闆卡"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"由於擁有數據庫 ({1}) 正在被刪除，因此正在從應用程序數據庫中刪除密鑰 ID {0}"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"字段列 {0} 的值無效：{1} 不是以下任何類型的後代：{2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"如果沒有高級權限高級功能，則無法使用阻止權限"
+
+"User {0} does not exist."
+"用戶 {0} 不存在。"
+
+"Wrong email address for User {0}."
+"用戶 {0} 的電子郵件地址錯誤。"
+
+"Secret ID {0}"
+"秘密 ID {0}"
+
+"File path for {0}"
+"{0} 的文件路徑"
+
+"Path"
+"小路"
+
+"{0} points to non-existent file: {1}"
+"{0} 指向不存在的文件：{1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0}（本地文件路徑）不能在元數據庫託管環境中使用"
+
+"Error parsing Setting {0}: {1}"
+"解析設置 {0} 時出錯：{1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"設置 {0} 不允許使用站點範圍的值"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"自元數據庫 {1} 起，設置 {0} 已被棄用，並且可能在未來的版本中被刪除。"
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"設置名稱“{0}”已停用；改用其他名稱"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"布爾值，指示分析數據是否應發送到前端的 Google Analytics"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"已顯示有關使用已棄用功能的通知的元數據庫版本。"
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"是否顯示有關固定儀表板的消息。如果任何儀表板被固定，它也會被隱藏。管理員可能會隱藏這一點，以引導用戶獲得比原始數據更好的內容"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"這將影響諸如按週分組或在 GUI 查詢中過濾之類的事情。"
+
+"It won''t affect most SQL queries,"
+"它不會影響大多數 SQL 查詢，"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+" 雖然它用於在 Snowflake 中設置 WEEK_START 會話變量。"
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"獲取元數據庫云網關 IP 地址時出錯："
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"元數據庫云網關 IP 地址，用於配置與防火牆後面的數據庫的連接"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"添加下一個數據庫連接後是否應顯示介紹模式。"
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"如果任何非默認數據庫已為此實例完成同步，則默認為 false。"
+
+"Alert: {0} has {1}"
+"提醒：{0} 有 {1}"
+
+"Nothing to compare to."
+"沒什麼好比的。"
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"參數 {1} 的參數類型 {0} 無效。參數類型必須是以下之一：{2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"無效參數：卡片 {0} 沒有名為 {1} 的模板標記。"
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"無法解析無效的查詢參數：缺少參數：id"
+
+"Dashboard does not have a parameter with ID {0}."
+"儀表板沒有 ID 為 {0} 的參數。"
+
+"Query: {0}"
+"查詢：{0}"
+
+"Error determining expected columns for query: {0}"
+"確定查詢的預期列時出錯：{0}"
+
+"Nested queries are disabled"
+"嵌套查詢被禁用"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"{2} 中字段 {1} 的錯誤 :field 子句 {0}：子句應該有一個 :join-alias。"
+
+"Guessing join {0}"
+"猜測加入{0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"無法推斷出適當的聯接。查詢可能無法按預期工作。"
+
+"Error resolving Fields in query: {0}"
+"解析查詢中的字段時出錯：{0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"警告：子句 {0} 與源查詢中的列不匹配。正在嘗試將其更正為 {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"警告：子句 {0} 引用了源查詢中可能不存在的字段。查詢可能無法按預期工作。找到：{1}"
+
+"Expected :aggregation-options clause, got {0}"
+"預期 :aggregation-options 子句，得到 {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"無法確定字段子句 {0} 的源表或查詢"
+
+"Aggregation does not exist at index {0}"
+"索引 {0} 處不存在聚合"
+
+"No expression named {0}"
+"沒有名為 {0} 的表達式"
+
+"Sample database DB file ''{0}'' cannot be found."
+"找不到示例數據庫 DB 文件“{0}”。"
+
+"Loading sample database"
+"加載示例數據庫"
+
+"Failed to load sample database"
+"未能加載示例數據庫"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"會話 cookie 的 SameSite 配置為“無”，但通過不安全的連接提供站點。在這些情況下，某些瀏覽器會拒絕 cookie。"
+
+"Login request is missing device ID information"
+"登錄請求缺少設備 ID 信息"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"無法解密加密的 {0}。您是否更改或忘記設置 MB_ENCRYPTION_SECRET_KEY？"
+
+"Enable this SSH tunnel?"
+"啟用此 SSH 隧道？"
+
+"The hostname that you use to connect to SSH tunnels."
+"用於連接到 SSH 隧道的主機名。"
+
+"Paste the contents of an SSH private key here"
+"在此處粘貼 SSH 私鑰的內容"
+
+"Allow using a saved question or Model as the source for other queries?"
+"允許使用保存的問題或模型作為其他查詢的來源嗎？"
+
+"Pulse card query error"
+"脈衝卡查詢錯誤"
+
+"There was a problem with this question."
+"這個問題有問題。"
+
+"Copy of "
+"備份 "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"/api/setup 路由只能用於創建第一個用戶，但是當前存在一個用戶。"
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"通過 API 專門針對 :rows 類型查詢返回的最大行數。"
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"新儀表板訂閱和警報的允許電子郵件地址域。要指定多個域，請用逗號分隔每個域，中間沒有空格（例如，“domain1,domain2”）。要允許所有域，請將該字段留空。此設置不會影響現有訂閱。"
+
+"You do not have permissions to download the results of this query."
+"您無權下載此查詢的結果。"
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"沒有監控或訂閱權限的非管理員用戶只能更新他們創建的警報"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"不允許沒有監控或訂閱權限的非管理員用戶修改警報通道"
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"沒有訂閱權限的非管理員用戶不允許添加收件人"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"僅當您擁有具有高級權限功能的高級令牌時，才會啟用組管理器。"
+
+"Admin cant be a group manager."
+"管理員不能是組管理員。"
+
+"Timeline with id {0} not found"
+"未找到 ID 為 {0} 的時間線"
+
+"Timestamp cannot be null"
+"時間戳不能為空"
+
+"ERROR {0}: {1}"
+"錯誤 {0}：{1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"正在清除 Liquibase 遷移創建的默認條目..."
+
+"Don''t know how to parse date string {0}"
+"不知道如何解析日期字符串 {0}"
+
+"Invalid values provided for operator: {0}"
+"為運算符提供的值無效：{0}"
+
+"Unrecognized operation: {0}"
+"無法識別的操作：{0}"
+
+"Error determining value for parameter {0}: {1}"
+"確定參數 {0} 的值時出錯：{1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"您不能更新 ApplicationPermissionsRevision！"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"無效的字段過濾器：字段 {0} 屬於數據庫 {1}，但查詢是針對數據庫 {2}"
+
+"The engine on a sample database cannot be changed."
+"示例數據庫上的引擎無法更改。"
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"僅當您擁有具有高級權限功能的高級令牌時，才會啟用 {0} 權限功能。"
+
+"Unknown setting: {0}"
+"未知設置：{0}"
+
+"You do not have access to the setting {0}"
+"您無權訪問設置 {0}"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"設置 {0} 允許用戶本地和數據庫本地值；不支持"
+
+"Error purging old cache entries: {0}"
+"清除舊緩存條目時出錯：{0}"
+
+"Error saving query results to cache: {0}"
+"將查詢結果保存到緩存時出錯：{0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"嘗試獲取帶有哈希 {0} 的查詢的緩存結果時出錯：{1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Slack 用戶/頻道啟動緩存刷新了 {0} 個條目，花費了 {1} 毫秒。"
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"未配置 Slack，未刷新 slack 用戶/頻道緩存。"
+
+"value must be a valid date string"
+"值必須是有效的日期字符串"
+
+"Not allowed to edit group memberships"
+"不允許編輯組成員身份"
+
+"Connected to"
+"連接到"
+
+}

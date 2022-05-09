@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"データベース同期中"
+
+"Scanning for Filter Values"
+"フィルター値をスキャン中"
+
+"When should Metabase automatically scan and cache field values?"
+"フィールド値をキャッシュするための自動スキャンをいつ実行するようにしますか？"
+
+"Other"
+"その他"
+
+"Email"
+"メール"
+
+"{0} table"
+"{0}テーブル"
+
+"Password"
+"パスワード"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Googleを利用してログインするには、管理者からMetabaseアカウントを作成してもらう必要があります"
+
+"Our analytics"
+"分析"
+
+"Unknown"
+"不明"
+
+"Count"
+"カウント"
+
+"number"
+"番号"
+
+"Native query"
+"ネイティブクエリ"
+
+"Today"
+"本日"
+
+"Yesterday"
+"昨日"
+
+"Week"
+"週"
+
+"Month"
+"月"
+
+"Year"
+"年"
+
+"Slack"
+"Slack"
+
+"results"
+"結果"
+
+"Count of {0}"
+"{0}のカウント"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"DELETE /api/alert/:idは推奨されていません。 代わりに、'archived'値をPUT /api/alert/:idで変更してください。"
+
+"invalid show value"
+"無効な表示値"
+
+"invalid value for prefix"
+"無効な敬称の値"
+
+"invalid value for rule name"
+"無効なルール名の値"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"base64でエンコードされたJSONとして解析できませんでした"
+
+"Invalid entity type"
+"無効なエンティティタイプ"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"無効な比較エンティティタイプです。「テーブル」「セグメント」または「アドホック」のうち一つのみが選択可能です。"
+
+"Error running query to determine Card result metadata:"
+"カードの結果メタデータを測定するためのクエリ実行中にエラーが発生しました:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"DELETE /api/card/:id は廃止されました。代わりに、PUT /api/card/:id を使用して`archived`の値を変更してください。"
+
+"Invalid field: {0}"
+"無効なフィールド: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"{1}に対する無効な値「{0}」: {2}"
+
+"must be one of: {0}"
+"{0}の1つでなければならない"
+
+"Invalid Request."
+"無効なリクエスト"
+
+"Not found."
+"見つかりませんでした"
+
+"You don''t have permissions to do that."
+"権限がありません"
+
+"Internal server error."
+"サーバー内部エラー"
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"警告: エンドポイント{0}/{1}はdocstringがありません"
+
+"starting streaming request"
+"ストリーミングリクエスト開始中"
+
+"connection closed, canceling request"
+"接続が閉じられ、リクエストをキャンセルしています"
+
+"Response not ready, writing one byte & sleeping..."
+"準備中..."
+
+"Public sharing is not enabled."
+"公開は有効化されていません"
+
+"Embedding is not enabled."
+"埋め込みは有効化されていません"
+
+"The object has been archived."
+"対象がアーカイブされました"
+
+"Source query for this query is Card {0}"
+"このクエリのソースクエリは、カード{0}です。"
+
+"Invalid export format: {0}"
+"無効なエクスポートフォーマット: {0}"
+
+"Invalid JSON URL or resource: {0}"
+"無効なJSON URLまたはリソース: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSONには、米国または世界GeoJSONのデフォルトの代わりに、マップビジュアライゼーションで使用するカスタムGeoJSONファイルに関する情報が含まれています。"
+
+"Invalid custom GeoJSON key: {0}"
+"無効なカスタムGeoJSONキー: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"DELETE /api/pulse/:idは推奨されていません。 代わりに、'archived'値をPUT /api/pulse/:idで変更してください。"
+
+"API endpoint does not exist."
+"APIエンドポイントが存在しません"
+
+"Password did not match stored password."
+"保存されたパスワードと一致しませんでした"
+
+"did not match stored password"
+"保存されたパスワードと一致しませんでした"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"LDAPサーバーへの接続中に問題が発生しました。ローカル認証{0}にフォールバックします。"
+
+"Invalid reset token"
+"無効なリセットトークン"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"設定されていると、Googleメールアドレスがこのドメインを使用している場合ユーザーは自分でサインアップすることができます"
+
+"Email is not verified."
+"メールが確認されていません"
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Googleを利用してログインするには、事前に管理者がMetabaseアカウントを作成する必要があります"
+
+"Add a database"
+"データベースを追加する"
+
+"Get connected"
+"接続する"
+
+"Connect to your data so your whole team can start to explore."
+"チームの全員がデータを見れるようにしましょう"
+
+"Set up email"
+"メールの設定"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"メールの資格情報を追加すると、チームメンバーをより簡単に招待し、パルスを通じて更新情報を入手することができます。"
+
+"Set Slack credentials"
+"Slackの認証情報をセットする"
+
+"Invite team members"
+"チームメンバーを招待する"
+
+"Share answers and data with the rest of your team."
+"チームと回答やデータを共有する"
+
+"Hide irrelevant tables"
+"無関係なテーブルを非表示にする"
+
+"Curate your data"
+"データを公開する"
+
+"If your data contains technical or irrelevant info you can hide it."
+"データが技術的または無関係な情報を含む場合、非表示にすることができます"
+
+"Organize questions"
+"質問を管理する"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"{0}に保存された質問が多数ありますか？整理するのにコレクションを使用しましょう。"
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"メトリクスを作成する"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"チームが正しい回答を得られるよう標準的なメトリクスを定義する"
+
+"Create segments"
+"セグメントを作成する"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"質問をする際に誰でも使用できる標準的なフィルターを作成し、利用者全員に共通認識を持たせましょう。"
+
+"Table ''{0}'' is now visible. Resyncing."
+"テーブル \"{0}\" は表示設定されています。再同期中。"
+
+"Auto bin"
+"自動ビン"
+
+"Don''t bin"
+"ビニングしない"
+
+"Day"
+"日"
+
+"Minute"
+"分"
+
+"Hour"
+"時間"
+
+"Quarter"
+"四半期"
+
+"Minute of Hour"
+"1時間のうち1分"
+
+"Hour of Day"
+"1日のうち1時間"
+
+"Day of Week"
+"1週間のうち1日"
+
+"Day of Month"
+"1か月のうち1日"
+
+"Day of Year"
+"1年のうち1日"
+
+"Week of Year"
+"1年のうち1週間"
+
+"Month of Year"
+"1年のうち1か月"
+
+"Quarter of Year"
+"1年の4分の1"
+
+"10 bins"
+"10ビン"
+
+"50 bins"
+"50ビン"
+
+"100 bins"
+"100ビン"
+
+"Bin every 0.1 degrees"
+"0.1度ごとにビニングする"
+
+"Bin every 1 degree"
+"1度ごとにビニングする"
+
+"Bin every 10 degrees"
+"10度ごとにビニングする"
+
+"Bin every 20 degrees"
+"20度ごとにビニングする"
+
+"No appropriate image writer found!"
+"最適なイメージライターが見つかりませんでした"
+
+"Email address already in use."
+"メールアドレスはすでに使用されています"
+
+"Email address already associated to another user."
+"メールアドレスは他ユーザーがすでに使用しています"
+
+"Not able to reactivate an active user"
+"アクティブユーザーを再有効化することはできません"
+
+"Invalid password"
+"無効なパスワード"
+
+"All {0}"
+"全{0}"
+
+"{0}, all {1}"
+"{0}、全{1}"
+
+"Comparison of {0} and {1}"
+"{0}と{1}の比較"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"{0}と{1}を比較する比較ダッシュボードが自動作成されました"
+
+"sum"
+"合計"
+
+"average"
+"平均"
+
+"minumum"
+"最低"
+
+"maximum"
+"最大"
+
+"distinct count"
+"重複を除いたカウント"
+
+"standard deviation"
+"標準偏差"
+
+"cumulative count"
+"累積カウント"
+
+"cumulative sum"
+"累積和"
+
+"{0} and {1}"
+"{0}と{1}"
+
+"{0} of {1}"
+"{1}の{0}"
+
+"{0} by {1}"
+"{1}で{0}"
+
+"{0} in the {1} segment"
+"{1}セグメントの{0}"
+
+"{0} segment"
+"{0}セグメント"
+
+"{0} metric"
+"{0}メトリクス"
+
+"{0} field"
+"{0}フィールド"
+
+"\"{0}\" question"
+"\"{0}\"質問"
+
+"Compare with {0}"
+"{0}と比較する"
+
+"Compare with entire dataset"
+"全データセットと比較する"
+
+"Applying heuristic %s to %s."
+"ヒューリスティック%sを%sに適用しています"
+
+"Dimensions bindings:n%s"
+"ディメンションのバインディング: n%s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"定義を使用中:nMetrics:n%snFilters:n%s"
+
+"Can''t create dashboard for {0}"
+"{0}のダッシュボードが作成できません"
+
+"{0}st"
+"{0}番目"
+
+"{0}nd"
+"{0}番目"
+
+"{0}rd"
+"{0}番目"
+
+"{0}th"
+"{0}番目"
+
+"at {0}"
+"{0}で"
+
+"on {0}"
+"{0}で"
+
+"in {0} week - {1}"
+"{0}週 - {1}"
+
+"in {0}"
+"{0}で"
+
+"in Q{0} - {1}"
+"Q{0} - {1}で"
+
+"Q{0}"
+"Ｑ{0}"
+
+"{0} is {1}"
+"{0}は{1}"
+
+"{0} is between {1} and {2}"
+"{0}は{1}と{2}の間"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0}は{1}と{2}の間、{3}は{4}と{5}の間"
+
+"where {0}"
+"{0}で"
+
+"A closer look at {0}"
+"{0}を詳しく見る"
+
+"A closer look at the {0}"
+"{0}を詳しく見る"
+
+"Adding %s cards to dashboard %s:n%s"
+"%sカードをダッシュボード%s:n%sに追加中"
+
+"0 <= score <= {0}"
+"0 <= スコア <= {0}"
+
+"1 <= width <= {0}"
+"1 <= 幅 <= {0}"
+
+"Valid metrics references"
+"有効なメトリクス参照"
+
+"Valid filters references"
+"有効なフィルター参照"
+
+"Valid group references"
+"有効なグループ参照"
+
+"Valid order_by references"
+"有効なorder_by参照"
+
+"Valid dashboard filters references"
+"有効なダッシュボードフィルター参照"
+
+"Valid dimension references"
+"有効なディメンション参照"
+
+"Valid card dimension references"
+"有効なカードディメンション参照"
+
+"Error parsing %s:n%s"
+"%s:n%sを解析中にエラーが発生しました。"
+
+"No user found with email address ''{0}''. "
+"メールアドレス\"{0}\"のユーザーが見つかりませんでした"
+
+"Please check the spelling and try again."
+"スペルを確認し再度お試しください"
+
+"Resetting password for {0}..."
+"{0}のパスワードをリセットしています..."
+
+"OK [[[{0}]]]"
+"成功 [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"失敗 [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Metabaseインストールを設定するには次のURLを使用してください:"
+
+"Metabase Shutting Down ..."
+"Metabaseをシャットダウン中..."
+
+"Metabase Shutdown COMPLETE"
+"Metabaseのシャットダウンが完了しました"
+
+"Starting Metabase version {0} ..."
+"Metabaseバージョン{0}を起動中..."
+
+"System timezone is ''{0}'' ..."
+"システムタイムゾーンは\"{0}\"です..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Metabase DBのセットアップとマイグレーション中。これには時間がかかることがあります。"
+
+"Looks like this is a new installation ... preparing setup wizard"
+"新規インストールのようです。セットアップウィザードを準備中。"
+
+"Metabase Initialization COMPLETE"
+"Metabaseの初期化が完了しました"
+
+"Launching Embedded Jetty Webserver with config:"
+"埋め込みJetty Webserverを起動中 設定:"
+
+"Shutting Down Embedded Jetty Webserver"
+"埋め込みJetty Webserverをシャットダウン中"
+
+"Starting Metabase in STANDALONE mode"
+"MetabaseをSTANDALONEモードで起動中"
+
+"Metabase Initialization FAILED"
+"Metabaseの初期化に失敗しました"
+
+"Database has migration lock; cannot run migrations."
+"データベースはマイグレーションロックされています。マイグレーションを実行できません。"
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"`java -jar metabase.jar migrate release-locks`を実行することでこのロックを強制解除することができます"
+
+"Checking if Database has unrun migrations..."
+"データベースがマイグレーションを取り消したか確認中..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"データベースはマイグレーションを取り消しました。 マイグレーションロックが解除されるのを待っています..."
+
+"Migration lock is cleared. Running migrations..."
+"マイグレーションロックが解除されました。マイグレーションを実行中..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"マイグレーションロックは解除されましたが、ここでは処理されません！ マイグレーションは別のインスタンスで終了しました。"
+
+"Setting up Liquibase..."
+"Liquibaseの設定中..."
+
+"Liquibase is ready."
+"Liquibaseの準備ができました"
+
+"Verifying {0} Database Connection ..."
+"{0}データベース接続を確認中..."
+
+"Verify Database Connection ... "
+"データベース接続を確認... "
+
+"Running Database Migrations..."
+"データベースマイグレーションを実行中..."
+
+"Database Migrations Current ... "
+"データベースマイグレーションは現在... "
+
+"Hmm, we couldn''t connect to the database."
+"データベースに接続できませんでした"
+
+"Make sure your host and port settings are correct"
+"ホストとポート設定が正しいことをお確かめください"
+
+"We couldn''t connect to the ssh tunnel host."
+"SSHトンネルホストに接続できませんでした"
+
+"Check the username, password."
+"ユーザーネームとパスワードをお確かめください"
+
+"Check the hostname and port."
+"ホスト名とポートをお確かめください"
+
+"Looks like the database name is incorrect."
+"データベース名が間違っているようです"
+
+"It looks like your host is invalid."
+"ホストが無効のようです"
+
+"Please double-check it and try again."
+"再度ご確認の上お試しください"
+
+"Looks like your password is incorrect."
+"パスワードが間違っているようです"
+
+"Looks like you forgot to enter your password."
+"パスワードが入力されていないようです"
+
+"Looks like your username is incorrect."
+"ユーザー名が間違っているようです"
+
+"Looks like the username or password is incorrect."
+"ユーザーネームまたはパスワードが間違っているようです"
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"クエリを実行するときに使用する接続タイムゾーン。 デフォルトはシステムタイムゾーンです。"
+
+"Registered driver {0} {1}"
+"登録されたドライバー{0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"\"{0}\"の初期ドライバー機能が見つかりません。"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"データベースエンジン\"{1}\"の日付文字列\"{0}\"を解析できません。"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"クラス\"{0}\"をフィールドbase_typeにマップする方法が不明です。:type/*.にお戻りください。"
+
+"Failed to connect to database: {0}"
+"データベースへの接続が失敗しました: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"無効なBigQuery識別子: \"{0}\""
+
+"BigQuery statements can't be parameterized!"
+"BigQueryステートメントをパラメーター化することはできません。"
+
+"Failed to set timezone:"
+"タイムゾーンの設定に失敗しました:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"デフォルトの（管理者）データベースユーザーを使用してH2データベースに対してSQLクエリを実行することは禁じられています。"
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"エラー: metabase.driver.FixedHiveDriverは登録されていますが、JDBCがそれを使用していないようです。"
+
+"Found metabase.driver.FixedHiveDriver."
+"metabase.driver.FixedHiveDriverが見つかりました。"
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"metabase.driver.FixedHiveDriverが正常にJDBCに登録されました。"
+
+"Email address you want to use as the sender of Metabase."
+"Metabaseの送信者として使用したいメールアドレス"
+
+"The address of the SMTP server that handles your emails."
+"メール管理をするSMTPサーバーのアドレス"
+
+"SMTP username."
+"SMTPユーザー名"
+
+"SMTP password."
+"SMTPパスワード"
+
+"The port your SMTP server uses for outgoing emails."
+"メール送信に使用するSMTPサーバーのポート"
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"SMTP接続プロトコル（TLS、SSL、STARTTLS、または該当なし）"
+
+"none"
+"なし"
+
+"SMTP host is not set."
+"SMTPホストが設定されていません"
+
+"Failed to send email"
+"メールの送信に失敗しました"
+
+"Error testing SMTP connection"
+"SMTP接続テストエラー"
+
+"Enable LDAP authentication."
+"LDAP認証を有効化する"
+
+"Server hostname."
+"サーバーホスト名"
+
+"Server port, usually 389 or 636 if SSL is used."
+"サーバーポート、SSLを使用している場合は通常389または636です"
+
+"Use SSL, TLS or plain text."
+"SSL、TLSまたはプレーンテキストを使用する"
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"バインドの識別名（ある場合）。このユーザーは、他のユーザーに関する情報を参照するために使用されます。"
+
+"The password to bind with for the lookup user."
+"検索ユーザー用にバインドするパスワード"
+
+"Search base for users. (Will be searched recursively)"
+"ユーザーのための検索ベース。 （繰り返し検索されます）"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"ユーザー検索フィルター。プレースホルダー '{login}'はユーザーが入力したログインに置き換えられます。"
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"ユーザーのメールに使用する属性。（通常は、\"メール\"、\"Eメール\"、\"userPrincipalName\"など）"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"ユーザーの名に使用する属性。（通常は、\"givenName\"）"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"ユーザーの姓に使用する属性。（通常は、\"sn\"）"
+
+"Enable group membership synchronization with LDAP."
+"LDAPとのグループ同期を有効化する"
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"グループの検索ベース。LDAPディレクトリが\"memberOf”オーバーレイを提供する場合は不要です。（繰り返し検索されます）"
+
+"JSON containing LDAP to Metabase group mappings."
+"LDAPとMetabaseのグループマッピングを含むJSON"
+
+"Here''s what I can {0}:"
+"ここに {0} できるものがあります:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"'{1}と{2}の{0}方法が不明です。"
+
+"Here''s your {0} most recent cards:n{1}"
+"最新{0}のカードがあります: n{1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"もう少し具体的に入力してください。一致するカードが複数見つかりました: n{0}"
+
+"Not Found"
+"見つかりませんでした"
+
+"Go home websocket, you're drunk."
+"WebSocketで問題が発生しました"
+
+"Base-64 encoded public key for this site's SSL certificate."
+"このサイトのSSL証明書のBase-64でエンコードされた公開キー"
+
+"Specify this to enable HTTP Public Key Pinning."
+"これを指定すると、HTTP公開キーのピン設定が有効になります。"
+
+"See {0} for more information."
+"詳細は{0}を参照してください。"
+
+"Cannot save Question: source query has circular references."
+"質問が保存できません: ソースクエリに循環参照があります"
+
+"Card {0} does not exist."
+"カード{0}は存在しません。"
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"データベース{0}に対してアドホックネイティブクエリを実行する権限がありません。"
+
+"Invalid color"
+"無効な色"
+
+"must be a valid 6-character hex color code"
+"有効な6文字の16進数カラーコードでなければなりません"
+
+"Collection name cannot be blank!"
+"コレクション名は空欄にできません！"
+
+"cannot be blank"
+"空欄にできません"
+
+"Invalid Collection location: path is invalid."
+"無効なコレクションの場所: パスが無効です。"
+
+"You cannot move a Personal Collection."
+"パーソナルコレクションは移動できません。"
+
+"Invalid Collection location: some or all ancestors do not exist."
+"無効なコレクションの場所: 一部またはすべての先祖が存在しません。"
+
+"You cannot archive the Root Collection."
+"ルートコレクションはアーカイブできません。"
+
+"You cannot archive a Personal Collection."
+"パーソナルコレクションはアーカイブできません。"
+
+"You cannot move the Root Collection."
+"ルートコレクションは移動できません。"
+
+"You cannot move a Collection into itself or into one of its descendants."
+"コレクションをそれ自身または子孫の1つに移動することはできません。"
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"コレクション{0}およびその子孫を{1}から{2}に移動中"
+
+"You're not allowed to change the owner of a Personal Collection."
+"パーソナルコレクションの所有者は変更できません。"
+
+"You're not allowed to move a Personal Collection."
+"パーソナルコレクションは移動できません。"
+
+"You cannot move a Collection and archive it at the same time."
+"コレクションを移動し同時にアーカイブすることはできません。"
+
+"You cannot delete a Personal Collection!"
+"パーソナルコレクションを削除することはできません。"
+
+"{0} {1}''s Personal Collection"
+"{0} {1}さんのパーソナルコレクション"
+
+"You cannot update a CollectionRevision!"
+"コレクション履歴をアップデートすることはできません。"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"フィールド{0}は以前は自動的にリストウィジェットを表示するよう設定されていましたが、現在は{1}の値を持っています。"
+
+"Switching Field to use a search widget instead."
+"検索ウィジェットを代わりに使用するようフィールド切り替え中。"
+
+"Storing updated FieldValues for Field {0}..."
+"フィールド{0}の更新されたフィールド値を保存中..."
+
+"Storing FieldValues for Field {0}..."
+"フィールド{0}のフィールド値を保存中..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabaseはテーブルとフィールド名をより理に適った、読みやすい名前に変更することができます。例: 「somehorriblename」を「Some Horrible Name」へ変更する"
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"しかし、英語以外の言語で名前が設定されている場合はうまく動作しません。"
+
+"Do you want us to take a guess?"
+"予想したいですか？"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"「管理者」グループの権限を作成または取り消すことはできません。"
+
+"Invalid permissions object path: ''{0}''."
+"無効な権限のオブジェクトパス: \"{0}\""
+
+"You cannot update a permissions entry!"
+"権限エントリーを更新することはできません！"
+
+"Delete it and create a new one."
+"削除して新しく作成する"
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"パーソナルコレクションまたはその子孫の権限を編集することはできません。"
+
+"Looks like someone else edited the permissions and your data is out of date."
+"他ユーザーが権限を編集したため、あなたのデータは最新ではありません。"
+
+"Please fetch new data and try again."
+"新しいデータを取得し、再度お試しください。"
+
+"A group with that name already exists."
+"同じ名前のグループが既に存在します。"
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"\"{0}\"権限グループを編集または削除することはできません！"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"「MetaBot」グループへユーザーを追加したりユーザーを削除することはできません"
+
+"You cannot add or remove users to/from the 'All Users' group."
+"'All Users'グループへユーザーを追加したりユーザーを削除することはできません"
+
+"You cannot remove the last member of the 'Admin' group!"
+"「管理者」グループの最後のメンバーを削除することはできません！"
+
+"You cannot update a PermissionsRevision!"
+"権限履歴をアップデートすることはできません！"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"無効なアラート: アラートにはカードが関連付けられていません"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"値は、キー'{0}'、'{1}'、'{2}'を含むマップでなければなりません。"
+
+"value must be a map with the following keys `({0})`"
+"値は次のキーを含むマップでなければなりません: `({0})`"
+
+"Error calculating permissions for query: {0}"
+"クエリの権限を処理中にエラーが発生しました: {0}"
+
+"Invalid query type: {0}"
+"無効なクエリタイプ: {0}"
+
+"You cannot update a QueryExecution!"
+"クエリ実行をアップデートすることはできません！"
+
+"You cannot update a Revision!"
+"履歴をアップデートできません！"
+
+"Updating value of settings-last-updated in DB..."
+"データベース内で最後に更新された値をアップデート中..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"キャッシュ設定が最新か確認中（データベースコースが必要）..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"別のインスタンスで変更された設定は、ここで再読み込みされます。"
+
+"Refreshing Settings cache..."
+"設定キャッシュを更新中..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"文字列の値が無効です: \"true\"または \"false\"（大文字小文字を区別しない）である必要があります。"
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"'最後に更新された設定'を手動でアップデートすることはできません。これは自動でアップデートされます。"
+
+"Error inserting a new Setting:"
+"新設定の適用中にエラーが発生しました:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"設定が既にデータベースに存在すると仮定し、既存の値を更新中"
+
+"value must be a map with each value either a string or number."
+"値は、各値が文字列または数値のいずれかを含むマップでなければなりません。"
+
+"Loading plugins in directory {0}..."
+"ディレクトリ{0}のプラグインを読込中..."
+
+"Loading plugin {0}... "
+"プラグイン{0}を読込中... "
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Metabaseプラグインディレクトリに、外部依存関係があるようです。"
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"Java 9以降では、Metabaseはクラスパスに自動的に追加できません。"
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"代わりに、起動時に-cpオプションを使用して含める必要があります。 例:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"詳しくは、 https://metabase.com/docs/latest/operations-guide/start.html#java-versions を見てください"
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"（すでにこの方法でMetabaseを実行している場合は、このメッセージを無視してください。）"
+
+"Identify when new versions of Metabase are available."
+"Metabaseの新しいバージョンがいつ入手可能かを確認する"
+
+"Information about available versions of Metabase."
+"Metabaseの利用可能なバージョンに関する情報"
+
+"The name used for this instance of Metabase."
+"このMetabaseのインスタンスの名前"
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"このMetabaseインスタンスのベースURL、例: \"http://metabase.my-company.com\""
+
+"The default language for this Metabase instance."
+"このMetabaseインスタンスのデフォルトの言語です。"
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"これはメール、パルス等だけに適用されます。ブラウザーの言語は、ユーザーが使用しているインターフェイスの言語が適用されます"
+
+"The email address users should be referred to if they encounter a problem."
+"問題が発生した場合に、ユーザーが参照すべきメールアドレス"
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Metabaseのサービス向上のため、匿名の使用状況データの収集を許可する。"
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"マップのビジュアライゼーションで使用されるマップタイルサーバーのURLテンプレート（例: OpenStreetMaps、MapBoxなど）。"
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"管理者が質問とダッシュボードの公開閲覧リンク（および埋め込み可能なiframe）を作成できるようにしますか？"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"管理者が質問やダッシュボードを他のアプリケーションに安全に埋め込めるよう許可しますか？"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"キャッシングを有効にすると、実行に時間がかかるクエリの結果が保存されます。"
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"保存された質問ごとのキャッシュの最大サイズ（キロバイト）:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"キャッシュされたクエリの結果を保持する最長時間（秒単位）"
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabaseは、保存された全ての質問を、平均クエリ実行時間内にキャッシュします。:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"クエリの平均実行時間を取得し、ここに入力した値で乗算することで、保存された各質問のキャッシュ結果の保存期間を判断します。"
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"したがって、クエリの実行に平均2分かかる場合、乗数に10を入力すると、そのキャッシュエントリは20分間保持されます。"
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"デフォルトのビニング設定を使用しており、かつビンが入力されていない場合には、この数値がデフォルトとして使用されます。"
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"座標タイプ（緯度と経度など）のフィールドにデフォルトのビニング設定を使用する場合、この数値はデフォルトビン幅（度）として使用されます。"
+
+"Unable to validate token."
+"トークンを検証できません"
+
+"Error fetching token status:"
+"トークンステータスの取得中にエラーが発生しました:"
+
+"There was an error checking whether this token was valid."
+"このトークンの有効性を確認中にエラーが発生しました。"
+
+"Token validation timed out."
+"トークンの検証がタイムアウトしました。"
+
+"Invalid token: token isn't in the right format."
+"トークンが不正です。トークンが正しいフォーマットではありません。"
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"{0}の有効性を確認するためにMetaStoreをチェック中..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"プレミアム埋め込みのためのトークン。 是非あなたもMetaStoreから入手してください！"
+
+"Token is valid."
+"トークンは有効です"
+
+"Error setting premium embedding token"
+"プレミアム埋め込みトークンの設定中にエラーが発生しました。"
+
+"Unable to compare results to goal for alert."
+"結果と目標を比較できませんでした"
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"ビジュアライゼーション設定が \"{1}\"の質問IDは\"{0}\"です。"
+
+"Unrecognized alert with condition ''{0}''"
+"状態\"{0}\"の認識できないアラート"
+
+"Unrecognized channel type {0}"
+"認識できないチャンネルタイプ{0}"
+
+"Error sending notification!"
+"通知送信中にエラーが発生しました！"
+
+"Can't find JS color selector at ''{0}''"
+"\"{0}\"にJSカラーセレクタが見つかりません。"
+
+"Card has errors: {0}"
+"カードにエラーがあります: {0}"
+
+"Pulse card render error"
+"パルスカードレンダリングエラー"
+
+"Trimming trailing comment from card with id {0}"
+"ID{0}のカードの後続コメントをトリミング中"
+
+"Can't find field with ID: {0}"
+"ID {0}のフィールドが見つかりません"
+
+"''{0}'' is a required param."
+"\"{0}\"は必須パラメータ―です"
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"クエリ\"{2}\"に\"{1}\"が終了していない\"{0}\"が見つかりました。"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"\"{0}\"を置換できません: パラメーターは指定されていないため見つかりませんでした: {1}"
+
+"You do not have permissions to view Card {0}."
+"カード{0}の閲覧権限がありません"
+
+"You do not have permissions to run this query."
+"このクエリを実行する権限がありません"
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"{0}のフィンガープリントを更新しようとし、{1}件更新、{2}件はデータが見つからず、{3}件は失敗しました"
+
+"Total number of fields classified {0}, {1} failed"
+"合計{0}フィールドが分類され、{1}件が失敗しました"
+
+"Total number of tables classified {0}, {1} updated"
+"合計{0}テーブルが分類され、{1}件が失敗しました "
+
+"Error generating fingerprint for {0}"
+"{0}のフィンガープリント生成中にエラーが発生しました。"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"{0}件のフィールド値セットを更新、{1}件作成、{2}件削除、{3}件エラー"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"合計{0}フィールドが同期され、{1}フィールドが更新されました"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"合計{0}テーブルが同期され、{1}テーブルが更新されました"
+
+"Found timezone id {0}"
+"タイムゾーンID{0}が見つかりました。"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"合計{0}の外部キーが同期され、{1}件更新、{2}テーブルが更新に失敗しました"
+
+"{0} Database {1} ''{2}''"
+"{0}データベース{1} ''{2}''"
+
+"Table {0} ''{1}''"
+"テーブル {0} \"{1}\""
+
+"Field {0} ''{1}''"
+"フィールド{0} ''{1}''"
+
+"Field ''{0}''"
+"フィールド\"{0}\""
+
+"step ''{0}'' for {1}"
+"{1}のステップ\"{0}\""
+
+"Completed {0} on {1}"
+"{1}で{0}を完了しました"
+
+"Start: {0}"
+"開始: {0}"
+
+"End: {0}"
+"終了: {0}"
+
+"Duration: {0}"
+"期間: {0}"
+
+"Completed step ''{0}''"
+"ステップ\"{0}\"が完了しました"
+
+"Loading tasks namespace:"
+"タスクのネームスペースを読込中:"
+
+"Starting Quartz Scheduler"
+"Quartz Schedulerを開始中"
+
+"Stopping Quartz Scheduler"
+"Quartz Schedulerを停止中"
+
+"Job already exists:"
+"ジョブが既に存在します:"
+
+"Loading Metabase..."
+"Metabaseを読込中..."
+
+"Possible timezone conflict found on database {0}."
+"データベース{0}でタイムゾーンのコンフリクトが検出されました"
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"JVMのタイムゾーンは{0}で、検出されたデータベースのタイムゾーンは{1}です。"
+
+"Configure a report timezone to ensure proper date and time conversions."
+"レポートのタイムゾーンを構成して、適切な日時変換が行われるようにします。"
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"`/ api / embed`エンドポイントへのリクエストに対してJSON Webトークンに署名するために使用される秘密キー。"
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEYは16文字以上にしてください。"
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"このMetabaseインスタンスに対して、保存された資格情報の暗号化が有効になっています。"
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"保存された資格情報は、このMetabase Instanceでは無効化されています"
+
+"nFor more information, see"
+"詳細はこちらを参照してください。"
+
+"value must be an integer."
+"値は整数値でなくてはなりません"
+
+"value must be a string."
+"値は文字列でなくてはなりません"
+
+"value must be a boolean."
+"値は真偽値でなくてはなりません"
+
+"value must be a string that matches the regex `{0}`."
+"値は正規表現'{0}'に一致する文字列にしてください。"
+
+"value must satisfy one of the following requirements: "
+"値は、次のいずれかの要件を満たす必要があります: "
+
+"value may be nil, or if non-nil, {0}"
+"値はnilでも良いし、non-nilの場合には{0}"
+
+"value must be one of: {0}."
+"値は次のいずれかにしてください: {0}"
+
+"value must be an array."
+"値は配列でなくてはなりません"
+
+"Each {0}"
+"各{0}"
+
+"The array cannot be empty."
+"配列は空欄にできません。"
+
+"value must be a non-blank string."
+"値は空欄のない文字列でなければなりません"
+
+"Integer greater than zero"
+"ゼロより大きい整数"
+
+"value must be an integer greater than zero."
+"値はゼロより大きい整数でなければなりません"
+
+"Number greater than zero"
+"ゼロより大きい数値"
+
+"value must be a number greater than zero."
+"値はゼロより大きい数値でなければなりません"
+
+"Keyword or string"
+"キーワードや文字列"
+
+"Valid field type"
+"有効なフィールドタイプ"
+
+"value must be a valid field type."
+"値は有効なフィールドタイプでなければなりません"
+
+"Valid field type (keyword or string)"
+"有効なフィールドタイプ（キーワードや文字列）"
+
+"value must be a valid field type (keyword or string)."
+"値は有効なフィールドタイプ（キーワードや文字列）でなければなりません"
+
+"Valid entity type (keyword or string)"
+"有効なエンティティタイプ（キーワードや文字列）"
+
+"value must be a valid entity type (keyword or string)."
+"値は有効なエンティティタイプ（キーワードや文字列）でなければなりません"
+
+"Valid map"
+"有効なマップ"
+
+"value must be a map."
+"値はマップでなければなりません"
+
+"Valid email address"
+"有効なメールアドレス"
+
+"value must be a valid email address."
+"値は有効なメールアドレスでなければなりません"
+
+"Insufficient password strength"
+"パスワードの強度が足りません"
+
+"value must be a valid integer."
+"値は有効な整数でなければなりません"
+
+"value must be a valid integer greater than zero."
+"値はゼロより大きい有効な整数でなければなりません"
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"valueは有効な真偽値の文字列（ '' true ''または '' false ''）でなければなりません。"
+
+"value must be a valid JSON string."
+"値は有効なJSON文字列でなければなりません。"
+
+"value must be a valid embedding params map."
+"値は有効な埋め込みパラメーターマップでなければなりません。"
+
+"No results"
+"結果がありません"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"コレクションにない{0}のインスタンスを{1}コレクション{2}にマイグレーションする"
+
+"Failed to grant permissions: {0}"
+"権限を付与できませんでした: {0}"
+
+"Host"
+"ホスト"
+
+"Port"
+"ポート"
+
+"Database username"
+"データベースユーザー名"
+
+"Database password"
+"データベースパスワード"
+
+"Database name"
+"データベース名"
+
+"birds_of_the_world"
+"birds_of_the_world"
+
+"Additional JDBC connection string options"
+"追加のJDBC接続文字列オプション"
+
+"praxis-beacon-120871"
+"プラクシスビーコン-120871"
+
+"toucanSightings"
+"toucanSightings"
+
+"Hosts"
+"ホスト"
+
+"Broker node port"
+"ブローカーノードポート"
+
+"Google Analytics Account ID"
+"Google AnalyticsアカウントID"
+
+"Connection String"
+"接続文字列"
+
+"Users/camsaul/bird_sightings/toucans"
+"Users/camsaul/bird_sightings/toucans"
+
+"carrierPigeonDeliveries"
+"carrierPigeonDeliveries"
+
+"Authentication Database"
+"認証データベース"
+
+"Optional database to use when authenticating"
+"認証時に使用する任意のデータベース"
+
+"Additional Mongo connection string options"
+"追加のMongo接続文字列オプション"
+
+"Oracle system ID (SID)"
+"OracleシステムID（SID）"
+
+"Usually something like ORCL or XE."
+"通常ORCLやXE等。"
+
+"Optional if using service name"
+"サービス名を使用している場合は任意です"
+
+"Oracle service name"
+"Oracleサービス名"
+
+"Optional TNS alias"
+"任意のTNSエイリアス"
+
+"hive"
+"ハイブ"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"デフォルト"
+
+"Filename"
+"ファイル名"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite 😋"
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"データベースインスタンス名"
+
+"N/A"
+"該当なし"
+
+"Windows domain"
+"ウィンドウズドメイン"
+
+"Unable to release the Liquibase lock after a migration failure"
+"マイグレーション失敗後、Liquibaseのロックを解放できません"
+
+"Use JVM Time Zone"
+"JVMのタイムゾーンを使う"
+
+"Not a valid integer: ''{0}''"
+"有効な数値ではありません: \"{0}\""
+
+"Embedding is not enabled for this object."
+"このオブジェクトは埋め込み可能になっていません。"
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"LDAPサーバー接続に失敗し、ローカルで認証します: {0}"
+
+"When including an offset, a limit must also be included."
+"オフセットを含む場合、上限も含まないといけません"
+
+"When including a limit, an offset must also be included."
+"上限を含む場合、オフセットも含まないといけません"
+
+"Applying heuristic {0} to {1}."
+"ヒューリスティック{0}を{1}に適用しています。"
+
+"Dimensions bindings:n{0}"
+"ディメンションバインディング：n {0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"定義の使用：nMetrics：n {0} nFilters：n {1}"
+
+"minute"
+"分"
+
+"hour"
+"時"
+
+"day of week"
+"曜日"
+
+"day of month"
+"日"
+
+"day of year"
+"年間通算日"
+
+"week"
+"週"
+
+"month"
+"月"
+
+"quarter"
+"四半期"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"{0}カードをダッシュボード{1}:n{2}に追加中"
+
+"Error parsing {0}:n{1}"
+"{0}：n {1}の解析エラー"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"警告: フィルタリングはディメンションでのみ機能します！ ''{0}''はメトリックです。フィルターを無視します。"
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"警告: 日付は複数の連続しない区間に属することはないので、それらの条件をAND条件でつなぐことは意味を成しません。"
+
+"Ignoring these intervals: {0}"
+"これらの間隔を無視: {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"警告: 無効にする方法がわからない: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"警告: Druid は時系列クエリで limitSpec を許可しません。 LIMIT 句を無視します。"
+
+"HoneySQL Form:"
+"HoneySQLフォーム:"
+
+"Unable to parse date ''{0}''"
+"日付として解析できません: \"{0}\""
+
+"Client closed connection, cancelling query"
+"クライアントは切断しました。クエリをキャンセルしています。"
+
+"Setting timezone with statement: {0}"
+"ステートメントでタイムゾーンを設定: {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"MongoDB集約パイプライン："
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"エラー: 結果に整合しない項目があります！ 想定は {0} 、結果は {1} でした"
+
+"Unable to create temp file in `{0}` for email attachments "
+"`{0}` にメール添付のための一時ファイルを作成できません"
+
+"Error preprocessing query:"
+"クエリ処理に失敗:"
+
+"Illegal filter clause: {0}"
+"不正なフィルター条件: {0}"
+
+"Invalid clause:"
+"不正な条件:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"エラー: クエリに使われているソースクエリを特定できません。恐らく初めに事前処理する必要があります。"
+
+"No expression named ''{0}''"
+"\"{0}\" という名前はありません"
+
+"No aggregation at index: {0}"
+"{0} のインデックスに集合はありません"
+
+"Field values total length is {0} (max {1})."
+"フィールド値の長さが {0} です。(最大 )"
+
+"FieldValues are allowed for this Field."
+"FieldValues はこのフィールドに設定できます"
+
+"FieldValues are NOT allowed for this Field."
+"FieldValues はこのフィールドに設定できません"
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"フィールド{0} '' {1} ''はFieldValuesを持つ必要があり、オンデマンドFieldValuesが更新されているデータベースに属しています。"
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"Adminグループの権限の作成または取り消しはできません"
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"All Usersグループのユーザーは変更できません"
+
+"You cannot remove the last member of the ''Admin'' group!"
+"Adminグループには最低１人のメンバーを残さないといけません！"
+
+"Error inserting a new Setting: {0}"
+"新しい設定の追加に失敗: {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"Defsetting Description文字列は `:internal?` または国際化されている必要があります：`{0}`"
+
+"Loading plugin {0}... {1}"
+"プラグインを読み込み中 {0}... {1}"
+
+"Object keyed by type, containing formatting settings"
+"タイプごとにキー設定され、フォーマット設定を含むオブジェクト"
+
+"Allow users to explore data using X-rays"
+"自動探査(X-ray)を使ってデータの探索を許可する"
+
+"Unable to validate token: 404 not found."
+"トークンを検証できません: 404"
+
+"There was an error checking whether this token was valid:"
+"トークンの有効性チェックでエラー:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"プレミアム機能のトークン取得のためMetaStoreに行きましょう！"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"トークンの形式が不正です。トークンは64文字の16進数です。"
+
+"Error setting premium features token"
+"プレミアム機能トークンの設定に失敗"
+
+"Error validating token:"
+"トークンの検証エラー:"
+
+"Error preprocessing query"
+"クエリの処理エラー"
+
+"No native form returned."
+"ネイティブフォームは返されません。"
+
+"Invalid response from database driver. No :status provided."
+"データベースドライバーから不正な応答: ステータスを確認できません"
+
+"General error"
+"一般的なエラー"
+
+"Missing query hash!"
+"クエリハッシュが不足しています"
+
+"Table ''{0}'' has no Fields associated with it."
+"テーブル \"{0}\" には指定されたフィールドに関連するフィールドはありません。"
+
+"Max concurrent query limit reached"
+"最大同時クエリ数に達しました"
+
+"Don't know how to get information about Field:"
+"フィールドの情報を取得する方法を知りません:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface/*driver* はバインドされていません。"
+
+"Query processor error: mismatched number of columns in query and results."
+"クエリプロセッサエラー：クエリと結果におけるコラム数が一致していません"
+
+"Expected {0} fields, got {1}"
+"{0} のフィールドのうち {1} を取得しました"
+
+"Expected: {0}"
+"予定: {0}"
+
+"Actual: {0}"
+"結果: {0}"
+
+"Unable to bin Field without a min/max value"
+"最小値、最大値なしにフィールドを格納できません"
+
+"{0} is not supported by this driver."
+"{0} はこのドライバーでサポートされていません"
+
+"Segment {0} does not exist, or is invalid."
+"セグメント {0} は存在しないか無効です。"
+
+"Metric {0} does not exist, or is invalid."
+"メトリック {0} は存在しないか無効です。"
+
+"Missing source query in Card {0}"
+"カード {0} にはソースクエリが不足しています"
+
+"Fetched source query from Card {0}:"
+"カード {0} から取得されたソースクエリ"
+
+"Error transforming MBQL query to native:"
+"MBQLクエリからネイティブクエリに変換中にエラーが起こりました:"
+
+"Cannot run query: could not find source table {0}."
+"クエリを実行できません: ソーステーブル {0} が見つかりません"
+
+"Error recording results metadata for query:"
+"クエリの結果メタデータの記録エラー:"
+
+"Error: Query Processor store is not initialized."
+"エラー: クエリ処理ストアが初期化されていません。"
+
+"Error: Table {0} is not present in the Query Processor Store."
+"エラー: テーブル{0}がクエリ処理ストアに存在しません。"
+
+"Error: Field {0} is not present in the Query Processor Store."
+"エラー: フィールド{0}がクエリ処理ストアに存在しません。"
+
+"Task history cleanup successful, rows were {0}deleted"
+"タスク履歴の削除は成功しました。{0}行が削除されました。"
+
+"not"
+"でない"
+
+"For more information, see"
+"詳細はこちら"
+
+"Integer greater than or equal to zero"
+"0以上の整数"
+
+"value must be an integer greater than or equal to zero."
+"値は0以上の整数でないといけません"
+
+"value must be an integer zero or greater."
+"値は0かそれより大きな整数でないといけません"
+
+"value must be a valid integer greater than or equal to zero."
+"値は0以上の有効な整数でないといけません"
+
+"Unable to parse resource `{0}` as JSON"
+"`{0}` のリソースをJSONとして解析できません"
+
+"Unable to find JSON via relative path `{0}`"
+"`{0}` の相対パスにJSONを見つけられません"
+
+"Connection to host timed out for URL `{0}`"
+"`{0}` のURLへの接続はタイムアウトしました"
+
+"Unable to connect to unknown host at URL `{0}`"
+"`{0}` のURLで未知のホストへの接続ができません"
+
+"Unable to connect to host at URL `{0}`"
+"`{0}` のURLでホストへの接続ができません"
+
+"Connection refused by host at for URL `{0}`"
+"`{0}` のURLでホストへの接続が拒否されました"
+
+"Unable to retrieve resource at URL `{0}`"
+"`{0}` のURLでリソースの取得ができません"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"`{0}` のURLのリソースをJSONとして解析できません"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"LDAPサーバーへの接続に問題が起こりました。ローカルでの認証へフォールバックします: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"BigQueryステートメントはパラメーター化できません！"
+
+"We’d love your feedback."
+"フィードバックは大歓迎です"
+
+"It looks like Metabase wasn’t quite a match for you."
+"Metabaseはあなたに合わなかったようです。"
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Metabaseチームがその理由を理解し、将来的に物事を改善するのを助けるために、5問の高速アンケートに回答していただけますか"
+
+"We hope you''ve been enjoying Metabase."
+"Metabaseを楽しんでくださいね"
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"どのような感じだったか私たちが知るため簡単な6つの質問に答えてくれませんか？"
+
+"{0} created a Metabase account"
+"{0} はMetabaseアカウントを作成しました"
+
+"{0} accepted their Metabase invite"
+"{0} はMetabaseへの招待を受付けました"
+
+"[Metabase] Password Reset Request"
+"[Metabase] パスワードリセット申告"
+
+"[Metabase] Notification"
+"[Metabase] 通知"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] Metabaseの改善にご協力ください"
+
+"[Metabase] Tell us how things are going."
+"[Metabase] 感想をお聞かせください"
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"エラー：クエリのソースクエリは解決されていません。おそらく最初にクエリを「前処理」する必要があります。"
+
+"Don't know what to do with:"
+"何をすべきかわからない:"
+
+"Don't know how to wrap:"
+"ラップする方法がわからない:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"`query-caching-max-kb`を{0}に設定するのに失敗しました。"
+
+"Values greater than {1} are not allowed."
+"{1} より大きな値は指定できません。"
+
+"Database {0} does not exist."
+"データベース {0} は存在しません。"
+
+"Error: Database is not present in the Query Processor Store."
+"エラー: データベース{0}がクエリ処理ストアに存在しません。"
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"無効なembedding-secret-keyです！シークレットキーは16進数でエンコードされた256bitのキーでなければなりません（64文字の文字列）。"
+
+"JWT is missing `alg`."
+"JWTには`alg`がありません。"
+
+"JWT `alg` cannot be `none`."
+"JWT `alg`は`none`にはできません。"
+
+"The embedding secret key has not been set."
+"埋め込み秘密鍵が設定されていません。"
+
+"Token is missing value for keypath"
+"トークンにキーパスの値がありません"
+
+"Previous {0}"
+"前の{0}"
+
+"value must be a valid database engine."
+"値は有効なデータベースエンジンである必要があります。"
+
+"Connection refused by host for URL `{0}`"
+"`{0}`のURLでホストへの接続が拒否されました"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"警告: 本番環境で、MetabaseをH2アプリケーションデータベースと共に使用することはお勧めできません。"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"詳細については、 https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres を参照してください。"
+
+"Unable to connect to Metabase {0} DB."
+"Metabase {0} DBに接続できません。"
+
+"Failed to notify {0} Database {1} updated"
+"更新された{0}データベース{1}に通知できませんでした"
+
+"Loading driver {0} {1}"
+"{0} {1} ドライバーを読込中"
+
+"Load driver {0}"
+"{0} ドライバーを読込"
+
+"Driver not registered after loading: {0}"
+"ロード後にドライバーが登録されていません: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"エラー：{0}プロパティ `：abstract？`を{1}から{2}に変更しようとしています。"
+
+"Registered abstract driver {0}"
+"抽象ドライバー {0} を登録しました"
+
+"Registered driver {0}"
+"ドライバー {0} を登録しました"
+
+"(parents: {0})"
+"（親：{0}）"
+
+"Initializing driver {0}..."
+"ドライバー{0}の初期化中です..."
+
+"Reason:"
+"理由:"
+
+"Invalid driver feature: {0}"
+"無効なドライバー機能: {0}"
+
+"Invalid HoneySQL form:"
+"不正なHoney SQLの形式:"
+
+"Closing connection pool for database {0} ..."
+"データベース {0} へのコネクションプールを切断中です..."
+
+"Error loading namespace"
+"名前空間の読み込みエラー"
+
+"Starting events listener:"
+"イベントリスナーを開始しています:"
+
+"Unexpected error listening on events"
+"イベントをリッスンする際の予期しないエラー"
+
+"Error syncing Database {0}"
+"データベース {0} の同期に失敗しました"
+
+"Failed to process sync-database event."
+"データベース同期イベントの実行に失敗しました"
+
+"Bad nested-query-level: query does not have a source query"
+"ネストされたクエリレベルが正しくありません：クエリにソースクエリがありません"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"フィールド{0}のFieldValuesは変更されません。スキップしています..."
+
+"Unable to normalize:"
+"正規化できません:"
+
+"Could not find matching Field ID for target:"
+"ターゲットに一致するフィールドIDが見つかりませんでした:"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabaseはプラグインディレクトリへの書き込み権限を持っていません"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabaseはプラグインディレクトリ {0} を使用できません"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"ディレクトリが存在するか、Metabaseに書き込み権限があるか確認してください。"
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"環境変数 MB_PLUGINS_DIR を設定することにより、Metabaseがモジュールに使用するディレクトリを変更できます。"
+
+"Falling back to a temporary directory for now."
+"今のところ一時ディレクトリにフォールバックしています。"
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabaseは一時ディレクトリに書き込めません。 MB_PLUGINS_DIR を書き込み可能なディレクトリに設定し、Metabaseを再起動してください。"
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deeps.jarはMetabase 1.0以降では必要ありません。プラグインディレクトリから削除して構いません。"
+
+"Failied to initialize plugin {0}"
+"プラグイン {0} の初期化に失敗しました"
+
+"Loading plugins in {0}..."
+"{0}のプラグインを読込中…"
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Clojureベースローダーを共有コンテキストクラスローダーとして使用: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"現在のスレッドコンテキストクラスローダーを共有クラスローダー{0}に設定しています..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"現在のスレッドコンテキストクラスローダーを新規作成されたクラスローダー{0}に設定しています..."
+
+"Added URL {0} to classpath"
+"URL {0} をクラスパスに追加しました"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"プラグイン{0}はMetabaseが理解できない依存を宣言しています: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"有効なプラグインの依存関係の完全なリストについては、プラグインマニフェストリファレンスを参照してください:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"必要な依存性を満たしていないため、Metabaseはプラグイン{0}を初期化できません。"
+
+"Class not found: {0}"
+"クラスが見つかりません: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"プラグイン ''{0}'' はプラグイン ''{1}'' に依存しています。"
+
+"{0} dependency {1} satisfied? {2}"
+"{0}依存関係{1}は満足ですか？ {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"満たされていない依存関係を持つプラグイン: {0}"
+
+"Extract file {0} -> {1}"
+"ファイルを抽出{0}-> {1}"
+
+"Resource does not exist."
+"リソースが存在しません。"
+
+"Loading plugin namespace {0}..."
+"ネームスペース{0}のプラグインを読込中..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"依存関係が満たされました。 これらのプラグインがロードされます: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"{0}のJDBCプロキシドライバーを登録しています..."
+
+"Deregistering original JDBC driver {0}..."
+"これまで利用されていたJDBCドライバー{0}を登録解除しています..."
+
+"Default connection property {0} does not exist."
+"デフォルトの接続プロパティ{0}が存在しません。"
+
+"Invalid connection property {0}: not a string or map."
+"有効でない接続設定値{0}: 文字列またはマップではありません。"
+
+"Load lazy loading driver {0}"
+"遅延読み込みドライバー{0}を読み込みます"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"プラグインを初期化できません: driver-nameプロパティが設定されていません"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"警告: {0}へのプラグインマニフェストに接続プロパティがありません"
+
+"Registering lazy loading driver {0}..."
+"遅延ロードドライバー {0} の登録中です..."
+
+"Error running query for Card {0}"
+"カード {0} のクエリ実行中にエラー"
+
+"Last week"
+"先週"
+
+"This week"
+"今週"
+
+"Last month"
+"先月"
+
+"This month"
+"今月"
+
+"Last quarter"
+"第4四半期"
+
+"This quarter"
+"今四半期"
+
+"Last year"
+"昨年"
+
+"This year"
+"今年"
+
+"*driver* is unbound."
+"*ドライバー*はバインドされていません。"
+
+"Error syncing Fields for Table ''{0}''"
+"テーブル '' {0} ''のフィールドの同期中にエラーが発生しました"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"{0}のハッシュ値が保存されていたハッシュ値と一致しました。フィールド同期をスキップします"
+
+"Field"
+"フィールド"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"フィールド{0}を作成または再アクティブ化する必要があるかどうかのチェック中にエラーが発生しました"
+
+"Marking Field ''{0}'' as inactive."
+"''{0}'' フィールドを非アクティブとしてマークする"
+
+"Error retiring {0}"
+"{0}をリトライするのに失敗しました"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"{0}のデータベースタイプが”{1}”から”{2}”に変更されました"
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"{0}の基本タイプが '' {1} ''から '' {2} ''に変更されました。"
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"{0}の特別タイプは”{1}”から”{2}”に変更されました"
+
+"Comment has been added for {0}."
+"{0}へのコメントが追加されました。"
+
+"Stopping Quartz Scheduler {0}"
+"Quartzスケジューラ {0} を停止中です"
+
+"Starting Quartz Scheduler {0}"
+"Quartzスケジューラ {0} を開始中です"
+
+"Error loading tasks namespace {0}"
+"タスク名前空間{0}のロード中にエラーが発生しました"
+
+"Initializing task {0}"
+"タスク {0} を初期化しています"
+
+"Error initializing task {0}"
+"タスク {0} の初期化中にエラーが発生しました"
+
+"Problem sending abandonment email"
+"放棄メールの送信に関する問題"
+
+"Sending anonymous usage stats."
+"匿名の使用状況統計を送信します。"
+
+"Error sending anonymous usage stats"
+"匿名の利用統計の送信に失敗しました"
+
+"Error sending Pulse {0}"
+"パルス {0} の送信に失敗しました"
+
+"Sending scheduled pulses..."
+"スケジュールされたパルスを送信しています…"
+
+"SendPulses task failed"
+"パルス送信タスクが失敗しました"
+
+"Failed to scheduler tasks for Database {0}"
+"データベース {0} のスケジューラタスクが失敗しました"
+
+"Cleaning up task history"
+"タスク履歴の削除"
+
+"Task history cleanup successful, rows were deleted"
+"タスク履歴の削除は成功しました。行が削除されました。"
+
+"Task history cleanup successful, no rows were deleted"
+"タスク履歴の削除は成功しました。削除された行はありませんでした。"
+
+"Checking for new Metabase version info."
+"新しいバージョンのMetabaseの確認"
+
+"Error fetching version info"
+"バージョン情報の取得に失敗しました"
+
+"Maximum memory available to JVM: {0}"
+"JVMに割り当てられる最大メモリ量: {0}"
+
+"Not something with an ID: {0}"
+"IDのあるものではありません: {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"APIに渡されたカード結果メタデータはISSINGです。正しいメタデータを取得するクエリを実行しています。"
+
+"{0} was autocorrected to {1}"
+"{0}は{1}へオートコレクトされました"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE /api/metric/:idは推奨されていません。 代わりに、'archived'値をPUT /api/metric/:idで変更してください。"
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE /api/segment/:idは推奨されていません。 代わりに、'archived'値をPUT /api/segment/:idで変更してください。"
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"is_superuser の値は、 group_ids の管理グループIDの存在に対応する必要があります。"
+
+"Unexpected error writing keepalive characters"
+"キープアライブ文字の書き込みで予期しないエラーが発生しました"
+
+"Unexpected output in async API response"
+"非同期APIの応答が予想外の出力です"
+
+"starting streaming response"
+"ストリーミング応答の開始"
+
+"Output chan closed, canceling keepalive request."
+"出力チャンネルが閉じられ、キープアライブ要求がキャンセルされました。"
+
+"Async response finished, closing channels."
+"非同期通信が終了しました。チャンネルをクローズします。"
+
+"No response after waiting {0}. Canceling request."
+"{0} 待ちましたが応答がありません。問い合わせをキャンセルします"
+
+"Input channel unexpectedly closed."
+"入力チャンネルが予期せず閉じられました。"
+
+"f finished, permit will be returned"
+"f終了、許可が返されます"
+
+"request canceled, permit will be returned"
+"リクエストはキャンセルされ、許可が返されます"
+
+"Unexpected error attempting to run function after obtaining permit"
+"許可を取得した後に関数を実行しようとすると予期しないエラーが発生しました"
+
+"Not running pending function call: output channel already closed."
+"保留中の関数呼び出しを実行していません：出力チャネルはすでに閉じています。"
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"現在のスレッドにはすでに{0}の許可があり、別のスレッドの取得を待機しません"
+
+"Output channel closed, will skip running {0}."
+"出力チャネルが閉じています。実行中の{0}をスキップします。"
+
+"Running {0} on separate thread..."
+"{0}を複数のスレッドで実行中..."
+
+"Caught error running {0}"
+"{0}の実行中にエラーが発生しました"
+
+"Request canceled, canceling future"
+"リクエストがキャンセルされたため、フューチャーをキャンセルしています"
+
+"Closing old connection pool for database {0} ..."
+"データベース{0}への古いコネクションプールを閉じています..."
+
+"Here''s your {0} most recent cards:"
+"ここにあなたの最新{0}個のカードがあります："
+
+"Card {0} not found."
+"カード {0} が見つかりません"
+
+"Exception in API call"
+"API呼び出しの例外"
+
+"Request canceled before finishing."
+"問い合わせは終了前にキャンセルされました"
+
+"Metabase only supports JSON requests."
+"MetabaseはJSONリクエストのみをサポートしています"
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Content-Type: application/jsonのヘッダを設定したか確認してください"
+
+"Setting Metabase site URL to {0}"
+"MetabaseのサイトURLを{0}に設定しています"
+
+"Error scheduling tasks for DB"
+"DBのタスクのスケジューリングエラー"
+
+"Error unscheduling tasks for DB."
+"DBのタスクのスケジュール解除エラー。"
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0}データベース '' {1} ''の同期/分析スケジュールが変更されました！"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"メタデータを同期しました。前：''{0}''、現在：''{1}''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"フィールド値をキャッシュしました。前：''{0}''、現在：''{1}''"
+
+"You cannot update the creator_id of a Metric."
+"メトリックの creator_id を更新することはできません。"
+
+"Failed to grant permissions"
+"権限を付与できませんでした"
+
+"Changing permissions"
+"権限の変更"
+
+"FROM:"
+"FROM:"
+
+"TO:"
+"TO:"
+
+"You cannot update the creator_id of a Segment."
+"セグメントの creator_id を更新することはできません。"
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"設定{0}を難読化された値に設定しようとしました。変更を無視します。"
+
+"Using value of env var {0}"
+"環境変数{0}の値を使用"
+
+"Adding User {0} to All Users permissions group..."
+"ユーザー {0} をAll Users権限グループに追加しています..."
+
+"Adding User {0} to Admin permissions group..."
+"ユーザー {0} を管理者権限グループに追加しています..."
+
+"Query failure"
+"クエリの失敗"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"接続されたデータベースごとに許可する同時クエリの最大数。"
+
+"Timed out after {0} milliseconds."
+"{0} ミリ秒後にタイムアウトしました。"
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"LDAPサーバーへの接続に問題があり、ローカル認証にフォールバックします"
+
+"Cannot create Database: cannot find driver {0}."
+"データベースが作成できません: {0} ドライバーが見つかりません"
+
+"Query failed"
+"クエリが失敗しました"
+
+"Warning: {0} returned `nil`"
+"警告: {0} がnilを返しました"
+
+"Unexpected error writing result to output channel: already closed"
+"出力チャンネルへの結果の書き込みで予期しないエラーが発生しました: すでに閉じています"
+
+"Unexpected error writing exception to output channel: already closed"
+"出力チャンネルへの例外の書き込み中に予期しないエラーが発生しました: すでに閉じています"
+
+"Request canceled, canceling future."
+"リクエストがキャンセルされたため、フューチャーをキャンセルしています。"
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"MetabaseはH2からPostgresまたはMySQL/MariaDBへのデータ移行のみをサポートしています。"
+
+"Application database setup"
+"アプリケーションデータベース セットアップ"
+
+"Could not find {0} driver."
+"{0}のドライバーが見つかりませんでした"
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"抽象ドライバーは、具体的な親ドライバーから派生することはできません。"
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"SSLで接続するには、追加の接続オプションに `trustServerCertificate=true` を追加する必要がある場合があります。"
+
+"Don't know how to alias {0}, expected an Identifer."
+"{0}に別名をつける方法がわかりません。識別子がありません。"
+
+"Client closed connection, canceling query"
+"クライアントが接続を閉じ、クエリをキャンセルします"
+
+"{0} is not a valid DN."
+"{0}は有効なDNではありません"
+
+"Error logging API request"
+"APIリクエストのロギングエラー"
+
+"Failed to set site-url"
+"サイトURLのセットに失敗しました"
+
+"Error destroying thread pool for DB."
+"DBのスレッドプール終了エラー"
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"{0} '' {1} ''の表示名を更新しています： '' {2} ''-> '' {3} ''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"無効な人間化戦略 '' {0} ''。有効な戦略は次のとおりです：{1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Chaning Table＆Fieldは、人間化戦略を '' {0} ''から '' {1} ''に名付けました"
+
+"Error saving task history"
+"タスク履歴を保存するのに失敗しました"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"spark-deps.jarはMetabase 0.32.0以降では必要ありません。プラグインディレクトリから削除して構いません。"
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"「新しく作成された」クラスローダーを共有コンテキストクラスローダーとして使用: {0}"
+
+"Failed to copy file"
+"ファイルのコピーに失敗しました"
+
+"Invalid site URL: {0}"
+"無効なサイトURL: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"サイトURLが無効です; 現在はnilを返しています。次のリクエストでリセットされます。"
+
+"More results have been included as a file attachment"
+"より多くの結果が添付ファイルとして含まれています"
+
+"This question has been included as a file attachment"
+"この質問は添付ファイルとして含まれています"
+
+"We were unable to display this Pulse."
+"このパルスを表示することができませんでした。"
+
+"Please view this card in Metabase."
+"このカードをMetabaseでご覧ください。"
+
+"An error occurred while displaying this card."
+"このカードの表示中にエラーが発生しました。"
+
+"Can only determine expected columns for MBQL queries."
+"MBQLクエリの予想列のみを決定できます。"
+
+"No columns returned."
+"返される列はありません。"
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"警告: `source-metadata`も含めない限り、明示的な` source-query`のフィールドを決定できません。"
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"{0}を解決できません: フィールドが存在しないか、テーブルな異なるデータベースに属しています"
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"明示的な：aliasを使用した内部結合でない限り、：fk->内の：field-literalを解決できません。"
+
+"Cannot find Table ID for {0}"
+"{0}に対するテーブルIDが見つかりません"
+
+"No matching info found."
+"合致する情報が見つかりません"
+
+"Could not resolve {0}"
+"{0}を解決できませんでした"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"無効なfk->句：対応する結合を追加する場所がありません。"
+
+"{0} driver does not support foreign keys."
+"{0}ドライバーは外部キーをサポートしていません"
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"ソースメタデータのないネイティブソースクエリでは、ソースクエリの `：source-metadata`を推測できません。"
+
+"Query processor error: number of columns returned by driver does not match results."
+"クエリプロセッサエラー: ドライバーから返された列の数が結果と一致しません。"
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"{0}列の結果が期待されますが、結果の最初の行は{1}列有しています。"
+
+"No expression named {0} found. Found: {1}"
+"{0}という名前の式は見つかりませんでした。見つかった：{1}"
+
+"Distinct values of {0}"
+"{0}の重複を除いた値"
+
+"Average of {0}"
+"{0}の平均値"
+
+"Sum of {0}"
+"{0}の合計値"
+
+"SD of {0}"
+"{0}の標準偏差"
+
+"Min of {0}"
+"{0}の最小値"
+
+"Max of {0}"
+"{0}の最大値"
+
+"Sum of {0} matching condition"
+"条件に合致する{0}の合計値"
+
+"Share of rows matching condition"
+"基準に一致する行のシェア"
+
+"Count of rows matching condition"
+"条件に合致する行の数"
+
+"Request already canceled, will not run synchronous QP code."
+"要求はすでにキャンセルされており、同期QPコードは実行されません。"
+
+"Unexpectedly got `nil` Query Processor response."
+"予期せず `nil`クエリプロセッサの応答がありました。"
+
+"Got InterruptedException. Canceling query."
+"InterruptedException が発生しました。 クエリをキャンセルしています。"
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"未処理の例外。「catch-exceptions」ミドルウェアで処理されます。"
+
+"Query timed out after %s"
+"%s後にクエリがタイムアウトしました"
+
+"Creating new query thread pool for Database {0}"
+"データベース{0}に対する新しいクエリスレッドプールを作成中です"
+
+"Destroying query thread pool for Database {0}"
+"データベース{0}に対するクエリスレッドプールを削除中です"
+
+"Request canceled, canceling pending query"
+"リクエストをキャンセルし、保留中のクエリをキャンセルします"
+
+"Cannot update binned field: query is missing source-metadata"
+"ビニングされたフィールドを更新できません: クエリに source-metadata がありません"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"ビニングされたフィールドを更新できません: フィールド ''{0}''の一致するソースメタデータが見つかりませんでした"
+
+"Using query processor cache backend: {0}"
+"クエリプロセッサキャッシュバックエンドを使用：{0}"
+
+"Invalid metric: {0} reason: {1}"
+"無効なメトリック: {0} 理由: {1}"
+
+"Unknown error"
+"未知のエラー"
+
+"Unexpected nil response from query processor."
+"クエリプロセッサからの予期しないnil応答。"
+
+"Query canceled"
+"クエリがキャンセルされました"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"クエリのドライバーを解決できません: `:database` IDが見つからないか無効です。"
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"クエリに対するドライバーを解決することができません: データベース{0}が存在しません。"
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"：source-metadataがない限り、ソースクエリに対する結合で：fields：allを使用できません。"
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"不正：joined-field句：エイリアス '' {0} ''との結合は存在しません。見つかった：{1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"無効な：source-table '' {0} ''：現在、テーブルIDに解決する必要があります。"
+
+"Cannot store Tables or Fields before Database is stored."
+"データベースが保存される前にテーブルまたはフィールドを保存できません。"
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"2番目のデータベースを取得しようとしています。 クエリは1つのデータベースのみを参照できます。"
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"テーブル{0}のフェッチに失敗しました: テーブルが存在しないか、テーブルが異なるデータベースに属しています。"
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"フィールド{0}のフェッチに失敗しました: フィールドが存在しないか、フィールドが異なるデータベースに属しています。"
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"テンプレート ''{0}''の読み込みに失敗しました。 Metabaseフロントエンドをビルドすることを覚えていましたか？"
+
+"Found new tables:"
+"新しいテーブルが見つかりました:"
+
+"Marking tables as inactive:"
+"テーブルを非アクティブとしてマークする:"
+
+"Updating description for tables:"
+"テーブルの説明の更新:"
+
+"Rescheduling job {0}"
+"ジョブ{0}をリスケジュールしています"
+
+"Error rescheduling job"
+"ジョブのスケジュール変更エラー"
+
+"Starting Pulse Execution: {0}"
+"パルスの実行を始めています: {0}"
+
+"Finished Pulse Execution: {0}"
+"パルスの実行が終了しました: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"データベース{0}に対する定期タスクのスケジューリングに失敗しました"
+
+"All elements must be distinct."
+"全ての項目が一意でなければなりません"
+
+"Don't know how to alias {0}, expected an Identifier."
+"{0}に別名をつける方法がわかりません。識別子がありません。"
+
+"Error adding User {0} to Group {1}"
+"ユーザ{0}をグループ{1}に追加する際にエラーが発生しました"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"テーブルとフィールド名のヒューマナイゼーション戦略を '' {0} ''から '' {1} ''に変更"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"無限ループが検知されました: クエリに対する再帰的な前処理が{0}回行われました。"
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"警告: `source-metadata`も含めない限り、明示的な` source-query`のフィールドを決定できません。"
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"例外がハンドリングされていません。ミドルウェアで`catch-exceptions`を行いハンドリングしてください。"
+
+"All"
+"全て"
+
+"An error occurred while running the query."
+"クエリ実行中にエラーが起こりました。"
+
+"Output H2 database already exists: %s, removing."
+"出力H2データベースは既に存在します：％s、削除しています。"
+
+"Don't need to migrate, just use the existing H2 file"
+"移行の必要はありません。既存のH2ファイルを使ってください"
+
+"Target DB is already populated!"
+"ターゲットDBはすでに入力されています！"
+
+"System info:n {0}"
+"システム情報：{0}"
+
+"Database setup"
+"データベースのセットアップ"
+
+"Invalid '{{...}}' clause: expected a param name"
+"無効な節'{{...}}'：パラメタ名がありません"
+
+"'{{...}}' clauses cannot be empty."
+"'{{...}}'句は空にできません。"
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"'[[...]]'句には、少なくとも1つの '{{...}}'句を含める必要があります。"
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"無効なクエリ：「[[」または「{{」、一致する「]]がない」または「}}」が見つかりました"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"このクエリを実行できるようにするには、''{0}''の値を選ぶ必要があります。"
+
+"Can''t find field with ID: {0}"
+"ID {0}が紐づくフィールドが見つかりません"
+
+"Error loading driver namespace"
+"ドライバの名前空間のロードに失敗しました"
+
+"Could not load {0} driver."
+"{0}のドライバをロードできませんでした。"
+
+"Don''t know how to parse {0} {1}"
+"{0} {1}の解析方法がわからない"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"{0}に別名をつける方法がわかりません。識別子がありません。"
+
+"Don''t know how to unprepare values of class {0}"
+"クラス{0}の値を準備解除する方法がわかりません"
+
+"Creating new connection pool for {0} database {1} ..."
+"{0}データベース{1}の新しい接続プールを作成しています..."
+
+"Invalid timezone ''{0}''"
+"無効なタイムゾーン ''{0}''"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"タイムゾーンを設定できません：ドライバー{0}のSQL形式文字列が無効または欠落しています。"
+
+"Did you implement set-timezone-sql?"
+"set-timezone-sqlを実装しましたか？"
+
+"Failed to set timezone ''{0}''"
+"タイムゾーン''{0}''をセットするのに失敗しました"
+
+"Error parsing JSON"
+"JSONのパースに失敗しました"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"ホーム画面にデータを表示するか否か。生データよりも良いコンテンツにユーザを導きたい場合、管理者はこの機能をOFFにするケースがあります。"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"ホーム画面にオススメのX-Rayを表示するか否か。何らかのダッシュボードがピン留めされている場合には自動的に隠されます。生データよりも良いコンテンツにユーザを導きたい場合、管理者はこの機能をOFFにするケースがあります。"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"リモートアドレスではなくこのヘッダの値によってHTTPリクエストの発信源を同定します"
+
+"Could not resolve Setting {0}/{1}"
+"設定{0}/{1}を解決することができませんでした"
+
+"Invalid Setting: {0}/{1}"
+"無効な設定：{0}/{1}"
+
+"reached its goal"
+"目標に達成した"
+
+"gone below its goal"
+"目標を下回った"
+
+"Sending Pulse ({0}: {1}) via email"
+"メールでパルス（{0}: {1}）を送っています"
+
+"Pulse: {0}"
+"パルス：{0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Slackでパルス（{0}: {1}）を送っています"
+
+"Sending Alert ({0}: {1}) via email"
+"メールでアラート（{0}: {1}）を送っています"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Slackでアラート（{0}: {1}）を送っています"
+
+"Alert: {0}"
+"アラート：{0}"
+
+"Can''t find JS color selector at ''{0}''"
+"'' {0} ''でJSカラーセレクターが見つかりません"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"FIXME：これらは有効な時間リテラルではありません：{0} {1}。なぜそれらをそのようにフォーマットしようとしているのですか？"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"FK {4} '' {5} ''を介したフィールド{2} '' {3} ''のテーブル{0} '' {1} ''に対する結合に一致する情報が見つかりません"
+
+"Don''t know how to get information about Field: {0}"
+"フィールドに関する情報を取得する方法がわからない：{0}"
+
+"Query timed out after {0}"
+"{0}後にクエリがタイムアウトしました"
+
+"Formatting rows with results timezone ID {0}"
+"結果のタイムゾーンID {0}で行をフォーマットしています"
+
+"Invalid timezone ID ''{0}''"
+"無効なタイムゾーンID ''{0}''"
+
+"Saving fingerprint for {0}"
+"{0}の指紋を保存しています"
+
+"Sending abandoment email!"
+"アカウント削除メールを送っています！"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"結果の変換が期待に適合しません。nExpected：{0}"
+
+"Timed out after {0}"
+"{0}後にタイムアウトしました"
+
+"No temporal adjuster named {0}"
+"{0}という名前の一時的なアジャスターはありません"
+
+"Invalid unit: {0}"
+"無効な単位: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"{0}を{1}のフォーマットを利用してパースする方法が分かりません"
+
+"Token is missing value for keypath {0}"
+"トークンにキーパス{0}の値がありません"
+
+"Sending usage stats FAILED"
+"利用統計の送信が失敗しました"
+
+"or"
+"か"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabaseはこのデータベースの各フィールドの値をスキャンし、ダッシュボードや質問にチェックボックスのフィルタを有効にすることができます。特にとても大きなデータベースと接続する場合、これはある程度リソースを食う処理になる可能性があります。"
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"''{0}:{1}''への接続は成功しましたが、DBへの接続ができませんでした。"
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"ホスト''{0}''への接続は成功しましたが、ポート{1}は不正です。"
+
+"Host ''{0}'' is not reachable"
+"ホスト''{0}''にアクセスできません"
+
+"Unable to connect to database."
+"データベースに接続できません。"
+
+"Cannot connect to Database"
+"データベースに接続できません"
+
+"You''re not allowed to specify a value for {0}."
+"{0}の値を指定することはできません。"
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"JWTですでに設定されている場合、{0}の値を指定することはできません。"
+
+"You must specify a value for {0} in the JWT."
+"JWTで{0}の値を指定する必要があります。"
+
+"You can only specify a value for {0} in the JWT."
+"JWTでは{0}の値のみを指定できます。"
+
+"Error searching field values"
+"フィールド値を検索することに失敗しました"
+
+"Error searching for remapping"
+"再マッピングの検索エラー"
+
+"Double check that it matches in Google and Metabase."
+"それがGoogleとMetabaseで一致するかを再確認してください。"
+
+"Everything else"
+"そのほかの全て"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"警告：ネームスペースのトレーシングを有効にしました。これによりDBパスワードのような機微情報がログされる可能性があります。"
+
+"Database Upgrade Required"
+"データベースのアップグレードが必要です"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"注意：このバージョンのMetabaseで利用するためにはあなたのデータベースをアップデートする必要があります。"
+
+"Please execute the following sql commands on your database before proceeding."
+"続行する前に、データベースで次のSQLコマンドを実行してください。"
+
+"Once your database is updated try running the application again."
+"データベースがアップデートされたら、アプリケーションをもう一度走らせてみてください。"
+
+"Database requires manual upgrade."
+"データベースを手動でアップデートしてください。"
+
+"Successfully verified {0} {1} application database connection."
+"{0} {1}アプリケーションデータベース接続が正常に確認されました。"
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"日付パラメタ''{0}''をパースする方法がわかりません - 無効なフォーマットです。"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"参照されている質問＃{0}のサブクエリが次のエラーで失敗しました：{1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"警告：MetabaseはMySQL {0}とMaria DB {1}、またはそれ以降のバージョンのみを公式でサポートしています。"
+
+"All Metabase features may not work properly when using an unsupported version."
+"サポートされていないバージョンを使う場合、Metabaseの全ての機能が正しく動かない可能性があります。"
+
+"Cannot run the query: missing required parameters: {0}"
+"クエリを実行できません。必須パラメタ{0}が欠けています。"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"{0} {1}を時間リテラルとして解析する方法がわからない"
+
+"Setting {0} database timezone with statement: {1}"
+"{0}のタイムゾーンを次のステートメントによって設定しています: {1}"
+
+"Error setting connection to readwrite"
+"コネクションをRead/Writeに設定することに失敗しました"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"{1}へのタイムゾーン''{0}''の設定に失敗しました"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"{0}のトランザクション分離レベルを{1}に設定するのに失敗しました"
+
+"Error setting connection to read-only"
+"コネクションを読み取り専用に設定することに失敗しました"
+
+"Error setting default holdability for connection"
+"デフォルトのコネクション保持機能の設定に失敗しました"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"クエリがキャンセルされました。PrepareStatement.cancel()を呼び出しています。"
+
+"Failed to connect to database"
+"データベースに接続するのに失敗しました"
+
+"Unable to determine connection properties for driver {0}"
+"ドライバー{0}に対する接続プロパティを決定することができません"
+
+"Error fetching field values"
+"フィールド値をフェッチすることに失敗しました"
+
+"You cannot set {0}; it is a read-only setting."
+"{0}を設定することはできません。これは読み取り専用の設定です。"
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"Defsetting Description文字列には、 `：visibilty``：internal`、 `：setter``：none`、または国際化されたものが必要です： `{0}`"
+
+"Setting {0} is internal"
+"設定{0}は内部です"
+
+"Loading local plugin manifest at {0}"
+"{0}でローカルプラグインマニフェストを読み込んでいます"
+
+"Google Analytics tracking code."
+"Google Analyticsのトラッキングコード"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"メールで{2}個のカードとともにパルス（{0}: {1}）を送っています"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Slackで{2}個のカードとともにパルス（{0}: {1}）を送っています"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"パルスカードをチャートタイプ{0}、レンダリングタイプ{1}で表示しています"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"FIXME：これらは有効な時間リテラルではありません：{0} {1}。なぜそれらをそのようにフォーマットしようとしているのですか？"
+
+"Error reducing result rows"
+"結果行の削減中にエラーが発生しました"
+
+"Unexpected nil result"
+"予期しないnullの結果"
+
+"Query timed out after {0} ms, raising timeout exception."
+"クエリが{0}msでタイムアウトしました。Timeout Exceptionを発出しています"
+
+"Timed out after {0}."
+"{0}後にタイムアウトしました。"
+
+"Query canceled before finishing."
+"クエリ終了前にキャンセルされました"
+
+"Unknown query type {0}"
+"不明なクエリタイプ{0}"
+
+"Caching results for next time for query with hash {0}."
+"次回の実行のために結果をハッシュ値{0}に紐づけてキャッシュしています。"
+
+"Error saving query results to cache."
+"クエリ結果をキャッシュに保存するのに失敗しました。"
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"クエリの実行に{0}かかりました。キャッシュ適格性の最小値は{1}です"
+
+"Results are too large to cache."
+"結果が大きすぎてキャッシュすることができません。"
+
+"Error parsing serialized results"
+"直列化された結果をパースするのに失敗しました"
+
+"Error purging old cache entries"
+"古いキャッシュデータを削除することに失敗しました"
+
+"Caching results for query with hash {0}."
+"結果をハッシュ値{0}に紐づけてキャッシュしました。"
+
+"Cannot save QueryExecution, missing :context"
+"QueryExecutionを保存できません。：contextがありません"
+
+"Error saving query execution info"
+"クエリ実行情報を保存することに失敗しました"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"クエリのデータベースを解決できません： `：database` IDがないか無効です。"
+
+"Unable to resolve driver for query"
+"クエリのためのドライバを解決することができません"
+
+"Referenced question #{0} could not be found"
+"参照された質問#{0}は見つかりませんでした。"
+
+"Referenced query is from a different database"
+"参照されたクエリは異なるデータベースからのものです"
+
+"This query has circular referencing sub-queries. "
+"このクエリには循環参照をしているサブクエリが含まれています。"
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"これらの質問は問題の一部のようです：「{0}」と「{1}」。"
+
+"Error recording results metadata for query"
+"クエリの結果メタデータの記録中にエラーが発生しました"
+
+"Query result"
+"クエリ結果"
+
+"Error generating insights for column:"
+"コラムに対してインサイトを生成することに失敗しました:"
+
+"Sending abandonment email!"
+"アカウントの剥奪メールを送っています"
+
+"SSH Authentication"
+"SSH認証"
+
+"SSH Key"
+"SSHキー"
+
+"Server SSL certificate chain"
+"サーバーSSL証明書チェーン"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"質問の平均実行時間は{0}です。{1} "
+
+"A snippet with that name already exists. Please pick a different name."
+"その名前のスニペットはすでに存在しています。別の名前を選択してください。"
+
+"[Unknown Metric]"
+"[不明なメトリクス]"
+
+"[Unknown Segment]"
+"[不明なセグメント]"
+
+"Error writing error to output stream"
+"出力ストリームへのエラーを書き込み中にエラーが発生しました"
+
+"Caught unexpected Exception in streaming response body"
+"ストリーミング応答本文で予期しない例外をキャッチしました"
+
+"bound-fn caught unexpected Exception"
+"bound-fnが予期しない例外をキャッチしました"
+
+"Error determining whether HTTP request was canceled"
+"HTTPリクエストがキャンセルされたかどうかの判別中にエラーが発生しました"
+
+"Check cancelation status timed out after {0}"
+"{0}の後にタイムアウトになるキャンセルステータスを確認してください"
+
+"Unexpected exception in do-f-async"
+"do-f-asyncでの予期しない例外"
+
+"Unexpected exception writing error response"
+"エラー応答書き込み中の予期しない例外"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"サーバー証明書が信頼されていません - 正しいSSL証明書チェーンを指定しましたか？"
+
+"Server appears to require SSL - please enable SSL above"
+"サーバーはSSLを必要とするようです - 上でSSLを有効にしてください"
+
+"Username"
+"ユーザー名"
+
+"Don''t know how to parse parameter of type {0}"
+"タイプ{0}のパラメーターを解析する方法がわかりません"
+
+"Invalid :card parameter: missing `:card-id`"
+"不正なカードパラメータ: `:card-id`が存在しません"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"スニペット `:snippet-id`を解決することができません。"
+
+"Snippet {0} {1} not found."
+"スニペット{0} {1} が見つかりません。"
+
+"Error determining value for parameter"
+"パラメータの値を判別中にエラーが発生しました"
+
+"Error building query parameter map"
+"クエリパラメータマップの作成中にエラーが発生しました"
+
+"ASYNC"
+"非同期"
+
+"{0} ({1} DB calls)"
+"{0} ({1} DB calls)"
+
+"App DB connections: {0}/{1}"
+"App DBの接続: {0}/{1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"スレッドが渋滞中: {0}/{1} ({2} idle, {3} queued)"
+
+"({0} total active threads)"
+"(アクティブなスレッド: {0})"
+
+"Queries in flight: {0}"
+"実行中のクエリ: {0}"
+
+"({0} queued)"
+"({0}件が待機中)"
+
+"Collection must be in the same namespace as its parent"
+"コレクションはその親と同じ名前空間にある必要があります"
+
+"Personal Collections must be in the default namespace"
+"個人用コレクションはデフォルトの名前空間にある必要があります"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"作成したコレクションを別の名前空間に移動することはできません。"
+
+"Collection does not exist."
+"コレクションは存在しません。"
+
+"A {0} can only go in Collections in the {1} namespace."
+"{0}は{1}名前空間のコレクションにのみ移動することができます。"
+
+"Error sending database deletion notification"
+"データベース削除通知の送信中にエラーが発生しました"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"NativeQuerySnippetのcreator_idは更新できません。"
+
+"Error fetching value of Setting"
+"設定値の取得中にエラーが発生しました"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Metabase'sのUI、システムメール、パルス、アラートに使用する言語。"
+
+"This is also the default language for all users, which they can change from their own account settings."
+"これは、すべてのユーザーのデフォルト言語でもあり、ユーザーは自分のアカウント設定から変更できます。"
+
+"Invalid locale {0}"
+"ロケール{0}が不正です"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"サイトのURLがHTTPSの場合、すべてのトラフィックがリダイレクトを介してHTTPSを使用するように強制する"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"`site-urlがHTTPSでない限り、リクエストをHTTPSにリダイレクトできません。"
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"フォントの登録エラー：Metabaseはパルスを送信できません。"
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"これは、特定のJVMの既知の問題です。詳細については、 {0} をご覧ください。"
+
+"Error rendering Pulse"
+"パルスのレンダリング中にエラーが発生しました"
+
+"Query timed out after {0}, raising timeout exception."
+"{0}の後にクエリがタイムアウトし、タイムアウト例外が発生しました。"
+
+"No fields found for table {0}."
+"テーブル\"{0}\"にはフィールドがありません。"
+
+"Case"
+"ケース"
+
+"Variance of {0}"
+"{0}の分散"
+
+"Median of {0}"
+"{0}の中央値"
+
+"{0}th percentile of {1}"
+"{1}の{0}パーセンタイル値"
+
+"Not caching results: results are larger than {0} KB"
+"結果をキャッシュしない：結果が{0}KBを超えています"
+
+"Cannot cache results: expected byte array, got {0}"
+"結果をキャッシュできません：バイト配列を期待していたが、{0}を取得しました"
+
+"Request is closed; no one to return cached results to"
+"リクエストはクローズされています。キャッシュされた結果は返されません"
+
+"Error preparing statement to fetch cached query results"
+"キャッシュされたクエリ結果をフェッチするためのステートメントの準備中にエラーが発生しました"
+
+"Error processing query: {0}"
+"クエリの実行中にエラーが発生しました: {0}"
+
+"Unexpected exception in endpoint"
+"エンドポイントでの予期しない例外"
+
+"Unexpected Exception in API request handler"
+"APIリクエストハンドラーでの予期しない例外"
+
+"Error reducing {0}"
+"Error reducing {0}"
+
+"Error generating timeseries insight keyed by: {0}"
+"{0}をキーとする時系列インサイトの生成中にエラーが発生しました"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"{0}のデータベースが '' {1} ''から '' {2} ''に移動されました。"
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"データベース{0}のスケジュール解除タスク：トリガー：{1}"
+
+"value must be a keyword or string."
+"値はキーワードまたは文字列でなければなりません。"
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"文字列は、有効な2文字のISO言語または言語の国コードである必要があります。例えば'en'または'en_US'。"
+
+"Dashboard does not have a parameter with the ID {0}"
+"ダッシュボードには ID {0} のパラメータがありません。"
+
+"Parameter {0} does not have any Fields associated with it"
+"パラメタ {0} はそれに関連づく如何なるフィールドも持っていません"
+
+"include must be either empty or the value 'tables'"
+"include は空か値 'tables' のいずれかでなければなりません。"
+
+"`database` is required for all queries whose type is not `internal`."
+"型が `internal` ではないすべてのクエリに `database` が必要である。"
+
+"Password login is disabled for this instance."
+"このインスタンスでは、パスワードログインは無効になっています。"
+
+"Your account is disabled. Please contact your administrator."
+"あなたのアカウントは無効になりました。管理者に連絡してください。"
+
+"Your account is disabled."
+"あなたのアカウントは無効になりました。"
+
+"Invalid Slack token."
+"無効なSlackトークン。"
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"''{0}''コマンドは商用版Metabaseでのみで利用可能です"
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Metabase Enterprise Editionの拡張機能はPRESENTです。"
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Metabase Enterprise Editionの機能の利用はMetabase Commercial Licenseに従います。"
+
+"See {0} for details."
+"詳細は{0}で確認してください。"
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Metabase Enterprise Editionの拡張機能は存在しません。"
+
+"You''re invited to join {0}''s {1}"
+"{0}の{1}に招待されました"
+
+"{0} created a {1} account"
+"{0}は{1}アカウントを作成しました"
+
+"{0} accepted their {1} invite"
+"{0}が{1}の招待を受け入れました"
+
+"[{0}] Password Reset Request"
+"[{0}] パスワードリセット申請"
+
+"[{0}] Notification"
+"[{0}] 通知"
+
+"[{0}] Help make [{1}] better."
+"[{0}] [{1}]をより良くすることに協力する"
+
+"[{0}] Tell us how things are going."
+"[{0}] どうなっているのか教えてください。"
+
+"Error starting events listener"
+"イベントリスナ開始時のエラー"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"LDAPを通してログインが行われた場合にユーザ属性情報を同期するべきですか？"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"LDAPユーザの同期をスキップするためのカンマ切りされたユーザ属性情報のリスト。"
+
+"Invalid token"
+"無効なトークン"
+
+"Slack API error: {0}"
+"Slack APIエラー：{0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Slackの統合を完了するには、チャネルを作成またはアーカイブ解除してください。"
+
+"Uploaded image"
+"アップロードされた画像"
+
+"Invalid session. Expected an instance of Session."
+"無効なセッションです。セッションのインスタンスを期待しています。"
+
+"Top folder"
+"トップフォルダ"
+
+":parameters must be a sequence of maps with String :id keys"
+"parameters は、String :id キーを持つマップのシーケンスでなければなりません。"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"無効な人間が読める値: 値はシーケンスである必要があります。各項目はnilまたは文字列である必要があります"
+
+":values must be present to fetch :human_readable_values"
+"human_readable_values を取得するには :values が存在しなければなりません。"
+
+"Field values total length is > {0}."
+"フィールド値の合計長さは> {0}です。"
+
+"snippet names cannot include '}' or start with spaces"
+"スニペット名は'}'を含んだりスペースから始めたりすることはできません"
+
+"Error executing chain filter query"
+"チェーンフィルタクエリの実行エラー"
+
+"Field {0} does not exist."
+"フィールド{0}は存在しません。"
+
+"Cannot search against non-Text Field {0} {1}"
+"非テキストフィールド {0} {1} に対して検索できません。"
+
+"Granting permissions for group {0}: {1}"
+"グループ{0}へのパーミッションを与える：{1}"
+
+"Revoking permissions for group {0}: {1}"
+"グループ{0}へのパーミッションを取り消す：{1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"無効なDB権限：ネイティブクエリの書き込みアクセス権がある場合、完全なデータアクセス権が必要です。"
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"無効なDBアクセス許可：読み取り専用のネイティブクエリアクセス権がある場合、データアクセス権も必要です。"
+
+"Changing permissions from: {0} to: {1}"
+"パーミッションを{0}から{1}へ変更する"
+
+"login attribute keys must be a keyword or string"
+"ログイン属性のキーはキーワードか文字列でなければなりません。"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Metabase UI、システムメール、パルス、アラート全てにわたって全ユーザに適用されるデフォルト言語。"
+
+"Users can individually override this default language from their own account settings."
+"ユーザは、自分のアカウント設定からこのデフォルト言語を個別に上書きできます。"
+
+"Default page to show the user"
+"ユーザに見せるデフォルトページ"
+
+"Allow this origin to embed the full Metabase application"
+"このオリジンが完全な Metabase アプリケーションを埋め込むことを許可する"
+
+"Values greater than {0} ({1}) are not allowed."
+"{0}より大きな値（{1}）は許可されていません。"
+
+"This will replace the word \"Metabase\" wherever it appears."
+"これにより、\"Metabase\"という単語が表示される場所が置き換えられます。"
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"これらがMetabase全体とチャートで用いられる主な色です。変更が適用されたことを確認するにはブラウザを更新する必要がある場合があります。"
+
+"For best results, use an SVG file with a transparent background."
+"最良の結果を得るには、背景が透明なSVGファイルを使用してください。"
+
+"The url or image that you want to use as the favicon."
+"ファビコンとして使用するURLまたは画像。"
+
+"Allow logging in by email and password."
+"電子メールとパスワードによるログインを許可します。"
+
+"Unable to validate token"
+"トークンの検証ができません"
+
+"Token format is invalid."
+"トークンの形式が無効です。"
+
+"Error validating token"
+"トークン検証エラー"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"{0}フィールドに対するフィルタリングエラー：文字列{1}を{2}にパースできません"
+
+"Error fetching details for Job: {0}"
+"ジョブの詳細を取得するのに失敗しました：{0}"
+
+"Starting sync task for Database {0}."
+"データベース {0}との同期タスクを開始しています。"
+
+"Cannot sync Database {0}: Database does not exist."
+"データベース {0}と同期できません：データベースが存在しません。"
+
+"Update Field values task triggered for Database {0}."
+"データベース{0}に対するフィールド値アップデートタスクが発動されました"
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"アップデートをスキップしています：データベース{0}の自動フィールド値アップデートは無効化されています。"
+
+"Periodically refingerprint tables"
+"定期的にテーブルの再印刷を行う"
+
+"Unable to run internal query function: cannot resolve {0}"
+"内部クエリ関数を実行できません。"
+
+"Audit App queries are not enabled on this instance."
+"このインスタンスでは、Audit App クエリは有効になっていません。"
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"無効な内部クエリ関数です。0} が ^:internal-query-fn としてマークされていません。"
+
+"Error: sandboxing is not enabled for this instance."
+"エラー: このインスタンスではサンドボックス化が有効になっていません。"
+
+"Please check you have set a valid Enterprise token and try again."
+"有効なEnterpriseトークンが設定されていることを確認してから、再度お試しください。"
+
+"No permissions found for current user"
+"現在のユーザーのパーミッションが見つかりません"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"ユーザー ''{0}'' がアクセスできないフィールドにアクセスしようとしました。アクセス可能なフィールド {1}, クエリ内のフィールド {2}"
+
+"User not able to query field"
+"ユーザーがフィールドを照会できない"
+
+"Found more than one group table access policy for user ''{0}''"
+"ユーザー ''{0}'' のグループテーブルアクセスポリシーが複数見つかりました。"
+
+"Query requires user attribute `{0}`"
+"クエリはユーザ属性 `{0}` を必要とします。"
+
+"invalid --mode value"
+"無効な --モード値"
+
+"invalid --on-error value"
+"無効なエラー値"
+
+"invalid context seed value"
+"無効なコンテキストシード値"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"ダンプは別バージョンのMetabaseを使って作成しました。物事が壊れるかもしれません。"
+
+"Error loading dump: {0}"
+"ダンプの読み込みエラー。{0}"
+
+"{0} is not a valid user"
+"{0} は有効なユーザではありません。"
+
+"Error dumping {0}"
+"エラーダンピング{0}。"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"管理者ユーザーが見つかりませんでした。ロードされたすべてのエンティティの所有者として行動するためには、少なくとも1人の管理者ユーザーが必要です。"
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"依存関係の読み込みエラー: 未知のエンティティへの参照 {0}。"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"Can''t resolve {0} in fully qualified name {1}."
+
+"Model {0} does not support upsert"
+"モデル{0}はアップサートをサポートしていません。"
+
+"Error inserting {0}"
+"{0}を挿入するとエラーになります。"
+
+"Inserting {0}"
+"{0}を挿入する"
+
+"{0} already exists -- skipping"
+"{0} は既に存在している -- スキップ"
+
+"Skipping {0} (nothing to update)"
+"スキップ {0} (更新するものがない)"
+
+"Updating {0}"
+"{0}を更新する"
+
+"Error updating {0}"
+"エラー更新{0}。"
+
+"SSO has not been enabled and/or configured"
+"SSOが有効化されていない、または設定されていない"
+
+"SSO requires a valid token"
+"SSO は有効なトークンを必要とします。"
+
+"Error returning SSO entry point"
+"SSOエントリーポイントを返すエラー"
+
+"Error logging in"
+"エラーロギング"
+
+"Can't create new JWT user when JWT is not configured"
+"JWTが設定されていない場合、新しいJWTユーザーを作成できない"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO が有効になっていない、または設定されていない"
+
+"Invalid SAML configuration: could not find user email."
+"無効な SAML 構成: ユーザの電子メールが見つかりませんでした。"
+
+"We tried looking for {0}, but couldn't find the attribute."
+"{0}を探してみましたが、属性が見つかりませんでした。"
+
+"Please make sure your SAML IdP is properly configured."
+"SAML IdP が適切に構成されていることを確認してください。"
+
+"SAML has not been enabled and/or configured"
+"SAML が有効化されていない、または構成されていない"
+
+"Warning: expected `redirect` param, but none is present"
+"警告: `redirect` パラメータが期待されていますが、存在しません。"
+
+"Error generating SAML request"
+"SAMLリクエストの生成エラー"
+
+"Unable to log in: SAML IdP certificate is not set."
+"ログインできません。SAML IdP 証明書が設定されていません。"
+
+"SAML response validation failed"
+"SAML レスポンスの検証に失敗しました。"
+
+"Unable to log in: SAML response validation failed"
+"ログインできません。SAML レスポンスの検証に失敗しました。"
+
+"Unable to log in: SAML info does not contain user attributes."
+"ログインできません。SAML 情報にユーザー属性が含まれていません。"
+
+"Enable SAML authentication."
+"SAML 認証を有効にする。"
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"これは、ユーザが ID プロバイダにログインするための URL です。どの IdP を利用しているかによって異なります。\nを使用している場合、通常は https://your-org-name.example.com か https://example.com/app/my_saml_app/abc123/sso/saml のようになります。"
+
+"Error parsing SAML identity provider certificate"
+"SAML ID プロバイダ証明書の解析エラー"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"無効な ID プロバイダ証明書です。証明書はベース64にエンコードされた文字列でなければなりません。"
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"ID プロバイダのエンコードされた証明書です。IdPによっては、これをダウンロードする必要があるかもしれません。\nテキストエディタで開いて、証明書の内容をコピーしてここに貼り付けてください。"
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"IdP の一意の識別子です。Entity ID または単に「Issuer」と呼ばれることが多い。識別情報の内容によっては\nIdP の場合、通常は http://www.example.com/141xkex604w0Q5PN724v のようになります。"
+
+"This application name will be used for requests to the Identity Provider"
+"このアプリケーション名は、Identity Provider へのリクエストに使用される。"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"SAML リクエストの署名に使用する Keystore ファイルへの絶対パス"
+
+"Password for opening the keystore"
+"キーストアを開くためのパスワード"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"MetabaseがSAMLリクエストの署名に使用するキーのエイリアス。"
+
+"SAML attribute for the user''s email address"
+"ユーザのメールアドレスのSAML属性"
+
+"SAML attribute for the user''s first name"
+"ユーザの名前のSAML属性"
+
+"SAML attribute for the user''s last name"
+"ユーザの姓のSAML属性"
+
+"Enable group membership synchronization with SAML."
+"SAML でグループ・メンバーシップの同期を有効にする。"
+
+"SAML attribute for group syncing"
+"グループ同期用の SAML 属性"
+
+"JSON containing SAML to Metabase group mappings."
+"SAMLからMetabaseグループへのマッピングを含むJSON。"
+
+"Enable JWT based authentication"
+"JWTベースの認証を有効にする"
+
+"URL of JWT based login page"
+"JWTベースのログインページのURL"
+
+"String used to seed the private key used to validate JWT messages"
+"JWT メッセージの検証に使用する秘密鍵のシードに使用する文字列"
+
+"Key to retrieve the JWT user's email address"
+"JWTユーザーのメールアドレスを取得するためのキー"
+
+"Key to retrieve the JWT user's first name"
+"JWTユーザーのファーストネームを取得するためのキー"
+
+"Key to retrieve the JWT user's last name"
+"JWTユーザーの姓を取得するためのキー"
+
+"Key to retrieve the JWT user's groups"
+"JWTユーザーのグループを取得するためのキー"
+
+"Enable group membership synchronization with JWT."
+"JWTとのグループメンバーシップ同期を有効にします。"
+
+"JSON containing JWT to Metabase group mappings."
+"JWTからMetabaseグループへのマッピングを含むJSON。"
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"新しいメール通知は、すべての新しいSSOユーザーのために、管理者に送信する必要がありますか？"
+
+"New SSO user created: {0} ({1})"
+"新しいSSOユーザが作成されました。{0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"無効なアラート：アラートにはカードが付いていない"
+
+"Error determining whether Database supports nested queries"
+"データベースがネストされたクエリをサポートしているかどうかを判断するエラー"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"無効なクエリ・パラメータ: ID {0} のパラメータのスラッグを決定できませんでした。"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"値を検索できません。 {0} は有効なパラメータではありません。"
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"JWTで既に{0}が設定されている場合は、値を指定することはできません。"
+
+"Error compiling HoneySQL form"
+"HoneySQLフォームのコンパイルエラー"
+
+"Not a valid Database/Database ID/JDBC spec"
+"有効なデータベース/データベースID/JDBC仕様ではありません。"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"値は、キー `{0}`, `{1}`, `{2}`, `{3}` を持つマップでなければなりません。"
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"クラス {0} 用のプロキシ JDBC ドライバが作成されていない -- オリジナルのドライバはシステムの ClassLoader によってロードされた"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"クエリの実行に要する時間は{0}で、キャッシュの有効性の最小値は{1}です。"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"あいまいな結合で結合されたフィールドを解決できません: テーブル {0} (ID {1}) が複数回結合されました。フィールド参照を明示的な :jined-field 句で囲む必要があります。"
+
+"Error normalizing form."
+"フォームを正規化するエラー。"
+
+"Error canonicalizing query"
+"クエリの正規化エラー"
+
+"Error performing whole query transformations"
+"クエリ全体の変換を実行する際のエラー"
+
+"Error normalizing query"
+"エラーの正規化クエリ"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"サンドボックスカードは、サンドボックス化しているテーブルに存在しないカラムを返すことはできません。"
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"サンドボックスカードは、サンドボックス化しているテーブルとは異なるタイプのカラムを返すことはできません。"
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"カードの更新ができません。カードはサンドボックスで使用され、更新するとサンドボックスのルールに違反します。"
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"一度作成したGTAPのテーブルIDを変更することはできません。"
+
+"`database` is required for all queries."
+"すべてのクエリには `database` が必要である。"
+
+"copied {0} instances."
+"{0} インスタンスをコピーしました。"
+
+"Copying instances of {0}..."
+"{0}のインスタンスをコピーする..."
+
+"Error copying instances of {0}"
+"{0}のインスタンスをコピーする際のエラー"
+
+"Temporarily disabling DB constraints..."
+"DBの制約を一時的に無効にする...。"
+
+"Re-enabling DB constraints..."
+"DB制約の再有効化..."
+
+"Setting Postgres sequence ids to proper values..."
+"PostgresのシーケンスIDを適切な値に設定する..."
+
+"Set up {0} source database and run migrations..."
+"{0}ソースデータベースを設定して移行を実行する..."
+
+"Set up {0} target database and run migrations..."
+"{0}ターゲットデータベースを設定して移行を実行する..."
+
+"Testing if target {0} database is already populated..."
+"ターゲット{0}データベースが既に登録されているかどうかのテスト..."
+
+"Unsupported application database type: {0} is not currently supported."
+"サポートされていないアプリケーション・データベース・タイプです。{0}は現在サポートされていません。"
+
+"Check the value of MB_DB_CONNECTION_URI."
+"MB_DB_CONNECTION_URI の値を確認します。"
+
+"Driver {0} does not support {1}"
+"ドライバ{0}は{1}をサポートしていません。"
+
+"No magnitude known for {0}"
+"{0}のマグニチュードは知られていない"
+
+"Error resolving source query"
+"ソースクエリの解決エラー"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"無効な GeoJSON ファイルの場所: http:// または https:// で始まるか、クラスパス上のファイルへの相対パスでなければなりません。"
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"内部でホスティングのメタデータを提供しているホストを参照しているURLは禁止されています。"
+
+"Invalid custom GeoJSON."
+"無効なカスタム GeoJSON です。"
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"無効な{0}: インデックス{1}でブレークアウトを指定したが、ブレークアウトは{2}しかない。"
+
+"Error generating pivot queries"
+"ピボットクエリのエラー生成"
+
+"Sync the admin group?"
+"管理者グループの同期は？"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"サンドボックス質問は、サンドボックス化しているテーブルとは異なるタイプの列を返すことはできません。"
+
+"Error preprocessing source query when applying GTAP"
+"GTAP適用時のソースクエリの前処理エラー"
+
+"Error running query to determine metadata"
+"メタデータ決定のためのクエリ実行時のエラー"
+
+"Can't create new SAML user when SAML is not configured"
+"SAMLが構成されていない場合に、新しいSAMLユーザーを作成できない"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"準備されたステートメントのフェッチ方向をFETCH_FORWARDに設定するエラー"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"ステートメントのフェッチ方向をFETCH_FORWARDに設定するエラー"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"この質問のクエリを実行する権限がないため、この質問を保存することはできません。"
+
+"Authentication endpoint error"
+"認証エンドポイントエラー"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"SSHトンネルは、TCPプロトコルを使用したH2接続でのみ確立できます。"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"データベース {0} の ssh トンネルが閉じているように見える。"
+
+"Query canceled, calling Statement.cancel()"
+"クエリがキャンセルされ、Statement.cancel()が呼び出されました。"
+
+"Select statement did not produce a ResultSet for native query"
+"Select文でネイティブクエリのResultSetが生成されない"
+
+"We''ve Noticed a New {0} Login, {1}"
+"新たに{0}のログイン、{1}のログインを確認しました。"
+
+"Don''t know how to process event with model {0}"
+"モデル{0}のイベントの処理方法がわからない"
+
+"Failed to process activity event {0}"
+"アクティビティイベント{0}の処理に失敗しました。"
+
+"Error sending ''login from new device'' notification email"
+"新しいデバイスからのログイン」の通知メール送信エラー"
+
+"You can''t update a LoginHistory after it has been created."
+"LoginHistoryが作成された後は、更新できません。"
+
+"Setting {0} already registered in {1}"
+"設定{0}は{1}にすでに登録されています。"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"SSHトンネル確立時にハートビートを送信する頻度を制御します（単位：秒）。"
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"FKフィールド{0}に一致するFKテーブルIDが見つかりません。"
+
+"Error optimizing temporal filter clause"
+"誤差を最適化するテンポラリフィルタ節"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"曖昧な結合のため、結合されたフィールドを解決できません：テーブル {0} (ID {1}) が複数回結合されています。フィールドの参照に明示的な `:join-alias` を指定する必要があります。"
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"サポートされていない一時的なバケット処理。0}のフィールドを{1}でバケット化することはできません。"
+
+"Error processing additional pivot table query"
+"ピボットテーブルの追加クエリの処理エラー"
+
+"Invalid cell format"
+"無効なセル形式"
+
+"Enable typeahead search in the Metabase navbar?"
+"ナビゲーションバーでの検索サジェストを有効にしますか？"
+
+"Login request is missing user-agent information"
+"ログインリクエストにユーザーエージェントの情報がありません"
+
+"Unable to determine login request IP address"
+"ログインリクエストのIPアドレスを特定できません"
+
+"Error determining login history for request"
+"リクエストに対するログイン履歴の判定エラー"
+
+"unknown"
+"不明"
+
+"Unknown device type"
+"不明なデバイスタイプ"
+
+"Unknown OS"
+"不明なOS"
+
+"Unknown browser"
+"不明なブラウザ"
+
+"Error geocoding IP addresses"
+"IPアドレスのジオコーディングエラー"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"{0}のセマンティックタイプが、「{1}」から「{2}」に変更されました。"
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"{0}の名前が「{1}」から「{2}」に変わりました。"
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"{0}を日付/時刻としてフォーマットする方法が不明です。"
+
+"Valid coercion strategy"
+"有効な強制戦略"
+
+"value must be a valid coercion strategy."
+"の値は、有効な強制手段でなければなりません。"
+
+"Saved Questions"
+"保存された質問"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"グループメンバー検索フィルターです。プレースホルダーの'{dn}'と'{uid}'は、それぞれユーザーの識別名とUIDに置き換えられます。"
+
+"Error deleting Sandboxes: {0}"
+"サンドボックスの削除でエラーが発生しました。{0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"BEGIN LOAD from {0} with context {1}."
+
+"Finished first pass of load; now performing second pass"
+"ロードのファーストパスを終え、セカンドパスを実行中"
+
+"END LOAD from {0} with context {1}"
+"END LOAD from {0} with context {1}."
+
+"ERROR LOAD from {0}: {1}"
+"ERROR LOAD from {0}:{1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"BEGIN DUMP to {0} via user {1}」と表示されます。"
+
+"END DUMP to {0} via user {1}"
+"END ユーザー{1}経由で{0}へのDUMP"
+
+"Could not find context for fully qualified card name {0}"
+"完全修飾カード名{0}のコンテキストが見つかりませんでした。"
+
+"Could not find context for fully qualified snippet name {0}"
+"完全修飾スニペット名{0}のコンテキストが見つかりませんでした。"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"ロードされたカード「{0}」に対するクエリの実行に失敗しました。{1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"非表示のテーブルを同期するためにデータベース ''{0}'' に接続できない"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"MB_ENCRYPTION_SECRET_KEYを使用してアプリDBを復号できない"
+
+"Invalid domain"
+"無効なドメイン"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"ユーザー検索フィルターです。プレースホルダーの「{login}」は、ユーザーが指定したログイン名に置き換えられます。"
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"ユーザの電子メールに使用する属性です。(通常は''mail''、''email''、''userPrincipalName''のいずれか)"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"グループの検索ベース。Active Directoryなど、''memberOf''オーバーレイを提供するLDAPディレクトリでは必要ありません。(再帰的に検索されます)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"パーソナルコレクションの所有者を変更することはできません。"
+
+"You are not allowed to change the authority level of a Personal Collection."
+"パーソナルコレクションの権限レベルを変更することはできません。"
+
+"You are not allowed to move a Personal Collection."
+"パーソナルコレクションを移動することはできません。"
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"CollectionPermissionGraphRevisionの更新はできません。"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"無効なフィールド {0} {1}: {2}にフォールバックする。"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"テーブルやフィールドの名前を人間に読みやすい形にするため、Metabaseは名前の中のダッシュやアンダーバーを空白に置換します"
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"last_visited_at」は「Last Visited At」となります。"
+
+"Setting names in would collide: {0} and {1}"
+"の設定名がぶつかってしまう。0}と{1}。"
+
+"Indicates when Metabase last checked for new versions."
+"Metabaseが最後に新しいバージョンをチェックした時期を示します。"
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"このURLは、メール内のリンク作成や認証リダイレクトなどに使用されます。"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"これを変更すると、機能が停止したり、このインスタンスからロックアウトされる可能性があります。"
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"この設定を行うと、すべてのユーザーに対して、ブラウザを閉じたときに失効するセッションクッキーを使用するようになります。"
+
+"Error parsing paging parameters: {0}"
+"ページングパラメータの解析でエラーが発生しました。{0}"
+
+"Error running sync step"
+"同期ステップの実行エラー"
+
+"Error in sync step {0}"
+"同期ステップ{0}でのエラー"
+
+"Error fetching version info; setting version-info value to nil"
+"バージョン情報の取得に失敗し、バージョン情報の値をnilに設定する"
+
+"Valid field semantic type"
+"有効なフィールドセマンティックタイプ"
+
+"value must be a valid field semantic type."
+"の値は、有効なフィールドセマンティックタイプでなければなりません。"
+
+"Valid field relation type"
+"有効なフィールド・リレーション・タイプ"
+
+"value must be a valid field relation type."
+"の値は、有効なフィールド・リレーション・タイプでなければなりません。"
+
+"Valid field semantic or relation type"
+"有効なフィールドセマンティックまたはリレーションタイプ"
+
+"value must be a valid field semantic or relation type."
+"の値は、有効なフィールドセマンティックまたはリレーションタイプでなければなりません。"
+
+"Valid field data type (keyword or string)"
+"有効なフィールドデータタイプ（キーワードまたは文字列"
+
+"value must be a valid field data type (keyword or string)."
+"の値は、有効なフィールドデータタイプ（キーワードまたは文字列）でなければなりません。"
+
+"Valid field semantic type (keyword or string)"
+"有効なフィールド・セマンティック・タイプ（キーワードまたは文字列"
+
+"value must be a valid field semantic type (keyword or string)."
+"の値は、有効なフィールド・セマンティック・タイプ（キーワードまたは文字列）でなければなりません。"
+
+"Valid field relation type (keyword or string)"
+"有効なフィールド・リレーション・タイプ（キーワードまたは文字列"
+
+"value must be a valid field relation type (keyword or string)."
+"の値は、有効なフィールド・リレーション・タイプ（キーワードまたは文字列）でなければなりません。"
+
+"Valid field semantic or relation type (keyword or string)"
+"有効なフィールド・セマンティックまたはリレーション・タイプ（キーワードまたは文字列"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"の値は、有効なフィールドセマンティックまたはリレーションタイプ（キーワードまたは文字列）でなければなりません。"
+
+"value must be a valid coercion strategy (keyword or string)."
+"の値は、有効な強制手段（キーワードまたは文字列）でなければなりません。"
+
+"password is too common."
+"パスワードが一般的過ぎます"
+
+"Invalid custom GeoJSON"
+"無効なカスタムGeoJSON"
+
+"GeoJSON URL failed to load"
+"GeoJSON URLの読み込みに失敗しました。"
+
+"Error building query parameter map: {0}"
+"Error building query parameter map:{0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"プラグイン''{0}''は環境変数''{1}''が何かに設定されていることに依存します。"
+
+"Down"
+"ダウン"
+
+"Up"
+"アップ"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"新しいDashboardSubscriptionおよびAlertsで許可されるEメールアドレスのドメインです。既存のサブスクリプションには影響しません。"
+
+"Invalid email address: {0}"
+"メールアドレスが無効です。{0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"ドメイン{0}に対して新しいサブスクリプションを作成することはできません。許可されるドメインは{1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"このAPIエンドポイントは、{0}機能付きのプレミアムトークンを持っている場合のみ有効です。"
+
+"Error compiling audit query: {0}"
+"監査クエリのコンパイルでエラーが発生しました。{0}"
+
+"Error running audit query: {0}"
+"監査クエリの実行中にエラーが発生しました。{0}"
+
+"Error parsing Pulse parameters: {0}"
+"パルスパラメーターの解析でエラーが発生しました。{0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Blocked: データベース {0} に対してクエリを実行することは許可されていません。"
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"パーミッション・グラフが無効なため、解析できません。{0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"データベース{0}の詳細のハッシュが変更され、プールを再オープンするために無効とマークする"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"DB のパーミッションが無効です。ネイティブクエリの書き込み権限がある場合は、データへの完全なアクセス権が必要です。"
+
+"Error parsing permissions tree {0}"
+"パーミッションツリーの解析エラー {0}。"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"ダッシュボード・サブスクリプションのコレクションIDを直接変更できない"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"ダッシュボードサブスクリプションのダッシュボードIDが変更できない"
+
+"Javascript resource not found: {0}"
+"Javascriptのリソースが見つかりません。{0}"
+
+"Found new version for DB: {0}"
+"DB: {0}の新しいバージョンが見つかりました。"
+
+"Rerun queries for simple explorations"
+"シンプルな探索のためのクエリの再実行"
+
+"Choose when syncs and scans happen"
+"同期とスキャンがいつ走るかを選んで下さい"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"デフォルトでは、Metabaseはフィールド値について毎時の軽量な同期と日次の重い同期を行います。大きなデータベースを扱う場合、設定変更のためにオンに変えてください。"
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"これにより、Metabaseは同期中に追加のフィールド値をスキャンすることができ、棒グラフの自動ビンディングの改善など、よりスマートな動作が可能になります。"
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"デフォルトでは、\"Site Url \"が通知リンクに使用されますが、上書きすることができます。"
+
+"Error preprocessing source query when applying GTAP: {0}"
+"GTAP適用時のソースクエリの前処理でエラーが発生しました。{0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Snowplowのアナリティクスで使用される、Metabaseのこのインスタンスを識別するための一意の識別子。"
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"初期設定前に一部のアナリティクスイベントが送信されるため、これは公開設定です。"
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"SnowplowコレクターがAnalyticsイベントの受信に利用できるかどうかを示すブール値。"
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Cypressのテストやローカル開発時に環境変数で設定する必要があります。"
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"アナリティクスイベントがSnowplowに送信されているかどうかを示すブール値。"
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"このインスタンスで匿名トラッキングが有効になっており、Snowplowコレクターが利用可能な場合はtrue。"
+
+"The URL of the Snowplow collector to send analytics events to."
+"アナリティクスイベントを送信するSnowplowコレクターのURLです。"
+
+"Error sending Snowplow analytics event {0}"
+"スノープラウアナリティクスイベント{0}の送信エラー"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"Metabaseのこのインスタンスが作成されたおおよそのタイムスタンプです。"
+
+"Unverified due to edit"
+"編集のため未検証"
+
+"Card {0} does not exist or does not have a valid query."
+"カード{0}が存在しないか、有効なクエリを持っていません。"
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"テーブル{0}を参照するパラメータを追加するには、データ権限が必要です。"
+
+"No matching parameter with slug {0}. Found: {1}"
+"スラッグ {0} に一致するパラメータがありません。見つかりました。{1}"
+
+"Could not invite user because email is not configured."
+"メールが設定されていないためユーザを招待できませんでした。"
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"あなたのチームではSlackを使っていますか？もしそうなら、ダッシュボードを購読することで自動で最新のアップデートを送ることができます。"
+
+"invalid token"
+"無効なトークン"
+
+"Slack channel not found."
+"Slackチャネルが見つかりません。"
+
+"channel not found"
+"チャネルが見つかりません"
+
+"Unrecognized modal: {0}"
+"認識できないモーダル：{0}。"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"MB_ENCRYPTION_SECRET_KEYを使って秘密の値を復号できない。"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"データベースのIPアドレス（例：98.137.149.56）またはドメイン名（例：esc.mydatabase.com）を入力します。"
+
+"username"
+"ユーザ名"
+
+"Use a secure connection (SSL)"
+"安全な接続（SSL）を使う"
+
+"Use an SSH tunnel"
+"SSHトンネルを使う"
+
+"Enable this ssh tunnel?"
+"このSSHトンネルを有効にしますか？"
+
+"SSH tunnel host"
+"SSHトンネルホスト"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"SSHトンネルに接続する際に使用するホスト名です。"
+
+"SSH tunnel port"
+"SSHトンネルポート"
+
+"SSH tunnel username"
+"SSHトンネルのユーザー名"
+
+"The username you use to login to your SSH tunnel."
+"SSHトンネルにログインする際に使用するユーザー名。"
+
+"SSH tunnel password"
+"SSHトンネルパスワード"
+
+"SSH private key to connect to the tunnel"
+"トンネルに接続するためのSSH秘密鍵"
+
+"Paste the contents of an ssh private key here"
+"sshの秘密鍵の内容をここに貼り付ける"
+
+"Passphrase for SSH private key"
+"SSH秘密鍵のパスフレーズ"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"SummarizeやFilterを使ってデータを探索する際に、基礎となるクエリを実行します。"
+
+"This is on by default but you can turn it off if performance is slow."
+"これはデフォルトではオンになっていますが、パフォーマンスが遅い場合はオフにすることができます。"
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"これはこのデータベースのスキーマにアップデートがあったかを問い合わせる軽量なプロセスです。"
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"ほとんどの場合、毎時の同期のままで問題ありません。"
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"データベースがファイアウォールの内側にある場合、以下のMetabase CloudのIPアドレスからの接続を許可する必要がある可能性があります："
+
+"Error querying database {0} for current time: {1}"
+"データベース {0} への現在時刻の問い合わせでエラーが発生しました。{1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"エラー：パラメータに複数の値が指定されました。フィールドフィルタ以外のパラメータは、1つの値しか持つことができません。"
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"Metabaseが動いている場所からのローカルの相対パスです。入力に.mv.dbの拡張子は不要です。"
+
+"SSL Mode"
+"SSLモード"
+
+"SSL Root Certificate (PEM)"
+"SSLルート証明書（PEM）"
+
+"Authenticate client certificate?"
+"クライアントの証明書を認証しますか？"
+
+"SSL Client Certificate (PEM)"
+"SSLクライアント証明書（PEM）"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"SSLクライアントキー(PKCS-8/DERまたはPKCS-12)"
+
+"SSL Client Key Password"
+"SSLクライアントキーのパスワード"
+
+"Unable to substitute parameters: {0}"
+"パラメータの置換ができません。{0}"
+
+"Expected native source query to be a string, got: {0}"
+"ネイティブソースのクエリが文字列であることを期待していました。{0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"ネイティブソースのクエリパラメータがシーケンシャルであることを期待していました。{0}"
+
+"No expression named {0} at this level of the query"
+"クエリのこのレベルで{0}という名前の式はありません"
+
+"Error compiling :field clause: {0}"
+"field clauseのコンパイルでエラーが発生しました。{0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"警告です。ドライバ {0} が {1} を使用しています。このメソッドは {2} で非推奨となり、将来のリリースで削除される予定です。"
+
+"Error setting connection to autoCommit false"
+"autoCommit falseへの接続設定エラー"
+
+"Error setting prepared statement fetch size to fetch-size"
+"準備されたステートメントのフェッチサイズをフェッチサイズに設定するエラー"
+
+"Error setting statement fetch size to fetch-size"
+"ステートメントフェッチサイズのフェッチサイズへの設定エラー"
+
+"Error executing query: {0}"
+"クエリの実行時にエラーが発生しました。{0}"
+
+"Local file path"
+"ローカルファイルパス"
+
+"Uploaded file path"
+"アップロードされたファイルのパス"
+
+"File path"
+"ファイルパス"
+
+"Error invoking getter for connection property {0}"
+"接続プロパティ{0}のゲッターの呼び出しエラー"
+
+"Only these..."
+"これだけの..."
+
+"All except..."
+"All except..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"コンマで区切られた{0}の名前で、メタベースに<strong>should</strong>表示されるもの。"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"<strong>auth*</strong>のようなパターンを使って、複数の{0}にマッチさせることができます。"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"コンマで区切られた{0}の名前で、メタベースに<strong>should not</strong>表示されるもの。"
+
+"Your Slack connection stopped working"
+"Slackとの接続が止まりました"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"GoogleログインのためのクライアントIDです。これがセットされると、Googleログインが有効化されたとみなされます。"
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"無効なGoogleサインインクライアントID：\".apps.googleusercontent.com \"で終わる必要があります。"
+
+"Invalid Google Sign-In token."
+"Googleサインインのトークンが無効です。"
+
+"Google Sign-In token appears to be incorrect. "
+"Google Sign-Inのトークンが正しくないようです。 "
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"のGoogleサインイン・トークンの認証に成功しました。{0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"MetabaseのSlackボットに接続するための、非推奨のSlack APIトークンです。"
+
+"Please use a new Slack app integration instead."
+"代わりに新しいSlackアプリの統合をご利用ください。"
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"Metabase Slackアプリに接続するためのボットユーザーOAuthトークンです。"
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"これはMetabase v0.42.0以降のすべての新しいSlack統合に使用する必要があります。"
+
+"Whether the current Slack app token, if set, is valid."
+"現在のSlackアプリトークンが設定されている場合、そのトークンが有効かどうか。"
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Slack APIリクエストがauthエラーを返した場合、「false」に設定します。"
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"Metabaseファイルを最初にアップロードするチャネルの名前"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"あなたのSlackの認可トークンは無効または取り消されました。管理者設定 -> Slackから連携設定を更新してください。"
+
+"Slack channel named `{0}` is missing!"
+"0}`という名前のSlackチャンネルがありません。"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"このチャンネルは、ダッシュボードのサブスクリプションに含まれる画像を保存するために使用されます。"
+
+"You do not have curate permissions for this Collection."
+"このコレクションのキュレーション権限がありません。"
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"ダッシュボード{0}には、ID {1}のDashboardCardがありません。"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"所有するデータベース({1})が削除されるため、アプリDBからシークレットID {0}を削除する"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Field列{0}の値が無効です。{1} はこれらの型のいずれの子孫でもありません。{2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"アドバンスドパーミッションのプレミアム機能がないと、ブロックパーミッションが使えない。"
+
+"User {0} does not exist."
+"ユーザー{0}は存在しません。"
+
+"Wrong email address for User {0}."
+"ユーザー{0}のEメールアドレスが間違っています。"
+
+"Secret ID {0}"
+"シークレットID {0}"
+
+"File path for {0}"
+"0}のファイルパス"
+
+"Path"
+"パス"
+
+"{0} points to non-existent file: {1}"
+"{0} は存在しないファイルを指しています。{1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0}（ローカルファイルのパス）は、Metabaseホスト環境では使用できません。"
+
+"Error parsing Setting {0}: {1}"
+"設定{0}の解析にエラーが発生しました。{1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"設定{0}にはサイトワイドな値は使用できません。"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"0}の設定は、Metabase {1}では非推奨となっており、将来のバージョンでは削除される可能性があります。"
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"設定名''｛0｝''は廃止されました。"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"分析データをフロントエンドのGoogle Analyticsに送信するかどうかを示すブール値"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"廃止された機能の使用に関する通知が表示されているメタベースのバージョン。"
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"ダッシュボードのピン留めに関するメッセージを表示するかどうか。また、ダッシュボードがピン留めされている場合は非表示になります。管理者は、生のデータよりも優れたコンテンツにユーザーを誘導するために、これを非表示にすることがあります。"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"これは、週ごとのグループ化やGUIクエリでのフィルタリングなどに影響します。"
+
+"It won''t affect most SQL queries,"
+"ほとんどのSQLクエリには影響しません。"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+"しかし、SnowflakeではWEEK_STARTセッション変数の設定に使用されています。"
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Metabase CloudのゲートウェイIPアドレスの取得エラー。"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"Metabase CloudのゲートウェイIPアドレス（ファイアウォール内のDBへの接続を設定するため"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"次のデータベース接続が追加された後に、紹介のモーダルを表示するかどうか。"
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"デフォルトでは、このインスタンスでデフォルト以外のデータベースがすでに同期を終了している場合、デフォルトはfalseです。"
+
+"Alert: {0} has {1}"
+"アラート：{0}が{1}を持っている"
+
+"Nothing to compare to."
+"比較するものがありません。"
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"パラメータ {1} のパラメータタイプ {0} が無効です。パラメータタイプは次のいずれかでなければなりません。{2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"無効なパラメータです。カード{0}には{1}という名前のテンプレートタグがありません。"
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"無効なクエリパラメータを解決できません：パラメータに :id がありません。"
+
+"Dashboard does not have a parameter with ID {0}."
+"ダッシュボードには、ID {0}のパラメータがありません。"
+
+"Query: {0}"
+"クエリです。{0}"
+
+"Error determining expected columns for query: {0}"
+"クエリに登録されている列の判定に失敗しました。{0}"
+
+"Nested queries are disabled"
+"ネストされたクエリは無効"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+
+"Guessing join {0}"
+"推測での結合{0}。"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"適切な結合を推測することができません。クエリが期待通りに動作しない可能性があります。"
+
+"Error resolving Fields in query: {0}"
+"クエリ内のフィールドの解決に失敗しました。{0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"警告：節 {0} がソース・クエリの列と一致しません。これを {1} に修正しようとしています。"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"警告: 句 {0} はソース・クエリに存在しない可能性のあるフィールドを参照しています。クエリが期待どおりに動作しない可能性があります。見つかりました。{1}"
+
+"Expected :aggregation-options clause, got {0}"
+"期待された :aggregation-options 節は、{0}を得ました。"
+
+"Cannot determine the source table or query for Field clause {0}"
+"Field句{0}のソーステーブルまたはクエリを決定できません。"
+
+"Aggregation does not exist at index {0}"
+"インデックス{0}にはアグリゲーションが存在しません。"
+
+"No expression named {0}"
+"0}という名前の式はありません。"
+
+"Sample database DB file ''{0}'' cannot be found."
+"サンプルデータベース DB ファイル ''{0}'' が見つかりません。"
+
+"Loading sample database"
+"サンプルデータベースをロードしています"
+
+"Failed to load sample database"
+"サンプルデータベースのロードに失敗しました"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"セッションクッキーのSameSiteは \"None \"に設定されていますが、サイトは安全でない接続で提供されています。このような場合、一部のブラウザはクッキーを拒否します。"
+
+"Login request is missing device ID information"
+"ログインリクエストにデバイスID情報がない"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"暗号化された{0}を復号化できません。MB_ENCRYPTION_SECRET_KEYを変更したか、設定し忘れていませんか？"
+
+"Enable this SSH tunnel?"
+"このSSHトンネルを有効にしますか？"
+
+"The hostname that you use to connect to SSH tunnels."
+"SSHトンネルに接続する際に使用するホスト名です。"
+
+"Paste the contents of an SSH private key here"
+"SSH秘密鍵の内容をここに貼り付ける"
+
+"Allow using a saved question or Model as the source for other queries?"
+"保存された質問やモデルを他のクエリのソースとして使用することはできますか？"
+
+"Pulse card query error"
+"パルスカード問い合わせエラー"
+
+"There was a problem with this question."
+"この質問には問題がありました。"
+
+"Copy of "
+"のコピー "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"/api/setup ルートは、最初のユーザーを作成するためにのみ使用できますが、ユーザーは現在存在しています。"
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"API の :rows タイプのクエリで返す最大行数です。"
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"新しいダッシュボード購読とアラートのために許可された電子メールアドレスのドメイン（複数可）。複数のドメインを指定する場合は、各ドメインをカンマで区切り、間にスペースを入れないでください（例：「domain1,domain2」）。すべてのドメインを許可するには、このフィールドを空白にします。この設定は、既存のSubscriptionに影響を与えません。"
+
+"You do not have permissions to download the results of this query."
+"このクエリの結果をダウンロードする権限を持っていません。"
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"監視または購読の権限を持たない非管理者ユーザーは、自分が作成したアラートのみを更新することができます。"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"監視または購読の権限を持たない非Adminユーザーは、アラートのチャンネルを変更することはできません。"
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"購読権限を持たない非アドミンユーザーは、受信者を追加することができません。"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"グループマネージャーは、アドバンスドパーミッション機能を持つプレミアムトークンをお持ちの場合のみ有効です。"
+
+"Admin cant be a group manager."
+"Adminはグループマネージャーにはなれません。"
+
+"Timeline with id {0} not found"
+"id {0} を持つタイムラインが見つかりません。"
+
+"Timestamp cannot be null"
+"タイムスタンプをNULLにすることはできません"
+
+"ERROR {0}: {1}"
+"ERROR {0}:{1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Liquibase のマイグレーションで作成されたデフォルトのエントリをクリアする..."
+
+"Don''t know how to parse date string {0}"
+"日付文字列 {0} のパース方法がわからない"
+
+"Invalid values provided for operator: {0}"
+"演算子に指定された値が無効です。{0}"
+
+"Unrecognized operation: {0}"
+"認識できない操作です。{0}"
+
+"Error determining value for parameter {0}: {1}"
+"パラメータ {0} の値を決定するエラーです。{1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"ApplicationPermissionsRevisionの更新ができない!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"無効なフィールド・フィルタです。フィールド {0} はデータベース {1} に属していますが、クエリーはデータベース {2} に対して行われています。"
+
+"The engine on a sample database cannot be changed."
+"サンプルデータベース上のエンジンを変更することはできません。"
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"0}のパーミッション機能は、advanced-permissions機能を持つプレミアムトークンをお持ちの場合のみ有効です。"
+
+"Unknown setting: {0}"
+"不明な設定です。{0}"
+
+"You do not have access to the setting {0}"
+"設定{0}にアクセスすることはできません。"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"0}を設定すると、ユーザーローカルとデータベースローカルの両方の値を使用できます。"
+
+"Error purging old cache entries: {0}"
+"古いキャッシュ・エントリーのパージに失敗しました。{0}"
+
+"Error saving query results to cache: {0}"
+"キャッシュへのクエリ結果の保存にエラーが発生しました。{0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"ハッシュ {0} を持つクエリのキャッシュされた結果をフェッチしようとするとエラーが発生しました。{1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Slackユーザー/チャンネル起動キャッシュが{0}項目で更新され、{1}msかかりました。"
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slackが設定されていない、slackのユーザー/チャンネルキャッシュを更新していない。"
+
+"value must be a valid date string"
+"の値は有効な日付文字列でなければなりません。"
+
+"Not allowed to edit group memberships"
+"グループメンバーの編集を許可しない"
+
+"Connected to"
+"に接続されています。"
+
+}

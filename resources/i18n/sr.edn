@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"Sinhronizacija baze podataka"
+
+"Scanning for Filter Values"
+"Traženje vrednosti filtera"
+
+"When should Metabase automatically scan and cache field values?"
+"Kada želite da Metabejs skenira i kešira vrednosti polja?"
+
+"Other"
+"Drugo"
+
+"Email"
+"Imejl"
+
+"{0} table"
+"{0}tabela"
+
+"Password"
+"Lozinka"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Administrator mora kreirati Metabejs nalog pre nego što koristite Gugl za prijavu."
+
+"Our analytics"
+"Naša analitika"
+
+"Unknown"
+"Nepoznat"
+
+"Count"
+"Brojanje"
+
+"number"
+"broj"
+
+"Native query"
+"Izvorni upit"
+
+"Today"
+"Danas"
+
+"Yesterday"
+"Juče"
+
+"Week"
+"Nedelja"
+
+"Month"
+"Mesec"
+
+"Year"
+"Godina"
+
+"Slack"
+"Slack"
+
+"results"
+"rezultata"
+
+"Count of {0}"
+"Broj od {0}"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"DELETE / api / alert /: id je zastareo. Umesto toga, promenite njegovu `arhiviranu` vrednost putem PUT / api / alert /: id."
+
+"invalid show value"
+"nevažeća vrednost emisije"
+
+"invalid value for prefix"
+"nevažeća vrednost za prefiks"
+
+"invalid value for rule name"
+"nevažeća vrednost za naziv pravila"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"vrednost nije mogla biti raščlanjena kao JSON kodiran u base64"
+
+"Invalid entity type"
+"Nevažeći tip entiteta"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"Nevažeći tip entiteta za poređenje. Može biti samo jedan od \"table\", \"segment\" ili \"adhoc\""
+
+"Error running query to determine Card result metadata:"
+"Greška prilikom pokretanja upita za određivanje metapodataka rezultata kartice:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"DELETE / api / card /: id je zastareo. Umesto toga, promenite njegovu `arhiviranu` vrednost putem PUT / api / card /: id."
+
+"Invalid field: {0}"
+"Nevažeće polje: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"Nevažeća vrednost ''{0}'' za ''{1}'': {2}"
+
+"must be one of: {0}"
+"mora biti jedan od: {0}"
+
+"Invalid Request."
+"Neispravan zahtev."
+
+"Not found."
+"Nije pronađeno."
+
+"You don''t have permissions to do that."
+"Nemate dozvolu da to uradite."
+
+"Internal server error."
+"Interna serverska greška."
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"Upozorenje: krajnja tačka {0} / {1} nema docstring."
+
+"starting streaming request"
+"pokretanje zahteva za striming"
+
+"connection closed, canceling request"
+"veza zatvorena, zahtev za otkazivanje"
+
+"Response not ready, writing one byte & sleeping..."
+"Odgovor nije spreman, pisanje jednog bajta & uspavljivanje..."
+
+"Public sharing is not enabled."
+"Javno deljenje nije omogućeno."
+
+"Embedding is not enabled."
+"Ugrađivanje nije omogućeno."
+
+"The object has been archived."
+"Predmet je arhiviran."
+
+"Source query for this query is Card {0}"
+"Izvorni upit za ovaj upit je kartica {0}"
+
+"Invalid export format: {0}"
+"Nevažeći format izvoza: {0}"
+
+"Invalid JSON URL or resource: {0}"
+"Nevažeća JSON URL adresa ili resurs: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON koji sadrži informacije o prilagođenim GeoJSON datotekama za upotrebu u vizuelizacijama umesto podrazumevanih GeoJSON mapa SAD ili sveta."
+
+"Invalid custom GeoJSON key: {0}"
+"Nevažeći prilagođeni GeoJSON ključ: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"DELETE / api / pulse /: id je zastareo. Umesto toga, promenite njegovu `arhiviranu` vrednost putem PUT / api / pulse /: id."
+
+"API endpoint does not exist."
+"Krajnja tačka API-ja ne postoji."
+
+"Password did not match stored password."
+"Lozinka se ne podudara sa sačuvanom lozinkom."
+
+"did not match stored password"
+"se ne podudara sa sačuvanom lozinkom"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"Problem sa povezivanjem sa LDAP serverom, vratiće se na lokalnu potvrdu identiteta {0}"
+
+"Invalid reset token"
+"Nevažeći token za resetovanje"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"Kada je postavljeno, dozvolite korisnicima da se samostalno prijave ako im je adresa e-pošte Gugl naloga sa ovog domena."
+
+"Email is not verified."
+"Imejl nije potvrđen."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Trebaće Vam administrator da biste kreirali Metabejs nalog pre nego što budete mogli da koristite Gugl za prijavljivanje."
+
+"Add a database"
+"Dodajte bazu podataka"
+
+"Get connected"
+"Poveži se"
+
+"Connect to your data so your whole team can start to explore."
+"Povežite se sa podacima da bi ceo Vaš tim mogao da počne da istražuje."
+
+"Set up email"
+"Podesite e-poštu"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"Dodajte akreditive za e-poštu da biste lakše mogli da pozovete članove tima i dobijete ažuriranja putem pulseva."
+
+"Set Slack credentials"
+"Postavite Slack akreditive"
+
+"Invite team members"
+"Pozovi članove tima"
+
+"Share answers and data with the rest of your team."
+"Podelite odgovore i podatke sa ostatkom svog tima."
+
+"Hide irrelevant tables"
+"Sakrij nebitne tabele"
+
+"Curate your data"
+"Izbor podataka"
+
+"If your data contains technical or irrelevant info you can hide it."
+"Ako Vaši podaci sadrže tehničke ili nebitne informacije, možete ih sakriti."
+
+"Organize questions"
+"Organizuj pitanja"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"Imate puno sačuvanih pitanja u {0}? Napravite kolekcije koje će Vam pomoći da upravljate njima i dodate kontekst."
+
+"Metabase"
+"Metabejs"
+
+"Create metrics"
+"Napravite metriku"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"Definišite kanonske metrike kako bi ostatku svog tima olakšali dobijanje pravih odgovora."
+
+"Create segments"
+"Napravi segment"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"Neka svi budu na istoj stranici stvaranjem kanonskih skupova filtera koje svako može koristiti dok postavlja pitanja."
+
+"Table ''{0}'' is now visible. Resyncing."
+"Tabela ''{0}'' je sada vidljiva. Resinhronizacija."
+
+"Auto bin"
+"Auto bin"
+
+"Don''t bin"
+"Don''t bin"
+
+"Day"
+"Dan"
+
+"Minute"
+"Minut"
+
+"Hour"
+"Sat"
+
+"Quarter"
+"Kvartal"
+
+"Minute of Hour"
+"Minuta sata"
+
+"Hour of Day"
+"Sat dana"
+
+"Day of Week"
+"Dan u nedelji"
+
+"Day of Month"
+"Dan u mesecu"
+
+"Day of Year"
+"Dan u godini"
+
+"Week of Year"
+"Nedelja u godini"
+
+"Month of Year"
+"Mesec u godini"
+
+"Quarter of Year"
+"Kvartal godine"
+
+"10 bins"
+"10 binova"
+
+"50 bins"
+"50 binova"
+
+"100 bins"
+"100 binova"
+
+"Bin every 0.1 degrees"
+"Bin na svakih 0.1 stepeni"
+
+"Bin every 1 degree"
+"Bin na svakih 1 stepen"
+
+"Bin every 10 degrees"
+"Bin na svakih 10 stepeni"
+
+"Bin every 20 degrees"
+"Bin na svakih 20 stepeni"
+
+"No appropriate image writer found!"
+"Nije pronađen odgovarajući upisivač slika!"
+
+"Email address already in use."
+"E-mail adresa je već u upotrebi."
+
+"Email address already associated to another user."
+"Adresa e-pošte je već pridružena drugom korisniku."
+
+"Not able to reactivate an active user"
+"Ne mogu ponovo da aktiviram aktivnog korisnika"
+
+"Invalid password"
+"Nevažeća lozinka"
+
+"All {0}"
+"Svi {0}"
+
+"{0}, all {1}"
+"{0}, svi {1}"
+
+"Comparison of {0} and {1}"
+"Poređenje {0} i {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"Automatski generisan infopanel za upoređivanje {0} i {1}"
+
+"sum"
+"zbir"
+
+"average"
+"prosek"
+
+"minumum"
+"minimum"
+
+"maximum"
+"maksimum"
+
+"distinct count"
+"jedinstven broj"
+
+"standard deviation"
+"standardna devijacija"
+
+"cumulative count"
+"kumulativni broj"
+
+"cumulative sum"
+"kumulativni zbir"
+
+"{0} and {1}"
+"{0} i {1}"
+
+"{0} of {1}"
+"{0} od {1}"
+
+"{0} by {1}"
+"{0} sa {1}"
+
+"{0} in the {1} segment"
+"{0} u segmentu {1}"
+
+"{0} segment"
+"{0} segment"
+
+"{0} metric"
+"{0} metrika"
+
+"{0} field"
+"{0} polje"
+
+"\"{0}\" question"
+"\"{0}\" pitanje"
+
+"Compare with {0}"
+"Uporedi sa {0}"
+
+"Compare with entire dataset"
+"Uporedi sa celokupnim skupom podataka"
+
+"Applying heuristic %s to %s."
+"Primenom heuristike %s na %s."
+
+"Dimensions bindings:n%s"
+"Dimenzije veza:n%s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"Korišćenje definicija:nMetrics:n%snFilters:n%s"
+
+"Can''t create dashboard for {0}"
+"Ne mogu da napravim infopanel za {0}"
+
+"{0}st"
+"{0}-vi"
+
+"{0}nd"
+"{0}-gi"
+
+"{0}rd"
+"{0}-i"
+
+"{0}th"
+"{0}-i"
+
+"at {0}"
+"u {0}"
+
+"on {0}"
+"na {0}"
+
+"in {0} week - {1}"
+"za {0} nedelju - {1}"
+
+"in {0}"
+"u {0}"
+
+"in Q{0} - {1}"
+"u Q{0} - {1}"
+
+"Q{0}"
+"Q{0}"
+
+"{0} is {1}"
+"{0} je {1}"
+
+"{0} is between {1} and {2}"
+"{0} je između {1} ​​i {2}"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0} je između {1} ​​i {2}; i {3} je između {4} i {5}"
+
+"where {0}"
+"gde je {0}"
+
+"A closer look at {0}"
+"Detaljniji pogled u {0}"
+
+"A closer look at the {0}"
+"Detaljniji pregled {0}"
+
+"Adding %s cards to dashboard %s:n%s"
+"Dodavanje %s kartica na infopanel %s:n%s"
+
+"0 <= score <= {0}"
+"0 <= rezultat <= {0}"
+
+"1 <= width <= {0}"
+"1 <= širina <= {0}"
+
+"Valid metrics references"
+"Važeće reference metrike"
+
+"Valid filters references"
+"Važeće reference filtera"
+
+"Valid group references"
+"Važeće reference grupe"
+
+"Valid order_by references"
+"Važeći redosled_po reference"
+
+"Valid dashboard filters references"
+"Važeće reference filtera na infopanelu"
+
+"Valid dimension references"
+"Važeće reference dimenzija"
+
+"Valid card dimension references"
+"Važeće reference dimenzija kartice"
+
+"Error parsing %s:n%s"
+"Greška pri raščlanjivanju %s:n%s"
+
+"No user found with email address ''{0}''. "
+"Nije pronađen nijedan korisnik sa adresom e-pošte ''{0}''. "
+
+"Please check the spelling and try again."
+"Proverite pravopis i pokušajte ponovo."
+
+"Resetting password for {0}..."
+"Resetovanje lozinke za {0} ..."
+
+"OK [[[{0}]]]"
+"OK [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"FAIL [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Koristite sledeći URL za podešavanje instalacije Metabejs:"
+
+"Metabase Shutting Down ..."
+"Metabejs se gasi ..."
+
+"Metabase Shutdown COMPLETE"
+"Gašenje Metabejsa ZAVRŠENO"
+
+"Starting Metabase version {0} ..."
+"Pokrećem Metabejs verziju {0} ..."
+
+"System timezone is ''{0}'' ..."
+"Sistemska vremenska zona je ''{0}'' ..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Postavljanje i migracija Metabejs DB. Molim Vas,čvrsto sedite,ovo može potrajati neki minut ..."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"Izgleda da je ovo nova instalacija ... priprema čarobnjaka za podešavanje"
+
+"Metabase Initialization COMPLETE"
+"Metabejs inicijalizacija ZAVRŠENA"
+
+"Launching Embedded Jetty Webserver with config:"
+"Pokretanje ugrađenog Jetty web servera sa konfiguracijom:"
+
+"Shutting Down Embedded Jetty Webserver"
+"Isključivanje ugrađenog Jetty web servera"
+
+"Starting Metabase in STANDALONE mode"
+"Pokretanje Metabejsa u STANDALONE režimu"
+
+"Metabase Initialization FAILED"
+"Metabejs inicijalizacija NIJE USPELA"
+
+"Database has migration lock; cannot run migrations."
+"Baza podataka ima zaključavanje migracije; ne može pokretati migracije."
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"Ove brave možete prisilno otpustiti pokretanjem `java -jar metabase.jar migrate release-locks`."
+
+"Checking if Database has unrun migrations..."
+"Provera da li baza podataka ima neizvršene migracije ..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"Baza podataka ima neizvršene migracije. Čeka se uklanjanje zaključavanja migracije ..."
+
+"Migration lock is cleared. Running migrations..."
+"Zaključavanje migracije je obrisano. Pokretanje migracija ..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"Brava za migraciju je uklonjena, ali ovde nema šta da se radi! Migracije je završila druga instanca."
+
+"Setting up Liquibase..."
+"Postavljanje Liquibase..."
+
+"Liquibase is ready."
+"Liquibase je spreman."
+
+"Verifying {0} Database Connection ..."
+"Proveravam vezu sa bazom podataka {0}"
+
+"Verify Database Connection ... "
+"Proveri vezu sa bazom podataka ... "
+
+"Running Database Migrations..."
+"Pokretanje migracija baze podataka ..."
+
+"Database Migrations Current ... "
+"Trenutne migracije baze podataka ... "
+
+"Hmm, we couldn''t connect to the database."
+"Hmm, nismo uspeli da se povežemo sa bazom podataka."
+
+"Make sure your host and port settings are correct"
+"Proverite da li ste dobro uneli parametre za host i port"
+
+"We couldn''t connect to the ssh tunnel host."
+"Nismo uspeli da se povežemo sa ssh tunelom."
+
+"Check the username, password."
+"Proverite korisničko ime i lozinku."
+
+"Check the hostname and port."
+"Proverite hostname i port."
+
+"Looks like the database name is incorrect."
+"Izgleda da je ime baze podataka netačno."
+
+"It looks like your host is invalid."
+"Izgleda da je ime hosta netačno."
+
+"Please double-check it and try again."
+"Proverite još jednom i pokušajte ponovo."
+
+"Looks like your password is incorrect."
+"Izgleda da je Vaša lozinka netačna."
+
+"Looks like you forgot to enter your password."
+"Izgleda da ste zaboravili da unesete lozinku."
+
+"Looks like your username is incorrect."
+"Izgleda da je Vaše korisničko ime netačno."
+
+"Looks like the username or password is incorrect."
+"Izgleda da su korisničko ime ili lozinka netačni."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"Vremenska zona veze koja se koristi prilikom izvršavanja upita. Podrazumevano je vremenska zona sistema."
+
+"Registered driver {0} {1}"
+"Registrovani drajver {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"Nije pronađena -init-driver funkcija za ''{0}''"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"Nije moguće raščlaniti niz datuma ''{0}'' za mehanizam baze podataka ''{1}''"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"Ne znam kako da mapiram klasu ''{0}'' sa osnovnim tipom polja, vraćajući se na :type/*."
+
+"Failed to connect to database: {0}"
+"Neuspela konekcija sa bazom podataka: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"Nevažeći BigQuery identifikator: ''{0}''"
+
+"BigQuery statements can't be parameterized!"
+"BigQueri izjave ne mogu se parametrizovati!"
+
+"Failed to set timezone:"
+"Neuspešno postavljanje vremenske zone:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"Pokretanje SQL upita protiv H2 baza podataka pomoću podrazumevanog (admin) korisnika baze podataka je zabranjeno."
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"Greška: metabase.driver.FixedHiveDriver je registrovan, ali ga JDBC izgleda ne koristi."
+
+"Found metabase.driver.FixedHiveDriver."
+"Pronađen metabase.driver.FixedHiveDriver."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"Uspešno registrovan metabase.driver.FixedHiveDriver sa JDBC."
+
+"Email address you want to use as the sender of Metabase."
+"Adresa e-pošte koju želite da koristite kao pošiljaoca Metabejsa."
+
+"The address of the SMTP server that handles your emails."
+"Adresa SMTP servera koji obrađuje Vaše e-adrese."
+
+"SMTP username."
+"SMTP korisničko ime."
+
+"SMTP password."
+"SMTP lozinka."
+
+"The port your SMTP server uses for outgoing emails."
+"Port koji Vaš SMTP server korisni za odlazeće mejlove."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"SMTP protokol sigurne veze. (tls, ssl, starttls ili nijedan)"
+
+"none"
+"nijedan"
+
+"SMTP host is not set."
+"SMTP host nije setovan"
+
+"Failed to send email"
+"Neuspešno slanje mejla"
+
+"Error testing SMTP connection"
+"Greška pri testiranju SMTP veze"
+
+"Enable LDAP authentication."
+"Omogućite LDAP potvrdu identiteta."
+
+"Server hostname."
+"Server hostname."
+
+"Server port, usually 389 or 636 if SSL is used."
+"Server port, obično 389 ili 636 ako se koristi SSL."
+
+"Use SSL, TLS or plain text."
+"Koristite SSL, TLS ili običan tekst."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"Karakterističnim imenom kojim treba da se veže (ako postoji), ovaj korisnik će se koristiti za traženje podataka o drugim korisnicima."
+
+"The password to bind with for the lookup user."
+"Lozinka za povezivanje za korisnika pretraživanja."
+
+"Search base for users. (Will be searched recursively)"
+"Baza pretraživanja za korisnike. (Biće pretraženo rekurzivno)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"Korisnički filter za pretragu, rezervisano mesto '{login}' biće zamenjeno korisničkim imenom."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Atribut za upotrebu za e-poštu korisnika. (obično ''mail'', ''email'' ili ''userPrincipalName'')"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"Atribut koji se koristi za ime korisnika. (obično ''givenName'')"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"Atribut koji se koristi za prezime korisnika. (obično ''sn'')"
+
+"Enable group membership synchronization with LDAP."
+"Omogućite sinhronizaciju članstva u grupi sa LDAP-om."
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"Baza za pretragu grupa, nije potrebna ako vaš LDAP direktorijum nudi ''memberOf''. (Biće pretraženo rekurzivno)"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON koji sadrži LDAP u preslikavanje grupa Metabejs."
+
+"Here''s what I can {0}:"
+"Evo šta mogu {0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"Ne znam kako da {0} `{1}` .n{2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"Evo Vaših {0} najnovijih kartica: n{1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"Možete li biti malo konkretniji? Pronašao sam ove kartice sa imenima koja se podudaraju: n{0}"
+
+"Not Found"
+"Nije pronađen"
+
+"Go home websocket, you're drunk."
+"Idi kući websocket, pijan si."
+
+"Base-64 encoded public key for this site's SSL certificate."
+"Javni ključ kodiran u Base-64 za SSL sertifikat ove stranice."
+
+"Specify this to enable HTTP Public Key Pinning."
+"Navedite ovo da biste omogućili zakačenje HTTP javnog ključa."
+
+"See {0} for more information."
+"Pogledajte {0} za više informacija."
+
+"Cannot save Question: source query has circular references."
+"Nije moguće sačuvati pitanje: izvorni upit ima kružne reference."
+
+"Card {0} does not exist."
+"Kartica {0} ne postoji."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"Nemate dozvole za pokretanje ad-hoc nativnih upita protiv baze podataka {0}."
+
+"Invalid color"
+"Nevažeća boja"
+
+"must be a valid 6-character hex color code"
+"mora biti važeći 6-znakovni heksadecimalni kod boje"
+
+"Collection name cannot be blank!"
+"Ime kolekcije ne sme biti prazno!"
+
+"cannot be blank"
+"ne sme biti prazno"
+
+"Invalid Collection location: path is invalid."
+"Neispravna lokacija kolekcije: putanja je netačna."
+
+"You cannot move a Personal Collection."
+"Ne možete premestiti ličnu kolekciju."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"Nevažeća lokacija kolekcije: neki ili svi preci ne postoje."
+
+"You cannot archive the Root Collection."
+"Ne možete arhivirati glavnu kolekciju."
+
+"You cannot archive a Personal Collection."
+"Ne možete arhivirati ličnu kolekciju."
+
+"You cannot move the Root Collection."
+"Ne možete premestiti glavnu kolekciju."
+
+"You cannot move a Collection into itself or into one of its descendants."
+"Ne možete kolekciju premestiti ni u sebe ni u jednog od njenih potomaka."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"Premeštanje kolekcije {0} i njenih potomaka sa {1} na {2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"Nije Vam dozvoljeno da promenite vlasnika lične kolekcije."
+
+"You're not allowed to move a Personal Collection."
+"Nije Vam dozvoljeno da premestite ličnu kolekciju."
+
+"You cannot move a Collection and archive it at the same time."
+"Ne možete istovremeno premestiti kolekciju i arhivirati je."
+
+"You cannot delete a Personal Collection!"
+"Ne možete obrisati ličnu kolekciju!"
+
+"{0} {1}''s Personal Collection"
+"Lična kolekcija korisnika {0} {1}"
+
+"You cannot update a CollectionRevision!"
+"Ne možete ažurirati CollectionRevision!"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"Polje {0} je prethodno automatski podešeno da prikazuje vidžet liste, ali sada ima vrednosti {1}."
+
+"Switching Field to use a search widget instead."
+"Prebacivanje polja za upotrebu vidžeta za pretragu."
+
+"Storing updated FieldValues for Field {0}..."
+"Čuvanje ažuriranih FieldValues za polje {0} ..."
+
+"Storing FieldValues for Field {0}..."
+"Čuvanje FieldValues za polje {0} ..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabejs može pokušati da transformiše imena Vaših tabela i polja u razumljivije verzije, čitljive čoveku, npr. \"somehorriblename\" postaje \"Some Horrible Name\".."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"Međutim, ovo ne funkcioniše tako dobro ako su imena na jeziku koji nije engleski."
+
+"Do you want us to take a guess?"
+"Da li želite da pretpostavimo?"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"Ne možete da kreirate ili opozovete dozvole za grupu 'Administrator'."
+
+"Invalid permissions object path: ''{0}''."
+"Nevažeća putanja objekta dozvola: ''{0}''."
+
+"You cannot update a permissions entry!"
+"Ne možete ažurirati unos dozvola!"
+
+"Delete it and create a new one."
+"Izbrišite ga i napravite novi."
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"Ne možete da uređujete dozvole za ličnu kolekciju ili njene potomke."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"Izgleda da je neko drugi izmenio dozvole i da su Vaši podaci zastareli."
+
+"Please fetch new data and try again."
+"Donesite nove podatke i pokušajte ponovo."
+
+"A group with that name already exists."
+"Grupa sa tim imenom već postoji."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"Ne možete da uređujete ili brišete grupu dozvola ''{0}''!"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"Ne možete dodati niti ukloniti korisnike u / iz grupe 'MetaBot'."
+
+"You cannot add or remove users to/from the 'All Users' group."
+"Ne možete da dodajete ili uklanjate korisnike u / iz grupe 'Svi korisnici'."
+
+"You cannot remove the last member of the 'Admin' group!"
+"Ne možete ukloniti poslednjeg člana grupe 'Admin'!"
+
+"You cannot update a PermissionsRevision!"
+"Ne možete ažurirati PermissionsRevision!"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"Nevažeće upozorenje: uz upozorenje nije povezana kartica"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"vrednost mora biti mapa sa ključevima `{0}`, `{1}` i `{2}`."
+
+"value must be a map with the following keys `({0})`"
+"vrednost mora biti mapa sa sledećim ključevima `({0})`"
+
+"Error calculating permissions for query: {0}"
+"Greška pri izračunavanju dozvola za upit: {0}"
+
+"Invalid query type: {0}"
+"Nevažeći tip upita: {0}"
+
+"You cannot update a QueryExecution!"
+"Ne možete ažurirati QueryExecution!"
+
+"You cannot update a Revision!"
+"Ne možete ažurirati reviziju!"
+
+"Updating value of settings-last-updated in DB..."
+"Ažuriranje vrednosti postavki koje su poslednje ažurirane u DB ..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"Provera da li je keš podešavanja zastareo (potreban je DB poziv) ..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"Postavke su promenjene na drugoj instanci i ovde će se ponovo učitati."
+
+"Refreshing Settings cache..."
+"Osvežavanje keša podešavanja ..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"Nevažeća vrednost za niz: mora biti ili \"true\" ili \"false\" (ne razlikuje velika i mala slova)."
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"Ne možete sami ažurirati `settings-last-updated`! To se radi automatski."
+
+"Error inserting a new Setting:"
+"Greška pri umetanju nove postavke:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"Pod pretpostavkom da podešavanje već postoji u DB-u i ažuriranje postojeće vrednosti."
+
+"value must be a map with each value either a string or number."
+"vrednost mora biti mapa sa svakom vrednošću ili nizom ili brojem."
+
+"Loading plugins in directory {0}..."
+"Učitavanje dodataka u direktorijum {0} ..."
+
+"Loading plugin {0}... "
+"Učitavanje dodatka {0} ... "
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Izgleda da imate neke spoljne zavisnosti u direktorijumu dodataka Metabejsa."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"Sa Javom 9 ili novijom, Metabejs ih ne može automatski dodati u Vaš classpath."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"Umesto toga, trebalo bi da ih uključite prilikom pokretanja sa opcijom -cp. Na primer:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"Pogledajte https://metabase.com/docs/latest/operations-guide/start.html#java-versions za više detalja."
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(Ako već koristite Metabejs na ovaj način, možete zanemariti ovu poruku.)"
+
+"Identify when new versions of Metabase are available."
+"Utvrdite kada su dostupne nove verzije Metabejsa."
+
+"Information about available versions of Metabase."
+"Informacije o dostupnim verzijama Metabejsa."
+
+"The name used for this instance of Metabase."
+"Ime koje se koristi za ovu instancu Metabejsa."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"Osnovni URL ove instance Metabejsa, npr. \"http://metabase.mi-compani.com\".."
+
+"The default language for this Metabase instance."
+"Podrazumevani jezik za ovu instancu Metabejsa."
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"Ovo se odnosi samo na e-poštu, pulseve, itd. Korisnički pretraživači će odrediti jezik koji se koristi u korisničkom interfejsu."
+
+"The email address users should be referred to if they encounter a problem."
+"Korisnike e-adrese treba uputiti ako naiđu na problem."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Omogućite prikupljanje anonimnih podataka o upotrebi kako biste pomogli poboljšanju Metabejsa."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"Predložak URL-a servera pločice mape koji se koristi u vizuelizacijama mapa, na primer iz OpenStreetMaps ili MapBoxa."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"Omogućiti administratorima da kreiraju javno vidljive veze (i ugradive iframe-ove) za Pitanja i Infopanele?"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"Dozvoliti administratorima da bezbedno ugrađuju pitanja i infopanele u druge aplikacije?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"Omogućavanje keširanja sačuvaće rezultate upita za koje je potrebno dugo vremena."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"Maksimalna veličina keš memorije, po sačuvanom pitanju, u kilobajtima:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"Apsolutno maksimalno vreme za zadržavanje rezultata keširanog upita u sekundama."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase će memorisati sva sačuvana pitanja sa prosečnim vremenom izvršavanja upita dužim od ovoliko sekundi:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"Da bismo utvrdili koliko dugo treba sačuvati keširani rezultat svakog sačuvanog pitanja, uzimamo prosečno vreme izvršavanja upita i pomnožimo ga sa onim što ste ovde uneli."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"Dakle, ako je za pokretanje upita potrebno u proseku 2 minuta, a Vi unesete 10 za svoj množitelj, njegov unos u keš memoriju trajaće 20 minuta."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"Kada se koristi zadata strategija binninga, a broj kontejnera nije predviđen, ovaj broj će se koristiti kao podrazumevani."
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"Kada koristite podrazumevanu strategiju binninga za polje tipa Koordinate (kao što su geografska širina i dužina), ovaj broj će se koristiti kao zadata širina kontejnera (u stepenima)."
+
+"Unable to validate token."
+"Nije moguće potvrditi token."
+
+"Error fetching token status:"
+"Greška pri preuzimanju statusa tokena:"
+
+"There was an error checking whether this token was valid."
+"Došlo je do greške pri proveri da li je ovaj token važeći."
+
+"Token validation timed out."
+"Vreme potvrde tokena je isteklo."
+
+"Invalid token: token isn't in the right format."
+"Nevažeći token: token nije u pravom formatu."
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"Provera sa MetaStore-om da li je {0} važeća ..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"Token za Premium ugrađivanje. Idite u MetaStore po svoj!"
+
+"Token is valid."
+"Token je važeći."
+
+"Error setting premium embedding token"
+"Greška pri podešavanju premium tokena za ugradnju"
+
+"Unable to compare results to goal for alert."
+"Nije moguće uporediti rezultate sa ciljem za upozorenje."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"ID pitanja je ''{0}'' sa podešavanjima vizuelizacije ''{1}''"
+
+"Unrecognized alert with condition ''{0}''"
+"Neprepoznato upozorenje sa uslovom ''{0}''"
+
+"Unrecognized channel type {0}"
+"Neprepoznat tip kanala {0}"
+
+"Error sending notification!"
+"Greška pri slanju obaveštenja!"
+
+"Can't find JS color selector at ''{0}''"
+"Ne mogu da pronađem JS birač boja na ''{0}''"
+
+"Card has errors: {0}"
+"Kartica sadrži greške: {0}"
+
+"Pulse card render error"
+"Greška pri prikazivanju pulsne kartice"
+
+"Trimming trailing comment from card with id {0}"
+"Izrezivanje pratećeg komentara sa kartice sa ID-om {0}"
+
+"Can't find field with ID: {0}"
+"Ne mogu pronaći polje s ID-om: {0}"
+
+"''{0}'' is a required param."
+"''{0}'' je obavezan parametar."
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"Pronađeno je ''{0}'' bez završetka ''{1}'' u upitu ''{2}''"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"Nije moguće zameniti ''{0}'': parametar nije naveden.nFound: {1}"
+
+"You do not have permissions to view Card {0}."
+"Nemate dozvolu za pregled kartice {0}."
+
+"You do not have permissions to run this query."
+"Nemate dozvole za pokretanje ovog upita."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"Pokušaj ažuriranja fingerprinta {0}, ažurirano {1}, podaci nisu pronađeni {2}, neuspešno {3}"
+
+"Total number of fields classified {0}, {1} failed"
+"Ukupan broj polja klasifikovanih {0}, {1} nije uspelo"
+
+"Total number of tables classified {0}, {1} updated"
+"Ukupan broj tabela klasifikovanih {0}, {1} ažuriranih"
+
+"Error generating fingerprint for {0}"
+"Greška pri generisanju otiska prsta za {0}"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"Ažurirano {0} skupovi vrednosti polja, napravljeno {1}, izbrisano {2} sa {3} greškama"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"Ukupan broj sinhronizovanih polja {0}, broj ažuriranih polja {1}"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"Ukupan broj sinhronizovanih tabela {0}, broj ažuriranih tabela {1}"
+
+"Found timezone id {0}"
+"Pronađen je ID vremenske zone {0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"Ukupan broj sinhronizacija stranih ključeva {0}, {1} ažuriranih i {2} neažuriranih tabela"
+
+"{0} Database {1} ''{2}''"
+"{0} Baza podataka {1} ''{2}''"
+
+"Table {0} ''{1}''"
+"Tabela {0} ''{1}''"
+
+"Field {0} ''{1}''"
+"Polje {0} ''{1}''"
+
+"Field ''{0}''"
+"Polje ''{0}''"
+
+"step ''{0}'' for {1}"
+"korak ''{0}'' za {1}"
+
+"Completed {0} on {1}"
+"Završeno {0} {1}"
+
+"Start: {0}"
+"Početak: {0}"
+
+"End: {0}"
+"Kraj: {0}"
+
+"Duration: {0}"
+"Trajanje: {0}"
+
+"Completed step ''{0}''"
+"Završen korak ''{0}''"
+
+"Loading tasks namespace:"
+"Učitavanje prostora imena zadataka:"
+
+"Starting Quartz Scheduler"
+"Pokretanje kvarcnog planera"
+
+"Stopping Quartz Scheduler"
+"Zaustavljanje kvarcnog planera"
+
+"Job already exists:"
+"Posao već postoji:"
+
+"Loading Metabase..."
+"Učitavanje Metabejsa ..."
+
+"Possible timezone conflict found on database {0}."
+"Pronađen je mogući sukob vremenske zone u bazi podataka {0}."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"JVM vremenska zona je {0}, a otkrivena vremenska zona baze podataka {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"Konfigurišite vremensku zonu izveštaja kako biste osigurali odgovarajuću konverziju datuma i vremena."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"Tajni ključ koji se koristi za potpisivanje JSON web tokena za zahteve za `/api/embed` krajnje tačke."
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEY mora imati najmanje 16 znakova."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"Šifrovanje sačuvanih akreditiva je OMOGUĆENO za ovu instancu Metabejsa."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"Šifrovanje sačuvanih akreditiva je ZABRANJENO za ovu instancu Metabejsa."
+
+"nFor more information, see"
+"Za više informacija pogledajte"
+
+"value must be an integer."
+"vrednost mora biti ceo broj."
+
+"value must be a string."
+"vrednost mora biti string."
+
+"value must be a boolean."
+"vrednost mora biti logička vrednost."
+
+"value must be a string that matches the regex `{0}`."
+"vrednost mora biti string koji se podudara sa regularnim izrazom `{0}`."
+
+"value must satisfy one of the following requirements: "
+"vrednost mora da zadovolji jedan od sledećih zahteva:"
+
+"value may be nil, or if non-nil, {0}"
+"vrednost može biti nil, ili ako ne-nil, {0}"
+
+"value must be one of: {0}."
+"vrednost mora biti jedna od: {0}."
+
+"value must be an array."
+"vrednost mora biti niz."
+
+"Each {0}"
+"Svaka {0}"
+
+"The array cannot be empty."
+"Niz ne može biti prazan."
+
+"value must be a non-blank string."
+"vrednost mora biti neprazan niz."
+
+"Integer greater than zero"
+"Ceo broj veći od nule"
+
+"value must be an integer greater than zero."
+"vrednost mora biti ceo broj veći od nule."
+
+"Number greater than zero"
+"Broj veći od nule"
+
+"value must be a number greater than zero."
+"vrednost mora biti broj veći od nule."
+
+"Keyword or string"
+"Ključna reč ili niz"
+
+"Valid field type"
+"Važeći tip polja"
+
+"value must be a valid field type."
+"vrednost mora biti važeći tip polja."
+
+"Valid field type (keyword or string)"
+"Važeći tip polja (ključna reč ili niz)"
+
+"value must be a valid field type (keyword or string)."
+"vrednost mora biti važeći tip polja (ključna reč ili niz)."
+
+"Valid entity type (keyword or string)"
+"Važeći tip entiteta (ključna reč ili niz)"
+
+"value must be a valid entity type (keyword or string)."
+"vrednost mora biti važeći tip entiteta (ključna reč ili niz)."
+
+"Valid map"
+"Važeća mapa"
+
+"value must be a map."
+"vrednost mora biti mapa."
+
+"Valid email address"
+"Ispravna imejl adresa"
+
+"value must be a valid email address."
+"vrednost mora biti važeća imejl adresa."
+
+"Insufficient password strength"
+"Nedovoljna snaga lozinke"
+
+"value must be a valid integer."
+"vrednost mora biti važeći ceo broj."
+
+"value must be a valid integer greater than zero."
+"vrednost mora biti važeći ceo broj veći od nule."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"vrednost mora biti važeći logički niz (''true'' ili ''false'')."
+
+"value must be a valid JSON string."
+"vrednost mora biti važeći JSON niz."
+
+"value must be a valid embedding params map."
+"vrednost mora biti važeća karta ugradnje parametara."
+
+"No results"
+"Nema rezultata"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"Premeštanje primeraka {0} koji nisu u kolekciji u {1} ​​kolekciju {2}"
+
+"Failed to grant permissions: {0}"
+"Dodeljivanje dozvola nije uspelo: {0}"
+
+"Host"
+"Host"
+
+"Port"
+"Port"
+
+"Database username"
+"Korisničko ime baze podataka"
+
+"Database password"
+"Lozinka baze podataka"
+
+"Database name"
+"Naziv baze podataka"
+
+"birds_of_the_world"
+"birds_of_the_world"
+
+"Additional JDBC connection string options"
+"Dodatne opcije JDBC veze"
+
+"praxis-beacon-120871"
+"praxis-beacon-120871"
+
+"toucanSightings"
+"toucanSightings"
+
+"Hosts"
+"Hosts"
+
+"Broker node port"
+"Port čvora brokera"
+
+"Google Analytics Account ID"
+"Google Analytics Account ID"
+
+"Connection String"
+"String veze"
+
+"Users/camsaul/bird_sightings/toucans"
+"Users/camsaul/bird_sightings/toucans"
+
+"carrierPigeonDeliveries"
+"carrierPigeonDeliveries"
+
+"Authentication Database"
+"Baza podataka za autentifikaciju"
+
+"Optional database to use when authenticating"
+"Opciona baza podataka za upotrebu prilikom autentifikacije"
+
+"Additional Mongo connection string options"
+"Dodatne opcije Mongo stringa veze"
+
+"Oracle system ID (SID)"
+"ID Oracle sistema (SID)"
+
+"Usually something like ORCL or XE."
+"Obično nešto poput ORCL ili XE."
+
+"Optional if using service name"
+"Neobavezno ako koristite naziv usluge"
+
+"Oracle service name"
+"Oracle service name"
+
+"Optional TNS alias"
+"Optional TNS alias"
+
+"hive"
+"hive"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"podrazumevano"
+
+"Filename"
+"Naziv datoteke"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite 😋"
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"Naziv instance baze podataka"
+
+"N/A"
+"N/A"
+
+"Windows domain"
+"Windows domen"
+
+"Unable to release the Liquibase lock after a migration failure"
+"Nije moguće osloboditi zaključavanje Liquibase nakon neuspeha migracije"
+
+"Use JVM Time Zone"
+"Koristite JVM vremensku zonu"
+
+"Not a valid integer: ''{0}''"
+"Nije validan celi broj: ''{0}''"
+
+"Embedding is not enabled for this object."
+"Ugrađivanje nije omogućeno za ovaj objekt."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"Problem pri povezivanju na LDAP server,  povratak na lokalnu autentifikaciju: {0}"
+
+"When including an offset, a limit must also be included."
+"Kada uključuje pomak, potrebno je uključiti i ograničenje."
+
+"When including a limit, an offset must also be included."
+"Kada uključuje ograničenje, takođe se mora uključiti pomak."
+
+"Applying heuristic {0} to {1}."
+"Primena heurističkog {0} do {1}."
+
+"Dimensions bindings:n{0}"
+"Veze dimenzija: n{0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"Korištenje definicija:nMetrics:n{0}nFilters:n{1}"
+
+"minute"
+"minut"
+
+"hour"
+"sat"
+
+"day of week"
+"dan u nedelji"
+
+"day of month"
+"dan u mesecu"
+
+"day of year"
+"dan u godini"
+
+"week"
+"nedelja"
+
+"month"
+"mesec"
+
+"quarter"
+"kvartal"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"Dodavanje {0} kartice na infopanel {1}:n{2}"
+
+"Error parsing {0}:n{1}"
+"Greška u parsiranju {0}:n{1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"UPOZORENJE: Filtriranje radi samo na dimenzijama! ''{0}'' je metrika. Ignorisanje filtera."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"UPOZORENJE: Datum ne može pripadati višestrukim diskretnim intervalima,držati ih zajedno nema smisla."
+
+"Ignoring these intervals: {0}"
+"Ignorisanje ovih intervala: {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"UPOZORENJE: Ne znam kako da negirate: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"UPOZORENJE: Druid ne dozvoljava ograničenje specifikacije u vremenskim serijskim upitima. Ignorisanje LIMIT klauzule."
+
+"HoneySQL Form:"
+"HoneySQL Form:"
+
+"Unable to parse date ''{0}''"
+"Nije moguće analizirati datum ''{0}''"
+
+"Client closed connection, cancelling query"
+"Klijent je zatvorio konekciju, otkazivanje upita"
+
+"Setting timezone with statement: {0}"
+"Postavljanje vremenske zone s izjavom: {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"MONGO AGGREGATION PIPELINE:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"Greška: Neusklađene kolone u rezultatima! Očekuje se: {0} Dobija: {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"Nije moguće kreirati temp datoteku u `{0}` za priloge e-pošte "
+
+"Error preprocessing query:"
+"Greška u preprocessing upitu:"
+
+"Illegal filter clause: {0}"
+"Ilegalna klauzula filtra: {0}"
+
+"Invalid clause:"
+"Ilegalna klauzula:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Greška: Upit za izvor upita nije rešen. Verovatno je prvo potrebno da `preradite` upit."
+
+"No expression named ''{0}''"
+"Nema izraza nazvanog ''{0}''"
+
+"No aggregation at index: {0}"
+"Nema agregacije u indeksu: {0}"
+
+"Field values total length is {0} (max {1})."
+"Vrednosti polja Ukupna dužina je {0} (max {1})."
+
+"FieldValues are allowed for this Field."
+"VrijednostiPolja su dozvoljene za ovo polje."
+
+"FieldValues are NOT allowed for this Field."
+"VrijednostiPolja NISU dozvoljene za ovo polje."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"Polje {0} ''{1}'' trebalo bi imati FieldValues i pripadati bazi podataka s ažuriranjem FieldValues na zahtev."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"Ne možete da kreirate ili oduzimate dozvole za grupu ''Admin''."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"Ne možete da dodate ili uklonite korisnike u / iz grupe Svih korisnika."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"Ne možete da uklonite poslednji član grupe ''Admin'' !"
+
+"Error inserting a new Setting: {0}"
+"Greška u umetanju nove postavke: {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"defsetting opisi nizova moraju biti `:internal?' ili internacionalizovani, pronađeno: `{0}`"
+
+"Loading plugin {0}... {1}"
+"Učitavanje dodatka {0} ... {1}"
+
+"Object keyed by type, containing formatting settings"
+"Objekt je ključno po tipu, koja sadrži postavke formatiranja"
+
+"Allow users to explore data using X-rays"
+"Dozvolite korisnicima da istražuju podatke koristeći X-zrake"
+
+"Unable to validate token: 404 not found."
+"Nije moguće potvrditi token: 404 nije pronađen."
+
+"There was an error checking whether this token was valid:"
+"Postojala je greška pri proveri da li je ovaj token valjan:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"Token za premium karakteristike. Idite na Metastore da dobijete svoj!"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"Token format je nevažeći. Token treba da bude 64 heksadecimalna karaktera."
+
+"Error setting premium features token"
+"Greška u podešavanju premium karakteristika tokena"
+
+"Error validating token:"
+"Greška potvrđivanja tokena:"
+
+"Error preprocessing query"
+"Greška u preprocesing upitu"
+
+"No native form returned."
+"Nije vratio matični oblik."
+
+"Invalid response from database driver. No :status provided."
+"Nevažeći odgovor upravljačkog programa baze podataka. No :status provided."
+
+"General error"
+"Opšta greška"
+
+"Missing query hash!"
+"Nedostaje hash upita!"
+
+"Table ''{0}'' has no Fields associated with it."
+"Tabela ''{0}'' nema polja povezana sa njim."
+
+"Max concurrent query limit reached"
+"Dostignuto je maksimalno ograničenje upita"
+
+"Don't know how to get information about Field:"
+"Ne znam kako da dobijete informacije o polju:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface/*driver* is unbound."
+
+"Query processor error: mismatched number of columns in query and results."
+"Greška procesora upita: neusklađeni broj kolona u upitu i rezultatima."
+
+"Expected {0} fields, got {1}"
+"Očekivano {0} polja, dobijeno {1}"
+
+"Expected: {0}"
+"Očekuje se: {0}"
+
+"Actual: {0}"
+"Stvarno: {0}"
+
+"Unable to bin Field without a min/max value"
+"Polje za bin nije moguće bez min / max vrednosti"
+
+"{0} is not supported by this driver."
+"Ovaj upravljački program ne podržava {0}."
+
+"Segment {0} does not exist, or is invalid."
+"Segment {0} ne postoji ili je nevažeći."
+
+"Metric {0} does not exist, or is invalid."
+"Metrika {0} ne postoji ili je nevažeća."
+
+"Missing source query in Card {0}"
+"Nedostaje upit u kartici {0}"
+
+"Fetched source query from Card {0}:"
+"Fečovan izvorni upit iz Kartice {0}:"
+
+"Error transforming MBQL query to native:"
+"Greška u Transformisanju MBQL upita u nativni:"
+
+"Cannot run query: could not find source table {0}."
+"Nije moguće pokrenuti upit: nije moguće pronaći izvornu tabelu {0}."
+
+"Error recording results metadata for query:"
+"Greška pri snimanju metapodataka rezultata za upit:"
+
+"Error: Query Processor store is not initialized."
+"Greška: Prostor za obradu upita nije inicijalizovan."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"Greška: Tabela {0} nije prisutna u Query Processor Store."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"Greška: Polje {0} nije prisutno u Query Processor Store."
+
+"Task history cleanup successful, rows were {0}deleted"
+"Čišćenje istorije zadataka je uspešno, redovi su {0} izbrisani"
+
+"not"
+"ne"
+
+"For more information, see"
+"Za više informacija pogledajte"
+
+"Integer greater than or equal to zero"
+"Ceo broj veći ili jednak nuli"
+
+"value must be an integer greater than or equal to zero."
+"vrednost mora biti ceo broj veći od ili jednak nuli."
+
+"value must be an integer zero or greater."
+"vrednost mora biti integer,nula ili veća."
+
+"value must be a valid integer greater than or equal to zero."
+"vrednost mora biti važeći ceo broj veći od ili jednak nuli."
+
+"Unable to parse resource `{0}` as JSON"
+"Nije moguće raščlaniti resurs `{0}` kao JSON"
+
+"Unable to find JSON via relative path `{0}`"
+"Nije moguće pronaći JSON putem relativne putanje `{0}`"
+
+"Connection to host timed out for URL `{0}`"
+"Vreme veze sa hostom je isteklo za URL `{0}`"
+
+"Unable to connect to unknown host at URL `{0}`"
+"Povezivanje sa nepoznatim hostom na URL `{0}` nije uspelo"
+
+"Unable to connect to host at URL `{0}`"
+"Povezivanje sa hostom na URL-u `{0}` nije uspelo"
+
+"Connection refused by host at for URL `{0}`"
+"Domaćin na URL `{0}` odbio vezu na"
+
+"Unable to retrieve resource at URL `{0}`"
+"Nije moguće preuzeti resurs na URL-u `{0}`"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"Nije moguće raščlaniti resurs na URL-u `{0}` kao JSON"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"Problem sa povezivanjem sa LDAP serverom, vratiće se na lokalnu potvrdu identiteta: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"Izjave BigQuery ne mogu se parametrizovati!"
+
+"We’d love your feedback."
+"Voleli bismo Vaše povratne informacije."
+
+"It looks like Metabase wasn’t quite a match for you."
+"Izgleda da Vam Metabejs nije baš odgovarao."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Da li biste mogli da popunite brzu anketu sa pet pitanja kako biste pomogli Metabejs timu da razume zašto i poboljša stvari u budućnosti?"
+
+"We hope you''ve been enjoying Metabase."
+"Nadamo se da ste uživali u Metabejsu."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"Da li biste imali nešto protiv ankete sa šest pitanja da biste nam rekli kako ide?"
+
+"{0} created a Metabase account"
+"{0} je otvorio nalog Metabejs"
+
+"{0} accepted their Metabase invite"
+"{0} je prihvatio njihov poziv za Metabejs"
+
+"[Metabase] Password Reset Request"
+"[Metabase] Zahtev za resetovanje lozinke"
+
+"[Metabase] Notification"
+"[Metabase] Obaveštenje"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] Pomozite da poboljšamo Metabejs."
+
+"[Metabase] Tell us how things are going."
+"[Metabase] Recite nam kako stvari stoje."
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"Greška: izvorni upit querija nije rešen. Verovatno ćete prvo trebati `unapred obraditi` upit."
+
+"Don't know what to do with:"
+"Ne znam šta da radim sa:"
+
+"Don't know how to wrap:"
+"Ne znam kako da umotam:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"Failed setting `query-caching-max-kb` to {0}."
+
+"Values greater than {1} are not allowed."
+"Vrednosti veće od {1} nisu dozvoljene."
+
+"Database {0} does not exist."
+"Baza podataka {0} ne postoji."
+
+"Error: Database is not present in the Query Processor Store."
+"Greška: Baza podataka nije prisutna u Query Processor Store."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"Nevažeći tajni ključ za ugrađivanje! Tajni ključ mora biti heksadecimalno kodiran 256-bitni ključ (tj. Niz od 64 znaka)."
+
+"JWT is missing `alg`."
+"JWT is missing `alg`."
+
+"JWT `alg` cannot be `none`."
+"JWT `alg` cannot be `none`."
+
+"The embedding secret key has not been set."
+"Tajni ključ za ugradnju nije postavljen."
+
+"Token is missing value for keypath"
+"Tokenu nedostaje vrednost za putanju ključa"
+
+"Previous {0}"
+"Prethodni {0}"
+
+"value must be a valid database engine."
+"vrednost mora biti važeći mehanizam baze podataka."
+
+"Connection refused by host for URL `{0}`"
+"Host je odbio vezu za URL `{0}`"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"UPOZORENJE: Korišćenje Metabejsa sa bazom podataka H2 ne preporučuje se za produkcionu primenu."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"Pogledajte https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres za više informacija."
+
+"Unable to connect to Metabase {0} DB."
+"Povezivanje sa DB Metabejsa {0} nije uspelo."
+
+"Failed to notify {0} Database {1} updated"
+"Obaveštenje o ažuriranoj {0} bazi podataka {1} nije uspelo"
+
+"Loading driver {0} {1}"
+"Učitavanje upravljačkog programa {0} {1}"
+
+"Load driver {0}"
+"Učitavanje upravljačkog programa {0}"
+
+"Driver not registered after loading: {0}"
+"Upravljački program nije registrovan nakon učitavanja: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"Greška: pokušaj promene {0} svojstva `: abstract?` Iz {1} u {2}."
+
+"Registered abstract driver {0}"
+"Registrovani upravljački program za sažetak {0}"
+
+"Registered driver {0}"
+"Registrovani upravljački program {0}"
+
+"(parents: {0})"
+"(roditelji: {0})"
+
+"Initializing driver {0}..."
+"Inicijalizacija pokretačkog programa {0} ..."
+
+"Reason:"
+"Razlog:"
+
+"Invalid driver feature: {0}"
+"Nevažeća funkcija upravljačkog programa: {0}"
+
+"Invalid HoneySQL form:"
+"Invalid HoneySQL form:"
+
+"Closing connection pool for database {0} ..."
+"Zatvaranje spremišta veza za bazu podataka {0} ..."
+
+"Error loading namespace"
+"Greška pri učitavanju prostora imena"
+
+"Starting events listener:"
+"Starting events listener:"
+
+"Unexpected error listening on events"
+"Unexpected error listening on events"
+
+"Error syncing Database {0}"
+"Greška pri sinhronizaciji baze podataka {0}"
+
+"Failed to process sync-database event."
+"Obrada događaja sinhronizacije baze podataka nije uspela."
+
+"Bad nested-query-level: query does not have a source query"
+"Loš nivo ugnežđenog upita: upit nema izvorni upit"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"Vrednosti polja za polje {0} ostaju nepromenjene. Preskakanje ..."
+
+"Unable to normalize:"
+"Nije moguće normalizovati:"
+
+"Could not find matching Field ID for target:"
+"Ne mogu da pronađem odgovarajući ID polja za cilj:"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabejs nema dozvolu za pisanje u direktorijum dodataka {0}"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabejs ne može da koristi direktorijum dodataka {0}"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"Uverite se da direktorijum postoji i da Metabejs ima dozvolu za pisanje u njega."
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"Direktorijum koji Metabejs koristi za module možete promeniti podešavanjem promenljive okruženja MB_PLUGINS_DIR."
+
+"Falling back to a temporary directory for now."
+"Vraćanje za sada u privremeni direktorijum."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabejs ne može pisati u privremeni direktorijum. Molimo podesite MB_PLUGINS_DIR na direktorijum za pisanje i ponovo pokrenite Metabejs."
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deps.jar više nije potreban za Metabejs 1.0+. Možete ga izbrisati iz direktorijuma dodataka."
+
+"Failied to initialize plugin {0}"
+"Inicijalizacija dodatka {0} nije uspela"
+
+"Loading plugins in {0}..."
+"Učitavanje dodataka u {0} ..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Using Clojure base loader as shared context classloader: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"Setting current thread context classloader to shared classloader {0}..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+
+"Added URL {0} to classpath"
+"URL put {0} je dodat u classpath"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"Dodatak {0} izjavljuje zavisnost koju Metabejs ne razume: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"Potpunu listu važećih zavisnosti dodataka potražite u referenci manifesta dodatka:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"Metabejs ne može da inicijalizuje dodatak {0} zbog potrebnih zavisnosti."
+
+"Class not found: {0}"
+"Klasa nije pronađena: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"Dodatak ''{0}'' zavisi od dodatka ''{1}''"
+
+"{0} dependency {1} satisfied? {2}"
+"{0} zavisnost {1} zadovoljena? {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"Dodaci sa nezadovoljnim depoima: {0}"
+
+"Extract file {0} -> {1}"
+"Izdvoji datoteku {0} -> {1}"
+
+"Resource does not exist."
+"Resurs ne postoji."
+
+"Loading plugin namespace {0}..."
+"Učitavanje prostora imena dodataka {0} ..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"Zavisnosti zadovoljene; ovi dodaci će sada biti učitani: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"Registrovanje JDBC proksi upravljačkog programa za {0} ..."
+
+"Deregistering original JDBC driver {0}..."
+"Poništavanje registracije originalnog JDBC upravljačkog programa {0} ..."
+
+"Default connection property {0} does not exist."
+"Podrazumevano svojstvo veze {0} ne postoji."
+
+"Invalid connection property {0}: not a string or map."
+"Nevažeće svojstvo veze {0}: nije niz ili mapa."
+
+"Load lazy loading driver {0}"
+"Load lazy loading driver {0}"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"Ne može se inicijalizovati dodatak: nedostaje potrebno svojstvo `driver-name`"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"Upozorenje: manifest dodatka za {0} ne uključuje svojstva veze"
+
+"Registering lazy loading driver {0}..."
+"Registering lazy loading driver {0}..."
+
+"Error running query for Card {0}"
+"Greška prilikom pokretanja upita za karticu {0}"
+
+"Last week"
+"Prošle nedelje"
+
+"This week"
+"Ove nedelje"
+
+"Last month"
+"Prošlog meseca"
+
+"This month"
+"Ovaj mesec"
+
+"Last quarter"
+"Prošlog kvartala"
+
+"This quarter"
+"Ovog kvartala"
+
+"Last year"
+"Prošle godine"
+
+"This year"
+"Ove godine"
+
+"*driver* is unbound."
+"* driver * nije vezan."
+
+"Error syncing Fields for Table ''{0}''"
+"Greška pri sinhronizaciji polja za tabelu ''{0}''"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"Heš od {0} usklađenih memorisanih heša, preskačući sinhronizaciju polja"
+
+"Field"
+"Polje"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"Greška pri proveri da li je potrebno {0} kreirati ili ponovo aktivirati polja"
+
+"Marking Field ''{0}'' as inactive."
+"Označavanje polja ''{0}'' kao neaktivnog."
+
+"Error retiring {0}"
+"Greška pri povlačenju {0}"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"Tip baze podataka {0} promenjen je iz ''{1}'' u ''{2}''."
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"Osnovni tip {0} je promenjen iz ''{1}'' u ''{2}''."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"Specijalni tip {0} je promenjen iz ''{1}'' u ''{2}''."
+
+"Comment has been added for {0}."
+"Dodat je komentar za {0}."
+
+"Stopping Quartz Scheduler {0}"
+"Zaustavljanje kvarcnog planera {0}"
+
+"Starting Quartz Scheduler {0}"
+"Pokretanje kvarcnog planera {0}"
+
+"Error loading tasks namespace {0}"
+"Greška pri učitavanju prostora imena zadataka {0}"
+
+"Initializing task {0}"
+"Inicijalizacija zadatka {0}"
+
+"Error initializing task {0}"
+"Greška pri inicijalizaciji zadatka {0}"
+
+"Problem sending abandonment email"
+"Problem pri slanju imejla za napuštanje"
+
+"Sending anonymous usage stats."
+"Slanje anonimnih statistika upotrebe."
+
+"Error sending anonymous usage stats"
+"Greška pri slanju anonimnih statistika upotrebe"
+
+"Error sending Pulse {0}"
+"Greška pri slanju pulsa {0}"
+
+"Sending scheduled pulses..."
+"Slanje zakazanih pulseva ..."
+
+"SendPulses task failed"
+"Zadatak SendPulses nije uspeo"
+
+"Failed to scheduler tasks for Database {0}"
+"Zadaci planera za bazu podataka {0} nisu uspeli"
+
+"Cleaning up task history"
+"Čišćenje istorije zadataka"
+
+"Task history cleanup successful, rows were deleted"
+"Čišćenje istorije zadataka je uspešno, redovi su izbrisani"
+
+"Task history cleanup successful, no rows were deleted"
+"Čišćenje istorije zadataka je uspešno, nijedan red nije izbrisan"
+
+"Checking for new Metabase version info."
+"Provera novih informacija o verziji Metabejsa."
+
+"Error fetching version info"
+"Greška pri preuzimanju informacija o verziji"
+
+"Maximum memory available to JVM: {0}"
+"Maksimalna memorija dostupna JVM-u: {0}"
+
+"Not something with an ID: {0}"
+"Nije nešto sa ID: {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"Rezultati kartica Metapodaci koji prelaze u API NEDOSTAJU. Pokrenite upit za donošenje ispravnih metapodataka."
+
+"{0} was autocorrected to {1}"
+"{0} je autokorektovan u {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE /api/metric/:id je zastarelo. Umesto toga, promenite svoju `arhiviranu` vrednost putem PUT /api/metric/:id."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE /api/segment/:id je zastarelo. Umesto toga, promenite svoju `arhiviranu vrednost putem PUT /api/segment/:id."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"Vrednost IS_SUPERUSER mora da odgovara prisustvu administratorske grupe grupe u Group_IDS-u."
+
+"Unexpected error writing keepalive characters"
+"Neočekivana greška u pisanju keepalive znakova"
+
+"Unexpected output in async API response"
+"Neočekivani izlaz u Async API odgovoru"
+
+"starting streaming response"
+"Pokretanje stream odgovora"
+
+"Output chan closed, canceling keepalive request."
+"Izlaz Chan je zatvoren, otkazivanje zahteva Keepalive."
+
+"Async response finished, closing channels."
+"Async Odgovor je završen, zatvaraju se kanali."
+
+"No response after waiting {0}. Canceling request."
+"Nema odgovora nakon čekanja {0}. Zahtev za otkazivanje."
+
+"Input channel unexpectedly closed."
+"Ulazni kanal neočekivano zatvoren."
+
+"f finished, permit will be returned"
+"Ako je završeno, dozvola će biti vraćena"
+
+"request canceled, permit will be returned"
+"Zahtev je otkazan, dozvola će biti vraćena"
+
+"Unexpected error attempting to run function after obtaining permit"
+"Neočekivana greška u pokušaju pokretanja funkcije nakon dobijanja dozvole"
+
+"Not running pending function call: output channel already closed."
+"Not running pending function call: Izlazni kanal je već zatvoren."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"Trenutna nit već ima dozvolu za {0}, neće čekati da nabavi drugu"
+
+"Output channel closed, will skip running {0}."
+"Izlazni kanal je zatvoren, preskočiće se pokretanje {0}."
+
+"Running {0} on separate thread..."
+"Pokretanje {0} na odvojenoj niti ..."
+
+"Caught error running {0}"
+"Uhvaćena greška u pokretanju {0}"
+
+"Request canceled, canceling future"
+"Zahtev je otkazan, otkazivanje buduće"
+
+"Closing old connection pool for database {0} ..."
+"Zatvaranje stare konekcije za bazu podataka {0} ..."
+
+"Here''s your {0} most recent cards:"
+"Evo {0} najnovije kartice:"
+
+"Card {0} not found."
+"Kartica {0} nije pronađena."
+
+"Exception in API call"
+"Izuzetak u API pozivu"
+
+"Request canceled before finishing."
+"Zahtev je otkazan pre završetka."
+
+"Metabase only supports JSON requests."
+"Metabejs podržava samo JSON zahteve."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Make sure you set a 'Content-Type: application/json' header."
+
+"Setting Metabase site URL to {0}"
+"Podešavanje URL stranice Metabejsa do {0}"
+
+"Error scheduling tasks for DB"
+"Greška prilikom zakazivanja zadataka za DB"
+
+"Error unscheduling tasks for DB."
+"Greška u otkazivanju zadataka za DB."
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} Baza podataka ''{1}'' Sync / Analizirani raspored su se promenili!"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"Sync metapodaci su bili: ''{0}'' je sada: ''{1}''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Cache FieldValues su bili: ''{0}'', je sada: ''{1}''"
+
+"You cannot update the creator_id of a Metric."
+"Ne možete da ažurirate Creator_ID metrike."
+
+"Failed to grant permissions"
+"Nije uspelo davanje dozvola"
+
+"Changing permissions"
+"Promena dozvola"
+
+"FROM:"
+"OD:"
+
+"TO:"
+"ZA:"
+
+"You cannot update the creator_id of a Segment."
+"Ne možete da ažurirate Creator_ID segmenta."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"Pokušaj postavljanja postavke {0} u obfuscated vrednost. Ignorisanje promena."
+
+"Using value of env var {0}"
+"Koristeći vrednost env var {0}"
+
+"Adding User {0} to All Users permissions group..."
+"Dodavanje korisnika {0} u grupu dozvola Svih korisnika..."
+
+"Adding User {0} to Admin permissions group..."
+"Dodavanje korisnika {0} na Grupu dozvola administratora ..."
+
+"Query failure"
+"Neuspeh upita"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"Maksimalni broj omogućenih istovremenih upita po povezanoj bazi podataka."
+
+"Timed out after {0} milliseconds."
+"Istekao je posle {0} milisekundi."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"Problem povezivanja sa LDAP serverom vratiće se na lokalnu potvrdu identiteta"
+
+"Cannot create Database: cannot find driver {0}."
+"Ne može se napraviti baza podataka: ne može se pronaći upravljački program {0}."
+
+"Query failed"
+"Upit nije uspeo"
+
+"Warning: {0} returned `nil`"
+"Upozorenje: {0} vratio je `nil`"
+
+"Unexpected error writing result to output channel: already closed"
+"Neočekivana greška pri upisivanju rezultata u izlazni kanal: već zatvoreno"
+
+"Unexpected error writing exception to output channel: already closed"
+"Neočekivana greška pri pisanju izuzetka u izlazni kanal: već zatvoreno"
+
+"Request canceled, canceling future."
+"Zahtev otkazan, canceling future."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabejs može prenositi podatke samo iz H2 u Postgres ili MySQL / MariaDB."
+
+"Application database setup"
+"Podešavanje baze podataka"
+
+"Could not find {0} driver."
+"Ne mogu da pronađem upravljački program za {0}."
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"Apstraktni drajveri ne mogu proizaći iz konkretnih matičnih drajvera."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"Možda ćete trebati dodati 'trustServerCertificate = true' u dodatne opcije povezivanja da biste se povezali SSL-om."
+
+"Don't know how to alias {0}, expected an Identifer."
+"Ne znam kako se pojavio pseudonim {0}, očekivao se identifikator."
+
+"Client closed connection, canceling query"
+"Klijent je prekinuo vezu, otkazivanje upita"
+
+"{0} is not a valid DN."
+"{0} nije važeći DN."
+
+"Error logging API request"
+"Greška u evidentiranju zahteva za API"
+
+"Failed to set site-url"
+"Postavljanje URL-a stranice nije uspelo"
+
+"Error destroying thread pool for DB."
+"Greška pri uništavanju spremišta niti za DB."
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"Ažuriranje prikazanog imena za {0} ''{1}'': ''{2}'' -> ''{3}''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"Nevažeća strategija humanizacije ''{0}''. Važeće strategije su: {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Promena strategije humanizacije naziva tabela i polja sa ''{0}'' na ''{1}''"
+
+"Error saving task history"
+"Greška pri čuvanju istorije zadataka"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"spark-deps.jar više nije potreban Metabejsu 0.32.0+. Možete ga izbrisati iz direktorijuma dodataka."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+
+"Failed to copy file"
+"Kopiranje datoteke nije uspelo"
+
+"Invalid site URL: {0}"
+"Nevažeća URL adresa veb lokacije: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"url stranice je nevažeći; vraća za sada nil. Resetovaće se na sledeći zahtev."
+
+"More results have been included as a file attachment"
+"Više rezultata je uključeno u prilog datoteke"
+
+"This question has been included as a file attachment"
+"Ovo pitanje je uključeno u prilog datoteke"
+
+"We were unable to display this Pulse."
+"Nismo mogli da prikažemo ovaj Puls."
+
+"Please view this card in Metabase."
+"Molimo pogledajte ovu karticu u Metabejsu."
+
+"An error occurred while displaying this card."
+"Došlo je do greške prilikom prikazivanja ove kartice."
+
+"Can only determine expected columns for MBQL queries."
+"Može da odredi samo očekivane kolone za MBQL upite."
+
+"No columns returned."
+"Nije vraćena ni jedna kolona."
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Upozorenje: ne mogu se odrediti polja za eksplicitni `izvorni-upit`, osim ako niste uključili i `meta-podatke`."
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"Nije moguće rešiti {0}: Polje ne postoji ili njegova tabela pripada drugoj bazi podataka."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"Ne može se rešiti: field-literal inside :fk-> osim ako se iznutra ne pridruži eksplicitni :alias."
+
+"Cannot find Table ID for {0}"
+"Ne mogu da pronađem ID tabele za {0}"
+
+"No matching info found."
+"Nisu pronađene odgovarajuće informacije."
+
+"Could not resolve {0}"
+"Rešavanje problema {0} nije uspelo"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"Invalid fk-> clause: nowhere to add corresponding join."
+
+"{0} driver does not support foreign keys."
+"{0} upravljački program ne podržava strane ključeve."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"Nije moguće zaključiti  `:source-metadata` za izvorni upit sa izvornim upitom izvora bez izvornih metapodataka."
+
+"Query processor error: number of columns returned by driver does not match results."
+"Greška procesora upita: broj kolona koje je drajver vratio ne podudara se sa rezultatima."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"Očekivane kolone {0}, ali prvi red rezultata ima {1} kolona."
+
+"No expression named {0} found. Found: {1}"
+"Nije pronađen izraz pod nazivom {0}. Pronađeno: {1}"
+
+"Distinct values of {0}"
+"Jedinstvene vrednosti {0}"
+
+"Average of {0}"
+"Prosek od {0}"
+
+"Sum of {0}"
+"Zbir od {0}"
+
+"SD of {0}"
+"SD od {0}"
+
+"Min of {0}"
+"Min od {0}"
+
+"Max of {0}"
+"Max od {0}"
+
+"Sum of {0} matching condition"
+"Zbir {0} uslova podudaranja"
+
+"Share of rows matching condition"
+"Udeo redova koji se podudaraju"
+
+"Count of rows matching condition"
+"Broj redova koji se podudaraju"
+
+"Request already canceled, will not run synchronous QP code."
+"Zahtev je već otkazan, neće se pokretati sinhroni QP kod."
+
+"Unexpectedly got `nil` Query Processor response."
+"Neočekivano je stigao `nil` odgovor procesora upita."
+
+"Got InterruptedException. Canceling query."
+"InterruptedException. Otkazivanje upita."
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"Neobrađeni izuzetak, očekuje se da će se midlver `catch-exceptions` nositi sa tim."
+
+"Query timed out after %s"
+"Upit je istekao nakon %s"
+
+"Creating new query thread pool for Database {0}"
+"Kreiranje novog upita niti za bazu podataka {0}"
+
+"Destroying query thread pool for Database {0}"
+"Uništavanje spremišta niti upita za bazu podataka {0}"
+
+"Request canceled, canceling pending query"
+"Zahtev otkazan, otkaz na čekanju"
+
+"Cannot update binned field: query is missing source-metadata"
+"Nije moguće ažurirati binovano polje: upitu nedostaju izvorni metapodaci"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"Nije moguće ažurirati binovano polje: nije moguće pronaći odgovarajuće metapodatke izvora za polje ''{0}''"
+
+"Using query processor cache backend: {0}"
+"Korišćenje pozadine keša procesora upita: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"Nevažeći pokazatelj: {0} razlog: {1}"
+
+"Unknown error"
+"Nepoznata greška"
+
+"Unexpected nil response from query processor."
+"Neočekivani nulti odgovor procesora upita."
+
+"Query canceled"
+"Upit otkazan"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"Nije moguće rešiti upravljački program za upit: nedostaje ili je neispravan `:database` ID."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"Nije moguće rešiti upravljački program za upit: Baza podataka {0} ne postoji."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"Ne može se koristiti :fields :all u pridruživanju prema izvornom upitu, osim ako nema :source-metadata."
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+
+"Cannot store Tables or Fields before Database is stored."
+"Ne mogu se sačuvati tabele ili polja pre nego što se baza podataka sačuva."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"Pokušaj preuzimanja druge baze podataka. Upiti se mogu pozivati samo na jednu bazu podataka."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"Preuzimanje tabele {0} nije uspelo: tabela ne postoji ili pripada drugoj bazi podataka."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"Preuzimanje polja {0} nije uspelo: Polje ne postoji ili pripada drugoj bazi podataka."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"Učitavanje šablona  ''{0}'' nije uspelo. Da li ste napravili interfejs Metabejsa?"
+
+"Found new tables:"
+"Pronađene nove tabele:"
+
+"Marking tables as inactive:"
+"Označavanje tabela kao neaktivnih:"
+
+"Updating description for tables:"
+"Ažuriranje opisa za tabele:"
+
+"Rescheduling job {0}"
+"Ponovno zakazivanje posla {0}"
+
+"Error rescheduling job"
+"Greška pri ponovnom rasporedu posla"
+
+"Starting Pulse Execution: {0}"
+"Pokretanje Pulse Execution: {0}"
+
+"Finished Pulse Execution: {0}"
+"Završen Pulse Execution: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"Nije uspelo zakazivanje zadataka za bazu podataka {0}"
+
+"All elements must be distinct."
+"Svi elementi moraju biti različiti."
+
+"Don't know how to alias {0}, expected an Identifier."
+"Ne znam kako da zamenim pseudonim {0}, očekivao se identifikator."
+
+"Error adding User {0} to Group {1}"
+"Greška pri dodavanju korisnika {0} u grupu {1}"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Promena strategije humanizacije naziva tabela i polja sa ''{0}'' na ''{1}''"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"Otkrivena je beskonačna petlja: rekurzivno unapred obrađeni upit {0} puta."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"Neobrađeni izuzetak, očekuje se da će se midlver 'catch-exceptions' nositi sa tim."
+
+"All"
+"Sve"
+
+"An error occurred while running the query."
+"Došlo je do greške prilikom pokretanja upita."
+
+"Output H2 database already exists: %s, removing."
+"Izlazna baza podataka H2 već postoji: %s, uklanja se."
+
+"Don't need to migrate, just use the existing H2 file"
+"Ne morate da migrirate, samo koristite postojeću H2 ​​datoteku"
+
+"Target DB is already populated!"
+"Ciljni DB je već popunjen!"
+
+"System info:n {0}"
+"System info:n {0}"
+
+"Database setup"
+"Postavljanje baze podataka"
+
+"Invalid '{{...}}' clause: expected a param name"
+"Invalid '{{...}}' klauzula: očekuje se naziv parametra"
+
+"'{{...}}' clauses cannot be empty."
+"'{{...}}' klauzule ne mogu biti prazne."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"'[[...]]' klauzule moraju da sadrže najmanje jednu klauzulu '{{...}}' ."
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"Nevažeći upit: pronađeno '[[' ili '{{' bez podudaranja sa ']]' ili '}}'"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"Pre nego što se ovaj upit pokrene, moraćete da izaberete vrednost za ''{0}''."
+
+"Can''t find field with ID: {0}"
+"Ne mogu da pronađem polje sa ID-om: {0}"
+
+"Error loading driver namespace"
+"Greška pri učitavanju prostora imena upravljačkog programa"
+
+"Could not load {0} driver."
+"Učitavanje upravljačkog programa za {0} nije uspelo."
+
+"Don''t know how to parse {0} {1}"
+"Ne znam kako da raščlanim {0} {1}"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"Ne znam kako da zamenim pseudonim {0}, očekivao se identifikator."
+
+"Don''t know how to unprepare values of class {0}"
+"Ne znam kako da pripremim vrednosti klase {0}"
+
+"Creating new connection pool for {0} database {1} ..."
+"Kreiranje novog skladišta veza za {0} bazu podataka {1} ..."
+
+"Invalid timezone ''{0}''"
+"Nevažeća vremenska zona ''{0}''"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"Nije moguće postaviti vremensku zonu: nevažeći ili nedostaje string SQL formata za upravljački program {0}."
+
+"Did you implement set-timezone-sql?"
+"Da li ste primenili set-timezone-sql?"
+
+"Failed to set timezone ''{0}''"
+"Postavljanje vremenske zone ''{0}'' nije uspelo"
+
+"Error parsing JSON"
+"Greška pri raščlanjivanju JSON-a"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"Da li prikazivati podatke na početnoj stranici ili ne. Administratori mogu ovo isključiti kako bi korisnike usmerili na bolji sadržaj od sirovih podataka"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Da li da se na početnoj stranici prikazuju X-zraci ili ne. Oni će takođe biti sakriveni ako su bilo koji infopaneli zakačeni. Administratori ovo mogu sakriti kako bi korisnike usmerili na bolji sadržaj od sirovih podataka"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"Identifikujte izvor HTTP zahteva prema vrednosti ovog zaglavlja, umesto prema udaljenoj adresi."
+
+"Could not resolve Setting {0}/{1}"
+"Nije moguće rešiti podešavanje {0}/{1}"
+
+"Invalid Setting: {0}/{1}"
+"Nevažeće podešavanje: {0}/{1}"
+
+"reached its goal"
+"dostignut cilj"
+
+"gone below its goal"
+"ispod cilja"
+
+"Sending Pulse ({0}: {1}) via email"
+"Slanje pulsa ({0}: {1}) putem e-pošte"
+
+"Pulse: {0}"
+"Puls: {0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Slanje Pulsa ({0}: {1}) putem Slack-a"
+
+"Sending Alert ({0}: {1}) via email"
+"Slanje Upozorenja ({0}: {1}) putem e-pošte"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Slanje obaveštenja ({0}: {1}) putem Slack-a"
+
+"Alert: {0}"
+"Upozorenje: {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"Ne mogu da pronađem JS birač boja na ''{0}''"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"REŠENJE: Ovo nisu važeći vremenski literali: {0} {1}. Zašto ih pokušavamo formatirati kao takve?"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"Nisu pronađene odgovarajuće informacije za pridruživanje prema tabeli {0} ''{1}'' na polju {2} ''{3}'' preko FK {4} ''{5}''"
+
+"Don''t know how to get information about Field: {0}"
+"Ne znam kako da dobijem informacije o polju: {0}"
+
+"Query timed out after {0}"
+"Upit je istekao nakon {0}"
+
+"Formatting rows with results timezone ID {0}"
+"Formatiranje redova sa ID vremenske zone rezultata {0}"
+
+"Invalid timezone ID ''{0}''"
+"Nevažeći ID vremenske zone ''{0}''"
+
+"Saving fingerprint for {0}"
+"Čuvanje fingerprinta za {0}"
+
+"Sending abandoment email!"
+"Slanje e-pošte za napuštanje!"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"Rezultirajuće transformacije nisu u skladu sa očekivanjima.nExpected: {0}"
+
+"Timed out after {0}"
+"Isteklo je vreme nakon {0}"
+
+"No temporal adjuster named {0}"
+"Nema temporal adjustera pod imenom {0}"
+
+"Invalid unit: {0}"
+"Nevažeća jedinica: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"Ne znam kako da raščlanim {0} pomoću formata {1}"
+
+"Token is missing value for keypath {0}"
+"Token is missing value for keypath {0}"
+
+"Sending usage stats FAILED"
+"Slanje statistika korišćenja NIJE uspelo"
+
+"or"
+"ili"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabejs može da skenira vrednosti prisutne u svakom polju u ovoj bazi podataka kako bi omogućila filtere u polju za potvrdu na infopanelu i u pitanjima. Ovo može biti proces koji zahteva resurse, posebno ako imate veoma veliku bazu podataka."
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"Veza sa ''{0}:{1}'' je uspela, ali je neuspelo povezivanje sa DB."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"Veza sa hostom ''{0}'' je uspela, ali port {1} je nevažeći."
+
+"Host ''{0}'' is not reachable"
+"Host  ''{0}'' nije dostupan"
+
+"Unable to connect to database."
+"Nije moguće povezivanje sa bazom."
+
+"Cannot connect to Database"
+"Nije moguće povezati se sa bazom podataka"
+
+"You''re not allowed to specify a value for {0}."
+"Nije Vam dozvoljeno da navedete vrednost za {0}."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"Ne možete da navedete vrednost za {0} ako je već postavljena u JWT."
+
+"You must specify a value for {0} in the JWT."
+"Morate navesti vrednost za {0} u JWT."
+
+"You can only specify a value for {0} in the JWT."
+"Vrednost za {0} možete da navedete samo u JWT."
+
+"Error searching field values"
+"Greška pri pretraživanju vrednosti polja"
+
+"Error searching for remapping"
+"Greška pri traženju ponovnog mapiranja"
+
+"Double check that it matches in Google and Metabase."
+"Još jednom proverite da li se podudara na Guglu i Metabejsu."
+
+"Everything else"
+"Sve ostalo"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"UPOZORENJE: Omogućili ste praćenje prostora imena koje bi moglo evidentirati osetljive informacije poput db lozinki."
+
+"Database Upgrade Required"
+"Potrebna nadogradnja baze podataka"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"OBAVEŠTENJE: Vaša baza podataka zahteva ažuriranja za rad sa ovom verzijom Metabejsa."
+
+"Please execute the following sql commands on your database before proceeding."
+"Izvršite sledeće sql naredbe na Vašoj bazi podataka pre nego što nastavite."
+
+"Once your database is updated try running the application again."
+"Kada se baza podataka ažurira, pokušajte ponovo da pokrenete aplikaciju."
+
+"Database requires manual upgrade."
+"Baza podataka zahteva ručnu nadogradnju."
+
+"Successfully verified {0} {1} application database connection."
+"Uspešno verifikovana veza baze podataka aplikacije {0} {1}."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"Ne znam kako da raščlanim parametar datuma ''{0}'' - nevažeći format"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"Podupit iz navedenog pitanja br {0} nije uspeo sa sledećom greškom: {1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"UPOZORENJE: Metabejs zvanično podržava samo MySQL {0} / MariaDB {1} i novije verzije."
+
+"All Metabase features may not work properly when using an unsupported version."
+"Sve funkcije Metabejsa možda neće raditi ispravno kada se koristi nepodržana verzija."
+
+"Cannot run the query: missing required parameters: {0}"
+"Nije moguće pokrenuti upit: nedostaju potrebni parametri: {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"Ne znam kako da raščlanim {0} {1} kao vremenski literal"
+
+"Setting {0} database timezone with statement: {1}"
+"Postavljanje {0} vremenske zone baze podataka sa iskazom: {1}"
+
+"Error setting connection to readwrite"
+"Greška pri podešavanju veze za pisanje teksta"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"Postavljanje vremenske zone ''{0}'' za bazu podataka {1} nije uspelo"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"Greška pri podešavanju nivoa izolacije transakcije za {0} bazu podataka na {1}"
+
+"Error setting connection to read-only"
+"Greška pri podešavanju veze samo za read-only"
+
+"Error setting default holdability for connection"
+"Greška pri podešavanju podrazumevanog zadržavanja veze"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"Upit je otkazan, pozivanje PreparedStatement.cancel ()"
+
+"Failed to connect to database"
+"Povezivanje sa bazom podataka nije uspelo"
+
+"Unable to determine connection properties for driver {0}"
+"Nije moguće utvrditi svojstva veze za upravljački program {0}"
+
+"Error fetching field values"
+"Greška pri preuzimanju vrednosti polja"
+
+"You cannot set {0}; it is a read-only setting."
+"Ne možete da podesite {0}; to je read-only postavka."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+
+"Setting {0} is internal"
+"Setting {0} is internal"
+
+"Loading local plugin manifest at {0}"
+"Učitavanje manifesta lokalne lokalne dodatne komponente na {0}"
+
+"Google Analytics tracking code."
+"Kod za praćenje Gugl analitike."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"Slanje Pulsa ({0}: {1}) sa {2} Karticama putem e-pošte"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Slanje Pulsa ({0}: {1}) sa {2} Kartica putem Slack-a"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"Prikaz pulsne kartice tipa grafikona {0} i tipa prikaza {1}"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"REŠENJE: Ovo nisu važeći vremenski literali: {0} {1}. Zašto ih pokušavamo formatirati kao takve?"
+
+"Error reducing result rows"
+"Greška pri redukciji redova rezultata"
+
+"Unexpected nil result"
+"Neočekivani nulti rezultat"
+
+"Query timed out after {0} ms, raising timeout exception."
+"Upit je istekao nakon {0} ms, povećavajući izuzetak od vremenskog ograničenja."
+
+"Timed out after {0}."
+"Isteklo je vreme nakon {0}."
+
+"Query canceled before finishing."
+"Upit je otkazan pre završetka."
+
+"Unknown query type {0}"
+"Nepoznati tip upita {0}"
+
+"Caching results for next time for query with hash {0}."
+"Keširanje rezultata za sledeći put za upit pomoću heša {0}."
+
+"Error saving query results to cache."
+"Greška pri čuvanju rezultata upita u keš memoriji."
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"Upitu je trebalo {0} da se pokrene; miminum za ispunjavanje keša je {1}"
+
+"Results are too large to cache."
+"Rezultati su preveliki za keširanje."
+
+"Error parsing serialized results"
+"Greška pri raščlanjivanju serijskih rezultata"
+
+"Error purging old cache entries"
+"Greška pri čišćenju starih unosa u keš"
+
+"Caching results for query with hash {0}."
+"Keširanje rezultata za upit pomoću heša {0}."
+
+"Cannot save QueryExecution, missing :context"
+"Nije moguće sačuvati QueryExecution, nedostaje :context"
+
+"Error saving query execution info"
+"Greška pri čuvanju podataka o izvršenju upita"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"Nije moguće razrešiti bazu podataka za upit:  missing or invalid `:database` ID."
+
+"Unable to resolve driver for query"
+"Nije moguće razrešiti upravljački program za upit"
+
+"Referenced question #{0} could not be found"
+"Referentno pitanje br {0} nije moguće pronaći"
+
+"Referenced query is from a different database"
+"Navedeni upit je iz druge baze podataka"
+
+"This query has circular referencing sub-queries. "
+"Ovaj upit ima kružno referenciranje podupita. "
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"Čini se da su ova pitanja deo problema: \"{0}\" i \"{1}\"."
+
+"Error recording results metadata for query"
+"Greška pri snimanju metapodataka rezultata za upit"
+
+"Query result"
+"Rezultat upita"
+
+"Error generating insights for column:"
+"Greška pri generisanju uvida za kolonu:"
+
+"Sending abandonment email!"
+"Slanje e-pošte za napuštanje!"
+
+"SSH Authentication"
+"SSH Authentication"
+
+"SSH Key"
+"SSH Key"
+
+"Server SSL certificate chain"
+"Lanac SSL sertifikata servera"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"Prosečno trajanje izvršenja pitanja je {0}; koristeći „magični“ TTL od {1}"
+
+"A snippet with that name already exists. Please pick a different name."
+"Fragment s tim imenom već postoji. Izaberite drugo ime."
+
+"[Unknown Metric]"
+"[Unknown Metric]"
+
+"[Unknown Segment]"
+"[Unknown Segment]"
+
+"Error writing error to output stream"
+"Greška pri upisu greške u izlazni tok"
+
+"Caught unexpected Exception in streaming response body"
+"Uhvaćen neočekivani izuzetak u telu odgovora striminga"
+
+"bound-fn caught unexpected Exception"
+"bound-fn je uhvatio neočekivani izuzetak"
+
+"Error determining whether HTTP request was canceled"
+"Greška pri određivanju da li je HTTP zahtev otkazan"
+
+"Check cancelation status timed out after {0}"
+"Proverite da li je status otkazivanja istekao nakon {0}"
+
+"Unexpected exception in do-f-async"
+"Neočekivani izuzetak u do-f-async"
+
+"Unexpected exception writing error response"
+"Neočekivani odgovor na grešku pri upisu izuzetaka"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"Sertifikat servera nije pouzdan - da li ste naveli tačan lanac SSL sertifikata?"
+
+"Server appears to require SSL - please enable SSL above"
+"Čini se da server zahteva SSL - omogućite SSL iznad"
+
+"Username"
+"Korisničko ime"
+
+"Don''t know how to parse parameter of type {0}"
+"Ne znam kako da raščlanim parametar tipa {0}"
+
+"Invalid :card parameter: missing `:card-id`"
+"Nevažeće: parametar kartice: nedostaje `:card-id`"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"Nije moguće razrešiti fragment: nedostaje `:snippet-id`"
+
+"Snippet {0} {1} not found."
+"Fragment {0} {1} nije pronađen."
+
+"Error determining value for parameter"
+"Greška pri određivanju vrednosti parametra"
+
+"Error building query parameter map"
+"Greška u izgradnji mape parametara upita"
+
+"ASYNC"
+"ASYNC"
+
+"{0} ({1} DB calls)"
+"{0} ({1} DB pozivi)"
+
+"App DB connections: {0}/{1}"
+"App DB konekcije: {0}/{1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+
+"({0} total active threads)"
+"(Ukupno {0} aktivnih niti)"
+
+"Queries in flight: {0}"
+"Upiti u letu: {0}"
+
+"({0} queued)"
+"({0} queued)"
+
+"Collection must be in the same namespace as its parent"
+"Zbirka mora biti u istom prostoru imena kao i roditelj"
+
+"Personal Collections must be in the default namespace"
+"Lične kolekcije moraju biti u podrazumevanom prostoru imena"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"Jednom kada je kreirana, kolekciju ne možete premestiti u drugi prostor imena."
+
+"Collection does not exist."
+"Kolekcija ne postoji."
+
+"A {0} can only go in Collections in the {1} namespace."
+"{0} može ići u Kolekcije samo u prostoru imena {1}."
+
+"Error sending database deletion notification"
+"Greška pri slanju obaveštenja o brisanju baze podataka"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"Ne možete ažurirati ID_kreatora NativeQuerySnippet."
+
+"Error fetching value of Setting"
+"Greška pri preuzimanju vrednosti podešavanja"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Jezik koji treba koristiti za interfejs Metabejsa, sistemske e-adrese, pulseve i upozorenja."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"Ovo je ujedno i podrazumevani jezik za sve korisnike, koji oni mogu da promene iz sopstvenih postavki naloga."
+
+"Invalid locale {0}"
+"Nevažeća lokalizacija {0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"Prisilite sav saobraćaj da koristi HTTPS putem preusmeravanja, ako je URL lokacije HTTPS"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"Ne možete da preusmerite zahteve na HTTPS, osim ako je „site-url“ HTTPS."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"Greška pri registraciji fontova: Metabejs neće moći da šalje pulseve."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"Ovo je poznati problem sa određenim JVM-ovima. Pogledajte {0} i za više detalja."
+
+"Error rendering Pulse"
+"Greška pri prikazivanju pulsa"
+
+"Query timed out after {0}, raising timeout exception."
+"Upit je istekao nakon {0}, povećavajući izuzetak za vremensko ograničenje."
+
+"No fields found for table {0}."
+"Za tabelu {0} nisu pronađena polja."
+
+"Case"
+"Slučaj"
+
+"Variance of {0}"
+"Odstupanje od {0}"
+
+"Median of {0}"
+"Medijana od {0}"
+
+"{0}th percentile of {1}"
+"{0}th percentile of {1}"
+
+"Not caching results: results are larger than {0} KB"
+"Nekeširani rezultati: rezultati su veći od {0} KB"
+
+"Cannot cache results: expected byte array, got {0}"
+"Nije moguće keširati rezultate: očekivani bajtni niz, dobio je {0}"
+
+"Request is closed; no one to return cached results to"
+"Zahtev je zatvoren; nema kome da vrati keširane rezultate"
+
+"Error preparing statement to fetch cached query results"
+"Greška u pripremi izjave za preuzimanje rezultata keširanog upita"
+
+"Error processing query: {0}"
+"Greška pri obradi upita: {0}"
+
+"Unexpected exception in endpoint"
+"Neočekivani izuzetak u krajnjoj tački"
+
+"Unexpected Exception in API request handler"
+"Neočekivani izuzetak u API obrađivaču zahteva"
+
+"Error reducing {0}"
+"Greška pri redukovanju {0}"
+
+"Error generating timeseries insight keyed by: {0}"
+"Greška pri generisanju uvida u vremenske serije koje je uneo: {0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"Položaj baze podataka za {0} promenjen je iz ''{1}'' u ''{2}''."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"Otkaži zadatak zakazivanja za bazu podataka {0}: trigger: {1}"
+
+"value must be a keyword or string."
+"vrednost mora biti ključna reč ili niz."
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"Niz mora biti važeći dvoslovni ISO jezik ili kod države, npr. 'en' ili 'en_US'.."
+
+"Dashboard does not have a parameter with the ID {0}"
+"Infopanel nema parametar sa ID-om {0}"
+
+"Parameter {0} does not have any Fields associated with it"
+"Parametar {0} nema povezana polja"
+
+"include must be either empty or the value 'tables'"
+"include mora biti prazno ili vrednost 'tabele'"
+
+"`database` is required for all queries whose type is not `internal`."
+"`baza podataka` je obavezna za sve upite čiji tip nije `internal`."
+
+"Password login is disabled for this instance."
+"Prijava lozinkom je onemogućena za ovaj slučaj."
+
+"Your account is disabled. Please contact your administrator."
+"Vaš nalog je onemogućen. Molimo kontaktirajte svog administratora."
+
+"Your account is disabled."
+"Vaš nalog je onemogućen."
+
+"Invalid Slack token."
+"Nevažeći Slack token."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"Komanda ''{0}'' je dostupna samo u Metabejs Enterprise Edition."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Dodaci za Metabejs Enterprise Edition su PRISUTNI."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Korišćenje funkcija Metabejs Enterprise Edition podleže Metabejs komercijalnoj licenci."
+
+"See {0} for details."
+"Pogledajte {0} za detalje."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Dodaci za Metabejs Enterprise Edition NISU PRISUTNI."
+
+"You''re invited to join {0}''s {1}"
+"Pozvani ste da se pridružite korisnicima {0} {1}"
+
+"{0} created a {1} account"
+"{0} je otvorio {1} nalog"
+
+"{0} accepted their {1} invite"
+"{0} je prihvatio njihov {1} poziv"
+
+"[{0}] Password Reset Request"
+"[{0}] Zahtev za ponovno postavljanje lozinke"
+
+"[{0}] Notification"
+"[{0}] Obaveštenje"
+
+"[{0}] Help make [{1}] better."
+"[{0}] Pomozite da poboljšate [{1}]."
+
+"[{0}] Tell us how things are going."
+"[{0}] Recite nam kako stoje stvari."
+
+"Error starting events listener"
+"Greška prilikom pokretanja listenera događaja"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"Da li treba da sinhronizujemo korisničke atribute kada se neko prijavi preko LDAP-a?"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"Lista korisničkih atributa odvojena zarezom za preskakanje sinhronizacije za LDAP korisnike."
+
+"Invalid token"
+"Nevažeći token"
+
+"Slack API error: {0}"
+"Slack API greška: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Kreirajte ili opozovite arhivu kanala da biste dovršili integraciju Slack-a."
+
+"Uploaded image"
+"Otpremljena slika"
+
+"Invalid session. Expected an instance of Session."
+"Nevažeća sesija. Očekivana instanca sesije."
+
+"Top folder"
+"Gornja fascikla"
+
+":parameters must be a sequence of maps with String :id keys"
+":parameters moraju biti niz mapa sa ključevima String :id"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"Nevažeće čoveku čitljive vrednosti: vrednosti moraju biti niz; svaka stavka mora biti nula ili niz"
+
+":values must be present to fetch :human_readable_values"
+":values moraju biti prisutne za preuzimanje :human_readable_values"
+
+"Field values total length is > {0}."
+"Ukupna dužina vrednosti polja je> {0}."
+
+"snippet names cannot include '}' or start with spaces"
+"imena fragmenata ne mogu da sadrže '}' niti da počinju razmacima"
+
+"Error executing chain filter query"
+"Greška pri izvršavanju upita lančanog filtera"
+
+"Field {0} does not exist."
+"Polje {0} ne postoji."
+
+"Cannot search against non-Text Field {0} {1}"
+"Ne mogu da pretražujem polje koje nije tekstualno {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"Davanje dozvola za grupu {0}: {1}"
+
+"Revoking permissions for group {0}: {1}"
+"Opoziv dozvola za grupu {0}: {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"Nevažeće DB dozvole: ako imate pristup pisanju za izvorne upite, morate imati puni pristup podacima."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"Nevažeće DB dozvole: ako imate pristup samo za čitanje izvornog upita, morate imati i pristup podacima."
+
+"Changing permissions from: {0} to: {1}"
+"Promena dozvola iz: {0} u: {1}"
+
+"login attribute keys must be a keyword or string"
+"Ključevi atributa za prijavu moraju biti ključna reč ili niz"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Zadani jezik za sve korisnike u korisničkom interfejsu Metabejsa, sistemskoj e-pošti, pulsevima i upozorenjima."
+
+"Users can individually override this default language from their own account settings."
+"Korisnici mogu pojedinačno da zamene ovaj zadati jezik iz sopstvenih podešavanja naloga."
+
+"Default page to show the user"
+"Podrazumevana stranica za prikaz korisnika"
+
+"Allow this origin to embed the full Metabase application"
+"Dozvolite ovom izvoru da ugradi punu aplikaciju Metabejsa"
+
+"Values greater than {0} ({1}) are not allowed."
+"Values greater than {0} ({1}) are not allowed."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"Ovo će zameniti reč \"Metabejs\" gde god da se pojavi."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"Ovo su primarne boje koje se koriste na grafikonima i širom Metabejsa. Možda ćete trebati da osvežite pregledač da bi promene stupile na snagu."
+
+"For best results, use an SVG file with a transparent background."
+"Za najbolje rezultate koristite SVG datoteku sa prozirnom pozadinom."
+
+"The url or image that you want to use as the favicon."
+"URL ili slika koju želite da koristite kao favicon."
+
+"Allow logging in by email and password."
+"Omogućite prijavljivanje putem e-pošte i lozinke."
+
+"Unable to validate token"
+"Nije moguće potvrditi token"
+
+"Token format is invalid."
+"Format tokena je nevažeći."
+
+"Error validating token"
+"Greška pri potvrđivanju tokena"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"Greška pri filtriranju polja {0}: Nije moguće raščlaniti niz {1} na {2}"
+
+"Error fetching details for Job: {0}"
+"Greška pri preuzimanju detalja za posao: {0}"
+
+"Starting sync task for Database {0}."
+"Pokretanje zadatka sinhronizacije za bazu podataka {0}."
+
+"Cannot sync Database {0}: Database does not exist."
+"Nije moguće sinhronizovati bazu podataka {0}: baza podataka ne postoji."
+
+"Update Field values task triggered for Database {0}."
+"Zadatak ažuriranja vrednosti polja pokrenut za bazu podataka {0}."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"Preskakanje ažuriranja, automatsko ažuriranje vrednosti polja onemogućeno je za bazu podataka {0}."
+
+"Periodically refingerprint tables"
+"Periodically refingerprint tables"
+
+"Unable to run internal query function: cannot resolve {0}"
+"Nije moguće pokrenuti unutrašnju funkciju upita: nije moguće rešiti {0}"
+
+"Audit App queries are not enabled on this instance."
+"Revizija upita aplikacije nije omogućena na ovoj instanci."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"Nevažeća funkcija internog upita: {0} nije označena kao ^: internal-queri-fn"
+
+"Error: sandboxing is not enabled for this instance."
+"Greška: zaštićeno okruženje za ovu instancu nije omogućeno."
+
+"Please check you have set a valid Enterprise token and try again."
+"Proverite da li ste postavili važeći Enterprise token i pokušajte ponovo."
+
+"No permissions found for current user"
+"Za trenutnog korisnika nisu pronađene dozvole"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"Korisnik ''{0}'' je pokušao da pristupi nepristupačnom polju. Pristupačna polja {1}, polja u upitu {2}"
+
+"User not able to query field"
+"Korisnik nije u mogućnosti da postavi upit za polje"
+
+"Found more than one group table access policy for user ''{0}''"
+"Pronašli smo više smernica za pristup grupnim tabelama za korisnika ''{0}''"
+
+"Query requires user attribute `{0}`"
+"Upit zahteva korisnički atribut `{0}`"
+
+"invalid --mode value"
+"invalid --mode value"
+
+"invalid --on-error value"
+"invalid --on-error value"
+
+"invalid context seed value"
+"invalid context seed value"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"Dump je proizveden upotrebom druge verzije Metabase-a. Stvari se mogu slomiti!"
+
+"Error loading dump: {0}"
+"Greška pri učitavanju dumpa: {0}"
+
+"{0} is not a valid user"
+"{0} nije važeći korisnik"
+
+"Error dumping {0}"
+"Error dumping {0}"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"Nije pronađen nijedan administrator! Potreban je najmanje jedan administrator za ulogu vlasnika svih učitanih entiteta."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"Greška pri učitavanju zavisnosti: referenca na nepoznati entitet {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"Nije moguće razrešiti {0} u potpuno kvalifikovano ime {1}"
+
+"Model {0} does not support upsert"
+"Model {0} ne podržava upsert"
+
+"Error inserting {0}"
+"Greška pri insertu {0}"
+
+"Inserting {0}"
+"Inserting {0}"
+
+"{0} already exists -- skipping"
+"{0} already exists -- skipping"
+
+"Skipping {0} (nothing to update)"
+"Skipping {0} (nothing to update)"
+
+"Updating {0}"
+"Updating {0}"
+
+"Error updating {0}"
+"Error updating {0}"
+
+"SSO has not been enabled and/or configured"
+"SSO has not been enabled and/or configured"
+
+"SSO requires a valid token"
+"SSO requires a valid token"
+
+"Error returning SSO entry point"
+"Error returning SSO entry point"
+
+"Error logging in"
+"Greška pri prijavljivanju"
+
+"Can't create new JWT user when JWT is not configured"
+"Ne mogu da napravim novog korisnika JWT-a kada JWT nije konfigurisan"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO has not been enabled and/or configured"
+
+"Invalid SAML configuration: could not find user email."
+"Nevažeća SAML konfiguracija: nije moguće pronaći korisničku e-poštu."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"Pokušali smo da potražimo {0}, ali nismo uspeli da pronađemo atribut."
+
+"Please make sure your SAML IdP is properly configured."
+"Uverite se da je Vaš SAML IdP pravilno konfigurisan."
+
+"SAML has not been enabled and/or configured"
+"SAML nije omogućen i / ili konfigurisan"
+
+"Warning: expected `redirect` param, but none is present"
+"Upozorenje: očekuje se parametar `preusmeravanja`, ali nijedan nije prisutan"
+
+"Error generating SAML request"
+"Greška pri generisanju SAML zahteva"
+
+"Unable to log in: SAML IdP certificate is not set."
+"Prijavljivanje nije uspelo: SAML IdP sertifikat nije postavljen."
+
+"SAML response validation failed"
+"Provera valjanosti SAML odgovora nije uspela"
+
+"Unable to log in: SAML response validation failed"
+"Prijavljivanje nije uspelo: SAML validacija odgovora nije uspela"
+
+"Unable to log in: SAML info does not contain user attributes."
+"Nije moguće prijaviti se: SAML informacije ne sadrže korisničke atribute."
+
+"Enable SAML authentication."
+"Omogućite SAML autentifikaciju."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"Ovo je URL adresa na koju korisnici odlaze da bi se prijavili kod Vašeg dobavljača identiteta. Zavisno od toga koji ste IDP\nkoristeći ovo obično izgleda kao https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"Greška prilikom raščlanjivanja sertifikata dobavljača SAML identiteta"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"Nevažeća potvrda dobavljača identiteta. Sertifikat treba da bude 64-base kodiran niz."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"Kodirani sertifikat za dobavljača identiteta. U zavisnosti od Vašeg IDP-a, možda ćete morati da ga preuzmete,\notvorite u uređivaču teksta, a zatim ovde kopirate i nalepite sadržaj sertifikata."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"Ovo je jedinstveni identifikator za IdP. Često se naziva Entitet ID ili jednostavno 'Izdavalac'. Zavisno\nna Vašem IDP ovo obično izgleda otprilike http://www.example.com/141xkex604w0Q5PN724v"
+
+"This application name will be used for requests to the Identity Provider"
+"Ovo ime aplikacije koristiće se za zahteve dobavljaču identiteta"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"Apsolutna putanja do datoteke Keystore koja će se koristiti za potpisivanje SAML zahteva"
+
+"Password for opening the keystore"
+"Lozinka za otvaranje prodavnice ključeva"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Alias za ključ koji bi Metabejs trebalo da koristi za potpisivanje SAML zahteva"
+
+"SAML attribute for the user''s email address"
+"SAML atribut za e-adresu korisnika"
+
+"SAML attribute for the user''s first name"
+"SAML atribut za ime korisnika"
+
+"SAML attribute for the user''s last name"
+"SAML atribut za prezime korisnika"
+
+"Enable group membership synchronization with SAML."
+"Omogućite sinhronizaciju članstva u grupi sa SAML-om."
+
+"SAML attribute for group syncing"
+"SAML atribut za grupnu sinhronizaciju"
+
+"JSON containing SAML to Metabase group mappings."
+"JSON koji sadrži SAML u preslikavanju grupa Metabejsa."
+
+"Enable JWT based authentication"
+"Omogućite JWT autentifikaciju"
+
+"URL of JWT based login page"
+"URL adresa JWT stranice za prijavu"
+
+"String used to seed the private key used to validate JWT messages"
+"Niz koji se koristi za seed privatnog ključa koji se koristi za potvrdu JWT poruka"
+
+"Key to retrieve the JWT user's email address"
+"Ključ za preuzimanje adrese e-pošte korisnika JWT-a"
+
+"Key to retrieve the JWT user's first name"
+"Ključ za preuzimanje imena korisnika JWT-a"
+
+"Key to retrieve the JWT user's last name"
+"Ključ za preuzimanje prezimena korisnika JWT"
+
+"Key to retrieve the JWT user's groups"
+"Ključ za preuzimanje grupa korisnika JWT-a"
+
+"Enable group membership synchronization with JWT."
+"Omogućite sinhronizaciju članstva u grupi sa JWT."
+
+"JSON containing JWT to Metabase group mappings."
+"JSON koji sadrži JWT u preslikavanju grupa Metabejs."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"Da li treba obaveštenja o e-pošti slati administratorima za sve nove korisnike SSO?"
+
+"New SSO user created: {0} ({1})"
+"Napravljen novi korisnik SSO: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"Nevažeće upozorenje: uz upozorenje nije povezana kartica"
+
+"Error determining whether Database supports nested queries"
+"Greška pri određivanju da li baza podataka podržava ugnježdene upite"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"Nevažeći parametri upita: nije moguće odrediti slug za parametar sa ID-om {0}"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"Ne može se tražiti vrednosti: {0} nije omogućen parametar."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"Ne možete da navedete vrednost za {0} ako je već postavljena u JWT."
+
+"Error compiling HoneySQL form"
+"Greška pri sastavljanju HoneySKQL obrasca"
+
+"Not a valid Database/Database ID/JDBC spec"
+"Nije važeća specifikacija baze podataka / ID baze podataka / JDBC"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"vrednost mora biti mapa sa ključevima `{0}`, `{1}`, `{2}` i `{3}`."
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"Ne kreira se proksi JDBC upravljački program za klasu {0} - sistemski ClassLoader je učitao originalni upravljački program"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"Upitu je trebalo {0} da se pokrene; minimum za ispunjavanje uslova predmemorije je {1}"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"Nije moguće rešiti pridruženo polje zbog dvosmislenih spajanja: tabela {0} (ID {1}) pridružena je više puta. Treba da umotate reference polja u eksplicitne:joined-field klauzule."
+
+"Error normalizing form."
+"Greška pri normalizaciji obrasca."
+
+"Error canonicalizing query"
+"Greška pri kanonizaciji upita"
+
+"Error performing whole query transformations"
+"Greška u izvođenju celih transformacija upita"
+
+"Error normalizing query"
+"Greška pri normalizaciji upita"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"Sandboks kartice ne mogu vratiti kolone koje nisu prisutne u tabeli u kojoj se nalaze."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"Sandboks kartice ne mogu da vrate kolone koje imaju različite tipove od tabele u kojoj se nalaze."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"Kartica ne može da se ažurira: Kartica se koristi za Sandboks, a ažuriranja bi kršila pravila Sandboxa."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"Ne možete promeniti ID tabele GTAP-a nakon što je stvoren."
+
+"`database` is required for all queries."
+"`baza podataka` je obavezna za sve upite."
+
+"copied {0} instances."
+"kopirano {0} instanci."
+
+"Copying instances of {0}..."
+"Kopiranje instanci {0} ..."
+
+"Error copying instances of {0}"
+"Greška pri kopiranju instanci {0}"
+
+"Temporarily disabling DB constraints..."
+"Privremeno onemogućavanje DB ograničenja ..."
+
+"Re-enabling DB constraints..."
+"Ponovno omogućavanje ograničenja DB ..."
+
+"Setting Postgres sequence ids to proper values..."
+"Postavljanje ID-ova sekvence Postgres na odgovarajuće vrednosti ..."
+
+"Set up {0} source database and run migrations..."
+"Podesite izvornu bazu podataka {0} i pokrenite migracije ..."
+
+"Set up {0} target database and run migrations..."
+"Podesite {0} ciljnu bazu podataka i pokrenite migracije ..."
+
+"Testing if target {0} database is already populated..."
+"Testiranje da li je ciljana {0} baza podataka već popunjena ..."
+
+"Unsupported application database type: {0} is not currently supported."
+"Nepodržani tip baze podataka aplikacija: {0} trenutno nije podržan."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"Proverite vrednost MB_DB_CONNECTION_URI."
+
+"Driver {0} does not support {1}"
+"Driver {0} ne podržava {1}"
+
+"No magnitude known for {0}"
+"Nije poznata veličina za {0}"
+
+"Error resolving source query"
+"Greška pri rešavanju izvornog upita"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"Nevažeća lokacija datoteke GeoJSON: mora počinjati sa http:// ili https:// ili biti relativna putanja do datoteke na putu predavanja."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"URL-ovi koji se odnose na hostove koji pružaju interne metapodatke o hostingu su zabranjeni."
+
+"Invalid custom GeoJSON."
+"Nevažeći prilagođeni GeoJSON."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+
+"Error generating pivot queries"
+"Greška pri generisanju pivot upita"
+
+"Sync the admin group?"
+"Sinhronizujte administrativnu grupu?"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"Pitanja u Sandboksu ne mogu da vrate kolone koje imaju različite tipove od tabele u kojoj se nalaze."
+
+"Error preprocessing source query when applying GTAP"
+"Greška u pretpreradi izvornog upita prilikom primene GTAP-a"
+
+"Error running query to determine metadata"
+"Greška prilikom pokretanja upita za određivanje metapodataka"
+
+"Can't create new SAML user when SAML is not configured"
+"Ne mogu da napravim novog korisnika SAML-a kada SAML nije konfigurisan"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"Greška pri podešavanju smera preuzimanja pripremljene izjave na FETCH_FORWARD"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"Greška pri postavljanju smera preuzimanja izjave na FETCH_FORWARD"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"Ovo pitanje ne možete sačuvati jer nemate dozvolu za pokretanje njegovog upita."
+
+"Authentication endpoint error"
+"Greška krajnje tačke autentifikacije"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"SSH tunel se može uspostaviti samo za H2 veze pomoću TCP protokola"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"ssh tunel za bazu podataka {0} izgleda zatvoren; označavanje poola nevažećim za ponovno otvaranje"
+
+"Query canceled, calling Statement.cancel()"
+"Upit je otkazan, pozivanje Statement.cancel ()"
+
+"Select statement did not produce a ResultSet for native query"
+"Select nije proizveo ResultSet za izvorni upit"
+
+"We''ve Noticed a New {0} Login, {1}"
+"Primetili smo novu {0} prijavu {1}"
+
+"Don''t know how to process event with model {0}"
+"Ne znam kako da obradim događaj sa modelom {0}"
+
+"Failed to process activity event {0}"
+"Obrada događaja aktivnosti {0} nije uspela"
+
+"Error sending ''login from new device'' notification email"
+"Greška pri slanju e-pošte sa obaveštenjem o prijavi sa novog uređaja"
+
+"You can''t update a LoginHistory after it has been created."
+"Ne možete ažurirati LoginHistory nakon što je stvoren."
+
+"Setting {0} already registered in {1}"
+"Podešavanje {0} je već registrovano u {1}"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"Kontroliše učestalost slanja heartbitova kada se uspostavi SSH tunel (u sekundama)."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"Ne mogu da pronađem odgovarajući ID tabele FK za polje FK {0}"
+
+"Error optimizing temporal filter clause"
+"Greška pri optimizaciji klauzule vremenskog filtera"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"Nije moguće rešiti pridruženo polje zbog dvosmislenih spajanja: tabela {0} (ID {1}) pridružena je više puta. U referenci polja morate navesti eksplicitni `:join-alias`."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"Nepodržano privremeno skupljanje: Polje {0} ne možete dodati u grupu do {1}."
+
+"Error processing additional pivot table query"
+"Greška pri obradi dodatnog upita za izvedene tabele"
+
+"Invalid cell format"
+"Nevažeći format ćelije"
+
+"Enable typeahead search in the Metabase navbar?"
+"Omogućiti pretragu typeahead-a na traci Metabejsa?"
+
+"Login request is missing user-agent information"
+"U zahtevu za prijavu nedostaju informacije o korisničkom agentu"
+
+"Unable to determine login request IP address"
+"Nije moguće utvrditi IP adresu zahteva za prijavu"
+
+"Error determining login history for request"
+"Greška pri određivanju istorije prijave za zahtev"
+
+"unknown"
+"nepoznat"
+
+"Unknown device type"
+"Nepoznati tip uređaja"
+
+"Unknown OS"
+"Nepoznati OS"
+
+"Unknown browser"
+"Nepoznati pregledač"
+
+"Error geocoding IP addresses"
+"Greška u geokodiranju IP adresa"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"Semantički tip {0} je promenjen iz ''{1}'' u ''{2}''."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"Ime {0} je promenjeno iz ''{1}'' u ''{2}''."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"Ne znam kako da formatirate {0} kao čitljiv datum / vreme"
+
+"Valid coercion strategy"
+"Važeća strategija prinude"
+
+"value must be a valid coercion strategy."
+"vrednost mora biti valjana strategija prinude."
+
+"Saved Questions"
+"Sačuvana pitanja"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"Filter za pretraživanje članova grupe. Vode '{dn}' i '{uid}' biće zamenjeni od strane uglednog imena korisnika i uID-u."
+
+"Error deleting Sandboxes: {0}"
+"Greška pri brisanju Sandboxes: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"BEGIN LOAD from {0} with context {1}"
+
+"Finished first pass of load; now performing second pass"
+"Završen prvi prolaz; sada se izvodi drugi prolaz"
+
+"END LOAD from {0} with context {1}"
+"END LOAD from {0} with context {1}"
+
+"ERROR LOAD from {0}: {1}"
+"ERROR LOAD from {0}: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"BEGIN DUMP to {0} via user {1}"
+
+"END DUMP to {0} via user {1}"
+"END DUMP to {0} via user {1}"
+
+"Could not find context for fully qualified card name {0}"
+"Nije moguće pronaći kontekst za potpuno kvalifikovano ime kartice {0}"
+
+"Could not find context for fully qualified snippet name {0}"
+"Ne mogu da pronađem kontekst za potpuno kvalifikovani naziv fragmenta {0}"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"Izvršenje upita za učitanu karticu nije uspelo \"{0}\": {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"Nije moguće povezati se sa bazom podataka ''{0}'' da bi se sinhronizovale neskrivene tabele"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"Ne mogu da dešifrujem aplikaciju db sa MB_ENCRYPTION_SECRET_KEY"
+
+"Invalid domain"
+"Nevažeći domen"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"Korisnički filter za pretragu. Rezervisano mesto '{login}' biće zamenjeno korisničkim imenom."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Atribut koji se koristi za korisnikovu e-poštu. (obično ''mail'', ''email'' ili ''userPrincipalName'')"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"Baza za pretragu grupa. Nije potrebno za LDAP direktorijume koji pružaju  ''memberOf'' preklapanje, kao što je Active Directory. (Biće pretraženo rekurzivno)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"Nije Vam dozvoljeno da promenite vlasnika lične kolekcije."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"Nije Vam dozvoljeno da promenite nivo ovlašćenja lične kolekcije."
+
+"You are not allowed to move a Personal Collection."
+"Nije Vam dozvoljeno da premestite ličnu kolekciju."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"Ne možete ažurirati CollectionPermissionGraphRevision!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"Invalid Field {0} {1}: falling back to {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"Da bi imena tabela i polja učinio čitljivijim za ljude, Metabejs će zameniti crtice i donje crte u njima razmacima."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"Svaka reč će biti napisana velikim slovom, pa će 'last_visited_at' postati 'Last Visited At'."
+
+"Setting names in would collide: {0} and {1}"
+"Setting names in would collide: {0} and {1}"
+
+"Indicates when Metabase last checked for new versions."
+"Označava kada je Metabejs poslednji put proverio nove verzije."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"Ova URL adresa se koristi za stvari poput stvaranja veza u mejlovima, auth preusmeravanjima,"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"i u nekim scenarijima ugradnje, pa bi promena mogla prekinuti funkcionalnost ili izgubiti pristup ovoj instanci."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"Kada se postavi, nameće upotrebu kolačića sesije za sve korisnike koji ističu kada je pregledač zatvoren."
+
+"Error parsing paging parameters: {0}"
+"Greška pri raščlanjivanju parametara pejdžinga: {0}"
+
+"Error running sync step"
+"Greška pri pokretanju koraka sinhronizacije"
+
+"Error in sync step {0}"
+"Greška u koraku sinhronizacije {0}"
+
+"Error fetching version info; setting version-info value to nil"
+"Greška pri preuzimanju informacija o verziji; postavljanje vrednosti verzije-informacija na nulu"
+
+"Valid field semantic type"
+"Važeći semantički tip polja"
+
+"value must be a valid field semantic type."
+"vrednost mora biti važeći semantički tip polja."
+
+"Valid field relation type"
+"Važeći relacioni tip polja"
+
+"value must be a valid field relation type."
+"vrednost mora biti važeći relacioni tip polja."
+
+"Valid field semantic or relation type"
+"Važeći semantički ili relacioni tip polja"
+
+"value must be a valid field semantic or relation type."
+"vrednost mora biti važeći semantički ili relacioni tip polja."
+
+"Valid field data type (keyword or string)"
+"Važeći tip podataka polja (ključna reč ili niz)"
+
+"value must be a valid field data type (keyword or string)."
+"vrednost mora biti važeći tip podataka polja (ključna reč ili niz)."
+
+"Valid field semantic type (keyword or string)"
+"Važeći semantički tip polja (ključna reč ili niz)"
+
+"value must be a valid field semantic type (keyword or string)."
+"vrednost mora biti važeći semantički tip polja (ključna reč ili niz)."
+
+"Valid field relation type (keyword or string)"
+"Važeći relacioni tip polja (ključna reč ili niz)"
+
+"value must be a valid field relation type (keyword or string)."
+"vrednost mora biti važeći relacioni tip polja (ključna reč ili niz)."
+
+"Valid field semantic or relation type (keyword or string)"
+"Važeći semantički ili relacioni tip polja (ključna reč ili niz)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"vrednost mora biti važeći semantički ili relacioni tip polja (ključna reč ili niz)."
+
+"value must be a valid coercion strategy (keyword or string)."
+"vrednost mora biti važeća strategija prinude (ključna reč ili niz)."
+
+"password is too common."
+"lozinka je previše česta."
+
+"Invalid custom GeoJSON"
+"Неважећи прилагођени ГеоЈСОН"
+
+"GeoJSON URL failed to load"
+"Учитавање ГеоЈСОН УРЛ адресе није успело"
+
+"Error building query parameter map: {0}"
+"Грешка у изградњи мапе параметара упита: {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"Додатак '' {0} '' зависи од тога да је променљива окружења '' {1} '' постављена на нешто"
+
+"Down"
+"Доле"
+
+"Up"
+"Горе"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"Dozvoljeni mail adrese domen(a) za nove pretplate i upozorenja na infopanelu. Ne utiče na postojeće pretplate."
+
+"Invalid email address: {0}"
+"Nevažeća adresa e-pošte: {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"Ne možete da pravite nove pretplate za domen {0}. Dozvoljeni domeni su: {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"Ova krajnja tačka API-ja omogućena je samo ako imate premium token sa funkcijom {0}."
+
+"Error compiling audit query: {0}"
+"Greška pri sastavljanju revizijskog upita: {0}"
+
+"Error running audit query: {0}"
+"Greška pri pokretanju revizijskog upita: {0}"
+
+"Error parsing Pulse parameters: {0}"
+"Greška pri raščlanjivanju parametara Pulsa: {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Blokirano: nije Vam dozvoljeno pokretanje upita prema bazi podataka {0}."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"Grafikon dozvola nije moguće raščlaniti jer je nevažeći: {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"Promenjeni su detalji heširanja baze podataka {0}; označavanje poola nevažećim za ponovno otvaranje"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"Nevažeće dozvole DB: Ako imate pristup pisanju za izvorne upite, morate imati potpuni pristup podacima."
+
+"Error parsing permissions tree {0}"
+"Greška pri raščlanjivanju stabla dozvola {0}"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"ID kolekcije pretplate na infopanel ne može se direktno promeniti"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"ID infopanela pretplate na infopanel se ne može promeniti"
+
+"Javascript resource not found: {0}"
+"Javascript resurs nije pronađen: {0}"
+
+"Found new version for DB: {0}"
+"Pronađena je nova verzija za DB: {0}"
+
+"Rerun queries for simple explorations"
+"Ponovo pokrenite upite za jednostavna istraživanja"
+
+"Choose when syncs and scans happen"
+"Odaberite kada će se sinhronizovati i skenirati"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"Metabase podrazumevano radi laganu sinhronizaciju po satu i intenzivno dnevno skeniranje vrednosti polja. Ako imate veliku bazu podataka, uključite ovo da biste izvršili izmene."
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"Ovo omogućava Metabase-u da skenira dodatne vrednosti polja tokom sinhronizacije omogućavajući pametnije ponašanje, kao što je poboljšano automatsko spajanje na Vašim trakastim grafikonima."
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"By default \"Site Url\" is used in notification links, but can be overridden."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"Error preprocessing source query when applying GTAP: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Jedinstveni identifikator koji se koristi u analitici SnowPlow-a, da identifikuje ovu instancu Metabejsa."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"Ovo je javna postavka jer se neki analitički događaji šalju pre početnog podešavanja."
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Should be set via environment variable in Cypress tests or during local development."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Boolean indicating whether analytics events are being sent to Snowplow."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+
+"The URL of the Snowplow collector to send analytics events to."
+"The URL of the Snowplow collector to send analytics events to."
+
+"Error sending Snowplow analytics event {0}"
+"Error sending Snowplow analytics event {0}"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+
+"Unverified due to edit"
+"Neprovereno zbog uređivanja"
+
+"Card {0} does not exist or does not have a valid query."
+"Kartica {0} ne postoji ili nema validan upit."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"Morate imati dozvole podataka da dodate parametar koji se odnosi na tabelu {0}."
+
+"No matching parameter with slug {0}. Found: {1}"
+"No matching parameter with slug {0}. Found: {1}"
+
+"Could not invite user because email is not configured."
+"Nije mogao da pozove korisnika jer e-pošta nije konfigurisana."
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"Da li vaš tim koristi Slack? Ako je to slučaj, možete da pošaljete automatizovane ispravke putem infopanel pretplate."
+
+"invalid token"
+"Nevažeći token"
+
+"Slack channel not found."
+"Slack kanal nije pronađen."
+
+"channel not found"
+"kanal nije pronađen"
+
+"Unrecognized modal: {0}"
+"Nepoznat model: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+
+"username"
+"korisničko ime"
+
+"Use a secure connection (SSL)"
+"Koristite secure connection (SSL)"
+
+"Use an SSH tunnel"
+"Koristite SSH tunel"
+
+"Enable this ssh tunnel?"
+"Omogućite ovaj SSH tunel?"
+
+"SSH tunnel host"
+"SSH tunnel host"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"The hostname that you use to connect to connect to SSH tunnels."
+
+"SSH tunnel port"
+"SSH tunnel port"
+
+"SSH tunnel username"
+"SSH tunnel korisničko ime"
+
+"The username you use to login to your SSH tunnel."
+"Korisničko ime koje koristite za prijavu na vaš SSH tunel."
+
+"SSH tunnel password"
+"SSH tunnel lozinka"
+
+"SSH private key to connect to the tunnel"
+"SSH private key to connect to the tunnel"
+
+"Paste the contents of an ssh private key here"
+"Zalepite sadržaj SSH privatnog ključa ovde"
+
+"Passphrase for SSH private key"
+"PassPhrase za SSH privatni ključ"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"Izvršimo osnovni upit kada istražite podatke koristeći rezimiranje ili filter."
+
+"This is on by default but you can turn it off if performance is slow."
+"Ovo je podrazumevano, ali možete ga isključiti ako su performanse spore."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"Ovo je lagani proces koji proverava ispravke ove šeme ove baze podataka."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"U većini slučajeva, trebalo bi biti u redu da ostavite sinhronizaciju po času."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+
+"Error querying database {0} for current time: {1}"
+"Error querying database {0} for current time: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+
+"SSL Mode"
+"SSL Mode"
+
+"SSL Root Certificate (PEM)"
+"SSL Root Certificate (PEM)"
+
+"Authenticate client certificate?"
+"Autentifikacija sertifikata klijenta?"
+
+"SSL Client Certificate (PEM)"
+"SSL Client Certificate (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+
+"SSL Client Key Password"
+"SSL Client Key Password"
+
+"Unable to substitute parameters: {0}"
+"Unable to substitute parameters: {0}"
+
+"Expected native source query to be a string, got: {0}"
+"Expected native source query to be a string, got: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"Expected native source query parameters to be sequential, got: {0}"
+
+"No expression named {0} at this level of the query"
+"Nema izraza imenovanog {0} na ovom nivou upita"
+
+"Error compiling :field clause: {0}"
+"Error compiling :field clause: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+
+"Error setting connection to autoCommit false"
+"Error setting connection to autoCommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"Error setting prepared statement fetch size to fetch-size"
+
+"Error setting statement fetch size to fetch-size"
+"Error setting statement fetch size to fetch-size"
+
+"Error executing query: {0}"
+"Error executing query: {0}"
+
+"Local file path"
+"Local file path"
+
+"Uploaded file path"
+"Uploaded file path"
+
+"File path"
+"File path"
+
+"Error invoking getter for connection property {0}"
+"Error invoking getter for connection property {0}"
+
+"Only these..."
+"Samo ovo..."
+
+"All except..."
+"Sve osim..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+
+"Your Slack connection stopped working"
+"Your Slack connection stopped working"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+
+"Invalid Google Sign-In token."
+"Invalid Google Sign-In token."
+
+"Google Sign-In token appears to be incorrect. "
+"Google Sign-In token appears to be incorrect. "
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+
+"Please use a new Slack app integration instead."
+"Please use a new Slack app integration instead."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"Bot user OAuth token for connecting the Metabase Slack app."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+
+"Whether the current Slack app token, if set, is valid."
+"Whether the current Slack app token, if set, is valid."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Set to 'false' if a Slack API request returns an auth error."
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"The name of the channel to which Metabase files should be initially uploaded"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+
+"Slack channel named `{0}` is missing!"
+"Slack channel named `{0}` is missing!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"The channel is used for storing images that are included in dashboard subscriptions."
+
+"You do not have curate permissions for this Collection."
+"Nemate dozvole za ovu kolekciju."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"Ne mogu da koristim blok dozvole ako nemaju premium dopunu"
+
+"User {0} does not exist."
+"Korisnik {0} ne postoji."
+
+"Wrong email address for User {0}."
+"Pogrešna adresa e-pošte za korisnika {0}."
+
+"Secret ID {0}"
+"Secret ID {0}"
+
+"File path for {0}"
+"File path for {0}"
+
+"Path"
+"Path"
+
+"{0} points to non-existent file: {1}"
+"{0} ukazuje na nepostojeće datoteke: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+
+"Error parsing Setting {0}: {1}"
+"Error parsing Setting {0}: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"Site-wide values are not allowed for Setting {0}"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"Setting name ''{0}'' is retired; use a different name instead"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"Pokazana je verzija Metabejsa za koju je prikazano obaveštenje o upotrebi zastarenih funkcija."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"Ovo će uticati na stvari poput grupisanja u nedelji ili filtriraju u GUI upitima."
+
+"It won''t affect most SQL queries,"
+"Neće uticati na većinu SQL upita,"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+" although it is used to set the WEEK_START session variable in Snowflake."
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Error fetching Metabase Cloud gateway IP addresses:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"Da li treba da se prikaže uvodni modal nakon što se doda sledeća veza baze podataka."
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"Podrazumevano je FALSE ako je bilo koja ne-default baza podataka već završila sinhronizaciju za ovu instancu."
+
+"Alert: {0} has {1}"
+"Alert: {0} has {1}"
+
+"Nothing to compare to."
+"Ništa za poređenje."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"Unable to resolve invalid query parameter: parameter is missing :id"
+
+"Dashboard does not have a parameter with ID {0}."
+"Dashboard does not have a parameter with ID {0}."
+
+"Query: {0}"
+"Upit: {0}"
+
+"Error determining expected columns for query: {0}"
+"Error determining expected columns for query: {0}"
+
+"Nested queries are disabled"
+"Ugnježdeni upiti su onemogućeni"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+
+"Guessing join {0}"
+"Guessing join {0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"Nije moguće zaključiti odgovarajuću pridruživanje. Upit ne može da radi kako se očekuje."
+
+"Error resolving Fields in query: {0}"
+"Error resolving Fields in query: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"Expected :aggregation-options clause, got {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"Cannot determine the source table or query for Field clause {0}"
+
+"Aggregation does not exist at index {0}"
+"Agregacija ne postoji na indeksu {0}"
+
+"No expression named {0}"
+"Nema izraza pod nazivom {0}"
+
+"Sample database DB file ''{0}'' cannot be found."
+"Sample database DB file ''{0}'' cannot be found."
+
+"Loading sample database"
+"Učitavanje Sample baze podataka"
+
+"Failed to load sample database"
+"Failed to load sample database"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+
+"Login request is missing device ID information"
+"Login request is missing device ID information"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+
+"Enable this SSH tunnel?"
+"Omogući SSH tunnel?"
+
+"The hostname that you use to connect to SSH tunnels."
+"The hostname that you use to connect to SSH tunnels."
+
+"Paste the contents of an SSH private key here"
+"Paste the contents of an SSH private key here"
+
+"Allow using a saved question or Model as the source for other queries?"
+"Dozvolite da koristite sačuvano pitanje ili model kao izvor za ostale upite?"
+
+"Pulse card query error"
+"Pulse card query error"
+
+"There was a problem with this question."
+"Došlo je do problema sa ovim pitanjem."
+
+"Copy of "
+"Копија "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"/апи/сетуп рута се може користити само за креирање првог корисника, међутим корисник тренутно постоји."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"Максималан број редова за враћање посебно на упите типа :ровс преко АПИ-ја."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"Dozvoljeni domen(i) adrese e-pošte za nove pretplate i upozorenja na infopanelu. Da biste naveli više domena, odvojite svaki domen zarezom, bez razmaka između (npr., \"domen1,domen2\"). Da biste dozvolili sve domene, ostavite polje prazno. Ovo podešavanje ne utiče na postojeće pretplate.."
+
+"You do not have permissions to download the results of this query."
+"Nemate dozvole za preuzimanje rezultata ovog upita."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"Korisnicima koji nisu administratori bez dozvola za praćenje ili pretplate je dozvoljeno da ažuriraju samo upozorenja koja su sami kreirali"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"Korisnicima koji nisu administratori bez dozvole za praćenje ili pretplate nije dozvoljeno da menjaju kanale za upozorenje"
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"Korisnicima koji nisu administratori bez pretplate nije dozvoljeno da dodaju primaoce"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"Menadžer grupe je omogućen samo ako imate premium token sa funkcijom naprednih dozvola."
+
+"Admin cant be a group manager."
+"Administrator ne može biti menadžer grupe."
+
+"Timeline with id {0} not found"
+"Vremenska linija sa ID-om {0} nije pronađena"
+
+"Timestamp cannot be null"
+"Vremenska oznaka ne može biti null"
+
+"ERROR {0}: {1}"
+"ERROR {0}: {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Brisanje podrazumevanih unosa kreiranih Liquidbase migracijama..."
+
+"Don''t know how to parse date string {0}"
+"Ne znam kako da raščlanim string datuma {0}"
+
+"Invalid values provided for operator: {0}"
+"Nevažeće vrednosti su navedene za operator: {0}"
+
+"Unrecognized operation: {0}"
+"Neprepoznata operacija: {0}"
+
+"Error determining value for parameter {0}: {1}"
+"Greška pri određivanju vrednosti za parametar {0}: {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"Ne možete ažurirati ApplicationPermissionsRevision!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"Nevažeći filter polja: Polje {0} pripada bazi podataka {1}, ali je upit protiv baze podataka {2}"
+
+"The engine on a sample database cannot be changed."
+"Engine u bazi podataka uzorka se ne može promeniti."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"Funkcija dozvola {0} je omogućena samo ako imate premium token sa funkcijom naprednih dozvola."
+
+"Unknown setting: {0}"
+"Nepoznato podešavanje: {0}"
+
+"You do not have access to the setting {0}"
+"Nemate pristup podešavanju {0}"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"Podešavanje {0} dozvoljava i korisničke i lokalne vrednosti; ovo nije podržano"
+
+"Error purging old cache entries: {0}"
+"Greška pri čišćenju starih unosa keša: {0}"
+
+"Error saving query results to cache: {0}"
+"Greška pri čuvanju rezultata upita u keš memoriji: {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"Greška pri pokušaju preuzimanja keširanih rezultata za upit sa hešom {0}: {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Keš za pokretanje Slack korisnika/kanala je osvežen sa {0} unosa, trajalo je {1}ms."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack nije konfigurisan, ne osvežava slack keš korisnika/kanala."
+
+"value must be a valid date string"
+"vrednost mora biti važeći string datuma"
+
+"Not allowed to edit group memberships"
+"Није дозвољено уређивање чланства у групама"
+
+"Connected to"
+"Повезан"
+
+}

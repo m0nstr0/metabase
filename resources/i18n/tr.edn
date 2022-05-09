@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"Veritabanı senkronize ediliyor"
+
+"Scanning for Filter Values"
+"Filtre Değerleri Taranıyor"
+
+"When should Metabase automatically scan and cache field values?"
+"Metabase alan değerlerini otomatik olarak taramayı ve önbelleğe almayı ne zaman yapmalıdır?"
+
+"Other"
+"Diğer"
+
+"Email"
+"E-posta"
+
+"{0} table"
+"{0} tablo"
+
+"Password"
+"Parola"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Google'a giriş  yapmadan önce , Metabase hesabı oluşturmak için bir yöneticiye ihtiyacınız var."
+
+"Our analytics"
+"Analizlerimiz"
+
+"Unknown"
+"Bilinmeyen"
+
+"Count"
+"Say"
+
+"number"
+"numara"
+
+"Native query"
+"Yerel sorgu"
+
+"Today"
+"Bugün"
+
+"Yesterday"
+"Dün"
+
+"Week"
+"Hafta"
+
+"Month"
+"Ay"
+
+"Year"
+"Yıl"
+
+"Slack"
+"Gevşek"
+
+"results"
+"sonuçlar"
+
+"Count of {0}"
+"{0} sayısı"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"DELETE / api / alert /: kimliği kullanımdan kaldırıldı. Bunun yerine, \"arşivlenmiş\" değerini PUT / api / alert /: id yoluyla değiştirin."
+
+"invalid show value"
+"geçersiz gösterim değeri"
+
+"invalid value for prefix"
+"önek için geçersiz değer"
+
+"invalid value for rule name"
+"kural adı için geçersiz değer"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"değer base64 kodlu JSON olarak ayrıştırılamadı"
+
+"Invalid entity type"
+"Geçersiz varlık türü"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"Geçersiz karşılaştırma varlığı türü. \"Tablo\", \"segment\" veya \"adhoc\" dan sadece biri olabilir"
+
+"Error running query to determine Card result metadata:"
+"Kart sonucu meta verilerini belirlemek için sorgu çalıştırılırken hata oluştu:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"DELETE / api / card /: id kullanımdan kaldırıldı. Bunun yerine, \"arşivlenmiş\" değerini PUT / api / card /: id yoluyla değiştirin."
+
+"Invalid field: {0}"
+"Geçersiz alan: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"'' {1} '': {2} için geçersiz '' {0} '' değeri"
+
+"must be one of: {0}"
+"{0} : dan biri olmalıdır "
+
+"Invalid Request."
+"Geçersiz istek."
+
+"Not found."
+"Bulunamadı."
+
+"You don''t have permissions to do that."
+"Bunu yapmak için izinleriniz yok."
+
+"Internal server error."
+"İç Sunucu Hatası."
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"Uyarı: {0} / {1} bitiş noktasında bir doküman yok."
+
+"starting streaming request"
+"akış isteğini başlatma"
+
+"connection closed, canceling request"
+"bağlantı kapatıldı, istek iptal edildi"
+
+"Response not ready, writing one byte & sleeping..."
+"Yanıt hazır değil, bir bayt yazıyor ve uyuyor ..."
+
+"Public sharing is not enabled."
+"Genel paylaşım etkinleştirilmemiş."
+
+"Embedding is not enabled."
+"Gömme etkin değil."
+
+"The object has been archived."
+"Nesne arşivlendi."
+
+"Source query for this query is Card {0}"
+"Bu sorgu için kaynak sorgu kartı {0} dir"
+
+"Invalid export format: {0}"
+"Geçersiz dışa aktarma biçimi: {0} dir"
+
+"Invalid JSON URL or resource: {0}"
+"Geçersiz JSON URL'si veya kaynağı: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON varsayılan ABD Eyaleti veya Dünya GeoJSON yerine harita görselleştirmelerinde kullanılmak üzere özel GeoJSON dosyaları hakkında bilgi içerir."
+
+"Invalid custom GeoJSON key: {0}"
+"Geçersiz özel GeoJSON anahtarı: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"DELETE / api / pulse /: id kullanımdan kaldırıldı.Bunun yerine, 'arşivlenmiş' değerini PUT / api / pulse /: id yoluyla değiştirin."
+
+"API endpoint does not exist."
+"API son noktası mevcut değil."
+
+"Password did not match stored password."
+"Şifre kaydedilen şifreyle eşleşmedi."
+
+"did not match stored password"
+"kayıtlı şifre eşleşmedi"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"LDAP sunucusuna bağlanma sorunu, yerel kimlik doğrulamaya geri dönülecek {0}"
+
+"Invalid reset token"
+"Geçersiz sıfırlama token"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"Ayarlandığında, kullanıcıların Google hesabı e-posta adresleri bu alan adından geliyorsa kendi başlarına kaydolmalarına izin ver."
+
+"Email is not verified."
+"E-posta teyit edilmedi."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Giriş yapmak için Google'ı kullanabilmeniz için önce bir Metabase hesabı oluşturmak üzere bir yöneticiye ihtiyacınız olacak."
+
+"Add a database"
+"Veri tabanı ekle"
+
+"Get connected"
+"Bağlanın"
+
+"Connect to your data so your whole team can start to explore."
+"Verilerinize bağlanın böylece ekibiniz keşfetmeye başlayabilir."
+
+"Set up email"
+"E-postayı ayarla"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"Ekip üyelerini daha kolay davet edebilmek ve bildirim güncellemeleri alabilmeniz için e-posta kimlik bilgilerini ekleyin."
+
+"Set Slack credentials"
+"Slack kimlik bilgilerini ayarla"
+
+"Invite team members"
+"Ekip üyelerini davet et"
+
+"Share answers and data with the rest of your team."
+"Yanıtları ve verileri ekibinizin geri kalanıyla paylaşın."
+
+"Hide irrelevant tables"
+"Alakasız tabloları gizle"
+
+"Curate your data"
+"Verilerinizi düzenleyin"
+
+"If your data contains technical or irrelevant info you can hide it."
+"Verileriniz teknik veya alakasız bilgiler içeriyorsa, gizleyebilirsiniz."
+
+"Organize questions"
+"Soruları düzenlemek"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"{0} de çok fazla kayıtlı soru var mı? Bunları yönetmek ve bağlam eklemek için koleksiyonlar oluşturun."
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"Metrikleri oluştur"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"Ekibinizin geri kalanının doğru cevapları almasını kolaylaştırmak için kanonik metrikleri tanımlayın."
+
+"Create segments"
+"Segment oluştur"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"Kanonik filtre grupları oluşturarak herkesin aynı sayfaya yerleştirin. Soru sorarken herkes kullanabilir."
+
+"Table ''{0}'' is now visible. Resyncing."
+"'' {0} '' tablosu artık görünür durumda. Yeniden senkronize yapıyor"
+
+"Auto bin"
+"Otomatik bölme"
+
+"Don''t bin"
+"Bölme yapma"
+
+"Day"
+"Gün"
+
+"Minute"
+"Dakika"
+
+"Hour"
+"Saat"
+
+"Quarter"
+"Çeyrek"
+
+"Minute of Hour"
+"Saat'in Dakikası"
+
+"Hour of Day"
+"Günün saati"
+
+"Day of Week"
+"Haftanın günü"
+
+"Day of Month"
+"Ayın günü"
+
+"Day of Year"
+"Yilin günü"
+
+"Week of Year"
+"Yılın haftası"
+
+"Month of Year"
+"Yılın ayı"
+
+"Quarter of Year"
+"Yilin çeyreği"
+
+"10 bins"
+"10'lu bölme"
+
+"50 bins"
+"50'li bölme"
+
+"100 bins"
+"100'lü bölme"
+
+"Bin every 0.1 degrees"
+"Her 0.1 derecede böl"
+
+"Bin every 1 degree"
+"Her 1 derecede böl"
+
+"Bin every 10 degrees"
+"Her 10 derecede böl"
+
+"Bin every 20 degrees"
+"Her 20 derecede böl"
+
+"No appropriate image writer found!"
+"Uygun bir resim yazarı bulunamadı!"
+
+"Email address already in use."
+"E-posta adresi zaten kullanımda."
+
+"Email address already associated to another user."
+"E-posta adresi başka bir kullanıcıyla zaten ilişkilendirilmiş."
+
+"Not able to reactivate an active user"
+"Etkin bir aktif kullanıcıyı yeniden etkinleştiremez"
+
+"Invalid password"
+"Geçersiz şifre"
+
+"All {0}"
+" {0}'n tümü"
+
+"{0}, all {1}"
+"{0}, tüm {1}"
+
+"Comparison of {0} and {1}"
+"{0} ve {1} öğelerinin karşılaştırması"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"Otomatik olarak oluşturulan {0} ve {1} ile karşılaştırma gösterge tablosu"
+
+"sum"
+"toplam"
+
+"average"
+"ortalama"
+
+"minumum"
+"minimum"
+
+"maximum"
+"maksimum"
+
+"distinct count"
+"ayrı sayım"
+
+"standard deviation"
+"standart sapma"
+
+"cumulative count"
+"kümülatif sayım"
+
+"cumulative sum"
+"kümülatif toplam"
+
+"{0} and {1}"
+"{0} ve {1}"
+
+"{0} of {1}"
+"{1}'n {0} "
+
+"{0} by {1}"
+"{1} tarafından olan {0}"
+
+"{0} in the {1} segment"
+"{0} segmentinde {1}"
+
+"{0} segment"
+"{0} segment"
+
+"{0} metric"
+"{0} metrik"
+
+"{0} field"
+"{0} alanı"
+
+"\"{0}\" question"
+"\"{0}\" sorusu"
+
+"Compare with {0}"
+"{0} ile karşılaştır"
+
+"Compare with entire dataset"
+"Tüm veri kümesiyle karşılaştırın"
+
+"Applying heuristic %s to %s."
+"Deneysel algoritma %s şuna uygulanıyor: %s"
+
+"Dimensions bindings:n%s"
+"Boyutlar bağlamaları: n% s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"Tanımları kullanma: nMetrics: n% snFilters: n% s"
+
+"Can''t create dashboard for {0}"
+"{0} için gösterge tablosu oluşturulamıyor"
+
+"{0}st"
+"{0}ci"
+
+"{0}nd"
+"{0}ci"
+
+"{0}rd"
+"{0}cü"
+
+"{0}th"
+"{0}cü"
+
+"at {0}"
+"{0}da"
+
+"on {0}"
+"{0} tarihinde"
+
+"in {0} week - {1}"
+"{0} içinde  hafta - {1}"
+
+"in {0}"
+"{0} içinde"
+
+"in Q{0} - {1}"
+" Q{0} - {1} içinde"
+
+"Q{0}"
+"Q{0}"
+
+"{0} is {1}"
+"{0} ise {1}dur"
+
+"{0} is between {1} and {2}"
+"{0} ise {1} ile {2} arasında"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0} ise {1} ile {2} arasında; ve {3} ise {4} ile {5} arasında"
+
+"where {0}"
+"nereye {0}"
+
+"A closer look at {0}"
+"{0} öğesine daha yakından bakın"
+
+"A closer look at the {0}"
+"{0} öğesine daha yakından bakın"
+
+"Adding %s cards to dashboard %s:n%s"
+"% S kartı% s gösterge tablosuna ekleniyor:% s"
+
+"0 <= score <= {0}"
+"0 <=puan <= {0}"
+
+"1 <= width <= {0}"
+"1 <= genişlik<= {0}"
+
+"Valid metrics references"
+"Geçerli metrik referansları"
+
+"Valid filters references"
+"Geçerli filtre referansları"
+
+"Valid group references"
+"Geçerli grup referansları"
+
+"Valid order_by references"
+"Geçerli order_by referansları"
+
+"Valid dashboard filters references"
+"Geçerli gösterge tablosu filtreleri referansları"
+
+"Valid dimension references"
+"Geçerli boyut referansları"
+
+"Valid card dimension references"
+"Geçerli kart boyut referansları"
+
+"Error parsing %s:n%s"
+"% S ayrıştırılırken hata oluştu: n% s"
+
+"No user found with email address ''{0}''. "
+"E-posta adresine ait kullanıcı bulunamadı '' {0} ''."
+
+"Please check the spelling and try again."
+"Lütfen yazım denetimi yapın ve tekrar deneyin."
+
+"Resetting password for {0}..."
+"{0} için şifre sıfırlanıyor ..."
+
+"OK [[[{0}]]]"
+"Tamam [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"Başarısız [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Metabase yüklemenizi ayarlamak için lütfen aşağıdaki URL'yi kullanın:"
+
+"Metabase Shutting Down ..."
+"Metabase Kapanıyor ..."
+
+"Metabase Shutdown COMPLETE"
+"Metabase Kapatma TAMAMLANDI"
+
+"Starting Metabase version {0} ..."
+"Metabase sürümü {0} başlatılıyor ..."
+
+"System timezone is ''{0}'' ..."
+"Sistem saat dilimi '' {0} '' ..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Metabase DB'yi kurma ve taşıma. Lütfen bekleyin, Bu bir dakika sürebilir .."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"Görünüşe göre bu yeni bir kurulum ... kurulum sihirbazını hazırlama"
+
+"Metabase Initialization COMPLETE"
+"Metabase Başlatma İşlemi COMPLETE"
+
+"Launching Embedded Jetty Webserver with config:"
+"Config ile Embedded Jetty Web sunucusu başlatılıyor:"
+
+"Shutting Down Embedded Jetty Webserver"
+"Gömülü Jetty Web Sunucusunu Kapatma"
+
+"Starting Metabase in STANDALONE mode"
+"STANDALONE modunda Metabase başlatma"
+
+"Metabase Initialization FAILED"
+"Metabase Başlatma Başarısız"
+
+"Database has migration lock; cannot run migrations."
+"Veritabanı taşıma kilidi vardır; geçişleri çalıştıramıyor."
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"Bu kilitleri `java -jar metabase.jar migrate release-lock 'komutunu çalıştırarak zorlayabilirsiniz."
+
+"Checking if Database has unrun migrations..."
+"Veritabanının geçişleri kaldırılıp kaldırılmadığını kontrol etme ..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"Veritabanında taşınma yok. Taşıma kilidinin silinmesini bekliyor ..."
+
+"Migration lock is cleared. Running migrations..."
+"Göç kilidi temizlendi. Göçler yayınlanıyor ..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"Göç kilidi temizlendi, ama burada yapacak bir şey yok! Göçler başka bir örnek tarafından tamamlandı."
+
+"Setting up Liquibase..."
+"Liquibase kurulumu ..."
+
+"Liquibase is ready."
+"Liquibase hazırdır."
+
+"Verifying {0} Database Connection ..."
+"{0} Veritabanı Bağlantısı Doğrulanıyor ..."
+
+"Verify Database Connection ... "
+"Veritabanı Bağlantısını Doğrulayın."
+
+"Running Database Migrations..."
+"Veritabanı Geçişlerini Çalıştırma ..."
+
+"Database Migrations Current ... "
+"Veritabanı Geçişleri"
+
+"Hmm, we couldn''t connect to the database."
+"Hmm, veritabanına bağlanamadık."
+
+"Make sure your host and port settings are correct"
+"Ana makine ve bağlantı noktası ayarlarınızın doğru olduğundan emin olun."
+
+"We couldn''t connect to the ssh tunnel host."
+"Ssh tüneli ana bilgisayarına bağlanamadık."
+
+"Check the username, password."
+"Kullanıcı adını ve şifreyi kontrol edin."
+
+"Check the hostname and port."
+"Ana bilgisayar adını ve bağlantı noktasını kontrol edin."
+
+"Looks like the database name is incorrect."
+"Veritabanı adı yanlış gibi görünüyor."
+
+"It looks like your host is invalid."
+"Ana makinenizin geçersiz olduğu anlaşılıyor."
+
+"Please double-check it and try again."
+"Lütfen tekrar kontrol edip tekrar deneyin."
+
+"Looks like your password is incorrect."
+"Şifreniz yanlış görünüyor."
+
+"Looks like you forgot to enter your password."
+"Şifreni girmeyi unutmuş gibisin."
+
+"Looks like your username is incorrect."
+"Kullanıcı adın yanlış gibi görünüyor."
+
+"Looks like the username or password is incorrect."
+"Kullanıcı adı veya şifre yanlış görünüyor."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"Sorguları yürütürken kullanılacak saat dilimi. Sistem saat dilimi için varsayılanlar."
+
+"Registered driver {0} {1}"
+"Kayıtlı sürücü {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"'' {0} '' için herhangi bir sürücü bulunamadı"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"veritabanı motoru '' {1} ''  için '' {0} '' tarih dizesi ayrıştırılamıyor"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+": type / * e geri dönmek için '{0}' 'sınıfını Field base_type ye göre nasıl eşleştireceğinizi bilmiyorum,"
+
+"Failed to connect to database: {0}"
+"Veritabanına bağlanılamadı: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"Geçersiz BigQuery tanımlayıcısı: '' {0} ''"
+
+"BigQuery statements can't be parameterized!"
+"BigQuery ifadeleri parametrelenemez!"
+
+"Failed to set timezone:"
+"Saat dilimi ayarlanamadı:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"SQL sorgularını H2 veritabanlarına karşı çalıştırma için varsayılan (admin) veritabanı kullanıcısını kullanmak yasaktır."
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"Hata: metabase.driver. FixedHiveDriver kayıtlı, ama JDBC bunu kullanıyor görünmüyor."
+
+"Found metabase.driver.FixedHiveDriver."
+"Metabase.driver bulundu. FixedHiveDriver."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"Metabase.driver başarıyla kaydedildi. JDBC ile SabitHiveDriver"
+
+"Email address you want to use as the sender of Metabase."
+"Metabase göndereni olarak kullanmak istediğiniz e-posta adresi."
+
+"The address of the SMTP server that handles your emails."
+"E-postalarınızı işleyen SMTP sunucusunun adresi."
+
+"SMTP username."
+"SMTP kullanıcı adı."
+
+"SMTP password."
+"SMTP şifresi."
+
+"The port your SMTP server uses for outgoing emails."
+"SMTP sunucunuzun giden e-postalar için kullandığı bağlantı noktası."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"SMTP güvenli bağlantı protokolü. (tls, ssl, starttls veya hiç)"
+
+"none"
+"Yok"
+
+"SMTP host is not set."
+"SMTP ana bilgisayarı ayarlanmamış."
+
+"Failed to send email"
+"E-posta gönderilemedi"
+
+"Error testing SMTP connection"
+"SMTP bağlantısını sınama hatası"
+
+"Enable LDAP authentication."
+"LDAP kimlik doğrulamasını etkinleştir."
+
+"Server hostname."
+"Sunucu ana makine adı."
+
+"Server port, usually 389 or 636 if SSL is used."
+"Sunucu portu, SSL kullanılıyorsa genellikle 389 veya 636."
+
+"Use SSL, TLS or plain text."
+"SSL, TLS veya düz metin kullanın."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"Ayırt Edilecek Adı (varsa), Bu kullanıcı diğer kullanıcılar hakkında bilgi aramak için kullanılacaktır."
+
+"The password to bind with for the lookup user."
+"Arama kullanıcısı için bağlanacak şifre."
+
+"Search base for users. (Will be searched recursively)"
+"Kullanıcılar için arama tabanı. (Ardışık olarak aranacak)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"Kullanıcı arama filtresi, '{login}' yer tutucu, kullanıcı tarafından sağlanan girişle değiştirilecektir."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Kullanıcının e-postası için kullanılacak özellik. (genellikle '' posta '', '' e-posta '' veya '' userPrincipalName '')"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"Kullanıcının ilk adı için kullanılacak özellik. (genellikle '' givenName '')"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"Kullanıcının soyadı için kullanılacak özellik. (genellikle '' sn '')"
+
+"Enable group membership synchronization with LDAP."
+"LDAP ile grup üyeliği senkronizasyonunu etkinleştirin."
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"Gruplar için arama tabanı, LDAP dizininiz bir '' memberOf '' yerleşimi sağlıyorsa gerekli değildir. (Ardışık olarak aranacak)"
+
+"JSON containing LDAP to Metabase group mappings."
+"Metabase grup eşlemelerine LDAP içeren JSON."
+
+"Here''s what I can {0}:"
+"İşte yapabildiğim {0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"{0} `{1}` .n {2} nasıl yapılacağını bilmiyorum"
+
+"Here''s your {0} most recent cards:n{1}"
+"İşte {0} en son kartlarınız: n {1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"Biraz daha spesifik olabilir misin? Bu kartları eşleşen adlarla buldum: n {0}"
+
+"Not Found"
+"Bulunamadı"
+
+"Go home websocket, you're drunk."
+"Eve git websocket, sarhoşsun."
+
+"Base-64 encoded public key for this site's SSL certificate."
+"Bu sitenin SSL sertifikası için 64 baz kodlu ortak anahtar."
+
+"Specify this to enable HTTP Public Key Pinning."
+"HTTP Genel Anahtar Sabitleme'yi etkinleştirmek için bunu belirtin."
+
+"See {0} for more information."
+"Daha fazla bilgi için {0} adresine bakın."
+
+"Cannot save Question: source query has circular references."
+"Soru kaydedilemiyor: Kaynak sorguda dairesel referanslar var."
+
+"Card {0} does not exist."
+"{0} kartı mevcut değil."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"Ad-hoc yerel sorguları {0} veritabanına karşı çalıştırmak için izinleriniz yok."
+
+"Invalid color"
+"Geçersiz renk"
+
+"must be a valid 6-character hex color code"
+"geçerli 6 karakterlik bir hex renk kodu olmalı"
+
+"Collection name cannot be blank!"
+"Koleksiyon adı boş bırakılamaz!"
+
+"cannot be blank"
+"boş bırakılamaz"
+
+"Invalid Collection location: path is invalid."
+"Geçersiz Koleksiyon yeri: yol geçersiz."
+
+"You cannot move a Personal Collection."
+"Kişisel Koleksiyonunuzu taşıyamazsınız."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"Geçersiz Koleksiyon yeri: bazı ya da tüm atalar mevcut değildir."
+
+"You cannot archive the Root Collection."
+"Kök Koleksiyonunu arşivleyemezsiniz."
+
+"You cannot archive a Personal Collection."
+"Kişisel Koleksiyon arşivleyemezsiniz."
+
+"You cannot move the Root Collection."
+"Kök Koleksiyonunu taşıyamazsınız."
+
+"You cannot move a Collection into itself or into one of its descendants."
+"Bir Koleksiyonu kendi içine veya soyundan birisine taşıyamazsınız."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"Koleksiyon {0} ve soyundan gelenler {1} de {2} ye taşınacak"
+
+"You're not allowed to change the owner of a Personal Collection."
+"Kişisel Koleksiyonun sahibini değiştiremezsiniz."
+
+"You're not allowed to move a Personal Collection."
+"Kişisel Koleksiyonunuzu taşıma izniniz yok."
+
+"You cannot move a Collection and archive it at the same time."
+"Bir Koleksiyonu taşıyamaz ve aynı anda arşivleyemezsiniz."
+
+"You cannot delete a Personal Collection!"
+"Kişisel Koleksiyonunuzu silemezsiniz!"
+
+"{0} {1}''s Personal Collection"
+"{0} {1} 'ın Kişisel Koleksiyonu"
+
+"You cannot update a CollectionRevision!"
+"Bir CollectionRevision'ı güncelleyemezsiniz!"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"Daha önce bir liste widget'ı göstermek için {0} alanı otomatik olarak ayarlandı. ancak şimdi {1} değeri var."
+
+"Switching Field to use a search widget instead."
+"Bunun yerine bir arama widget'ı kullanmak için Alan Değiştirme."
+
+"Storing updated FieldValues for Field {0}..."
+"{0} Alanı için güncellenmiş FieldValues ..."
+
+"Storing FieldValues for Field {0}..."
+"{0} Alanı için FieldValues saklanıyor ..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase, tablo ve alan adlarınızı daha duyarlı olan insan tarafından okunabilir versiyonlara getirmeye deneyecektir. \"bazıkorkunçisimler\", \"Bazı Korkunç İsimler\" olur."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"Ancak, isimler İngilizce dışında bir dilde ise, o kadar iyi çalışmaz."
+
+"Do you want us to take a guess?"
+"Tahmin etmemizi ister misin?"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"'Yönetici' grubu için izinler oluşturamaz veya iptal edemezsiniz."
+
+"Invalid permissions object path: ''{0}''."
+"Geçersiz izinler nesne yolu: '' {0} ''."
+
+"You cannot update a permissions entry!"
+"Bir izin girişini güncelleyemezsiniz!"
+
+"Delete it and create a new one."
+"Silin ve yeni bir tane oluşturun."
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"Bir Kişisel Koleksiyon veya onun torunları için izinleri düzenleyemezsiniz."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"Başka biri izinleri düzenlemiş bigi gözikiyor ve verileriniz güncel değil."
+
+"Please fetch new data and try again."
+"Lütfen yeni verileri getirin ve tekrar deneyin."
+
+"A group with that name already exists."
+"Bu ada sahip bir grup zaten var."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"'' {0} '' izin grubunu düzenleyemez veya silemezsiniz!"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"Kullanıcıları 'MetaBot' grubuna ekleyemez veya kaldıramazsınız."
+
+"You cannot add or remove users to/from the 'All Users' group."
+"Kullanıcıları 'Tüm Kullanıcılar' grubuna ekleyemez veya kaldıramazsınız."
+
+"You cannot remove the last member of the 'Admin' group!"
+"'Yönetici' grubunun son üyesini kaldıramazsınız!"
+
+"You cannot update a PermissionsRevision!"
+"İzinlerRevision'ı güncelleyemezsiniz!"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"Geçersiz Uyarı: Alert, onunla ilişkili bir Kart içermiyor"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"değer, {0} `,` {1} `ve` {2} `tuşları ile bir harita olmalıdır."
+
+"value must be a map with the following keys `({0})`"
+"değer, aşağıdaki tuşlarla bir harita olmalıdır '({0})'"
+
+"Error calculating permissions for query: {0}"
+"Sorgu için izinler hesaplanırken hata oluştu: {0}"
+
+"Invalid query type: {0}"
+"Geçersiz sorgu türü: {0}"
+
+"You cannot update a QueryExecution!"
+"Bir QueryExecution'ı güncelleyemezsiniz!"
+
+"You cannot update a Revision!"
+"Bir Revizyonu güncelleyemezsiniz!"
+
+"Updating value of settings-last-updated in DB..."
+"DB'de son güncellenen-ayarların-güncellenmesi ..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"Ayarlar önbelleğinin güncel olup olmadığını kontrol etme (DB çağrısı gerektirir) ..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"Ayarlar başka bir örnekte değiştirildi ve buraya yeniden yüklenecek."
+
+"Refreshing Settings cache..."
+"Yenileme Ayarları önbelleği ..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"Dize için geçersiz değer: \"Doğru\" veya \"yanlış\" (büyük / küçük harf duyarlı) olmalıdır."
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"`Son güncellenen ayarları' kendiniz güncelleyemezsiniz! Bu otomatik olarak yapılır."
+
+"Error inserting a new Setting:"
+"Yeni bir Ayar eklenirken hata oluştu:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"Ayarın DB'de var olduğunu ve mevcut değeri güncellediğini varsayarsak."
+
+"value must be a map with each value either a string or number."
+"her değerde bir dize veya sayıya sahip bir harita olmalıdır."
+
+"Loading plugins in directory {0}..."
+"{0} dizinindeki eklentiler yükleniyor ..."
+
+"Loading plugin {0}... "
+"{0} eklentisi yükleniyor ... ␣"
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Metabase eklentileri dizininizde bazı dış bağımlılıklarınız var gibi görünüyor."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"Java 9 veya üstü ile, Metabase bunları otomatik olarak sınıf yolunuza ekleyemez."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"Onun yerine, you should include them at launch with the -cp option. For example:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"Daha fazla bilgi için https://metabase.com/docs/latest/operations-guide/start.html#java-versions ye bakınız."
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(Metabase'i zaten bu şekilde çalıştırıyorsanız, bu mesajı göz ardı edebilirsiniz)"
+
+"Identify when new versions of Metabase are available."
+"Metabase'in yeni sürümlerinin ne zaman kullanılabilir olduğunu belirleyin."
+
+"Information about available versions of Metabase."
+"Metabase kullanılabilir sürümleri hakkında bilgi."
+
+"The name used for this instance of Metabase."
+"Metabase bu örneği için kullanılan ad."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"Bu Metabase örneğinin temel URL'si, ör. \"http://metabase.my-company.com\"."
+
+"The default language for this Metabase instance."
+"Bu Metabase örneğinin varsayılan dili."
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"Bu sadece e-postalar, bildirim vb. İçin geçerlidir. Kullanıcıların tarayıcıları, kullanıcı arayüzünde kullanılan dili belirler."
+
+"The email address users should be referred to if they encounter a problem."
+"Kullanıcıların bir sorunla karşılaşmaları halinde e-posta adresine yönlendirilmesi gerekir."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Metabase geliştirmeye yardımcı olmak için anonim kullanım verilerinin toplanmasını etkinleştirin."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"Harita görselleştirmelerinde kullanılan harita döşeme sunucusu URL'si şablonu, örneğin OpenStreetMaps veya MapBox'tan."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"Sorular ve Gösterge Tabloları için herkese açık olarak görüntülenebilen bağlantılar (ve gömülebilir iframe'ler) oluşturmak için yöneticileri etkinleştirin."
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"Yöneticilere diğer uygulamalarda güvenli bir şekilde soru ve gösterge panoları yerleştirmesine izin verilsin mi?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"Önbelleğe almayı etkinleştirmek, çalıştırılması uzun süren sorguların sonuçlarını kaydedecektir."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"Önbellek maksimum boyutu, kaydedilen soru başına kilobayt cinsinden:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"Önbelleğe alınmış sorgu sonuçlarını saklamak için mutlak maksimum süre, saniyeler içinde."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase, kaydedilen tüm soruları, bu birkaç saniyeden daha uzun bir ortalama sorgu yürütme süresiyle önbelleğe alır:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"Kaydedilen her sorunun önbelleğe alınmış sonucunun ne kadar süre kaldığını belirlemek için, Sorgunun ortalama yürütme süresini alıp buraya girdiğiniz her şeyle çarpıyoruz."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"Yani, bir sorgu çalışmanın ortalama 2 dakikasını alırsa, ve çarpanınız için 10 tane girersiniz, önbellek girişi 20 dakika sürecektir."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"Varsayılan bölme stratejisi kullanıldığında ve bir dizi bölme sağlanmadığında, bu sayı varsayılan olarak kullanılır."
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"Koordinatör tipi için varsayılan binning stratejisini kullanırken (Enlem ve Boylam gibi), onun numarası varsayılan bin genişliği (derece olarak) olarak kullanılacaktır."
+
+"Unable to validate token."
+"Token doğrulanamadı."
+
+"Error fetching token status:"
+"Token durumu alınırken hata oluştu:"
+
+"There was an error checking whether this token was valid."
+"Bu tokenin geçerli olup olmadığı kontrol edilirken bir hata oluştu."
+
+"Token validation timed out."
+"Token geçerliliği zaman aşımına uğradı."
+
+"Invalid token: token isn't in the right format."
+"Geçersiz token:"
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"{0} öğesinin geçerli olup olmadığını görmek için MetaStore ile kontrol ediliyor .."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"Premium gömme için token. Seninkini almak için MetaStore'a git!"
+
+"Token is valid."
+"Token geçerli."
+
+"Error setting premium embedding token"
+"Premium yerleştirme token belirlenirken hata oluştu"
+
+"Unable to compare results to goal for alert."
+"Uyarı için hedefle karşılaştırılamıyor."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"Görselleştirme ayarlarıyla '' {1} ''soru kimliği '' {0} '' "
+
+"Unrecognized alert with condition ''{0}''"
+"'' {0} '' koşuluyla tanınmayan uyarı"
+
+"Unrecognized channel type {0}"
+"Tanınmayan kanal türü {0}"
+
+"Error sending notification!"
+"Bildirim gönderilirken hata oluştu!"
+
+"Can't find JS color selector at ''{0}''"
+"JS renk seçici '' {0} '' konumunda bulunamıyor"
+
+"Card has errors: {0}"
+"Kartta hata var: {0}"
+
+"Pulse card render error"
+"Bildirim kartı işlem hatası"
+
+"Trimming trailing comment from card with id {0}"
+"{0} kimliğine sahip karttan takip eden yorumu düzeltin"
+
+"Can't find field with ID: {0}"
+"Kimliği olan alan bulunamıyor: {0}"
+
+"''{0}'' is a required param."
+"'' {0} '' gerekli bir paramdır."
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"'{0}' 'sorgusunda' '{1}' 'sorgusu yok' '{2}' 'bulundu"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"'' {0} '' değiştirilemedi: param belirtilmemiş.nFound: {1}"
+
+"You do not have permissions to view Card {0}."
+"{0} Kartını görüntüleme izniniz yok."
+
+"You do not have permissions to run this query."
+"Bu sorguyu çalıştırmak için izinleriniz yok."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"Parmak izi güncellemeleri denendi {0}, {1} güncellendi, veri bulunamadı {2}, başarısız oldu {3} "
+
+"Total number of fields classified {0}, {1} failed"
+"Toplam sınıflandırılan alanların sayısı {0},  başarısız oldu {1}"
+
+"Total number of tables classified {0}, {1} updated"
+"Toplam sınıflandırılan tablo sayısı {0}, güncellendi {1} "
+
+"Error generating fingerprint for {0}"
+"{0} için parmak izi oluşturma hatası"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"{0} Alan değeri kümeleri güncellendi, {1} oluşturuldu {3} hatasıyla {2}  silindi"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"Toplam alan sayısı senkronize edildi {0}, güncellenen alan sayısı {1}"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"Toplam tablo sayısı senkronize edildi {0}, güncellenen tablo sayısı {1}"
+
+"Found timezone id {0}"
+"{0} saat dilimi bulundu"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"Toplam yabancı anahtar sayısı senkronize edildi {0}, {1} updated and {2} tables failed to update"
+
+"{0} Database {1} ''{2}''"
+"{0} Veritabanı {1} '' {2} ''"
+
+"Table {0} ''{1}''"
+"Tablo {0} '' {1} ''"
+
+"Field {0} ''{1}''"
+"{0} '' {1} '' Alanı"
+
+"Field ''{0}''"
+"'' {0} '' alanı"
+
+"step ''{0}'' for {1}"
+"{1} için '' {0} '' adımı"
+
+"Completed {0} on {1}"
+"{1} tarihinde {0} tamamlandı"
+
+"Start: {0}"
+"Başlangıç: {0}"
+
+"End: {0}"
+"Bitiş: {0}"
+
+"Duration: {0}"
+"Süre: {0}"
+
+"Completed step ''{0}''"
+"Tamamlanan adım '' {0} ''"
+
+"Loading tasks namespace:"
+"Quartz Zamanlayıcıyı Başlatma"
+
+"Starting Quartz Scheduler"
+"Quartz Zamanlayıcıyı Başlatma"
+
+"Stopping Quartz Scheduler"
+"Quartz Zamanlayıcıyı Durdurmak"
+
+"Job already exists:"
+"İş zaten var:"
+
+"Loading Metabase..."
+"Metabase yükleniyor ..."
+
+"Possible timezone conflict found on database {0}."
+"{0} veritabanında olası saat dilimi çakışması bulundu."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"JVM saat dilimi {0} ve tespit edilen veritabanı saat dilimi {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"Uygun tarih ve saat dönüşümlerini sağlamak için bir rapor zaman dilimi yapılandırın."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"Gizli anahtar, / api / embed` son noktalarına yönelik isteklerde JSON Web Tokenleri imzalamak için kullanılır."
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ŞİFRELEME_GİZLİ_ANAHTARI en az 16 karakter olmalıdır."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"Kayıtlı kimlik bilgileri şifreleme, bu Metabase örneği için YETKİLİDİR."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"Kayıtlı kimlik bilgileri şifreleme, bu Metabase örneği için DEVRE DIŞI."
+
+"nFor more information, see"
+"Daha fazla bilgi için bakınız"
+
+"value must be an integer."
+"değer bir tamsayı olmalıdır."
+
+"value must be a string."
+"değer bir dize olmalı."
+
+"value must be a boolean."
+"değer bir boolean olmalıdır."
+
+"value must be a string that matches the regex `{0}`."
+"değer, {0} `regex ile eşleşen bir dize olmalıdır."
+
+"value must satisfy one of the following requirements: "
+"değer, aşağıdaki gereksinimlerden birini karşılamalıdır:"
+
+"value may be nil, or if non-nil, {0}"
+"değer sıfır olabilir veya sıfır değilse, {0}"
+
+"value must be one of: {0}."
+"değer şunlardan biri olmalıdır: {0}."
+
+"value must be an array."
+"değer bir dizi olmalıdır."
+
+"Each {0}"
+"Her bir {0}"
+
+"The array cannot be empty."
+"Dizi boş olamaz."
+
+"value must be a non-blank string."
+"değer boş olmayan bir dize olmalıdır."
+
+"Integer greater than zero"
+"Tamsayı sıfırdan büyük"
+
+"value must be an integer greater than zero."
+"değer sıfırdan büyük bir tamsayı olmalıdır."
+
+"Number greater than zero"
+"Sıfırdan büyük sayı"
+
+"value must be a number greater than zero."
+"değer sıfırdan büyük bir sayı olmalıdır."
+
+"Keyword or string"
+"Anahtar kelime veya dize"
+
+"Valid field type"
+"Geçerli alan türü"
+
+"value must be a valid field type."
+"Değer geçerli bir alan türü olmalıdır."
+
+"Valid field type (keyword or string)"
+"Geçerli alan türü (anahtar kelime veya dize)"
+
+"value must be a valid field type (keyword or string)."
+"değer geçerli bir alan türü olmalıdır (anahtar kelime veya dize)."
+
+"Valid entity type (keyword or string)"
+"Geçerli varlık türü (anahtar kelime veya dize)"
+
+"value must be a valid entity type (keyword or string)."
+"değer geçerli bir varlık türü olmalıdır (anahtar kelime veya dize)."
+
+"Valid map"
+"Geçerli harita"
+
+"value must be a map."
+"değer bir harita olmalıdır."
+
+"Valid email address"
+"Geçerli e-posta adres"
+
+"value must be a valid email address."
+"değer geçerli bir e-posta adresi olmalıdır."
+
+"Insufficient password strength"
+"Yetersiz şifre gücü"
+
+"value must be a valid integer."
+"değer geçerli bir tamsayı olmalıdır."
+
+"value must be a valid integer greater than zero."
+"değer, sıfırdan büyük geçerli bir tamsayı olmalıdır."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"değer geçerli bir boole dizgisi olmalıdır ('' true '' veya '' false '')."
+
+"value must be a valid JSON string."
+"değer geçerli bir JSON dizesi olmalıdır."
+
+"value must be a valid embedding params map."
+"Değer geçerli bir gömme params haritası olmalıdır."
+
+"No results"
+"Sonuç yok"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"{1} ve {2} Koleksiyonda olmayan {0} nın taşıma örnekleri"
+
+"Failed to grant permissions: {0}"
+"İzin verme başarısız: {0}"
+
+"Host"
+"Sunucu"
+
+"Port"
+"Port"
+
+"Database username"
+"Veritabanı kullanıcı adı"
+
+"Database password"
+"Veritabanı şifresi"
+
+"Database name"
+"Veri tabanı ismi"
+
+"birds_of_the_world"
+"birds_of_the_world"
+
+"Additional JDBC connection string options"
+"Ek JDBC bağlantı dizesi seçenekleri"
+
+"praxis-beacon-120871"
+"praxis-beacon-120871"
+
+"toucanSightings"
+"toucanSightings"
+
+"Hosts"
+"Sunucular"
+
+"Broker node port"
+"Broker düğüm noktası"
+
+"Google Analytics Account ID"
+"Google Analytics Hesap Kimliği"
+
+"Connection String"
+"Bağlantı dizisi"
+
+"Users/camsaul/bird_sightings/toucans"
+"Users/camsaul/bird_sightings/toucans"
+
+"carrierPigeonDeliveries"
+"taşıyıcıGüvercinTeslimatları"
+
+"Authentication Database"
+"Kimlik Doğrulama Veri Tabanı"
+
+"Optional database to use when authenticating"
+"Kimlik doğrulaması yaparken kullanılacak isteğe bağlı veritabanı"
+
+"Additional Mongo connection string options"
+"Ek Mongo bağlantı dizesi seçenekleri"
+
+"Oracle system ID (SID)"
+"Oracle sistem kimliği (SID)"
+
+"Usually something like ORCL or XE."
+"Genellikle ORCL veya XE gibi bir şey."
+
+"Optional if using service name"
+"Servis adı kullanılıyorsa isteğe bağlı"
+
+"Oracle service name"
+"Oracle servis adı"
+
+"Optional TNS alias"
+"İsteğe bağlı TNS takma adı"
+
+"hive"
+"hive"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"varsayılan"
+
+"Filename"
+"Dosya adı"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite 😋"
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"Veritabanı örneği adı"
+
+"N/A"
+"N/A"
+
+"Windows domain"
+"Windows alanı"
+
+"Unable to release the Liquibase lock after a migration failure"
+"Taşıma hatası sonrasında Liquibase kilidini bırakılamıyor"
+
+"Use JVM Time Zone"
+"JVM Zaman Dilimini Kullan"
+
+"Not a valid integer: ''{0}''"
+"Geçerli bir tamsayı değil: \"{0}\""
+
+"Embedding is not enabled for this object."
+"Bu obje için gömme işlemi etkin değil."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"LDAP sunucusuna bağlanırken sorun oluştu, yerel kimlik doğrulamaya dönülüyor: {0}"
+
+"When including an offset, a limit must also be included."
+"Kaydrıma dahil edildiğinde, bir sınır da dahil edilmeli."
+
+"When including a limit, an offset must also be included."
+"Bir sınır dahil edildiğinde, bir kaydırma değeri de dahil edilmeli."
+
+"Applying heuristic {0} to {1}."
+"Sezgi {0} {1}'e uygulanıyor."
+
+"Dimensions bindings:n{0}"
+"Boyutların ilişkilendirilmesi:n{0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"Tanımlamalar kullanılıyor:nÖlçevler:n{0}nSüzgeçler:n{1}"
+
+"minute"
+"dakika"
+
+"hour"
+"saat"
+
+"day of week"
+"haftanın günü"
+
+"day of month"
+"ayın günü"
+
+"day of year"
+"yılın günü"
+
+"week"
+"hafta"
+
+"month"
+"ay"
+
+"quarter"
+"çeyrek yıl"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"{0} kartları {1}:n{2} panosuna ekle"
+
+"Error parsing {0}:n{1}"
+"Hata ayıklama {0}:n{1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"UYARI: Filtreleme sadece boyutlarda çalışır! '' {0} '' bir metrik. Filtre yoksayılıyor."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"UYARI: Bir tarih çoklu bağımsiz aralıklara ait olamaz, VE operatörü mantıksız olur."
+
+"Ignoring these intervals: {0}"
+"Bu aralıklar dikkate alınmayacaktır: {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"UYARI: {0} nasıl negatif yapılır bilmiyorum"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"UYARI: Veri kaynağı, zaman aralıkları sorgularında limitSpec'e izin vermez. LIMIT Seçeneğini yok say."
+
+"HoneySQL Form:"
+"HoneySQL Formu:"
+
+"Unable to parse date ''{0}''"
+"Tarih ''{0}'' ayrıştırılamadı"
+
+"Client closed connection, cancelling query"
+"İstemci bağlantıyı kapattı, sorgulama iptal ediliyor"
+
+"Setting timezone with statement: {0}"
+"Zaman dilimini {0} ifadesi ile ayarlama"
+
+"MONGO AGGREGATION PIPELINE:"
+"MONGO AGGREGATION PIPELINE:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"Hata: sütunlar uyuşmadı! {0} Beklendi {1} Erişildi"
+
+"Unable to create temp file in `{0}` for email attachments "
+"E-posta eklentisi için geçici dosya `{0}` oluşturulamıyor:"
+
+"Error preprocessing query:"
+"Sorgu ön işlemesinde hata:"
+
+"Illegal filter clause: {0}"
+"Geçersiz süzgeç koşulu: {0}"
+
+"Invalid clause:"
+"Geçersiz koşul:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Hata: sorgulamanın kaynak sorgusu çözümlenemedi. Büyük olasılıkla sorguyu ön işleme tabi tutmanız gerekiyor."
+
+"No expression named ''{0}''"
+"\"{0}\" diye bir ifade yok"
+
+"No aggregation at index: {0}"
+"Göstergede kümeleşme yok: {0}"
+
+"Field values total length is {0} (max {1})."
+"Alan değerleri toplam uzunluğu {0} (en fazla {1})."
+
+"FieldValues are allowed for this Field."
+"Bu alan için FieldValues izni vardır."
+
+"FieldValues are NOT allowed for this Field."
+"Bu alan için FieldValues izni yoktur."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"Alan {0} \"{1}\" FieldValues olmalı ve talep üzerine FieldValues güncellemesine sahip bir veritabanında bulunmalı."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"\"Yönetici\" grubu için izin oluşturulamaz ya da etkisiz kılınamaz."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"\"Tüm kullanıcılar\" grubuna kullanıcı ekleyemez ya da silemezsiniz."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"\"Yönetici\" grubunun son üyesini çıkarmazsınız."
+
+"Error inserting a new Setting: {0}"
+"Yeni ayar {0} eklenirken hata oluştu"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"defsetting string tanımlamaları `dahili mi olmalı?` veya uluslararasılaştırılmış mı olmalı, `{0}` bulundu"
+
+"Loading plugin {0}... {1}"
+"Eklenti {0}...{1} yükleniyor"
+
+"Object keyed by type, containing formatting settings"
+"Biçimlendirme ayarları içeren tip anahtarlı nesne"
+
+"Allow users to explore data using X-rays"
+"Kullanıclara veri araştırması için X-rays kullanımına izin ver"
+
+"Unable to validate token: 404 not found."
+"Token doğrulanamadı: 404 bulunamadı."
+
+"There was an error checking whether this token was valid:"
+"Bu tokenin geçerli olup olmadığını kontrol ederken bir hata oluştu:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"Premium özellikler için token. Almak için MetaStore'a git!"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"Token formatı geçerli değil. Token 64 hexadecimal karakterde olmalıdır."
+
+"Error setting premium features token"
+"Premium özelliklere sahip olan tokenleri ayarlanırken hata oluştu"
+
+"Error validating token:"
+"Token doğrulanırken hata oluştu:"
+
+"Error preprocessing query"
+"Sorgulamanın önişlemi sırasında hata oluştu"
+
+"No native form returned."
+"Hiçbir yerel form iade edilmedi."
+
+"Invalid response from database driver. No :status provided."
+"Veritabanı sürücüsünden geçerli cevap alınamadı. :status iletilmedi."
+
+"General error"
+"Genel hata"
+
+"Missing query hash!"
+"Sorgu karması eksik!"
+
+"Table ''{0}'' has no Fields associated with it."
+"Tablo \"{0}\" ile ilişkilendirilmiş alan yok."
+
+"Max concurrent query limit reached"
+"En fazla eşzamanlı sorgulama sınırı aşıldı"
+
+"Don't know how to get information about Field:"
+"Hakkında nasıl bilgi alınacağı bilinmeyen alan:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface / * driver * bağlantısız."
+
+"Query processor error: mismatched number of columns in query and results."
+"Sorgu işlemcisi hatası: sorgudaki ve sonuçlardaki eşleşmeyen sütun sayısı."
+
+"Expected {0} fields, got {1}"
+"{0} alan beklendi, {1} erişildi"
+
+"Expected: {0}"
+"{0} beklendi"
+
+"Actual: {0}"
+"Güncel: {0}"
+
+"Unable to bin Field without a min/max value"
+"Alan en/an fazla değeri olmadan beslenemez"
+
+"{0} is not supported by this driver."
+"{0} bu sürücü tarafından desteklenmiyor."
+
+"Segment {0} does not exist, or is invalid."
+"{0} dilimi yok ya da geçersiz."
+
+"Metric {0} does not exist, or is invalid."
+"{0} ölçevi yok ya da geçersiz."
+
+"Missing source query in Card {0}"
+"Kart {0}'da kaynak sorgu eksik"
+
+"Fetched source query from Card {0}:"
+"Kart {0}'dan kaynak sorgu alındı:"
+
+"Error transforming MBQL query to native:"
+"MBQL sorugusu özgün şekle dönüştürülürken hata oluştu:"
+
+"Cannot run query: could not find source table {0}."
+"Sorgu çalıştırma hatası: kaynak tablo {0} bulunamadı."
+
+"Error recording results metadata for query:"
+"Sorgu için üstveri sonuçları kayıt edilirken hata oluştu:"
+
+"Error: Query Processor store is not initialized."
+"Hata: Sorgu işlemci alanı atanmamış."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"Hata: Tablo {0} sorgu işlemci alanında yok."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"Hata: Alan {0} sorgu işlemci alanında yok."
+
+"Task history cleanup successful, rows were {0}deleted"
+"Görev geçmişi başarı ile temizlendi, {0} satır silindi. "
+
+"not"
+"değil"
+
+"For more information, see"
+"Daha fazla bilgi için, bakınız"
+
+"Integer greater than or equal to zero"
+"Sıfıra eşit ya da sıfırdan büyük tam sayı"
+
+"value must be an integer greater than or equal to zero."
+"değer sıfıra eşit ya da sıfırdan büyük bir tam sayı olmalıdır."
+
+"value must be an integer zero or greater."
+"değer sıfır ya da daha büyük olmalıdır."
+
+"value must be a valid integer greater than or equal to zero."
+"değer sıfıra eşit ya da sıfırdan büyük geçerli bir tam sayı olmalıdır."
+
+"Unable to parse resource `{0}` as JSON"
+"`{0}` kaynağını JSON olarak ayrıştırılamıyor"
+
+"Unable to find JSON via relative path `{0}`"
+"JSON göreli yolu {0} ile bulunamadı"
+
+"Connection to host timed out for URL `{0}`"
+"'{0}' URL için zaman aşımına bağlandı"
+
+"Unable to connect to unknown host at URL `{0}`"
+"{0} URL’de bilinmeyen barındırıcıya bağlanılamıyor"
+
+"Unable to connect to host at URL `{0}`"
+"'{0}` adresindeki ana makineye bağlanılamıyor"
+
+"Connection refused by host at for URL `{0}`"
+"Bağlantı, `{0}` URL adresi için ana makine tarafından reddedildi"
+
+"Unable to retrieve resource at URL `{0}`"
+"`{0}` URL adresinden kaynak alınamadı"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"JSON olarak `{0}` URL adresindeki kaynak ayrıştırılamıyor"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"LDAP sunucusuna bağlanma sorunu, {0} yerel kimlik doğrulamaya geri dönecek "
+
+"BigQuery statements can''t be parameterized!"
+"BigQuery ifadeleri parametrelenemez!"
+
+"We’d love your feedback."
+"Geri bildiriminizi bekliyoruz."
+
+"It looks like Metabase wasn’t quite a match for you."
+"Metabase senin için tam bir eşleşme değildi."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Metabase ekibinin gelecekte işleri daha iyi hale getirmesine yardımcı olmak için hızlı bir 5 soru anketi çeker misiniz?"
+
+"We hope you''ve been enjoying Metabase."
+"Metabase'i beğeneceğinizi umuyoruz."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"İşlerin nasıl gittiğini anlatmak için hızlı bir şekilde 6 soru anketi çeker misiniz?"
+
+"{0} created a Metabase account"
+"{0} bir Metabase hesabı oluşturdu"
+
+"{0} accepted their Metabase invite"
+"{0} Metabase davetlerini kabul etti"
+
+"[Metabase] Password Reset Request"
+"[Metabase] Şifre Sıfırlama İsteği"
+
+"[Metabase] Notification"
+"[Metabase] Bildirimi"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] Metabase daha iyi hale getirmeye yardımcı olun."
+
+"[Metabase] Tell us how things are going."
+"[Metabase] işler nasıl gidiyor, bize söyleyin."
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"Hatalı: Sorgunun kaynak sorgusu çözülmedi. Muhtemelen ilk önce sorguyu ön işleme almanız gerekir."
+
+"Don't know what to do with:"
+"ile ne yapacağınızı bilmiyorum:"
+
+"Don't know how to wrap:"
+"Nasıl kapsamayı bilmiyorum:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"`query-caching-max-kb` {0} olarak ayarlayamadı."
+
+"Values greater than {1} are not allowed."
+"{1} değerinden büyük olan değerlere izin verilmez."
+
+"Database {0} does not exist."
+"{0} veritabanı mevcut değil."
+
+"Error: Database is not present in the Query Processor Store."
+"Hata: Sorgu işlemcisi deposunda veritabanı yok."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"Geçersiz gömme-gizli anahtar! Gizli anahtar, hexadecimal-encoded 256-bit key (i.e., a 64-character string) olmalıdır."
+
+"JWT is missing `alg`."
+"JWT `alg` bulamadı"
+
+"JWT `alg` cannot be `none`."
+"JWT `alg` `none` olamaz."
+
+"The embedding secret key has not been set."
+"Gömme gizli anahtarı ayarlanmamış."
+
+"Token is missing value for keypath"
+"Token anahtar yolu için değer bulamadı"
+
+"Previous {0}"
+"Önceki {0}"
+
+"value must be a valid database engine."
+"Değer geçerli bir veritabanı olamalıdır."
+
+"Connection refused by host for URL `{0}`"
+"URL '{0}'a erişim sistem tarafından reddedildi"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"Uyarı: Metabase'i bir H2 uygulama veritabanı ile kullanmak canlı sistemlerde tavsiye edilmemektedir."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"Lütfen daha fazla bilgi için https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres inceleyiniz."
+
+"Unable to connect to Metabase {0} DB."
+"Metabase {0} veritabanına bağlanılamıyor."
+
+"Failed to notify {0} Database {1} updated"
+"Veritabanı {1}'in güncelleme bildirimi {0} hatalı"
+
+"Loading driver {0} {1}"
+"Sürücü {0} {1} yükleniyor"
+
+"Load driver {0}"
+"Sürücü {0}'ı yükle"
+
+"Driver not registered after loading: {0}"
+"Sürücü yükleme sonrası kaydedilemedi: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"Hata: {0} `:abstract?` özelliği {1}'den {2}'ye değiştirilirken"
+
+"Registered abstract driver {0}"
+"Soyut sürücü {0} kaydedildi"
+
+"Registered driver {0}"
+"Sürücü {0} kaydedildi"
+
+"(parents: {0})"
+"(atalar: {0})"
+
+"Initializing driver {0}..."
+"Sürücü {0} başlatılıyor..."
+
+"Reason:"
+"Neden:"
+
+"Invalid driver feature: {0}"
+"Geçersiz sürücü özelliği: {0}"
+
+"Invalid HoneySQL form:"
+"Geçersiz HoneySQL formu:"
+
+"Closing connection pool for database {0} ..."
+"Veritabanı {0} için bağlantı havuzu sonlandırılıyor..."
+
+"Error loading namespace"
+"Ad alanı yüklenirken hata oluştu"
+
+"Starting events listener:"
+"Olay dinleyici başlatılıyor:"
+
+"Unexpected error listening on events"
+"Olayları izlerken beklenmeyen bir hata oluştu"
+
+"Error syncing Database {0}"
+"Veritabanı {0} için eşleştirme hatası"
+
+"Failed to process sync-database event."
+"Veritabanı eşleştirme olayının işlenmesi gerçekleştirilemedi."
+
+"Bad nested-query-level: query does not have a source query"
+"Hatalı yuvalanmış sorgu füzeryi: sorgunun kaynak sorgusu yok"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"Alan {0}'a ait FieldValues değişmiyor. Atlanıyor..."
+
+"Unable to normalize:"
+"Düzgelenemiyor:"
+
+"Could not find matching Field ID for target:"
+"Hedef için Field ID bulunamadı:"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabase'in eklentiler dizinine kayıt izni yok"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabase eklenti dizini {0}'u kullanamıyor"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"Lütfen dizinin varolduğundan emin olun ve Metabase'in bu dizine kayıt izni olduğunu kontrol edin."
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"Metabase'in modüller için kullandığı dizini, MB_PLUGINS_DIR çevre değişkenini belirleyerek değiştirebilirsiniz. "
+
+"Falling back to a temporary directory for now."
+"Şimdilik geçici bir dizin kullanılacak."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabase geçici dizine yazamıyor. Lütfen MB_PLUGINS_DIR'ü yazılabilir bir dizine ayarlayarak Metabase'i yeniden başlatın."
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deps.jar'a artık Metabase 1.0+ tarafından ihtiyaç duyulmuyor. Eklentiler dizininden silebilirsiniz."
+
+"Failied to initialize plugin {0}"
+"Eklenti {0} başlatılırken hata oluştu."
+
+"Loading plugins in {0}..."
+"{0}'daki eklentiler yükleniyor..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Clojure temel yükleyicisi paylaşımlı ortam sınıf yükleyicisi olarak kullanılıyor: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"Güncel iş parçası ortam sınıf yükleyicisi, paylaşımlı sınıf yükleyici {0} olarak ayarlanıyor..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"Güncel iş parçası ortam sınıf yükleyicisi, yeni oluşturulan sınıf yükleyici {0} olarak ayarlanıyor..."
+
+"Added URL {0} to classpath"
+"URL {0} sınıf yoluna eklendi"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"Eklenti {0} Metabase'in anlamadığı bir bağımlılık tanımlıyor: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"Geçerli eklenti bağımlılıklarının tam listesi için eklenti referansına başvurunuz:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"Gerekli bağımlılıklar yüzünden Metabase ekelnti {0}'ı başlatamıyor."
+
+"Class not found: {0}"
+"Sınıf bulunamadı: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"Eklenti \"{0}\" eklenti \"{1}\" bağımlı"
+
+"{0} dependency {1} satisfied? {2}"
+"{0} bağımlığı {1}'i yerine getirdi mi? {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"Yerine getirilmeyen bağımlığı olan eklentiler: {0}"
+
+"Extract file {0} -> {1}"
+"Dosya {0} -> {1} çıkarılıyor"
+
+"Resource does not exist."
+"Kaynak mevcut değil."
+
+"Loading plugin namespace {0}..."
+"Eklenti alan adı {0} yükleniyor..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"Bağımlılıklar yerine getirildi; bu eklentiler şimdi yükleniyor: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"{0} için JDBC vekil sunucu sürücüsü kaydedilyor..."
+
+"Deregistering original JDBC driver {0}..."
+"{0} için JDBC vekil sunucu sürücüsü kaydı siliniyor..."
+
+"Default connection property {0} does not exist."
+"Standart bağlantı özelliği {0} mevcut değil."
+
+"Invalid connection property {0}: not a string or map."
+"Geçersiz bağlantı özelliği {0}: string ya da map değil."
+
+"Load lazy loading driver {0}"
+"Geciktirmeli yükleme sürücü {0}'ı yükle"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"Eklenti başlatılamıyor: Gerekli özellik 'driver-name' eksik"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"Uyarı: {0} için eklenti manifestosu bağlnatı özelliklerini içermiyor"
+
+"Registering lazy loading driver {0}..."
+"Geciktirmeli yükleme sürücü {0} kaydediliyor..."
+
+"Error running query for Card {0}"
+"Kart {0}'a dair sorgu çalıştırılırken hata oluştu"
+
+"Last week"
+"Geçen hafta"
+
+"This week"
+"Bu hafta"
+
+"Last month"
+"Geçen ay"
+
+"This month"
+"Bu ay"
+
+"Last quarter"
+"Geçen çeyrek"
+
+"This quarter"
+"Bu çeyrek"
+
+"Last year"
+"Geçen yıl"
+
+"This year"
+"Bu yıl"
+
+"*driver* is unbound."
+"*sürücü* bağlı değil."
+
+"Error syncing Fields for Table ''{0}''"
+"Tablo \"{0}\"'a ait alanlar eşleştirilirken hata oluştu"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"{0}'ın sağlaması kayıtlı sağlama ile eşleşti, alan eşleştirmesi atlanıyor"
+
+"Field"
+"Alan"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"{0} alanlarının oluşturulması ya da yeniden etkinleştirilmesi denetlenirken hata oluştu"
+
+"Marking Field ''{0}'' as inactive."
+"Alan \"{0}\" etkisiz olarak işaretlendi."
+
+"Error retiring {0}"
+"{0} geri çekilirken hata oluştu"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"{0} veritabanı tipi \"{1}\"den \"{2}\"e değişti."
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"{0} taban tipi \"{1}\"den \"{2}\"e değişti."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"{0} özel tipi \"{1}\"den \"{2}\"e değişti."
+
+"Comment has been added for {0}."
+"{0}'a yorum eklendi."
+
+"Stopping Quartz Scheduler {0}"
+"Quartz zamanlayıcı {0} durduruldu"
+
+"Starting Quartz Scheduler {0}"
+"Quartz zamanlayıcı {0} başlatıldı"
+
+"Error loading tasks namespace {0}"
+"Görev alan adları {0} yüklenirken hata oluştu"
+
+"Initializing task {0}"
+"Görev {0} başlatılıyor"
+
+"Error initializing task {0}"
+"Görev {0} başlatılırken hata oluştu"
+
+"Problem sending abandonment email"
+"Terk email'i gönderilirken sorun oluştu"
+
+"Sending anonymous usage stats."
+"Anonim kullanım istatistikleri gönderiliyor."
+
+"Error sending anonymous usage stats"
+"Anonim kullanım istatistikleri gönderilirken hata oluştu"
+
+"Error sending Pulse {0}"
+"Bildirim {0} gönderilirken hata oluştu"
+
+"Sending scheduled pulses..."
+"Zamanlanmış bildirimler gönderiliyor..."
+
+"SendPulses task failed"
+"Bildirim gönderme görevi başarısız"
+
+"Failed to scheduler tasks for Database {0}"
+"Veritabanı {0} için görevlerin zamanlaması başarısız"
+
+"Cleaning up task history"
+"Görev geçmişi temizleniyor"
+
+"Task history cleanup successful, rows were deleted"
+"Görev geçmişi başarı ile temizlendi, satırlar silindi"
+
+"Task history cleanup successful, no rows were deleted"
+"Görev geçmişi başarı ile temizlendi, hiçbir satır silinmedi"
+
+"Checking for new Metabase version info."
+"Yeni Metabase sürüm bilgisi kontrol ediliyor."
+
+"Error fetching version info"
+"Sürüm bilgisi alınırken hata oluştu"
+
+"Maximum memory available to JVM: {0}"
+"JVM için kullanılabilir bellek: {0}"
+
+"Not something with an ID: {0}"
+"Bu ID ile bir şey yok: {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"Kart sonuçlarına dair API'ye iletilen veriler EKSİK. Doğru verileri almak için sorgulama yapılıyor."
+
+"{0} was autocorrected to {1}"
+"{0} {1} olarak düzeltildi."
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE /api/metric/:id artık kullanılmıyor. Onun yerine, `archived` değerini PUT /api/metric/:id yardımı ile değiştirin."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE /api/segment/:id artık kullanılmıyor. Onun yerine, `archived` değerini PUT /api/segment/:id yardımı ile değiştirin."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"is_superuser'ın değeri group_ids'teki Admin group ID'nın varlığı ile uyuşmalı."
+
+"Unexpected error writing keepalive characters"
+"Canlı tutma karakterlerinin kaydı sırasında beklenilmeyen hata"
+
+"Unexpected output in async API response"
+"Async API cevabında beklenilmeyen sonuç"
+
+"starting streaming response"
+"Duraksız cevap başlatılıyor"
+
+"Output chan closed, canceling keepalive request."
+"Çıktı kanalı kapandı, canlı tutma talepleri iptal ediliyor."
+
+"Async response finished, closing channels."
+"Async cevap tamamlandı, kanallar kapatılıyor."
+
+"No response after waiting {0}. Canceling request."
+"{0} beklenildikten sonra cevap alınamadı. Talep iptal ediliyorç"
+
+"Input channel unexpectedly closed."
+"Giriş kanalaı beklenilmedik bir şekilde kapatıldı."
+
+"f finished, permit will be returned"
+"Sonlandırıdığında, izin geri alınacak"
+
+"request canceled, permit will be returned"
+"Talep iptal edildi, izin geri alınacak"
+
+"Unexpected error attempting to run function after obtaining permit"
+"İzin alındıktan sonra fonksiyonu işleme denemesinde beklenilmedik hata"
+
+"Not running pending function call: output channel already closed."
+"Süren fonksiyon çağrısı koşturulmuyor: Çıkış kanalı kapanmış."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"Güncel iş parçasının {0} için izni var, başka biri için beklenilmeyecek"
+
+"Output channel closed, will skip running {0}."
+"Çıkış kanalı kapalı, {0} koşturma atlanacak."
+
+"Running {0} on separate thread..."
+"{0} başka bir iş parçacığı olarak koşturuluyor..."
+
+"Caught error running {0}"
+"{0} koşturulurken hata oluştu"
+
+"Request canceled, canceling future"
+"Talep iptal edildi, gelecek olanlar iptal ediliyor"
+
+"Closing old connection pool for database {0} ..."
+"Veritabanı {0}{ için eski bağlantı havuzu kapatılıyor..."
+
+"Here''s your {0} most recent cards:"
+"Sizin en son {0} kartınız:"
+
+"Card {0} not found."
+"Kart {0} bulunamadı."
+
+"Exception in API call"
+"API çağrısında hata"
+
+"Request canceled before finishing."
+"Talep sonlandırılamadan iptal edildi."
+
+"Metabase only supports JSON requests."
+"Metabase sadece JSON taleplerini destekliyor."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Lütfen 'Content-Type: application/json' başlığını kullandığınızdan emin olun."
+
+"Setting Metabase site URL to {0}"
+"Metabase site URL'si {0}'a ayarlandı"
+
+"Error scheduling tasks for DB"
+"DB için görevlerin çizelgelemesinde hata"
+
+"Error unscheduling tasks for DB."
+"DB için görevlerin çizelgeleme dışına alınmasında hata"
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+" {0} Veritabanı ''{1}'' eşleştirme/analiz zamanlamarı değişti!"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"Eşleştirme verisi: ''{0}'' idi, şimdi: ''{1}''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Arabellek FieldValues: ''{0}'' idi, şimdi: ''{1}''"
+
+"You cannot update the creator_id of a Metric."
+"Bri metriğin creator_id'sini güncelleyemezsiniz."
+
+"Failed to grant permissions"
+"İzinlerin verilmesi başarısız oldu"
+
+"Changing permissions"
+"İzinler değiştiriliyor"
+
+"FROM:"
+"Kimden:"
+
+"TO:"
+"Kime:"
+
+"You cannot update the creator_id of a Segment."
+"Bir bölümün creator_id'sini güncelleyemezsiniz."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"Setting {0}'ı gizlenmiş değere atama denendi .Değişiklik dikkate alınmayacak."
+
+"Using value of env var {0}"
+"env'in değeri {0} kullanılıyor"
+
+"Adding User {0} to All Users permissions group..."
+"Kullanıcı {0} tüm kullanıcılar izin grubuna ekleniyor..."
+
+"Adding User {0} to Admin permissions group..."
+"Kullanıcı {0} yöneticiler izin grubuna ekleniyor..."
+
+"Query failure"
+"Sorgu hatası"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"Veritabanı başına izin verilen en fazla eşzamanlı sorgu sayısı."
+
+"Timed out after {0} milliseconds."
+"{0} milisaniyenin ardından zaman aşımı."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"LDAP servislerine bağlanırken sorun oluştu, lokal kimlik dogrulaması yapılacak"
+
+"Cannot create Database: cannot find driver {0}."
+"Veritabanı oluşturulamadı: {0} için sürücü bulunamadı."
+
+"Query failed"
+"Sorgu hata verdi"
+
+"Warning: {0} returned `nil`"
+"Uyarı: {0} 'nil' değerini döndü"
+
+"Unexpected error writing result to output channel: already closed"
+"Çıktı kanalına sonuç yazma sırasında beklenmedik bir hata: zaten kapalı"
+
+"Unexpected error writing exception to output channel: already closed"
+"Çıktı kanalına özel durum yazma sırasında beklenmedik bir hata: zaten kapalı"
+
+"Request canceled, canceling future."
+"İstek iptal edildi, gelecek iptal ediliyor."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase, verileri sadece H2 veritabanından Postgres yada MySQL/MariaDB veritabanına transfer edebilir."
+
+"Application database setup"
+"Uygulama veri tabanı kurulumu"
+
+"Could not find {0} driver."
+"{0} sürücüsü bulunamadı."
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"Metabase' in,H2 uygulama veritabanıyla kullanılması üretim sürümleri için önerilmez."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"SSL ile bağlanmak için ek bağlantı seçeneklerine 'trustServerCertificate = true' seçeneğini eklemeniz gerekebilir."
+
+"Don't know how to alias {0}, expected an Identifer."
+"{0} takma adının nasıl olacağını bilinmiyor, bir tanımlayıcı bekleniyordu."
+
+"Client closed connection, canceling query"
+"İstemci kapalı bağlantı, sorgu iptal ediliyor."
+
+"{0} is not a valid DN."
+"{0} geçerli bir DN değil."
+
+"Error logging API request"
+"API isteği girişinde hata"
+
+"Failed to set site-url"
+"site-url kurumu hatası"
+
+"Error destroying thread pool for DB."
+"DB için iş parçası yok etme hatası"
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"{0} ''{1} '' için görünen ad güncelleniyor: ''{2} '' -> ''{3} ''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"Geçersiz insancıllaştırma stratejisi '' {0} ''. Geçerli stratejiler: {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Tablo ve Alan adları insancıllaştırma stratejisi '' {0} '' yerine '' {1} '' olarak değiştiriliyor"
+
+"Error saving task history"
+"Görev geçmişi kaydedilirken hata oluştu"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"spark-deps.jar dosyası, Metabase 0.32.0+ için artık gerekli değildir. Eklentiler dizininden silebilirsiniz."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"Yeni oluşturulan sınıf yükleyiciyi paylaşılan bağlam sınıf yükleyicisi olarak kullanma: {0}"
+
+"Failed to copy file"
+"Dosya kopyalanamadı"
+
+"Invalid site URL: {0}"
+"Hatalı URL: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"site-url'si geçersiz; Şimdilik sıfır. Bir sonraki talepte sıfırlanacak."
+
+"More results have been included as a file attachment"
+"Dosya eki olarak daha fazla sonuç eklendi"
+
+"This question has been included as a file attachment"
+"Bu soru bir dosya eki olarak eklenmiştir"
+
+"We were unable to display this Pulse."
+"Bu bildirimi gösteremiyoruz."
+
+"Please view this card in Metabase."
+"Lütfen bu kartı Metabase' de görüntüleyin."
+
+"An error occurred while displaying this card."
+"Bu kart görüntülenirken bir hata oluştu."
+
+"Can only determine expected columns for MBQL queries."
+"Yalnızca MBQL sorguları için beklenen sütunları belirleyebilir."
+
+"No columns returned."
+"Hiçbir sütun döndürülmedi."
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Uyarı: \"source-metadata\" ifadesini eklemediğiniz sürece, açık bir \"source-query\" için alanları belirleyemez."
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"{0} çözümlenemiyor: Alan mevcut değil veya tablosu farklı bir veritabanına ait."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"alias bilgisi açıkça bağlanmadığı sürece field-literal inside :fk çözümlenemez."
+
+"Cannot find Table ID for {0}"
+"{0} için tablo kimliği bulunamıyor"
+
+"No matching info found."
+"Eşleşen bilgi bulunamadı."
+
+"Could not resolve {0}"
+"{0} çözülemedi"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"Invalid fk cümleciği : karşılık gelen birleştirme hiç bir yerde bulunamadı."
+
+"{0} driver does not support foreign keys."
+"{0} sürücüsü yabancı anahtarları desteklemiyor."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"Temel veriler olmadan yerel kaynak sorgusuna sahip kaynak sorgusu için `: source-metadata` çıkartılamaz."
+
+"Query processor error: number of columns returned by driver does not match results."
+"Sorgu işlemci hatası: sürücü tarafından döndürülen sütun sayısı sonuçlarla eşleşmiyor."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"Beklenen {0} sütun, ancak ilk sonuç satırında {1} sütun var."
+
+"No expression named {0} found. Found: {1}"
+"{0} adında ifade bulunamadı. Bulunan: {1}"
+
+"Distinct values of {0}"
+"{0} nın farklı değerleri"
+
+"Average of {0}"
+"Ortalama"
+
+"Sum of {0}"
+"Toplam {0}"
+
+"SD of {0}"
+"Standart Sapma"
+
+"Min of {0}"
+"Minimum"
+
+"Max of {0}"
+"Maksimum"
+
+"Sum of {0} matching condition"
+"{0} eşleşen koşulun toplamı"
+
+"Share of rows matching condition"
+"Koşulla eşleşen satırların payı"
+
+"Count of rows matching condition"
+"Koşulla eşleşen satır sayısı"
+
+"Request already canceled, will not run synchronous QP code."
+"İstek zaten iptal edildi, senkronize QP kodu çalıştırılmayacak."
+
+"Unexpectedly got `nil` Query Processor response."
+"Beklenmedik bir şekilde sorgu işlemci yanıtı alamadı."
+
+"Got InterruptedException. Canceling query."
+"InterruptedException hatası oluştu, sorgu iptal ediliyor."
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"Belirtilmeyen hata, özel \"catch-exceptions\" katmanları ile hatayı belirtilebilir"
+
+"Query timed out after %s"
+"Sorgu zaman aşımına uğradı, geçen zaman: %s"
+
+"Creating new query thread pool for Database {0}"
+"{0} Veritabanı için yeni sorgu iş parçacığı havuzu oluşturuluyor"
+
+"Destroying query thread pool for Database {0}"
+"{0} Veritabanı için sorgu iş parçacığı havuzu yokediliyor"
+
+"Request canceled, canceling pending query"
+"İstek iptal edildi, beklemedeki sorgu geri alınıyor"
+
+"Cannot update binned field: query is missing source-metadata"
+"Bind edilen alan güncellenemiyor: sorguda kaynak temelveri eksik"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"Bind edilen alan güncellenemiyor: '' {0} '' Alanı için eşleşen kaynak temel veri bulunamadı"
+
+"Using query processor cache backend: {0}"
+"Sorgu işlemcisi önbellek arka ucunu kullanıyor: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"Geçersiz metrik: {0} Sebep: {1}"
+
+"Unknown error"
+"Bilinmeyen hata"
+
+"Unexpected nil response from query processor."
+"Sorgu işlemcisinden beklenmeyen bir yanıt alındı"
+
+"Query canceled"
+"Sorgu iptal edildi"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"Sorgu için sürücü çözülemiyor: eksik veya geçersiz `: veritabanı` kimliği."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"Sorgu için sürücü çözülemiyor: {0} veritabanı yok."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"Kaynak sorgu :source-metadata olmadıkça :fields :all birleştirmede kullanılamaz"
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"Sorun: birleşik alan cümlesi: '' {0} '' takma adıyla birleştirme yok. Bulunan: {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"Geçersiz: kaynak-tablo '' {0} '': şu ana kadar bir tablo kimliğine çözümlenmelidir."
+
+"Cannot store Tables or Fields before Database is stored."
+"Veritabanı kaydedilmeden tablolar veya alanlar kaydedilemez."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"İkinci veritabanı getirilmeye çalışılıyor. Sorgular yalnızca bir veritabanına başvurabilir."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"Tablo {0} getirilemedi: Tablo mevcut değil veya farklı bir veritabanına ait."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"{0} Alanı getirilemedi: Alan mevcut değil veya farklı bir veritabanına ait."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"'' {0} '' şablonu yüklenemedi. Metabase ön ucunu oluşturmayı hatırladınız mı?"
+
+"Found new tables:"
+"Yeni tablolar bulundu:"
+
+"Marking tables as inactive:"
+"Tabloları pasif olarak işaretleme:"
+
+"Updating description for tables:"
+"Tablolar için açıklama güncelleniyor:"
+
+"Rescheduling job {0}"
+"Yeniden zamanlama işi {0}"
+
+"Error rescheduling job"
+"İş yeniden zamanlama hatası"
+
+"Starting Pulse Execution: {0}"
+"Bildirim işlemeyi başlat: {0}"
+
+"Finished Pulse Execution: {0}"
+"Bildirim işlemeyi bitir: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"{0} Veritabanı için görevler zamanlanamadı"
+
+"All elements must be distinct."
+"Tüm unsurlar farklı olmalıdır"
+
+"Don't know how to alias {0}, expected an Identifier."
+"{0} takma adının nasıl olacağı bilinmiyor, bir tanımlayıcı bekleniyordu."
+
+"Error adding User {0} to Group {1}"
+"{1} grubuna {0} kullanıcısı eklenirken hata oluştu"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Tablo ve Alan adları insancıllaştırma stratejisi '' {0} '' yerine '' {1} '' olarak değiştiriliyor."
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"Sonsuz döngü algılandı: özyinelemeli olarak önceden işlenmiş sorgu {0} kez."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Uyarı: \"source-metadata\" ifadesini de eklemediğiniz sürece, açık bir \"source-query\" için alanları belirlenemez"
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"Beklenmeyen hata, catch-exceptions katmanlarını kullanarak çözebilirsiniz."
+
+"All"
+"Tümü"
+
+"An error occurred while running the query."
+"Sorgu çalıştırılırken bir hata oluştu."
+
+"Output H2 database already exists: %s, removing."
+"H2 çıkışı veritabanı zaten var:% s, kaldırılıyor."
+
+"Don't need to migrate, just use the existing H2 file"
+"Taşınmanıza gerek yok, sadece mevcut H2 dosyasını kullanın"
+
+"Target DB is already populated!"
+"Hedef DB zaten dolduruldu!"
+
+"System info:n {0}"
+"Sistem bilgisi: n {0}"
+
+"Database setup"
+"Veritabanı kurulumu"
+
+"Invalid '{{...}}' clause: expected a param name"
+"Geçersiz '{{...}}' yan tümcesi: bir param adı bekleniyor"
+
+"'{{...}}' clauses cannot be empty."
+"'{{...}}' koşulu boş olamaz."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"'[[...]]' koşulu en az bir tane "
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"Geçersiz sorgu: '[[' veya '{{' ile eşleşmeyen ']]' veya '}}' bulundu"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"Bu sorgunun çalışması için önce '' {0} '' için bir değer seçmeniz gerekecek."
+
+"Can''t find field with ID: {0}"
+"{0} kimliğine sahip alan bulunamıyor"
+
+"Error loading driver namespace"
+"Sürücü ad alanı yüklenirken hata oluştu"
+
+"Could not load {0} driver."
+"{0} sürücüsü yüklenemedi."
+
+"Don''t know how to parse {0} {1}"
+"{0} {1} nasıl ayrıştırılacağını bilinmiyor"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"{0} takma adı bilinmiyor, bir tanımlayıcı bekleniyor."
+
+"Don''t know how to unprepare values of class {0}"
+"{0} sınıfının değerlerinin nasıl hazırlanacağı bilinmiyor"
+
+"Creating new connection pool for {0} database {1} ..."
+"{0} veritabanı {1} için yeni bağlantı havuzu oluşturuluyor ..."
+
+"Invalid timezone ''{0}''"
+"Geçersiz saat dilimi '' {0} ''"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"Saat dilimi ayarlanamıyor: {0} sürücüsü için geçersiz veya eksik SQL biçim dizesi."
+
+"Did you implement set-timezone-sql?"
+"Set-timezone-sql uyguladınız mı?"
+
+"Failed to set timezone ''{0}''"
+"'' {0} '' saat dilimi ayarlanamadı"
+
+"Error parsing JSON"
+"JSON ayrıştırılırken hata oluştu"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"Verilerin ana sayfada görüntülenip görüntülenmeyeceği. Yöneticiler, kullanıcıları ham verilerden daha iyi içeriğe yönlendirmek için bunu kapatabilir"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Ana sayfada röntgen önerilerinin gösterilip gösterilmeyeceği. Herhangi bir gösterge panosu sabitlenirse de gizlenirler. Yöneticiler, kullanıcıları ham verilerden daha iyi içeriğe yönlendirmek için bunu gizleyebilir"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"HTTP isteklerinin kaynağını uzak adresi yerine bu üstbilginin değerine göre belirleyin."
+
+"Could not resolve Setting {0}/{1}"
+"{0} / {1} ayarı çözülemedi"
+
+"Invalid Setting: {0}/{1}"
+"Geçersiz Ayar: {0} / {1}"
+
+"reached its goal"
+"hedefine ulaştı"
+
+"gone below its goal"
+"hedefinin altına indi"
+
+"Sending Pulse ({0}: {1}) via email"
+"Bildirim gönder ({0}: {1}) E-Posta aracılığıyla"
+
+"Pulse: {0}"
+"Bildirim: {0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Bildirim gönder ({0}: {1}) Slack aracılığıyla"
+
+"Sending Alert ({0}: {1}) via email"
+"Uyarı ({0}: {1}) eposta ile gönderiliyor"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Uyarı ({0}: {1}) Slack üzerinden gönderiliyor"
+
+"Alert: {0}"
+"Uyarı: {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"''{0}'' da JS renk seçici bulunamıyor"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"DÜZELT: Bunlar geçerli geçici değerler değil: {0} {1}. Neden onları bu şekilde biçimlendirmeye çalışıyoruz?"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"FK {4} '' {5} '' Alanında {2} '' {3} '' Alanında {0} '' {1} '' ile birleştirmek için eşleşen bilgi bulunamadı"
+
+"Don''t know how to get information about Field: {0}"
+"Alan {0} hakkında nasıl bilgi alınacağı bilinmiyor"
+
+"Query timed out after {0}"
+"Sorgu, {0} bekledikten sonra zaman aşımına uğradı"
+
+"Formatting rows with results timezone ID {0}"
+"Sonuçların saat dilimi kimliğine sahip satırları biçimlendirme {0}"
+
+"Invalid timezone ID ''{0}''"
+"Geçersiz zaman dilimi ID \"{0}\""
+
+"Saving fingerprint for {0}"
+"{0} için parmak izi kaydediliyor"
+
+"Sending abandoment email!"
+"Vazgeçme e-postası gönderme!"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"Sonuçta ortaya çıkan dönüşümler beklentilere uymuyor. Beklenen: {0}"
+
+"Timed out after {0}"
+"{0} tarihinden sonra zaman aşımına uğradı"
+
+"No temporal adjuster named {0}"
+"{0} adında geçici ayarlayıcı yok"
+
+"Invalid unit: {0}"
+"Geçersiz birim: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"{1} biçimini kullanarak {0} nasıl ayrıştırılacağını bilmiyorum"
+
+"Token is missing value for keypath {0}"
+"{0} anahtar yolu için simgenin değeri eksik"
+
+"Sending usage stats FAILED"
+"Kullanım istatistiklerini gönderme BAŞARISIZ"
+
+"or"
+"veya"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase, gösterge tablolarında ve sorulardaki onay kutusu filtrelerini etkinleştirmek için bu veritabanındaki her alanda bulunan değerleri tarayabilir. Bu, özellikle çok büyük bir veritabanınız varsa, kaynak yoğun bir süreç olabilir."
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"' {0}: {1} '' bağlantısı başarılı, ancak DB'ye bağlanamadı."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"'' {0} '' sunucusuna bağlantı başarılı, ancak {1} bağlantı noktası geçersiz."
+
+"Host ''{0}'' is not reachable"
+"'' {0} '' ana bilgisayarına erişilemiyor"
+
+"Unable to connect to database."
+"Veritabanına bağlanılamıyor."
+
+"Cannot connect to Database"
+"Veritabanına bağlanılamıyor"
+
+"You''re not allowed to specify a value for {0}."
+"{0} için bir değer belirlemenize izin verilmiyor."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"JWT'de önceden ayarlanmışsa {0} için bir değer belirtemezsiniz."
+
+"You must specify a value for {0} in the JWT."
+"JWT'de {0} için bir değer belirtmelisiniz."
+
+"You can only specify a value for {0} in the JWT."
+"JWT'de yalnızca {0} için bir değer belirtebilirsiniz."
+
+"Error searching field values"
+"Alan değerleri aranırken hata oluştu"
+
+"Error searching for remapping"
+"Yeniden eşleme aranırken hata oluştu"
+
+"Double check that it matches in Google and Metabase."
+"Google ve Metabase'de eşleşip eşleşmediğini iki kez kontrol edin."
+
+"Everything else"
+"Diğer herşey"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"UYARI: db parolaları gibi hassas bilgileri günlüğe kaydedebilecek ad alanı izlemeyi etkinleştirdiniz."
+
+"Database Upgrade Required"
+"Veritabanı Yükseltmesi Gerekli"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"DİKKAT: Veritabanınız, Metabase'in bu sürümüyle çalışmak için güncellemeler gerektirir."
+
+"Please execute the following sql commands on your database before proceeding."
+"Lütfen devam etmeden önce veritabanınızda aşağıdaki sql komutlarını yürütün."
+
+"Once your database is updated try running the application again."
+"Veritabanınız güncellendikten sonra uygulamayı tekrar çalıştırmayı deneyin."
+
+"Database requires manual upgrade."
+"Veritabanı manuel yükseltme gerektirir."
+
+"Successfully verified {0} {1} application database connection."
+"{0} {1} uygulama veritabanı bağlantısı başarıyla doğrulandı."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"'' {0} '' tarih parametresini nasıl ayrıştırılacağı bilinmiyor - geçersiz biçim"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"Başvuru yapılan # {0} sorusundan gelen alt sorgu şu hatayla başarısız oldu: {1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"UYARI: Metabase, MySQL {0} / MariaDB {1} ve üzerini resmi olarak destekler."
+
+"All Metabase features may not work properly when using an unsupported version."
+"Desteklenmeyen bir sürüm kullanılırken tüm Metabase özellikleri düzgün çalışmayabilir."
+
+"Cannot run the query: missing required parameters: {0}"
+"Sorgu çalıştırılamıyor: eksik gerekli parametreler: {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"{0} {1} 'ı geçici bir değişmez olarak nasıl çözümleneceği bilinmiyor"
+
+"Setting {0} database timezone with statement: {1}"
+"{0} ifadesi ile veritabanı saat dilimini ayarlama: {1}"
+
+"Error setting connection to readwrite"
+"Okuma yazma bağlantısı kurulurken hata oluştu"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"{1} veritabanı için '' {0} '' saat dilimi ayarlanamadı"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"{0} veritabanı için işlem yalıtım düzeyi {1} olarak ayarlanırken hata oluştu"
+
+"Error setting connection to read-only"
+"Salt okunur bağlantı ayarı hatası"
+
+"Error setting default holdability for connection"
+"Bağlantı için varsayılan okunabilirlik ayarı hatası"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"Sorgu iptal edildi, PreparedStatement.cancel () çağrıldı"
+
+"Failed to connect to database"
+"Veritabanına bağlanılamadı"
+
+"Unable to determine connection properties for driver {0}"
+"{0} sürücüsü için bağlantı özellikleri belirlenemedi"
+
+"Error fetching field values"
+"Alan değerleri getirilirken hata oluştu"
+
+"You cannot set {0}; it is a read-only setting."
+"{0} ayarlayamazsınız; salt okunur bir ayardır."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"defsetting açıklama dizeleri şunlardan biri olmalıdır : `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+
+"Setting {0} is internal"
+"{0} ayarı dahili"
+
+"Loading local plugin manifest at {0}"
+"{0} adresinden yerel eklenti bildirimi yükleniyor"
+
+"Google Analytics tracking code."
+"Google Analytics izleme kodu."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"Bildirim Gönder ({0}: {1}) Kartlar E-Mail aracılığıyla."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Bildirim gönderiliyor ({0}: {1}) Slack aracılığıyla {2} kart"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"{0} grafik türü ve oluşturma türü {1} ile bildirim kartı oluşturma"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"DÜZELT: Bunlar geçerli geçici değerler değil: {0} {1}. Bunları neden bu şekilde biçimlendirmeye çalışıyoruz?"
+
+"Error reducing result rows"
+"Sonuç satırları azaltılırken hata oluştu"
+
+"Unexpected nil result"
+"Beklenmedik sıfır sonuç"
+
+"Query timed out after {0} ms, raising timeout exception."
+"{0} ms sonra sorgu zaman aşımına uğradı, zaman aşımı istisnası artırıldı."
+
+"Timed out after {0}."
+"{0} tarihinden sonra zaman aşımına uğradı."
+
+"Query canceled before finishing."
+"Sorgu tamamlanmadan iptal edildi."
+
+"Unknown query type {0}"
+"Bilinmeyen sorgu türü {0}"
+
+"Caching results for next time for query with hash {0}."
+"{0} hash sorgusuyla bir sonraki sorguda sonuçları önbelleğe alma."
+
+"Error saving query results to cache."
+"Sorgu sonuçlarını önbelleğe kaydederken hata oluştu."
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"Sorgu çalıştırmak {0} aldı; önbellek uygunluğu için minimum {1}"
+
+"Results are too large to cache."
+"Sonuçlar önbelleğe alınamayacak kadar büyük."
+
+"Error parsing serialized results"
+"Serileştirilmiş sonuçları ayrıştırma hatası"
+
+"Error purging old cache entries"
+"Eski önbellek girişleri temizlenirken hata oluştu"
+
+"Caching results for query with hash {0}."
+"Hash {0} ile yapılan sorgu için önbellek sonuçları."
+
+"Cannot save QueryExecution, missing :context"
+"QueryExecution kaydedilemiyor, eksik: context"
+
+"Error saving query execution info"
+"Sorgu yürütme bilgileri kaydedilirken hata oluştu"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"Sorgu için veritabanı çözülemiyor: eksik veya geçersiz `: veritabanı` kimliği."
+
+"Unable to resolve driver for query"
+"Sorgu için sürücü çözülemiyor"
+
+"Referenced question #{0} could not be found"
+"Yönlendirilen # {0} sorusu bulunamadı"
+
+"Referenced query is from a different database"
+"Başvuru yapılan sorgu farklı bir veritabanından"
+
+"This query has circular referencing sub-queries. "
+"Bu sorgu dairesel başvuru alt sorgularına sahiptir."
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"Bu sorular sorunun bir parçası gibi görünüyor: \"{0}\" ve \"{1}\"."
+
+"Error recording results metadata for query"
+"Sorgu için sonuç meta verileri kaydedilirken hata oluştu"
+
+"Query result"
+"Sorgu sonucu"
+
+"Error generating insights for column:"
+"Sütun için içgörü oluşturulurken hata oluştu:"
+
+"Sending abandonment email!"
+"Vazgeçme e-postası gönderme!"
+
+"SSH Authentication"
+"SSH Kimlik Doğrulaması"
+
+"SSH Key"
+"SSH Anahtarı"
+
+"Server SSL certificate chain"
+"Sunucu SSL sertifika zinciri"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"Question''ın ortalama yürütme süresi {0}; {1} '' sihirli '' TTL kullanarak"
+
+"A snippet with that name already exists. Please pick a different name."
+"Bu ada sahip bir pasaj zaten var. Lütfen farklı bir ad seçin."
+
+"[Unknown Metric]"
+"[Bilinmeyen Metrik]"
+
+"[Unknown Segment]"
+"[Bilinmeyen Segment]"
+
+"Error writing error to output stream"
+"Çıkış akışına yazma hatası"
+
+"Caught unexpected Exception in streaming response body"
+"Akış yanıt gövdesinde beklenmedik özel durum yakalandı"
+
+"bound-fn caught unexpected Exception"
+"bound-fn beklenmedik özel durum yakaladı"
+
+"Error determining whether HTTP request was canceled"
+"HTTP isteğinin iptal edilip edilmediğini belirleme hatası"
+
+"Check cancelation status timed out after {0}"
+"{0} tarihinden sonra iptal durumunu kontrol etme zaman aşımına uğradı"
+
+"Unexpected exception in do-f-async"
+"Do-f-async'de beklenmeyen istisna"
+
+"Unexpected exception writing error response"
+"Beklenmeyen özel durum yazma hatası yanıtı"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"Sunucu sertifikası güvenilir değil - doğru SSL sertifika zincirini belirttiniz mi?"
+
+"Server appears to require SSL - please enable SSL above"
+"Sunucu SSL gerektiriyor gibi görünüyor - lütfen yukarıdaki SSL'yi etkinleştirin"
+
+"Username"
+"Kullanıcı adı"
+
+"Don''t know how to parse parameter of type {0}"
+"{0} türünde bir parametrenin nasıl ayrıştırılacağını bilmiyorum"
+
+"Invalid :card parameter: missing `:card-id`"
+"Geçersiz: kart parametresi: eksik `: kart kimliği '"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"Snippet çözülemedi: eksik `: snippet-id`"
+
+"Snippet {0} {1} not found."
+"Snippet {0} {1} bulunamadı."
+
+"Error determining value for parameter"
+"Parametre için değer belirlenirken hata oluştu"
+
+"Error building query parameter map"
+"Sorgu parametre eşlemesi oluşturulurken hata oluştu"
+
+"ASYNC"
+"ASYNC"
+
+"{0} ({1} DB calls)"
+"{0} ({1} DB calls)"
+
+"App DB connections: {0}/{1}"
+"App DB connections: {0}/{1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+
+"({0} total active threads)"
+"({0} toplam aktif ileti dizisi)"
+
+"Queries in flight: {0}"
+"Uçuşta sorgular: {0}"
+
+"({0} queued)"
+"({0} sıraya alındı)"
+
+"Collection must be in the same namespace as its parent"
+"Koleksiyon, üst öğesiyle aynı ad alanında olmalıdır"
+
+"Personal Collections must be in the default namespace"
+"Kişisel Koleksiyonlar varsayılan ad alanında olmalıdır"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"Bir Koleksiyonu oluşturulduktan sonra farklı bir ad alanına taşıyamazsınız."
+
+"Collection does not exist."
+"Koleksiyon mevcut değil."
+
+"A {0} can only go in Collections in the {1} namespace."
+"Bir {0} yalnızca {1} ad alanındaki Koleksiyonlara gidebilir."
+
+"Error sending database deletion notification"
+"Veritabanı silme bildirimi gönderilirken hata oluştu"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"Bir NativeQuerySnippet'in creator_id değerini güncelleyemezsiniz."
+
+"Error fetching value of Setting"
+"Ayar değeri getirilirken hata oluştu"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Metatabanı kullanıcı arayüzü, sistem e-postaları, bildirimleri ve uyarıları için kullanılması gereken dil."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"Bu aynı zamanda tüm kullanıcılar için kendi hesap ayarlarından değiştirebilecekleri varsayılan dildir."
+
+"Invalid locale {0}"
+"Geçersiz yerel ayar {0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"Site URL'si HTTPS ise, tüm trafiği bir yönlendirme yoluyla HTTPS kullanmaya zorlayın"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"`Site-url` HTTPS olmadığı sürece istekler HTTPS'ye yönlendirilemez."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"Yazı tipleri kaydedilirken hata oluştu: Metabase, bildirim gönderemez."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"Bu belirli JVM'lerde bilinen bir sorundur. Daha fazla ayrıntı için {0} bölümüne bakın."
+
+"Error rendering Pulse"
+"Bildirim oluşturulurken hata meydana geldi"
+
+"Query timed out after {0}, raising timeout exception."
+"{0} 'dan sonra sorgu zaman aşımına uğradı, zaman aşımı istisnası artırıldı."
+
+"No fields found for table {0}."
+"{0} tablosu için alan bulunamadı."
+
+"Case"
+"Durum"
+
+"Variance of {0}"
+"{0} sapması"
+
+"Median of {0}"
+"{0} medyanı"
+
+"{0}th percentile of {1}"
+"{1} {0}. Persentil"
+
+"Not caching results: results are larger than {0} KB"
+"Sonuçları önbelleğe almamak: sonuçlar {0} KB'den büyük"
+
+"Cannot cache results: expected byte array, got {0}"
+"Sonuçlar önbelleğe alınamıyor: beklenen bayt dizisi, {0} aldı"
+
+"Request is closed; no one to return cached results to"
+"İstek kapalı; önbelleğe alınan sonuçları geri döndürecek kimse yok"
+
+"Error preparing statement to fetch cached query results"
+"Önbelleğe alınmış sorgu sonuçlarını getirmek için ifade hazırlanırken hata oluştu"
+
+"Error processing query: {0}"
+"Sorgu işlenirken hata oluştu: {0}"
+
+"Unexpected exception in endpoint"
+"Bitiş noktasında beklenmeyen istisna"
+
+"Unexpected Exception in API request handler"
+"API istek işleyicisinde Beklenmeyen İstisna"
+
+"Error reducing {0}"
+"{0} azaltılırken hata oluştu"
+
+"Error generating timeseries insight keyed by: {0}"
+"Şu anahtar tarafından zamanlama bilgileri oluşturulurken hata oluştu: {0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"{0} veritabanı konumu '' {1} '' iken '' {2} '' olarak değiştirildi."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"{0} Veritabanı için planlanmamış görev: tetikleyici: {1}"
+
+"value must be a keyword or string."
+"değer bir anahtar kelime veya dize olmalıdır."
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"Dize, geçerli iki harfli ISO dili veya dil-ülke kodu olmalıdır; 'en' veya 'en_US'."
+
+"Dashboard does not have a parameter with the ID {0}"
+"Gösterge tablosunun {0} kimliğine sahip bir parametresi yok"
+
+"Parameter {0} does not have any Fields associated with it"
+"{0} parametresinin kendisiyle ilişkili herhangi bir Alanı yok"
+
+"include must be either empty or the value 'tables'"
+"include ya boş olmalı ya da \"tablolar\" değeri olmalıdır"
+
+"`database` is required for all queries whose type is not `internal`."
+"Türü \"dahili\" olmayan tüm sorgular için \"veritabanı\" gereklidir."
+
+"Password login is disabled for this instance."
+"Bu örnek için şifre girişi devre dışı bırakıldı."
+
+"Your account is disabled. Please contact your administrator."
+"Hesabınız devre dışı bırakıldı. Lütfen yöneticinizle iletişime geçin."
+
+"Your account is disabled."
+"Hesabınız devre dışı bırakıldı."
+
+"Invalid Slack token."
+"Geçersiz Slack jetonu."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"'' {0} '' komutu yalnızca Metabase Enterprise Edition'da mevcuttur."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Metabase Enterprise Edition uzantıları MEVCUTTUR."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Metabase Enterprise Edition özelliklerinin kullanımı Metabase Commercial License'a tabidir."
+
+"See {0} for details."
+"Ayrıntılar için bkz. {0}."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Metabase Enterprise Edition uzantıları MEVCUT DEĞİLDİR."
+
+"You''re invited to join {0}''s {1}"
+"{0} adlı kullanıcının {1} grubuna davetlisiniz"
+
+"{0} created a {1} account"
+"{0}, bir {1} hesabı oluşturdu"
+
+"{0} accepted their {1} invite"
+"{0}, {1} davetini kabul etti"
+
+"[{0}] Password Reset Request"
+"[{0}] Şifre Sıfırlama İsteği"
+
+"[{0}] Notification"
+"[{0}] Bildirim"
+
+"[{0}] Help make [{1}] better."
+"[{0}] [{1}] ürününü iyileştirmeye yardımcı olun."
+
+"[{0}] Tell us how things are going."
+"[{0}] Bize işlerin nasıl gittiğini anlatın."
+
+"Error starting events listener"
+"Etkinlik dinleyicisini başlatırken hata oluştu"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"Birisi LDAP aracılığıyla giriş yaptığında kullanıcı özelliklerini senkronize etmeli miyiz?"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"LDAP kullanıcıları için senkronizasyonu atlamak için virgülle ayrılmış kullanıcı özellikleri listesi."
+
+"Invalid token"
+"Geçersiz belirteç"
+
+"Slack API error: {0}"
+"Slack API hatası: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Slack entegrasyonunu tamamlamak için lütfen kanalı oluşturun veya arşivden çıkarın."
+
+"Uploaded image"
+"Yüklenen resim"
+
+"Invalid session. Expected an instance of Session."
+"Geçersiz oturum. Bir Oturum örneği bekleniyordu."
+
+"Top folder"
+"Üst klasör"
+
+":parameters must be a sequence of maps with String :id keys"
+": parametreler, String: id anahtarlarına sahip bir harita dizisi olmalıdır"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"Geçersiz insan tarafından okunabilen değerler: değerler bir sıra olmalıdır; her öğe sıfır veya bir dizge olmalıdır"
+
+":values must be present to fetch :human_readable_values"
+": insan_readable_values getirmek için değerler mevcut olmalıdır"
+
+"Field values total length is > {0}."
+"Alan değerlerinin toplam uzunluğu> {0}."
+
+"snippet names cannot include '}' or start with spaces"
+"parçacık adları '}' içeremez veya boşlukla başlayamaz"
+
+"Error executing chain filter query"
+"Zincir filtre sorgusu yürütülürken hata oluştu"
+
+"Field {0} does not exist."
+"{0} alanı mevcut değil."
+
+"Cannot search against non-Text Field {0} {1}"
+"Metin Olmayan Alana göre arama yapılamaz {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"{0} grubu için izinler veriliyor: {1}"
+
+"Revoking permissions for group {0}: {1}"
+"{0} grubu için izinler iptal ediliyor: {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"Geçersiz DB izinleri: yerel sorgular için yazma erişiminiz varsa, tam veri erişiminiz olmalıdır."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+
+"Changing permissions from: {0} to: {1}"
+"{0} olan izinler: {1} olarak değiştiriliyor"
+
+"login attribute keys must be a keyword or string"
+"giriş özellik anahtarları bir anahtar kelime veya dize olmalıdır"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Metabase UI, sistem e-postaları, darbeler ve uyarılardaki tüm kullanıcılar için varsayılan dil."
+
+"Users can individually override this default language from their own account settings."
+"Kullanıcılar bu varsayılan dili kendi hesap ayarlarından bireysel olarak geçersiz kılabilir."
+
+"Default page to show the user"
+"Kullanıcının göreceği ön tanımlı sayfa"
+
+"Allow this origin to embed the full Metabase application"
+"Bu kaynağın tam Metabase uygulamasını yerleştirmesine izin ver"
+
+"Values greater than {0} ({1}) are not allowed."
+"{0} ({1}) 'den büyük değerlere izin verilmez."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"Bu, göründüğü her yerde \"Metabase\" kelimesinin yerini alacaktır."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"Bunlar, grafiklerde ve Metabase'de kullanılan ana renklerdir. Değişikliklerinizin etkili olduğunu görmek için tarayıcınızı yenilemeniz gerekebilir."
+
+"For best results, use an SVG file with a transparent background."
+"Bunlar, grafiklerde ve Metabase'de kullanılan ana renklerdir. Değişikliklerinizin etkili olduğunu görmek için tarayıcınızı yenilemeniz gerekebilir."
+
+"The url or image that you want to use as the favicon."
+"Site simgesi olarak kullanmak istediğiniz url veya resim."
+
+"Allow logging in by email and password."
+"E-posta ve şifre ile giriş yapmaya izin verin."
+
+"Unable to validate token"
+"Jeton doğrulanamıyor"
+
+"Token format is invalid."
+"Token biçimi geçersiz."
+
+"Error validating token"
+"Jeton doğrulanırken hata oluştu"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"{0} Alanına göre filtreleme hatası: {1} Dizesi bir {2} olarak ayrıştırılamıyor"
+
+"Error fetching details for Job: {0}"
+"İş için ayrıntılar getirilirken hata oluştu: {0}"
+
+"Starting sync task for Database {0}."
+"Veritabanı {0} için senkronizasyon görevi başlatılıyor."
+
+"Cannot sync Database {0}: Database does not exist."
+"Veritabanı senkronize edilemiyor {0}: Veritabanı mevcut değil."
+
+"Update Field values task triggered for Database {0}."
+"{0} Veritabanı için tetiklenen Alan değerlerini güncelleme görevi."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"Güncelleme atlandığında, otomatik Alan değeri güncellemeleri Veritabanı {0} için devre dışı bırakıldı."
+
+"Periodically refingerprint tables"
+"Periyodik olarak yeniden parmak izi tabloları"
+
+"Unable to run internal query function: cannot resolve {0}"
+"Dahili sorgu işlevi çalıştırılamıyor: {0} çözülemiyor"
+
+"Audit App queries are not enabled on this instance."
+"Audit App sorguları bu örnekte etkinleştirilmedi."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"Geçersiz dahili sorgu işlevi: {0}, ^: dahili-sorgu-fn olarak işaretlenmemiş"
+
+"Error: sandboxing is not enabled for this instance."
+"Hata: Bu örnek için korumalı alan etkinleştirilmedi."
+
+"Please check you have set a valid Enterprise token and try again."
+"Lütfen geçerli bir Kurumsal simge belirlediğinizi kontrol edin ve tekrar deneyin."
+
+"No permissions found for current user"
+"Mevcut kullanıcı için izin bulunamadı"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"'' {0} '' kullanıcısı, erişilemeyen bir alana erişmeye çalıştı. Erişilebilir alanlar {1}, {2} sorgusundaki alanlar"
+
+"User not able to query field"
+"Kullanıcı alanı sorgulayamıyor"
+
+"Found more than one group table access policy for user ''{0}''"
+"'' {0} '' kullanıcısı için birden fazla grup tablosu erişim politikası bulundu"
+
+"Query requires user attribute `{0}`"
+"Sorgu, \"{0}\" kullanıcı özelliğini gerektiriyor"
+
+"invalid --mode value"
+"geçersiz --mode değeri"
+
+"invalid --on-error value"
+"geçersiz hatalı değer"
+
+"invalid context seed value"
+"geçersiz bağlam tohum değeri"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"Döküm, Metabase'in farklı bir sürümü kullanılarak üretildi. İşler bozulabilir!"
+
+"Error loading dump: {0}"
+"Döküm yüklenirken hata oluştu: {0}"
+
+"{0} is not a valid user"
+"{0}, geçerli bir kullanıcı değil"
+
+"Error dumping {0}"
+"{0} dökümü hatası"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"Yönetici kullanıcı bulunamadı! Yüklenen tüm varlıkların sahibi olarak hareket etmek için en az bir yönetici kullanıcı gereklidir."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"Bağımlılıklar yüklenirken hata oluştu: bilinmeyen bir varlığa referans {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"{0} tam adıyla {1} çözülemiyor"
+
+"Model {0} does not support upsert"
+"{0} modeli yükseltmeyi desteklemiyor"
+
+"Error inserting {0}"
+"{0} eklenirken hata oluştu"
+
+"Inserting {0}"
+"{0} ekleniyor"
+
+"{0} already exists -- skipping"
+"{0} zaten var - atlanıyor"
+
+"Skipping {0} (nothing to update)"
+"{0} atlanıyor (güncellenecek bir şey yok)"
+
+"Updating {0}"
+"{0} güncelleniyor"
+
+"Error updating {0}"
+"{0} güncellenirken hata oluştu"
+
+"SSO has not been enabled and/or configured"
+"SSO etkinleştirilmedi ve / veya yapılandırılmadı"
+
+"SSO requires a valid token"
+"SSO, geçerli bir jeton gerektirir"
+
+"Error returning SSO entry point"
+"SSO giriş noktası döndürülürken hata oluştu"
+
+"Error logging in"
+"Oturum açma hatası"
+
+"Can't create new JWT user when JWT is not configured"
+"JWT yapılandırılmadığında yeni JWT kullanıcısı oluşturulamaz"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO etkinleştirilmedi ve / veya yapılandırılmadı"
+
+"Invalid SAML configuration: could not find user email."
+"Geçersiz SAML yapılandırması: kullanıcı e-postası bulunamadı."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"{0} aramayı denedik, ancak özelliği bulamadık."
+
+"Please make sure your SAML IdP is properly configured."
+"Lütfen SAML IdP'nizin doğru şekilde yapılandırıldığından emin olun."
+
+"SAML has not been enabled and/or configured"
+"SAML etkinleştirilmedi ve / veya yapılandırılmadı"
+
+"Warning: expected `redirect` param, but none is present"
+"Uyarı: \"yönlendirme\" parametresi bekleniyordu, ancak yok"
+
+"Error generating SAML request"
+"SAML isteği oluşturulurken hata meydana geldi"
+
+"Unable to log in: SAML IdP certificate is not set."
+"Giriş yapılamıyor: SAML IdP sertifikası ayarlanmadı."
+
+"SAML response validation failed"
+"SAML yanıt doğrulaması başarısız oldu"
+
+"Unable to log in: SAML response validation failed"
+"Giriş yapılamıyor: SAML yanıtı doğrulaması başarısız oldu"
+
+"Unable to log in: SAML info does not contain user attributes."
+"Giriş yapılamıyor: SAML bilgisi, kullanıcı özelliklerini içermez."
+
+"Enable SAML authentication."
+"SAML kimlik doğrulamasını etkinleştirin."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"Bu, kullanıcılarınızın kimlik sağlayıcınızda oturum açmak için gittikleri URL'dir. Hangi IdP'ye bağlı olduğunuza bağlı olarak\nkullanıldığında, bu genellikle https://org-adınız.example.com veya https://example.com/app/my_saml_app/abc123/sso/saml gibi görünür"
+
+"Error parsing SAML identity provider certificate"
+"SAML kimlik sağlayıcı sertifikası ayrıştırılırken hata oluştu"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"Geçersiz kimlik sağlayıcı sertifikası. Sertifika, temel 64 kodlu bir dize olmalıdır."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"Kimlik sağlayıcı için kodlanmış sertifika. IdP'nize bağlı olarak, bunu indirmeniz gerekebilir,\nbir metin düzenleyicide açın, ardından sertifika içeriğini kopyalayıp buraya yapıştırın."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"Bu, IdP için benzersiz bir tanımlayıcıdır. Genellikle Varlık Kimliği veya kısaca 'Yayıncı' olarak anılır. Bağlı\nIdP'nizde bu genellikle http://www.example.com/141xkex604w0Q5PN724v gibi görünür"
+
+"This application name will be used for requests to the Identity Provider"
+"Bu uygulama adı, Kimlik Sağlayıcıya yapılan istekler için kullanılacaktır"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"SAML isteklerini imzalamak için kullanılacak Anahtar Deposu dosyasına giden mutlak yol"
+
+"Password for opening the keystore"
+"Anahtar deposunu açmak için şifre"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Metabase'in SAML isteklerini imzalamak için kullanması gereken anahtarın takma adı"
+
+"SAML attribute for the user''s email address"
+"Kullanıcının e-posta adresi için SAML özelliği"
+
+"SAML attribute for the user''s first name"
+"Kullanıcının adı için SAML özelliği"
+
+"SAML attribute for the user''s last name"
+"Kullanıcının soyadı için SAML özelliği"
+
+"Enable group membership synchronization with SAML."
+"SAML ile grup üyeliği senkronizasyonunu etkinleştirin."
+
+"SAML attribute for group syncing"
+"Grup senkronizasyonu için SAML özelliği"
+
+"JSON containing SAML to Metabase group mappings."
+"SAML - Metabase grup eşlemelerini içeren JSON."
+
+"Enable JWT based authentication"
+"JWT tabanlı kimlik doğrulamayı etkinleştirin"
+
+"URL of JWT based login page"
+"JWT tabanlı giriş sayfasının URL'si"
+
+"String used to seed the private key used to validate JWT messages"
+"JWT mesajlarını doğrulamak için kullanılan özel anahtarı tohumlamak için kullanılan dize"
+
+"Key to retrieve the JWT user's email address"
+"JWT kullanıcısının e-posta adresini alma anahtarı"
+
+"Key to retrieve the JWT user's first name"
+"JWT kullanıcısının adını almak için anahtar"
+
+"Key to retrieve the JWT user's last name"
+"JWT kullanıcısının soyadını almak için anahtar"
+
+"Key to retrieve the JWT user's groups"
+"JWT kullanıcı gruplarını almak için anahtar"
+
+"Enable group membership synchronization with JWT."
+"JWT ile grup üyeliği senkronizasyonunu etkinleştirin."
+
+"JSON containing JWT to Metabase group mappings."
+"JWT'den Metabase grup eşlemelerine sahip JSON."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"Tüm yeni SSO kullanıcıları için yöneticilere yeni e-posta bildirimleri gönderilmeli mi?"
+
+"New SSO user created: {0} ({1})"
+"Yeni TOA kullanıcısı oluşturuldu: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"Geçersiz Uyarı: Uyarının kendisiyle ilişkilendirilmiş bir Kartı yok"
+
+"Error determining whether Database supports nested queries"
+"Veritabanının iç içe sorguları destekleyip desteklemediğini belirleme hatası"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"Geçersiz sorgu parametreleri: {0} kimliğine sahip parametre için bilgi bilgisi belirlenemedi"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"Değerler aranamıyor: {0}, etkinleştirilmiş bir parametre değil."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"JWT'de zaten ayarlanmışsa, {0} için bir değer belirtemezsiniz."
+
+"Error compiling HoneySQL form"
+"HoneySQL formu derlenirken hata oluştu"
+
+"Not a valid Database/Database ID/JDBC spec"
+"Geçerli bir Veritabanı / Veritabanı Kimliği / JDBC özelliği değil"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"İşte en son {0} kartlarınız:"
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"{0} sınıfı için proxy JDBC sürücüsü oluşturulmuyor - orijinal sürücü sistem ClassLoader tarafından yüklendi"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"Sorgunun çalışması {0} sürdü; önbellek uygunluğu için minimum {1}"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"\nCannot resolve joined field due to ambigious joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+
+"Error normalizing form."
+"Form normalleştirilirken hata oluştu."
+
+"Error canonicalizing query"
+"Sorgu standartlaştırılırken hata oluştu"
+
+"Error performing whole query transformations"
+"Tam sorgu dönüşümleri gerçekleştirilirken hata oluştu"
+
+"Error normalizing query"
+"Sorgu normalleştirilirken hata oluştu"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"Korumalı Alan Kartları, korumalı alan oluşturdukları Tabloda olmayan sütunları döndüremez."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"Korumalı Alan Kartları, korumalı alanda oluşturdukları Tablodan farklı türlere sahip sütunları döndüremez."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"Kart güncellenemiyor: Kart, Sandboxing için kullanılıyor ve güncellemeler sandbox kurallarını ihlal ediyor."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"Bir GTAP oluşturulduktan sonra Tablo Kimliğini değiştiremezsiniz."
+
+"`database` is required for all queries."
+"Tüm sorgular için \"veritabanı\" gereklidir."
+
+"copied {0} instances."
+"{0} örnek kopyalandı."
+
+"Copying instances of {0}..."
+"{0} örnekleri kopyalanıyor ..."
+
+"Error copying instances of {0}"
+"{0} örnekleri kopyalanırken hata oluştu"
+
+"Temporarily disabling DB constraints..."
+"DB kısıtlamaları geçici olarak devre dışı bırakılıyor ..."
+
+"Re-enabling DB constraints..."
+"Veritabanı kısıtlamaları yeniden etkinleştiriliyor ..."
+
+"Setting Postgres sequence ids to proper values..."
+"Postgres sıra kimliklerini uygun değerlere ayarlama ..."
+
+"Set up {0} source database and run migrations..."
+"{0} kaynak veritabanını kurun ve taşıma işlemleri çalıştırın ..."
+
+"Set up {0} target database and run migrations..."
+"{0} hedef veritabanını kurun ve taşıma işlemleri çalıştırın ..."
+
+"Testing if target {0} database is already populated..."
+"Hedef {0} veritabanının zaten doldurulmuş olup olmadığı test ediliyor ..."
+
+"Unsupported application database type: {0} is not currently supported."
+"Desteklenmeyen uygulama veritabanı türü: {0} şu anda desteklenmiyor."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"MB_DB_CONNECTION_URI değerini kontrol edin."
+
+"Driver {0} does not support {1}"
+"Sürücü {0}, {1} desteklemiyor"
+
+"No magnitude known for {0}"
+"{0} için büyüklük bilinmiyor"
+
+"Error resolving source query"
+"Kaynak sorguyu çözmede hata"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"Geçersiz GeoJSON dosyası konumu: http: // veya https: // ile başlamalı veya sınıf yolundaki bir dosyaya göreceli bir yol olmalıdır."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"Dahili barındırma meta verilerini sağlayan ana bilgisayarlara atıfta bulunan URL'ler yasaktır."
+
+"Invalid custom GeoJSON."
+"Geçersiz özel GeoJSON."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"Geçersiz {0}: {1} dizininde kırılma belirtildi, ancak yalnızca {2} ara verdik"
+
+"Error generating pivot queries"
+"Pivot sorguları oluşturulurken hata meydana geldi"
+
+"Sync the admin group?"
+"Yönetici grubu senkronize edilsin mi?"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"Korumalı Alan Soruları, korumalı alanda oluşturdukları Tablodan farklı türlere sahip sütunları döndüremez."
+
+"Error preprocessing source query when applying GTAP"
+"GTAP uygulanırken kaynak sorgusu ön işleme sırasında hata oluştu"
+
+"Error running query to determine metadata"
+"Meta verileri belirlemek için sorgu çalıştırılırken hata oluştu"
+
+"Can't create new SAML user when SAML is not configured"
+"SAML yapılandırılmadığında yeni SAML kullanıcısı oluşturulamaz"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"Hazırlanmış ifade getirme yönü FETCH_FORWARD'a ayarlanırken hata oluştu"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"İfade getirme yönü FETCH_FORWARD'a ayarlanırken hata oluştu"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"Sorguyu çalıştırma izniniz olmadığı için bu soruyu kaydedemezsiniz."
+
+"Authentication endpoint error"
+"Kimlik doğrulama uç nokta hatası"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"SSH tüneli yalnızca TCP protokolü kullanılarak H2 bağlantıları için kurulabilir"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"{0} veritabanı için ssh tüneli kapalı görünüyor; havuzu yeniden açmak için geçersiz işaretleme"
+
+"Query canceled, calling Statement.cancel()"
+"Sorgu iptal edildi, Statement.cancel () aranıyor"
+
+"Select statement did not produce a ResultSet for native query"
+"Select deyimi yerel sorgu için bir ResultSet üretmedi"
+
+"We''ve Noticed a New {0} Login, {1}"
+"Yeni Bir {0} Giriş {1} Farkettik"
+
+"Don''t know how to process event with model {0}"
+"{0} modeliyle etkinliği nasıl işleyeceğinizi bilmiyorum"
+
+"Failed to process activity event {0}"
+"{0} etkinliği işlenemedi"
+
+"Error sending ''login from new device'' notification email"
+"\"Yeni cihazdan giriş\" bildirim e-postası gönderilirken hata oluştu"
+
+"You can''t update a LoginHistory after it has been created."
+"Bir Oturum Açma Geçmişini, oluşturulduktan sonra güncelleyemezsiniz."
+
+"Setting {0} already registered in {1}"
+"{0} ayarı zaten {1} içinde kayıtlı"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"Bir SSH tüneli kurulduğunda (saniye cinsinden) kalp atışlarının ne sıklıkla gönderileceğini kontrol eder."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"FK Alanı için eşleşen FK Tablo Kimliği bulunamıyor {0}"
+
+"Error optimizing temporal filter clause"
+"Geçici filtre yan tümcesi optimize edilirken hata oluştu"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"Belirsiz birleştirmeler nedeniyle birleştirilmiş alan çözülemiyor: tablo {0} (ID {1}) birden çok kez katıldı. Alan referansında açık bir \": join-alias\" belirtmeniz gerekir."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"Desteklenmeyen geçici gruplama: Bir {0} Alanı {1} kadar gruplayamazsınız."
+
+"Error processing additional pivot table query"
+"Ek pivot tablo sorgusu işlenirken hata oluştu"
+
+"Invalid cell format"
+"Geçersiz hücre biçimi"
+
+"Enable typeahead search in the Metabase navbar?"
+"Metabase gezinme çubuğunda önden yazma araması etkinleştirilsin mi?"
+
+"Login request is missing user-agent information"
+"Giriş isteğinde kullanıcı aracısı bilgileri eksik"
+
+"Unable to determine login request IP address"
+"Giriş isteği IP adresi belirlenemiyor"
+
+"Error determining login history for request"
+"İstek için giriş geçmişi belirlenirken hata oluştu"
+
+"unknown"
+"Bilinmeyen"
+
+"Unknown device type"
+"Bilinmeyen cihaz türü"
+
+"Unknown OS"
+"Bilinmeyen İşletim Sistemi"
+
+"Unknown browser"
+"Bilinmeyen tarayıcı"
+
+"Error geocoding IP addresses"
+"IP adreslerinin coğrafi kodlamasında hata"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"\"{1}\" \"olan anlamsal {0} türü\" {2} \"olarak değiştirildi."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"\"{1}\" olan {0} adı \"{2}\" olarak değiştirildi."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"Bir {0} 'i insan tarafından okunabilir bir tarih / saat olarak nasıl biçimlendireceğinizi bilmiyorum"
+
+"Valid coercion strategy"
+"Geçerli zorlama stratejisi"
+
+"value must be a valid coercion strategy."
+"değer, geçerli bir zorlama stratejisi olmalıdır."
+
+"Saved Questions"
+"Kayıtlı Sorular"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"Grup üyeliği arama filtresi. '{dn}' ve '{uid}' yer tutucuları sırasıyla kullanıcının Ayırt Edici Adı ve UID'si ile değiştirilecektir."
+
+"Error deleting Sandboxes: {0}"
+"Korumalı Alanlar silinirken hata oluştu: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"YÜKLEMEYE {0} ile {1} bağlamıyla BAŞLAYIN"
+
+"Finished first pass of load; now performing second pass"
+"Yükün ilk geçişi tamamlandı; şimdi ikinci geçişi gerçekleştiriyor"
+
+"END LOAD from {0} with context {1}"
+"{1} bağlamıyla {0} kaynaklı YÜKLEMEYİ BİTİR"
+
+"ERROR LOAD from {0}: {1}"
+"{0} kaynaklı HATALI YÜKLEME: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"{1} kullanıcısı aracılığıyla {0} DÖKÜMÜNE BAŞLAYIN"
+
+"END DUMP to {0} via user {1}"
+"{1} kullanıcısı aracılığıyla {0} kullanıcısına SON DÖKÜMÜ"
+
+"Could not find context for fully qualified card name {0}"
+"Tam nitelikli kart adı için bağlam bulunamadı {0}"
+
+"Could not find context for fully qualified snippet name {0}"
+"Tam nitelikli snippet adı {0} için bağlam bulunamadı"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"Yüklenen \"{0}\" kartı için sorgu yürütülemedi: {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"Gizli tabloları senkronize etmek için ''{0}'' veritabanına bağlanılamıyor"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"MB_ENCRYPTION_SECRET_KEY ile uygulama veritabanının şifresi çözülemiyor"
+
+"Invalid domain"
+"Geçersiz alan"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"Kullanıcı arama filtresi. '{login}' yer tutucusu, kullanıcı tarafından sağlanan giriş ile değiştirilecektir."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Kullanıcının e-postası için kullanılacak özellik. (genellikle ''mail'', ''email'' veya ''userPrincipalName'')"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"Gruplar için arama tabanı. Active Directory gibi bir \"memberOf\" yer paylaşımı sağlayan LDAP dizinleri için gerekli değildir. (Yinelemeli olarak aranacaktır)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"Bir Kişisel Koleksiyonun sahibini değiştirmenize izin verilmez."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"Bir Kişisel Koleksiyonun yetki düzeyini değiştirmenize izin verilmez."
+
+"You are not allowed to move a Personal Collection."
+"Bir Kişisel Koleksiyonu taşımanıza izin verilmiyor."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"CollectionPermissionGraphRevision'ı güncelleyemezsiniz!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"Geçersiz Alan {0} {1}: {2} alanına geri dönüyor"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"Tablo ve alan adlarını daha insan dostu hale getirmek için Metabase, içlerindeki tire ve alt çizgileri boşluklarla değiştirecektir."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"Bu sırada her kelimeyi büyük harfle yazacağız, böylece 'last_visited_at', 'Son Ziyaret Edilme Zamanı' olacak."
+
+"Setting names in would collide: {0} and {1}"
+"Adları ayarlamak çakışır: {0} ve {1}"
+
+"Indicates when Metabase last checked for new versions."
+"Metabase'in yeni sürümleri en son ne zaman kontrol ettiğini gösterir."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"Bu URL, e-postalarda bağlantı oluşturma, auth yönlendirmeleri,"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"ve bazı gömme senaryolarında, bu nedenle, onu değiştirmek işlevselliği bozabilir veya bu örnekten kilitlenmenize neden olabilir."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"Ayarlandığında, tarayıcı kapatıldığında süresi dolan tüm kullanıcılar için oturum tanımlama bilgilerinin kullanımını zorunlu kılar."
+
+"Error parsing paging parameters: {0}"
+"Sayfalama parametreleri ayrıştırılırken hata oluştu: {0}"
+
+"Error running sync step"
+"Senkronizasyon adımı çalıştırılırken hata oluştu"
+
+"Error in sync step {0}"
+"{0} senkronizasyon adımında hata"
+
+"Error fetching version info; setting version-info value to nil"
+"Sürüm bilgisi alınırken hata oluştu; sürüm bilgisi değerini sıfır olarak ayarlama"
+
+"Valid field semantic type"
+"Geçerli alan semantik türü"
+
+"value must be a valid field semantic type."
+"değer, geçerli bir alan anlamsal türü olmalıdır."
+
+"Valid field relation type"
+"Geçerli alan ilişki türü"
+
+"value must be a valid field relation type."
+"değer, geçerli bir alan ilişkisi türü olmalıdır."
+
+"Valid field semantic or relation type"
+"Geçerli alan semantiği veya ilişki türü"
+
+"value must be a valid field semantic or relation type."
+"değer, geçerli bir alan anlambilimi veya ilişki türü olmalıdır."
+
+"Valid field data type (keyword or string)"
+"Geçerli alan veri türü (anahtar kelime veya dize)"
+
+"value must be a valid field data type (keyword or string)."
+"değer, geçerli bir alan veri türü (anahtar kelime veya dize) olmalıdır."
+
+"Valid field semantic type (keyword or string)"
+"Geçerli alan semantik türü (anahtar kelime veya dize)"
+
+"value must be a valid field semantic type (keyword or string)."
+"değer, geçerli bir alan semantik türü (anahtar sözcük veya dize) olmalıdır."
+
+"Valid field relation type (keyword or string)"
+"Geçerli alan ilişki türü (anahtar kelime veya dize)"
+
+"value must be a valid field relation type (keyword or string)."
+"değer, geçerli bir alan ilişkisi türü (anahtar kelime veya dize) olmalıdır."
+
+"Valid field semantic or relation type (keyword or string)"
+"Geçerli alan semantiği veya ilişki türü (anahtar kelime veya dize)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"değer, geçerli bir alan semantiği veya ilişki türü (anahtar kelime veya dize) olmalıdır."
+
+"value must be a valid coercion strategy (keyword or string)."
+"değer, geçerli bir zorlama stratejisi (anahtar kelime veya dize) olmalıdır."
+
+"password is too common."
+"şifre çok yaygın."
+
+"Invalid custom GeoJSON"
+"Geçersiz özel GeoJSON"
+
+"GeoJSON URL failed to load"
+"GeoJSON URL'si yüklenemedi"
+
+"Error building query parameter map: {0}"
+"Sorgu parametre eşlemesi oluşturulurken hata oluştu: {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"''{0}'' eklentisi, ''{1}'' ortam değişkeninin bir şeye ayarlanmış olmasına bağlıdır"
+
+"Down"
+"Aşağı"
+
+"Up"
+"Yukarı"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"Yeni Pano Abonelikleri ve Uyarılar için izin verilen e-posta adresi etki alanları. Mevcut abonelikleri etkilemez."
+
+"Invalid email address: {0}"
+"Geçersiz e-posta adresi: {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"{0} alanı için yeni abonelikler oluşturamazsınız. İzin verilen alanlar: {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"Bu API uç noktası, yalnızca {0} özelliğine sahip bir premium jetonunuz varsa etkinleştirilir."
+
+"Error compiling audit query: {0}"
+"Denetim sorgusu derlenirken hata oluştu: {0}"
+
+"Error running audit query: {0}"
+"Denetim sorgusu çalıştırılırken hata oluştu: {0}"
+
+"Error parsing Pulse parameters: {0}"
+"Darbe parametreleri ayrıştırılırken hata oluştu: {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Engellendi: {0} Veritabanına karşı sorgu çalıştırma izniniz yok."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"Geçersiz olduğundan izin grafiği ayrıştırılamıyor: {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"{0} veritabanı ayrıntılarının karma değeri değişti; havuzu yeniden açmak için geçersiz olarak işaretleme"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"Geçersiz DB izinleri: Yerel sorgular için yazma erişiminiz varsa, tam veri erişiminiz olmalıdır."
+
+"Error parsing permissions tree {0}"
+"{0} izinleri ağacı ayrıştırılırken hata oluştu"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"pano aboneliğinin koleksiyon kimliği doğrudan değiştirilemez"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"bir pano aboneliğinin pano kimliği değiştirilemez"
+
+"Javascript resource not found: {0}"
+"Javascript kaynağı bulunamadı: {0}"
+
+"Found new version for DB: {0}"
+"DB için yeni sürüm bulundu: {0}"
+
+"Rerun queries for simple explorations"
+"Basit keşifler için sorguları yeniden çalıştırın"
+
+"Choose when syncs and scans happen"
+"Senkronizasyonların ve taramaların ne zaman gerçekleşeceğini seçin"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"Varsayılan olarak, Metabase hafif bir saatlik eşitleme ve yoğun bir günlük alan değerleri taraması yapar. Büyük bir veritabanınız varsa, değişiklik yapmak için bunu açın."
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"Bu, Metabase'in eşitlemeler sırasında ek alan değerlerini taramasını sağlar ve çubuk grafiklerinizde geliştirilmiş otomatik gruplama gibi daha akıllı davranışlara olanak tanır."
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"Varsayılan olarak, bildirim bağlantılarında \"Site URL'si\" kullanılır, ancak geçersiz kılınabilir."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"GTAP uygulanırken kaynak sorgusu ön işlemede hata oluştu: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Bu Metabase örneğini tanımlamak için Snowplow analizlerinde kullanılacak benzersiz tanımlayıcı."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"Bazı analiz olayları ilk kurulumdan önce gönderildiğinden, bu genel bir ayardır."
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Bir Snowplow toplayıcısının analitik olaylarını almak için uygun olup olmadığını gösteren Boole."
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Cypress testlerinde veya yerel geliştirme sırasında ortam değişkeni aracılığıyla ayarlanmalıdır."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Boolean, analitik olaylarının Snowplow'a gönderilip gönderilmediğini gösterir."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"Bu örnek için anonim izleme etkinleştirildiyse ve bir Snowplow toplayıcısı varsa doğrudur."
+
+"The URL of the Snowplow collector to send analytics events to."
+"Analitik olaylarının gönderileceği Snowplow toplayıcısının URL'si."
+
+"Error sending Snowplow analytics event {0}"
+"Snowplow analiz olayı {0} gönderilirken hata oluştu"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"Analitiklere dahil edilmek üzere bu Metatabanı örneğinin oluşturulduğu yaklaşık zaman damgası."
+
+"Unverified due to edit"
+"Düzenleme nedeniyle doğrulanmadı"
+
+"Card {0} does not exist or does not have a valid query."
+"{0} kartı mevcut değil veya geçerli bir sorgusu yok."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"{0} Tablosuna başvuran bir parametre eklemek için veri izinleriniz olmalıdır."
+
+"No matching parameter with slug {0}. Found: {1}"
+"{0} bilgisiyle eşleşen parametre yok. Bulunan: {1}"
+
+"Could not invite user because email is not configured."
+"E-posta yapılandırılmadığından kullanıcı davet edilemedi."
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"Ekibiniz Slack kullanıyor mu? Öyleyse, kontrol paneli abonelikleri aracılığıyla otomatik güncellemeler gönderebilirsiniz."
+
+"invalid token"
+"geçersiz belirteç"
+
+"Slack channel not found."
+"Slack kanalı bulunamadı."
+
+"channel not found"
+"kanal bulunamadı"
+
+"Unrecognized modal: {0}"
+"Tanınmayan mod: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"MB_ENCRYPTION_SECRET_KEY ile gizli değerin şifresi çözülemiyor"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"Veritabanınızın IP adresi (ör. 98.137.149.56) veya alan adı (ör. esc.mydatabase.com)."
+
+"username"
+"Kullanıcı adı"
+
+"Use a secure connection (SSL)"
+"Güvenli bir bağlantı (SSL) kullanın"
+
+"Use an SSH tunnel"
+"SSH tüneli kullanın"
+
+"Enable this ssh tunnel?"
+"Bu ssh tüneli etkinleştirilsin mi?"
+
+"SSH tunnel host"
+"SSH tünel ana bilgisayarı"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"SSH tünellerine bağlanmak için kullandığınız ana bilgisayar adı."
+
+"SSH tunnel port"
+"SSH tünel bağlantı noktası"
+
+"SSH tunnel username"
+"SSH tüneli kullanıcı adı"
+
+"The username you use to login to your SSH tunnel."
+"SSH tünelinize giriş yapmak için kullandığınız kullanıcı adı."
+
+"SSH tunnel password"
+"SSH tünel şifresi"
+
+"SSH private key to connect to the tunnel"
+"Tünele bağlanmak için SSH özel anahtarı"
+
+"Paste the contents of an ssh private key here"
+"Bir ssh özel anahtarının içeriğini buraya yapıştırın"
+
+"Passphrase for SSH private key"
+"SSH özel anahtarı için parola"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"Özetle veya Filtre kullanarak verileri keşfederken temel sorguyu yürütürüz."
+
+"This is on by default but you can turn it off if performance is slow."
+"Bu, varsayılan olarak açıktır, ancak performans yavaşsa kapatabilirsiniz."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"Bu, bu veritabanının şemasındaki güncellemeleri kontrol eden basit bir işlemdir."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"Çoğu durumda, bu seti saat başı eşitlenecek şekilde bırakmanız iyi olur."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"Veritabanınız bir güvenlik duvarının arkasındaysa Metabase Cloud IP adreslerimizden bağlantılara izin vermeniz gerekebilir:"
+
+"Error querying database {0} for current time: {1}"
+"Geçerli saat için {0} veritabanı sorgulanırken hata oluştu: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"Hata: parametre için birden çok değer belirtildi; Alan Filtresi olmayan parametreler yalnızca bir değere sahip olabilir."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"Metatabanının çalıştığı yere göre yerel yol. Dizeniz .mv.db uzantısını içermemelidir."
+
+"SSL Mode"
+"SSL Modu"
+
+"SSL Root Certificate (PEM)"
+"SSL Kök Sertifikası (PEM)"
+
+"Authenticate client certificate?"
+"İstemci sertifikasının kimliği doğrulansın mı?"
+
+"SSL Client Certificate (PEM)"
+"SSL İstemci Sertifikası (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"SSL İstemci Anahtarı (PKCS-8/DER veya PKCS-12)"
+
+"SSL Client Key Password"
+"SSL İstemci Anahtar Parolası"
+
+"Unable to substitute parameters: {0}"
+"Parametreler değiştirilemiyor: {0}"
+
+"Expected native source query to be a string, got: {0}"
+"Bir dize olması beklenen yerel kaynak sorgusu: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"Yerel kaynak sorgu parametrelerinin sıralı olması bekleniyordu: {0}"
+
+"No expression named {0} at this level of the query"
+"Sorgunun bu düzeyinde {0} adında bir ifade yok"
+
+"Error compiling :field clause: {0}"
+"Derleme hatası :field yan tümcesi: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"Uyarı: {0} sürücüsü {1} kullanıyor. Bu yöntem {2}'de kullanımdan kaldırıldı ve gelecekteki bir sürümde kaldırılacak."
+
+"Error setting connection to autoCommit false"
+"autoCommit false için bağlantı ayarlanırken hata oluştu"
+
+"Error setting prepared statement fetch size to fetch-size"
+"Hazırlanan ifade getirme boyutunu getirme boyutuna ayarlama hatası"
+
+"Error setting statement fetch size to fetch-size"
+"İfade getirme boyutu getirme boyutuna ayarlanırken hata oluştu"
+
+"Error executing query: {0}"
+"Sorgu yürütülürken hata oluştu: {0}"
+
+"Local file path"
+"Yerel dosya yolu"
+
+"Uploaded file path"
+"Yüklenen dosya yolu"
+
+"File path"
+"Dosya yolu"
+
+"Error invoking getter for connection property {0}"
+"{0} bağlantı özelliği için alıcı çağrılırken hata oluştu"
+
+"Only these..."
+"Sadece bunlar..."
+
+"All except..."
+"Hepsi hariç..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"Metatabanında <strong>görülmesi gereken</strong> {0} için virgülle ayrılmış adlar"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"Birden çok {0} eşleştirmek için <strong>auth*</strong> gibi kalıpları kullanabilirsiniz."
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"Metatabanında <strong>Görünmemesi gereken</strong> virgülle ayrılmış {0} adları"
+
+"Your Slack connection stopped working"
+"Slack bağlantınız çalışmayı durdurdu"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"Google ile Oturum Açma için Müşteri Kimliği. Bu ayarlanırsa, Google ile Oturum Açma'nın etkinleştirildiği kabul edilir."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"Geçersiz Google Oturum Açma İstemci Kimliği: \".apps.googleusercontent.com\" ile bitmelidir"
+
+"Invalid Google Sign-In token."
+"Geçersiz Google Oturum Açma belirteci."
+
+"Google Sign-In token appears to be incorrect. "
+"Google Oturum Açma belirteci yanlış görünüyor."
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"Şunun için Google Oturum Açma belirteci başarıyla doğrulandı: {0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"Metabase Slack botunu bağlamak için kullanımdan kaldırılan Slack API belirteci."
+
+"Please use a new Slack app integration instead."
+"Lütfen bunun yerine yeni bir Slack uygulaması entegrasyonu kullanın."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"Metabase Slack uygulamasını bağlamak için bot kullanıcısı OAuth jetonu."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"Bu, Metabase v0.42.0'dan başlayarak tüm yeni Slack entegrasyonları için kullanılmalıdır."
+
+"Whether the current Slack app token, if set, is valid."
+"Ayarlanmışsa, mevcut Slack uygulama belirtecinin geçerli olup olmadığı."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Slack API isteği bir auth hatası döndürürse 'false' olarak ayarlayın."
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"Metatabanı dosyalarının ilk olarak yüklenmesi gereken kanalın adı"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"Slack yetkilendirme jetonunuz geçersiz veya iptal edildi. Lütfen Yönetici Ayarları -> Slack'te entegrasyonunuzu güncelleyin."
+
+"Slack channel named `{0}` is missing!"
+"`{0}` adlı gevşek kanal eksik!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"Kanal, gösterge tablosu aboneliklerine dahil olan görüntüleri depolamak için kullanılır."
+
+"You do not have curate permissions for this Collection."
+"Bu Koleksiyon için küratörlük izinleriniz yok."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"Pano {0}, {1} kimliğine sahip bir DashboardCard'a sahip değil"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"Sahiplik veritabanı ({1}) silindiği için {0} gizli kimliği uygulama DB'sinden siliniyor"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Alan sütunu {0} için geçersiz değer: {1}, şu türlerden hiçbirinin alt öğesi değil: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"Gelişmiş izinler premium özelliğine sahip olmadan engelleme izinleri kullanılamaz"
+
+"User {0} does not exist."
+"{0} kullanıcısı mevcut değil."
+
+"Wrong email address for User {0}."
+"{0} Kullanıcısı için yanlış e-posta adresi."
+
+"Secret ID {0}"
+"Gizli kimlik {0}"
+
+"File path for {0}"
+"{0} için dosya yolu"
+
+"Path"
+"Yol"
+
+"{0} points to non-existent file: {1}"
+"{0}, var olmayan dosyaya işaret ediyor: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (yerel dosya yolu) Metatabanı tarafından barındırılan ortamda kullanılamaz"
+
+"Error parsing Setting {0}: {1}"
+"{0} Ayarı ayrıştırılırken hata oluştu: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"{0} Ayarı için site genelindeki değerlere izin verilmez"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"{0} ayarı, {1} Metatabanından itibaren kullanımdan kaldırılmıştır ve gelecekteki bir sürümde kaldırılabilir."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"Setting name ''{0}'' is retired; use a different name instead"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Analiz verilerinin ön uçta Google Analytics'e gönderilip gönderilmeyeceğini belirten Boole"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"Kullanımdan kaldırılan özelliklerin kullanımına ilişkin bir bildirimin gösterildiği metatabanı sürümü."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Panoları sabitleme hakkında bir mesajın gösterilip gösterilmeyeceği. Ayrıca herhangi bir pano sabitlendiğinde de gizlenecektir. Yöneticiler, kullanıcıları ham verilerden daha iyi içeriğe yönlendirmek için bunu gizleyebilir"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"Bu, haftaya göre gruplandırma veya GUI sorgularında filtreleme gibi şeyleri etkiler."
+
+"It won''t affect most SQL queries,"
+"Çoğu SQL sorgusunu etkilemez,"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+"Snowflake'de WEEK_START oturum değişkenini ayarlamak için kullanılmasına rağmen."
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Metabase Cloud ağ geçidi IP adresleri alınırken hata oluştu:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"Güvenlik duvarlarının arkasındaki DB'lere bağlantıları yapılandırmak için Metabase Cloud ağ geçidi IP adresleri"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"Bir sonraki veritabanı bağlantısı eklendikten sonra bir tanıtım modunun gösterilip gösterilmeyeceği."
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"Varsayılan olmayan herhangi bir veritabanı bu örnek için senkronizasyonu zaten tamamladıysa varsayılan olarak false olur."
+
+"Alert: {0} has {1}"
+"Uyarı: {0}, {1} içeriyor"
+
+"Nothing to compare to."
+"Karşılaştırılacak bir şey yok."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"{1} parametresi için geçersiz parametre türü {0}. Parametre türü şunlardan biri olmalıdır: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"Geçersiz parametre: {0} Kartında {1} adında bir şablon etiketi yok."
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"Geçersiz sorgu parametresi çözülemiyor: parametre eksik :id"
+
+"Dashboard does not have a parameter with ID {0}."
+"Kontrol panelinde {0} kimliğine sahip bir parametre yok."
+
+"Query: {0}"
+"Sorgu: {0}"
+
+"Error determining expected columns for query: {0}"
+"Sorgu için beklenen sütunlar belirlenirken hata oluştu: {0}"
+
+"Nested queries are disabled"
+"İç içe sorgular devre dışı bırakıldı"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"{2}'deki {1} alanı için kötü :field yan tümcesi {0}: yan tümcesi bir :join-alias'a sahip olmalıdır."
+
+"Guessing join {0}"
+"{0} katılımını tahmin etme"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"Uygun bir birleştirme çıkarılamıyor. Sorgu beklendiği gibi çalışmayabilir."
+
+"Error resolving Fields in query: {0}"
+"Sorgudaki Alanlar çözülürken hata oluştu: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"Uyarı: {0} yan tümcesi, kaynak sorgudaki bir sütunla eşleşmiyor. Bunu {1} için düzeltmeye çalışılıyor"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"Uyarı: {0} yan tümcesi, kaynak sorguda bulunmayabilecek bir Alana atıfta bulunur. Sorgu beklendiği gibi çalışmayabilir. Bulunan: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"Beklenen :aggregation-options yan tümcesi, {0} aldı"
+
+"Cannot determine the source table or query for Field clause {0}"
+"{0} Field yan tümcesi için kaynak tablo veya sorgu belirlenemiyor"
+
+"Aggregation does not exist at index {0}"
+"{0} dizininde toplama yok"
+
+"No expression named {0}"
+"{0} adında bir ifade yok"
+
+"Sample database DB file ''{0}'' cannot be found."
+"Örnek veritabanı DB dosyası ''{0}'' bulunamadı."
+
+"Loading sample database"
+"Örnek veritabanı yükleniyor"
+
+"Failed to load sample database"
+"Örnek veritabanı yüklenemedi"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"Oturum tanımlama bilgisinin SameSite'ı \"Hiçbiri\" olarak yapılandırılır, ancak site güvenli olmayan bir bağlantı üzerinden sunulur. Bazı tarayıcılar bu koşullar altında çerezleri reddeder."
+
+"Login request is missing device ID information"
+"Giriş isteğinde cihaz kimliği bilgisi eksik"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"Şifrelenmiş {0} şifresi çözülemiyor. MB_ENCRYPTION_SECRET_KEY'i değiştirdiniz veya ayarlamayı unuttunuz mu?"
+
+"Enable this SSH tunnel?"
+"Bu SSH tüneli etkinleştirilsin mi?"
+
+"The hostname that you use to connect to SSH tunnels."
+"SSH tünellerine bağlanmak için kullandığınız ana bilgisayar adı."
+
+"Paste the contents of an SSH private key here"
+"Bir SSH özel anahtarının içeriğini buraya yapıştırın"
+
+"Allow using a saved question or Model as the source for other queries?"
+"Kaydedilmiş bir soru veya Modelin diğer sorgular için kaynak olarak kullanılmasına izin verilsin mi?"
+
+"Pulse card query error"
+"Nabız kartı sorgulama hatası"
+
+"There was a problem with this question."
+"Bu soruyla ilgili bir sorun vardı."
+
+"Copy of "
+"Kopyası "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"/api/setup yolu yalnızca ilk kullanıcıyı oluşturmak için kullanılabilir, ancak şu anda bir kullanıcı var."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"API aracılığıyla özel olarak :rows tipi sorgularda döndürülecek maksimum satır sayısı."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"Yeni Pano Abonelikleri ve Uyarılar için izin verilen e-posta adresi etki alanları. Birden çok alan belirtmek için, her alanı aralarında boşluk bırakmadan bir virgülle ayırın (ör. \"etki alanı1, etki alanı2\"). Tüm alanlara izin vermek için alanı boş bırakın. Bu ayar, mevcut abonelikleri etkilemez."
+
+"You do not have permissions to download the results of this query."
+"Bu sorgunun sonuçlarını indirme izniniz yok."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"İzleme veya abonelik izinleri olmayan yönetici olmayan kullanıcıların yalnızca kendi oluşturdukları uyarıları güncellemelerine izin verilir"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"İzleme veya abonelik izinleri olmayan yönetici olmayan kullanıcıların, bir uyarı için kanalları değiştirmesine izin verilmez"
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"Abonelik izinleri olmayan yönetici olmayan kullanıcıların alıcı eklemesine izin verilmez"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"Grup Yöneticisi, yalnızca gelişmiş izinler özelliğine sahip bir premium jetonunuz varsa etkinleştirilir."
+
+"Admin cant be a group manager."
+"Yönetici grup yöneticisi olamaz."
+
+"Timeline with id {0} not found"
+"{0} kimliğine sahip zaman çizelgesi bulunamadı"
+
+"Timestamp cannot be null"
+"Zaman damgası boş olamaz"
+
+"ERROR {0}: {1}"
+"HATA {0}: {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Liquibase geçişleri tarafından oluşturulan varsayılan girişler temizleniyor..."
+
+"Don''t know how to parse date string {0}"
+"{0} tarih dizesinin nasıl ayrıştırılacağını bilmiyorum"
+
+"Invalid values provided for operator: {0}"
+"Şu operatör için geçersiz değerler sağlandı: {0}"
+
+"Unrecognized operation: {0}"
+"Tanınmayan işlem: {0}"
+
+"Error determining value for parameter {0}: {1}"
+"{0} parametresi için değer belirlenirken hata oluştu: {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"ApplicationPermissionsRevision'ı güncelleyemezsiniz!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"Geçersiz Alan Filtresi: {0} alanı {1} Veritabanına ait, ancak sorgu {2} Veritabanına karşı"
+
+"The engine on a sample database cannot be changed."
+"Örnek bir veritabanındaki motor değiştirilemez."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"{0} izinleri işlevi, yalnızca gelişmiş izinler özelliğine sahip bir premium jetonunuz varsa etkinleştirilir."
+
+"Unknown setting: {0}"
+"Bilinmeyen ayar: {0}"
+
+"You do not have access to the setting {0}"
+"{0} ayarına erişiminiz yok"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"{0} ayarı, hem yerel kullanıcı hem de veritabanı yerel değerlerine izin verir; bu desteklenmiyor"
+
+"Error purging old cache entries: {0}"
+"Eski önbellek girişleri temizlenirken hata oluştu: {0}"
+
+"Error saving query results to cache: {0}"
+"Sorgu sonuçları önbelleğe kaydedilirken hata oluştu: {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"{0} karmalı sorgu için önbelleğe alınmış sonuçları getirmeye çalışırken hata oluştu: {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Boş kullanıcı/kanal başlangıç önbelleği {0} girişle yenilendi, {1}ms sürdü."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack yapılandırılmamış, gevşek kullanıcı/kanal önbelleği yenilenmiyor."
+
+"value must be a valid date string"
+"değer geçerli bir tarih dizesi olmalıdır"
+
+"Not allowed to edit group memberships"
+"Grup üyeliklerini düzenlemeye izin verilmiyor"
+
+"Connected to"
+"Bağlı"
+
+}

@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"Synchronisation de la base de données"
+
+"Scanning for Filter Values"
+"Analyse des valeurs de filtre"
+
+"When should Metabase automatically scan and cache field values?"
+"Quand Metabase doit-il automatiquement analyser et mettre en cache les valeurs des champs ?"
+
+"Other"
+"Autre"
+
+"Email"
+"Adresse électronique"
+
+"{0} table"
+"{0} table"
+
+"Password"
+"Mot de passe"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Vous aurez besoin qu'un administrateur Metabase crée un compte avant de pouvoir utiliser Google pour vous connecter."
+
+"Our analytics"
+"Notre décisionnel"
+
+"Unknown"
+"Inconnu"
+
+"Count"
+"Nombre de lignes"
+
+"number"
+"nombre"
+
+"Native query"
+"Requête native"
+
+"Today"
+"Aujourd'hui"
+
+"Yesterday"
+"Hier"
+
+"Week"
+"Semaine"
+
+"Month"
+"Mois"
+
+"Year"
+"Année"
+
+"Slack"
+"Slack"
+
+"results"
+"résultats"
+
+"Count of {0}"
+"Nombre de {0}"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"L'usage de DELETE /api/alert/:id n'est plus encouragé. À la place, changez sa valeur `archived` via PUT /api/alert/:id."
+
+"invalid show value"
+"Valeur de présentation invalide"
+
+"invalid value for prefix"
+"Valeur de préfixe invalide"
+
+"invalid value for rule name"
+"Valeur de nom de règle invalide"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"la valeur n'a pas pu être analysée comme du JSON encodé en base64"
+
+"Invalid entity type"
+"Type d'entité invalide"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"Type d'entité de comparaison invalide. Peut seulement prendre ses valeurs dans \"table\", \"segment\" ou \"adhoc\""
+
+"Error running query to determine Card result metadata:"
+"Erreur lors de la détermination des métadonnées du résultat de la Carte :"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"L'usage de DELETE /api/alert/:id n'est plus encouragé. À la place, changez sa valeur `archived` via PUT /api/alert/:id."
+
+"Invalid field: {0}"
+"Champ invalide : {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"Valeur invalide \"{0}\" pour \"{1}\" : {2}"
+
+"must be one of: {0}"
+"doit prendre ses valeurs parmi : {0}"
+
+"Invalid Request."
+"Requête invalide"
+
+"Not found."
+"Non trouvé."
+
+"You don''t have permissions to do that."
+"Vous n'avez pas les permissions requises."
+
+"Internal server error."
+"Erreur interne du serveur."
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"Avertissement : l'endpoint {0}/{1} n'a pas de docstring."
+
+"starting streaming request"
+"démarrage de la requête de flux"
+
+"connection closed, canceling request"
+"connexion fermée, requête en cours d'annulation"
+
+"Response not ready, writing one byte & sleeping..."
+"Réponse pas encore prête, écriture d'un octet & mise en sommeil..."
+
+"Public sharing is not enabled."
+"Le partage public n'est pas activé."
+
+"Embedding is not enabled."
+"L'intégration n'est pas activé."
+
+"The object has been archived."
+"L' objet a été archivé."
+
+"Source query for this query is Card {0}"
+"La requête source pour cette requête est la Carte {0}"
+
+"Invalid export format: {0}"
+"Format d'exportation invalide : {0}"
+
+"Invalid JSON URL or resource: {0}"
+"Le contenu JSON de cette URL ou de cette ressource est invalide : {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"Fichiers GeoJSON personnalisés à utiliser dans les visualisations de type Carte à la place des GeoJSON des états d'Amérique ou du monde fournis par défaut."
+
+"Invalid custom GeoJSON key: {0}"
+"Clé du GeoJSON personnalisé invalide : {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+
+"API endpoint does not exist."
+"l'endpoint d'API n'existe pas."
+
+"Password did not match stored password."
+"Le mot de passe ne correspondait pas à celui sauvegardé."
+
+"did not match stored password"
+"ne correspondait pas au mot de passe sauvegardé"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"Problème à la connexion au serveur LDAP, procédure de repli vers l'authentification locale {0}"
+
+"Invalid reset token"
+"Token de réinitialisation invalide"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"Si indiqué, autorise les utilisateurs à se connecter avec leur compte Google si leur adresse correspond à ce domaine."
+
+"Email is not verified."
+"L' adresse électronique n'est pas vérifié."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Vous aurez besoin qu'un administrateur crée un compte Metabase avant de pouvoir utiliser Google pour vous connecter."
+
+"Add a database"
+"Ajouter une base de données"
+
+"Get connected"
+"Connectez-vous"
+
+"Connect to your data so your whole team can start to explore."
+"Connectez-vous à vos données pour que l'ensemble de votre équipe puisse commencer à les explorer."
+
+"Set up email"
+"Configurer la messagerie électronique"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"Configurez la messagerie électronique pour inviter plus facilement des membres de votre équipe et obtenir des mises à jour via les Pulses."
+
+"Set Slack credentials"
+"Régler les identifiants Slack"
+
+"Invite team members"
+"Inviter des membres de l'équipe"
+
+"Share answers and data with the rest of your team."
+"Partagez des réponses et des données avec le reste de votre équipe."
+
+"Hide irrelevant tables"
+"Masquer les tables non pertinentes"
+
+"Curate your data"
+"Organisez vos données"
+
+"If your data contains technical or irrelevant info you can hide it."
+"Si votre donnée contient des informations techniques ou non pertinentes vous pouvez la masquer."
+
+"Organize questions"
+"Organiser les questions"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"Vous avez beaucoup de questions sauvegardées dans {0} ? Créez des collections pour vous aider à les gérer et les mettre en contexte."
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"Créer des métriques"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"Définissez des métriques pour aider votre équipe à obtenir les bonnes réponses."
+
+"Create segments"
+"Créer des segments"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"Gagnez en cohésion en créant des jeux communs de filtres utilisables par tous lors de la rédaction de questions."
+
+"Table ''{0}'' is now visible. Resyncing."
+"La table \"{0}\" n'est pas visible. Resynchronisation en cours."
+
+"Auto bin"
+"Binning automatique"
+
+"Don''t bin"
+"Aucun binning"
+
+"Day"
+"Jour"
+
+"Minute"
+"Minute"
+
+"Hour"
+"Heure"
+
+"Quarter"
+"Trimestre"
+
+"Minute of Hour"
+"Minute dans l'heure"
+
+"Hour of Day"
+"Heure dans le jour"
+
+"Day of Week"
+"Jour de la semaine"
+
+"Day of Month"
+"Jour du mois"
+
+"Day of Year"
+"Jour dans l'année"
+
+"Week of Year"
+"Semaine de l'année"
+
+"Month of Year"
+"Mois dans l'année"
+
+"Quarter of Year"
+"Semestre dans l'année"
+
+"10 bins"
+"10 cellules"
+
+"50 bins"
+"50 cellules"
+
+"100 bins"
+"100 cellules"
+
+"Bin every 0.1 degrees"
+"Binner tous les 0,1 degrés"
+
+"Bin every 1 degree"
+"Binner tous les degrés"
+
+"Bin every 10 degrees"
+"Binner tous les 10 degrés"
+
+"Bin every 20 degrees"
+"Binner tous les 20 degrés"
+
+"No appropriate image writer found!"
+"Pas de sortie d'image appropriée trouvée !"
+
+"Email address already in use."
+"Adresse électronique déjà utilisée"
+
+"Email address already associated to another user."
+"Cette adresse électronique est déjà associée à un autre utilisateur."
+
+"Not able to reactivate an active user"
+"Impossible de réactiver un utilisateur actif"
+
+"Invalid password"
+"Mot de passe incorrect"
+
+"All {0}"
+"Tous/Toutes les {0}"
+
+"{0}, all {1}"
+"{0}, tous/toutes les {1}"
+
+"Comparison of {0} and {1}"
+"Comparaison de {0} avec {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"Tableau de bord de comparaison généré automatiquement et comparant {0} à {1}"
+
+"sum"
+"somme"
+
+"average"
+"moyenne"
+
+"minumum"
+"minimum"
+
+"maximum"
+"maximum"
+
+"distinct count"
+"Nombre de valeurs distinctes"
+
+"standard deviation"
+"écart-type"
+
+"cumulative count"
+"nombre cumulé"
+
+"cumulative sum"
+"somme cumulée"
+
+"{0} and {1}"
+"{0} et {1}"
+
+"{0} of {1}"
+"{0} parmi {1}"
+
+"{0} by {1}"
+"{0} par {1}"
+
+"{0} in the {1} segment"
+"{0} dans le segment {1}"
+
+"{0} segment"
+"le segment {0}"
+
+"{0} metric"
+"la métrique {0}"
+
+"{0} field"
+"le champ {0}"
+
+"\"{0}\" question"
+"la question \"{0}\""
+
+"Compare with {0}"
+"Comparer avec {0}"
+
+"Compare with entire dataset"
+"Comparer avec le jeu de données complet"
+
+"Applying heuristic %s to %s."
+"Application de l'heuristique %s à %s."
+
+"Dimensions bindings:n%s"
+"Liens de dimensions : %s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"Utilisation des définitions : Métriques %s, Filtres %s"
+
+"Can''t create dashboard for {0}"
+"Impossible de créer un tableau de bord pour {0}"
+
+"{0}st"
+"premier {0}"
+
+"{0}nd"
+"second {0}"
+
+"{0}rd"
+"troisième {0}"
+
+"{0}th"
+"{0} ième"
+
+"at {0}"
+"à {0}"
+
+"on {0}"
+"le {0}"
+
+"in {0} week - {1}"
+"en {0} semaine - {1}"
+
+"in {0}"
+"en {0}"
+
+"in Q{0} - {1}"
+"au semestre {0} - {1}"
+
+"Q{0}"
+"au {0} semestre"
+
+"{0} is {1}"
+"{0} vaut {1}"
+
+"{0} is between {1} and {2}"
+"{0} est compris entre {1} et {2}"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0}est compris entre {1} et {2}; et {3} entre {4} et {5}"
+
+"where {0}"
+"où {0}"
+
+"A closer look at {0}"
+"Voir {0} de plus près"
+
+"A closer look at the {0}"
+"Voir le/les {0} de plus près"
+
+"Adding %s cards to dashboard %s:n%s"
+"Ajout de %s cartes au tableau de bord %s : n%s"
+
+"0 <= score <= {0}"
+"0 <= score <= {0}"
+
+"1 <= width <= {0}"
+"1 <= largeur <= {0}"
+
+"Valid metrics references"
+"Références de métriques valides"
+
+"Valid filters references"
+"Références de filtres valides"
+
+"Valid group references"
+"Références de groupe valides"
+
+"Valid order_by references"
+"Références de tri valides"
+
+"Valid dashboard filters references"
+"Références de filtres de tableau de bord valides"
+
+"Valid dimension references"
+"Références de dimension valides"
+
+"Valid card dimension references"
+"Références de dimension de carte valides"
+
+"Error parsing %s:n%s"
+"Erreur lors de l'analyse %s : n%s"
+
+"No user found with email address ''{0}''. "
+"Aucun utilisateur trouvé avec l'adresse électronique \"{0}\". "
+
+"Please check the spelling and try again."
+"Vérifiez s'il vous plaît l'orthographe et essayez à nouveau."
+
+"Resetting password for {0}..."
+"Mot de passe de {0} en cours de réinitialisation..."
+
+"OK [[[{0}]]]"
+"OK [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"ÉCHEC [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Utilisez s'il vous plaît l'URL suivante pour configurer votre installation Metabase :"
+
+"Metabase Shutting Down ..."
+"Metabase en cours d'arrêt..."
+
+"Metabase Shutdown COMPLETE"
+"Arrêt de Metabase EFFECTIF"
+
+"Starting Metabase version {0} ..."
+"Démarrage de Metabase version {0}..."
+
+"System timezone is ''{0}'' ..."
+"Le fuseau horaire du système est \"{0}\"..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Configuration et migration de la base de données Metabase. Faites s'il vous plaît preuve de patience, cela peut prendre une minute..."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"I semble que ce soit une nouvelle installation... Préparation de l'assistant de configuration"
+
+"Metabase Initialization COMPLETE"
+"Initialisation de Metabase EFFECTIVE"
+
+"Launching Embedded Jetty Webserver with config:"
+"Lancement du serveur web Jetty intégré avec la configuration :"
+
+"Shutting Down Embedded Jetty Webserver"
+"Arrêt du serveur web Jetty intégré"
+
+"Starting Metabase in STANDALONE mode"
+"Démarrage de Metabase en mode AUTONOME"
+
+"Metabase Initialization FAILED"
+"L'initialisation de Metabase a ÉCHOUÉ"
+
+"Database has migration lock; cannot run migrations."
+"La base de données a un verrou de migration; impossible de lancer les migrations."
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"Vous pouvez forcer la libération de ces verrous en lançant `java -jar metabase.jar migrate release-locks`."
+
+"Checking if Database has unrun migrations..."
+"Vérification de la présence de migrations non appliquées sur la base de données"
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"La base de données a des migrations non appliquées. En attente de la libération du verrou de migration..."
+
+"Migration lock is cleared. Running migrations..."
+"Le verrou est libéré. Application des migrations..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"Verrou de migration libéré, mais rien à faire ici ! Les Migrations ont été appliquées par une autre instance."
+
+"Setting up Liquibase..."
+"Configuration de Liquibase..."
+
+"Liquibase is ready."
+"Liquibase est prêt."
+
+"Verifying {0} Database Connection ..."
+"Vérification de la connexion à la base de données {0}..."
+
+"Verify Database Connection ... "
+"Vérifier la connexion à la base de données... "
+
+"Running Database Migrations..."
+"Application des migrations de base de données..."
+
+"Database Migrations Current ... "
+"Migrations de la base de données en cours... "
+
+"Hmm, we couldn''t connect to the database."
+"Hum, nous n'avons pas pu nous connecter à la base de données"
+
+"Make sure your host and port settings are correct"
+"Assurez-vous que les réglages d'hôte et de numéro de port sont corrects"
+
+"We couldn''t connect to the ssh tunnel host."
+"Nous n'avons pas pu ouvrir le tunnel ssh."
+
+"Check the username, password."
+"Vérifier le nom d'utilisateur, son mot de passe."
+
+"Check the hostname and port."
+"Vérifier le nom d'hôte et son numéro de port."
+
+"Looks like the database name is incorrect."
+"Il semble que le nom de la base de données soit incorrect."
+
+"It looks like your host is invalid."
+"Il semble que votre hôte soit invalide."
+
+"Please double-check it and try again."
+"Faîtes s'il vous plaît une contre-vérification et essayez à nouveau."
+
+"Looks like your password is incorrect."
+"Il semble que votre mot de passe soit incorrect."
+
+"Looks like you forgot to enter your password."
+"Il semble que vous ayez oublié de saisir votre mot de passe."
+
+"Looks like your username is incorrect."
+"Il semble que votre nom d'utilisateur soit incorrect."
+
+"Looks like the username or password is incorrect."
+"Il semble que le nom d'utilisateur ou le mot de passe soit incorrect."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"Fuseau horaire de connexion à utiliser lors de l'exécution de requêtes. Positionné au fuseau système par défaut."
+
+"Registered driver {0} {1}"
+"Gestionnaire enregistré {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"Pas de fonction -init-driver trouvé pour \"{0}\""
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"Dans l'incapacité d'analyser la date représentée par \"{0}\" dans le moteur de base de données \"{1}\""
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"Pas de connaissance sur la façon d'associer la classe \"{0}\" à un \"base_type\" de champ, solution de repli vers : type/*"
+
+"Failed to connect to database: {0}"
+"Échec de connexion à la base de données : {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"Identifiant BigQuery invalide : \"{0}\""
+
+"BigQuery statements can't be parameterized!"
+"Les instructions BigQuery n'acceptent pas de paramètre !"
+
+"Failed to set timezone:"
+"Échec du réglage du fuseau horaire :"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"Exécuter des requêtes SQL sur des bases de données H2 en utilisant l'utilisateur de base de données par défaut (admin) est interdit."
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"Erreur : metabase.driver.FixedHiveDriver est enregistré, mais JDBC ne semble pas l'utiliser."
+
+"Found metabase.driver.FixedHiveDriver."
+"metabase.driver.FixedHiveDriver trouvé."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"metabase.driver.FixedHiveDriver enregistré avec succès dans JDBC."
+
+"Email address you want to use as the sender of Metabase."
+"Adresse électronique que vous souhaitez utiliser comme expéditeur."
+
+"The address of the SMTP server that handles your emails."
+"L'adresse du serveur SMTP qui gère vos courriels."
+
+"SMTP username."
+"Nom d'utilisateur SMTP."
+
+"SMTP password."
+"Mot de passe SMTP."
+
+"The port your SMTP server uses for outgoing emails."
+"Le port que votre serveur SMTP utilise pour les courriels sortants."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"Protocole de connexion sécurisée SMTP. (tls, ssl, starttls ou aucun)"
+
+"none"
+"aucun"
+
+"SMTP host is not set."
+"L'hôte SMTP n'est pas défini."
+
+"Failed to send email"
+"Impossible d'envoyer le courriel"
+
+"Error testing SMTP connection"
+"Erreur lors du test de la connexion SMTP"
+
+"Enable LDAP authentication."
+"Activer l'authentification LDAP."
+
+"Server hostname."
+"Nom d'hôte du serveur"
+
+"Server port, usually 389 or 636 if SSL is used."
+"port du serveur, habituellement 389, ou 636 si SSL est utilisé."
+
+"Use SSL, TLS or plain text."
+"Utiliser SSL, TLS ou plain texte."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"Le \"Distinguished Name\" avec lequel se lier (si présent), cet utilisateur sera utilisé pour récupérer les informations des autres utilisateurs."
+
+"The password to bind with for the lookup user."
+"Le mot de passe à utiliser pour l'utilisateur de recherche."
+
+"Search base for users. (Will be searched recursively)"
+"Base de recherche pour les utilisateurs. (Sera recherché récursivement)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"Filtre de recherche d’utilisateur, la variable '{login}' y sera remplacée par le login fourni par l’utilisateur."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Attribut correspondant à l'e-mail de l'utilisateur. (le plus souvent \"mail\", \"email\" ou \"userPrincipalName\")"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"Attribut à utiliser pour le prénom de l'utilisateur."
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"Attribut à utiliser pour le nom de famille de l'utilisateur."
+
+"Enable group membership synchronization with LDAP."
+"Activer la synchronisation des appartenances aux groupes entre Metabase et LDAP."
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"Base de recherche pour les groupes, non requis si votre annuaire LDAP fournis la surcouche \"memberOf\". (Recherchera récursivement)"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON contenant les correspondances entre groupes Metabase et LDAP."
+
+"Here''s what I can {0}:"
+"Voici ce que je peux {0} :"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"Je ne sais pas comment {0} `{1}`.n{2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"Voici vos {0} plus récentes Cartes : n{1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"Pourriez-vous être un peu plus précis ? J'ai trouvé ces cartes au nom correspondant : n{0}"
+
+"Not Found"
+"Recherche infructueuse"
+
+"Go home websocket, you're drunk."
+"Rentre chez toi websocket, tu es saoule."
+
+"Base-64 encoded public key for this site's SSL certificate."
+"Clé publique encodée en base64 du certificat SSL de ce site."
+
+"Specify this to enable HTTP Public Key Pinning."
+"Activer l'épinglage des clés publiques HTTP."
+
+"See {0} for more information."
+"Consulter {0} pour plus d'information."
+
+"Cannot save Question: source query has circular references."
+"Incapable de sauvegarder la Question : la requête source contient des références circulaires."
+
+"Card {0} does not exist."
+"La Carte {0} n'existe pas."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"Vous n'avez pas les permissions pour exécuter des requêtes natives ad-hoc sur cette base de données {0}."
+
+"Invalid color"
+"Couleur invalide"
+
+"must be a valid 6-character hex color code"
+"doit être un code couleur hexadécimal sur 6 caractères"
+
+"Collection name cannot be blank!"
+"Le nom de collection ne peut être vide !"
+
+"cannot be blank"
+"ne peut être vide"
+
+"Invalid Collection location: path is invalid."
+"Emplacement de collection invalide : le chemin est invalide."
+
+"You cannot move a Personal Collection."
+"Vous ne pouvez déplacer une collection personnelle."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"Emplacement de collection invalide : au moins un ancêtre n'existe pas."
+
+"You cannot archive the Root Collection."
+"Vous ne pouvez archiver la collection racine."
+
+"You cannot archive a Personal Collection."
+"Vous ne pouvez archiver une collection personnelle."
+
+"You cannot move the Root Collection."
+"Vous ne pouvez déplacer la collection racine."
+
+"You cannot move a Collection into itself or into one of its descendants."
+"Vous ne pouvez déplacer une collection vers elle-même ou vers un de ses descendants."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"Déplacement de la collection {0} et de ses descendants depuis {1} vers {2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"Vous n'êtes pas autorisé à changer le propriétaire d'une collection personnelle."
+
+"You're not allowed to move a Personal Collection."
+"Vous n'êtes pas autorisé à déplacer une collection personnelle."
+
+"You cannot move a Collection and archive it at the same time."
+"Vous ne pouvez en même temps déplacer et archiver une collection."
+
+"You cannot delete a Personal Collection!"
+"Vous ne pouvez supprimer une collection personnelle !"
+
+"{0} {1}''s Personal Collection"
+"Collection personnelle de {0} {1}"
+
+"You cannot update a CollectionRevision!"
+"Vous ne pouvez modifier une Révision de collection !"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"Le champ {0} était précédemment défini automatiquement pour afficher une liste, mais il contient désormais {1} valeurs."
+
+"Switching Field to use a search widget instead."
+"Transformation du champ en un élément visuel de recherche."
+
+"Storing updated FieldValues for Field {0}..."
+"Stockage des valeurs mises à jour du champ {0}..."
+
+"Storing FieldValues for Field {0}..."
+"Stockage des valeurs du champ {0}..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase peut tenter de transformer les noms de table et de champ en une version plus naturelle et lisible; \"unhorriblenom\" deviendrait par exemple \"Un Horrible Nom\"."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"Cela ne donnera de bon résultats que pour des noms en anglais."
+
+"Do you want us to take a guess?"
+"Voulez-vous que nous l'estimions ?"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"Vous ne pouvez accorder ou retirer des permissions au groupe 'Admin'."
+
+"Invalid permissions object path: ''{0}''."
+"Chemin d'objet invalide : \"{0}\"."
+
+"You cannot update a permissions entry!"
+"Vous ne pouvez pas mettre à jour une entrée de permissions !"
+
+"Delete it and create a new one."
+"Supprimez la et créez-en une nouvelle."
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"Vous ne pouvez modifier les permissions d'une collection personnelle ou de ses descendants."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"Il semble que quelqu'un d'autre ait modifié les permissions et que vos données soient obsolètes."
+
+"Please fetch new data and try again."
+"Récupérez s'il vous plaît de nouvelles données et essayez à nouveau."
+
+"A group with that name already exists."
+"Un groupe avec ce nom existe déjà."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"Vous ne pouvez pas modifier ou supprimer le groupe d'autorisations ''{0}'' !"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"Vous ne pouvez pas ajouter (resp. supprimer) d'utilisateur au (resp. du) groupe 'MetaBot'."
+
+"You cannot add or remove users to/from the 'All Users' group."
+"Vous ne pouvez pas ajouter ou supprimer des utilisateurs du groupe \"Tous les utilisateurs\"."
+
+"You cannot remove the last member of the 'Admin' group!"
+"Vous ne pouvez pas supprimer le dernier membre du groupe 'Admin' !"
+
+"You cannot update a PermissionsRevision!"
+"Vous ne pouvez mettre à jour une révision de permissions !"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"Alerte invalide : l'alerte n'a aucune question d'associée"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"La valeur doit être une association contenant les clés `{0}`, `{1}`, et `{2}`."
+
+"value must be a map with the following keys `({0})`"
+"La valeur doit être une association contenant les clés `({0})`"
+
+"Error calculating permissions for query: {0}"
+"Erreur lors du calcul des permissions de la requête : {0}"
+
+"Invalid query type: {0}"
+"Type de requête invalide : {0}"
+
+"You cannot update a QueryExecution!"
+"Vous ne pouvez mettre à jour une exécution de requête !"
+
+"You cannot update a Revision!"
+"Vous ne pouvez mettre à jour une révision !"
+
+"Updating value of settings-last-updated in DB..."
+"Mise à jour de la valeur de `settings-last-updated` en base de données..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"Vérification de la péremption du cache des réglages (nécessite un appel à la base de données)..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"Les réglages ont été changés sur une autre instance, et seront rechargés sur celle-ci."
+
+"Refreshing Settings cache..."
+"Rafraîchissement du cache des réglages..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"Représentation d'un valeur booléenne invalide : seules \"true\" ou \"false\" sont autorisées (et insensible à la casse)."
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"Vous ne pouvez mettre à jour `settings-last-updated` vous-même ! C'est fait automatiquement."
+
+"Error inserting a new Setting:"
+"Erreur à l'insertion d'un nouveau réglage :"
+
+"Assuming Setting already exists in DB and updating existing value."
+"Mise à jour d'une valeur existante en présupposant que le réglage existe déjà en base de données."
+
+"value must be a map with each value either a string or number."
+"la valeur doit être une association aux valeurs de type chaîne de caractère ou numérique."
+
+"Loading plugins in directory {0}..."
+"Chargement des plugins du répertoire {0}..."
+
+"Loading plugin {0}... "
+"Chargement du plugin {0}..."
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Il semble que vous ayez des dépendances externes dans le répertoire de vos plugins Metabase."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"Depuis Java 9, Metabase peut automatiquement les ajouter à votre classpath."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"Vous devriez plutôt les inclure au lancement avec l'option -cp. Par exemple :"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"Consulter https://metabase.com/docs/latest/operations-guide/start.html#java-versions pour plus de détails."
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(Si vous faites déjà tourner Metabase de cette façon, vous pouvez ignorer ce message.)"
+
+"Identify when new versions of Metabase are available."
+"Identifie quand de nouvelles versions de Metabase sont disponibles."
+
+"Information about available versions of Metabase."
+"Information sur les versions de Metabase disponibles."
+
+"The name used for this instance of Metabase."
+"Le nom utilisé pour cette instance de Metabase."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"L'URL de base de cette instance de Metabase, par exemple : \"http://metabase.mon-entreprise.com\"."
+
+"The default language for this Metabase instance."
+"Le langage par défaut de cette instance de Metabase."
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"S'applique uniquement aux courriels, Pulses, etc. La langue du navigateur de l'utilisateur est utilisée pour afficher l'interface web."
+
+"The email address users should be referred to if they encounter a problem."
+"Adresse électronique que les utilisateurs contacteront s'ils rencontrent un problème."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Activer la collecte de données d'utilisation anonymes nous permettant d'améliorer Metabase."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"Le patron d'URL du serveur de tuiles de cartes utilisé dans les visualisations de carte, par exemple depuis OpenStreetMap ou MapBox."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"Activer la création - par les administrateurs - de liens publics (et d'iframes intégrées) vers les questions et les tableaux de bord ?"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"Autoriser l'intégration sécurisée - par les administrateurs - des questions et tableaux de bord dans d'autres applications ?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"Activer le cache sauvegardera les résultats des requêtes qui prennent longtemps à s'exécuter."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"La taille maximum du cache, par question sauvegardée, en Ko :"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"La durée maximum absolue de conservation en cache des résultats de requête, en secondes."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase mettra en cache toutes les questions sauvegardées qui ont une durée d'exécution moyenne plus longue que ce nombre de secondes :"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"Pour déterminer la durée de conservation du résultat d'une question sauvegardée, nous pondérons sa durée moyenne d'exécution par le coefficient multiplicateur que vous saisissez ici."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"Ainsi avec un coefficient 10, le résultat d'une requête prenant en moyenne 2 minutes à s'exécuter persistera en cache pendant 20 minutes."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"Valeur par défaut du nombre de cellules (bins) pour le binning"
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"Valeur par défaut en degrés du côté d'une cellule (bin) pour le binning d'un champ de type Coordonnées (tels que Latitude ou Longitude)."
+
+"Unable to validate token."
+"Impossible de valider le jeton."
+
+"Error fetching token status:"
+"Erreur à la récupération du statut du jeton :"
+
+"There was an error checking whether this token was valid."
+"Il y a eu une erreur à la vérification de la validité du jeton."
+
+"Token validation timed out."
+"Dépassement de la durée maximum fixée pour la validation du jeton."
+
+"Invalid token: token isn't in the right format."
+"Jeton invalide : le jeton n'est pas dans le bon format."
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"Vérification dans le MetaStore de la validité de {0}..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"Jeton pour l'intégration Premium. Rendez-vous dans le MetaStore pour obtenir le votre !"
+
+"Token is valid."
+"Le jeton est valide."
+
+"Error setting premium embedding token"
+"Erreur au réglage du jeton d'intégration Premium."
+
+"Unable to compare results to goal for alert."
+"Dans l'incapacité de comparer les résultats à l'objectif pour générer une alerte."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"L'ID de question est \"{0}\" avec les réglages de Visualisation \"{1}\""
+
+"Unrecognized alert with condition ''{0}''"
+"Alerte non reconnue de condition \"{0}\""
+
+"Unrecognized channel type {0}"
+"Type de canal {0} non reconnu"
+
+"Error sending notification!"
+"Erreur à l'envoi de la notification !"
+
+"Can't find JS color selector at ''{0}''"
+"Dans l'incapacité de trouver le sélecteur de couleur JS à \"{0}\""
+
+"Card has errors: {0}"
+"Questions en erreur : {0}"
+
+"Pulse card render error"
+"Erreur au rendu de la carte de Pulse"
+
+"Trimming trailing comment from card with id {0}"
+"Découpage du commentaire final de la question d'ID {0}"
+
+"Can't find field with ID: {0}"
+"Dans l'incapacité de trouver le champ d'ID : {0}"
+
+"''{0}'' is a required param."
+"\"{0}\" est un paramètre obligatoire."
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"Identification d'un \"{0}\" sans terminaison \"{1}\" dans la requête \"{2}\""
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"Dans l'incapacité de substituer \"{0}\" : paramètre non spécifié. nValeur trouvée : {1}"
+
+"You do not have permissions to view Card {0}."
+"Vous n'êtes pas autorisé à afficher la question {0}."
+
+"You do not have permissions to run this query."
+"Vous n'êtes pas autorisé à exécuter cette requête."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"{0} mise(s) à jour d'empreintes tentée(s), {1} mise(s) à jour effective(s), {2} sans donnée correspondante, {3} en échec"
+
+"Total number of fields classified {0}, {1} failed"
+"{0} champs classifié(s), {1} échec(s)"
+
+"Total number of tables classified {0}, {1} updated"
+"Nombre total de tables classifiées {0}, {1} mises à jour"
+
+"Error generating fingerprint for {0}"
+"Erreur à la génération de l'empreinte pour {0}"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"{0} ensemble de valeurs mis à jour, {1} crée(s), {2} supprimée(s), dont {3} en erreur"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"{0} champ(s) synchronisé(s), {1} champ(s) mis à jour"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"{0} table(s) synchronisée(s), {1} table(s) mise(s) à jour"
+
+"Found timezone id {0}"
+"Identification d'un fuseau horaire d' ID {0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"{0} clé(s) étrangère(s) synchronisée(s), {1} clé(s) étrangère(s) mise(s) à jour et {2} table(s) non mises à jour à cause d'un erreur"
+
+"{0} Database {1} ''{2}''"
+"{0} Base de données {1} ''{2}''"
+
+"Table {0} ''{1}''"
+"Table {0} ''{1}''"
+
+"Field {0} ''{1}''"
+"Champ {0} ''{1}''"
+
+"Field ''{0}''"
+"Champ ''{0}''"
+
+"step ''{0}'' for {1}"
+"étape ''{0}'' pour {1}"
+
+"Completed {0} on {1}"
+"Terminé {0} le {1}"
+
+"Start: {0}"
+"Début : {0}"
+
+"End: {0}"
+"Fin : {0}"
+
+"Duration: {0}"
+"Durée : {0}"
+
+"Completed step ''{0}''"
+"Étape \"{0}\" effectuée"
+
+"Loading tasks namespace:"
+"Chargement de l'espace de nommage des tâches :"
+
+"Starting Quartz Scheduler"
+"Démarrage du planificateur Quartz"
+
+"Stopping Quartz Scheduler"
+"Arrêt du planificateur Quartz"
+
+"Job already exists:"
+"Le job existe déjà :"
+
+"Loading Metabase..."
+"Chargement de Metabase..."
+
+"Possible timezone conflict found on database {0}."
+"Possible conflit de fuseau horaire dans la base de données {0}."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"Le fuseau horaire de la JVM est {0} et celui détecté dans la base de données est {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"Configurer un fuseau horaire de restitution pour s'assurer d'une conversion correcte des dates et heures."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"Clé secrète utilisée pour signer les \"JSON Web Tokens\" dans les requêtes aux endpoints `/api/embed`."
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEY doit comporter au moins 16 caractères."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"Le chiffrement des informations d'identification enregistrées est ACTIVÉ pour cette instance de Metabase."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"Le chiffrement des informations d'identification enregistrées est DÉSACTIVÉ pour cette instance de Metabase."
+
+"nFor more information, see"
+"nPour plus d'informations, voir"
+
+"value must be an integer."
+"la valeur doit être un integer."
+
+"value must be a string."
+"la valeur doit être une chaîne de caractères. "
+
+"value must be a boolean."
+"la valeur doit être un booléen."
+
+"value must be a string that matches the regex `{0}`."
+"la valeur doit être une chaîne de caractères qui correspond à l'expression régulière {0}."
+
+"value must satisfy one of the following requirements: "
+"la valeur doit satisfaire une des exigences suivantes : "
+
+"value may be nil, or if non-nil, {0}"
+"la valeur peut être nil, ou si non-nil, {0}"
+
+"value must be one of: {0}."
+"les valeurs possibles sont : {0}."
+
+"value must be an array."
+"la valeur doit être un tableau."
+
+"Each {0}"
+"Chaque {0}"
+
+"The array cannot be empty."
+"Le tableau ne peut être vide."
+
+"value must be a non-blank string."
+"la valeur doit être une chaîne de caractères non vide."
+
+"Integer greater than zero"
+"Un entier supérieur à zéro"
+
+"value must be an integer greater than zero."
+"la valeur doit être un entier supérieur à zéro."
+
+"Number greater than zero"
+"Un nombre supérieur à zéro"
+
+"value must be a number greater than zero."
+"la valeur doit être un nombre supérieur à zéro."
+
+"Keyword or string"
+"Mot clé ou chaîne de caractères"
+
+"Valid field type"
+"type de champ valide"
+
+"value must be a valid field type."
+"la valeur doit être un type de champ valide."
+
+"Valid field type (keyword or string)"
+"Type de champ valide (mot clé ou chaîne de caractères)"
+
+"value must be a valid field type (keyword or string)."
+"la valeur doit être un type de champ valide (mot clé ou chaîne de caractères)."
+
+"Valid entity type (keyword or string)"
+"type d'entité valide (mot clé ou chaîne de caractères)"
+
+"value must be a valid entity type (keyword or string)."
+"la valeur doit être un type d'entité valide (mot clé ou chaîne de caractères)."
+
+"Valid map"
+"Association valide"
+
+"value must be a map."
+"la valeur doit être une association."
+
+"Valid email address"
+"Adresse électronique valide"
+
+"value must be a valid email address."
+"cette valeur doit être une adresse électronique valide."
+
+"Insufficient password strength"
+"Force de mot de passe insuffisante"
+
+"value must be a valid integer."
+"la valeur doit être un entier."
+
+"value must be a valid integer greater than zero."
+"la valeur doit être un entier supérieur à zéro."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"la valeur doit être un booléen représenté par \"true\" ou \"false\"."
+
+"value must be a valid JSON string."
+"la valeur doit être du JSON valide."
+
+"value must be a valid embedding params map."
+"la valeur doit être une association de paramètres d'intégration valide."
+
+"No results"
+"Pas de résultats"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"Déplacement des instances de {0} qui ne sont pas dans une collection vers {1} collection {2}"
+
+"Failed to grant permissions: {0}"
+"Échec de l'attribution de permissions : {0}"
+
+"Host"
+"Hôte"
+
+"Port"
+"Port"
+
+"Database username"
+"Nom utilisateur de la base de données"
+
+"Database password"
+"Mot de passe de la base de données"
+
+"Database name"
+"Nom de la base de données"
+
+"birds_of_the_world"
+"birds_of_the_world"
+
+"Additional JDBC connection string options"
+"Options additionnelles de la chaîne de connexion JDBC"
+
+"praxis-beacon-120871"
+" praxis-beacon-120871"
+
+"toucanSightings"
+"\"toucanSightings\""
+
+"Hosts"
+"Hôtes"
+
+"Broker node port"
+"port du nœud de courtage (broker)"
+
+"Google Analytics Account ID"
+"ID du compte Google Analytics"
+
+"Connection String"
+"Chaîne de connexion"
+
+"Users/camsaul/bird_sightings/toucans"
+"\"Users/camsaul/bird_sightings/toucans\""
+
+"carrierPigeonDeliveries"
+"\"carrierPigeonDeliveries\""
+
+"Authentication Database"
+"Base de données d'authentification"
+
+"Optional database to use when authenticating"
+"Base de données optionnelle à utiliser lors de l'authentificaiton"
+
+"Additional Mongo connection string options"
+"Options additionnelles de la chaîne de connexion MongoDB"
+
+"Oracle system ID (SID)"
+"ID Oracle (SID)"
+
+"Usually something like ORCL or XE."
+"Généralement quelque chose comme ORCL ou XE"
+
+"Optional if using service name"
+"Optionnel si vous utilisez un nom de service"
+
+"Oracle service name"
+"Nom de service Oracle"
+
+"Optional TNS alias"
+"Alias TNS optionnel"
+
+"hive"
+"hive"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"défaut"
+
+"Filename"
+"Nom de fichier"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite 😋"
+
+"BirdsOfTheWorld"
+"BirdsOfTheWorld"
+
+"Database instance name"
+"Nom de l'instance de base de données"
+
+"N/A"
+"N/A"
+
+"Windows domain"
+"Nom de domaine Windows"
+
+"Unable to release the Liquibase lock after a migration failure"
+"Impossible de libérer le verrou Liquibase après un échec de migration"
+
+"Use JVM Time Zone"
+"Utiliser le fuseau horaire de la JVM"
+
+"Not a valid integer: ''{0}''"
+"\"{0}\" n'est pas un entier valide."
+
+"Embedding is not enabled for this object."
+"L'intégration n'est pas activée pour cet objet."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"Un problème de connexion au serveur LDAP entraîne le recours à l'authentification locale : {0}"
+
+"When including an offset, a limit must also be included."
+"Lorsque vous incluez un décalage, vous devez également inclure une limite."
+
+"When including a limit, an offset must also be included."
+"Lorsque vous incluez une limite, un décalage doit également être inclus."
+
+"Applying heuristic {0} to {1}."
+"Application de l'heuristique {0} à {1}."
+
+"Dimensions bindings:n{0}"
+"Définition des dimensions : n{0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"Utilisation de définitions : :nMetrics: n{0} nFilters: n{1}"
+
+"minute"
+"minute"
+
+"hour"
+"heure"
+
+"day of week"
+"jour de la semaine"
+
+"day of month"
+"jour du mois"
+
+"day of year"
+"jour de l'année"
+
+"week"
+"semaine"
+
+"month"
+"mois"
+
+"quarter"
+"trimestre"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"Ajouter la question {0} au tableau de bord {1}:n{2}"
+
+"Error parsing {0}:n{1}"
+"Erreur lors de l'analyse de {0}:n{1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"AVERTISSEMENT : le filtrage ne fonctionne que sur les dimensions ! ''{0}'' est une métrique. Le filtre est ignoré."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"AVERTISSEMENT: une date ne peut pas appartenir à plusieurs intervalles, les joindre avec un ET n'a pas de sens."
+
+"Ignoring these intervals: {0}"
+"Ignorer ces intervalles : {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"AVERTISSEMENT: je ne sais pas comment annuler : {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"AVERTISSEMENT: Druid n'autorise pas les requêtes limitSpec dans les séries chronologiques. J'ignore la clause LIMIT."
+
+"HoneySQL Form:"
+"Formulaire HoneySQL :"
+
+"Unable to parse date ''{0}''"
+"Impossible d'évaluer la date \"{0}\""
+
+"Client closed connection, cancelling query"
+"Connexion fermée, annulation de la requête"
+
+"Setting timezone with statement: {0}"
+"Définition du fuseau horaire avec l'instruction : {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"MONGO AGGREGATION PIPELINE :"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"Erreur: colonnes incompatibles dans les résultats ! Attendu : {0} obtenu : {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"Impossible de créer le fichier temporaire `{0}` pour la pièce jointe "
+
+"Error preprocessing query:"
+"Erreur de pré-traitement de la requête :"
+
+"Illegal filter clause: {0}"
+"Mauvaise clause de filtre : {0}"
+
+"Invalid clause:"
+"Clause invalide :"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Erreur : la requête source cette requête n'a pas été résolue. Vous devez probablement «prétraiter» la requête en premier."
+
+"No expression named ''{0}''"
+"Aucune expression nommée \"{0}\""
+
+"No aggregation at index: {0}"
+"Aucun agrégat à l'index : {0}"
+
+"Field values total length is {0} (max {1})."
+"La longueur totale des valeurs de champ est {0} (max {1})."
+
+"FieldValues are allowed for this Field."
+"Filtres de champ autorisé pour ce champ."
+
+"FieldValues are NOT allowed for this Field."
+"Filtres de champ NON autorisé pour ce champ."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"Le champ {0} \"{1}\" devrait avoir un filtre et correspondre à une base de données avec mise à jour manuelle des filtres."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"Vous ne pouvez pas créer ou révoquer des autorisations pour le groupe ''Admin''."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"Vous ne pouvez pas ajouter ou supprimer des utilisateurs du groupe \"Tous les utilisateurs\"."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"Vous ne pouvez pas supprimer le dernier membre du groupe \"Admin\" !"
+
+"Error inserting a new Setting: {0}"
+"Erreur dans l'ajout du nouveau paramètre : {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"Les chaînes de description de définition doivent être `:internal?` ou internationalisées, trouvées: `{0}`"
+
+"Loading plugin {0}... {1}"
+"Chargement du plugin {0}... {1}"
+
+"Object keyed by type, containing formatting settings"
+"Objet indexé par type, contenant les paramètres de formatage"
+
+"Allow users to explore data using X-rays"
+"Autoriser les utilisateurs à radiographier les données"
+
+"Unable to validate token: 404 not found."
+"Impossible de valider un jeton : 404 non trouvé"
+
+"There was an error checking whether this token was valid:"
+"Une erreur s'est produite lors de la vérification de la validité de ce jeton :"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"Jeton pour les fonctionnalités Premium. Allez au \"MetaStore\" pour obtenir le vôtre !"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"Le format du jeton est invalide. Le jeton doit comporter 64 caractères hexadécimaux."
+
+"Error setting premium features token"
+"Erreur lors de la définition du jeton de fonctionnalités premium"
+
+"Error validating token:"
+"Erreur de validation du jeton :"
+
+"Error preprocessing query"
+"Erreur de requête de prétraitement"
+
+"No native form returned."
+"Aucun formulaire natif retourné."
+
+"Invalid response from database driver. No :status provided."
+"Réponse invalide du pilote de base de données. Aucun :status fourni."
+
+"General error"
+"Erreur générale"
+
+"Missing query hash!"
+"Hachage de requête manquant !"
+
+"Table ''{0}'' has no Fields associated with it."
+"La table ''{0}'' n'est associée à aucun champ."
+
+"Max concurrent query limit reached"
+"Limite maximum de requêtes simultanées atteinte"
+
+"Don't know how to get information about Field:"
+"Je ne sais pas comment obtenir des informations sur le champ:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface/*driver* n'est pas lié."
+
+"Query processor error: mismatched number of columns in query and results."
+"Erreur du processeur de requêtes: nombre dépareillés de colonnes dans la requête et les résultats."
+
+"Expected {0} fields, got {1}"
+"Attendu {0} champs, obtenu {1}"
+
+"Expected: {0}"
+"Attendu: {0}"
+
+"Actual: {0}"
+"Actuel: {0}"
+
+"Unable to bin Field without a min/max value"
+"Impossible de regrouper le champ sans valeur min/max"
+
+"{0} is not supported by this driver."
+"{0} n'est pas pris en charge par ce pilote."
+
+"Segment {0} does not exist, or is invalid."
+"Le segment {0} n'existe pas ou est invalide."
+
+"Metric {0} does not exist, or is invalid."
+"La métrique {0} n'existe pas ou n'est pas valide."
+
+"Missing source query in Card {0}"
+"Requête source manquante dans la carte {0}"
+
+"Fetched source query from Card {0}:"
+"Requête source extraite de la carte {0} :"
+
+"Error transforming MBQL query to native:"
+"Erreur lors de la transformation de la requête MBQL en version native :"
+
+"Cannot run query: could not find source table {0}."
+"Impossible d'exécuter la requête: impossible de trouver la table source {0}."
+
+"Error recording results metadata for query:"
+"Erreur lors de l’enregistrement des métadonnées des résultats pour la requête :"
+
+"Error: Query Processor store is not initialized."
+"Erreur: le stockage du processeur de requêtes n'est pas initialisé."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"Erreur: la table {0} n'est pas présente dans le stockage du processeur de requêtes."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"Erreur: le champ {0} n'est pas présent dans le stockage du processeur de requêtes."
+
+"Task history cleanup successful, rows were {0}deleted"
+"Tâche de nettoyage de l'historique réussie, {0} lignes ont été supprimées"
+
+"not"
+"aucune"
+
+"For more information, see"
+"Pour plus d'informations, voir"
+
+"Integer greater than or equal to zero"
+"Entier supérieur ou égal à zéro"
+
+"value must be an integer greater than or equal to zero."
+"La valeur doit être un entier supérieur ou égal à zéro."
+
+"value must be an integer zero or greater."
+"la valeur doit être un entier zéro ou supérieur."
+
+"value must be a valid integer greater than or equal to zero."
+"La valeur doit être un entier valide supérieur ou égal à zéro."
+
+"Unable to parse resource `{0}` as JSON"
+"Impossible d'analyser la ressource `{0}` en tant que JSON"
+
+"Unable to find JSON via relative path `{0}`"
+"Impossible de trouver le code JSON via le chemin relatif `{0}`"
+
+"Connection to host timed out for URL `{0}`"
+"La connexion à l'hôte a expiré pour l'URL `{0}`"
+
+"Unable to connect to unknown host at URL `{0}`"
+"Impossible de se connecter à un hôte inconnu de l'URL `{0}`"
+
+"Unable to connect to host at URL `{0}`"
+"Impossible de se connecter à l'hôte de l'URL `{0}`"
+
+"Connection refused by host at for URL `{0}`"
+"Connexion refusée par l'hôte pour l'URL `{0}`"
+
+"Unable to retrieve resource at URL `{0}`"
+"Impossible de récupérer la ressource de l'URL `{0}`"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"impossible d'analyser la ressource de l'URL `{0}` en JSON"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"Problème de connexion au serveur LDAP, de retour à l’authentification locale: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"Les instructions BigQuery ne peuvent pas être paramétrées !"
+
+"We’d love your feedback."
+"Nous aimerions vos commentaires."
+
+"It looks like Metabase wasn’t quite a match for you."
+"Il semblerait que Metabase ne vous convenait pas tout à fait."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Souhaitez-vous prendre un peu de temps pour répondre à un rapide sondage en 5 questions pour aider l’équipe de Metabase à comprendre pourquoi et à améliorer les choses à l’avenir ?"
+
+"We hope you''ve been enjoying Metabase."
+"Nous espérons que vous avez apprécié Metabase."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"Souhaitez-vous prendre un peu de temps pour répondre à un rapide sondage de 6 questions pour nous raconter votre expérience ?"
+
+"{0} created a Metabase account"
+"{0} a créé un compte Metabase"
+
+"{0} accepted their Metabase invite"
+"{0} a accepté son invitation Metabase"
+
+"[Metabase] Password Reset Request"
+"Requête de réinitialisation de mot de passe [Metabase]"
+
+"[Metabase] Notification"
+"[Metabase] Notification"
+
+"[Metabase] Help make Metabase better."
+"[Métabase] Aidez à améliorer Metabase."
+
+"[Metabase] Tell us how things are going."
+"[Métabase] Dites-nous comment les choses se passent."
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"Erreur: la requête source de la requête n'a pas été résolue. Vous devez probablement «prétraiter» la requête en premier."
+
+"Don't know what to do with:"
+"Je ne sais pas quoi faire avec :"
+
+"Don't know how to wrap:"
+"Encapsulation inconnue pour :"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"Échec de la définition de `query-caching-max-kb` sur {0}."
+
+"Values greater than {1} are not allowed."
+"Les valeurs supérieures à {1} ne sont pas autorisées."
+
+"Database {0} does not exist."
+"La base de données {0} n'existe pas."
+
+"Error: Database is not present in the Query Processor Store."
+"Erreur: la base de données n'est pas présente dans le stockage du processeur de requêtes."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"Clé d'intégration invalide ! La clé secrète doit être une clé codée en hexadécimal de 256 bits (c'est-à-dire une chaîne de 64 caractères)"
+
+"JWT is missing `alg`."
+"Le champ `alg` du JWT est manquant"
+
+"JWT `alg` cannot be `none`."
+"Le champ `alg`du JWT ne peut être `none`"
+
+"The embedding secret key has not been set."
+"La clé secrète d'intégration n’a pas été définie."
+
+"Token is missing value for keypath"
+"Le jeton est man"
+
+"Previous {0}"
+"Précédent {0}"
+
+"value must be a valid database engine."
+"la valeur doit être un miteir de base de données valide"
+
+"Connection refused by host for URL `{0}`"
+"Connexion refusée par l'hôte pour l'URL `{0}`"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"ATTENTION : l'utilisation de base de données H2 n'est pas recommandée en production."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"Consultez https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres pour plus de détails"
+
+"Unable to connect to Metabase {0} DB."
+"Impossible de se connecter à la base de données Metabase {0}."
+
+"Failed to notify {0} Database {1} updated"
+"Impossible de notifier {0} Base de données {1} mise à jour"
+
+"Loading driver {0} {1}"
+"Chargement du driver {0} {1}"
+
+"Load driver {0}"
+"Chargement du pilote {0}"
+
+"Driver not registered after loading: {0}"
+"Pilote non enregistré après le chargement : {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"Erreur : tentative de changer la propriété {0} `:abstract?` de {1} à {2}."
+
+"Registered abstract driver {0}"
+"Driver abstract enregistré {0}"
+
+"Registered driver {0}"
+"Pilote enregistré {0}"
+
+"(parents: {0})"
+"(parents: {0})"
+
+"Initializing driver {0}..."
+"Initialisation du pilote {0}"
+
+"Reason:"
+"Raison :"
+
+"Invalid driver feature: {0}"
+"Fonctionnalité du pilote invalide : {0}"
+
+"Invalid HoneySQL form:"
+"Formulaire HoneySQL invalide :"
+
+"Closing connection pool for database {0} ..."
+"Fermeture du pool de connexions pour la base de données {0}..."
+
+"Error loading namespace"
+"Erreur lors du chargement du namespace"
+
+"Starting events listener:"
+"Début de l'écoute des événements :"
+
+"Unexpected error listening on events"
+"Erreur inattendue lors de l'écoute des événements"
+
+"Error syncing Database {0}"
+"Erreur de synchronisation de la base de données {0}"
+
+"Failed to process sync-database event."
+"Échec du traitement de l'événement sync-database."
+
+"Bad nested-query-level: query does not have a source query"
+"nested-query-level incorrect: la requête n'a pas de requête source"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"FieldValues pour Field {0} restent inchangées. Passer..."
+
+"Unable to normalize:"
+"Impossible de normaliser :"
+
+"Could not find matching Field ID for target:"
+"Impossible de trouver l'ID du champ correspondant pour la cible :"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabase n'a pas les droits d'écriture dans le répertoire des plug-ins {0}"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabase ne peut pas utiliser le répertoire des plug-ins {0}"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"Veuillez vérifier que le dossier existe et que Metabase y a les droits d'écriture"
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"Vous pouvez changer le répertoire que Metabase utilise pour les plug-ins en définissant la variable d'environnement MB_PLUGINS_DIR."
+
+"Falling back to a temporary directory for now."
+"Retour à un répertoire temporaire pour le moment."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabase ne peut pas écrire dans le dossier temporaire. Définissez MB_PLUGINS_DIR vers un dossier accessible en écriture et redémarrez Metabase"
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deps.jar n'est plus nécessaire avec Metabase 1.0+. Vous pouvez le supprimer du répertoire des plugins."
+
+"Failied to initialize plugin {0}"
+"Erreur d'initialisation du plugin {0}"
+
+"Loading plugins in {0}..."
+"Chargement de plugins dans {0} ..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Utilisation de Clojure en tant que context classloader partagé : {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"Configuration du context classloader courrant sur le classloader partagé {0}..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"Configuration du context classloader courant sur le nouveau classloader {0}..."
+
+"Added URL {0} to classpath"
+"URL {0} ajoutée au classpath"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"Le plugin {0} déclare une dépendance que Metabase ne comprend pas {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"Référez-vous au manifest du plugin pour la liste complète des dépendances valides :"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"Metabase ne peut pas initialiser le plug-in {0} en raison des dépendances requises."
+
+"Class not found: {0}"
+"Classe non trouvée: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"Le plugin ''{0}'' dépend du plugin ''{1}''"
+
+"{0} dependency {1} satisfied? {2}"
+"{0} dépendance {1} satisfaite ? {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"Plug-ins avec des dépendances non satisfaites : {0}"
+
+"Extract file {0} -> {1}"
+"Extraire le fichier {0} -> {1}"
+
+"Resource does not exist."
+"La ressource n'existe pas."
+
+"Loading plugin namespace {0}..."
+"Chargement du namespace du plugin {0}..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"Les dépendances ont été satisfaites. Ces plug-ins seront désormais chargés : {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"Enregistrement du pilote proxy JDBC pour {0}..."
+
+"Deregistering original JDBC driver {0}..."
+"Désenregistrement du pilote JDBC d'origine {0}..."
+
+"Default connection property {0} does not exist."
+"La propriété de connexion par défaut {0} n'existe pas."
+
+"Invalid connection property {0}: not a string or map."
+"Propriété de connexion invalide {0} : pas une chaîne de caractères ou un tableau."
+
+"Load lazy loading driver {0}"
+"Chargement du driver {0}"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"Impossible d'initialiser le plug-in : propriété requise manquante `driver-name`"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"Avertissement : le manifeste du plug-in pour {0} n'inclut pas les propriétés de connexion"
+
+"Registering lazy loading driver {0}..."
+"Chargement du driver {0}..."
+
+"Error running query for Card {0}"
+"Erreur lors de l'exécution de la requête pour la carte {0}"
+
+"Last week"
+"Semaine dernière"
+
+"This week"
+"Semaine en cours"
+
+"Last month"
+"Mois dernier"
+
+"This month"
+"Mois en cours"
+
+"Last quarter"
+"Dernier trimestre"
+
+"This quarter"
+"Ce trimestre"
+
+"Last year"
+"Année dernière"
+
+"This year"
+"Cette année"
+
+"*driver* is unbound."
+"*driver* non consolidé."
+
+"Error syncing Fields for Table ''{0}''"
+"Erreur lors de la synchronisation des champs pour la table ''{0}''"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"Le hash de {0} correspond au hash stocké, synchronisation des champs ignorée"
+
+"Field"
+"Champ"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"Erreur en vérifiant si les champs {0} ont besoin d'être créés ou réactivés"
+
+"Marking Field ''{0}'' as inactive."
+"Marquage du champ \"{0}\" comme inactif."
+
+"Error retiring {0}"
+"Erreur lors du retrait du champ {0}"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"Le type de base de données {0} est passé de ''{1}'' à ''{2}''."
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"Le type de base de {0} a changé de \"{1}\" vers \"{2}\""
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"Le type spécial de {0} a changé de \"{1}\" vers \"{2}\""
+
+"Comment has been added for {0}."
+"Le commentaire a été ajouté pour {0}"
+
+"Stopping Quartz Scheduler {0}"
+"Arrêt du planificateur Quartz {0}"
+
+"Starting Quartz Scheduler {0}"
+"Démarrage du planificateur Quartz {0}"
+
+"Error loading tasks namespace {0}"
+"Erreur au chargement de l'espace de nommage des tâches {0}"
+
+"Initializing task {0}"
+"Initialisation de la tâche {0}"
+
+"Error initializing task {0}"
+"Erreur lors de l'initialisation de la tâche {0}"
+
+"Problem sending abandonment email"
+"Problème à l'envoi du courriel d'abandon"
+
+"Sending anonymous usage stats."
+"Envoi des statistiques anonymes d'utilisation."
+
+"Error sending anonymous usage stats"
+"Erreur durant l'envoi des statistiques anonymes d'utilisation"
+
+"Error sending Pulse {0}"
+"Erreur à l'envoi du Pulse {0}"
+
+"Sending scheduled pulses..."
+"Envoi des Pulses planifiés..."
+
+"SendPulses task failed"
+"La tâche SendPulses a échoué"
+
+"Failed to scheduler tasks for Database {0}"
+"Échec de planification des tâche pour la base de données {0}"
+
+"Cleaning up task history"
+"Nettoyage de l'historique des tâches"
+
+"Task history cleanup successful, rows were deleted"
+"Historique des tâches nettoyé avec succès, les lignes ont été supprimées"
+
+"Task history cleanup successful, no rows were deleted"
+"Historique des tâches nettoyé avec succès, aucune ligne n'a été supprimée"
+
+"Checking for new Metabase version info."
+"Vérification des informations de nouvelle version de Metabase."
+
+"Error fetching version info"
+"Erreur lors de la récupération des informations de version"
+
+"Maximum memory available to JVM: {0}"
+"Mémoire maximale disponible pour la JVM : {0}"
+
+"Not something with an ID: {0}"
+"Aucun objet n'a pour ID : {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"Les métadonnées des résultats de la carte transmises à l'API sont MANQUANTES. Requête en cours d'exécution pour récupérer les métadonnées correctes."
+
+"{0} was autocorrected to {1}"
+"{0} a été automatiquement corrigé par {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE /api/metric/:id est déprécié. À la place, changer sa valeur `archived` via PUT /api/metric/:id."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE /api/segment/:id est déprécié. À la place, changer sa valeur `archived` via PUT /api/segment/:id."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"La valeur is_superuser doit correspondre à la présence de l'ID du groupe Admin dans group_ids."
+
+"Unexpected error writing keepalive characters"
+"Erreur inattendue lors de l'enregistrement des caractères persistants"
+
+"Unexpected output in async API response"
+"Retour inattendu dans la réponse de l'API asynchrone"
+
+"starting streaming response"
+"démarrer la réponse en streaming"
+
+"Output chan closed, canceling keepalive request."
+"Canal sortant fermé, annulation de la requête persistante."
+
+"Async response finished, closing channels."
+"Réponse asynchrone terminée, fermeture des canaux."
+
+"No response after waiting {0}. Canceling request."
+"Aucune réponse après l'attente de {0}. Annulation de la requête."
+
+"Input channel unexpectedly closed."
+"Canal entrant fermé de façon inattendue."
+
+"f finished, permit will be returned"
+"f finished, permit will be returned"
+
+"request canceled, permit will be returned"
+"request canceled, permit will be returned"
+
+"Unexpected error attempting to run function after obtaining permit"
+"Unexpected error attempting to run function after obtaining permit"
+
+"Not running pending function call: output channel already closed."
+"Non exécution de l'appel de fonction en instance : canal de sortie déjà fermé."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"Current thread already has a permit for {0}, will not wait to acquire another"
+
+"Output channel closed, will skip running {0}."
+"Canal sortant fermé, ce qui n’exécutera pas {0}."
+
+"Running {0} on separate thread..."
+"Exécution de {0} sur un thread séparé..."
+
+"Caught error running {0}"
+"Erreur interceptée en cours d'exécution {0}"
+
+"Request canceled, canceling future"
+"Requête annulée, annulation des suivantes"
+
+"Closing old connection pool for database {0} ..."
+"Fermeture de l'ancien pool de connexion pour la base de données {0} ..."
+
+"Here''s your {0} most recent cards:"
+"Voici vos {0} questions les plus récentes :"
+
+"Card {0} not found."
+"Carte {0} introuvable."
+
+"Exception in API call"
+"Exception dans l'appel API"
+
+"Request canceled before finishing."
+"Requête annulée avant la fin."
+
+"Metabase only supports JSON requests."
+"Metabase ne prend en charge que les requêtes JSON."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Vérifiez que le header 'Content-Type: application/json' est configuré."
+
+"Setting Metabase site URL to {0}"
+"Configuration de l'URL de Metabase sur {0}"
+
+"Error scheduling tasks for DB"
+"Erreur de planification des tâches pour la DB"
+
+"Error unscheduling tasks for DB."
+"Erreur de déplanification des tâches pour la DB"
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} Les planifications sync/analyze de la base de données \"{1}\" ont changé !"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"Les métadonnées synchronisées : \"{0}\" sont maintenant : \"{1}\""
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Le cache des filtres de champs était : \"{0}\", est maintenant : \"{1}\""
+
+"You cannot update the creator_id of a Metric."
+"Vous ne pouvez pas mettre à jour le creator_id d'une métrique."
+
+"Failed to grant permissions"
+"Impossible d'octroyer les permissions"
+
+"Changing permissions"
+"Changement des permissions"
+
+"FROM:"
+"DE :"
+
+"TO:"
+"POUR :"
+
+"You cannot update the creator_id of a Segment."
+"Vous ne pouvez pas mettre à jour le creator_id d'un segment."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"Vous avez tenté de définir le paramètre {0} sur une valeur occultée. Changement ignoré."
+
+"Using value of env var {0}"
+"Utilise la valeur de env var"
+
+"Adding User {0} to All Users permissions group..."
+"Ajout de l'utilisateur {0} au groupe d'autorisations \"Tous les utilisateurs\"..."
+
+"Adding User {0} to Admin permissions group..."
+"Ajout de l'utilisateur {0} au groupe d'autorisations \"Admin\"..."
+
+"Query failure"
+"Erreur de la requête"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"Nombre maximal de requêtes simultanées à autoriser par base de données connectée."
+
+"Timed out after {0} milliseconds."
+"Expire après {0} millisecondes."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"Problème à la connexion au serveur LDAP, Repli vers vers l'authentification locale"
+
+"Cannot create Database: cannot find driver {0}."
+"Incapable de créer la base de données : incapable de trouver le pilote {0}."
+
+"Query failed"
+"La requête a échoué"
+
+"Warning: {0} returned `nil`"
+"Avertissement: {0} a retourné 'nil'"
+
+"Unexpected error writing result to output channel: already closed"
+"Erreur inattendue à l'écriture du résultat dans le canal de sortie: déjà fermé"
+
+"Unexpected error writing exception to output channel: already closed"
+"Erreur inattendue à l'écriture de l'exception dans le canal de sortie: déjà fermé"
+
+"Request canceled, canceling future."
+"Requête annulée, annulation de la planification."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase peut transférer ses données depuis H2 uniquement vers Postgres ou MySQL/MariaDB."
+
+"Application database setup"
+"Installation de la base de données"
+
+"Could not find {0} driver."
+"Impossible de trouver le driver {0}"
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"Les pilotes abstraits ne peuvent pas dériver (hériter) de pilotes concrets."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"Il se peut que vous deviez ajouter 'trustServerCertificate=true' aux options additionnelles de connexion pour pouvoir vous connecter avec SSL."
+
+"Don't know how to alias {0}, expected an Identifer."
+"Je ne sais pas comment créer un alias à {0}, j'attendais un identifiant."
+
+"Client closed connection, canceling query"
+"Le client a fermé la connexion, requête annulée"
+
+"{0} is not a valid DN."
+"{0} n'est pas un nom absolu valide"
+
+"Error logging API request"
+"Erreur à l'inscription d'une requête API dans le log"
+
+"Failed to set site-url"
+"Échec lors de la mise en place de site-url"
+
+"Error destroying thread pool for DB."
+"Erreur lors de la destruction du réservoir de fils d'exécution pour la DB."
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"Mise à jour du libellé pour {0} \"{1}\": \"{2}\" -> \"{3}\""
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"\"{0}\" est une stratégie d'humanisation invalide. Les stratégies valides sont : {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Changement de la stratégie d'humanisation des noms de champs et de tables depuis \"{0}\" vers \"{1}\""
+
+"Error saving task history"
+"Erreur à la sauvegarde de l'historique des tâches"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"spark-deps.jar n'est plus utilisé par Metabase 0.32.0+. Vous pouvez donc le supprimer du dossier d'extensions."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"Utilisation d'un classloader nouvellement créé comme classloader de contexte partagé: {0}"
+
+"Failed to copy file"
+"Impossible de copier le fichier"
+
+"Invalid site URL: {0}"
+"URL de site web invalide: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"site-url est invalide; renvoi de nil pour le moment. Sera repositionné à la prochaine requête."
+
+"More results have been included as a file attachment"
+"Plus d'information a été inclue dans un fichier en attachement"
+
+"This question has been included as a file attachment"
+"Cette question a été inclue dans un fichier en attachement"
+
+"We were unable to display this Pulse."
+"Nous avons été incapable d'afficher ce Pulse."
+
+"Please view this card in Metabase."
+"Visualisez s'il vous plaît cette carte dans Metabase."
+
+"An error occurred while displaying this card."
+"Une erreur s'est produite lors de l'affichage de cette carte."
+
+"Can only determine expected columns for MBQL queries."
+"Je peux seulement déterminer les colonnes attendues pour les requêtes MBQL."
+
+"No columns returned."
+"Pas de colonnes retournées."
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Avertissement: je ne peux pas déterminer les champs d'une requête source explicite 'source-query' à moins que vous incluiez les métadonnées 'source-metadata'"
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"Incapable de résoudre {0}: le champ n'existe pas, ou sa table appartient à une autre base de données."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"Impossible de résoudre :field-literal dans :fk-> à moins d'utiliser un inside join avec :alias explicite."
+
+"Cannot find Table ID for {0}"
+"Incapable de trouver l'ID de table pour {0}"
+
+"No matching info found."
+"Pas d'information concordante trouvée."
+
+"Could not resolve {0}"
+"Incapable de résoudre {0}"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"Clause fk-> invalide: aucun endroit pour ajouter la jointure correspondante."
+
+"{0} driver does not support foreign keys."
+"Le driver {0} ne supporte pas les clés étrangères."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"Incapable d'inférer ':source-metadata' pour une requête source native sans métadonnées."
+
+"Query processor error: number of columns returned by driver does not match results."
+"Erreur dans le processeur de requête: le nombre de colonnes retourné par le pilote ne correspond pas aux résultats."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"J'attendais {0} colonnes, mais la première ligne de résultats en a {1}."
+
+"No expression named {0} found. Found: {1}"
+"Je n'ai trouvé aucune expression nommée {0}, mais plutôt {1}"
+
+"Distinct values of {0}"
+"Valeurs distinctes de {0}"
+
+"Average of {0}"
+"Moyenne de {0}"
+
+"Sum of {0}"
+"Somme de {0}"
+
+"SD of {0}"
+"Écart-type de {0}"
+
+"Min of {0}"
+"Min de {0}"
+
+"Max of {0}"
+"Max de {0}"
+
+"Sum of {0} matching condition"
+"Somme des {0} vérifiant la condition"
+
+"Share of rows matching condition"
+"Part des lignes vérifiant la condition"
+
+"Count of rows matching condition"
+"Nombre de lignes vérifiant la condition"
+
+"Request already canceled, will not run synchronous QP code."
+"Requête déjà annulée, le code QP synchrone ne sera pas exécuté."
+
+"Unexpectedly got `nil` Query Processor response."
+"le processeur de requête a répondu 'nil' de façon inattendue."
+
+"Got InterruptedException. Canceling query."
+"InterruptedException. Annulation de la requête."
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"Exception non gérée, le middleware 'catch-exceptions' aurait dû la gérer."
+
+"Query timed out after %s"
+"La requête a expiré après %s"
+
+"Creating new query thread pool for Database {0}"
+"Création d'un nouveau réservoir de fils d'exécution de requête pour la base de données {0}"
+
+"Destroying query thread pool for Database {0}"
+"Destruction du réservoir de fils d'exécution de requête pour la base de données {0}"
+
+"Request canceled, canceling pending query"
+"Requête annulée, annulation de la requête en attente"
+
+"Cannot update binned field: query is missing source-metadata"
+"Incapable de mettre à jour le champ binné: la requête manque de métadonnées source"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"Dans l'incapacité de mettre à jour le champ binné : métadonnées correspondantes non trouvées pour le champ ''{0}''"
+
+"Using query processor cache backend: {0}"
+"Utilisation du cache du processeur de requête: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"Métrique invalide: {0}, raison: {1}"
+
+"Unknown error"
+"Erreur inconnue"
+
+"Unexpected nil response from query processor."
+"Le processeur de requête a répondu 'nil' de façon inattendue."
+
+"Query canceled"
+"Requête annulée"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"Incapable de résoudre le pilote pour la requête: ID de la base de données manquant ou invalide."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"Incapable de résoudre le pilote pour la requête: la base de données {0} n'existe pas."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"Impossible d'utiliser :fields :all dans un join avec la requête source sauf si elle a :source-metadata."
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"Mauvaise clause :join-field : la jointure avec l'alias ''{0}'' n'existe pas. Trouvé : {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"Non valide :source-table ''{0}'' : doit maintenant être résolu en un Table ID."
+
+"Cannot store Tables or Fields before Database is stored."
+"Incapable de stocker des tables ou des champs avant qu'une base de données soit stockée."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"Tentative de lire une seconde base de données. Les requêtes ne peuvent en référencer qu'une seule."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"Incapable de lire la table {0}: elle n'existe pas, ou appartient à une base de données différente."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"Incapable de lire le champ {0}: il n'existe pas, ou appartient à une base de données différente."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"Incapable de charger le patron \"{0}\": Avez-vous pensé à construire la devanture Metabase ?"
+
+"Found new tables:"
+"Nouvelles tables trouvées:"
+
+"Marking tables as inactive:"
+"Marquage des tables comme inactives:"
+
+"Updating description for tables:"
+"Mise à jour de la description des tables:"
+
+"Rescheduling job {0}"
+"Replanification du job {0}"
+
+"Error rescheduling job"
+"Erreur à la replanification du job"
+
+"Starting Pulse Execution: {0}"
+"Démarrage de l'exécution du Pulse : {0}"
+
+"Finished Pulse Execution: {0}"
+"Exécution du Pulse terminée : {0}"
+
+"Failed to schedule tasks for Database {0}"
+"Échec à la planification des tâches pour la base de données {0}"
+
+"All elements must be distinct."
+"Tous les éléments doivent être distincts."
+
+"Don't know how to alias {0}, expected an Identifier."
+"Impossible de savoir comment alias {0}, un Identifier était attendu."
+
+"Error adding User {0} to Group {1}"
+"Erreur lors de l'ajout de l'utilisateur {0} au groupe {1}"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Modification de la stratégie d'humanisation des noms de Table et de Champ de ''{0}'' à ''{1}''"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"Boucle infinie détectée: requête pré-traitée récursivement {0} fois."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Attention: impossible de déterminer les champs pour une `source-query` explicite à moins d'inclure également `source-metadata`."
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"Exception non gérée, aurait du être prise en charge par le middleware `catch-exceptions`."
+
+"All"
+"Tout"
+
+"An error occurred while running the query."
+"Une erreur s'est produite pendant l'exécution de la requête."
+
+"Output H2 database already exists: %s, removing."
+"La base de données H2 existe déjà: %s, suppression."
+
+"Don't need to migrate, just use the existing H2 file"
+"Pas besoin de migrer, utilisez simplement le fichier H2 existant"
+
+"Target DB is already populated!"
+"La BDD cible est déjà remplie !"
+
+"System info:n {0}"
+"Informations système : n {0}"
+
+"Database setup"
+"Configuration de la base de données"
+
+"Invalid '{{...}}' clause: expected a param name"
+"Clause '{{...}}' non valide : un nom de paramètre est attendu"
+
+"'{{...}}' clauses cannot be empty."
+"Les clauses '{{...}}' ne peuvent pas être vides."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"Les clauses '[[...]]' doivent contenir au moins une clause '{{...}}'."
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"Requête invalide : '[[' ou '{{' sans ']]' ou '}}' correspondant"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"Vous devrez sélectionner une valeur pour ''{0}'' avant que cette requête puisse s'exécuter."
+
+"Can''t find field with ID: {0}"
+"Impossible de trouver le champ avec l'ID : {0}"
+
+"Error loading driver namespace"
+"Erreur lors du chargement de l'espace de noms du pilote"
+
+"Could not load {0} driver."
+"Impossible de charger le pilote {0}."
+
+"Don''t know how to parse {0} {1}"
+"Je ne sais pas comment analyser {0} {1}"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"Je ne sais pas comment remplacer {0}, attendait un identifiant."
+
+"Don''t know how to unprepare values of class {0}"
+"Je ne sais pas comment annuler la préparation des valeurs de la classe {0}"
+
+"Creating new connection pool for {0} database {1} ..."
+"Création d'un nouveau pool de connexions pour {0} de la base de données {1} ..."
+
+"Invalid timezone ''{0}''"
+"Fuseau horaire non valide ''{0}''"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"Impossible de définir le fuseau horaire : chaîne de format SQL non valide ou manquante pour le pilote {0}."
+
+"Did you implement set-timezone-sql?"
+"Avez-vous implémenté set-timezone-sql ?"
+
+"Failed to set timezone ''{0}''"
+"Impossible de définir le fuseau horaire ''{0}''"
+
+"Error parsing JSON"
+"Erreur lors de l'analyse du JSON"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"Afficher ou non les données sur la page d'accueil. Les administrateurs peuvent désactiver cette option afin de diriger les utilisateurs vers un meilleur contenu que les données brutes"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Afficher ou non des suggestions de rayons X sur la page d'accueil. Ils seront également masqués si des tableaux de bord sont épinglés. Les administrateurs peuvent les masquer pour diriger les utilisateurs vers un meilleur contenu que les données brutes"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"Identifiez la source des requêtes HTTP par la valeur de cet entête, au lieu de son adresse distante."
+
+"Could not resolve Setting {0}/{1}"
+"Impossible de résoudre le paramètre {0}/{1}"
+
+"Invalid Setting: {0}/{1}"
+"Paramètre invalide : {0}/{1}"
+
+"reached its goal"
+"a atteint son objectif"
+
+"gone below its goal"
+"est en dessous de son objectif"
+
+"Sending Pulse ({0}: {1}) via email"
+"Envoi du Pulse ({0} : {1}) par email"
+
+"Pulse: {0}"
+"Pulse : {0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Envoi du Pulse ({0} : {1}) par Slack"
+
+"Sending Alert ({0}: {1}) via email"
+"Envoi de l'alerte ({0} : {1}) par email"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Envoi de l'alerte ({0} : {1}) par Slack"
+
+"Alert: {0}"
+"Alerte : {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"Impossible de trouver le sélecteur de couleurs JS à ''{0} '"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"À CORRIGER : Ce ne sont pas des littéraux temporels valides : {0} {1}. Pourquoi essayons-nous de les formater comme tels ?"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"Aucune information correspondante trouvée pour la jointure avec la table {0} ''{1}'' sur le champ {2} ''{3}'' via la clef étrangère {4} ''{5}''"
+
+"Don''t know how to get information about Field: {0}"
+"Je ne sais pas comment obtenir des informations sur le champ: {0}"
+
+"Query timed out after {0}"
+"La requête a expiré après {0}"
+
+"Formatting rows with results timezone ID {0}"
+"Formatage des lignes avec les résultat de l'ID du fuseau horaire {0}"
+
+"Invalid timezone ID ''{0}''"
+"ID de fuseau horaire invalide ''{0}''"
+
+"Saving fingerprint for {0}"
+"Enregistrement de l'empreinte digitale pour {0}"
+
+"Sending abandoment email!"
+"Envoi d'un e-mail d'abandon !"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"Les transformations résultantes ne sont pas conformes aux attentes. \nAttendu : {0}"
+
+"Timed out after {0}"
+"A expiré après {0}"
+
+"No temporal adjuster named {0}"
+"Aucun ajusteur temporel nommé {0}"
+
+"Invalid unit: {0}"
+"Unité invalide : {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"Je ne sais pas comment analyser {0} en utilisant le format {1}"
+
+"Token is missing value for keypath {0}"
+"La valeur du jeton est manquante pour le chemin {0}"
+
+"Sending usage stats FAILED"
+"Échec de l'envoi des statistiques d'utilisation"
+
+"or"
+"ou"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase peut analyser les valeurs présentes dans chaque champ de cette base de données pour activer les filtres de cases à cocher dans les tableaux de bord et les questions. Ce processus peut être quelque peu gourmand en ressources, en particulier si vous disposez d'une très grande base de données."
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"La connexion à ''{0}:{1}'' a réussi, mais impossible de se connecter à la base de données."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"La connexion à l'hôte ''{0}'' est réussie, mais le port {1} est invalide."
+
+"Host ''{0}'' is not reachable"
+"L'hôte ''{0}'' n'est pas joignable"
+
+"Unable to connect to database."
+"Impossible de se connecter à la base de données."
+
+"Cannot connect to Database"
+"Ne peut pas se connecter à la base de données "
+
+"You''re not allowed to specify a value for {0}."
+"Vous n'êtes pas autorisé à spécifier une valeur pour {0}."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"Vous ne pouvez pas spécifier une valeur pour {0} si elle est déjà définie dans le JWT."
+
+"You must specify a value for {0} in the JWT."
+"Vous devez spécifier une valeur pour {0} dans le JWT."
+
+"You can only specify a value for {0} in the JWT."
+"Vous pouvez seulement spécifier une valeur pour {0} dans le JWT."
+
+"Error searching field values"
+"Erreur dans la recherche des valeurs des champs"
+
+"Error searching for remapping"
+"Recherche d'erreurs pour le mappage de données"
+
+"Double check that it matches in Google and Metabase."
+"Vérifiez la correspondance dans Google et Metabase."
+
+"Everything else"
+"Tout le reste"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"AVERTISSEMENT : vous avez activé le suivi de l'espace de noms, qui pourrait journaliser des informations sensibles comme les mots de passe de la base de données."
+
+"Database Upgrade Required"
+"Mise à jour de la base de données requise"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"REMARQUE : Votre base de données nécessite des mises à jour pour fonctionner avec cette version de Metabase."
+
+"Please execute the following sql commands on your database before proceeding."
+"Veuillez exécuter les commandes sql suivantes sur votre base de données avant de poursuivre."
+
+"Once your database is updated try running the application again."
+"Une fois que votre base de données est mise à jour, essayez de relancer l'application."
+
+"Database requires manual upgrade."
+"La base de données nécessite une mise à jour manuelle."
+
+"Successfully verified {0} {1} application database connection."
+"Connexion à la base de données des applications {0} {1} vérifiée avec succès."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"Ne sait pas comment analyser le paramètre date ''{0}'' - format non valide"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"La sous-requête de la question référencée #{0} a échoué avec l'erreur suivante : {1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"ATTENTION : Metabase ne supporte officiellement que MySQL {0}/MariaDB {1} et supérieur."
+
+"All Metabase features may not work properly when using an unsupported version."
+"Certaines fonctionnalités de Metabase pourraient ne pas fonctionner en utilisant une version non supportée."
+
+"Cannot run the query: missing required parameters: {0}"
+"Impossible d’exécuter la requête : paramètres requis manquants : {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"Ne sait pas comment analyser {0} {1} comme un littéral temporel"
+
+"Setting {0} database timezone with statement: {1}"
+"Réglage du fuseau horaire de la base de données {0} avec la déclaration : {1}"
+
+"Error setting connection to readwrite"
+"Erreur de paramétrage de la connexion en lecture-écriture"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"Échec de définition du fuseau horaire \"{0}\" pour la base de données {1}"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"Erreur de réglage du niveau d'isolation des transactions pour la base de données {0} sur {1}"
+
+"Error setting connection to read-only"
+"Erreur de paramétrage de la connexion en lecture seule"
+
+"Error setting default holdability for connection"
+"Erreur de définition de la capacité de rétention par défaut pour la connexion"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"Requête annulée, en appelant PreparedStatement.cancel()"
+
+"Failed to connect to database"
+"Échec de la connexion à la base de données "
+
+"Unable to determine connection properties for driver {0}"
+"Impossible de déterminer les propriétés de connexion pour le pilote {0}"
+
+"Error fetching field values"
+"Erreur dans la récupération des valeurs du champ"
+
+"You cannot set {0}; it is a read-only setting."
+"Vous ne pouvez pas modifier {0}; c'est un paramètre en lecture seule."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"les chaînes de description defsetting doivent avoir les caractéristiques suivantes : `:visibilty` `:internal`, `:setter` `:none`, ou internationalized, trouvé : `{0}`."
+
+"Setting {0} is internal"
+"Le paramètre {0} est interne"
+
+"Loading local plugin manifest at {0}"
+"Chargement du manifeste du plugin local à {0}"
+
+"Google Analytics tracking code."
+"Code de suivi de Google Analytics."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"Envoi d'un pulse ({0} : {1}) avec {2} Cartes par courrier électronique"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Envoi d'un pulse ({0} : {1}) avec {2} Cartes via Slack"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"Rendu de la carte du pulse avec le type de graphique {0} et le type de rendu {1}"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"À CORRIGER : Ce ne sont pas des littéraux temporels valables : {0} {1}. Pourquoi tentons-nous de les formater en tant que tels ?"
+
+"Error reducing result rows"
+"Erreur lors de la réduction des lignes de résultats"
+
+"Unexpected nil result"
+"Résultat nul inattendu"
+
+"Query timed out after {0} ms, raising timeout exception."
+"La requête a été interrompue après {0} ms, entraînant une exception de dépassement de délai."
+
+"Timed out after {0}."
+"Interrompu après {0}."
+
+"Query canceled before finishing."
+"Requête annulée avant la fin de l’exécution."
+
+"Unknown query type {0}"
+"Type de requête inconnu {0}"
+
+"Caching results for next time for query with hash {0}."
+"Mise en cache des résultats pour la prochaine interrogation avec un hash {0}."
+
+"Error saving query results to cache."
+"Erreur de sauvegarde des résultats de la requête dans le cache."
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"La requête a pris {0} pour être traitée ; le miminum pour l'éligibilité au cache est de {1}."
+
+"Results are too large to cache."
+"Les résultats sont trop grand pour être mis en cache"
+
+"Error parsing serialized results"
+"Erreur d'analyse des résultats sérialisés"
+
+"Error purging old cache entries"
+"Erreur de purge d'anciennes entrées de cache"
+
+"Caching results for query with hash {0}."
+"Mise en cache des résultats de la requête avec le hash {0}."
+
+"Cannot save QueryExecution, missing :context"
+"Impossible de sauver QueryExecution, manquant :context"
+
+"Error saving query execution info"
+"Erreur de sauvegarde des informations d’exécution de la requête"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"Impossible de résoudre la base de données pour la requête : identifiant `:database` manquant ou invalide."
+
+"Unable to resolve driver for query"
+"Impossible de résoudre le pilote pour la requête"
+
+"Referenced question #{0} could not be found"
+"La question #{0} n'a pas pu être trouvée"
+
+"Referenced query is from a different database"
+"La requête référencée vient d'une base de données différente"
+
+"This query has circular referencing sub-queries. "
+"Cette requête comporte une référence circulaire aux sous-requêtes."
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"Ces questions semblent problématiques : \"{0}\" et \"{1}\""
+
+"Error recording results metadata for query"
+"Erreur dans l'enregistrement des métadonnées de la requête"
+
+"Query result"
+"Résultats de la requête"
+
+"Error generating insights for column:"
+"Erreur lors de la génération des aperçus pour la colonne :"
+
+"Sending abandonment email!"
+"Envoi d'un courriel d'abandon !"
+
+"SSH Authentication"
+"Authentification SSH"
+
+"SSH Key"
+"Clé SSH"
+
+"Server SSL certificate chain"
+"Chaîne de certificats SSL du serveur"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"La durée moyenne d'exécution de la question est de {0} ; en utilisant un TTL \"magique\" de {1}."
+
+"A snippet with that name already exists. Please pick a different name."
+"Il existe déjà une snippet de ce nom. Veuillez choisir un autre nom."
+
+"[Unknown Metric]"
+"[Métrique inconnue]"
+
+"[Unknown Segment]"
+"[Segment inconnu]"
+
+"Error writing error to output stream"
+"Erreur d'écriture dans le flux de sortie"
+
+"Caught unexpected Exception in streaming response body"
+"Exception trouvée dans le corps de réponse en flux de sortie"
+
+"bound-fn caught unexpected Exception"
+"bound-fn a provoqué une exception inattendue"
+
+"Error determining whether HTTP request was canceled"
+"Erreur déterminant si la demande HTTP a été annulée"
+
+"Check cancelation status timed out after {0}"
+"Vérifier le statut d'annulation après {0}."
+
+"Unexpected exception in do-f-async"
+"Exception inattendue dans do-f-async"
+
+"Unexpected exception writing error response"
+"Exception inattendue lors de l'écriture de la réponse à l'erreur"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"Certificat de serveur non fiable - avez-vous spécifié une chaîne de certificats SSL correcte ?"
+
+"Server appears to require SSL - please enable SSL above"
+"Le serveur semble nécessiter le SSL - veuillez activer le SSL ci-dessus"
+
+"Username"
+"Nom d'utilisateur"
+
+"Don''t know how to parse parameter of type {0}"
+"Ne sait pas comment analyser le paramètre de type {0}"
+
+"Invalid :card parameter: missing `:card-id`"
+"Paramètre :card invalide : `:card-id` manquant"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"Incapable de résoudre la Snippet : `:snippet-id` manquant"
+
+"Snippet {0} {1} not found."
+"Snippet {0} {1} non trouvée."
+
+"Error determining value for parameter"
+"Erreur lors de la détermination de la valeur du paramètre"
+
+"Error building query parameter map"
+"Erreur lors de la création de la carte des paramètres de requête"
+
+"ASYNC"
+"ASYNC"
+
+"{0} ({1} DB calls)"
+"{0} ({1} appels de DB)"
+
+"App DB connections: {0}/{1}"
+"Connexions App DB : {0}/{1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"Threads Jetty : {0}/{1} ({2} inactif, {3} en file d'attente)"
+
+"({0} total active threads)"
+"({0} total de threads actifs)"
+
+"Queries in flight: {0}"
+"Requêtes en cours : {0}"
+
+"({0} queued)"
+"({0} en file d'attente)"
+
+"Collection must be in the same namespace as its parent"
+"La collection doit se trouver dans le même espace de noms que son parent"
+
+"Personal Collections must be in the default namespace"
+"Les collections personnelles doivent se trouver dans l'espace de noms par défaut"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"Vous ne pouvez pas déplacer une collection vers un espace de noms différent une fois qu'elle a été créée."
+
+"Collection does not exist."
+"La collection n'existe pas."
+
+"A {0} can only go in Collections in the {1} namespace."
+"Un {0} ne peut aller que dans les Collections de l'espace de noms {1}."
+
+"Error sending database deletion notification"
+"Erreur d'envoi de la notification de suppression de la base de données"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"Vous ne pouvez pas mettre à jour le creator_id d'un NativeQuerySnippet."
+
+"Error fetching value of Setting"
+"Erreur de recherche de la valeur du paramètre"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Le langage qui doit être utilisé pour l'interface utilisateur de Metabase, les e-mails du système, les pulses et les alertes."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"C'est également la langue par défaut pour tous les utilisateurs, qu'ils peuvent modifier à partir des paramètres de leur propre compte."
+
+"Invalid locale {0}"
+"Localisation invalide {0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"Forcer tout le trafic à utiliser HTTPS via une redirection, si l'URL du site est HTTPS"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"Ne peut pas rediriger les demandes vers le HTTPS à moins que \"site-url\" ne soit HTTPS."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"Erreur d'enregistrement des polices : Metabase ne pourra pas envoyer les Pulses."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"C'est un problème connu de certaines JVMs. Voir {0} et pour plus de détails."
+
+"Error rendering Pulse"
+"Erreur de rendu du Pulse"
+
+"Query timed out after {0}, raising timeout exception."
+"La requête a été interrompue après {0}, ce qui a entraîné une exception de délai d'attente."
+
+"No fields found for table {0}."
+"Aucun champ trouvé pour la table {0}."
+
+"Case"
+"Casse"
+
+"Variance of {0}"
+"Variance de {0}"
+
+"Median of {0}"
+"Médian de {0}"
+
+"{0}th percentile of {1}"
+"{0}ième percentile de {1}"
+
+"Not caching results: results are larger than {0} KB"
+"Pas de mise en cache des résultats : les résultats sont supérieurs à {0} KB"
+
+"Cannot cache results: expected byte array, got {0}"
+"Impossible de mettre en cache les résultats : tableau d'octets attendu, obtenu {0}."
+
+"Request is closed; no one to return cached results to"
+"La requête est close ; personne ne peut renvoyer les résultats mis en cache à"
+
+"Error preparing statement to fetch cached query results"
+"Erreur de préparation de la déclaration pour récupérer les résultats d'une requête en cache"
+
+"Error processing query: {0}"
+"Erreur lors du traitement de la requête : {0}"
+
+"Unexpected exception in endpoint"
+"Exception inattendue dans la ressource"
+
+"Unexpected Exception in API request handler"
+"Exception inattendue dans le gestionnaire de requêtes API"
+
+"Error reducing {0}"
+"Erreur lors de la réduction de {0}"
+
+"Error generating timeseries insight keyed by: {0}"
+"Erreur lors de la génération des informations de série temporelle saisies par : {0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"La position de la base de données de {0} est passée de \" {1} \" à \" {2} \"."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"Annuler la planification de la tâche pour la base de données {0} : déclencheur {1}"
+
+"value must be a keyword or string."
+"La valeur doit être un mot-clef ou une chaîne"
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"La chaîne doit être une langue ISO valide à deux lettres ou un code langue-pays, par exemple \"en\" ou \"en_US\"."
+
+"Dashboard does not have a parameter with the ID {0}"
+"Le tableau de bord n'a pas de paramètre avec l'ID {0}"
+
+"Parameter {0} does not have any Fields associated with it"
+"Aucun champ n'est associé au paramètre {0}."
+
+"include must be either empty or the value 'tables'"
+"\"Inclure\" doit soit être vide soit contenir la valeur 'tables'"
+
+"`database` is required for all queries whose type is not `internal`."
+"La \"base de données\" est requise pour toutes les requêtes dont le type n'est pas \"interne\"."
+
+"Password login is disabled for this instance."
+"Le mot de passe de connexion est désactivé dans ce cas."
+
+"Your account is disabled. Please contact your administrator."
+"Votre compte est désactivé. Veuillez contacter votre administrateur."
+
+"Your account is disabled."
+"Votre compte est désactivé."
+
+"Invalid Slack token."
+"Jeton Slack invalide."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"La commande ''{0}'' n'est disponible que dans Metabase Enterprise Edition."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Les extensions de Metabase Enterprise Edition sont PRÉSENTES."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"L'utilisation des fonctionnalités de Metabase Enterprise Edition est soumise à la licence commerciale de Metabase."
+
+"See {0} for details."
+"Voir {0} pour plus de détails."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Les extensions de Metabase Enterprise Edition ne sont PAS PRÉSENTES."
+
+"You''re invited to join {0}''s {1}"
+"Vous êtes invités à rejoindre les {0} {1}"
+
+"{0} created a {1} account"
+"{0} a créé un compte {1}"
+
+"{0} accepted their {1} invite"
+"{0} a accepté son invitation {1}"
+
+"[{0}] Password Reset Request"
+"[{0}] Demande de réinitialisation de mot de passe"
+
+"[{0}] Notification"
+"[{0}] Notification"
+
+"[{0}] Help make [{1}] better."
+"[{0}] Aide à rendre [{1}] meilleur."
+
+"[{0}] Tell us how things are going."
+"[{0}] Dites-nous comment les choses se passent."
+
+"Error starting events listener"
+"Erreur lors du démarrage de l'écouteur d'événements"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"Devrions-nous synchroniser les attributs utilisateurs quand quelqu'un se connecte via LDAP ?"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"Liste des attributs utilisateur séparés par des virgules afin d'ignorer la synchronisation pour les utilisateurs LDAP."
+
+"Invalid token"
+"Jeton invalide"
+
+"Slack API error: {0}"
+"Erreur d'API Slack: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Veuillez créer ou désarchiver le canal afin de terminer l'intégration Slack."
+
+"Uploaded image"
+"Image envoyée"
+
+"Invalid session. Expected an instance of Session."
+"Session invalide. Attendu une instance de Session."
+
+"Top folder"
+"Top dossier"
+
+":parameters must be a sequence of maps with String :id keys"
+":parameters doivent être dans une séquence de cartes avec les clefs :id"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"Valeurs lisibles par un humain non valides: les valeurs doivent être une séquence; chaque élément doit être nul ou une chaîne"
+
+":values must be present to fetch :human_readable_values"
+":values doivent être présentes pour aller chercher les valeurs :human_readable_values"
+
+"Field values total length is > {0}."
+"La longueur totale des valeurs des champs est > {0}."
+
+"snippet names cannot include '}' or start with spaces"
+"Les noms des fragments ne peuvent pas inclure \"}\" ou commencer par des espaces"
+
+"Error executing chain filter query"
+"Erreur d'exécution d'une requête de chaîne de filtre"
+
+"Field {0} does not exist."
+"Le champ {0} n'existe pas"
+
+"Cannot search against non-Text Field {0} {1}"
+"Impossible d'effectuer une recherche sur un champ non textuel {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"Accord de permissions pour le groupe {0} : {1}"
+
+"Revoking permissions for group {0}: {1}"
+"Révocation de permissions pour le groupe {0} : {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"Autorisations de la base de données invalides : si vous disposez d'un accès en écriture pour les requêtes natives, vous devez avoir un accès complet aux données."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"Autorisations de la base de données invalides : si vous disposez d'un accès en lecture seule en mode natif, vous devez également avoir accès aux données."
+
+"Changing permissions from: {0} to: {1}"
+"Modification des permissions de : {0} à : {1}"
+
+"login attribute keys must be a keyword or string"
+"les clés d'attribut de connexion doivent être un mot-clé ou une chaîne"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Langue par défaut pour tous les utilisateurs de l'interface utilisateur de la métabase, des e-mails système, des \"pulses\" et des alertes."
+
+"Users can individually override this default language from their own account settings."
+"Les utilisateurs peuvent remplacer individuellement cette langue par défaut à partir de leurs propres paramètres de compte."
+
+"Default page to show the user"
+"Page par défaut à afficher à l'utilisateur"
+
+"Allow this origin to embed the full Metabase application"
+"Autoriser cette origine à intégrer l'application Metabase complète"
+
+"Values greater than {0} ({1}) are not allowed."
+"Les valeurs supérieures à {0} ({1}) ne sont pas autorisées."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"Cela remplacera le mot \"Metabase\" partout où il apparaît."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"Ce sont les couleurs primaires utilisées dans les graphiques et dans tout Metabase. Vous devrez peut-être rafraîchir votre navigateur pour voir les changements apportés."
+
+"For best results, use an SVG file with a transparent background."
+"Pour de meilleurs résultats, utilisez un fichier SVG avec un fond transparent."
+
+"The url or image that you want to use as the favicon."
+"L'url ou l'image que vous voulez utiliser comme favicon."
+
+"Allow logging in by email and password."
+"Autoriser la connexion par email et mot de passe."
+
+"Unable to validate token"
+"Impossible de valider le jeton"
+
+"Token format is invalid."
+"Le format du jeton n'est pas valide."
+
+"Error validating token"
+"Erreur de validation du jeton"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"Erreur lors du filtrage sur le champ {0} : impossible d'analyser la chaîne {1} en un {2}."
+
+"Error fetching details for Job: {0}"
+"Erreur de recherche de détails pour le Job : {0}"
+
+"Starting sync task for Database {0}."
+"Lancement de la tâche de synchronisation pour la base de données {0}."
+
+"Cannot sync Database {0}: Database does not exist."
+"Impossible de synchroniser la base de données {0} : la base de données n'existe pas."
+
+"Update Field values task triggered for Database {0}."
+"Tâche de mise à jour des valeurs des champs déclenchée pour la base de données {0}."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"Sauter la mise à jour, les mises à jour automatiques des valeurs de champ sont désactivées pour la base de données {0}."
+
+"Periodically refingerprint tables"
+"Refaire l'empreinte des tables périodiquement"
+
+"Unable to run internal query function: cannot resolve {0}"
+"Impossible d'exécuter la fonction d'interrogation interne : ne peut pas résoudre {0}"
+
+"Audit App queries are not enabled on this instance."
+"Les requêtes de l'application d'audit ne sont pas activées dans ce cas."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"Fonction d'interrogation interne invalide : {0} n'est pas marqué comme ^:internal-query-fn"
+
+"Error: sandboxing is not enabled for this instance."
+"Erreur : le bac à sable n'est pas activé pour cette instance."
+
+"Please check you have set a valid Enterprise token and try again."
+"Vérifiez SVP que vous possédez un token Entreprise valide et essayez encore."
+
+"No permissions found for current user"
+"Aucune autorisation trouvée pour l'utilisateur actuel"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"L'utilisateur \"{0}\" a tenté d'accéder à un champ inaccessible. Champs accessibles {1}, champs de la requête {2}"
+
+"User not able to query field"
+"Utilisateur incapable d'interroger le champ"
+
+"Found more than one group table access policy for user ''{0}''"
+"J'ai trouvé plus d'une politique d'accès aux tables de groupe pour l'utilisateur ''{0}''."
+
+"Query requires user attribute `{0}`"
+"La requête nécessite l'attribut utilisateur `{0}`"
+
+"invalid --mode value"
+"valeur --mode invalide"
+
+"invalid --on-error value"
+"valeur --on-error invalide"
+
+"invalid context seed value"
+"valeur d'amorçage du contexte non valable"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"Le dump est issu d'une version différente de Metabase. Cela peut mal se passer !"
+
+"Error loading dump: {0}"
+"Erreur du chargement du dump : {0}"
+
+"{0} is not a valid user"
+"{0} n'est pas un utilisateur valide"
+
+"Error dumping {0}"
+"Erreur de dumping {0}"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"Aucun utilisateur admin trouvé ! Au moins un utilisateur admin est nécessaire pour agir en tant que propriétaire de toutes les entités chargées."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"Dépendances de chargement d'erreur : référence à une entité inconnue {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"Ne peut pas résoudre {0} dans le nom complet {1}"
+
+"Model {0} does not support upsert"
+"Le modèle {0} ne prend pas en charge l'upsert"
+
+"Error inserting {0}"
+"Erreur d'insertion {0}"
+
+"Inserting {0}"
+"Insertion {0}"
+
+"{0} already exists -- skipping"
+"{0} existe déjà - ignoré"
+
+"Skipping {0} (nothing to update)"
+"Sauter {0} (rien à mettre à jour)"
+
+"Updating {0}"
+"Mise à jour {0}"
+
+"Error updating {0}"
+"Erreur de mise à jour {0}"
+
+"SSO has not been enabled and/or configured"
+"SSO n'a pas été activé et / ou configuré"
+
+"SSO requires a valid token"
+"SSO nécessite un jeton valide"
+
+"Error returning SSO entry point"
+"Erreur de renvoi du point d'entrée du SSO"
+
+"Error logging in"
+"Erreur de connexion"
+
+"Can't create new JWT user when JWT is not configured"
+"Impossible de créer un nouvel utilisateur JWT lorsque JWT n'est pas configuré"
+
+"JWT SSO has not been enabled and/or configured"
+"Le SSO JWT n'a pas été activé et/ou configuré"
+
+"Invalid SAML configuration: could not find user email."
+"Configuration SAML non valide: impossible de trouver l'adresse e-mail de l'utilisateur."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"Nous avons essayé de chercher {0}, mais nous n'avons pas pu trouver l'attribut."
+
+"Please make sure your SAML IdP is properly configured."
+"Veuillez vous assurer que votre SAML IdP est correctement configuré."
+
+"SAML has not been enabled and/or configured"
+"SAML n'a pas été activé et/ou configuré"
+
+"Warning: expected `redirect` param, but none is present"
+"Attention : paramètre `redirect` attendu, mais aucun n'est présent"
+
+"Error generating SAML request"
+"Erreur à la génération de la requête SAML"
+
+"Unable to log in: SAML IdP certificate is not set."
+"Impossible de se connecter : Le certificat SAML IdP n'est pas défini."
+
+"SAML response validation failed"
+"La validation de la réponse SAML a échoué"
+
+"Unable to log in: SAML response validation failed"
+"Impossible de se connecter : Échec de la validation de la réponse SAML"
+
+"Unable to log in: SAML info does not contain user attributes."
+"Impossible de se connecter : Les informations SAML ne contiennent pas d'attributs utilisateur."
+
+"Enable SAML authentication."
+"Activez l'authentification SAML."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"C'est l'URL où vos utilisateurs se rendent pour se connecter à votre fournisseur d'identité. En fonction de l'IdP que vous utilisez\nen utilisant, cela ressemble généralement à https://your-org-name.example.com ou https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"Erreur d'analyse du certificat du fournisseur d'identité SAML"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"Certificat de fournisseur d'identité non valable. Le certificat doit être une chaîne codée en base-64."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"Certificat codé pour le fournisseur d'identité. En fonction de votre IdP, vous devrez peut-être le télécharger,\nl'ouvrir dans un éditeur de texte, puis copier et coller le contenu du certificat ici."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"Il s'agit d'un identifiant unique pour l'IdP. Il est souvent appelé \"Entity ID\" ou simplement \"Issuer\". Selon\nsur votre IdP, cela ressemble généralement à quelque chose comme http://www.example.com/141xkex604w0Q5PN724v"
+
+"This application name will be used for requests to the Identity Provider"
+"Ce nom de demande sera utilisé pour les demandes adressées au fournisseur d'identité"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"Chemin absolu du fichier Keystore à utiliser pour signer les demandes SAML"
+
+"Password for opening the keystore"
+"Mot de passe du keystore"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Alias pour la clé que Metabase doit utiliser pour signer les demandes SAML"
+
+"SAML attribute for the user''s email address"
+"Attribut SAML pour l'adresse e-mail de l'utilisateur"
+
+"SAML attribute for the user''s first name"
+"Attribut SAML pour le prénom de l'utilisateur"
+
+"SAML attribute for the user''s last name"
+"Attribut SAML pour le nom de l'utilisateur"
+
+"Enable group membership synchronization with SAML."
+"Activer la synchronisation de l'appartenance à un groupe avec SAML."
+
+"SAML attribute for group syncing"
+"Attribut SAML pour la synchronisation de groupe"
+
+"JSON containing SAML to Metabase group mappings."
+"JSON contenant les cartographies des groupes SAML à Metabase."
+
+"Enable JWT based authentication"
+"Activer l'authentification basée sur JWT"
+
+"URL of JWT based login page"
+"URL de la page de connexion basée sur JWT"
+
+"String used to seed the private key used to validate JWT messages"
+"Chaîne utilisée pour initialiser la clé privée utilisée pour valider les messages JWT"
+
+"Key to retrieve the JWT user's email address"
+"Clé pour récupérer l'adresse e-mail de l'utilisateur JWT"
+
+"Key to retrieve the JWT user's first name"
+"Clé pour récupérer le prénom de l'utilisateur JWT "
+
+"Key to retrieve the JWT user's last name"
+"Clé pour récupérer le nom de l'utilisateur JWT"
+
+"Key to retrieve the JWT user's groups"
+"Clé pour récupérer les groupes d'utilisateurs JWT"
+
+"Enable group membership synchronization with JWT."
+"Permettre la synchronisation des membres du groupe avec JWT."
+
+"JSON containing JWT to Metabase group mappings."
+"JSON contenant les cartographies des groupes JWT à Metabase."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"Faut-il envoyer les nouvelles notifications par courrier électronique aux administrateurs, pour tous les nouveaux utilisateurs du SSO ?"
+
+"New SSO user created: {0} ({1})"
+"Nouvel utilisateur SSO créé: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"Alerte d'invalidité : l'alerte n'est pas associée à une carte"
+
+"Error determining whether Database supports nested queries"
+"Erreur de détermination de la prise en charge des requêtes imbriquées dans la base de données"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"Paramètres d'interrogation non valides : n'a pas pu déterminer la limace pour le paramètre avec ID {0}."
+
+"Cannot search for values: {0} is not an enabled parameter."
+"Impossible de rechercher des valeurs : {0} n'est pas un paramètre activé."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"Vous ne pouvez pas spécifier une valeur pour {0} si elle est déjà définie dans le JWT."
+
+"Error compiling HoneySQL form"
+"Erreur de compilation du formulaire HoneySQL"
+
+"Not a valid Database/Database ID/JDBC spec"
+"Base de données/ID de base de données/spéc. JDBC non valide"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"doit être une carte avec les clés `{0}`, `{1}`, `{2}`, et `{3}`."
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"Ne pas créer de pilote JDBC proxy pour la classe {0} -- le pilote original a été chargé par le système ClassLoader"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"L'exécution de la requête a pris {0} ; le minimum pour l'éligibilité du cache est {1}."
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"Impossible de résoudre le champ joint en raison de jointures ambiguës : table {0} (ID {1}) jointe plusieurs fois. Vous devez inclure les références de champ dans les clauses explicites :joined-field."
+
+"Error normalizing form."
+"Formulaire de normalisation des erreurs."
+
+"Error canonicalizing query"
+"Erreur d'interrogation canonique"
+
+"Error performing whole query transformations"
+"Erreur lors de la transformation d'une requête complète"
+
+"Error normalizing query"
+"Requête de normalisation d'erreur"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"Les cartes \"bac à sable\" ne peuvent pas renvoyer des colonnes qui ne sont pas présentes dans le tableau qu'elles forment."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"Les cartes de bac à sable ne peuvent pas renvoyer des colonnes dont le type diffère de celui du tableau qu'elles contiennent."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"Impossible de mettre à jour la carte : La carte est utilisée pour le bac à sable, et les mises à jour violeraient les règles du bac à sable."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"Vous ne pouvez pas modifier l'ID de table d'un GTAP une fois qu'il a été créé."
+
+"`database` is required for all queries."
+"La \"base de données\" est nécessaire pour toutes les requêtes."
+
+"copied {0} instances."
+"a copié les instances {0}."
+
+"Copying instances of {0}..."
+"Copie des instances de {0}..."
+
+"Error copying instances of {0}"
+"Erreur de copie des instances de {0}."
+
+"Temporarily disabling DB constraints..."
+"Désactiver temporairement les contraintes de la DB..."
+
+"Re-enabling DB constraints..."
+"Réactiver les contraintes de la DB..."
+
+"Setting Postgres sequence ids to proper values..."
+"Régler les ids des séquences de Postgres à des valeurs correctes..."
+
+"Set up {0} source database and run migrations..."
+"Configurer la base de données source {0} et lancer les migrations..."
+
+"Set up {0} target database and run migrations..."
+"Mettre en place la base de données cible {0} et lancer les migrations..."
+
+"Testing if target {0} database is already populated..."
+"Tester si la base de données de la cible {0} est déjà alimentée..."
+
+"Unsupported application database type: {0} is not currently supported."
+"Type de base de données des demandes non prises en charge : {0} n'est pas actuellement pris en charge."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"Vérifiez la valeur de MB_DB_CONNECTION_URI."
+
+"Driver {0} does not support {1}"
+"Le conducteur {0} ne prend pas en charge {1}"
+
+"No magnitude known for {0}"
+"Aucune magnitude connue pour {0}"
+
+"Error resolving source query"
+"Résolution des erreurs dans la recherche de la source"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"Emplacement du fichier GeoJSON non valide : doit commencer par http:// ou https:// ou être un chemin d'accès relatif à un fichier sur le classpath."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"Les URL faisant référence à des hôtes qui fournissent des métadonnées d'hébergement interne sont interdites."
+
+"Invalid custom GeoJSON."
+"Personnalisation non valide GeoJSON."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"Invalide {0} : rupture spécifiée à l'index {1}, mais nous n'avons que des ruptures {2}."
+
+"Error generating pivot queries"
+"Erreur générant des requêtes de pivot"
+
+"Sync the admin group?"
+"Synchroniser le groupe d'administrateurs?"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"Les questions sandbox ne peuvent pas renvoyer des colonnes dont le type est différent de celui de la table qu'elles encadrent."
+
+"Error preprocessing source query when applying GTAP"
+"Erreur de prétraitement de la requête source lors de l'application de GTAP"
+
+"Error running query to determine metadata"
+"Erreur d'exécution de la requête pour déterminer les métadonnées"
+
+"Can't create new SAML user when SAML is not configured"
+"Impossible de créer un nouvel utilisateur SAML lorsque SAML n'est pas configuré"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"Erreur dans le paramétrage de la direction de récupération de l'instruction préparée à FETCH_FORWARD."
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"Erreur dans le paramétrage de la direction de recherche de l'instruction à FETCH_FORWARD."
+
+"You cannot save this Question because you do not have permissions to run its query."
+"Vous ne pouvez pas sauvegarder cette question car vous n'avez pas les autorisations nécessaires pour exécuter sa requête."
+
+"Authentication endpoint error"
+"Erreur de point de terminaison d'authentification"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"Le tunnel SSH ne peut être établi que pour les connexions H2 utilisant le protocole TCP."
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"le tunnel ssh pour la base de données {0} semble fermé ; marquer le pool invalide pour le rouvrir"
+
+"Query canceled, calling Statement.cancel()"
+"Requête annulée, appel à Statement.cancel()"
+
+"Select statement did not produce a ResultSet for native query"
+"L'instruction Select n'a pas produit un ResultSet pour la requête native."
+
+"We''ve Noticed a New {0} Login, {1}"
+"Nous avons remarqué une nouvelle ouverture de session."
+
+"Don''t know how to process event with model {0}"
+"Je ne sais pas comment traiter l'événement avec le modèle {0}."
+
+"Failed to process activity event {0}"
+"Échec du traitement de l'événement d'activité {0}"
+
+"Error sending ''login from new device'' notification email"
+"Erreur dans l'envoi de l'e-mail de notification de \"connexion à partir d'un nouveau dispositif\"."
+
+"You can''t update a LoginHistory after it has been created."
+"Vous ne pouvez pas mettre à jour un LoginHistory après qu'il ait été créé."
+
+"Setting {0} already registered in {1}"
+"Le paramètre {0} est déjà enregistré dans {1}."
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"Contrôle la fréquence d'envoi des battements de cœur lorsqu'un tunnel SSH est établi (en secondes)."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"Impossible de trouver l'ID de la table FK correspondant au champ FK {0}."
+
+"Error optimizing temporal filter clause"
+"Clause de filtre temporel optimisant les erreurs"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"Impossible de résoudre le champ joint en raison de jointures ambiguës : table {0} (ID {1}) jointe plusieurs fois. Vous devez spécifier un `:join-alias` explicite dans la référence du champ."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"Unsupported temporal bucketing : On ne peut pas regrouper un champ {0} par {1}."
+
+"Error processing additional pivot table query"
+"Erreur de traitement d'une requête supplémentaire de tableau croisé dynamique"
+
+"Invalid cell format"
+"Format de cellule non valide"
+
+"Enable typeahead search in the Metabase navbar?"
+"Activer la recherche de typeahead dans la barre de navigation de Metabase ?"
+
+"Login request is missing user-agent information"
+"La demande de connexion manque d'informations sur l'agent utilisateur"
+
+"Unable to determine login request IP address"
+"Impossible de déterminer l'adresse IP de la demande de connexion"
+
+"Error determining login history for request"
+"Erreur dans la détermination de l'historique de connexion pour la demande"
+
+"unknown"
+"inconnu"
+
+"Unknown device type"
+"Type d'appareil inconnu"
+
+"Unknown OS"
+"OS inconnu"
+
+"Unknown browser"
+"Navigateur inconnu"
+
+"Error geocoding IP addresses"
+"Erreur de géocodage des adresses IP"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"Le type sémantique de {0} est passé de ''{1}'' à ''{2}''."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"Le nom de {0} est passé de ''{1}'' à ''{2}''."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"Je ne sais pas comment formater un {0} comme une date/heure lisible par l'homme."
+
+"Valid coercion strategy"
+"Stratégie de coercition valable"
+
+"value must be a valid coercion strategy."
+"doit être une stratégie de coercition valide."
+
+"Saved Questions"
+"Questions sauvegardées"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"Filtre de recherche d'appartenance à un groupe. Les caractères de remplacement '{dn}' et '{uid}' seront remplacés par le nom distinctif et l'UID de l'utilisateur, respectivement."
+
+"Error deleting Sandboxes: {0}"
+"Erreur en effaçant Sandboxes: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"DÉMARRAGE DU CHARGEMENT à partir de {0} avec le contexte {1}"
+
+"Finished first pass of load; now performing second pass"
+"Premier passage de chargement fini; second passage en cours"
+
+"END LOAD from {0} with context {1}"
+"FIN DU CHARGEMENT à partir de {0} avec le contexte {1}"
+
+"ERROR LOAD from {0}: {1}"
+"ERREUR DE CHARGEMENT à partir de {0}: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"BEGIN DUMP à {0} via l'utilisateur {1}"
+
+"END DUMP to {0} via user {1}"
+"END DUMP à {0} via l'utilisateur {1}"
+
+"Could not find context for fully qualified card name {0}"
+"Contexte non-trouvé pour un nom de carte entièrement qualifié"
+
+"Could not find context for fully qualified snippet name {0}"
+"Contexte non-trouvé pour un nom de d'extrait entièrement qualifié"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"Échec d'exécution de la requête pour la carte chargée \"{0}\": {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"Échec de connexion à la base de données \"{0}\" pour synchroniser les tables cachées"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"Nous ne pouvons pas décrypté l'application db avec MB_ENCRYPTION_SECRET_KEY"
+
+"Invalid domain"
+"Domaine invalide"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"Filtre de recherche d'utilisateur. Le paramètre fictif '{login}' sera remplacé par le login fourni par l'utilisateur."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Attribut à utiliser pour l'e-mail de l'utilisateur. (généralement ''mail'', ''email'' ou ''userPrincipalName'')"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"Base de recherche pour les groupes. Non requis pour les annuaires LDAP qui fournissent une superposition ''memberOf'', comme Active Directory. (La recherche sera effectuée de manière récursive)."
+
+"You are not allowed to change the owner of a Personal Collection."
+"Vous ne pouvez pas changer le propriétaire d'une collection personnelle (Personal Collection)."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"Vous ne pouvez pas changer le niveau d'autorisation d'une collection personnelle (Personal Collection)."
+
+"You are not allowed to move a Personal Collection."
+"Vous n'êtes pas autorisé à déplacer une collection personnelle."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"Vous ne pouvez pas mettre à jour une CollectionPermissionGraphRevision!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"Champ non valide {0} {1} : retour à {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"Pour rendre les noms des tables et des champs plus lisibles, Metabase remplacera les tirets et tirets du bas présents dans ceci avec des espaces."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"Pendant que nous y sommes, nous capitalisons chaque mot, comme par exemple ‘last_visited_at’ qui deviendra ‘Last Visited At’"
+
+"Setting names in would collide: {0} and {1}"
+"Mettre les noms créeraient un conflit: {0} et {1}"
+
+"Indicates when Metabase last checked for new versions."
+"Indiquez quand Metabase doit vérifier si de nouvelles versions sont disponibles."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"Cette adresse est utilisée, par exemple, pour créer des liens dans des emails, auth, redirections,"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"et dans certains cas d'embedding, donc, la changer peut empêcher certaines fonctionnalités, ou vous bloquer hors de votre instance."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"Quand mis, cela renforce l'utilisation de cookies de session qui expire quand le navigateur est fermé, pour tous les utilisateurs."
+
+"Error parsing paging parameters: {0}"
+"Erreur d'analyse des paramètres de pagination: {0}"
+
+"Error running sync step"
+"Erreur de fonctionnement des étapes de synchronisation"
+
+"Error in sync step {0}"
+"Erreur dans les étapes de synchronisation"
+
+"Error fetching version info; setting version-info value to nil"
+"Erreur pour récupérer les informations liées à la version; version-info changée pour nil"
+
+"Valid field semantic type"
+"Type sémantique de champ valide"
+
+"value must be a valid field semantic type."
+"doit être un type sémantique de champ valide."
+
+"Valid field relation type"
+"Type de relation de champ valide"
+
+"value must be a valid field relation type."
+"doit être un type de relation de champ valide."
+
+"Valid field semantic or relation type"
+"Sémantique de champ valide ou type de relation"
+
+"value must be a valid field semantic or relation type."
+"La valeur doit être une sémantique de champ ou un type de relation valide."
+
+"Valid field data type (keyword or string)"
+"Type de données de champ valide (mot-clé ou chaîne)"
+
+"value must be a valid field data type (keyword or string)."
+"La valeur doit être un type de données de champ valide (mot-clé ou chaîne)."
+
+"Valid field semantic type (keyword or string)"
+"Type sémantique de champ valide (mot-clé ou chaîne)"
+
+"value must be a valid field semantic type (keyword or string)."
+"La valeur doit être un type sémantique de champ valide (mot-clé ou chaîne)."
+
+"Valid field relation type (keyword or string)"
+"Type de relation de champ valide (mot-clé ou chaîne)"
+
+"value must be a valid field relation type (keyword or string)."
+"La valeur doit être un type de relation de champ valide (mot-clé ou chaîne)."
+
+"Valid field semantic or relation type (keyword or string)"
+"Type de sémantique de champ ou de relation valide (mot-clé ou chaîne)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"La valeur doit être une sémantique de champ ou un type de relation valide (mot-clé ou chaîne)."
+
+"value must be a valid coercion strategy (keyword or string)."
+"La valeur doit être une stratégie de coercition valide (mot-clé ou chaîne)."
+
+"password is too common."
+"le mot de passe est trop courant."
+
+"Invalid custom GeoJSON"
+"GeoJSON personnalisé invalide"
+
+"GeoJSON URL failed to load"
+"Le chargement de l'URL GeoJSON a échoué"
+
+"Error building query parameter map: {0}"
+"Erreur dans la construction de la carte des paramètres de requête : {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"Le plugin ''{0}'' dépend de la variable d'environnement ''{1}'' qui doit avoir la valeur suivante"
+
+"Down"
+"Duvet"
+
+"Up"
+"Up"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"Domaine(s) d'adresse électronique autorisé(s) pour les nouveaux abonnements et alertes de DashboardSubscriptions. N'affecte pas les abonnements existants."
+
+"Invalid email address: {0}"
+"Email invalide : {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"Vous ne pouvez pas créer de nouveaux abonnements pour le domaine {0}. Les domaines autorisés sont : {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"Ce point de terminaison de l'API n'est activé que si vous disposez d'un jeton premium avec la fonction {0}."
+
+"Error compiling audit query: {0}"
+"Erreur de compilation de la requête d'audit : {0}"
+
+"Error running audit query: {0}"
+"Erreur d'exécution de la requête d'audit : {0}"
+
+"Error parsing Pulse parameters: {0}"
+"Erreur d'analyse des paramètres de l'impulsion : {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Bloqué : vous n'êtes pas autorisé à exécuter des requêtes sur la base de données {0}."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"Impossible d'analyser le graphique des autorisations car il n'est pas valide : {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"Le hachage des détails de la base de données {0} a changé ; marquer le pool invalide pour le rouvrir"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"Autorisations de la base de données non valides : Si vous avez un accès en écriture pour les requêtes natives, vous devez avoir un accès complet aux données."
+
+"Error parsing permissions tree {0}"
+"Erreur d'analyse de l'arbre des permissions {0}"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"l'ID de la collection d'un abonnement à un tableau de bord ne peut pas être modifié directement"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"l'ID d'un abonnement à un tableau de bord ne peut pas être modifié"
+
+"Javascript resource not found: {0}"
+"Ressource Javascript non trouvée : {0}"
+
+"Found new version for DB: {0}"
+"Nouvelle version de BDD trouvée : {0}"
+
+"Rerun queries for simple explorations"
+"Relancer les requêtes pour des explorations simples"
+
+"Choose when syncs and scans happen"
+"Choisir quand les synchronisations et les scans s'effectuent"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"Par défaut, Metabase fait une synchronisation légère horaire et un scan journalier intensif des valeurs des champs. Si vous une grosse base de données, activer ceci pour faire des changements. "
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"Autorise Metabase à scanner des valeurs de filtres additionnels pendant les synchronisations permettant des comportements optimisés, comme  "
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"Par défaut \"Site Url\" est utilisé les liens de notification, mais peut être surchargé."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"Erreur lors du préprocessing de la requête source en appliquant GTAP: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Identifiant unique utilisable dans Snowplow analytics, pour identifier cette instance de Metabase."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"C'est un paramètre public car certains événements sont envoyés avant la configuration initiale. "
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Booléen indiquant si un collecteur Snowplow est disponible pour recevoir des événement"
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Doit être défini par une variable d'environnement dans les tests Cypress ou pendant le développement en local."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Booléen indidiquant si les évenements analytiques sont envoyés à Snowplow."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"Vrai si le traçage anonyme est activé pour cette instance, et si un collecteur Snowplow est disponible."
+
+"The URL of the Snowplow collector to send analytics events to."
+"L'URL du collecteur Snowplow à qui envoyer les événements analytiques."
+
+"Error sending Snowplow analytics event {0}"
+"Erreur lors de l'envoi de l'événement {0} à Snowplow analytics."
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"Timestamp approximatif de l'instant auquel cette instance de Metabase a été créée, pour l'inclusion dans les analyses."
+
+"Unverified due to edit"
+"Non-vérifié dû à la modification"
+
+"Card {0} does not exist or does not have a valid query."
+"Carte {0} n'existe pas ou bien sa requête est invalide."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"Vous devez avoir la permission sur ces données pour ajouter un paramètre référençant la table {0}."
+
+"No matching parameter with slug {0}. Found: {1}"
+"Aucun paramètre correspondant avec le slug {0}. Trouvé: {1}."
+
+"Could not invite user because email is not configured."
+"Impossible d'inviter l'utilisateur, l'email n'est pas configuré"
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"Votre équipe utilise Slack ? Vous pouvez envoyer des mises à jour automatiques vis les abonnements aux tableaux de bord."
+
+"invalid token"
+"jeton invalide"
+
+"Slack channel not found."
+"Canal Slack introuvable."
+
+"channel not found"
+"chaîne introuvable"
+
+"Unrecognized modal: {0}"
+"Modal non-reconnue: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"Valeur du secret indéchiffrable avec MB_ENCRYPTION_SECRET_KEY"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"L'IP de votre base de donnée (ex. 98.137.149.56) ou son nom de domaine (ex. esc.mydatabase.com)."
+
+"username"
+"Nom d'utilisateur"
+
+"Use a secure connection (SSL)"
+"Utiliser une connexion sécurisée (SSL)"
+
+"Use an SSH tunnel"
+"Utiliser un tunnel SSH"
+
+"Enable this ssh tunnel?"
+"Activer ce tunnel SSH ?"
+
+"SSH tunnel host"
+"Hote du tunnel SSH"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"Nom de l'hôte que vous utilisez pour vous connectez aux tunnels SSH."
+
+"SSH tunnel port"
+"Port du tunnel SSH"
+
+"SSH tunnel username"
+"Nom d'utilisateur du tunnel SSH"
+
+"The username you use to login to your SSH tunnel."
+"Le nom d'utilisateur utilisé pour vous connecter au tunnel SSH."
+
+"SSH tunnel password"
+"Mot de passe du tunnel SSH"
+
+"SSH private key to connect to the tunnel"
+"Clé privée pour se connecter au tunnel SSH "
+
+"Paste the contents of an ssh private key here"
+"Copiez le contenu d'une clé privée SSH ici"
+
+"Passphrase for SSH private key"
+"Passphrase pour la clé privée SSH"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"Nous exécutons la requête sous-jacente quand vous explorez les données en utilisant Résumer ou Filtrer."
+
+"This is on by default but you can turn it off if performance is slow."
+"C'est activé par défaut mais vous pouvez le désactiver si cela impacte la performance."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"C'est un process léger vérifiant les mises à jour pour ce schéma de base de données."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"Dans la plupart des cas, vous pouvez laisser cela paramétré pour tourner toutes les heures."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"Si votre base de donnée est derrière un pare-feu, vous aurez besoin d'autoriser les connections venant de nos adresses IP du Metabase Cloud:"
+
+"Error querying database {0} for current time: {1}"
+"Erreur pendant la requête sur la base de données {0} pour le moment actuel: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"Erreur: plusieurs valeurs spécifiées pour le paramètre; les filtres de type non-Champ n'ont qu'une valeur possible."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"Le chemin relatif vers l'endroit  où est lancé Metabase. Votre chaîne de caractères ne doit pas inclure l'extension .mv.db."
+
+"SSL Mode"
+"Mode SSL"
+
+"SSL Root Certificate (PEM)"
+"Certificat racine SSL (PEM)"
+
+"Authenticate client certificate?"
+"Authentifier le certificat client ?"
+
+"SSL Client Certificate (PEM)"
+"Certificat Client SSL (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"Clé Client SSL (PKCS-8/DER ou PKCS-12)"
+
+"SSL Client Key Password"
+"Mot de passe de la clé client SSH"
+
+"Unable to substitute parameters: {0}"
+"Impossible de remplacer les paramètres : {0}"
+
+"Expected native source query to be a string, got: {0}"
+"La requête native source doit être une chaîne de caractères, nous avons: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"Les paramètres de la requête native source doivent séquentiel, nous avons: {0}"
+
+"No expression named {0} at this level of the query"
+"Aucune expression nommé {0} à ce niveau de la requête"
+
+"Error compiling :field clause: {0}"
+"Erreur de compilation: clause champ: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"Avertissement: le driver {0} utilise {1}. Cette méthode est dépréciée en {2} et sera retirée dans une prochaine version."
+
+"Error setting connection to autoCommit false"
+"Erreur lors du paramétrage de la connexion en autoCommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"Erreur lors du paramétrage de la taille de la récupération des instructions préparées en fetch-size"
+
+"Error setting statement fetch size to fetch-size"
+"Erreur lors du paramètrage de la taille de récupération des instructions en fetch-size"
+
+"Error executing query: {0}"
+"Erreur lors de l'exécution de la requête: {0}"
+
+"Local file path"
+"Chemin local du fichier"
+
+"Uploaded file path"
+"Chemin du fichier téléchargé"
+
+"File path"
+"Chemin du fichier"
+
+"Error invoking getter for connection property {0}"
+"Erreur lors de l'appel de l'accesseur pour la propriété de connexion {0}"
+
+"Only these..."
+"Seulement..."
+
+"All except..."
+"Tout sauf..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"Nom séparés par des virgules de {0} qui <strong>devraient</strong> apparaître dans Metabase"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"Vous pouvez utiliser des patterns comme <strong>auth*</strong> pour correspondre à plusieurs {0}"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"Nom séparés par des virgules de {0} qui <strong> ne devraient PAS</strong> apparaître dans Metabase"
+
+"Your Slack connection stopped working"
+"Votre connexion à Slack a arrêté de fonctionner."
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"ID client pour Google Sign-In. Si ceci est paramétré, Google Sign-In est considéré comme autorisé."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"ID client pour Google Sign-In invalid: doit terminé par \".apps.googleusercontent.com\""
+
+"Invalid Google Sign-In token."
+"Token Google Sign-In invalide."
+
+"Google Sign-In token appears to be incorrect. "
+"Le token Google Sign-in semble incorrect. "
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"Authentification du token Google Sign-In réussie pour : {0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"Token de l'API Slack déprécié pour connecter Metabase au bot Slack."
+
+"Please use a new Slack app integration instead."
+"Veuillez utiliser une nouvelle app Slack d'intégration à la place."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"Jeton OAuth de l'utilisateur bot pour connecter la Metabase Slack app."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"Cela doit être utilisé pour toute nouvelle intégration Slack à partir de la version 0.42.0 de Metabase."
+
+"Whether the current Slack app token, if set, is valid."
+"Si le jeton actuel Slack app, si paramétré, est valide."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Réglé à 'faux' si une requête API Slack retourne une erreur auth. "
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"Le nom du canal vers lequel les fichiers Metabase devraient être téléchargés initialement"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 Votre jeton d'autorisation Slack est invalide ou a été révoqué. Veuillez mettre à jour votre intégration dans Réglages Administrateurs -> Slack."
+
+"Slack channel named `{0}` is missing!"
+"Le canal Slack nommé `{0}` n'existe pas!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"Le canal est utilisé pour stocké les images incluses dans vos abonnements de tableau de bord."
+
+"You do not have curate permissions for this Collection."
+"Vous n'avez pas les permissions pour cette Collection."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"Le tableau de bord {0} n'a pas de DashboardCard avec l'ID {1}"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"Suppression de l'ID secret {0} de la BD de l'app parce que la base de données propriétaire ({1}) est en cours de suppression"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Valeur invalide pour le champ de colonne {0}: {1} n'est un descendant d'aucun de ces types: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"Impossible d'utiliser les autorisations \"Bloquer\" sans avoir la fonctionnalité premium \"Autorisations avancées\""
+
+"User {0} does not exist."
+"L'utilisateur {0} n'existe pas."
+
+"Wrong email address for User {0}."
+"Mauvaise adresse électronique pour l'utilisateur {0}."
+
+"Secret ID {0}"
+"ID Secret {0}"
+
+"File path for {0}"
+"Chemin de fichier pour {0}"
+
+"Path"
+"Chemin"
+
+"{0} points to non-existent file: {1}"
+"{0} pointe vers un fichier inexistant: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (un chemin de fichier local) ne peut être utilisé dans un environnement Metabase hébergé"
+
+"Error parsing Setting {0}: {1}"
+"Erreur de l'analyse du paramètre {0}: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"Des valeurs globales à tout le site ne sont pas autorisées pour le paramètre {0}"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"Le paramètre {0} est déprécié depuis Metabase {1} et sera retiré dans une prochaine version."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"Le nom du paramètre \"{0}\" est retiré; utilisez un nom différent"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Booléen indiquant si les données d'analyse doivent être envoyées à Google Analytics"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"Version de Metabase pour laquelle un avis a été affichée concernant l'utilisation de fonctionnalités dépréciées."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Afficher ou non un message sur l'épinglage des tableaux de bord. Ce sera également caché si un tableau de bord est déjà épinglé. Les administrateurs peuvent cacher ceci pour diriger les utilisateurs vers de meilleurs contenus que les données brutes."
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"Cela affectera des choses comme le regroupement par semaine ou les filtres dans les requêtres graphiques."
+
+"It won''t affect most SQL queries,"
+"Cela n'affectera pas la majorité des requêtes SQL,"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+" bien que ce soit utilisé pour paramétrer la variable de session WEEK_START dans Snowflake. "
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Erreur lors de la récupération des adresses IP de la passerelle Metabase Cloud:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"Adresses IP de la passerelle Metabase Cloud, pour configurer les connexions à des bases de données derrière des pare-feux."
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"Si oui ou non une fenêtre modale d'introduction devrait être affichée après qu'une nouvelle connexion de base de données ait été ajoutée"
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"Valeur à false par défaut si aucune base de données  a déjà fini d'être synchronisé pour cette instance."
+
+"Alert: {0} has {1}"
+"Alerte: {0} a {1}"
+
+"Nothing to compare to."
+"Rien à comparer."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"Type de paramètre {0} invalide pour le paramètre {1}. Le type du paramètre doit être parmi: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"Paramètre invalide: la question {0} n'a"
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"Impossible de résoudre un paramètre invalide de la requête: le paramètre est manquant :id "
+
+"Dashboard does not have a parameter with ID {0}."
+"Le tableau de bord n'a pas de paramètre d'ID {0}."
+
+"Query: {0}"
+"Requête : {0}"
+
+"Error determining expected columns for query: {0}"
+"Erreur lors de la détermination des colonnes pour la requête: {0}"
+
+"Nested queries are disabled"
+"Les requêtes imbriquées sont désactivées"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"Mauvais: la clause de champ {0} pour le champ {0} à {2}: la clause devrait avoir: un alias de jointure."
+
+"Guessing join {0}"
+"Jointure inférée {0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"Impossible d'inférer une jointure appropriée. La requête risque de ne pas fonctionner comme prévu. "
+
+"Error resolving Fields in query: {0}"
+"Erreur lors de la résolution des champs dans la requête: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"Avertissement: la clause {0} ne correspond à aucune colonne de la requête d'origine. Tentative de corriger ceci en {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"Avertissement: la clause {0} référence un champ potentiellement absent dans la requête source. La requête risque de ne pas fonctionner comme prévu. Trouvé: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"Attendu: clause aggregation-options, reçu {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"Impossible de déterminer la table source ou la requête pour la clause de Champ {0}"
+
+"Aggregation does not exist at index {0}"
+"L'aggrégation n'existe pas à l'indice {0}"
+
+"No expression named {0}"
+"Aucune expression appelée {0}"
+
+"Sample database DB file ''{0}'' cannot be found."
+"Fichier de l'échantillon de la base de données \"{0}\" introuvable."
+
+"Loading sample database"
+"Chargement de la base de données d'exemple"
+
+"Failed to load sample database"
+"Échec lors du chargement de la base de données d'exemple"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"Le cookie de session SameSite est configuré sur \"None\", mais le site est fourni sur une connexion non-sécurisée. Certains navigateurs vont rejeter les cookies selon certaines de ces conditions."
+
+"Login request is missing device ID information"
+"La requête de connexion ne contient pas l'information ID device "
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"Déchiffrage de {0} impossible. Avez-vous changer ou oublier de paramétrer  "
+
+"Enable this SSH tunnel?"
+"Autoriser ce tunnel SSH ?"
+
+"The hostname that you use to connect to SSH tunnels."
+"Nom de l'hôte que vous utilisez pour vous connecter aux tunnels SSH."
+
+"Paste the contents of an SSH private key here"
+"Collez le contenu d'une clé privée SSH ici"
+
+"Allow using a saved question or Model as the source for other queries?"
+"Autoriser l'utilisation d'une question sauvegardée ou d'un Modèle comme source de données pour d'autres requêtes?"
+
+"Pulse card query error"
+"Erreur de requête dans la carte pulsée"
+
+"There was a problem with this question."
+"Il y a eu un problème avec cette question."
+
+"Copy of "
+"Copie de "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"La route /api/setup ne peut être utilisée que pour créer le premier utilisateur, même si un utilisateur existe déjà."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"Nombre maximal de lignes à renvoyer spécifiquement pour les requêtes de type :rows via l'API."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"Domaine(s) d'adresse électronique autorisé(s) pour les nouveaux abonnements et alertes du tableau de bord. Pour spécifier plusieurs domaines, séparez chaque domaine par une virgule, sans espace entre les deux (par exemple, \"domaine1,domaine2\"). Pour autoriser tous les domaines, laissez le champ vide. Ce paramètre n'affecte pas les abonnements existants."
+
+"You do not have permissions to download the results of this query."
+"Vous n'avez pas la permission de télécharger les résultats de cette requête."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"Les utilisateurs non administrateurs ne disposant pas de droits de surveillance ou d'abonnement sont uniquement autorisés à mettre à jour les alertes qu'ils ont créées."
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"Les utilisateurs non administrateurs ne disposant pas de droits de surveillance ou d'abonnement ne sont pas autorisés à modifier les canaux d'une alerte."
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"Les utilisateurs non administrateurs ne disposant pas de droits d'abonnement ne sont pas autorisés à ajouter des destinataires."
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"Le gestionnaire de groupes n'est activé que si vous disposez d'un jeton premium avec la fonction de permissions avancées."
+
+"Admin cant be a group manager."
+"L'administrateur ne peut pas être un gestionnaire de groupe."
+
+"Timeline with id {0} not found"
+"Timeline avec id {0} non trouvé"
+
+"Timestamp cannot be null"
+"Le timestamp ne peut pas être nul"
+
+"ERROR {0}: {1}"
+"ERREUR {0} : {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Effacer les entrées par défaut créées par les migrations Liquibase..."
+
+"Don''t know how to parse date string {0}"
+"Ne sait pas comment analyser la chaîne de date {0}"
+
+"Invalid values provided for operator: {0}"
+"Valeurs non valides fournies pour l'opérateur : {0}"
+
+"Unrecognized operation: {0}"
+"Opération non reconnue : {0}"
+
+"Error determining value for parameter {0}: {1}"
+"Erreur de détermination de la valeur du paramètre {0} : {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"Vous ne pouvez pas mettre à jour une ApplicationPermissionsRevision !"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"Filtre de champ invalide : Le champ {0} appartient à la base de données {1}, mais la requête porte sur la base de données {2}."
+
+"The engine on a sample database cannot be changed."
+"Le moteur d'une base de données exemple ne peut pas être modifié."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"La fonctionnalité de permissions {0} n'est activée que si vous disposez d'un jeton premium avec la fonctionnalité de permissions avancées."
+
+"Unknown setting: {0}"
+"Paramètre inconnu: {0}"
+
+"You do not have access to the setting {0}"
+"Vous n'avez pas accès au paramètre {0}."
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"Le paramètre {0} permet des valeurs à la fois locales à l'utilisateur et locales à la base de données ; ceci n'est pas pris en charge."
+
+"Error purging old cache entries: {0}"
+"Erreur de purge des anciennes entrées du cache : {0}"
+
+"Error saving query results to cache: {0}"
+"Erreur lors de la sauvegarde des résultats de la requête dans le cache : {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"Erreur lors de la tentative de récupération des résultats en cache pour la requête avec le hachage {0} : {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Le cache de démarrage de l'utilisateur/canal de Slack a été rafraîchi avec {0} entrées, en {1}ms."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack n'est pas configuré, ne rafraîchit pas le cache des utilisateurs/canaux de Slack."
+
+"value must be a valid date string"
+"la valeur doit être une chaîne de date valide"
+
+"Not allowed to edit group memberships"
+"Pas autorisé à modifier les appartenances à un groupe"
+
+"Connected to"
+"Connecté à"
+
+}

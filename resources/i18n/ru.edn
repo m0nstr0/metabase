@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"База данных синхронизируется"
+
+"Scanning for Filter Values"
+"Сканирование для значения фильтров"
+
+"When should Metabase automatically scan and cache field values?"
+"Когда Metabase должен автоматически сканировать и кэшировать значения?"
+
+"Other"
+"Другое"
+
+"Email"
+"Email"
+
+"{0} table"
+"таблица {0}"
+
+"Password"
+"Пароль"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"Свяжитесь с администратором для использованию Гугл логина."
+
+"Our analytics"
+"Наша статистика"
+
+"Unknown"
+"Неизвестно"
+
+"Count"
+"Количество"
+
+"number"
+"число"
+
+"Native query"
+"Прямой запрос"
+
+"Today"
+"Сегодня"
+
+"Yesterday"
+"Вчера"
+
+"Week"
+"Неделя"
+
+"Month"
+"Месяц"
+
+"Year"
+"Год"
+
+"Slack"
+"Slack"
+
+"results"
+"результаты"
+
+"Count of {0}"
+"Количество {0}"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"Запрос DELETE /api/alert/:id устарел. Взамен используйте PUT /api/alert/:id для изменения 'archived' значения."
+
+"invalid show value"
+"некорректное отображаемое значение"
+
+"invalid value for prefix"
+"некорректное значение для префикса"
+
+"invalid value for rule name"
+"некорректное значение для имени правила"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"значение не может быть преобразовано как base64 кодированная JSON строка"
+
+"Invalid entity type"
+"Некорректный тип сущности"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"Некорректный тип для сравнения сущности. Может быть только \"таблица\", \"сегмент\" или \"на лету\""
+
+"Error running query to determine Card result metadata:"
+"Ошибка выполнения запроса для определения метаданных карточки:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"Запрос DELETE /api/card/:id устарел. Взамен?, используйте PUT /api/card/:id для изменения 'archived' значения."
+
+"Invalid field: {0}"
+"Некорректное поле: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"Некорректное значение ''{0}'' для ''{1}'': {2}"
+
+"must be one of: {0}"
+"должно быть одни из: {0}"
+
+"Invalid Request."
+"Некорректный запрос."
+
+"Not found."
+"Не найдено."
+
+"You don''t have permissions to do that."
+"У вас нет полномочий на выполнение данного действия."
+
+"Internal server error."
+"Внутренняя ошибка сервера."
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"Предупреждение: конечная точка {0}/{1} не имеет описания."
+
+"starting streaming request"
+"запуск потокового запроса"
+
+"connection closed, canceling request"
+"соединение закрыто, отмена запроса"
+
+"Response not ready, writing one byte & sleeping..."
+"Ответ не готов, запишем один байт и подождем..."
+
+"Public sharing is not enabled."
+"Публикация не включена."
+
+"Embedding is not enabled."
+"Встраивание отключено."
+
+"The object has been archived."
+"Этот объект перемещен в архив."
+
+"Source query for this query is Card {0}"
+"Исходный запрос для текущего - карточка {0}"
+
+"Invalid export format: {0}"
+"Некорректный формат экспорта: {0}"
+
+"Invalid JSON URL or resource: {0}"
+"Некорректная JSON ссылка или ресурс: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON, содержащий информацию о пользовательских файлах GeoJSON для использования в визуализациях карт вместо значения по умолчанию - США или World GeoJSON."
+
+"Invalid custom GeoJSON key: {0}"
+"Некорректных ключ GeoJSON: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"Запрос DELETE /api/pulse/:id устарел. Взамен используйте PUT /api/pulse/:id для изменения 'archived' значения."
+
+"API endpoint does not exist."
+"Конечная точка API не существует."
+
+"Password did not match stored password."
+"Пароль не совпадает с сохраненным паролем."
+
+"did not match stored password"
+"не совпадает с сохраненным паролем"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"Ошибка подключения к LDAP сервер, возврат к локальной аутентификации {0}"
+
+"Invalid reset token"
+"Некорректный токен сброса пароля"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"Когда установлено, пользователи смогут использовать для входа свой Google аккаунт из этого домена."
+
+"Email is not verified."
+"Email не подтвержден."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"Вам необходим администратор для создания Metabase аккаунта до того, как вы сможете входить с помощью учетной записи Google."
+
+"Add a database"
+"Добавить базу данных"
+
+"Get connected"
+"Подключайтесь!"
+
+"Connect to your data so your whole team can start to explore."
+"Подключитесь к своим данным, что бы вся команда могла начать исследование."
+
+"Set up email"
+"Настроить email"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"Добавив email вам станет проще приглашать членов команды и получать обновления через Пульсы."
+
+"Set Slack credentials"
+"Установить параметры Slack"
+
+"Invite team members"
+"Пригласить участников команды"
+
+"Share answers and data with the rest of your team."
+"Поделиться ответами и данным с вашей командой."
+
+"Hide irrelevant tables"
+"Скрыть ненужные таблицы"
+
+"Curate your data"
+"Завершите свои данные"
+
+"If your data contains technical or irrelevant info you can hide it."
+"Если ваши данные содержат техническую или не релевантную информацию, вы можете скрыть их."
+
+"Organize questions"
+"Упорядочить запросы"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"У вас множество сохраненных запросов в {0}? Создайте коллекции для помощи в управлении и добавления контекста."
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"Создание метрики"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"Определите канонические метрики, чтобы остальным сотрудникам было проще получить правильные ответы."
+
+"Create segments"
+"Создание сегментов"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"Держите всех на одной странице, создавая канонические наборы фильтров, которые любой может использовать, задавая вопросы."
+
+"Table ''{0}'' is now visible. Resyncing."
+"Таблица ''{0}'' теперь видима. Ресинхронизация."
+
+"Auto bin"
+"Авто компоновка"
+
+"Don''t bin"
+"Не компоновать"
+
+"Day"
+"День"
+
+"Minute"
+"Минута"
+
+"Hour"
+"Час"
+
+"Quarter"
+"Квартал"
+
+"Minute of Hour"
+"Минута часа"
+
+"Hour of Day"
+"Час дня"
+
+"Day of Week"
+"День недели"
+
+"Day of Month"
+"День месяца"
+
+"Day of Year"
+"День года"
+
+"Week of Year"
+"Неделя года"
+
+"Month of Year"
+"Месяц года"
+
+"Quarter of Year"
+"Квартал года"
+
+"10 bins"
+"10 контейнеров"
+
+"50 bins"
+"50 контейнеров"
+
+"100 bins"
+"100 контейнеров"
+
+"Bin every 0.1 degrees"
+"Конт. каждый 0.1 градус"
+
+"Bin every 1 degree"
+"Конт. каждый 1 градус"
+
+"Bin every 10 degrees"
+"Конт. каждые 10 градусов"
+
+"Bin every 20 degrees"
+"Конт. каждые 20 градусов"
+
+"No appropriate image writer found!"
+"Не найден подходящий обработчик изображений!"
+
+"Email address already in use."
+"Email уже занят."
+
+"Email address already associated to another user."
+"Email использован другим пользователем."
+
+"Not able to reactivate an active user"
+"Невозможно повторно активировать активного пользователя"
+
+"Invalid password"
+"Некорректный пароль"
+
+"All {0}"
+"Все {0}"
+
+"{0}, all {1}"
+"{0}, все {1}"
+
+"Comparison of {0} and {1}"
+"Сравнение {0} и {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"Автоматически сгенерированный дэшборд, сравнивающий {0} и {1}"
+
+"sum"
+"сумма"
+
+"average"
+"среднее"
+
+"minumum"
+"минимум"
+
+"maximum"
+"максимум"
+
+"distinct count"
+"уникальное количество"
+
+"standard deviation"
+"стандартное отклонение"
+
+"cumulative count"
+"накопительное количество"
+
+"cumulative sum"
+"накопительная сумма"
+
+"{0} and {1}"
+"{0} и {1}"
+
+"{0} of {1}"
+"{0} из {1}"
+
+"{0} by {1}"
+"{0} по {1}"
+
+"{0} in the {1} segment"
+"{0} в {1} сегменте"
+
+"{0} segment"
+"{0} сегмент"
+
+"{0} metric"
+"{0} метрика"
+
+"{0} field"
+"{0} поле"
+
+"\"{0}\" question"
+"\"{0}\" запрос"
+
+"Compare with {0}"
+"Сравнить с {0}"
+
+"Compare with entire dataset"
+"Сравнить с набором данных"
+
+"Applying heuristic %s to %s."
+"Применение эвристики %s для %s."
+
+"Dimensions bindings:n%s"
+"Привязки размеров: n%s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"Использовать определения:nMetrics:Н%snFilters:н%ы"
+
+"Can''t create dashboard for {0}"
+"Невозможно создать дашборд для {0}"
+
+"{0}st"
+"{0}ый"
+
+"{0}nd"
+"{0}ой"
+
+"{0}rd"
+"{0}ий"
+
+"{0}th"
+"{0}ый"
+
+"at {0}"
+"к {0}"
+
+"on {0}"
+"на {0}"
+
+"in {0} week - {1}"
+"в {0} неделю - {1}"
+
+"in {0}"
+"в {0}"
+
+"in Q{0} - {1}"
+"в Кв{0} - {1}"
+
+"Q{0}"
+"Кв{0}"
+
+"{0} is {1}"
+"{0} из {1}"
+
+"{0} is between {1} and {2}"
+"{0} между {1} и {2}"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0} между {1} и {2}; и {3} между {4} и {5}"
+
+"where {0}"
+"где {0}"
+
+"A closer look at {0}"
+"Подробнее о {0}"
+
+"A closer look at the {0}"
+"Приглядеться к {0}"
+
+"Adding %s cards to dashboard %s:n%s"
+"Добавление карточке %s к дашборду %s:n%s"
+
+"0 <= score <= {0}"
+"0 <= результат <= {0}"
+
+"1 <= width <= {0}"
+"1 <= ширина <= {0}"
+
+"Valid metrics references"
+"Допустимые ссылки на метрики"
+
+"Valid filters references"
+"Допустимые ссылки на фильтры"
+
+"Valid group references"
+"Допустимые ссылки на группы"
+
+"Valid order_by references"
+"Допустимые ссылки сортировки"
+
+"Valid dashboard filters references"
+"Допустимые ссылки на фильтры панели мониторинга"
+
+"Valid dimension references"
+"Допустимые ссылки на измерения"
+
+"Valid card dimension references"
+"Допустимые ссылки на размеры карты"
+
+"Error parsing %s:n%s"
+"Ошибка обработки %s:n%s"
+
+"No user found with email address ''{0}''. "
+"Пользователь с email адресом ''{0}'' не найден.␣"
+
+"Please check the spelling and try again."
+"Пожалуйста проверьте написание и попробуйте еще раз."
+
+"Resetting password for {0}..."
+"Сброс пароля для {0}..."
+
+"OK [[[{0}]]]"
+"OK [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"СБОЙ [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"Пожалуйста используйте данную ссылку для установки вашей инсталляции Metabase:"
+
+"Metabase Shutting Down ..."
+"Выключение Metabase..."
+
+"Metabase Shutdown COMPLETE"
+"Выключение Metabase ЗАВЕРШЕНО"
+
+"Starting Metabase version {0} ..."
+"Запуск Metabase версии {0}..."
+
+"System timezone is ''{0}'' ..."
+"Системный часовой пояс ''{0}''..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"Настройка и выполнение миграций внутренней базы данных Metabase. Пожалуйста подождите, это может занять какое-то время..."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"Похоже что это новая инсталляция... подготовка мастера установки"
+
+"Metabase Initialization COMPLETE"
+"Инициализация Metabase ВЫПОЛНЕНА"
+
+"Launching Embedded Jetty Webserver with config:"
+"Запуск встроенного веб-сервера Jetty с конфигурацией:"
+
+"Shutting Down Embedded Jetty Webserver"
+"Выключение встроенного веб-сервера Jetty"
+
+"Starting Metabase in STANDALONE mode"
+"Запуск Metabase в режиме отдельного приложения"
+
+"Metabase Initialization FAILED"
+"Инициализация Metabase ПРОВАЛЕНА"
+
+"Database has migration lock; cannot run migrations."
+"База данных содержит блокировку на запуск миграций; невозможно запустить миграции."
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"Вы можете сбросить эти блокировки запустив `java -jar metabase.jar migrate release-locks`."
+
+"Checking if Database has unrun migrations..."
+"Проверка базы данных на наличие невыполненных миграций..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"База данных содержит невыполненные миграции. Ожидании очистки блокировки на запуск миграций..."
+
+"Migration lock is cleared. Running migrations..."
+"Блокировка на запуск миграций очищена. Запуск миграций..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"Блокировка миграций очищена, но ничего не выполнено. Миграции были завершены другим инстансом."
+
+"Setting up Liquibase..."
+"Настройка Liquibase..."
+
+"Liquibase is ready."
+"Liquibase готов."
+
+"Verifying {0} Database Connection ..."
+"Проверка подключения к базе данных {0}..."
+
+"Verify Database Connection ... "
+"Проверка подключения к базе данных ... "
+
+"Running Database Migrations..."
+"Запуск миграций базы данных..."
+
+"Database Migrations Current ... "
+"Текущая миграция базы данных ... "
+
+"Hmm, we couldn''t connect to the database."
+"Хмм, мы не можем подключиться к базе данных."
+
+"Make sure your host and port settings are correct"
+"Убедитесь что хост и порт указаны корректно."
+
+"We couldn''t connect to the ssh tunnel host."
+"Мы не можем подключиться через ssh-туннель."
+
+"Check the username, password."
+"Проверьте имя пользователя, пароль."
+
+"Check the hostname and port."
+"Проверьте имя хоста и порт."
+
+"Looks like the database name is incorrect."
+"Похоже что указано некорректно имя базы данных."
+
+"It looks like your host is invalid."
+"Похоже что указан некорректный хост."
+
+"Please double-check it and try again."
+"Пожалуйста перепроверьте и попробуйте снова."
+
+"Looks like your password is incorrect."
+"Похоже что указан некорректный пароль."
+
+"Looks like you forgot to enter your password."
+"Похоже что вы забыли указать пароль."
+
+"Looks like your username is incorrect."
+"Похоже что указано некорректно имя пользователя."
+
+"Looks like the username or password is incorrect."
+"Похоже указаны некорректные имя пользователи или пароль."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"Подключение часового пояса для выполнения запросов. По умолчанию используется системный часовой пояс."
+
+"Registered driver {0} {1}"
+"Зарегистрирован драйвер {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"Не найдена функция -init-driver для ''{0}''"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"Невозможно обработать строку даты ''{0}'' для базы данных ''{1}''"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"Неизвестно как сопоставить класс ''{0}'' с полем base_type, возврат к :type/*."
+
+"Failed to connect to database: {0}"
+"Невозможно подключиться к базе данных: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"Некорректный идентификатор BigQuery: ''{0}''"
+
+"BigQuery statements can't be parameterized!"
+"Выражение BigQuery не может быть параметризировано!"
+
+"Failed to set timezone:"
+"Невозможно установить часовой пояс:"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"Выполнение SQL запросов на H2 базе данных с использованием пользователя по-умолчанию (admin) запрещено."
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"Ошибка: metabase.driver.FixedHiveDriver зарегистрирован, но похоже что JDBC не использует его."
+
+"Found metabase.driver.FixedHiveDriver."
+"Найден metabase.driver.FixedHiveDriver."
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"Успешно зарегистрирован metabase.driver.FixedHiveDriver с JDBC."
+
+"Email address you want to use as the sender of Metabase."
+"Email адрес, который вы хотите использовать как отправителя Metabase."
+
+"The address of the SMTP server that handles your emails."
+"Адрес SMTP сервера, который обрабатывает вашу почту."
+
+"SMTP username."
+"SMTP пользователь."
+
+"SMTP password."
+"SMTP пароль."
+
+"The port your SMTP server uses for outgoing emails."
+"Порт вашего SMTP сервера, используемый для отправки почты."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"Протокол безопасности подключения SMTP (tls, ssl, starttls, или не используется)"
+
+"none"
+"ничего"
+
+"SMTP host is not set."
+"SMTP хост не установлен."
+
+"Failed to send email"
+"Ошибка отправки email"
+
+"Error testing SMTP connection"
+"Ошибка тестирования SMTP соединения"
+
+"Enable LDAP authentication."
+"Включить LDAP аутентификацию."
+
+"Server hostname."
+"Хост сервера"
+
+"Server port, usually 389 or 636 if SSL is used."
+"Порт сервера, обычно 389 или 636 при использовании SSL."
+
+"Use SSL, TLS or plain text."
+"Использование SSL, TLS или простого текста."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"Различающееся имя для привязки как (если есть), этот пользователь будет использоваться для поиска информации о других пользователях."
+
+"The password to bind with for the lookup user."
+"Пароль для привязки пользователя, используемого для поиска."
+
+"Search base for users. (Will be searched recursively)"
+"Поисковая база для пользователей. (Мы будем искать рекурсивно)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"Фильтр для поиска пользователей, переменная '{login}' будет заменена предоставленным логином пользователя."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Атрибут, использующийся в качестве email пользователя (обычно ''mail', ''email'' или ''userPrincipalName'')"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"Атрибут, использующийся в качестве имени пользователя (обычно ''givenName'')"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"Атрибут, использующийся в качестве фамилии пользователя (обычно ''sn'')"
+
+"Enable group membership synchronization with LDAP."
+"Включить синхронизацию членства в группах с LDAP."
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"Поисковая база для групп, необязательна если LDAP сервер предоставляет ''memberOf''. (Мы будем искать рекурсивно)"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON содержащий сопоставление между группами LDAP и Metabase."
+
+"Here''s what I can {0}:"
+"Вот что я могу {0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"Я не знаю, как {0} `{1}`.n{2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"Здесь ваши {0} последние карточки:n{1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"Можете ли вы уточнить? Я нашел эти карточки по совпадению имен:n{0}"
+
+"Not Found"
+"Не найдено"
+
+"Go home websocket, you're drunk."
+"Иди домой вебсокет, ты пьян."
+
+"Base-64 encoded public key for this site's SSL certificate."
+"Публичный ключ SSL-сертификата для этого сайта (Base64)."
+
+"Specify this to enable HTTP Public Key Pinning."
+"Определите это для включения HTTP Public Key Pinning."
+
+"See {0} for more information."
+"Смотрите {0} для получения информации."
+
+"Cannot save Question: source query has circular references."
+"Невозможно сохранить запрос: найдены циклические ссылки."
+
+"Card {0} does not exist."
+"Карточка {0} не существует."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"У вас нет разрешений на выполнение прямых запросов к базе данных {0}."
+
+"Invalid color"
+"Некорректный цвет"
+
+"must be a valid 6-character hex color code"
+"должен быть корректным 6-значным hex-кодом цвета"
+
+"Collection name cannot be blank!"
+"Имя коллекции не может быть пустым!"
+
+"cannot be blank"
+"не может быть пустым"
+
+"Invalid Collection location: path is invalid."
+"Некорректный путь к коллекции."
+
+"You cannot move a Personal Collection."
+"Вы не можете переместить Личную коллекцию."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"Некорректное путь коллекции: некоторые или все предки не существуют."
+
+"You cannot archive the Root Collection."
+"Вы не можете переместить в архив корневую коллекцию."
+
+"You cannot archive a Personal Collection."
+"Вы не можете перемести в архив личную коллекцию."
+
+"You cannot move the Root Collection."
+"Вы не можете переместить корневую коллекцию."
+
+"You cannot move a Collection into itself or into one of its descendants."
+"Вы не можете переместить коллекцию внутрь себя или в дочерние элементы."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"Перемещение коллекции {0} и ее элементов из {1} в {2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"Вам не разрешено изменение владельца личной коллекции."
+
+"You're not allowed to move a Personal Collection."
+"Вам не разрешено перемещение личной коллекции."
+
+"You cannot move a Collection and archive it at the same time."
+"Вы не можете одновременно переместить коллекцию и заархивировать ее."
+
+"You cannot delete a Personal Collection!"
+"Вы не можете удалить личную коллекцию!"
+
+"{0} {1}''s Personal Collection"
+"{0} личная коллекция {1}"
+
+"You cannot update a CollectionRevision!"
+"Вы не можете обновить ревизию коллекции!"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"Поле {0} ранее автоматически отображало виджет списка, но теперь имеет значения {1}."
+
+"Switching Field to use a search widget instead."
+"Переключить поле для использования поискового виджета."
+
+"Storing updated FieldValues for Field {0}..."
+"Сохранение обновленных значений для поля {0}..."
+
+"Storing FieldValues for Field {0}..."
+"Сохранение значений для поля {0}..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase может преобразовать ваши имена таблиц и полей в более разумные, читаемые версии, например, \"somehorriblename\" становится \"Some Horrible Name\"."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"Однако это не работает так хорошо, если имена на другом языке, кроме английского."
+
+"Do you want us to take a guess?"
+"Хотите ли вы, чтобы мы сделали предположения?"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"Вы не можете создать или отозвать разрешения для группы Администраторы."
+
+"Invalid permissions object path: ''{0}''."
+"Некорректный путь к объекту полномочий: ''{0}''."
+
+"You cannot update a permissions entry!"
+"Вы не можете изменить объект разрешений!"
+
+"Delete it and create a new one."
+"Удалить и добавить новую."
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"Вы не можете редактировать разрешения для Персональной коллекции и его потомков."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"Похоже, кто-то еще отредактировал разрешения, и ваши данные устарели."
+
+"Please fetch new data and try again."
+"Пожалуйста получите новыю данные и попробуйте снова."
+
+"A group with that name already exists."
+"Группа с таким именем уже существует."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"Вы не можете редактировать или удалять \"{0}\" группу разрешений!"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"Вы не можете добавлять или удалять пользователей из группы \"MetaBot\""
+
+"You cannot add or remove users to/from the 'All Users' group."
+"Вы не можете добавлять или удалять пользователей из группы \"Все пользователи\"."
+
+"You cannot remove the last member of the 'Admin' group!"
+"Вы не можете удалить последнего участника группы \"Администраторы\"!"
+
+"You cannot update a PermissionsRevision!"
+"Вы не можете изменить ревизию полномочий!"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"Некорректное предупреждение: Предупреждение не имеет связанной с ним карточки."
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"значение должно быть таблицей с ключами `{0}`, `{1}`, и `{2}`."
+
+"value must be a map with the following keys `({0})`"
+"значение должно быть таблицей со следующими ключами `({0})`"
+
+"Error calculating permissions for query: {0}"
+"Ошибка проверки полномочий для запроса: {0}"
+
+"Invalid query type: {0}"
+"Некорректный тип запроса: {0}"
+
+"You cannot update a QueryExecution!"
+"Вы не можете изменить выполнения запроса!"
+
+"You cannot update a Revision!"
+"Вы не можете обновить ревизию!"
+
+"Updating value of settings-last-updated in DB..."
+"Обновление значения settings-last-updated в базе данных..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"Проверка устарешего кэша настроек (требуется вызов базы данных)..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"Настройки были изменены другим инстансом, и будут перезагружены здесь."
+
+"Refreshing Settings cache..."
+"Обновление кэша настроек..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"Некорректное значение строки:  должно быть \"true\" или \"false\" (регистро-независимо)"
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"Вы не можете изменить `settings-last-updated` самостоятельно! Это делается автоматически."
+
+"Error inserting a new Setting:"
+"Ошибка вставки новой настройки:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"Предположительно настройка уже имеется в базе данных и текущее значение будет обновлено."
+
+"value must be a map with each value either a string or number."
+"значение должно быть таблицей, где каждое значение будет числом или строкой."
+
+"Loading plugins in directory {0}..."
+"Загрузка плагинов в директории {0}..."
+
+"Loading plugin {0}... "
+"Загрузка плагина {0}... "
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"Похоже что у вас есть некоторые внешние зависимости в директории с плагинами Metabase."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"Начиная с версии Java 9 или выше, Metabase не может автоматически добавляться в ваш classpath."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"Вместо этого, вы должны включить его в запуск с опцией -cp. Например:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"Смотрите https://metabase.com/docs/latest/operations-guide/start.html#java-versions для получения дополнительной информации."
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(если вы уже запустили Metabase этим способом, вы можете проигнорировать это сообщение.)"
+
+"Identify when new versions of Metabase are available."
+"Определять когда доступна новая версия Metabase"
+
+"Information about available versions of Metabase."
+"Информация о доступных версиях Metabase"
+
+"The name used for this instance of Metabase."
+"Имя, использованное для текущего инстанса Metabase."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"Базовая ссылка на инстанс Metabase, например \"http://metabase.my-company.com\""
+
+"The default language for this Metabase instance."
+"Язык по-умолчанию для текущего инстанса Metabase."
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"Это применимо только для email-ов, пульсов и т.д. Язык интерфейса будет определяться браузерами пользователей."
+
+"The email address users should be referred to if they encounter a problem."
+"Адрес электронной почты для обращения в случае появления проблем."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"Разрешить сбор анонимных данные по использованию для улучшения Metabase."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"Шаблон URL-адреса сервера листов карт, используемый в визуализациях карт, например в OpenStreetMaps или MapBox."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"Разрешить администраторам создавать общедоступные ссылки (и встраиваемые фреймы iframe) для вопросов и панелей мониторинга?"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"Разрешать администраторам безопасности встраивание запросов и дашбордов во внешние приложения?"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"Включение кэширования сохранит результаты запросов, на выполнение которых требуется много времени."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"Максимальный размер кэша на сохраненный запрос, в килобайтах:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"Максимальное время сохранения кэшированных результатов запросов, в секундах."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase закэширует все сохраненные запросы со средним временем выполнения запроса, превышающим время в секундах:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"Для определения как долго должен хранится кэш запроса, мы возьмем среднее время выполнения и умножим на введенное значение."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"Если среднее время выполнения запроса составляет 2 минут, и вы введете 10 в качестве умножителя, его кэш будет хранится на протяжении 20 минут."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"При использовании стратегии разбиения по умолчанию и отсутствии нескольких ячеек это число будет использоваться по умолчанию."
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"При использовании стратегии разбиения по умолчанию для поля типа координата (например, широта и долгота) это число будет использоваться в качестве ширины ячейки по умолчанию (в градусах)."
+
+"Unable to validate token."
+"Невозможно проверить токен."
+
+"Error fetching token status:"
+"Ошибка получения статуса токена:"
+
+"There was an error checking whether this token was valid."
+"Ошибка проверки валидности текущего токена."
+
+"Token validation timed out."
+"Превышено время ожидания при валидации токена."
+
+"Invalid token: token isn't in the right format."
+"Некорректный токен: использован неправильный формат."
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"Проверка MetaStore на валидность {0}..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"Токен для премиального встраивания. Перейдите в MetaStore для получения!"
+
+"Token is valid."
+"Токен действителен."
+
+"Error setting premium embedding token"
+"Ошибка сохранения премиального токена для встраивания"
+
+"Unable to compare results to goal for alert."
+"Невозможно сравнить результаты с целью для предупреждения."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"Запрос с идентификатором ''{0}'' с настройками визуализации ''{1}''"
+
+"Unrecognized alert with condition ''{0}''"
+"Нераспознанное предупреждение с условием ''{0}''"
+
+"Unrecognized channel type {0}"
+"Нераспознанный тип канала {0}"
+
+"Error sending notification!"
+"Ошибка отправки уведомления!"
+
+"Can't find JS color selector at ''{0}''"
+"Невозможно найти селектор JS ''{0}''"
+
+"Card has errors: {0}"
+"Карточка содержит ошибки: {0}"
+
+"Pulse card render error"
+"Ошибка отображения карточки пульса"
+
+"Trimming trailing comment from card with id {0}"
+"Обрезка завершающего комментария с карты с идентификатором {0}"
+
+"Can't find field with ID: {0}"
+"Невозможно найти поле с ID: {0}"
+
+"''{0}'' is a required param."
+"''{0}'' обязательный параметр"
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"Найдено \"{0} \"Без завершения\" {1} \"в запросе\" {2}\""
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"Невозможно заменить \" {0}\": параметр не указан.nFound: {1}"
+
+"You do not have permissions to view Card {0}."
+"У вас нет полномочий на просмотры Карточки {0}."
+
+"You do not have permissions to run this query."
+"У вас нет разрешения на выполнение данного запроса."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"Попытка обновления отпечатков пальцев {0}, обновлено {1}, данные не найдены {2}, Ошибка {3}"
+
+"Total number of fields classified {0}, {1} failed"
+"Общее число классифицированных полей {0}, {1} ошибка"
+
+"Total number of tables classified {0}, {1} updated"
+"Общее количество классифицированных таблиц {0}, {1} обновлено"
+
+"Error generating fingerprint for {0}"
+"Ошибка генерация отпечатка для {0}"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"Обнолвено {0} списков значений полей, создано {1}, удалено {2} c {3} ошибками"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"Всего синхронизировано {0} полей, обновлено {1} полей"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"Всего синхронизировано {0} таблиц, обновлено {1} таблиц"
+
+"Found timezone id {0}"
+"Найден часовой пояс {0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"Общее количество синхронизированных внешних ключей {0}, обновленных {1} и таблиц, обновление которых не удалось {2}"
+
+"{0} Database {1} ''{2}''"
+"{0} База данных {1} ''{2}''"
+
+"Table {0} ''{1}''"
+"Таблица {0} ''{1}''"
+
+"Field {0} ''{1}''"
+"Поле {0} ''{1}''"
+
+"Field ''{0}''"
+"Поле ''{0}''"
+
+"step ''{0}'' for {1}"
+"шаг ''{0}'' для {1}"
+
+"Completed {0} on {1}"
+"Выполнено {0} для {1}"
+
+"Start: {0}"
+"Начало: {0}"
+
+"End: {0}"
+"Окончание: {0}"
+
+"Duration: {0}"
+"Длительность: {0}"
+
+"Completed step ''{0}''"
+"Выполнен шаг ''{0}''"
+
+"Loading tasks namespace:"
+"Загрузка задачи пространства имен:"
+
+"Starting Quartz Scheduler"
+"Запускаем Quartz Scheduler"
+
+"Stopping Quartz Scheduler"
+"Останавливаем Quartz Scheduler"
+
+"Job already exists:"
+"Задача уже существует:"
+
+"Loading Metabase..."
+"Metabase загружается..."
+
+"Possible timezone conflict found on database {0}."
+"Обнаружен возможный конфликт часового пояса для базы данных {0}."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"Часовой пояс JVM {0}, а определенный для базы данных - {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"Настройте часовой пояс отчетов для корректное сопоставления и конвертации дат."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"Секретный ключ используется для подписи JSON Web токенов для обращений к назначениям  `/api/embed`"
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEY должен состоять как минимум из 16 знаков."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"Шифрование сохранённых учетных записей ВКЛЮЧЕНО для этой копии Metabase."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"Шифрование сохранённых учетных записей ВЫКЛЮЧЕНО для этой копии Metabase."
+
+"nFor more information, see"
+"Для получения подробной информации, смотрите"
+
+"value must be an integer."
+"значение должно содержать целое число (integer)."
+
+"value must be a string."
+"значение должно содержать текстовую строку (string)."
+
+"value must be a boolean."
+"значение должно содержать логическое выражение (boolean)."
+
+"value must be a string that matches the regex `{0}`."
+"значение должно содержать текстовую строку (string), соответствующую выражению regex `{0}`."
+
+"value must satisfy one of the following requirements: "
+"значение должно удовлетворять одному из следующих требований:␣"
+
+"value may be nil, or if non-nil, {0}"
+"значение может быть нулем (nil) или, если не ноль (non-nil), то {0}"
+
+"value must be one of: {0}."
+"значение должно принимать одно из следующих значений: {0}."
+
+"value must be an array."
+"значение должно быть массивом."
+
+"Each {0}"
+"Каждый {0}"
+
+"The array cannot be empty."
+"Массив не может быть пустым"
+
+"value must be a non-blank string."
+"значение не должно быть пустой строкой."
+
+"Integer greater than zero"
+"Целое число больше нуля"
+
+"value must be an integer greater than zero."
+"Значение должно быть больше нуля"
+
+"Number greater than zero"
+"Числе больше нуля"
+
+"value must be a number greater than zero."
+"Значение должно быть больше нуля"
+
+"Keyword or string"
+"Ключевое слово или строка"
+
+"Valid field type"
+"Валидный тип поля"
+
+"value must be a valid field type."
+"значение должно быть валидным типом поля."
+
+"Valid field type (keyword or string)"
+"Валидный тип поля (ключевое слово или строка)"
+
+"value must be a valid field type (keyword or string)."
+"значение должно быть валидным типом поля (ключевое слово или строка)."
+
+"Valid entity type (keyword or string)"
+"Валидный тип записи (ключевое слово или строка)"
+
+"value must be a valid entity type (keyword or string)."
+"значение должно быть валидным типом записи (ключевое слово или строка)."
+
+"Valid map"
+"Валидная карта"
+
+"value must be a map."
+"Значение должно быть картой"
+
+"Valid email address"
+"Валидный email адрес"
+
+"value must be a valid email address."
+"значение должно быть валидным email адресом."
+
+"Insufficient password strength"
+"Недостаточная сложность пароля"
+
+"value must be a valid integer."
+"значение должно быть целым числом."
+
+"value must be a valid integer greater than zero."
+"значение должно быть целым числом больше нуля."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"значение должно быть корректным логическим типом (''true'' или ''false'')."
+
+"value must be a valid JSON string."
+"значение должно быть валидной JSON-строкой."
+
+"value must be a valid embedding params map."
+"значение должно быть валидным параметром встраивания карты."
+
+"No results"
+"Нет результатов"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"Перемещение экземпляров {0}, отсутствующих в коллекции, в коллекцию {1} {2}"
+
+"Failed to grant permissions: {0}"
+"Ошибка назначения полномочий: {0}"
+
+"Host"
+"Хост"
+
+"Port"
+"Порт"
+
+"Database username"
+"Имя пользователя базы данных"
+
+"Database password"
+"Пароль базы данных"
+
+"Database name"
+"Имя базы данных"
+
+"birds_of_the_world"
+"moya_baza_dannyh"
+
+"Additional JDBC connection string options"
+"Дополнительные параметры подключения JDBC"
+
+"praxis-beacon-120871"
+"praxis-beacon-120871"
+
+"toucanSightings"
+"toucanSightings"
+
+"Hosts"
+"Хосты"
+
+"Broker node port"
+"Некорректный порт ноды"
+
+"Google Analytics Account ID"
+"ID аккаунта Google Analytics"
+
+"Connection String"
+"Строка подключения"
+
+"Users/camsaul/bird_sightings/toucans"
+"Users/camsaul/bird_sightings/toucans"
+
+"carrierPigeonDeliveries"
+"carrierPigeonDeliveries"
+
+"Authentication Database"
+"База данных аутентификации"
+
+"Optional database to use when authenticating"
+"Необязательная база данных для использования при аутентификации"
+
+"Additional Mongo connection string options"
+"Дополнительные параметры при подключении к Mongo"
+
+"Oracle system ID (SID)"
+"Идентификатор системы Oracle (SID)"
+
+"Usually something like ORCL or XE."
+"Обычно что-то типа ORCL или XE."
+
+"Optional if using service name"
+"Необязательно при использовании имени службы"
+
+"Oracle service name"
+"Имя службы Oracle"
+
+"Optional TNS alias"
+"Необязательный TNS алиас"
+
+"hive"
+"hive"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"по-умолчанию"
+
+"Filename"
+"Файл"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite 😋"
+
+"BirdsOfTheWorld"
+"MoyaBazaDannyh"
+
+"Database instance name"
+"Имя инстанса БД"
+
+"N/A"
+"Н/Д"
+
+"Windows domain"
+"Домен Windows"
+
+"Unable to release the Liquibase lock after a migration failure"
+"Невозможность снять блокировку Liquibase после сбоя миграции"
+
+"Use JVM Time Zone"
+"Использовать часовой пояс JVM"
+
+"Not a valid integer: ''{0}''"
+"Недопустимое целое число: \"{0}\""
+
+"Embedding is not enabled for this object."
+"Встраивание недоступно для этого объекта."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"Проблема при подключении к LDAP серверу, произойдет возврат к локальной аутентификации: {0}"
+
+"When including an offset, a limit must also be included."
+"При включении смещения необходимо также включить ограничение."
+
+"When including a limit, an offset must also be included."
+"При включении ограничения необходимо также включить смещение."
+
+"Applying heuristic {0} to {1}."
+"Применение эвристики {0} к {1}."
+
+"Dimensions bindings:n{0}"
+"Привязки размеров: n{0}"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"Используя определения:nMetrics:n{0}nFilters:n{1}"
+
+"minute"
+"Минута"
+
+"hour"
+"Час"
+
+"day of week"
+"День недели"
+
+"day of month"
+"День месяца"
+
+"day of year"
+"День года"
+
+"week"
+"Неделя"
+
+"month"
+"Месяц"
+
+"quarter"
+"Квартал"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"Добавление {0} карточек в панель {1}: n{2}"
+
+"Error parsing {0}:n{1}"
+"Ошибка {0}:n{1}"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"ВНИМАНИЕ: фильтрация работает только для измерений! \"{0}\" является метрикой. Игнорирование фильтра."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"ПРЕДУПРЕЖДЕНИЕ: дата не может принадлежать нескольким дискретным интервалам, поэтому их объединение не имеет смысла."
+
+"Ignoring these intervals: {0}"
+"Игнорирование этих интервалов: {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"ПРЕДУПРЕЖДЕНИЕ: не знаю, как отменить: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"ВНИМАНИЕ: Druid не разрешает limitSpec в запросах временных рядов. Игнорирование условия LIMIT."
+
+"HoneySQL Form:"
+"HoneySQL Форма:"
+
+"Unable to parse date ''{0}''"
+"Невозможно преобразовать дату ''{0}''"
+
+"Client closed connection, cancelling query"
+"Клиент закрыл соединение, отмена запроса"
+
+"Setting timezone with statement: {0}"
+"Установка часового пояса с указанием: {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"КОНВЕЙЕР АГРЕГАЦИИ MONGO:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"Ошибка: несоответствие столбцов в результатах! Ожидалось: {0} Получено: {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"Не удается создать временный файл в `{0}` для вложений электронной почты"
+
+"Error preprocessing query:"
+"Ошибка предварительной обработки запроса:"
+
+"Illegal filter clause: {0}"
+"Неверное условие фильтра: {0}"
+
+"Invalid clause:"
+"Неверное условие:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"Ошибка: исходный запрос запроса не был разрешен. Вероятно, вам сначала нужно \"предварительно обработать\" запрос."
+
+"No expression named ''{0}''"
+"Нет выражения с именем \"{0}\""
+
+"No aggregation at index: {0}"
+"Нет агрегации по индексу: {0}"
+
+"Field values total length is {0} (max {1})."
+"Общая длина значений полей равна {0} (max {1})."
+
+"FieldValues are allowed for this Field."
+"Для этого поля разрешены значения полей."
+
+"FieldValues are NOT allowed for this Field."
+"Значения полей не допускаются для этого поля."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"Поле {0} \"{1}\" должно быть полей и принадлежит к базе данных по требованию полей обновление."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"Нельзя создать или отменить разрешения для группы \"администраторы\"."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"Добавлять или удалять пользователей в группу \"Все пользователи\" нельзя."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"Вы не можете удалить последнего члена группы \"администратор\"!"
+
+"Error inserting a new Setting: {0}"
+"Ошибка при вставке нового параметра: {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"строки описания дефсетинга должны быть': internal?- или многоязычными, нашел: `{0}`"
+
+"Loading plugin {0}... {1}"
+"Загрузка плагина {0}... {1}"
+
+"Object keyed by type, containing formatting settings"
+"Объект с ключом по типу, содержащий параметры форматирования"
+
+"Allow users to explore data using X-rays"
+"Позволяют пользователям исследовать данные с помощью X-ray"
+
+"Unable to validate token: 404 not found."
+"Невозможно проверить токен: 404 not found."
+
+"There was an error checking whether this token was valid:"
+"Произошла ошибка при проверке допустимости этого маркера:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"Токен для премиум-функций. Иди в MetaStore, чтобы получить свой!"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"Неверный формат токена. Токен должен содержать 64 шестнадцатеричных символа."
+
+"Error setting premium features token"
+"Ошибка при установке токена премиум-функций"
+
+"Error validating token:"
+"Ошибка при проверке токена:"
+
+"Error preprocessing query"
+"Ошибка предварительной обработки запроса"
+
+"No native form returned."
+"Не возвращена нативная форма."
+
+"Invalid response from database driver. No :status provided."
+"Неверный ответ драйвера базы данных. Нет: предоставления статуса."
+
+"General error"
+"Общая ошибка"
+
+"Missing query hash!"
+"Отсутствует хэш запроса!"
+
+"Table ''{0}'' has no Fields associated with it."
+"Таблица \"{0}\" не имеет связанных с ней полей."
+
+"Max concurrent query limit reached"
+"Достигнут максимальный уровень одновременных запросов"
+
+"Don't know how to get information about Field:"
+"Не знаю, как получить информацию о поле:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"metabase.query-processor.interface/*driver* не привязан."
+
+"Query processor error: mismatched number of columns in query and results."
+"Ошибка обработчика запросов: несогласованное число столбцов в запросе и результатах."
+
+"Expected {0} fields, got {1}"
+"Ожидаемые поля {0}, получено {1}"
+
+"Expected: {0}"
+"Ожидается: {0}"
+
+"Actual: {0}"
+"Фактический: {0}"
+
+"Unable to bin Field without a min/max value"
+"Невозможно скомпоновать поле без значения min / max"
+
+"{0} is not supported by this driver."
+"{0} не поддерживается этим драйвером."
+
+"Segment {0} does not exist, or is invalid."
+"Сегмент {0} не существует или является недопустимым."
+
+"Metric {0} does not exist, or is invalid."
+"Метрика {0} не существует или является недопустимой."
+
+"Missing source query in Card {0}"
+"Отсутствует исходный запрос в карточке {0}"
+
+"Fetched source query from Card {0}:"
+"Исходный запрос из карточки {0}:"
+
+"Error transforming MBQL query to native:"
+"Ошибка преобразования запроса MBQL к родному:"
+
+"Cannot run query: could not find source table {0}."
+"Не удалось выполнить запрос: не удалось найти исходную таблицу {0}."
+
+"Error recording results metadata for query:"
+"Ошибка записи метаданных результатов запроса:"
+
+"Error: Query Processor store is not initialized."
+"Ошибка: хранилище обработчика запросов не инициализировано."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"Ошибка: таблица {0} отсутствует в хранилище обработчика запросов."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"Ошибка: поле {0} отсутствует в хранилище обработчика запросов."
+
+"Task history cleanup successful, rows were {0}deleted"
+"Очистка истории задач выполнена успешно, строки были удалены {0}"
+
+"not"
+"Не"
+
+"For more information, see"
+"Для получения информации, смотрите"
+
+"Integer greater than or equal to zero"
+"Целое число большее или равное нулю"
+
+"value must be an integer greater than or equal to zero."
+"значение должно быть целым числом, большим или равным нулю."
+
+"value must be an integer zero or greater."
+"значение должно быть целым числом ноль или больше."
+
+"value must be a valid integer greater than or equal to zero."
+"значение должно быть действительным целым числом, большим или равным нулю."
+
+"Unable to parse resource `{0}` as JSON"
+"Невозможно проанализировать ресурс `{0}` как JSON"
+
+"Unable to find JSON via relative path `{0}`"
+"Невозможно найти JSON по относительному пути `{0}`"
+
+"Connection to host timed out for URL `{0}`"
+"Истекло время соединения с хостом для URL `{0}`"
+
+"Unable to connect to unknown host at URL `{0}`"
+"Невозможно подключиться к неизвестному хосту по URL `{0}`"
+
+"Unable to connect to host at URL `{0}`"
+"Невозможно подключиться к хосту по URL `{0}`"
+
+"Connection refused by host at for URL `{0}`"
+"Соединение отклонено хостом по адресу URL '{0}'"
+
+"Unable to retrieve resource at URL `{0}`"
+"Невозможно получить ресурс по URL `{0}`"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"Невозможно проанализировать ресурс по URL `{0}` как JSON"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"При подключении к серверу LDAP возникнет проблема с локальной аутентификацией: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"Заявления BigQuery не могут быть параметризованы!"
+
+"We’d love your feedback."
+"Спасибо за обратную связь."
+
+"It looks like Metabase wasn’t quite a match for you."
+"Похоже, что Metabase не совсем подходит для вас."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"Не могли бы вы пройти быстрый опрос из 5 вопросов, чтобы помочь команде Metabase понять, почему и улучшить ситуацию в будущем?"
+
+"We hope you''ve been enjoying Metabase."
+"Мы надеемся, что вы наслаждались Metabase."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"Не могли бы вы пройти быстрый опрос из 6 вопросов, чтобы рассказать нам, как идут дела?"
+
+"{0} created a Metabase account"
+"{0} создал учетную запись в Metabase"
+
+"{0} accepted their Metabase invite"
+"{0} принял приглашение в Metabase"
+
+"[Metabase] Password Reset Request"
+"[Metabase] Запрос на сброс пароля"
+
+"[Metabase] Notification"
+"[Metabase] Уведомление"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] Помогите сделать Metabase лучше"
+
+"[Metabase] Tell us how things are going."
+"[Metabase] Расскажите, как идут дела?"
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"Ошибка: исходный запрос запроса не был разрешен. Вам, вероятно, нужно сначала обработать запрос."
+
+"Don't know what to do with:"
+"Не знаю что сделать с:"
+
+"Don't know how to wrap:"
+"Не знаю, как обернуть:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"Не удалось установить для `query-caching-max-kb` значение {0}."
+
+"Values greater than {1} are not allowed."
+"Значения, превышающие {1}, не допускаются."
+
+"Database {0} does not exist."
+"База данных {0} не существует."
+
+"Error: Database is not present in the Query Processor Store."
+"Ошибка: база данных отсутствует в хранилище обработчика запросов."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"Неверный встраиваемый секретный ключ! Секретным ключом должен быть шестнадцатеричный кодированный 256-битный ключ (то есть строка из 64 символов)."
+
+"JWT is missing `alg`."
+"JWT отсутствует `alg`."
+
+"JWT `alg` cannot be `none`."
+"JWT `alg` не может быть` none`."
+
+"The embedding secret key has not been set."
+"Секретный ключ для встраивания не был установлен."
+
+"Token is missing value for keypath"
+"В токене отсутствует значение для ключевого пути"
+
+"Previous {0}"
+"Предыдущий {0}"
+
+"value must be a valid database engine."
+"значение должно быть корректным для СУБД"
+
+"Connection refused by host for URL `{0}`"
+"Соединение отклонено сервером для URL `{0}`"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"ПРЕДУПРЕЖДЕНИЕ: Использование Metabase с базой данных H2 не рекомендуется для развёртывания в производственной среде."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"Для дополнительной информации смотрите: https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres."
+
+"Unable to connect to Metabase {0} DB."
+"Невозможно подключиться к Metabase {0} БД."
+
+"Failed to notify {0} Database {1} updated"
+"Не удалось уведомить {0} база данных {1} обновлена"
+
+"Loading driver {0} {1}"
+"Загрузка драйвера"
+
+"Load driver {0}"
+"Загрузить драйвер"
+
+"Driver not registered after loading: {0}"
+"Драйвер не зарегистрирован после загрузки: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"Ошибка: попытка изменить свойство {0} `: abstract?` с {1} на {2}."
+
+"Registered abstract driver {0}"
+"Абстрактный драйвер зарегистрирован"
+
+"Registered driver {0}"
+"Драйвер зарегистрирован"
+
+"(parents: {0})"
+"(родительские: {0})"
+
+"Initializing driver {0}..."
+"Инициализация драйвера {0}..."
+
+"Reason:"
+"Причина:"
+
+"Invalid driver feature: {0}"
+"Некорректная функция драйвера: {0}"
+
+"Invalid HoneySQL form:"
+"Неправильная HoneySQL форма:"
+
+"Closing connection pool for database {0} ..."
+"Закрытие пула соединений к базе данных {0} ..."
+
+"Error loading namespace"
+"Ошибка в загрузке пространства имен"
+
+"Starting events listener:"
+"Запуск слушателя событий:"
+
+"Unexpected error listening on events"
+"Непредвиденная ошибка прослушивания событий"
+
+"Error syncing Database {0}"
+"Ошибка синхронизации Database {0}"
+
+"Failed to process sync-database event."
+"Не удалось обработать событие sync-database."
+
+"Bad nested-query-level: query does not have a source query"
+"Неверный уровень вложенности запросов: запрос не содержит исходного запроса."
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"Значения для поля {0} не изменились. Пропуск..."
+
+"Unable to normalize:"
+"Невозможно нормализовать:"
+
+"Could not find matching Field ID for target:"
+"Не удалось найти подходящий Field ID для цели"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"У Metabase нет прав для записи в каталог плагинов {0}"
+
+"Metabase cannot use the plugins directory {0}"
+"Metabase не может использовать каталог плагинов {0}"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"Пожалуйста проверьте, что каталог существует и Metabase имеет права для записи в него."
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"Вы можете изменить каталог, используемый Metabase для модулей, установкой переменной окружения MB_PLUGINS_DIR."
+
+"Falling back to a temporary directory for now."
+"Откат к временному каталогу на данный момент."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"Metabase не может записать во временный каталог. Пожалуйста укажите в MB_PLUGINS_DIR каталог, доступный для записи, и перезапустите Metabase."
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deps.jar больше не требуется для Metabase 1.0+. Вы можете его удалить из каталога плагинов."
+
+"Failied to initialize plugin {0}"
+"Не удалось инициализировать плагин {0}"
+
+"Loading plugins in {0}..."
+"Загрузка плагинов в {0}..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"Использование базового загрузчика Clojure в качестве загрузчика классов с общим контекстом: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"Установка текущего загрузчика классов контекста потока в общий загрузчик классов {0}..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"Установка текущего загрузчика классов контекста потока в NEWLY CREATED загрузчик классов {0}..."
+
+"Added URL {0} to classpath"
+"Добавлена URL {0} в classpath"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"Плагин {0} декларирует зависимость, которую Metabase не понимает: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"Обратитесь к ссылке на manifest плагина для получения полного списка зависимостей плагина:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"Metabase не может инициализировать плагин {0} из-за обязательных зависимостей."
+
+"Class not found: {0}"
+"Класс не найден"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"Плагин \"{0}\" зависит от плагина \"{1}\""
+
+"{0} dependency {1} satisfied? {2}"
+"{0} зависимость {1} удовлетворена? {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"Плагины с неудовлетворенными зависимостями: {0}"
+
+"Extract file {0} -> {1}"
+"Извлечь файл {0} -> {1}"
+
+"Resource does not exist."
+"Ресурс не существует"
+
+"Loading plugin namespace {0}..."
+"Загрузка пространства имён плагина {0}..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"Зависимости удовлетворены: эти плагины теперь будут загружены: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"Регистрация JDBC-прокси драйвера для {0}..."
+
+"Deregistering original JDBC driver {0}..."
+"Разрегистрация оригинального JDBC драйвера {0}..."
+
+"Default connection property {0} does not exist."
+"Свойства соединения по умолчанию {0} не существует."
+
+"Invalid connection property {0}: not a string or map."
+"Некорректное свойство соединения {0}: не строка или объект мэппинга."
+
+"Load lazy loading driver {0}"
+"Загрузка отложенной загрузки драйвера {0}"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"Невозможно инициировать плагин: отсутствует обязательный параметр `driver-name`"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"Предупреждение: manifest плагина для {0} не включает свойств соединения"
+
+"Registering lazy loading driver {0}..."
+"Регистрация отложенной загрузки драйвера {0}..."
+
+"Error running query for Card {0}"
+"Ошибка выполнения запроса для карточки {0} "
+
+"Last week"
+"Прошлая неделя"
+
+"This week"
+"Эта неделя"
+
+"Last month"
+"Последний месяц"
+
+"This month"
+"Этот месяц"
+
+"Last quarter"
+"Последний квартал"
+
+"This quarter"
+"Этот квартал"
+
+"Last year"
+"Последний год"
+
+"This year"
+"Этот год"
+
+"*driver* is unbound."
+"*driver* не привязан."
+
+"Error syncing Fields for Table ''{0}''"
+"Ошибка синхронизации полей из таблицы ''{0}''"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"Хэш {0} соответствует сохраненному хешу, пропускаем синхронизацию полей"
+
+"Field"
+"Поле"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"Ошибка проверки необходимости создания или повторной активации полей {0}"
+
+"Marking Field ''{0}'' as inactive."
+"Отметка поля ''{0}'' как неактивного."
+
+"Error retiring {0}"
+"Ошибка получения {0}"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"Тип БД для {0} был изменен с ''{1}'' на ''{2}''. "
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"Основной тип для {0} был изменен с ''{1}'' на ''{2}''."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"Специальный тип для {0} был изменен с ''{1}'' на ''{2}''."
+
+"Comment has been added for {0}."
+"Добавлен комментария для {0}."
+
+"Stopping Quartz Scheduler {0}"
+"Остановка планировщика Quartz {0}"
+
+"Starting Quartz Scheduler {0}"
+"Запуск планировщика Quartz {0} "
+
+"Error loading tasks namespace {0}"
+"Ошибка загрузки пространства имен задач {0}"
+
+"Initializing task {0}"
+"Инициализация задания {0}"
+
+"Error initializing task {0}"
+"Ошибка инициализации задачи {0}"
+
+"Problem sending abandonment email"
+"Проблема отправки одиночного email"
+
+"Sending anonymous usage stats."
+"Отправка анонимной статистики использования."
+
+"Error sending anonymous usage stats"
+"Ошибка отправки анонимной статистики использования"
+
+"Error sending Pulse {0}"
+"Ошибка отправки Пульса {0}"
+
+"Sending scheduled pulses..."
+"Отправка запланированных пульсов..."
+
+"SendPulses task failed"
+"Задача SendPulses не удалась"
+
+"Failed to scheduler tasks for Database {0}"
+"Ошибка в запланированной задаче базы {0}"
+
+"Cleaning up task history"
+"Очистка истории заданий"
+
+"Task history cleanup successful, rows were deleted"
+"Очистка истории прошла успешно, ряды были удалены"
+
+"Task history cleanup successful, no rows were deleted"
+"Очистка истории прошла успешно, ряды не были удалены"
+
+"Checking for new Metabase version info."
+"Проверка наличия новой версии Metabase"
+
+"Error fetching version info"
+"Ошибка получения информации о версии"
+
+"Maximum memory available to JVM: {0}"
+"Максимально доступно ОЗУ для JVM: {0}"
+
+"Not something with an ID: {0}"
+"Нет чего-то с ID: {0}"
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"Метаданные результатов карточки, переданные в API, ОТСУТСТВУЮТ. Выполните запрос для получения правильных метаданных."
+
+"{0} was autocorrected to {1}"
+"{0} автоматически поправлен на {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE /api/metric/:id устарел. Вместо этого, измените значение `archived` через PUT /api/metric/:id."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE /api/segment/:id устарел. Вместо этого, измените значение `archived` через PUT /api/segment/:id."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"Значение is_superuser должно соответствовать наличию идентификатора группы администраторов в group_ids."
+
+"Unexpected error writing keepalive characters"
+"Неожиданная ошибка записи символов поддержки активности"
+
+"Unexpected output in async API response"
+"Непредвиденных вывод в ответе асинхронного API"
+
+"starting streaming response"
+"запуск потокового ответа"
+
+"Output chan closed, canceling keepalive request."
+"Выходной канал закрыт, отмена keepalive-запроса."
+
+"Async response finished, closing channels."
+"Асинхронный ответ завершен, закрытие каналов."
+
+"No response after waiting {0}. Canceling request."
+"Нет ответа после ожидания {0}. Отмена запроса."
+
+"Input channel unexpectedly closed."
+"Входящий канал непредвиденно закрыт."
+
+"f finished, permit will be returned"
+"Если закончено, разрешение будет возвращено"
+
+"request canceled, permit will be returned"
+"запрос отменен, разрешение будет возвращено"
+
+"Unexpected error attempting to run function after obtaining permit"
+"Неожиданная ошибка при попытке запустить функцию после получения разрешения"
+
+"Not running pending function call: output channel already closed."
+"Не запущен ожидающий вызов функции: выходной канал уже закрыт."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"Текущий поток уже имеет разрешение на {0}, и не будет ждать, чтобы получить другой"
+
+"Output channel closed, will skip running {0}."
+"Выходной канал закрыт, пропускаем запуск {0}."
+
+"Running {0} on separate thread..."
+"Запуск {0} в отдельном потоке..."
+
+"Caught error running {0}"
+"Ошибка при выполнении {0}"
+
+"Request canceled, canceling future"
+"Запрос отменен, пройдет отмена."
+
+"Closing old connection pool for database {0} ..."
+"Закрытие старого пула соединений к базе данных {0} ..."
+
+"Here''s your {0} most recent cards:"
+"Вот ваши {0} самые последних карточек:"
+
+"Card {0} not found."
+"Карточка {0} не найдена."
+
+"Exception in API call"
+"Исключение при вызове API"
+
+"Request canceled before finishing."
+"Запрос отменен до завершения."
+
+"Metabase only supports JSON requests."
+"Metabase поддерживает только JSON запросы."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"Убедитесь что используете заголовок 'Content-Type: application/json'."
+
+"Setting Metabase site URL to {0}"
+"Установить URLMetabase {0}"
+
+"Error scheduling tasks for DB"
+"Ошибка запланированной задачи в БД"
+
+"Error unscheduling tasks for DB."
+"Ошибка незапланированной задачи в БД"
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} база данных ''{1}'' расписания синхронизации/анализа изменены!"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"Синхронизация метаданных была: ''{0}'' сейчас: ''{1}''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Кэш FieldValues был: ''{0}'', сейчас: ''{1}''"
+
+"You cannot update the creator_id of a Metric."
+"Вы не можете обновить creator_id в метрике."
+
+"Failed to grant permissions"
+"Неудача в предоставлении разрешений"
+
+"Changing permissions"
+"Изменение разрешений"
+
+"FROM:"
+"ОТ:"
+
+"TO:"
+"КОМУ:"
+
+"You cannot update the creator_id of a Segment."
+"Вы не можете обновить creator_id в сегменте."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"Попытка установить параметр {0} на неочевидное значение. Изменение проигнорировано."
+
+"Using value of env var {0}"
+"Использование значения переменных среды {0}"
+
+"Adding User {0} to All Users permissions group..."
+"Добавление пользователя {0} в группу доступа \"Все пользователи\"..."
+
+"Adding User {0} to Admin permissions group..."
+"Добавление пользователя {0} в группу доступа Администратор..."
+
+"Query failure"
+"Ошибка запроса"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"Максимальное количество одновременных запросов для каждой подключенной базы данных."
+
+"Timed out after {0} milliseconds."
+"Тайм-аут после {0} миллисекунд."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"Проблема с подключением к серверу LDAP, приведет к локальной аутентификации."
+
+"Cannot create Database: cannot find driver {0}."
+"Невозможно создать базу: не обнаружен драйвер {0}."
+
+"Query failed"
+"Запрос не выполнен"
+
+"Warning: {0} returned `nil`"
+"Ошибка: {0} вернул `nil`"
+
+"Unexpected error writing result to output channel: already closed"
+"Неожиданная ошибка записи результата в выходной канал: канал закрыт"
+
+"Unexpected error writing exception to output channel: already closed"
+"Неожиданная ошибка записи исключения в выходной канал: уже закрыт"
+
+"Request canceled, canceling future."
+"Запрос отменен, отмена будущего."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase может передавать данные только из H2 в Postgres или MySQL/MariaDB."
+
+"Application database setup"
+"Настройка базы данных приложения"
+
+"Could not find {0} driver."
+"Не удалось найти драйвер {0}."
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"Абстрактные драйверы не могут быть получены из конкретных родительских драйверов."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"Вам потребуется добавить 'trustServerCertificate=true к дополнительным параметрам подключения для подключения по SSL."
+
+"Don't know how to alias {0}, expected an Identifer."
+"Невозможно определить алиас для {0}, ожидается Идентификатор."
+
+"Client closed connection, canceling query"
+"Клиент закрыл соединение, отмена запроса"
+
+"{0} is not a valid DN."
+"{0} некорректное значение DN."
+
+"Error logging API request"
+"Ошибка логирования API запроса"
+
+"Failed to set site-url"
+"Ошибка установки site-url"
+
+"Error destroying thread pool for DB."
+"Ошибка закрытия пула потоков для базы данных."
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"Обновление отображаемого имени {0} ''{1}'': ''{2}'' -> ''{3}''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"Некорректная стратегия хуманизации ''{{0}}''. Корректные стратегии: {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Изменение наименований Таблиц и Полей согласно стратегии хуманизации с ''{0}'' на ''{1}''."
+
+"Error saving task history"
+"Ошибка сохранения истории задач"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"Плагин spark-deps.jar больше не требуется для Metabase начиная с версии 0.32.0. Вы можете удалить его из директории с плагинами."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"Использование НОВОГО СОЗДАННОГО загрузчика классов как общего загрузчика классов: {0}"
+
+"Failed to copy file"
+"Невозможно скопировать файл"
+
+"Invalid site URL: {0}"
+"Некорректный URL сайта: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"Некорректный site-url; возвращен пустой результат. Будет сброшен при следующем запросе."
+
+"More results have been included as a file attachment"
+"Больше результатов есть в приложенном файле."
+
+"This question has been included as a file attachment"
+"Этот запрос был включен в качестве вложения"
+
+"We were unable to display this Pulse."
+"Мы не смогли отобразить этот Пульс"
+
+"Please view this card in Metabase."
+"Пожалуйста, просмотрите эту карту в Metabase."
+
+"An error occurred while displaying this card."
+"Произошла ошибка при отображении этой карты."
+
+"Can only determine expected columns for MBQL queries."
+"Возможно определять только ожидаемые колонки для MBQL запросов."
+
+"No columns returned."
+"Нет колонок в результате"
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Предупреждение: невозможно определить поля для явного `source-query`, если вы также не включите` source-metadata`."
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"Невозможно разрешить {0}: Поле не существует, или Таблица относится к другой Базе данных."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"Не удается разрешить :field-literal внутри :fk->, если внутри не объединено с явным :alias."
+
+"Cannot find Table ID for {0}"
+"Невозможно найти идентификатор таблицы {0}"
+
+"No matching info found."
+"Не найдено подходящей информации."
+
+"Could not resolve {0}"
+"Невозможно разрешить {0}"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"Некорректный внешний ключ: невозможно добавить указанное слияние."
+
+"{0} driver does not support foreign keys."
+"Драйвер {0} не поддерживает внешние ключи."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"Невозможно вывести `: source-metadata` для исходного запроса с собственным исходным запросом без метаданных источника."
+
+"Query processor error: number of columns returned by driver does not match results."
+"Ошибка обработчика запросов: количество возвращаемых драйвером столбцов не соответствует результатам."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"Ожидаемо {0} столбцов, но первая строка результатов содержит {1} столбцов."
+
+"No expression named {0} found. Found: {1}"
+"Выражение {0} не найдено. Найдено: {1}"
+
+"Distinct values of {0}"
+"Уникальные значения {0}"
+
+"Average of {0}"
+"Среднее {0}"
+
+"Sum of {0}"
+"Сумма {0}"
+
+"SD of {0}"
+"Стандартное отклонение {0}"
+
+"Min of {0}"
+"Минимум {0}"
+
+"Max of {0}"
+"Максимум {0}"
+
+"Sum of {0} matching condition"
+"Сумма {0} по условию"
+
+"Share of rows matching condition"
+"Поделиться строками результата"
+
+"Count of rows matching condition"
+"Количество строк, соответствующих условию"
+
+"Request already canceled, will not run synchronous QP code."
+"Запрос уже отменён, синхронный QP код не будет выполнен."
+
+"Unexpectedly got `nil` Query Processor response."
+"Неожиданный пустой результат от Обработчика Запросов."
+
+"Got InterruptedException. Canceling query."
+"Получено прерывающее исключение. Отмена запроса."
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"Необрабатываемое исключение, ожидаем прослойку  `catch-exceptions` для обработки."
+
+"Query timed out after %s"
+"Таймаут выполнения запроса после %s "
+
+"Creating new query thread pool for Database {0}"
+"Создание нового потока пула запросов для Базы данных {0}"
+
+"Destroying query thread pool for Database {0}"
+"Уничтожение пула запросов для Базы данных {0}"
+
+"Request canceled, canceling pending query"
+"Запрос отменен, отмена ожидающего запроса"
+
+"Cannot update binned field: query is missing source-metadata"
+"Невозможно обновить скомпанованное поле: в запросе отсутствуют метаданные источника."
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"Невозможно обновить скомпанованное поле: не удаётся найти метаданные источника для Поля ''{0}''"
+
+"Using query processor cache backend: {0}"
+"Использование кэша бэкенда обработчика запросов: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"Некорректная метрика: {0} по причине: {1}"
+
+"Unknown error"
+"Неизвестная ошибка"
+
+"Unexpected nil response from query processor."
+"Неожиданный пустой ответ от процессора запросов."
+
+"Query canceled"
+"Запрос отменен"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"Невозможно определить драйвер для запроса: `:database` ID некорректен или отсутствует."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"Невозможно найти драйвер для запроса: База данных {0} не существует."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"Невозможно использовать :fields :all в объединении исходного запроса без :source-metadata."
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"Некорректное условие :joined-field: слияние с алиасом ''{0}'' не существует. Найдено: {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"Некорректная :source-table ''{0}'': будет разрешено по Идентификатору Таблицы."
+
+"Cannot store Tables or Fields before Database is stored."
+"Невозможно сохранить Таблицы или Поля до сохранения Базы данных."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"Попытка обращения ко второй Базе данных: Запросы могут ссылать только на одну Базу данных."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"Ошибка получения Таблицы {0}: Таблица не существует или относится к другой Базе данных."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"Ошибка получения Поля {0}: Поле не существует или относится к другой Базе данных."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"Ошибка загрузки шаблона ''{0}''. Не забыли ли вы собрать Metabase frontend?"
+
+"Found new tables:"
+"Найдены новые таблицы:"
+
+"Marking tables as inactive:"
+"Отметка таблиц неактивными:"
+
+"Updating description for tables:"
+"Обновление описания для таблиц:"
+
+"Rescheduling job {0}"
+"Перепланирование задачи {0}"
+
+"Error rescheduling job"
+"Ошибка перепланирования задачи"
+
+"Starting Pulse Execution: {0}"
+"Начато выполнение Пульса: {0}"
+
+"Finished Pulse Execution: {0}"
+"Завершено выполнение Пульса: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"Ошибка планирования задач для Базы данных {0}"
+
+"All elements must be distinct."
+"Все элементы должны быть уникальны"
+
+"Don't know how to alias {0}, expected an Identifier."
+"Невозможно определить алиас для {0}, ожидается Идентификатор."
+
+"Error adding User {0} to Group {1}"
+"Ошибка добавления Пользователя {0} в Группу {1}"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"Изменение имён Таблиц и Полей стратегией хуманизации с ''{0}'' на ''{1}''"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"Обнаружен бесконечный цикл: рекурсивное выполнение запроса {0} раз."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"Предупреждение: невозможно определить поля для явного `source-query`, если вы также не включите` source-metadata`."
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"Необрабатываемое исключение, ожидаем прослойку  `catch-exceptions` для обработки."
+
+"All"
+"Все"
+
+"An error occurred while running the query."
+"Произошла ошибка во время выполнения запроса."
+
+"Output H2 database already exists: %s, removing."
+"Выходная база данных H2 уже существует: %s, удаление."
+
+"Don't need to migrate, just use the existing H2 file"
+"Не требуется мигрировать, просто используйте существующий файл H2"
+
+"Target DB is already populated!"
+"Целевая БД уже заполнена!"
+
+"System info:n {0}"
+"Системная информация:n {0}"
+
+"Database setup"
+"Настройка базы данных"
+
+"Invalid '{{...}}' clause: expected a param name"
+"Неверное предложение '{{...}}': ожидается имя параметра"
+
+"'{{...}}' clauses cannot be empty."
+"Предложения {{...}} 'не могут быть пустыми."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"Предложения [[...]] должны содержать хотя бы одно предложение {{...}}."
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"Неверный запрос: найдено '[[' or '{{' with no matching ']]' or '}}'"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"Вам нужно будет выбрать значение для '' {0} '', прежде чем этот запрос может быть запущен."
+
+"Can''t find field with ID: {0}"
+"Не могу найти поле с идентификатором: {0}"
+
+"Error loading driver namespace"
+"Ошибка загрузки пространства имен драйвера"
+
+"Could not load {0} driver."
+"Не удалось загрузить драйвер {0}."
+
+"Don''t know how to parse {0} {1}"
+"Не знаю, как разобрать {0} {1}"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"Не могу понять псевдоним {0}, ожидаю идентификации."
+
+"Don''t know how to unprepare values of class {0}"
+"Не знаю, как подготовить значения класса {0}"
+
+"Creating new connection pool for {0} database {1} ..."
+"Создание нового пула соединений для базы данных {0} {1} ..."
+
+"Invalid timezone ''{0}''"
+"Неверный часовой пояс ''{0}''"
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"Невозможно установить часовой пояс: неверная или отсутствующая строка формата SQL для драйвера {0}."
+
+"Did you implement set-timezone-sql?"
+"Вы реализовали set-timezone-sql?"
+
+"Failed to set timezone ''{0}''"
+"Не удалось установить часовой пояс ''{0}''"
+
+"Error parsing JSON"
+"Ошибка разбора JSON"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"Следует ли отображать данные на главной странице. Администраторы могут отключить это, чтобы направить пользователей на лучший контент, чем необработанные данные"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Нужно ли отображать предложения X-ray на главной странице. Они также будут скрыты, если прикреплены какие-либо панели инструментов. Администраторы могут скрыть это, чтобы направить пользователей на лучший контент, чем необработанные данные"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"Определите источник HTTP-запросов по значению этого заголовка, а не по его удаленному адресу."
+
+"Could not resolve Setting {0}/{1}"
+"Не удалось разрешить настройку {0}/{1}"
+
+"Invalid Setting: {0}/{1}"
+"Неверная настройка: {0}/{1}"
+
+"reached its goal"
+"достиг своей цели"
+
+"gone below its goal"
+"опустился ниже своей цели"
+
+"Sending Pulse ({0}: {1}) via email"
+"Отправка пульса ({0}: {1}) по электронной почте"
+
+"Pulse: {0}"
+" Пульс: {0} "
+
+"Sending Pulse ({0}: {1}) via Slack"
+"Отправка пульса ({0}: {1}) через Slack"
+
+"Sending Alert ({0}: {1}) via email"
+"Отправка оповещения ({0}: {1}) по электронной почте"
+
+"Sending Alert ({0}: {1}) via Slack"
+"Отправка оповещения ({0}: {1}) через Slack"
+
+"Alert: {0}"
+"Оповещение: {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"Не могу найти селектор цвета JS в ''{0}''"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"FIXME: Это недопустимые временные литералы: {0} {1}. Почему мы пытаемся отформатировать их как таковые?"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"Не найдена соответствующая информация для соединения с таблицей {0} ''{1}'' в поле {2} ''{3}'' через FK {4} ''{5}''"
+
+"Don''t know how to get information about Field: {0}"
+"Не знаю, как получить информацию о поле: {0}"
+
+"Query timed out after {0}"
+"Тайм-аут запроса после {0}"
+
+"Formatting rows with results timezone ID {0}"
+"Форматирование строк результатов с ID часового пояса {0}"
+
+"Invalid timezone ID ''{0}''"
+"Неверный ID часового пояса '' {0} ''"
+
+"Saving fingerprint for {0}"
+"Сохранение отпечатка пальца для {0}"
+
+"Sending abandoment email!"
+"Отправка письма об отказе!"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"Результирующие преобразования не соответствуют ожиданиям. Ожидаемое: {0}"
+
+"Timed out after {0}"
+"Тайм-аут после {0}"
+
+"No temporal adjuster named {0}"
+"Нет временного регулятора с именем {0}"
+
+"Invalid unit: {0}"
+"Недопустимый блок: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"Не знаю, как разобрать {0}, используя формат {1}"
+
+"Token is missing value for keypath {0}"
+"В токене отсутствует значение для ключевого пути {0}"
+
+"Sending usage stats FAILED"
+"Отправка статистики использования не удалась"
+
+"or"
+"или"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase может сканировать значения, присутствующие в каждом поле в этой базе данных, чтобы включить фильтры флажков на сводных панелях и в вопросах. Это может быть несколько ресурсоемким процессом, особенно если у вас ОЧЕНЬ большая база данных."
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"Соединение с ''{0}:{1}'' успешно, но не удалось подключиться к БД."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"Соединение с хостом \"{0}\" успешно, но порт {1} недействителен."
+
+"Host ''{0}'' is not reachable"
+"Хост '' {0} '' недоступен"
+
+"Unable to connect to database."
+"Невозможно подключиться к базе данных."
+
+"Cannot connect to Database"
+"Не удается подключиться к базе данных"
+
+"You''re not allowed to specify a value for {0}."
+"Вы не можете указывать значение для {0}."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"Вы не можете указать значение для {0}, если оно уже установлено в JWT."
+
+"You must specify a value for {0} in the JWT."
+"Вы должны указать значение для {0} в JWT."
+
+"You can only specify a value for {0} in the JWT."
+"Вы можете указать только значение для {0} в JWT."
+
+"Error searching field values"
+"Ошибка поиска значений поля"
+
+"Error searching for remapping"
+"Ошибка поиска для переназначения"
+
+"Double check that it matches in Google and Metabase."
+"Дважды проверьте, что всё совпадает в Google и Metabase."
+
+"Everything else"
+"Все остальное"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"ВНИМАНИЕ: Вы включили трассировку пространства имен, которая может регистрировать конфиденциальную информацию, такую как пароли БД."
+
+"Database Upgrade Required"
+"Требуется обновление базы данных"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"ВНИМАНИЕ: вашей базе данных требуются обновления для работы с этой версией Metabase."
+
+"Please execute the following sql commands on your database before proceeding."
+"Пожалуйста, выполните следующие команды sql в вашей базе данных, прежде чем продолжить."
+
+"Once your database is updated try running the application again."
+"После обновления базы данных попробуйте снова запустить приложение."
+
+"Database requires manual upgrade."
+"База данных требует ручного обновления."
+
+"Successfully verified {0} {1} application database connection."
+"Успешно проверено {0} {1} соединение с базой данных приложения."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"Не знаю, как разобрать параметр даты ''{0}'' - неверный формат"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"Подзапрос из ссылочного вопроса № {0} не выполнен со следующей ошибкой: {1}"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"ВНИМАНИЕ: Metabase официально поддерживает только MySQL {0} / MariaDB {1} и выше."
+
+"All Metabase features may not work properly when using an unsupported version."
+"Все функции Metabase могут работать некорректно при использовании неподдерживаемой версии."
+
+"Cannot run the query: missing required parameters: {0}"
+"Невозможно выполнить запрос: отсутствуют обязательные параметры: {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"Не знаю, как разобрать {0} {1} как временный литерал"
+
+"Setting {0} database timezone with statement: {1}"
+"Установка часового пояса базы данных {0} с оператором: {1}"
+
+"Error setting connection to readwrite"
+"Ошибка установки соединения для чтения и записи"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"Не удалось установить часовой пояс ''{0}'' для базы данных {1}"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"Ошибка при установке уровня изоляции транзакции для базы данных {0} в {1}"
+
+"Error setting connection to read-only"
+"Ошибка установки подключения только для чтения"
+
+"Error setting default holdability for connection"
+"Ошибка при настройке удержания по умолчанию для соединения"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"Запрос отменен, вызов PreparedStatement.cancel ()"
+
+"Failed to connect to database"
+"Не удалось подключиться к базе данных"
+
+"Unable to determine connection properties for driver {0}"
+"Невозможно определить свойства соединения для драйвера {0}"
+
+"Error fetching field values"
+"Ошибка при получении значений полей"
+
+"You cannot set {0}; it is a read-only setting."
+"Вы не можете установить {0}; это настройка только для чтения."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"описания параметров def строки должны иметь `:visibility`, `:internal`, `:setter`, `:none` или интернационализировано, найдено: `{0}`"
+
+"Setting {0} is internal"
+"Параметр {0} является внутренним"
+
+"Loading local plugin manifest at {0}"
+"Загрузка манифеста локального плагина в {0}"
+
+"Google Analytics tracking code."
+"Код отслеживания Google Analytics."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"Отправка пульса ({0}: {1}) с {2} карточками по электронной почте"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"Отправка пульса ({0}: {1}) с {2} карточками через Slack"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"Рендеринг карты с типом диаграммы {0} и типом рендеринга {1}"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"FIXME: Это недопустимые временные литералы: {0} {1}. Почему мы пытаемся отформатировать их как таковые?"
+
+"Error reducing result rows"
+"Ошибка сокращения строк результата"
+
+"Unexpected nil result"
+"Неожиданный нулевой результат"
+
+"Query timed out after {0} ms, raising timeout exception."
+" Query timed out after {0} ms, raising timeout exception. "
+
+"Timed out after {0}."
+"Тайм-аут после {0}."
+
+"Query canceled before finishing."
+"Запрос отменен до окончания."
+
+"Unknown query type {0}"
+"Неизвестный тип запроса {0}"
+
+"Caching results for next time for query with hash {0}."
+"Кэширование результатов в следующий раз для запроса с хешем {0}."
+
+"Error saving query results to cache."
+"Ошибка сохранения результатов запроса в кэш."
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"Для запроса потребовалось {0}; минимальное значение для приемлемости кэша: {1}"
+
+"Results are too large to cache."
+"Результаты слишком велики для кеширования."
+
+"Error parsing serialized results"
+"Ошибка синтаксического анализа сериализованных результатов"
+
+"Error purging old cache entries"
+"Ошибка очистки старых записей кэша"
+
+"Caching results for query with hash {0}."
+"Кэширование результатов для запроса с хешем {0}."
+
+"Cannot save QueryExecution, missing :context"
+"Не удается сохранить QueryExecution, отсутствует :контекст"
+
+"Error saving query execution info"
+"Ошибка сохранения информации о выполнении запроса"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"Невозможно разрешить базу данных для запроса: отсутствует или недействителен `:ID базы данных`."
+
+"Unable to resolve driver for query"
+"Не удалось разрешить драйвер для запроса"
+
+"Referenced question #{0} could not be found"
+"Ссылочный запрос с #{0} не найден"
+
+"Referenced query is from a different database"
+"Ссылочный запрос из другой базы данных"
+
+"This query has circular referencing sub-queries. "
+"Этот запрос имеет циклические ссылки на подзапросы. "
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"Эти вопросы, похоже, являются частью проблемы: \"{0}\" и \"{1}\"."
+
+"Error recording results metadata for query"
+"Ошибка записи метаданных результатов для запроса"
+
+"Query result"
+"Результат запроса"
+
+"Error generating insights for column:"
+"Ошибка при создании информации для столбца:"
+
+"Sending abandonment email!"
+"Отправка письма об отказе!"
+
+"SSH Authentication"
+"SSH аутентификация"
+
+"SSH Key"
+" SSH ключ"
+
+"Server SSL certificate chain"
+"Цепочка сертификатов SSL сервера"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"Средняя продолжительность выполнения вопроса: {0}; используя '' magic '' TTL из {1}"
+
+"A snippet with that name already exists. Please pick a different name."
+"Фрагмент с таким именем уже существует. Пожалуйста, выберите другое имя."
+
+"[Unknown Metric]"
+"[Неизвестная метрика]"
+
+"[Unknown Segment]"
+"[Неизвестный сегмент]"
+
+"Error writing error to output stream"
+"Ошибка записи ошибки в выходной поток"
+
+"Caught unexpected Exception in streaming response body"
+"Появилось неожиданное исключение в теле ответа"
+
+"bound-fn caught unexpected Exception"
+"bound-fn поймал неожиданное исключение"
+
+"Error determining whether HTTP request was canceled"
+"Ошибка определения отмены HTTP-запроса"
+
+"Check cancelation status timed out after {0}"
+"Время отмены статуса проверки истекло после {0}"
+
+"Unexpected exception in do-f-async"
+"Неожиданное исключение в do-f-async"
+
+"Unexpected exception writing error response"
+"Неожиданная ошибка записи исключения"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"Сертификат сервера не является доверенным - вы указали правильную цепочку сертификатов SSL?"
+
+"Server appears to require SSL - please enable SSL above"
+"Сервер, кажется, требует SSL - пожалуйста, включите SSL выше"
+
+"Username"
+"Имя пользователя"
+
+"Don''t know how to parse parameter of type {0}"
+"Не знаю, как разобрать параметр типа {0}"
+
+"Invalid :card parameter: missing `:card-id`"
+"Неверный: параметр карты: потерян`: идентификатор карты`"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"Невозможно разрешить фрагмент: отсутствует `: идентификатор фрагмента`"
+
+"Snippet {0} {1} not found."
+"Фрагмент {0} {1} не найден."
+
+"Error determining value for parameter"
+"Ошибка определения значения для параметра"
+
+"Error building query parameter map"
+"Ошибка построения карты параметров запроса"
+
+"ASYNC"
+"АСИНХРОННЫЙ"
+
+"{0} ({1} DB calls)"
+"{0} ({1} вызовы БД)"
+
+"App DB connections: {0}/{1}"
+"Соединения с БД приложения: {0} / {1}"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"Потоки Jetty: {0} / {1} ({2} бездействует, {3} в очереди)"
+
+"({0} total active threads)"
+"({0} всего активных тем)"
+
+"Queries in flight: {0}"
+"Запросы в полете: {0}"
+
+"({0} queued)"
+"({0} в очереди)"
+
+"Collection must be in the same namespace as its parent"
+"Коллекция должна находиться в том же пространстве имен, что и ее родитель"
+
+"Personal Collections must be in the default namespace"
+"Личные коллекции должны находиться в пространстве имен по умолчанию"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"Вы не можете переместить коллекцию в другое пространство имен после ее создания."
+
+"Collection does not exist."
+"Коллекция не существует."
+
+"A {0} can only go in Collections in the {1} namespace."
+"{0} может входить только в коллекции в пространстве имен {1}."
+
+"Error sending database deletion notification"
+"Ошибка отправки уведомления об удалении базы данных"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"Вы не можете обновить creator_id для NativeQuerySnippet."
+
+"Error fetching value of Setting"
+"Ошибка при получении значения настройки"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"Язык, который следует использовать для пользовательского интерфейса Metabase, системных писем, пульсов и оповещений."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"Это также язык по умолчанию для всех пользователей, который они могут изменить в настройках своей учетной записи."
+
+"Invalid locale {0}"
+"Неверная локаль {0}"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"Принудительно весь трафик использовать HTTPS через перенаправление, если URL сайта является HTTPS"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"Невозможно перенаправить запросы к HTTPS, если `site-url` не является HTTPS."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"Ошибка регистрации шрифтов: metabase не сможет отправлять пульсы."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"Это известная проблема с некоторыми JVM. Смотрите {0} и для более подробной информации."
+
+"Error rendering Pulse"
+"Ошибка рендеринга пульса"
+
+"Query timed out after {0}, raising timeout exception."
+"Тайм-аут запроса после {0}, исключение тайм-аута."
+
+"No fields found for table {0}."
+"Поля для таблицы {0} не найдены."
+
+"Case"
+"случай"
+
+"Variance of {0}"
+"Дисперсия {0}"
+
+"Median of {0}"
+"Медиана {0}"
+
+"{0}th percentile of {1}"
+"{0} й процентиль {1}"
+
+"Not caching results: results are larger than {0} KB"
+"Не кэшировать результаты: результаты больше {0} КБ"
+
+"Cannot cache results: expected byte array, got {0}"
+"Невозможно кэшировать результаты: ожидаемый байтовый массив, получено {0}"
+
+"Request is closed; no one to return cached results to"
+"Запрос закрыт; никто не вернет кэшированные результаты"
+
+"Error preparing statement to fetch cached query results"
+"Ошибка при подготовке оператора для получения результатов кэшированного запроса"
+
+"Error processing query: {0}"
+"Ошибка обработки запроса: {0}"
+
+"Unexpected exception in endpoint"
+"Неожиданное исключение в конечной точке"
+
+"Unexpected Exception in API request handler"
+"Неожиданное исключение в обработчике запросов API"
+
+"Error reducing {0}"
+"Ошибка уменьшения {0}"
+
+"Error generating timeseries insight keyed by: {0}"
+"Ошибка генерации информации о временных сериях с ключом: {0}"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"Позиция базы данных {0} изменена с '' {1} '' на '' {2} ''."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"Отмена планирования для базы данных {0}: триггер: {1}"
+
+"value must be a keyword or string."
+"значение должно быть ключевым словом или строкой."
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"Строка должна быть действительным двухбуквенным языком ISO или кодом страны-страны, например, 'en' или 'en_US'."
+
+"Dashboard does not have a parameter with the ID {0}"
+"На панели инструментов нет параметра с идентификатором {0}"
+
+"Parameter {0} does not have any Fields associated with it"
+"Параметр {0} не имеет связанных с ним полей."
+
+"include must be either empty or the value 'tables'"
+"include должен быть пустым или иметь значение \"таблицы\""
+
+"`database` is required for all queries whose type is not `internal`."
+"База данных требуется для всех запросов, тип которых не является внутренним."
+
+"Password login is disabled for this instance."
+"Пароль для входа в систему отключен для этого экземпляра."
+
+"Your account is disabled. Please contact your administrator."
+"Ваша учетная запись отключена. Обратитесь к своему администратору."
+
+"Your account is disabled."
+"Ваша учетная запись отключена."
+
+"Invalid Slack token."
+"Неверный токен Slack."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"Команда \"{0}\" доступна только в Metabase Enterprise Edition."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"Расширения Metabase Enterprise Edition ПРИСУТСТВУЮТ."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"Использование функций Metabase Enterprise Edition регулируется коммерческой лицензией Metabase."
+
+"See {0} for details."
+"Подробнее см. {0}."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"Расширения Metabase Enterprise Edition НЕТ."
+
+"You''re invited to join {0}''s {1}"
+"Вас приглашают присоединиться к {0} {1}"
+
+"{0} created a {1} account"
+"{0} создал аккаунт {1}"
+
+"{0} accepted their {1} invite"
+"{0} принял их {1} приглашение"
+
+"[{0}] Password Reset Request"
+"[{0}] Запрос на сброс пароля"
+
+"[{0}] Notification"
+"[{0}] Уведомление"
+
+"[{0}] Help make [{1}] better."
+"[{0}] Помогите сделать [{1}] лучше."
+
+"[{0}] Tell us how things are going."
+"[{0}] Расскажите, как у вас дела."
+
+"Error starting events listener"
+"Ошибка запуска прослушивателя событий"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"Должны ли мы синхронизировать атрибуты пользователя, когда кто-то входит в систему через LDAP?"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"Разделенный запятыми список атрибутов пользователя для пропуска синхронизации для пользователей LDAP."
+
+"Invalid token"
+"Невалидный токен"
+
+"Slack API error: {0}"
+"Ошибка Slack API: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"Пожалуйста, создайте или разархивируйте канал, чтобы завершить интеграцию со Slack."
+
+"Uploaded image"
+"Загруженное изображение"
+
+"Invalid session. Expected an instance of Session."
+"Недействительный сеанс. Ожидается экземпляр сеанса."
+
+"Top folder"
+"Верхняя папка"
+
+":parameters must be a sequence of maps with String :id keys"
+": параметры должны быть последовательностью карт с ключами String: id"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"Недопустимые удобочитаемые значения: значения должны быть последовательностью; каждый элемент должен быть нулем или строкой"
+
+":values must be present to fetch :human_readable_values"
+": значения должны присутствовать для получения: human_readable_values"
+
+"Field values total length is > {0}."
+"Общая длина значений поля> {0}."
+
+"snippet names cannot include '}' or start with spaces"
+"имена фрагментов не могут включать '}' или начинаться с пробелов"
+
+"Error executing chain filter query"
+"Ошибка при выполнении запроса фильтра цепочки"
+
+"Field {0} does not exist."
+"Поле {0} не существует."
+
+"Cannot search against non-Text Field {0} {1}"
+"Невозможно выполнить поиск в нетекстовом поле {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"Предоставление разрешений группе {0}: {1}"
+
+"Revoking permissions for group {0}: {1}"
+"Отзыв разрешений для группы {0}: {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"Недействительные разрешения БД: если у вас есть права на запись для собственных запросов, у вас должен быть полный доступ к данным."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"Недопустимые разрешения БД: если у вас есть доступ только для чтения к собственным запросам, у вас также должен быть доступ к данным."
+
+"Changing permissions from: {0} to: {1}"
+"Изменение разрешений с: {0} на: {1}"
+
+"login attribute keys must be a keyword or string"
+"Ключи атрибутов входа в систему должны быть ключевым словом или строкой"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"Язык по умолчанию для Metabase, системных сообщений электронной почты, импульсов и сообщений."
+
+"Users can individually override this default language from their own account settings."
+"Пользователи могут индивидуально изменить этот язык по умолчанию в настройках своей учетной записи."
+
+"Default page to show the user"
+"Страница по умолчанию для показа пользователю"
+
+"Allow this origin to embed the full Metabase application"
+"Разрешить этому источнику встраивать полное приложение Metabase"
+
+"Values greater than {0} ({1}) are not allowed."
+"Значения больше {0} ({1}) не допускаются."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"Это заменит слово «Metabase» везде, где оно встречается."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"Это основные цвета, используемые в диаграммах и во всей Metabase. Возможно, вам потребуется обновить страницу в браузере, чтобы изменения вступили в силу."
+
+"For best results, use an SVG file with a transparent background."
+"Для наилучшего результата следует взять квадратный образец в формате PNG с прозрачным фоном."
+
+"The url or image that you want to use as the favicon."
+"URL-адрес или изображение, которое вы хотите использовать в качестве значка."
+
+"Allow logging in by email and password."
+"Разрешить вход по электронной почте и паролю."
+
+"Unable to validate token"
+"Невозможно проверить токен"
+
+"Token format is invalid."
+"Формат токена недействителен."
+
+"Error validating token"
+"Ошибка проверки токена"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"Ошибка фильтрации в отношении поля {0}: невозможно проанализировать строку {1} в {2}"
+
+"Error fetching details for Job: {0}"
+"Ошибка при получении сведений о задании: {0}"
+
+"Starting sync task for Database {0}."
+"Запуск задачи синхронизации для базы данных {0}."
+
+"Cannot sync Database {0}: Database does not exist."
+"Невозможно синхронизировать базу данных {0}: база данных не существует."
+
+"Update Field values task triggered for Database {0}."
+"Задача обновления значений полей запущена для базы данных {0}."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"Пропуск обновления, автоматические обновления значений полей отключены для базы данных {0}."
+
+"Periodically refingerprint tables"
+"Периодический слепок таблиц"
+
+"Unable to run internal query function: cannot resolve {0}"
+"Невозможно выполнить функцию внутреннего запроса: невозможно разрешить {0}"
+
+"Audit App queries are not enabled on this instance."
+"Запросы аудита не включены для текущего приложения."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"Некорректная функция внутреннего запроса: {0} не отмечено как ^:internal-query-fn"
+
+"Error: sandboxing is not enabled for this instance."
+"Ошибка: режим песочники не включен для текущего приложения."
+
+"Please check you have set a valid Enterprise token and try again."
+"Пожалуйста проверьте корректность введенного Enterprise токена и попробуйте снова."
+
+"No permissions found for current user"
+"Не найдены полномочия для текущего пользователя"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"Пользователь ''{0}'' попытался получить доступ к недоступному полю. Поле {1} в запросе {2}"
+
+"User not able to query field"
+"Пользователь не может запросить поле"
+
+"Found more than one group table access policy for user ''{0}''"
+"Найдено больше одной групповой политики доступа к таблице для пользователя ''{0}''"
+
+"Query requires user attribute `{0}`"
+"Запросу требуется атрибут пользовательский атрибут  `{0}`"
+
+"invalid --mode value"
+"некорректное значение --mode"
+
+"invalid --on-error value"
+"некорректное значение --on-error"
+
+"invalid context seed value"
+"некорректное значение context seed"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"Дамп был выполнен другой версией Metabase. Что-то может сломаться!"
+
+"Error loading dump: {0}"
+"Ошибка загрузки дампа: {0}"
+
+"{0} is not a valid user"
+"недействительный пользователь {0}"
+
+"Error dumping {0}"
+"Ошибка сброса {0}"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"Администраторы не найдены! Нужен как минимум один администратор для указания автором загруженных сущностей."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"Ошибка загрузки зависимостей: ссылка на неизвестную сущность {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"Невозможно разрешить {0} в полное имя {1}"
+
+"Model {0} does not support upsert"
+"Модель {0} не поддерживает upsert"
+
+"Error inserting {0}"
+"Ошибка вставки {0}"
+
+"Inserting {0}"
+"Вставка {0}"
+
+"{0} already exists -- skipping"
+"{0} уже существует -- пропуск"
+
+"Skipping {0} (nothing to update)"
+"Пропущено {0} (обновлять нечего)"
+
+"Updating {0}"
+"Обновление {0}"
+
+"Error updating {0}"
+"Ошибка обновления {0}"
+
+"SSO has not been enabled and/or configured"
+"SSO не включен и/или не настроен."
+
+"SSO requires a valid token"
+"Требуется действительный токен SSO"
+
+"Error returning SSO entry point"
+"Ошибка возврата точки входа SSO"
+
+"Error logging in"
+"Ошибка входа"
+
+"Can't create new JWT user when JWT is not configured"
+"Невозможно создать нового пользователя JWT до настройки JWT"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO не включен и/или не настроен."
+
+"Invalid SAML configuration: could not find user email."
+"Ошибка конфигурации SAML: электронный адрес пользователя не найден."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"Мы пытались найти {0}, но атрибут отсутвует."
+
+"Please make sure your SAML IdP is properly configured."
+"Пожалуйста убедитесь в том, что ваш SAML ldP правильно настроен."
+
+"SAML has not been enabled and/or configured"
+"SAML выключен и/или не настроен"
+
+"Warning: expected `redirect` param, but none is present"
+"Предупреждение: ожидаемый параметр `redirect` отсутствует."
+
+"Error generating SAML request"
+"Ошибка формирования SAML запроса"
+
+"Unable to log in: SAML IdP certificate is not set."
+"Ошибка входа: отсутствует SAML IdP сертификат."
+
+"SAML response validation failed"
+"Ошибка проверки ответа SAML"
+
+"Unable to log in: SAML response validation failed"
+"Невозможно войти: Ошибка проверки ответа SAML"
+
+"Unable to log in: SAML info does not contain user attributes."
+"Невозможно войти: Отсутствуют пользовательские атрибуты SAML."
+
+"Enable SAML authentication."
+"Включить SAML аутентификацию."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"Это ссылка, по которой ваши пользователи могут авторизовываться на вашем поставщике аутентификации. В зависимости от ldP, это может выглядеть как https://your-org-name.example.com или https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"Ошибка обработки сертификата поставщика аутентификации SAML"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"Некорректный сертификат поставщика аутентификации. Сертификат должен быть в формате base-64."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"Сертификат поставщика аутентификации. В зависимости от IdP, Вам нужно скачать его, открыть в текстовом редакторе, скопировать текст и вставить содержимое сюда."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"Уникальный идентификатор ldP. Часто ссылается на Entity ID или 'Issuer'. В зависимости от ldP, выглядит примерно как http://www.example.com/141xkex604w0Q5PN724v"
+
+"This application name will be used for requests to the Identity Provider"
+"Это имя приложения будет использовано при запросах к поставщику аутентификации"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"Абсолютный путь к хранилищю ключей, используемого для подписания SAML запросов"
+
+"Password for opening the keystore"
+"Пароль для хранилища ключей"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"Псевдоним ключа, который должен использовать Metabase при подписании SAML запросов"
+
+"SAML attribute for the user''s email address"
+"Атрибут SAML для извлечения электронного адреса пользователя"
+
+"SAML attribute for the user''s first name"
+"Атрибут SAML для извлечения имени пользователя"
+
+"SAML attribute for the user''s last name"
+"Атрибут SAML для извлечения фамилии пользователя"
+
+"Enable group membership synchronization with SAML."
+"Включить синхронизацию участников групп через SAML."
+
+"SAML attribute for group syncing"
+"Атрибут SAML для синхронизации групп"
+
+"JSON containing SAML to Metabase group mappings."
+"JSON содержащий маппинг SAML c группами Metabase."
+
+"Enable JWT based authentication"
+"Включить JWT аутентификацию "
+
+"URL of JWT based login page"
+"Страница входа JWT"
+
+"String used to seed the private key used to validate JWT messages"
+"Строка используется для подмешивания приватного ключа при валидации JWT сообщений"
+
+"Key to retrieve the JWT user's email address"
+"Ключ для извлечения электронного адреса пользователя JWT"
+
+"Key to retrieve the JWT user's first name"
+"Ключ для извлечения имени пользователя JWT"
+
+"Key to retrieve the JWT user's last name"
+"Ключ для извлечения фамилии пользователя JWT"
+
+"Key to retrieve the JWT user's groups"
+"Ключ для извлечения групп пользователя JWT"
+
+"Enable group membership synchronization with JWT."
+"Включить синхронизацию участников групп через JWT."
+
+"JSON containing JWT to Metabase group mappings."
+"JSON содержащий маппинг JWT c группами Metabase."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"Должны ли оповещаться администраторы обо всех новых пользователях SSO?"
+
+"New SSO user created: {0} ({1})"
+"Создан новый пользователь SSO: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"Некорректное предупреждение: Предупреждение не имеет ассоциированную с ним карточку"
+
+"Error determining whether Database supports nested queries"
+"Ошибка определение поддержки вложенных запросов Базой данных"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"Некорректные параметры запроса: невозможно определить ключ для параметра с ИД {0}"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"Невозможно найти значения: {0} не является разрешенным параметром."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"Вы не можете определить значение {0} если оно уже задано в JWT."
+
+"Error compiling HoneySQL form"
+"Ошибка компиляции HoneySQL формы"
+
+"Not a valid Database/Database ID/JDBC spec"
+"Некорректная спецификация Database/Database ID/JDBC"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"значение должно ассоциироваться с ключами `{0}`, `{1}`, `{2}`, и `{3}`."
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"Не создан прокси JDBC драйвер для класса {0} - оригинальный драйвер загружен системным загрузчиком"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"Запрос занял {0}; минимальная продолжительность для кэширования {1}"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"Невозможно разрешить поле из-за множественный соединений: таблица {0} (ID {1}) присоединена несколько раз. Вы должны указать поле явно."
+
+"Error normalizing form."
+"Ошибка нормализующей формы."
+
+"Error canonicalizing query"
+"Канонический запрос об ошибке"
+
+"Error performing whole query transformations"
+"Ошибка выполнения целых преобразований запросов"
+
+"Error normalizing query"
+"Запрос на нормализацию ошибок"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"Песочница Карты не могут вернуть колонки, которые не присутствуют в Таблице они песочницы."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"Песочница Карты не могут возвращать колонки, которые имеют различные типы, чем таблица, которую они являются песочницами."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"Не могу обновить карту: Карта используется для Sandboxing, и обновления будут нарушать правила песочницы."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"Вы не можете изменить идентификатор таблицы GTAP после его создания."
+
+"`database` is required for all queries."
+"`База данных` необходима для всех запросов."
+
+"copied {0} instances."
+"скопированные {0} экземпляры."
+
+"Copying instances of {0}..."
+"Копирование экземпляров {0}..."
+
+"Error copying instances of {0}"
+"Ошибочное копирование экземпляров {0}"
+
+"Temporarily disabling DB constraints..."
+"Временно отключение ограничений БД..."
+
+"Re-enabling DB constraints..."
+"Восстановление ограничений БД..."
+
+"Setting Postgres sequence ids to proper values..."
+"Установка идентификаторов последовательности Postgres на правильные значения..."
+
+"Set up {0} source database and run migrations..."
+"Настройте исходную базу данных и запустите миграцию..."
+
+"Set up {0} target database and run migrations..."
+"Установите {0} целевую базу данных и запустите миграцию..."
+
+"Testing if target {0} database is already populated..."
+"Тестирование, если целевая база данных {0} уже заполнена..."
+
+"Unsupported application database type: {0} is not currently supported."
+"Неподдерживаемый тип базы данных приложений: {0} в настоящее время не поддерживается."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"Проверьте значение MB_DB_CONNECTION_URI."
+
+"Driver {0} does not support {1}"
+"Водитель {0} не поддерживает {1}"
+
+"No magnitude known for {0}"
+"Нет известной величины {0}"
+
+"Error resolving source query"
+"Запрос источника, разрешающий ошибку"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"Недействительное местоположение файла GeoJSON: должно начинаться с http:// или https:// или быть относительным путем к файлу на клас-спате."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"URL-адреса хостов, предоставляющих метаданные внутреннего хостинга, запрещены."
+
+"Invalid custom GeoJSON."
+"Недействительный пользовательский GeoJSON."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"Недействительный {0}: заданный пробой в индексе {1}, но у нас есть только {2}прорывы."
+
+"Error generating pivot queries"
+"Ошибка при генерации запросов на шарнир"
+
+"Sync the admin group?"
+"Синхронизировать группу админов?"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"Вопросы о песочнице не могут возвращать столбцы, типы которых отличаются от типа таблицы, в которой они находятся."
+
+"Error preprocessing source query when applying GTAP"
+"Ошибка предварительной обработки исходного запроса при применении GTAP"
+
+"Error running query to determine metadata"
+"Ошибка при выполнении запроса для определения метаданных"
+
+"Can't create new SAML user when SAML is not configured"
+"Невозможно создать нового пользователя SAML, если SAML не настроен"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"Ошибка при установке направления получения подготовленного оператора на FETCH_FORWARD"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"Ошибка при установке направления выборки инструкции на FETCH_FORWARD"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"Вы не можете сохранить этот запрос, потому что у вас нет прав на выполнение его запроса."
+
+"Authentication endpoint error"
+"Ошибка конечной точки аутентификации"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"SSH-туннель может быть установлен только для H2-соединений с использованием протокола TCP."
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"ssh-туннель для базы данных {0} выглядит закрытым; отметка пула недействительна для его повторного открытия"
+
+"Query canceled, calling Statement.cancel()"
+"Запрос отменен, вызывается Statement.cancel ()"
+
+"Select statement did not produce a ResultSet for native query"
+"Оператор Select не создал ResultSet для собственного запроса"
+
+"We''ve Noticed a New {0} Login, {1}"
+"Мы заметили новый вход {0}, {1}"
+
+"Don''t know how to process event with model {0}"
+"Не знаю, как обрабатывать событие с помощью модели {0}"
+
+"Failed to process activity event {0}"
+"Не удалось обработать событие действия {0}"
+
+"Error sending ''login from new device'' notification email"
+"Ошибка отправки электронного письма с уведомлением \"Вход с нового устройства\""
+
+"You can''t update a LoginHistory after it has been created."
+"Вы не можете обновить историю входа после того, как она была создана."
+
+"Setting {0} already registered in {1}"
+"Настройка {0} уже зарегистрирована в {1}"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"Управляет частотой отправки контрольных сигналов при установке туннеля SSH (в секундах)."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"Не удается найти соответствующий идентификатор таблицы FK для поля FK {0}"
+
+"Error optimizing temporal filter clause"
+"Ошибка оптимизации предложения временного фильтра"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"Не удается разрешить объединенное поле из-за неоднозначных объединений: таблица {0} (ID {1}) объединена несколько раз. Вам нужно указать явный `: join-alias` в ссылке на поле."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"Неподдерживаемое временное сегментирование: нельзя сегментировать {0} поле по {1}."
+
+"Error processing additional pivot table query"
+"Ошибка обработки дополнительного запроса сводной таблицы"
+
+"Invalid cell format"
+"Неверный формат ячейки"
+
+"Enable typeahead search in the Metabase navbar?"
+"Включить поиск с опережением ввода на панели навигации Metabase?"
+
+"Login request is missing user-agent information"
+"В запросе на вход отсутствует информация об агенте пользователя."
+
+"Unable to determine login request IP address"
+"Не удалось определить IP-адрес запроса на вход"
+
+"Error determining login history for request"
+"Ошибка при определении истории входа в систему для запроса"
+
+"unknown"
+"неизвестный"
+
+"Unknown device type"
+"Неизвестный тип устройства"
+
+"Unknown OS"
+"Неизвестная ОС"
+
+"Unknown browser"
+"Неизвестный браузер"
+
+"Error geocoding IP addresses"
+"Ошибка геокодирования IP-адресов"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"Семантический тип {0} изменен с '' {1} '' на '' {2} ''."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"Имя {0} изменено с '' {1} '' на '' {2} ''."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"Не знаю, как отформатировать {0} как удобочитаемые дату и время"
+
+"Valid coercion strategy"
+"Действительная стратегия принуждения"
+
+"value must be a valid coercion strategy."
+"значение должно быть действительной стратегией принуждения."
+
+"Saved Questions"
+"Сохраненные запросы"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"Фильтр поиска членства в группе. Шаблоны '{dn}' и '{uid}' будут заменены характерным именем и UID пользователя соответственно."
+
+"Error deleting Sandboxes: {0}"
+"Ошибка удаления Песочницы: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"НАЧАЛО ЗАГРУЗКИ из {0} с контекстом {1}"
+
+"Finished first pass of load; now performing second pass"
+"Первая часть загрузки завершена; выполняется вторая часть"
+
+"END LOAD from {0} with context {1}"
+"ОКОНЧАНИЕ ЗАГРУЗКИ из {0} с контекстом {1}"
+
+"ERROR LOAD from {0}: {1}"
+"ОШИБКА ЗАГРУЗКИ из {0}: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"НАЧАЛО ВЫГРУЗКИ в {0} пользователем {1}"
+
+"END DUMP to {0} via user {1}"
+"ОКОНЧАНИЕ ВЫГРУЗКИ в {0} пользователем {1}"
+
+"Could not find context for fully qualified card name {0}"
+"Невозможно найти контекст для карточки с именем {0}"
+
+"Could not find context for fully qualified snippet name {0}"
+"Невозможно найти контекст для сниппета с именем {0}"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"Невозможно выполнить запрос для загруженной карточки \"{0}\": {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"Невозможно подключиться к базе данных ''{0}'' для синхронизации видимых таблиц"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"Невозможно расшифровать базу данных приложения с MB_ENCRYPTION_SECRET_KEY"
+
+"Invalid domain"
+"Некорректный домен"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"Фильтр поиска пользователя. Шаблон '{login}' будет заменен на логин пользователя."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"Атрибут, используемый как email пользователя. (обычно это ''mail'', ''email'' или ''userPrincipalName'')"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"Основа поиска для групп. Не требуется для каталогов LDAP, которые предоставляют значение ''memberOf'', например Active Directory. (Поиск будет выполняться рекурсивно)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"Вам не разрешено изменять владельца Личной Коллекции."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"Вам не разрешено изменять уровень авторизации для Личной Коллекции."
+
+"You are not allowed to move a Personal Collection."
+"Вам не разрешено перемещать Личную Коллекцию."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"Вы не можете обновить CollectionPermissionGraphRevision!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"Некорректное поле {0} {1}: возврат к {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"Чтобы сделать имена таблиц и полей более понятными для человека, Metabase заменит в них дефисы и подчеркивания пробелами."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"Мы будем писать каждое слово с заглавной буквы, поэтому 'последний_визит' станет 'Последний визит'."
+
+"Setting names in would collide: {0} and {1}"
+"Установка имен в может противоречить: {0} и {1}"
+
+"Indicates when Metabase last checked for new versions."
+"Указывает, когда последний раз Metabase проверяла наличие новых версий."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"Этот URL-адрес используется для таких вещей, как создание ссылок в электронных письмах, перенаправления аутентификации,"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"и в некоторых сценариях встраивания, поэтому его изменение может нарушить функциональность или заблокировать вас в этом экземпляре."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"Если установлено, файлы cookie сеанса для всех пользователей будут истекать при закрытии браузера."
+
+"Error parsing paging parameters: {0}"
+"Ошибка синтаксического анализа параметров пагинации: {0}"
+
+"Error running sync step"
+"Ошибка запуска шага синхронизации"
+
+"Error in sync step {0}"
+"Ошибка в шаге синхронизации {0}"
+
+"Error fetching version info; setting version-info value to nil"
+"Ошибка получения версии; сброс значения version-info"
+
+"Valid field semantic type"
+"Допустимый семантический тип поля"
+
+"value must be a valid field semantic type."
+"значение должно быть допустимым семантическим типом поля."
+
+"Valid field relation type"
+"Допустимый тип связи поля"
+
+"value must be a valid field relation type."
+"значение должно быть допустимым типом связи поля."
+
+"Valid field semantic or relation type"
+"Допустимый семантический или тип связи поля"
+
+"value must be a valid field semantic or relation type."
+"значение должно быть допустимым семантическим или типом связи поля."
+
+"Valid field data type (keyword or string)"
+"Корректный тип данных в поле (слово или строка)"
+
+"value must be a valid field data type (keyword or string)."
+"должен быть корректным типом данных в поле (слово или строка)."
+
+"Valid field semantic type (keyword or string)"
+"Допустимый семантический тип поля (слово или строка)"
+
+"value must be a valid field semantic type (keyword or string)."
+"Значение должно быть допустимым семантическим типом поля (слово или строка)."
+
+"Valid field relation type (keyword or string)"
+"Корректный тип отношений поля (слово или строка)"
+
+"value must be a valid field relation type (keyword or string)."
+"значение должно быть допустимым типом связи поля (слово или строка)."
+
+"Valid field semantic or relation type (keyword or string)"
+"Допустимый семантический или тип связи (слово или строка)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"Значение должно быть допустимым семантическим или типом связи поля (слово или строка)."
+
+"value must be a valid coercion strategy (keyword or string)."
+"Значение должно быть допустимой стратегией принуждения (слово или строка)."
+
+"password is too common."
+"Пароль слишком распространен."
+
+"Invalid custom GeoJSON"
+"Неверный пользовательский GeoJSON"
+
+"GeoJSON URL failed to load"
+"Не удалось загрузить URL-адрес GeoJSON"
+
+"Error building query parameter map: {0}"
+"Ошибка построения карты параметров запроса: {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"Плагин ''{0}'' зависит от того, что переменная окружения ''{1}'' имеет значение"
+
+"Down"
+"Вниз"
+
+"Up"
+"Вверх"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"Разрешенные домены адресов электронной почты для новых подписок на DashboardSubscriptions и Alerts. Не влияет на существующие подписки."
+
+"Invalid email address: {0}"
+"Недействительный адрес email: {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"Вы не можете создавать новые подписки для домена {0}. Разрешенные домены: {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"Эта конечная точка API доступна, только если у вас есть премиум-токен с функцией {0}."
+
+"Error compiling audit query: {0}"
+"Ошибка при компиляции аудиторского запроса: {0}"
+
+"Error running audit query: {0}"
+"Ошибка при выполнении аудиторского запроса: {0}"
+
+"Error parsing Pulse parameters: {0}"
+"Ошибка синтаксического анализа параметров Пульса: {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"Заблокировано: вам не разрешено выполнять запросы к базе данных {0}."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"Невозможно проанализировать диаграмму разрешений, потому что она недействительна: {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"Хеш данных базы данных {0} изменен; отметка пула недействительна для его повторного открытия"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"Недопустимые разрешения БД: если у вас есть права на запись для собственных запросов, у вас должен быть полный доступ к данным."
+
+"Error parsing permissions tree {0}"
+"Ошибка анализа дерева разрешений {0}"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"ID коллекции подписки на дашборд не может быть изменен напрямую"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"идентификатор дашборда или подписки на дашборд не может быть изменен"
+
+"Javascript resource not found: {0}"
+"Ресурс Javascript не найден: {0}"
+
+"Found new version for DB: {0}"
+"Найдена новая версия для БД: {0}"
+
+"Rerun queries for simple explorations"
+"Перезапустить запрос для простых исследований"
+
+"Choose when syncs and scans happen"
+"Выберите когда будет выполняться синхронизация и сканирование"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"По умолчанию Metabase выполняет легкую ежечасную синхронизацию и интенсивное ежедневное сканирование значений полей. Если у вас большая база данных, включите ее, чтобы внести изменения."
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"Это позволяет Metabase сканировать дополнительные значения полей во время синхронизации, обеспечивая более разумное поведение, например, улучшенное автоматическое объединение в гистограммы."
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"По умолчанию «URL-адрес сайта» используется в ссылках уведомлений, но его можно переопределить."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"Ошибка обработки запроса при применении GTAP: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"Уникальный идентификатор, который будет использоваться в аналитике Snowplow для идентификации этого экземпляра Metabase."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"Это общедоступный параметр, поскольку некоторые события аналитики отправляются до первоначальной настройки."
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Логическое значение, указывающее, доступен ли сборщик Snowplow для получения событий аналитики."
+
+"Should be set via environment variable in Cypress tests or during local development."
+"Должна быть установлена через переменную окружения в тестах Cypress или во время локальной разработки."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Булево значение, указывающее, отправляются ли события аналитики в Snowplow."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"True, если для данного экземпляра включено анонимное отслеживание и доступен коллектор Snowplow."
+
+"The URL of the Snowplow collector to send analytics events to."
+"URL коллектора Snowplow для отправки событий аналитики."
+
+"Error sending Snowplow analytics event {0}"
+"Ошибка отправки события аналитики снегоуборочной техники {0}"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"Приблизительная временная метка, в которую был создан данный экземпляр Metabase, для включения в аналитику."
+
+"Unverified due to edit"
+"Не проверено до изменения"
+
+"Card {0} does not exist or does not have a valid query."
+"Карточка {0} не существует или не имеет действительного запроса."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"Вы должны иметь права доступа к данным, чтобы добавить параметр, ссылающийся на таблицу {0}."
+
+"No matching parameter with slug {0}. Found: {1}"
+"Нет подходящего параметра со строкой {0}. Найдено: {1}"
+
+"Could not invite user because email is not configured."
+"Невозможно пригласить пользователя потому что не настроена отправка почты."
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"Использует ли ваша команда Slack? Если да, то вы можете отправлять автоматические обновления через подписки на приборную панель."
+
+"invalid token"
+"некорректный токен"
+
+"Slack channel not found."
+"Канал Slack не найден"
+
+"channel not found"
+"канал не найден"
+
+"Unrecognized modal: {0}"
+"Нераспознанное окно: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"Невозможно расшифровать значение MB_ENCRYPTION_SECRET_KEY"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"IP адрес базы данных (напр. 98.137.149.56) или доменное имя (напр. esc.mydatabase.com)."
+
+"username"
+"имя пользователя"
+
+"Use a secure connection (SSL)"
+"Использовать защищённое соединение (SSL)"
+
+"Use an SSH tunnel"
+"Использовать SSH-туннель"
+
+"Enable this ssh tunnel?"
+"Включить этот ssh-туннель?"
+
+"SSH tunnel host"
+"Хост SSH-туннеля"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"Имя хоста, которое используется для подключения к SSH-туннелю."
+
+"SSH tunnel port"
+"Порт SSH-туннеля"
+
+"SSH tunnel username"
+"Логин SSH-туннеля"
+
+"The username you use to login to your SSH tunnel."
+"Имя пользователя, которое использования для подключения к SSH-туннелю."
+
+"SSH tunnel password"
+"Пароль SSH-туннеля"
+
+"SSH private key to connect to the tunnel"
+"Приватный ключ SSH-туннеля"
+
+"Paste the contents of an ssh private key here"
+"Вставьте содержимое приватного ключа"
+
+"Passphrase for SSH private key"
+"Пароль для приватного ключа SSH-туннеля"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"Мы выполняем базовый запрос, когда вы исследуете данные с помощью Summarize или Filter."
+
+"This is on by default but you can turn it off if performance is slow."
+"По умолчанию эта функция включена, но вы можете отключить ее, если производительность низкая."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"Это легкий процесс, который проверяет обновления схемы этой базы данных."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"В большинстве случаев, вы можете оставить эту настройки для синхронизации каждый час."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"Если ваша база данных защищена сетевым экраном, вам необходимо разрешить подключения с IP адреса Metabase Cloud:"
+
+"Error querying database {0} for current time: {1}"
+"Ошибка при запросе базы данных {0} для текущего времени: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"Ошибка: для параметра указано несколько значений; параметры, не относящиеся к полевому фильтру, могут иметь только одно значение."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"Локальный путь относительно места запуска Metabase. Ваша строка не должна включать расширение .mv.db."
+
+"SSL Mode"
+"Режим SSL"
+
+"SSL Root Certificate (PEM)"
+"Корневой SSL сертификат (PEM)"
+
+"Authenticate client certificate?"
+"Аутентифицировать клиентский сертификат?"
+
+"SSL Client Certificate (PEM)"
+"Клиентский SSL сертификат (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"Ключ SSL клиента (PKCS-8/DER или PKCS-12)"
+
+"SSL Client Key Password"
+"Пароль клиентского SSL сертификата"
+
+"Unable to substitute parameters: {0}"
+"Невозможно сопоставить параметры: {0}"
+
+"Expected native source query to be a string, got: {0}"
+"Ожидалось, что запрос исходного источника будет строкой, получено: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"Ожидалось, что параметры запроса исходного источника будут последовательными, получено: {0}"
+
+"No expression named {0} at this level of the query"
+"Выражение {0} не найдено на этом уровне запроса"
+
+"Error compiling :field clause: {0}"
+"Ошибка компиляции :field: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"Предупреждение: Драйвер {0} использует {1}. Этот метод был устаревшим в {2} и будет удален в будущем выпуске."
+
+"Error setting connection to autoCommit false"
+"Ошибка установки соединения на autoCommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"Ошибка при установке размера выборки подготовленного оператора на fetch-size"
+
+"Error setting statement fetch size to fetch-size"
+"Ошибка при установке размера выборки утверждений в fetch-size"
+
+"Error executing query: {0}"
+"Ошибка исполнения запроса: {0}"
+
+"Local file path"
+"Локальный путь к файлу"
+
+"Uploaded file path"
+"Путь к загруженному файлу"
+
+"File path"
+"Путь к файлу"
+
+"Error invoking getter for connection property {0}"
+"Ошибка при вызове getter для свойства соединения {0}"
+
+"Only these..."
+"Только..."
+
+"All except..."
+"Все, кроме..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"Имена {0}, которые <strong>должны</strong> появиться в метабазе, разделены запятыми"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"Вы можете использовать шаблоны типа <strong>auth*</strong> для соответствия нескольким {0}"
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"Имена {0}, которые <strong>НЕ должны</strong> появляться в метабазе, разделены запятыми"
+
+"Your Slack connection stopped working"
+"Ваше Slack соединение перестало работать"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"Идентификатор клиента для Google Sign-In. Если это значение установлено, Google Sign-In считается включенным."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"Неверный идентификатор клиента Google Sign-In: он должен заканчиваться на \".apps.googleusercontent.com\""
+
+"Invalid Google Sign-In token."
+"Недействительный токен Google Sign-In."
+
+"Google Sign-In token appears to be incorrect. "
+"Похоже, что токен Google Sign-In неверен"
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"Успешная аутентификация маркера Google Sign-In для: {0} {1}"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"Утративший силу токен Slack API для подключения Slack-бота Metabase."
+
+"Please use a new Slack app integration instead."
+"Пожалуйста, используйте вместо этого новую интеграцию приложения Slack."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"OAuth-токен пользователя бота для подключения к Slack-приложению Metabase."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"Начиная с версии Metabase v0.42.0 необходимо использовать новый механизм интеграции Slack."
+
+"Whether the current Slack app token, if set, is valid."
+"Является ли текущий токен приложения Slack, если он установлен, действительным."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"Устанавливается в 'false', если запрос Slack API возвращает ошибку авторизации."
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"Имя канала, в который должны быть первоначально загружены файлы Metabase"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 Ваш токен авторизации Slack недействителен или был отозван. Пожалуйста, обновите вашу интеграцию в Настройки администратора -> Slack."
+
+"Slack channel named `{0}` is missing!"
+"Канал Slack `{0}` отсутствует!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"Канал используется для хранения изображений, которые включаются в подписки на приборную панель."
+
+"You do not have curate permissions for this Collection."
+"У вас отсутствуют полномочия организации Коллекции."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"У приборной панели {0} нет приборной карты с идентификатором {1}"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"Удаление секретного идентификатора {0} из БД приложения, поскольку собственная база данных ({1}) удаляется"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"Недопустимое значение для столбца поля {0}: {1} не является потомком ни одного из этих типов: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"Невозможно использовать блокировку разрешений без наличия премиум-функции advanced-permissions"
+
+"User {0} does not exist."
+"Пользователь {0} не существует."
+
+"Wrong email address for User {0}."
+"Неверный email-адрес для пользователя {0}."
+
+"Secret ID {0}"
+"Secret ID {0}"
+
+"File path for {0}"
+"Путь к файлу {0}"
+
+"Path"
+"Путь"
+
+"{0} points to non-existent file: {1}"
+"{0} указывает на несуществующий файл: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (путь к локальному файлу) не может быть использован в размещенной среде Metabase"
+
+"Error parsing Setting {0}: {1}"
+"Ошибка обработки параметра {0}: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"Значения для всего сайта не допускаются для настройки {0}"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"Настройка {0} устарела в Metabase {1} и может быть удалена в будущей версии."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"Имя настройки ''{0}'' устарело; используйте вместо него другое имя"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Булево значение, указывающее, следует ли отправлять данные аналитики в Google Analytics на фронтенде"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"Версия метабазы, для которой было показано уведомление об использовании устаревших функций."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"Отображать или нет сообщение о закреплении приборных панелей. Он также будет скрыт, если какие-либо приборные панели прикреплены. Администраторы могут скрыть это сообщение, чтобы направить пользователей к более интересному контенту, чем необработанные данные"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"Это повлияет на такие вещи, как группировка по неделям или фильтрация в запросах GUI."
+
+"It won''t affect most SQL queries,"
+"Это не затронет большинство SQL-запросов,"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+" хотя он используется для установки сеансовой переменной WEEK_START в Snowflake."
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"Ошибка получения IP адреса шлюза Metabase Cloud:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"IP-адреса шлюзов Metabase Cloud, для настройки соединений с БД за брандмауэрами"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"Должен ли отображаться вводный модал после добавления следующего соединения с базой данных."
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"По умолчанию имеет значение false, если для данного экземпляра уже завершена синхронизация любой базы данных, не входящей в базу данных по умолчанию."
+
+"Alert: {0} has {1}"
+"Тревога: у {0} есть {1}"
+
+"Nothing to compare to."
+"Нечего сравнивать."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"Недопустимый тип параметра {0} для параметра {1}. Тип параметра должен быть одним из: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"Неверный параметр: У карточки {0} нет тега шаблона с именем {1}."
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"Невозможно разрешить недопустимый параметр запроса: параметр отсутствует :id"
+
+"Dashboard does not have a parameter with ID {0}."
+"Дашборд не содержит параметра с ID {0}."
+
+"Query: {0}"
+"Запрос: {0}"
+
+"Error determining expected columns for query: {0}"
+"Ошибка определения ожидаемых столбцов для запроса: {0}"
+
+"Nested queries are disabled"
+"Вложенные запросы отключены"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"Плохой :field clause {0} для поля {1} в {2}: клауза должна иметь :join-alias."
+
+"Guessing join {0}"
+"Запрос присоединения {0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"Невозможно определить подходящее объединение. Запрос может работать не так, как ожидалось."
+
+"Error resolving Fields in query: {0}"
+"Ошибка разрешения полей в запросе: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"Предупреждение: пункт {0} не соответствует столбцу в исходном запросе. Попытка исправить его на {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"Предупреждение: пункт {0} ссылается на поле, которое может отсутствовать в исходном запросе. Запрос может работать не так, как ожидалось. Найдено: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"Ожидаемое условие :aggregation-options, получено {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"Невозможно определить исходную таблицу или запрос для предложения Field clause {0}"
+
+"Aggregation does not exist at index {0}"
+"Агрегация отсутствует в позиции {0}"
+
+"No expression named {0}"
+"Выражение {0} отсутствует"
+
+"Sample database DB file ''{0}'' cannot be found."
+"Файл базы примеров ''{0}'' не найден."
+
+"Loading sample database"
+"Загрузка базы с примерами"
+
+"Failed to load sample database"
+"Ошибка загрузки базы с примерами"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"SameSite сеансового cookie настроен на \"None\", но сайт обслуживается через незащищенное соединение. Некоторые браузеры при таких условиях отклоняют файлы cookie."
+
+"Login request is missing device ID information"
+"В запросе логина отсутствует информация об устройстве"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"Невозможно расшифровать {0}. Вы изменили или забыли указать MB_ENCRYPTION_SECRET_KEY?"
+
+"Enable this SSH tunnel?"
+"Включить этот туннель SSH?"
+
+"The hostname that you use to connect to SSH tunnels."
+"Имя хоста, которое вы используете для подключения к туннелям SSH."
+
+"Paste the contents of an SSH private key here"
+"Вставьте сюда содержимое закрытого ключа SSH"
+
+"Allow using a saved question or Model as the source for other queries?"
+"Разрешить использовать сохраненный вопрос или Модель в качестве источника для других запросов?"
+
+"Pulse card query error"
+"Ошибка запроса импульсной карты"
+
+"There was a problem with this question."
+"С этим вопросом возникли проблемы."
+
+"Copy of "
+"Копия "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"Маршрут /api/setup может быть использован только для создания первого пользователя, если пользователь уже существует."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"Максимальное количество строк, возвращаемое при запросах типа :rows через API."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"Разрешенный домен(ы) адреса электронной почты для новых подписок и оповещений панели инструментов. Чтобы указать несколько доменов, разделите каждый домен запятой, без пробела между ними (например, \"domain1,domain2\"). Чтобы разрешить все домены, оставьте поле пустым. Эта настройка не влияет на существующие подписки."
+
+"You do not have permissions to download the results of this query."
+"У вас нет прав на скачивание результатов этого запроса."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"Пользователи, не являющиеся администраторами и не имеющие прав на мониторинг или подписку, могут обновлять только те оповещения, которые они создали"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"Пользователям, не являющимся администраторами, без прав на мониторинг или подписку, не разрешается изменять каналы для оповещения"
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"Пользователям, не являющимся администраторами и не имеющим прав на подписку, не разрешается добавлять получателей"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"Диспетчер групп включен только в том случае, если у вас есть премиум-токен с функцией расширенных разрешений."
+
+"Admin cant be a group manager."
+"Администратор не может быть менеджером группы."
+
+"Timeline with id {0} not found"
+"Временная шкала с идентификатором {0} не найдена"
+
+"Timestamp cannot be null"
+"Временная метка не может быть нулевой"
+
+"ERROR {0}: {1}"
+"ОШИБКА {0}: {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"Очистка записей по умолчанию, созданных при миграции Liquibase..."
+
+"Don''t know how to parse date string {0}"
+"Не знаю, как разобрать строку даты {0}"
+
+"Invalid values provided for operator: {0}"
+"Недопустимые значения для оператора: {0}"
+
+"Unrecognized operation: {0}"
+"Нераспознанная операция: {0}"
+
+"Error determining value for parameter {0}: {1}"
+"Ошибка определения значения для параметра {0}: {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"Вы не можете обновить ApplicationPermissionsRevision!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"Неверный фильтр полей: Поле {0} принадлежит базе данных {1}, но запрос направлен на базу данных {2}"
+
+"The engine on a sample database cannot be changed."
+"Двигатель на базе данных образца не может быть изменен."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"Функциональность {0} разрешений включается только в том случае, если у вас есть премиум-токен с функцией расширенных разрешений."
+
+"Unknown setting: {0}"
+"Неизвестная настройка {0}"
+
+"You do not have access to the setting {0}"
+"У вас нет доступа к настройке {0}"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"Установка {0} допускает значения как локальные для пользователя, так и локальные для базы данных; это не поддерживается"
+
+"Error purging old cache entries: {0}"
+"Ошибка при очистке старых записей кэша: {0}"
+
+"Error saving query results to cache: {0}"
+"Ошибка сохранения результатов запроса в кэш: {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"Ошибка при попытке получить кэшированные результаты для запроса с хэшем {0}: {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"Кэш запуска пользователя/канала Slack обновлен с {0} записями, заняло {1} мс."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack не настроен, не обновляется кэш пользователей/каналов Slack."
+
+"value must be a valid date string"
+"значение должно быть действительной строкой даты"
+
+"Not allowed to edit group memberships"
+"Не разрешено редактировать членство в группах"
+
+"Connected to"
+"Подключен к"
+
+}

@@ -1,0 +1,4397 @@
+{
+"Database syncing"
+"همگام سازی پایگاه داده"
+
+"Scanning for Filter Values"
+"جستجو برای مقادیر فیلتر"
+
+"When should Metabase automatically scan and cache field values?"
+"چه زمانی باید متابیس به صورت اتوماتیک مقادیر فیلدها را بررسی و در حافظه نگه دارد؟"
+
+"Other"
+"سایر"
+
+"Email"
+"ایمیل"
+
+"{0} table"
+"{0} جدول"
+
+"Password"
+"کلمه عبور"
+
+"You'll need an administrator to create a Metabase account before you can use Google to log in."
+"قبل از اینکه بتوانید از Google برای ورود به سیستم، یک حساب کاربری Metabase ایجاد کنید، به یک مدیر نیاز خواهید داشت."
+
+"Our analytics"
+"تجزیه و تحلیل ما"
+
+"Unknown"
+"ناشناخته"
+
+"Count"
+"شمردن"
+
+"number"
+"عدد"
+
+"Native query"
+"پرس و جو بومی"
+
+"Today"
+"امروز"
+
+"Yesterday"
+"دیروز"
+
+"Week"
+"هفته ها"
+
+"Month"
+"ماه ها"
+
+"Year"
+"سال ها"
+
+"Slack"
+"لاغر"
+
+"results"
+"نتایج"
+
+"Count of {0}"
+"تعداد {0}"
+
+"DELETE /api/alert/:id is deprecated. Instead, change its `archived` value via PUT /api/alert/:id."
+"DELETE / api / alert /: id غیرفعال است در عوض، مقدار `archived 'خود را از طریق PUT / api / alert /: id تغییر دهید."
+
+"invalid show value"
+"ارزش نشان دهنده نامعتبر است"
+
+"invalid value for prefix"
+"ارزش نامعتبر برای پیشوند"
+
+"invalid value for rule name"
+"نامعتبر برای نام قانون"
+
+"value couldn''t be parsed as base64 encoded JSON"
+"ارزش نمی تواند به عنوان base64 کدگذاری شده JSON تجزیه شود"
+
+"Invalid entity type"
+"نوع موجودیت نامعتبر است"
+
+"Invalid comparison entity type. Can only be one of \"table\", \"segment\", or \"adhoc\""
+"نوع موجودیت مقایسه نادرست فقط می تواند یکی از \"جدول\"، \"بخش\" یا \"adhoc\" باشد"
+
+"Error running query to determine Card result metadata:"
+"خطا در اجرای پرس و جو برای تعیین Metadata نتیجه کارت:"
+
+"DELETE /api/card/:id is deprecated. Instead, change its `archived` value via PUT /api/card/:id."
+"DELETE / api / card /: id خسته شده است در عوض، مقدار `archived` خود را از طریق PUT / api / card /: id تغییر دهید."
+
+"Invalid field: {0}"
+"فیلد نامعتبر: {0}"
+
+"Invalid value ''{0}'' for ''{1}'': {2}"
+"' {0} '' برای '' {1} '': {2} مقدار نامعتبر است"
+
+"must be one of: {0}"
+"باید یکی از موارد زیر باشد: {0}"
+
+"Invalid Request."
+"درخواست نامعتبر"
+
+"Not found."
+"پیدا نشد."
+
+"You don''t have permissions to do that."
+"شما این اجازه را ندارید."
+
+"Internal server error."
+"خطای سرور داخلی"
+
+"Warning: endpoint {0}/{1} does not have a docstring."
+"هشدار: نقطه پایانی {0} / {1} دایرکتوری را ندارد"
+
+"starting streaming request"
+"با شروع درخواست جریان"
+
+"connection closed, canceling request"
+"اتصال بسته، لغو درخواست"
+
+"Response not ready, writing one byte & sleeping..."
+"پاسخ آماده نیست، نوشتن یک بایت و خواب ..."
+
+"Public sharing is not enabled."
+"به اشتراک گذاری عمومی فعال نیست"
+
+"Embedding is not enabled."
+"تعویض فعال نیست"
+
+"The object has been archived."
+"این شیء بایگانی شده است."
+
+"Source query for this query is Card {0}"
+"پرس و جو منبع برای این سوال کارت {0}"
+
+"Invalid export format: {0}"
+"قالب صادرات نامعتبر: {0}"
+
+"Invalid JSON URL or resource: {0}"
+"URL یا منبع JSON نامعتبر است: {0}"
+
+"JSON containing information about custom GeoJSON files for use in map visualizations instead of the default US State or World GeoJSON."
+"JSON حاوی اطلاعاتی درباره فایل های GeoJSON سفارشی برای استفاده در تصویر برداری های نقشه به جای پیش فرض ایالات متحده یا جهان GeoJSON است."
+
+"Invalid custom GeoJSON key: {0}"
+"کلید GeoJSON سفارشی نامعتبر است: {0}"
+
+"DELETE /api/pulse/:id is deprecated. Instead, change its `archived` value via PUT /api/pulse/:id."
+"DELETE / api / pulse /: id تخفیف است در عوض، مقدار `archived` خود را از طریق PUT / api / pulse /: id تغییر دهید."
+
+"API endpoint does not exist."
+"پایان نقطه API موجود نیست"
+
+"Password did not match stored password."
+"رمز عبور با رمز ذخیره شده مطابقت ندارد."
+
+"did not match stored password"
+"با رمز ذخیره شده مطابقت نداشت"
+
+"Problem connecting to LDAP server, will fallback to local authentication {0}"
+"مشکل اتصال به سرور LDAP، اعتبار احراز هویت محلی خواهد بود {0}"
+
+"Invalid reset token"
+"نشانگر مجدد نامعتبر است"
+
+"When set, allow users to sign up on their own if their Google account email address is from this domain."
+"هنگام تنظیم، کاربران را مجبور به ثبت نام در صورتی که آدرس ایمیل حساب Google خود از این دامنه است."
+
+"Email is not verified."
+"ایمیل تایید نشده است."
+
+"You''ll need an administrator to create a Metabase account before you can use Google to log in."
+"قبل از اینکه بتوانید از Google برای ورود به سیستم، یک حساب کاربری Metabase ایجاد کنید، به یک مدیر نیاز خواهید داشت."
+
+"Add a database"
+"یک پایگاه داده اضافه کنید"
+
+"Get connected"
+"متصل شوید"
+
+"Connect to your data so your whole team can start to explore."
+"به داده های خود متصل شوید، بنابراین کل تیم شما می تواند شروع به کشف کند."
+
+"Set up email"
+"ایمیل را تنظیم کنید"
+
+"Add email credentials so you can more easily invite team members and get updates via Pulses."
+"افزودن اعتبارنامه ایمیل، بنابراین شما می توانید به راحتی اعضای تیم را دعوت کنید و از Pulses به روز رسانی کنید."
+
+"Set Slack credentials"
+"مدارک Slack را تنظیم کنید"
+
+"Invite team members"
+"دعوت از اعضای تیم"
+
+"Share answers and data with the rest of your team."
+"به اشتراک گذاشتن پاسخ ها و اطلاعات با بقیه تیم خود."
+
+"Hide irrelevant tables"
+"پنهان کردن جداول نامناسب"
+
+"Curate your data"
+"داده های شما را خراب می کند"
+
+"If your data contains technical or irrelevant info you can hide it."
+"اگر اطلاعات شما حاوی اطلاعات فنی یا بی اهمیت باشد، می توانید آن را پنهان کنید."
+
+"Organize questions"
+"سازماندهی سوالات"
+
+"Have a lot of saved questions in {0}? Create collections to help manage them and add context."
+"سوالهای ذخیره شده زیادی در {0} دارید؟ ایجاد مجموعه برای کمک به مدیریت آنها و اضافه کردن زمینه."
+
+"Metabase"
+"Metabase"
+
+"Create metrics"
+"ایجاد معیارها"
+
+"Define canonical metrics to make it easier for the rest of your team to get the right answers."
+"معیارهای کانونی را تعریف کنید تا بقیه تیم خود را برای دریافت پاسخ مناسب آسانتر کنید."
+
+"Create segments"
+"ایجاد بخش ها"
+
+"Keep everyone on the same page by creating canonical sets of filters anyone can use while asking questions."
+"هر کس را در همان صفحه نگه دارید، با ایجاد مجموعه ای از فیلترهایی که هرکسی می تواند هنگام سوال کردن استفاده کند."
+
+"Table ''{0}'' is now visible. Resyncing."
+"جدول '' {0} '' در حال حاضر قابل مشاهده است Resyncing"
+
+"Auto bin"
+"بنز اتوماتیک"
+
+"Don''t bin"
+"نه بیرون"
+
+"Day"
+"روز ها"
+
+"Minute"
+"دقیقه ها"
+
+"Hour"
+"ساعت ها"
+
+"Quarter"
+"ربع"
+
+"Minute of Hour"
+"دقیقه ساعت"
+
+"Hour of Day"
+"ساعت از روز"
+
+"Day of Week"
+"روز هفته"
+
+"Day of Month"
+"روز ماه"
+
+"Day of Year"
+"روز سال"
+
+"Week of Year"
+"هفته سال"
+
+"Month of Year"
+"ماه سال"
+
+"Quarter of Year"
+"چهارم سال"
+
+"10 bins"
+"10 سطل"
+
+"50 bins"
+"50 مخزن"
+
+"100 bins"
+"100 مخزن"
+
+"Bin every 0.1 degrees"
+"بن هر 0.1 درجه"
+
+"Bin every 1 degree"
+"بن هر 1 درجه"
+
+"Bin every 10 degrees"
+"بن هر 10 درجه"
+
+"Bin every 20 degrees"
+"بن هر 20 درجه"
+
+"No appropriate image writer found!"
+"هیچ نویسنده تصویر مناسب پیدا نشد!"
+
+"Email address already in use."
+"آدرس ایمیل در حال استفاده است"
+
+"Email address already associated to another user."
+"آدرس ایمیل در حال حاضر به کاربر دیگری مرتبط است"
+
+"Not able to reactivate an active user"
+"قادر به فعال کردن یک کاربر فعال نیست"
+
+"Invalid password"
+"رمز عبور نامعتبر"
+
+"All {0}"
+"همه {0}"
+
+"{0}, all {1}"
+"{0}، همه {1}"
+
+"Comparison of {0} and {1}"
+"مقایسه {0} و {1}"
+
+"Automatically generated comparison dashboard comparing {0} and {1}"
+"داشبورد مقایسه به صورت خودکار ایجاد شده در مقایسه با {0} و {1}"
+
+"sum"
+"مجموع"
+
+"average"
+"میانگین"
+
+"minumum"
+"کمترین"
+
+"maximum"
+"بیشترین"
+
+"distinct count"
+"تعداد مجزا"
+
+"standard deviation"
+"انحراف معیار"
+
+"cumulative count"
+"شمارش تجمعی"
+
+"cumulative sum"
+"جمع تجمعی"
+
+"{0} and {1}"
+"{0} و {1}"
+
+"{0} of {1}"
+"{0} از {1}"
+
+"{0} by {1}"
+"{0} توسط {1}"
+
+"{0} in the {1} segment"
+"{0} در بخش {1}"
+
+"{0} segment"
+"{0} بخش"
+
+"{0} metric"
+"{0} متریک"
+
+"{0} field"
+"{0} فیلد"
+
+"\"{0}\" question"
+"\"{0}\" سوال"
+
+"Compare with {0}"
+"مقایسه با {0}"
+
+"Compare with entire dataset"
+"مقایسه با مجموعه داده های کل"
+
+"Applying heuristic %s to %s."
+"اعمال٪ s به٪ s."
+
+"Dimensions bindings:n%s"
+"اتصالات ابعاد: n٪ s"
+
+"Using definitions:nMetrics:n%snFilters:n%s"
+"با استفاده از تعاریف: nMetrics: n٪ snFilters: n٪ s"
+
+"Can''t create dashboard for {0}"
+"نمیتوان داشبورد را برای {0} ایجاد کرد"
+
+"{0}st"
+"{0} خیابان"
+
+"{0}nd"
+"{0} nd"
+
+"{0}rd"
+"{0} rd"
+
+"{0}th"
+"{0} th"
+
+"at {0}"
+"در {0}"
+
+"on {0}"
+"در {0}"
+
+"in {0} week - {1}"
+"در {0} هفته - {1}"
+
+"in {0}"
+"در {0}"
+
+"in Q{0} - {1}"
+"در Q {0} - {1}"
+
+"Q{0}"
+"Q {0}"
+
+"{0} is {1}"
+"{0} {1} است"
+
+"{0} is between {1} and {2}"
+"{0} بین {1} و {2}"
+
+"{0} is between {1} and {2}; and {3} is between {4} and {5}"
+"{0} بین {1} و {2} است و {3} بین {4} و {5}"
+
+"where {0}"
+"جایی که {0}"
+
+"A closer look at {0}"
+"یک نگاه نزدیک به {0}"
+
+"A closer look at the {0}"
+"نگاهی نزدیک به {0}"
+
+"Adding %s cards to dashboard %s:n%s"
+"افزودن٪ s کارت به داشبورد٪ s: n٪ s"
+
+"0 <= score <= {0}"
+"0 <= score <= {0}"
+
+"1 <= width <= {0}"
+"1 <= عرض <= {0}"
+
+"Valid metrics references"
+"مراجع معتبر معیارهای"
+
+"Valid filters references"
+"منابع معتبر فیلتر شده"
+
+"Valid group references"
+"مراجع معتبر گروه"
+
+"Valid order_by references"
+"مدارک معتبر سفارشات"
+
+"Valid dashboard filters references"
+"داشبورد معتبر فیلترهای مراجع"
+
+"Valid dimension references"
+"ارجاع ابعاد معتبر"
+
+"Valid card dimension references"
+"مراجع ابعاد کارت معتبر"
+
+"Error parsing %s:n%s"
+"خطا در تجزیه٪ s: n٪ s"
+
+"No user found with email address ''{0}''. "
+"هیچ کاربر با آدرس ایمیل '' {0} '' یافت نشد"
+
+"Please check the spelling and try again."
+"لطفا املای خود را بررسی کنید و دوباره امتحان کنید."
+
+"Resetting password for {0}..."
+"تنظیم مجدد رمز عبور برای {0} ..."
+
+"OK [[[{0}]]]"
+"OK [[[{0}]]]"
+
+"FAIL [[[{0}]]]"
+"فايل [[[{0}]]]"
+
+"Please use the following URL to setup your Metabase installation:"
+"لطفا برای نصب Metabase Metabase از URL زیر استفاده کنید:"
+
+"Metabase Shutting Down ..."
+"متاباز خاموش کردن ..."
+
+"Metabase Shutdown COMPLETE"
+"Metabase Shutdown COMPLETE"
+
+"Starting Metabase version {0} ..."
+"شروع نسخه Metabase {0} ..."
+
+"System timezone is ''{0}'' ..."
+"منطقه زمانی سیستم است '' {0} '' ..."
+
+"Setting up and migrating Metabase DB. Please sit tight, this may take a minute..."
+"راه اندازی و مهاجرت Metabase DB. لطفا کمی تنگ بشوید، ممکن است یک دقیقه طول بکشد ..."
+
+"Looks like this is a new installation ... preparing setup wizard"
+"به نظر می رسد این یک نصب جدید است ... آماده سازی جادوگر راه اندازی"
+
+"Metabase Initialization COMPLETE"
+"شروع اولیه Metabase"
+
+"Launching Embedded Jetty Webserver with config:"
+"راه اندازی جاسازی شده جتتی وب سرور با پیکربندی:"
+
+"Shutting Down Embedded Jetty Webserver"
+"وب سایت جتتی جاسازی شده را خاموش می کند"
+
+"Starting Metabase in STANDALONE mode"
+"شروع Metabase در حالت STANDALONE"
+
+"Metabase Initialization FAILED"
+"ابتدایی Metabase ناپدید شد"
+
+"Database has migration lock; cannot run migrations."
+"پایگاه داده دارای قفل مهاجرت است. نمی توان مهاجرت کرد"
+
+"You can force-release these locks by running `java -jar metabase.jar migrate release-locks`."
+"شما می توانید این قفل ها را با اجرای `java -jar metabase.jar migrate release-locks 'باز کنید."
+
+"Checking if Database has unrun migrations..."
+"بررسی اینکه آیا بانک اطلاعاتی مهاجرت نشده است ..."
+
+"Database has unrun migrations. Waiting for migration lock to be cleared..."
+"بانک اطلاعاتی مهاجرت نشده است. منتظر قفل مهاجرت هستیم ..."
+
+"Migration lock is cleared. Running migrations..."
+"قفل مهاجرت پاک شده است. مهاجرت در حال اجرا ..."
+
+"Migration lock cleared, but nothing to do here! Migrations were finished by another instance."
+"قفل مهاجرت پاک شده است، اما هیچ چیز برای انجام این کار وجود ندارد! مهاجرت به وسیله یک نمونه دیگر انجام شد."
+
+"Setting up Liquibase..."
+"راه اندازی Liquibase ..."
+
+"Liquibase is ready."
+"Liquibase آماده است"
+
+"Verifying {0} Database Connection ..."
+"بررسی {0} اتصال به پایگاه داده ..."
+
+"Verify Database Connection ... "
+"اتصال پایگاه داده را بررسی کنید ..."
+
+"Running Database Migrations..."
+"مهاجرت پایگاه داده در حال اجرا ..."
+
+"Database Migrations Current ... "
+"..."
+
+"Hmm, we couldn''t connect to the database."
+"هوم، ما نمی توانیم به پایگاه داده وصل شویم."
+
+"Make sure your host and port settings are correct"
+"اطمینان حاصل کنید که تنظیمات میزبان و پورت شما صحیح است"
+
+"We couldn''t connect to the ssh tunnel host."
+"ما نمی توانیم به میزبان تونل ssh متصل شویم."
+
+"Check the username, password."
+"نام کاربری، رمز عبور را بررسی کنید."
+
+"Check the hostname and port."
+"نام میزبان و پورت را بررسی کنید."
+
+"Looks like the database name is incorrect."
+"به نظر می رسد نام پایگاه داده نادرست است."
+
+"It looks like your host is invalid."
+"به نظر می رسد میزبان شما نامعتبر است"
+
+"Please double-check it and try again."
+"لطفا آن را بررسی کنید و دوباره امتحان کنید."
+
+"Looks like your password is incorrect."
+"به نظر می رسد رمز عبور شما اشتباه است"
+
+"Looks like you forgot to enter your password."
+"به نظر می رسد که رمز عبور خود را فراموش کرده اید."
+
+"Looks like your username is incorrect."
+"به نظر می رسد نام کاربری شما نادرست است."
+
+"Looks like the username or password is incorrect."
+"به نظر می رسد که نام کاربری یا رمز عبور نادرست است."
+
+"Connection timezone to use when executing queries. Defaults to system timezone."
+"زمان اتصال اتصال برای استفاده در هنگام اجرای پرس و جو. به طور پیش فرض به منطقه زمانی سیستم"
+
+"Registered driver {0} {1}"
+"راننده ثبت شده {0} {1}"
+
+"No -init-driver function found for ''{0}''"
+"هیچ تابع راننده برای '' {0} '' یافت نشد"
+
+"Unable to parse date string ''{0}'' for database engine ''{1}''"
+"قادر به تجزیه تاریخ رشته '' {0} '' برای موتور پایگاه داده '' {1} ''"
+
+"Don''t know how to map class ''{0}'' to a Field base_type, falling back to :type/*."
+"نمی دانید که چگونه کلاس '' {0} '' را به یک فیلد base_type ارجاع دهید، به نوع: / *."
+
+"Failed to connect to database: {0}"
+"اتصال به پایگاه داده نشد: {0}"
+
+"Invalid BigQuery identifier: ''{0}''"
+"شناسه BigQuery نامعتبر است: '' {0} ''"
+
+"BigQuery statements can't be parameterized!"
+"اظهارات BigQuery نمی تواند پارامتر شود!"
+
+"Failed to set timezone:"
+"تنظیم منطقه زمانی تنظیم نشد"
+
+"Running SQL queries against H2 databases using the default (admin) database user is forbidden."
+"در حال انجام پرس و جو SQL در برابر پایگاه داده های H2 با استفاده از کاربر پایگاه داده به طور پیش فرض (admin) ممنوع است."
+
+"Error: metabase.driver.FixedHiveDriver is registered, but JDBC does not seem to be using it."
+"خطا: metabase.driver.FixedHiveDriver ثبت شده است، اما JDBC به نظر نمی رسد از آن استفاده کند."
+
+"Found metabase.driver.FixedHiveDriver."
+"metabase.driver.FixedHiveDriver یافت شد"
+
+"Successfully registered metabase.driver.FixedHiveDriver with JDBC."
+"Metabase.driver.FixedHiveDriver با JDBC ثبت نام شده است."
+
+"Email address you want to use as the sender of Metabase."
+"آدرس ایمیل شما می خواهید به عنوان فرستنده Metabase استفاده کنید."
+
+"The address of the SMTP server that handles your emails."
+"آدرس سرور SMTP که ایمیل های شما را مدیریت می کند."
+
+"SMTP username."
+"نام کاربری SMTP"
+
+"SMTP password."
+"رمز عبور SMTP"
+
+"The port your SMTP server uses for outgoing emails."
+"پورت سرور SMTP شما برای ایمیل های خروجی استفاده می کند."
+
+"SMTP secure connection protocol. (tls, ssl, starttls, or none)"
+"پروتکل اتصال ایمن SMTP (tls، ssl، starttls، یا none)"
+
+"none"
+"هیچ یک"
+
+"SMTP host is not set."
+"میزبان SMTP تنظیم نشده است."
+
+"Failed to send email"
+"ایمیل ارسال نشد"
+
+"Error testing SMTP connection"
+"خطا در اتصال به SMTP"
+
+"Enable LDAP authentication."
+"تأیید هویت LDAP را فعال کنید"
+
+"Server hostname."
+"نام میزبان سرور"
+
+"Server port, usually 389 or 636 if SSL is used."
+"پورت سرور، معمولا 389 یا 636 اگر SSL استفاده شود."
+
+"Use SSL, TLS or plain text."
+"از SSL، TLS یا متن ساده استفاده کنید."
+
+"The Distinguished Name to bind as (if any), this user will be used to lookup information about other users."
+"نام متمایز برای اتصال (به عنوان مثال)، این کاربر برای جستجوی اطلاعات در مورد سایر کاربران استفاده خواهد شد."
+
+"The password to bind with for the lookup user."
+"رمز عبور برای اتصال کاربر برای جستجو."
+
+"Search base for users. (Will be searched recursively)"
+"پایگاه جستجوی کاربران (به صورت بازگشتی جستجو می شود)"
+
+"User lookup filter, the placeholder '{login}' will be replaced by the user supplied login."
+"فیلد جستجوگر کاربر، جادوگر {login} با کاربر وارد شده توسط کاربر جایگزین خواهد شد."
+
+"Attribute to use for the user's email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"مشخصه برای استفاده از ایمیل کاربر. (معمولا '' پست الکترونیکی ''، '' ایمیل '' یا '' userPrincipalName '')"
+
+"Attribute to use for the user''s first name. (usually ''givenName'')"
+"مشخصه برای نام کاربری کاربر استفاده می شود. (معمولا '' givenName '')"
+
+"Attribute to use for the user''s last name. (usually ''sn'')"
+"مشخصه برای نام کاربری کاربر استفاده می شود. (معمولا '' sn '')"
+
+"Enable group membership synchronization with LDAP."
+"همگام سازی عضویت گروه با LDAP را فعال کنید"
+
+"Search base for groups, not required if your LDAP directory provides a ''memberOf'' overlay. (Will be searched recursively)"
+"پایگاه جستجوی برای گروه ها، مورد نیاز نیست، اگر دایرکتوری LDAP یک پوشه '' memberOf '' را فراهم می کند. (به صورت بازگشتی جستجو می شود)"
+
+"JSON containing LDAP to Metabase group mappings."
+"JSON حاوی LDAP به گروه بندی Metabase گروه."
+
+"Here''s what I can {0}:"
+"در اینجا چیزی است که می توانم {0}:"
+
+"I don''t know how to {0} `{1}`.n{2}"
+"من نمی دانم چگونه {0} `{1}` .n {2}"
+
+"Here''s your {0} most recent cards:n{1}"
+"در اینجا آخرین کارت های {0} شما وجود دارد: n {1}"
+
+"Could you be a little more specific? I found these cards with names that matched:n{0}"
+"می توانید کمی بیشتر مشخص کنید؟ من این کارت ها را با نام هایی یافتم که با هم مطابقت داشتند: n {0}"
+
+"Not Found"
+"پیدا نشد"
+
+"Go home websocket, you're drunk."
+"به وب سایت ما بپیوندید، شما مست هستید"
+
+"Base-64 encoded public key for this site's SSL certificate."
+"Base-64 رمزگذاری شده برای کلید عمومی برای گواهی SSL این سایت."
+
+"Specify this to enable HTTP Public Key Pinning."
+"این را برای فعال کردن پین کردن کلید عمومی HTTP فعال کنید."
+
+"See {0} for more information."
+"{0} را برای اطلاعات بیشتر ببینید"
+
+"Cannot save Question: source query has circular references."
+"نتوانست سوال را نجات دهد: پرس و جو منبع دارای مراجع دایره ای است."
+
+"Card {0} does not exist."
+"کارت {0} وجود ندارد."
+
+"You do not have permissions to run ad-hoc native queries against Database {0}."
+"شما مجوزهای لازم برای نمایش درخواستهای بومی خاص خود را در برابر بانک اطلاعاتی {0} ندارید"
+
+"Invalid color"
+"رنگ نامعتبر"
+
+"must be a valid 6-character hex color code"
+"باید کد رنگ هگزسیده 6 کاراکتری معتبر باشد"
+
+"Collection name cannot be blank!"
+"اسم مجموعه نمیتواند خالی باشد."
+
+"cannot be blank"
+"نمی‌تونه خالی باشه"
+
+"Invalid Collection location: path is invalid."
+"محل مجموعه غیر معتبر: آدرس نامعتبر می باشد."
+
+"You cannot move a Personal Collection."
+"شما نمیتوانید یک مجموعه شخصی را جا به جا کنید."
+
+"Invalid Collection location: some or all ancestors do not exist."
+"محل جمع آوری نامعتبر: برخی یا همه اجداد وجود ندارد."
+
+"You cannot archive the Root Collection."
+"شما نمی توانید مجموعه ریشه را بایگانی کنید."
+
+"You cannot archive a Personal Collection."
+"شما نمیتوانید یک مجموعه شخصی را بایگانی کنید"
+
+"You cannot move the Root Collection."
+"شما نمیتوانید مجموعه ریشه ای را جا به جا کنید"
+
+"You cannot move a Collection into itself or into one of its descendants."
+"شما نمی توانید مجموعه را به خود و یا به یکی از فرزندان خود منتقل کنید."
+
+"Moving Collection {0} and its descendants from {1} to {2}"
+"مجموعه حرکت {0} و فرزندان آن از {1} تا {2}"
+
+"You're not allowed to change the owner of a Personal Collection."
+"شما مجاز به تغییر صاحب یک مجموعه شخصی نیستید."
+
+"You're not allowed to move a Personal Collection."
+"شما مجاز به انتقال یک مجموعه شخصی نیستید."
+
+"You cannot move a Collection and archive it at the same time."
+"شما نمیتوانید یک مجموعه را حرکت دهید و آن را همزمان ذخیره کنید."
+
+"You cannot delete a Personal Collection!"
+"شما نمی توانید یک مجموعه شخصی را حذف کنید!"
+
+"{0} {1}''s Personal Collection"
+"{0} {1} مجموعه شخصی"
+
+"You cannot update a CollectionRevision!"
+"شما نمی توانید CollectionRevision را به روز کنید!"
+
+"Field {0} was previously automatically set to show a list widget, but now has {1} values."
+"فیلد {0} قبلا به طور خودکار برای نمایش یک ویجت لیست تنظیم شده است، اما در حال حاضر دارای {1} مقدار است."
+
+"Switching Field to use a search widget instead."
+"سوئیچینگ فیلد به جای استفاده از ویجت جستجو."
+
+"Storing updated FieldValues for Field {0}..."
+"ذخیرۀ FieldValues ​​به روز شده برای فیلد {0} ..."
+
+"Storing FieldValues for Field {0}..."
+"ذخیره فیلد فیلد برای فیلد {0} ..."
+
+"Metabase can attempt to transform your table and field names into more sensible, human-readable versions, e.g. \"somehorriblename\" becomes \"Some Horrible Name\"."
+"Metabase می تواند تلاش کند نام جدول و فیلدهای خود را به نسخه های قابل اعتماد تر و قابل خواندن با انسانی تبدیل کند، برای مثال \"somehorriblename\" می شود \"برخی از نام وحشتناک\"."
+
+"This doesn’t work all that well if the names are in a language other than English, however."
+"با این حال، این کار همه کارها را به خوبی انجام نمی دهد، اگر این نام ها در زبان دیگری غیر از زبان انگلیسی باشد."
+
+"Do you want us to take a guess?"
+"میخوای ما برات حدس بزنیم؟"
+
+"You cannot create or revoke permissions for the 'Admin' group."
+"شما نمیتوانید مجوزهای گروه مدیریت را ایجاد یا لغو کنید."
+
+"Invalid permissions object path: ''{0}''."
+"مسیر شیء مجوزهای معتبر: '' {0} ''."
+
+"You cannot update a permissions entry!"
+"شما نمی توانید ورود مجوز را به روز کنید!"
+
+"Delete it and create a new one."
+"حذفش کن و یه جدیدش رو بساز"
+
+"You cannot edit permissions for a Personal Collection or its descendants."
+"شما نمیتوانید مجوزهای یک مجموعه شخصی یا نسلهای آن را ویرایش کنید."
+
+"Looks like someone else edited the permissions and your data is out of date."
+"به نظر می رسد شخص دیگری ویرایش مجوز ها را داشته و داده های شما از بین رفته است."
+
+"Please fetch new data and try again."
+"لطفا داده جدید را دریافت کنید و مجددا تلاش کنید"
+
+"A group with that name already exists."
+"گروهی با این نام در حال حاضر وجود دارد."
+
+"You cannot edit or delete the ''{0}'' permissions group!"
+"شما نمی توانید گروه مجوز '' {0} '' را ویرایش یا حذف کنید!"
+
+"You cannot add or remove users to/from the 'MetaBot' group."
+"شما نمیتوانید کاربران را به / از گروه MetaBot اضافه یا حذف کنید."
+
+"You cannot add or remove users to/from the 'All Users' group."
+"شما نمیتوانید کاربران را به / از گروه «همه کاربران» اضافه یا حذف کنید."
+
+"You cannot remove the last member of the 'Admin' group!"
+"شما نمیتوانید آخرین عضو گروه مدیریت را حذف کنید"
+
+"You cannot update a PermissionsRevision!"
+"شما نمی توانید PermissionsRevision را به روز کنید!"
+
+"Invalid Alert: Alert does not have a Card assoicated with it"
+"هشدار نامعتبر: هشدار یک کارت مرتبط با آن ندارد"
+
+"value must be a map with the keys `{0}`, `{1}`, and `{2}`."
+"ارزش باید یک نقشه با کلید `{0}`، `{1}`، و `{2}` باشد."
+
+"value must be a map with the following keys `({0})`"
+"ارزش باید یک نقشه با کلیدهای زیر {(0)) `باشد"
+
+"Error calculating permissions for query: {0}"
+"خطا در محاسبه مجوزها برای پرس و جو: {0}"
+
+"Invalid query type: {0}"
+"نوع پرس و جو نامعتبر: {0}"
+
+"You cannot update a QueryExecution!"
+"شما نمی توانید QueryExecution را به روز کنید!"
+
+"You cannot update a Revision!"
+"شما نمی توانید یک نسخه را به روز کنید!"
+
+"Updating value of settings-last-updated in DB..."
+"به روز رسانی ارزش تنظیمات - آخرین به روز رسانی در DB ..."
+
+"Checking whether settings cache is out of date (requires DB call)..."
+"بررسی اینکه آیا حافظه پنهان تنظیم شده است (نیاز به تماس DB) ..."
+
+"Settings have been changed on another instance, and will be reloaded here."
+"تنظیمات در مثال دیگری تغییر کرده است و در اینجا دوباره بارگیری خواهد شد."
+
+"Refreshing Settings cache..."
+"حافظه تنظیمات بازخوانی ..."
+
+"Invalid value for string: must be either \"true\" or \"false\" (case-insensitive)."
+"مقدار نامعتبر برای رشته: باید \"درست\" یا \"غلط\" (حساس به حروف) باشد."
+
+"You cannot update `settings-last-updated` yourself! This is done automatically."
+"شما نمیتوانید تنظیمات خود را بهروزرسانی کنید! این به صورت خودکار انجام می شود."
+
+"Error inserting a new Setting:"
+"خطا در افزودن یک تنظیم جدید:"
+
+"Assuming Setting already exists in DB and updating existing value."
+"فرض کنید تنظیم در حال حاضر در DB وجود دارد و به روز رسانی مقدار موجود است."
+
+"value must be a map with each value either a string or number."
+"ارزش باید یک نقشه با هر مقدار یا رشته یا عدد باشد."
+
+"Loading plugins in directory {0}..."
+"بارگیری پلاگین ها در دایرکتوری {0} ..."
+
+"Loading plugin {0}... "
+"بارگیری پلاگین {0} ..."
+
+"It looks like you have some external dependencies in your Metabase plugins directory."
+"به نظر می رسد که شما در وابستگی های خارجی خود در دایرکتوری پلاگین Metabase خود دارید."
+
+"With Java 9 or higher, Metabase cannot automatically add them to your classpath."
+"با جاوا 9 یا بالاتر، Metabase نمی تواند به طور خودکار آنها را به مسیر کلاس شما اضافه کند."
+
+"Instead, you should include them at launch with the -cp option. For example:"
+"در عوض، شما باید آنها را در راه اندازی با گزینه -cp وارد کنید. مثلا:"
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#java-versions for more details."
+"برای اطلاعات بیشتر به https://metabase.com/docs/latest/operations-guide/start.html#java-versions مراجعه کنید"
+
+"(If you're already running Metabase this way, you can ignore this message.)"
+"(اگر شما در حال حاضر Metabase را در این راه اجرا می کنید، می توانید این پیام را نادیده بگیرید.)"
+
+"Identify when new versions of Metabase are available."
+"شناسایی زمانی که نسخه های جدید Metabase در دسترس هستند."
+
+"Information about available versions of Metabase."
+"اطلاعات در مورد نسخه های موجود Metabase."
+
+"The name used for this instance of Metabase."
+"نام مورد استفاده برای این مثال Metabase."
+
+"The base URL of this Metabase instance, e.g. \"http://metabase.my-company.com\"."
+"آدرس پایه این نمونه متاباز، به عنوان مثال \"http://metabase.my-company.com\"."
+
+"The default language for this Metabase instance."
+"زبان پیشفرض برای این نمونه متابیس"
+
+"This only applies to emails, Pulses, etc. Users'' browsers will specify the language used in the user interface."
+"این فقط در مورد ایمیل ها، پالس ها و غیره استفاده می شود. مرورگرهای کاربران زبان مورد استفاده در رابط کاربری را مشخص می کنند."
+
+"The email address users should be referred to if they encounter a problem."
+"اگر با یک مشکل مواجه شدید، کاربران آدرس ایمیل باید مراجعه کنند."
+
+"Enable the collection of anonymous usage data in order to help Metabase improve."
+"مجموعه ای از داده های استفاده ناشناس را برای کمک به بهبود Metabase فعال کنید."
+
+"The map tile server URL template used in map visualizations, for example from OpenStreetMaps or MapBox."
+"الگو URL الگو سرور کاشی مورد استفاده در تصورات نقشه، به عنوان مثال از OpenStreetMaps یا MapBox."
+
+"Enable admins to create publicly viewable links (and embeddable iframes) for Questions and Dashboards?"
+"فعال کردن مدیران برای ایجاد لینک های قابل مشاهده قابل مشاهده (و قاب های قابل جاسازی) برای سوالات و داشبورد ها؟"
+
+"Allow admins to securely embed questions and dashboards within other applications?"
+"به مدیران اجازه دهید ایمن سوالات و داشبورد ها را در برنامه های دیگر قرار دهند؟"
+
+"Enabling caching will save the results of queries that take a long time to run."
+"فعال کردن ذخیره سازی، نتایجی از نمایش داده ها را ذخیره می کند که مدت زمان زیادی طول می کشد تا اجرا شوند."
+
+"The maximum size of the cache, per saved question, in kilobytes:"
+"حداکثر اندازه حافظه پنهان، در هر سوال ذخیره شده، در کیلوبایت:"
+
+"The absolute maximum time to keep any cached query results, in seconds."
+"حداکثر حداکثر زمان برای حفظ هر گونه نتایج پرس و جو ذخیره شده در ثانیه."
+
+"Metabase will cache all saved questions with an average query execution time longer than this many seconds:"
+"Metabase تمام سوالات ذخیره شده را با میانگین زمان اجرای پرس و جو بیشتر از این چند ثانیه مخفی نگه می دارد:"
+
+"To determine how long each saved question''s cached result should stick around, we take the query''s average execution time and multiply that by whatever you input here."
+"برای تعیین مدت زمانی که هر نتیجه ذخیره شده ذخیره شده در سؤال باید در اطراف نگه داشته شود، ما میانگین زمان اجرای اجرای پرس و جو را افزایش می دهیم و آن را با آنچه شما در اینجا وارد کردید می کنید."
+
+"So if a query takes on average 2 minutes to run, and you input 10 for your multiplier, its cache entry will persist for 20 minutes."
+"بنابراین اگر یک پرس و جو برای اجرا به طور متوسط ​​2 دقیقه طول بکشد، و شما 10 برای چندتایی خود را وارد کنید، ورودی حافظه پنهان آن تا 20 دقیقه ادامه خواهد یافت."
+
+"When using the default binning strategy and a number of bins is not provided, this number will be used as the default."
+"هنگام استفاده از استراتژی پیشفرض به طور پیش فرض و تعدادی از سطل ها ارائه نشده است، این شماره به عنوان پیش فرض مورد استفاده قرار می گیرد."
+
+"When using the default binning strategy for a field of type Coordinate (such as Latitude and Longitude), this number will be used as the default bin width (in degrees)."
+"هنگام استفاده از استراتژی پیشفرض پیش فرض برای یک فیلد از نوع مختصات (مانند طول و عرض جغرافیایی)، این شماره به عنوان عرض باین پیش فرض (در درجه) استفاده می شود."
+
+"Unable to validate token."
+"قادر به تأیید نشانه نیست"
+
+"Error fetching token status:"
+"خطا در دریافت وضعیت توکن"
+
+"There was an error checking whether this token was valid."
+"یک خطا در بررسی اینکه آیا این نشانه معتبر بود، وجود داشت."
+
+"Token validation timed out."
+"تأیید اعتبار سنجی زمان به پایان رسیده است"
+
+"Invalid token: token isn't in the right format."
+"نشانه نامعتبر: نشانه در فرمت مناسب نیست."
+
+"Checking with the MetaStore to see whether {0} is valid..."
+"بررسی با MetaStore برای دیدن اینکه {0} معتبر است ..."
+
+"Token for premium embedding. Go to the MetaStore to get yours!"
+"برچسب برای تعبیه حق بیمه. برو به MetaStore برای به دست آوردن شما!"
+
+"Token is valid."
+"توکن معتبر می باشد"
+
+"Error setting premium embedding token"
+"خطا در تعیین تعرفه حق بیمه"
+
+"Unable to compare results to goal for alert."
+"نمیتوان مقایسه نتایج را به هدف برای هشدار داد."
+
+"Question ID is ''{0}'' with visualization settings ''{1}''"
+"سوال ID '' {0} '' با تنظیمات نمایش است '' {1} ''"
+
+"Unrecognized alert with condition ''{0}''"
+"هشدار ناشناخته با وضعیت '' {0} ''"
+
+"Unrecognized channel type {0}"
+"نوع کانال نامشخص {0}"
+
+"Error sending notification!"
+"خطا در ارسال اعلان!"
+
+"Can't find JS color selector at ''{0}''"
+"می توانید انتخاب رنگ JS را در '' {0} '' پیدا کنید"
+
+"Card has errors: {0}"
+"کارت دارای خطا است: {0}"
+
+"Pulse card render error"
+"کارت پالس رندر خطا"
+
+"Trimming trailing comment from card with id {0}"
+"ترتیب پیشنویس از کارت با شناسه {0}"
+
+"Can't find field with ID: {0}"
+"فیلد با شناسه پیدا نشد: {0}"
+
+"''{0}'' is a required param."
+"' {0} '' پارامتر مورد نیاز است."
+
+"Found ''{0}'' with no terminating ''{1}'' in query ''{2}''"
+"' {0} '' بدون تعطیل '' {1} '' در پرس و جو '' {2} ''"
+
+"Unable to substitute ''{0}'': param not specified.nFound: {1}"
+"قادر به جایگزینی '' {0} '': param not specified.nFound: {1}"
+
+"You do not have permissions to view Card {0}."
+"شما مجوز هایی برای مشاهده کارت {0} ندارید."
+
+"You do not have permissions to run this query."
+"شما برای اجرای این پرس و جو مجوز ندارید."
+
+"Fingerprint updates attempted {0}, updated {1}, no data found {2}, failed {3}"
+"به روز رسانی اثر انگشت تلاش {0}، بهروز {1}، هیچ اطلاعاتی یافت نشد {2}، شکست خورد {3}"
+
+"Total number of fields classified {0}, {1} failed"
+"تعداد کل فیلدها دسته بندی شده {0}، {1} شکست خورده است"
+
+"Total number of tables classified {0}, {1} updated"
+"تعداد کل جداول طبقه بندی شده {0}، {1} به روز شد"
+
+"Error generating fingerprint for {0}"
+"خطا در ایجاد اثر انگشت برای {0}"
+
+"Updated {0} field value sets, created {1}, deleted {2} with {3} errors"
+"به روز شده {0} مجموعه مقادیر فیلد، ایجاد {1}، حذف {2} با خطاهای {3}"
+
+"Total number of fields sync''d {0}, number of fields updated {1}"
+"تعداد کل فیلدها sync''d {0}، تعداد فیلدها به روز شده {1}"
+
+"Total number of tables sync''d {0}, number of tables updated {1}"
+"تعداد کل جداول sync''d {0}، تعداد جداول به روز شده {1}"
+
+"Found timezone id {0}"
+"شناسه منطقه زمانی یافت شد {0}"
+
+"Total number of foreign keys sync''d {0}, {1} updated and {2} tables failed to update"
+"مجموع کل کلید های خارجی sync''d {0}، {1} به روز شد و {2} جداول نتوانست به روز رسانی شود"
+
+"{0} Database {1} ''{2}''"
+"{0} پایگاه داده {1} '' {2} ''"
+
+"Table {0} ''{1}''"
+"جدول {0} '' {1} ''"
+
+"Field {0} ''{1}''"
+"فیلد {0} '' {1} ''"
+
+"Field ''{0}''"
+"فیلد '' {0} ''"
+
+"step ''{0}'' for {1}"
+"گام \"'{0}' 'برای {1}"
+
+"Completed {0} on {1}"
+"تکمیل شده {0} در {1}"
+
+"Start: {0}"
+"شروع: {0}"
+
+"End: {0}"
+"پایان: {0}"
+
+"Duration: {0}"
+"مدت زمان: {0}"
+
+"Completed step ''{0}''"
+"گام کامل '' {0} ''"
+
+"Loading tasks namespace:"
+"بارگذاری وظایف فضای نام:"
+
+"Starting Quartz Scheduler"
+"شروع برنامه زمانبندی کوارتز"
+
+"Stopping Quartz Scheduler"
+"توقف کوارتز زمانبند"
+
+"Job already exists:"
+"وظیفه در حال حاضر وجود دارد:"
+
+"Loading Metabase..."
+"در حال بارگیری متابیس ..."
+
+"Possible timezone conflict found on database {0}."
+"درگیری احتمالی منطقه در پایگاه داده {0} یافت شد."
+
+"JVM timezone is {0} and detected database timezone is {1}."
+"منطقه زمانی JVM {0} است و منطقه زمانی داده شده را شناسایی کرده است {1}."
+
+"Configure a report timezone to ensure proper date and time conversions."
+"منطقه زمانی گزارش را پیکربندی کنید تا تبدیلات تاریخ و زمان مناسب را تضمین کنید."
+
+"Secret key used to sign JSON Web Tokens for requests to `/api/embed` endpoints."
+"کلید مخفی برای امضای JSON Web Tokens برای درخواست به نقطه انتهایی `/ api / embed 'استفاده می شود."
+
+"MB_ENCRYPTION_SECRET_KEY must be at least 16 characters."
+"MB_ENCRYPTION_SECRET_KEY باید حداقل 16 حرف باشد."
+
+"Saved credentials encryption is ENABLED for this Metabase instance."
+"رمزگذاری اعتبار ذخیره شده برای این مثال متاباز فعال می شود."
+
+"Saved credentials encryption is DISABLED for this Metabase instance."
+"رمزگذاری داده های ذخیره شده برای این مثال Metabase غیرفعال است."
+
+"nFor more information, see"
+"n برای اطلاعات بیشتر، دیدن کنید"
+
+"value must be an integer."
+"مقدار آن باید یک عدد صحیح باشد."
+
+"value must be a string."
+"مقدار آن باید یک رشته باشد."
+
+"value must be a boolean."
+"مقدار باید یک بولی باشد."
+
+"value must be a string that matches the regex `{0}`."
+"مقدار باید یک رشته باشد که با regex {{0}} منطبق باشد."
+
+"value must satisfy one of the following requirements: "
+"ارزش باید یکی از الزامات زیر را برآورده کند:"
+
+"value may be nil, or if non-nil, {0}"
+"مقدار ممکن است صفر باشد، یا اگر غیر صفر باشد، {0}"
+
+"value must be one of: {0}."
+"مقدار باید از {0} باشد."
+
+"value must be an array."
+"مقدار آن باید یک آرایه باشد."
+
+"Each {0}"
+"هر {0}"
+
+"The array cannot be empty."
+"آرایه نمی‌تواند خالی باشد."
+
+"value must be a non-blank string."
+"مقدار باید یک رشته غیر خالی باشد."
+
+"Integer greater than zero"
+"عدد صحیح بزرگتر از صفر"
+
+"value must be an integer greater than zero."
+"مقدار باید عدد صحیحی بزرگتر از صفر باشد"
+
+"Number greater than zero"
+"عدد بزرگتر از صفر"
+
+"value must be a number greater than zero."
+"مقدار باید عددی بزرگتر از صفر باشد"
+
+"Keyword or string"
+"کلید واژه یا رشته"
+
+"Valid field type"
+"نوع فیلد معتبر"
+
+"value must be a valid field type."
+"مقدار باید یک نوع فیلد معتبر باشد."
+
+"Valid field type (keyword or string)"
+"نوع فیلد معتبر (کلید واژه یا رشته)"
+
+"value must be a valid field type (keyword or string)."
+"مقدار باید یک نوع فیلد معتبر باشد (کلید واژه یا رشته)."
+
+"Valid entity type (keyword or string)"
+"نوع موجودیت معتبر (کلید واژه یا رشته)"
+
+"value must be a valid entity type (keyword or string)."
+"مقدار باید یک نوع نهایی معتبر باشد (کلید واژه یا رشته)."
+
+"Valid map"
+"نقشه معتبر"
+
+"value must be a map."
+"ارزش باید یک نقشه باشد"
+
+"Valid email address"
+"آدرس ایمیل معتبر"
+
+"value must be a valid email address."
+"مقدار باید یک آدرس ایمیل معتبری باشد"
+
+"Insufficient password strength"
+"قدرت رمز عبور ناکافی"
+
+"value must be a valid integer."
+"مقدار باید یک عدد صحیح معتبر باشد"
+
+"value must be a valid integer greater than zero."
+"مقدار آن باید عدد صحیح و‌ بزرگتر از صفر باشد."
+
+"value must be a valid boolean string (''true'' or ''false'')."
+"مقدار آن باید رشته ‘true’ یا ‘false’ باشد."
+
+"value must be a valid JSON string."
+"مقدار آن باید رشته JSON باشد."
+
+"value must be a valid embedding params map."
+"ارزش باید یک نقشه پارامتر تعبیه معتبر باشد."
+
+"No results"
+"بدون نتیجه"
+
+"Moving instances of {0} that aren't in a Collection to {1} Collection {2}"
+"حرکت نمونه هایی از {0} که در مجموعه نیستند {1} مجموعه {2}"
+
+"Failed to grant permissions: {0}"
+"مجوزها مجاز نبود: {0}"
+
+"Host"
+"میزبان"
+
+"Port"
+"پورت"
+
+"Database username"
+"نام کاربری پایگاه داده"
+
+"Database password"
+"رمز پایگاه داده"
+
+"Database name"
+"نام پایگاه داده"
+
+"birds_of_the_world"
+"birds_of_the_world"
+
+"Additional JDBC connection string options"
+"گزینه های رشته اتصال JDBC اضافی"
+
+"praxis-beacon-120871"
+"praxis-beacon-120871"
+
+"toucanSightings"
+"تانک ها"
+
+"Hosts"
+"میزبانان"
+
+"Broker node port"
+"پورت گره کارگزار"
+
+"Google Analytics Account ID"
+"شناسه حساب Google Analytics"
+
+"Connection String"
+"رشته اتصال"
+
+"Users/camsaul/bird_sightings/toucans"
+"کاربران / camsaul / bird_sightings / toucans"
+
+"carrierPigeonDeliveries"
+"carrierPigeonDeliveries"
+
+"Authentication Database"
+"پایگاه داده احراز هویت"
+
+"Optional database to use when authenticating"
+"پایگاه داده اختیاری برای استفاده هنگام تأیید اعتبار"
+
+"Additional Mongo connection string options"
+"گزینه های رشته اتصال اضافی Mongo"
+
+"Oracle system ID (SID)"
+"شناسه سیستم اوراکل (SID)"
+
+"Usually something like ORCL or XE."
+"معمولا چیزی شبیه ORCL یا XE است."
+
+"Optional if using service name"
+"در صورتی که از نام سرور استفاده می‌کنید، اختیاری است."
+
+"Oracle service name"
+"نام سرویس اوراکل"
+
+"Optional TNS alias"
+"نام مستعار TNS اختیاری"
+
+"hive"
+"کندو"
+
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+"my-cluster-name.abcd1234.us-east-1.redshift.amazonaws.com"
+
+"toucan_sightings"
+"toucan_sightings"
+
+"default"
+"پیش‌فرض"
+
+"Filename"
+"اسم فایل"
+
+"/home/camsaul/toucan_sightings.sqlite 😋"
+"/home/camsaul/toucan_sightings.sqlite"
+
+"BirdsOfTheWorld"
+"پرندگان جهان"
+
+"Database instance name"
+"نام نمونه پایگاه داده"
+
+"N/A"
+"ناموجود"
+
+"Windows domain"
+"دامین ویندوز"
+
+"Unable to release the Liquibase lock after a migration failure"
+"پس از انتقال ناموفق، امکان آزادسازی قفل Liquibase وجود ندارد"
+
+"Use JVM Time Zone"
+"استفاده از منطقه زمانی JVM"
+
+"Not a valid integer: ''{0}''"
+"یک عدد صحیح معتبر نیست: '' {0} ''"
+
+"Embedding is not enabled for this object."
+"جاسازی برای این شی فعال نیست."
+
+"Problem connecting to LDAP server, will fallback to local authentication: {0}"
+"اتصال به سرور LDAP به تأیید اعتبار محلی بازگردد: {0}"
+
+"When including an offset, a limit must also be included."
+"هنگام اضافه کردن یک افست ، محدودیتی نیز باید درج شود."
+
+"When including a limit, an offset must also be included."
+"هنگام اضافه کردن محدودیت ، یک جبران خسارت نیز باید درج شود."
+
+"Applying heuristic {0} to {1}."
+"درخواست اکتشافی {0} تا {1}."
+
+"Dimensions bindings:n{0}"
+"اتصالات ابعاد: {n {0"
+
+"Using definitions:nMetrics:n{0}nFilters:n{1}"
+"با استفاده از تعاریف: n اندازه گیری: n {0} n فیلترها: {n {1"
+
+"minute"
+"دقیقه"
+
+"hour"
+"ساعت"
+
+"day of week"
+"روز هفته"
+
+"day of month"
+"روز ماه"
+
+"day of year"
+"روز سال"
+
+"week"
+"هفته"
+
+"month"
+"ماه"
+
+"quarter"
+"ربع"
+
+"Adding {0} cards to dashboard {1}:n{2}"
+"افزودن کارت {0} به داشبورد {1}: {n {2"
+
+"Error parsing {0}:n{1}"
+"خطا در تجزیه {0}: {n {1"
+
+"WARNING: Filtering only works on dimensions! ''{0}'' is a metric. Ignoring filter."
+"هشدار: فیلتر کردن فقط در ابعاد کار می کند! '' {0} '\"یک متریک است. نادیده گرفتن فیلتر."
+
+"WARNING: A date can't belong to multiple discrete intervals, so ANDing them together doesn't make sense."
+"اخطار: تاریخ نمی تواند به چندین فواصل گسسته تعلق داشته باشد ، بنابراین کنار آمدن با یکدیگر معنی ندارد."
+
+"Ignoring these intervals: {0}"
+"نادیده گرفتن این فواصل: {0}"
+
+"WARNING: Don't know how to negate: {0}"
+"اخطار: نمی دانید چگونه نفی کنید: {0}"
+
+"WARNING: Druid doenst allow limitSpec in timeseries queries. Ignoring the LIMIT clause."
+"اخطار: Druid در نمایش داده های سری زمانی limitSpec را مجاز نمی کند. نادیده گرفتن بند LIMIT."
+
+"HoneySQL Form:"
+"فرم HoneySQL:"
+
+"Unable to parse date ''{0}''"
+"تجزیه تاریخ '' {0} '' امکان پذیر نیست"
+
+"Client closed connection, cancelling query"
+"اتصال بسته مشتری ، جستجوی لغو"
+
+"Setting timezone with statement: {0}"
+"تنظیم منطقه زمانی با بیانیه: {0}"
+
+"MONGO AGGREGATION PIPELINE:"
+"خط لوله تجمع مونگو:"
+
+"Error: mismatched columns in results! Expected: {0} Got: {1}"
+"خطا: ستون ها در نتایج ناسازگار است! پیش بینی شده: {0} رسید: {1}"
+
+"Unable to create temp file in `{0}` for email attachments "
+"امکان ایجاد پرونده موقت در {0} برای پیوست های ایمیل وجود ندارد"
+
+"Error preprocessing query:"
+"خطا در پردازش خطا:"
+
+"Illegal filter clause: {0}"
+"بند فیلتر غیرقانونی: {0}"
+
+"Invalid clause:"
+"بند نامعتبر:"
+
+"Error: query's source query has not been resolved. You probably need to `preprocess` the query first."
+"خطا: پرس و جو منبع پرس و جو برطرف نشده است. احتمالاً ابتدا باید query را پردازش کنید."
+
+"No expression named ''{0}''"
+"هیچ عبارتی به نام '' {0} ''"
+
+"No aggregation at index: {0}"
+"هیچ شاخصی در شاخص: {0}"
+
+"Field values total length is {0} (max {1})."
+"طول کل مقادیر میدان {0} است (حداکثر{1})."
+
+"FieldValues are allowed for this Field."
+"FieldValues برای این قسمت مجاز است."
+
+"FieldValues are NOT allowed for this Field."
+"FieldValues برای این قسمت مجاز نیست."
+
+"Field {0} ''{1}'' should have FieldValues and belongs to a Database with On-Demand FieldValues updating."
+"قسمت {0} '' {1} '' باید دارای FieldValues باشد و به یک بانک اطلاعاتی با به روزرسانی FieldValues On-Demand تعلق دارد."
+
+"You cannot create or revoke permissions for the ''Admin'' group."
+"شما نمی توانید مجوزها را برای گروه \"مدیر\" ایجاد یا لغو کنید."
+
+"You cannot add or remove users to/from the ''All Users'' group."
+"شما نمی توانید کاربران را به گروه \"همه کاربران\" اضافه یا حذف کنید."
+
+"You cannot remove the last member of the ''Admin'' group!"
+"شما نمی توانید آخرین عضو گروه \"مدیر\" را حذف کنید!"
+
+"Error inserting a new Setting: {0}"
+"خطا در وارد کردن یک تنظیم جدید: {0}"
+
+"defsetting descriptions strings must be `:internal?` or internationalized, found: `{0}`"
+"رشته های توصیف ناپیوسته باید \"داخلی\" یا بین المللی یافت شده ، یافت شوند: \"{0}\""
+
+"Loading plugin {0}... {1}"
+"بارگیری افزونه {0} ... {1}"
+
+"Object keyed by type, containing formatting settings"
+"کلید بسته شده بر اساس نوع ، حاوی تنظیمات قالب بندی"
+
+"Allow users to explore data using X-rays"
+"به کاربران اجازه دهید داده ها را با استفاده از اشعه X اکتشاف کنند"
+
+"Unable to validate token: 404 not found."
+"تأیید اعتبار نمیتواند: 404 یافت نشد."
+
+"There was an error checking whether this token was valid:"
+"هنگام بررسی صحت این نشان خطایی رخ داد:"
+
+"Token for premium features. Go to the MetaStore to get yours!"
+"بیان ویژگی های حق بیمه برو به MetaStore برای گرفتن مال شما!"
+
+"Token format is invalid. Token should be 64 hexadecimal characters."
+"قالب گفتاری نامعتبر است. توکن باید 64 کاراکتر شش ضلعی باشد."
+
+"Error setting premium features token"
+"خطا در تنظیم توکن های حق بیمه"
+
+"Error validating token:"
+"خطا در تأیید اعتبار:"
+
+"Error preprocessing query"
+"خطا در پردازش پرس و جو خطا"
+
+"No native form returned."
+"هیچ شکل بومی برگشت نداد."
+
+"Invalid response from database driver. No :status provided."
+"پاسخ نامعتبر از درایور پایگاه داده. خیر: وضعیت ارائه شده"
+
+"General error"
+"خطای عمومی"
+
+"Missing query hash!"
+"هش پرس و جو وجود ندارد!"
+
+"Table ''{0}'' has no Fields associated with it."
+"در جدول \"\" {0} \"هیچ فیلد مرتبط با آن وجود ندارد."
+
+"Max concurrent query limit reached"
+"حداکثر حد سؤال همزمان رسیده است"
+
+"Don't know how to get information about Field:"
+"نمی دانید چگونه می توانید اطلاعات مربوط به زمینه را بدست آورید:"
+
+"metabase.query-processor.interface/*driver* is unbound."
+"درایور metabase.query-processor.interface / * محدود نیست."
+
+"Query processor error: mismatched number of columns in query and results."
+"خطای پردازنده پرس و جو: تعداد ستونها در پرس و جو و نتایج ناسازگار است."
+
+"Expected {0} fields, got {1}"
+"توقع {0} فیلد , بدست امدن {1}"
+
+"Expected: {0}"
+"توقع :  {0}"
+
+"Actual: {0}"
+"واقعی: {0}"
+
+"Unable to bin Field without a min/max value"
+"bin Field بدون ارزش حداقل / حداکثر امکان پذیر نیست"
+
+"{0} is not supported by this driver."
+"{0} توسط این درایور پشتیبانی نمی شود."
+
+"Segment {0} does not exist, or is invalid."
+"قطعه {0} وجود ندارد ، یا نامعتبر است."
+
+"Metric {0} does not exist, or is invalid."
+"متریک {0} وجود ندارد ، یا نامعتبر است."
+
+"Missing source query in Card {0}"
+"جستجوی منبع موجود در کارت {0}"
+
+"Fetched source query from Card {0}:"
+"جستجوی منبع دریافت شده از کارت {0}:"
+
+"Error transforming MBQL query to native:"
+"خطا در تبدیل درخواست MBQL به بومی:"
+
+"Cannot run query: could not find source table {0}."
+"جستجوی جستجو امکان پذیر نیست: جدول منبع یافت نشد {0}."
+
+"Error recording results metadata for query:"
+"خطا در ثبت فوق داده های نتایج برای پرس و جو:"
+
+"Error: Query Processor store is not initialized."
+"خطا: فروشگاه Query پردازنده آغازین نشده است."
+
+"Error: Table {0} is not present in the Query Processor Store."
+"خطا: جدول {0} فروشگاه Query پردازنده موجود نیست."
+
+"Error: Field {0} is not present in the Query Processor Store."
+"خطا: قسمت {0} در فروشگاه Query پردازنده موجود نیست."
+
+"Task history cleanup successful, rows were {0}deleted"
+"پاک سازی سابقه کار با موفقیت انجام شد ، ردیف ها {0} حذف شدند"
+
+"not"
+"نه"
+
+"For more information, see"
+"برای اطلاعات بیش‌تر مشاهده کنید :"
+
+"Integer greater than or equal to zero"
+"عدد صحیح بیشتر از یا برابر صفر است"
+
+"value must be an integer greater than or equal to zero."
+"مقدار باید عدد صحیحی بزرگتر یا مساوی صفر باشد."
+
+"value must be an integer zero or greater."
+"مقدار باید صفر یا بیشتر از عدد صحیح باشد."
+
+"value must be a valid integer greater than or equal to zero."
+"مقدار باید یک عدد صحیح معتبر بزرگتر از یا برابر با صفر باشد."
+
+"Unable to parse resource `{0}` as JSON"
+"تجزیه منابع \"0` \"به عنوان JSON امکان پذیر نیست"
+
+"Unable to find JSON via relative path `{0}`"
+"JSON از طریق مسیر نسبی امکان پذیر نیست. {0}"
+
+"Connection to host timed out for URL `{0}`"
+"اتصال به میزبان برای URL به پایان رسیده است `{0}`"
+
+"Unable to connect to unknown host at URL `{0}`"
+"اتصال به هاست ناشناس در URL `{0}` امکان پذیر نیست"
+
+"Unable to connect to host at URL `{0}`"
+"اتصال به میزبان در URL `{0}` امکان پذیر نیست"
+
+"Connection refused by host at for URL `{0}`"
+"اتصال توسط میزبان برای URL `{0}` رد شد"
+
+"Unable to retrieve resource at URL `{0}`"
+"بازیابی منابع در URL امکان پذیر نیست. {0}"
+
+"Unable to parse resource at URL `{0}` as JSON"
+"تجزیه منابع در URL `{0}` به عنوان JSON امکان پذیر نیست"
+
+"Problem connecting to LDAP server, will fall back to local authentication: {0}"
+"اتصال به سرور LDAP به تأیید اعتبار محلی برمی گردد: {0}"
+
+"BigQuery statements can''t be parameterized!"
+"گفته های BigQuery را نمی توان پارامتر کرد!"
+
+"We’d love your feedback."
+"ما نظرات شما را دوست داریم."
+
+"It looks like Metabase wasn’t quite a match for you."
+"به نظر می رسد که Metabase کاملاً مناسب شما نبود."
+
+"Would you mind taking a fast 5 question survey to help the Metabase team understand why and make things better in the future?"
+"آیا می خواهید یک بررسی سریع 5 سؤالی داشته باشید تا به تیم Metabase کمک کنید درک کند که چرا و در آینده شرایط را بهتر می کند؟"
+
+"We hope you''ve been enjoying Metabase."
+"امیدواریم که از Metabase لذت برده باشید."
+
+"Would you mind taking a fast 6 question survey to tell us how it’s going?"
+"آیا فکر می کنید یک نظرسنجی سریع با 6 سوال انجام دهید تا به ما بگویید که چگونه این کار را انجام می دهد؟"
+
+"{0} created a Metabase account"
+"{0} یک حساب Metabase ایجاد کرد"
+
+"{0} accepted their Metabase invite"
+"{0} دعوتنامه Metabase خود را پذیرفتند"
+
+"[Metabase] Password Reset Request"
+"[Metabase] درخواست بازنشانی گذرواژه"
+
+"[Metabase] Notification"
+"[Metabase] اعلان"
+
+"[Metabase] Help make Metabase better."
+"[Metabase] به بهتر شدن Metabase کمک کنید."
+
+"[Metabase] Tell us how things are going."
+"[Metabase] به ما بگویید که اوضاع چگونه پیش می رود."
+
+"Error: query''s source query has not been resolved. You probably need to `preprocess` the query first."
+"خطا: پرس و جو منبع پرس و جو حل نشده است. احتمالاً ابتدا باید query را پردازش کنید."
+
+"Don't know what to do with:"
+"نمی دانم با چه کارهایی باید کرد:"
+
+"Don't know how to wrap:"
+"نمی دانم چگونه بسته بندی کنید:"
+
+"Failed setting `query-caching-max-kb` to {0}."
+"تنظیم \"query-caching-max-kb\" تا {0} انجام نشد."
+
+"Values greater than {1} are not allowed."
+"مقادیر بیشتر از {1}مجاز نیست."
+
+"Database {0} does not exist."
+"بانک اطلاعاتی {0} وجود ندارد."
+
+"Error: Database is not present in the Query Processor Store."
+"خطا: بانک اطلاعات در فروشگاه Query پردازنده موجود نیست."
+
+"Invalid embedding-secret-key! Secret key must be a hexadecimal-encoded 256-bit key (i.e., a 64-character string)."
+"تعبیه نامعتبر-کلید مخفی! کلید مخفی باید یک کلید 256 بیتی رمزگذاری شده hexadecimal باشد (یعنی یک رشته 64 کاراکتر)."
+
+"JWT is missing `alg`."
+"JWT گم شده است 'alg'."
+
+"JWT `alg` cannot be `none`."
+"JWT \"alg\" نمی تواند \"هیچ\" باشد."
+
+"The embedding secret key has not been set."
+"کلید مخفی تعبیه نشده است."
+
+"Token is missing value for keypath"
+"توکن ارزش برای صفحه کلید نیست"
+
+"Previous {0}"
+"قبلی {0}"
+
+"value must be a valid database engine."
+"مقدار باید یک موتور پایگاه داده معتبر باشد."
+
+"Connection refused by host for URL `{0}`"
+"اتصال توسط میزبان برای URL `{0}` رد شد"
+
+"WARNING: Using Metabase with an H2 application database is not recomended for production deployments."
+"اخطار: استفاده از Metabase با بانک اطلاعاتی برنامه H2 برای استقرار تولید توصیه نمی شود."
+
+"See https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres for more information."
+"برای اطلاعات بیشتر به https://metabase.com/docs/latest/operations-guide/start.html#migrating-from-using-the-h2-database-to-mysql-or-postgres مراجعه کنید."
+
+"Unable to connect to Metabase {0} DB."
+"اتصال به دیتابیس {0} Metabase امکان پذیر نیست"
+
+"Failed to notify {0} Database {1} updated"
+"به روزرسانی {0} پایگاه داده {1} انجام نشد"
+
+"Loading driver {0} {1}"
+"بارگیری درایور {0} {1}"
+
+"Load driver {0}"
+"راننده بار {0}"
+
+"Driver not registered after loading: {0}"
+"راننده بعد از بارگیری ثبت نشده است: {0}"
+
+"Error: attempting to change {0} property `:abstract?` from {1} to {2}."
+"خطا: تلاش برای تغییر {0} ویژگی `: انتزاعی؟` از {1} به {2}"
+
+"Registered abstract driver {0}"
+"راننده انتزاعی ثبت شده {0}"
+
+"Registered driver {0}"
+"راننده ثبت شده {0}"
+
+"(parents: {0})"
+"(والدین: {0})"
+
+"Initializing driver {0}..."
+"درایور اولیه {0} ..."
+
+"Reason:"
+"دلیل:"
+
+"Invalid driver feature: {0}"
+"ویژگی نامعتبر راننده: {0}"
+
+"Invalid HoneySQL form:"
+"فرم HoneySQL نامعتبر:"
+
+"Closing connection pool for database {0} ..."
+"بستن استخر اتصال برای دیتابیس{0} ..."
+
+"Error loading namespace"
+"خطا در بارگیری فضای نام"
+
+"Starting events listener:"
+"شروع شنونده رویدادها:"
+
+"Unexpected error listening on events"
+"خطای غیرمنتظره هنگام گوش دادن به رویدادها"
+
+"Error syncing Database {0}"
+"خطا در همگام سازی بانک اطلاعاتی {0}"
+
+"Failed to process sync-database event."
+"پردازش رویداد همگام سازی با پایگاه داده انجام نشد."
+
+"Bad nested-query-level: query does not have a source query"
+"Bad-Nest-query-level: query منبع پرس و جو ندارد"
+
+"FieldValues for Field {0} remain unchanged. Skipping..."
+"FieldValues برای {0} بدون تغییر باقی می ماند. پرش ..."
+
+"Unable to normalize:"
+"امکان عادی سازی وجود ندارد:"
+
+"Could not find matching Field ID for target:"
+"یافتن شناسه فیلد منطبق برای هدف یافت نشد:"
+
+"Metabase does not have permissions to write to plugins directory {0}"
+"Metabase مجوز نوشتن در فهرست افزونه ها {0} را ندارد"
+
+"Metabase cannot use the plugins directory {0}"
+"بانک اطلاعاتی نمی توانند از فهرست پلاگین ها استفاده کنند{0}"
+
+"Please make sure the directory exists and that Metabase has permission to write to it."
+"لطفاً اطمینان حاصل کنید که فهرست موجود است و Metabase اجازه نوشتن آن را دارد."
+
+"You can change the directory Metabase uses for modules by setting the environment variable MB_PLUGINS_DIR."
+"با تنظیم متغیر محیط MB_PLUGINS_DIR می توانید دایرکتوری مورد استفاده Metabase برای ماژول ها را تغییر دهید."
+
+"Falling back to a temporary directory for now."
+"در حال حاضر به یک فهرست راهنما موقت تبدیل می شوید."
+
+"Metabase cannot write to temporary directory. Please set MB_PLUGINS_DIR to a writable directory and restart Metabase."
+"بانک اطلاعاتی نمی توانند در دایرکتوری موقت بنویسند. لطفاً MB_PLUGINS_DIR را در یک فهرست قابل ویرایش قرار دهید و Metabase را مجدداً راه اندازی کنید."
+
+"spark-deps.jar is no longer needed by Metabase 1.0+. You can delete it from the plugins directory."
+"spark-deps.jar دیگر توسط Metabase 1.0+ مورد نیاز نیست. می توانید آن را از فهرست افزونه ها حذف کنید."
+
+"Failied to initialize plugin {0}"
+"تنظیم اولیه افزونه {0} انجام نشد"
+
+"Loading plugins in {0}..."
+"بارگیری افزونه ها در {0} ..."
+
+"Using Clojure base loader as shared context classloader: {0}"
+"استفاده از لودر پایه Clojure به عنوان یک کلاس زمینه ساز مشترک: {0}"
+
+"Setting current thread context classloader to shared classloader {0}..."
+"تنظیم کلاس بارگذاری متن متن اصلی بر روی کلاس لودر مشترک {0} ..."
+
+"Setting current thread context classloader to NEWLY CREATED classloader {0}..."
+"تنظیم کلاس بارگذاری متن متن فعلی بر روی بارگذاری کلاس کلاس جدید ساخته شده {0} ..."
+
+"Added URL {0} to classpath"
+"URL به {0} به کلاس اضافه شد"
+
+"Plugin {0} declares a dependency that Metabase does not understand: {1}"
+"افزونه {0} وابستگی را اعلام می کند که Metabase آن را نمی فهمد: {1}"
+
+"Refer to the plugin manifest reference for a complete list of valid plugin dependencies:"
+"برای لیست کاملی از وابستگیهای معتبری به افزونه ، به مرجع آشکار پلاگین مراجعه کنید:"
+
+"Metabase cannot initialize plugin {0} due to required dependencies."
+"به دلیل وابستگی های مورد نیاز ، پایگاه داده نمی تواند پلاگین {0} را آغاز کند."
+
+"Class not found: {0}"
+"کلاس یافت نشد: {0}"
+
+"Plugin ''{0}'' depends on plugin ''{1}''"
+"افزونه '' {0} '' بستگی به افزونه '' {1} ''"
+
+"{0} dependency {1} satisfied? {2}"
+"{0} وابستگی {1} راضی هستید؟ {2}"
+
+"Plugins with unsatisfied deps: {0}"
+"افزونه های دارای بخش ناراضی: {0}"
+
+"Extract file {0} -> {1}"
+"استخراج پرونده {0} -> {1}"
+
+"Resource does not exist."
+"منبع وجود ندارد."
+
+"Loading plugin namespace {0}..."
+"در حال بارگیری فضای نام پلاگین {0} ..."
+
+"Dependencies satisfied; these plugins will now be loaded: {0}"
+"وابستگی ها راضی است؛ این افزونه ها اکنون بارگیری می شوند: {0}"
+
+"Registering JDBC proxy driver for {0}..."
+"ثبت درایور پروکسی JDBC با {0}..."
+
+"Deregistering original JDBC driver {0}..."
+"ثبت درایور پروکسی JDBC با {0}..."
+
+"Default connection property {0} does not exist."
+"ویژگی اتصال پیش فرض {0} وجود ندارد."
+
+"Invalid connection property {0}: not a string or map."
+"ویژگی اتصال نامعتبر {0}: رشته یا نقشه نیست."
+
+"Load lazy loading driver {0}"
+"درایور بارگیری تنبل {0}"
+
+"Cannot initialize plugin: missing required property `driver-name`"
+"نمی توان ابتدا افزونه را تنظیم کرد: ویژگی مورد نیاز \"driver-name\" وجود ندارد"
+
+"Warning: plugin manifest for {0} does not include connection properties"
+"هشدار: پلاگین مانیفست برای {0} شامل ویژگی های اتصال نیست"
+
+"Registering lazy loading driver {0}..."
+"ثبت نام درایور بارگیری تنبل {0} ..."
+
+"Error running query for Card {0}"
+"خطایی در اجرای پرس و جو برای کارت {0}"
+
+"Last week"
+"هفته گذشته"
+
+"This week"
+"این هفته"
+
+"Last month"
+"ماه گذشته"
+
+"This month"
+"این ماه"
+
+"Last quarter"
+"سه ماهه گذشته"
+
+"This quarter"
+"این ربع"
+
+"Last year"
+"سال گذشته"
+
+"This year"
+"امسال"
+
+"*driver* is unbound."
+"* driver * محدود نیست."
+
+"Error syncing Fields for Table ''{0}''"
+"خطا در همگام سازی زمینه های جدول '' {0} ''"
+
+"Hash of {0} matches stored hash, skipping Fields sync"
+"هش از {0} مطابقت دارد"
+
+"Field"
+"فیلد"
+
+"Error checking if Fields {0} need to be created or reactivated"
+"خطا در بررسی اینکه آیا زمینه های {0} نیاز به ایجاد یا فعال سازی مجدد دارند"
+
+"Marking Field ''{0}'' as inactive."
+"علامت گذاری به عنوان \"\" {0} \"غیرفعال است."
+
+"Error retiring {0}"
+"خطا در بازنشستگی {0}"
+
+"Database type of {0} has changed from ''{1}'' to ''{2}''."
+"نوع بانک اطلاعاتی  {0} از '' {1} '' به '' {2} '' تغییر یافته است."
+
+"Base type of {0} has changed from ''{1}'' to ''{2}''."
+"نوع پایه {0} از '' {1} '' به '' {2} '' تغییر کرده است."
+
+"Special type of {0} has changed from ''{1}'' to ''{2}''."
+"نوع ویژه {0} از '' {1} '' به '' {2} '' تغییر کرده است."
+
+"Comment has been added for {0}."
+"نظر برای {0} اضافه شده است."
+
+"Stopping Quartz Scheduler {0}"
+"توقف زمانبند کوارتز {0}"
+
+"Starting Quartz Scheduler {0}"
+"شروع برنامه ریزی کوارتز {0}"
+
+"Error loading tasks namespace {0}"
+"خطا در بارگیری فضای نام کارها {0}"
+
+"Initializing task {0}"
+"شروع کار {0}"
+
+"Error initializing task {0}"
+"خطا در شروع کار {0}"
+
+"Problem sending abandonment email"
+"ارسال ایمیل رها"
+
+"Sending anonymous usage stats."
+"ارسال آمار استفاده ناشناس."
+
+"Error sending anonymous usage stats"
+"خطا در ارسال آمار استفاده ناشناس"
+
+"Error sending Pulse {0}"
+"خطا در ارسال پالس {0}"
+
+"Sending scheduled pulses..."
+"در حال ارسال پالس های برنامه ریزی شده ..."
+
+"SendPulses task failed"
+"کار SendPulses انجام نشد"
+
+"Failed to scheduler tasks for Database {0}"
+"انجام وظایف برنامه ریزی برای بانک اطلاعات {0} انجام نشد"
+
+"Cleaning up task history"
+"تمیز کردن تاریخچه کار"
+
+"Task history cleanup successful, rows were deleted"
+"پاک کردن سابقه کار با موفقیت انجام شد ، سطرها حذف شدند"
+
+"Task history cleanup successful, no rows were deleted"
+"پاک سازی سابقه کار با موفقیت انجام شد ، هیچ سطر حذف نشد"
+
+"Checking for new Metabase version info."
+"در حال بررسی اطلاعات نسخه جدید Metabase."
+
+"Error fetching version info"
+"خطا در واکشی اطلاعات نسخه"
+
+"Maximum memory available to JVM: {0}"
+"حداکثر حافظه در دسترس برای {JVM: {0"
+
+"Not something with an ID: {0}"
+"اطلاعاتی با این ID: {0}  وجود ندارد "
+
+"Card results metadata passed in to API is  ISSING. Running query to fetch correct metadata."
+"داده های داده کارت که به API منتقل شده است MISSING است. در حال انجام درخواست برای واگذاری صحیح ابرداده."
+
+"{0} was autocorrected to {1}"
+"{0} به اتمام رسید به {1}"
+
+"DELETE /api/metric/:id is deprecated. Instead, change its `archived` value via PUT /api/metric/:id."
+"DELETE / api / metric /: شناسه منسوخ شده است. درعوض ، مقدار «بایگانی شده» آن را از طریق PUT / api / metric /: id تغییر دهید."
+
+"DELETE /api/segment/:id is deprecated. Instead, change its `archived` value via PUT /api/segment/:id."
+"DELETE / api / segment /: شناسه منسوخ شده است. درعوض ، مقدار «بایگانی شده» آن را از طریق PUT / api / segment /: id تغییر دهید."
+
+"Value of is_superuser must correspond to presence of Admin group ID in group_ids."
+"مقدار is_superuser باید مطابق با حضور شناسه Admin Group در group_ids باشد."
+
+"Unexpected error writing keepalive characters"
+"خطای غیرمنتظره در نوشتن شخصیت های نگهدارنده"
+
+"Unexpected output in async API response"
+"خروجی غیر منتظره در پاسخ API async"
+
+"starting streaming response"
+"پاسخ جریان را شروع کنید"
+
+"Output chan closed, canceling keepalive request."
+"زمان خروجی بسته است و درخواست نگهدارنده را لغو می کند."
+
+"Async response finished, closing channels."
+"پاسخ Async به پایان رسید ، کانال ها را بستند."
+
+"No response after waiting {0}. Canceling request."
+"هیچ پاسخی بعد از انتظار {0} نیست درخواست را لغو کنید."
+
+"Input channel unexpectedly closed."
+"کانال ورودی به طور غیر منتظره بسته شد."
+
+"f finished, permit will be returned"
+"f به پایان رسید ، مجوز بازگردانده می شود"
+
+"request canceled, permit will be returned"
+"درخواست لغو شد ، مجوز بازگردانده می شود"
+
+"Unexpected error attempting to run function after obtaining permit"
+"خطای غیرمنتظره در تلاش برای اجرای عملکرد پس از اخذ مجوز"
+
+"Not running pending function call: output channel already closed."
+"در حال انجام فراخوانی عملکرد معلق نیست: کانال خروجی بسته شده است."
+
+"Current thread already has a permit for {0}, will not wait to acquire another"
+"موضوع کنونی دارای مجوز برای {0} است ، منتظر نمی مانید تا مورد دیگری را بدست آورید"
+
+"Output channel closed, will skip running {0}."
+"کانال خروجی بسته است ، در حال اجرا {0} خواهد شد."
+
+"Running {0} on separate thread..."
+"در حال اجرا {0} در موضوع جداگانه ..."
+
+"Caught error running {0}"
+"خطای مقصر در حال اجرا {0}"
+
+"Request canceled, canceling future"
+"درخواست لغو شد ، آینده را لغو می کند"
+
+"Closing old connection pool for database {0} ..."
+"بستن استخر اتصال قدیمی برای پایگاه داده {0} ..."
+
+"Here''s your {0} most recent cards:"
+"جدیدترین کارتهای {0} شما در اینجا آمده است:"
+
+"Card {0} not found."
+"کارت {0} یافت نشد."
+
+"Exception in API call"
+"استثناء در تماس API"
+
+"Request canceled before finishing."
+"درخواست قبل از اتمام لغو شد."
+
+"Metabase only supports JSON requests."
+"Metabase فقط از درخواستهای JSON پشتیبانی می کند."
+
+"Make sure you set a 'Content-Type: application/json' header."
+"اطمینان حاصل کنید که یک عنوان \"Content-Type: Application / json\" تنظیم کرده اید."
+
+"Setting Metabase site URL to {0}"
+"تنظیم URL سایت پایگاه داده در {0}"
+
+"Error scheduling tasks for DB"
+"خطا در برنامه ریزی وظایف برای DB"
+
+"Error unscheduling tasks for DB."
+"خطا در کارهای غیرقابل تنظیم برای DB."
+
+"{0} Database ''{1}'' sync/analyze schedules have changed!"
+"{0} برنامه همگام سازی / تجزیه و تحلیل پایگاه داده '' {1} '' تغییر کرده است!"
+
+"Sync metadata was: ''{0}'' is now: ''{1}''"
+"داده های همگام سازی همگام سازی شده بودند: '' {0} '' اکنون: '' {1} ''"
+
+"Cache FieldValues was: ''{0}'', is now: ''{1}''"
+"Cache FieldValues این بود: '' {0} '' ، اکنون: '' {1} ''"
+
+"You cannot update the creator_id of a Metric."
+"شما نمی توانید creator_id یک Metric را به روز کنید."
+
+"Failed to grant permissions"
+"اعطای مجوزها انجام نشد"
+
+"Changing permissions"
+"تغییر مجوزها"
+
+"FROM:"
+"از جانب:"
+
+"TO:"
+"به:"
+
+"You cannot update the creator_id of a Segment."
+"شما نمی توانید creator_id یک بخش را به روز کنید."
+
+"Attempted to set Setting {0} to obfuscated value. Ignoring change."
+"سعی در تنظیم مقدار {0} برای مقدار خراب شده است. نادیده گرفتن تغییر"
+
+"Using value of env var {0}"
+"استفاده از مقدار {env var {0"
+
+"Adding User {0} to All Users permissions group..."
+"افزودن کاربر {0} به گروه مجوزهای کاربران ..."
+
+"Adding User {0} to Admin permissions group..."
+"افزودن کاربر {0} به گروه مجوزهای مدیریت ..."
+
+"Query failure"
+"عدم موفقیت پرس و جو"
+
+"Maximum number of simultaneous queries to allow per connected Database."
+"حداکثر تعداد نمایش داده های همزمان به هر پایگاه داده متصل اجازه می دهد."
+
+"Timed out after {0} milliseconds."
+"به پایان رسید پس از {0} میلی ثانیه."
+
+"Problem connecting to LDAP server, will fall back to local authentication"
+"اتصال به سرور LDAP با تأیید اعتبار محلی برمی گردد"
+
+"Cannot create Database: cannot find driver {0}."
+"ایجاد پایگاه داده امکان پذیر نیست: درایور {0} یافت نشد."
+
+"Query failed"
+"پرس و جو انجام نشد"
+
+"Warning: {0} returned `nil`"
+"هشدار: {0} `nil` برگشت داده شده است"
+
+"Unexpected error writing result to output channel: already closed"
+"نتیجه نوشتن خطای غیر منتظره به کانال خروجی: در حال حاضر بسته است"
+
+"Unexpected error writing exception to output channel: already closed"
+"خطای غیر منتظره نوشتن استثناء کانال خروجی: در حال حاضر بسته است"
+
+"Request canceled, canceling future."
+"درخواست لغو شد ، آینده را لغو می کند."
+
+"Metabase can only transfer data from H2 to Postgres or MySQL/MariaDB."
+"Metabase فقط می تواند داده ها را از H2 به Postgres یا MySQL / MariaDB منتقل کند."
+
+"Application database setup"
+"راه اندازی پایگاه داده برنامه"
+
+"Could not find {0} driver."
+"درایور {0} یافت نشد."
+
+"Abstract drivers cannot derive from concrete parent drivers."
+"رانندگان چکیده نمی توانند از درایورهای والد والدین استخراج شوند."
+
+"You may need to add 'trustServerCertificate=true' to the additional connection options to connect with SSL."
+"برای اتصال به SSL ممکن است نیاز به افزودن \"trustServerCertificate = true\" به گزینه های اتصال اضافی داشته باشید."
+
+"Don't know how to alias {0}, expected an Identifer."
+"نمی دانید چگونه شناسه {0} ، انتظار می رود شناسه."
+
+"Client closed connection, canceling query"
+"اتصال بسته مشتری ، جستجوی لغو"
+
+"{0} is not a valid DN."
+"{0} یک DN معتبر نیست."
+
+"Error logging API request"
+"خطا هنگام ثبت درخواست API"
+
+"Failed to set site-url"
+"تنظیم آدرس سایت انجام نشد"
+
+"Error destroying thread pool for DB."
+"خطا در از بین بردن استخر موضوع برای DB."
+
+"Updating display name for {0} ''{1}'': ''{2}'' -> ''{3}''"
+"به روزرسانی نام نمایشگر برای {0} '' {1} '': '' {2} '' -> '' {3} ''"
+
+"Invalid humanization strategy ''{0}''. Valid strategies are: {1}"
+"استراتژی انسانی نامعتبر \"\" {0} \"\". راهبردهای معتبر عبارتند از: {1}"
+
+"Chaning Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"تغییر استراتژی انسان سازی جدول و زمینه از '' {0} '' 'به' '{1}' '"
+
+"Error saving task history"
+"خطا در ذخیره سابقه کار"
+
+"spark-deps.jar is no longer needed by Metabase 0.32.0+. You can delete it from the plugins directory."
+"جرقه-deps.jar دیگر مورد نیاز Metabase 0.32.0+ نیست. می توانید آن را از فهرست افزونه ها پاک کنید."
+
+"Using NEWLY CREATED classloader as shared context classloader: {0}"
+"با استفاده از لودر کلاس جديد ساخته شده به عنوان متن كلاس طبقه بندي مشترك: {0}"
+
+"Failed to copy file"
+"کپی کردن پرونده انجام نشد"
+
+"Invalid site URL: {0}"
+"URL سایت نامعتبر: {0}"
+
+"site-url is invalid; returning nil for now. Will be reset on next request."
+"آدرس اینترنتی نامعتبر است؛ فعلاً در صورت درخواست دوباره تنظیم مجدد خواهد شد."
+
+"More results have been included as a file attachment"
+"نتایج بیشتری به عنوان پیوست پرونده درج شده است"
+
+"This question has been included as a file attachment"
+"این سوال به عنوان پیوست پرونده درج شده است"
+
+"We were unable to display this Pulse."
+"ما قادر به نمایش این پالس نبودیم."
+
+"Please view this card in Metabase."
+"لطفاً این کارت را در Metabase مشاهده کنید."
+
+"An error occurred while displaying this card."
+"هنگام نمایش این کارت خطایی روی داد."
+
+"Can only determine expected columns for MBQL queries."
+"فقط می توانید ستون های مورد انتظار برای نمایش داده های MBQL را تعیین کنید."
+
+"No columns returned."
+"هیچ ستونی برنگشته است."
+
+"Warining: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"هشدار: نمی توانید زمینه هایی برای \"پرس و جو منبع\" صریح تعیین کنید ، مگر اینکه \"source-metadata\" نیز در آن قرار بگیرید."
+
+"Cannot resolve {0}: Field does not exist, or its Table belongs to a different Database."
+"نمی توان {0} را حل کرد: فیلد وجود ندارد ، یا جدول آن به یک پایگاه داده دیگر تعلق دارد."
+
+"Cannot resolve :field-literal inside :fk-> unless inside join with explicit :alias."
+"حل نشد: درست به معنای واقعی در داخل: fk-> مگر اینکه در داخل با صریح پیوست: نام مستعار."
+
+"Cannot find Table ID for {0}"
+"شناسه جدول برای {0} یافت نشد"
+
+"No matching info found."
+"هیچ اطلاعات تطبیقی یافت نشد."
+
+"Could not resolve {0}"
+"{0} حل نشد"
+
+"Invalid fk-> clause: nowhere to add corresponding join."
+"بند fk-> نامعتبر: جایی برای اضافه کردن پیوست مربوطه وجود ندارد."
+
+"{0} driver does not support foreign keys."
+"{0} درایور از کلیدهای خارجی پشتیبانی نمی کند."
+
+"Cannot infer `:source-metadata` for source query with native source query without source metadata."
+"نمی توان استنباط کرد: منبع-ابرداده برای جستجوی منبع با پرس و جو منبع بومی و بدون ابرداده منبع."
+
+"Query processor error: number of columns returned by driver does not match results."
+"خطای پردازنده پرس و جو: تعداد ستون هایی که توسط راننده برگشته است با نتایج مطابقت ندارد."
+
+"Expected {0} columns, but first row of resuls has {1} columns."
+"ستون {0} پیش بینی شده است ، اما ردیف اول از اعاده مجدد ستون های {1} دارد."
+
+"No expression named {0} found. Found: {1}"
+"هیچ عبارتی به نام {0} یافت نشد. یافت شده: {1}"
+
+"Distinct values of {0}"
+"مقادیر مشخص {0}"
+
+"Average of {0}"
+"میانگین {0}"
+
+"Sum of {0}"
+"جمع {0}"
+
+"SD of {0}"
+"انحراف معیار {0}"
+
+"Min of {0}"
+"حداقل {0}"
+
+"Max of {0}"
+"حداکثر {0}"
+
+"Sum of {0} matching condition"
+"مجموع شرط تطبیق {0}"
+
+"Share of rows matching condition"
+"سهم شرط مطابقت ردیف ها"
+
+"Count of rows matching condition"
+"تعداد ردیف شرایط مطابقت"
+
+"Request already canceled, will not run synchronous QP code."
+"درخواست قبلاً لغو شده ، کد QP همزمان را اجرا نمی کند."
+
+"Unexpectedly got `nil` Query Processor response."
+"به طور غیر منتظره پاسخ 'nil' پردازنده Query را دریافت کرد."
+
+"Got InterruptedException. Canceling query."
+"InterpreException در حال لغو پرس و جو"
+
+"Unhandled exception, exepected `catch-exceptions` middleware to handle it."
+"استثناء بدون کنترل ، واسطه میانجی \"گرفتن استثناء\" را برای رسیدگی به آن انجام داد."
+
+"Query timed out after %s"
+"زمان پرس و جو بعد از %s پایان یافت"
+
+"Creating new query thread pool for Database {0}"
+"ایجاد استخر جدید برای جستجوی موضوعات برای پایگاه داده {0}"
+
+"Destroying query thread pool for Database {0}"
+"از بین بردن استخر موضوع جستجو برای بانک اطلاعات {0}"
+
+"Request canceled, canceling pending query"
+"درخواست لغو شد ، جستجوی در حال انتظار لغو است"
+
+"Cannot update binned field: query is missing source-metadata"
+"می توانید زمینه binned را به روز نکنید: پرس و جو داده های منبع داده وجود ندارد"
+
+"Cannot update binned field: could not find matching source metadata for Field ''{0}''"
+"زمینه بنه به روزرسانی نمی شود: یافت نشد. منبع داده منطبق با فیلد '' {0}''"
+
+"Using query processor cache backend: {0}"
+"با استفاده از پس زمینه حافظه نهان پردازنده پرس و جو: {0}"
+
+"Invalid metric: {0} reason: {1}"
+"اندازه گیری نامعتبر: {0} دلیل: {1}"
+
+"Unknown error"
+"خطای ناشناخته"
+
+"Unexpected nil response from query processor."
+"پاسخ صفر غیر منتظره از پردازنده پرس و جو."
+
+"Query canceled"
+"پرس و جو لغو شد"
+
+"Unable to resolve driver for query: missing or invalid `:database` ID."
+"درایور برای پرس و جو امکان پذیر نیست: از بین رفته یا نامعتبر است: شناسه پایگاه داده."
+
+"Unable to resolve driver for query: Database {0} does not exist."
+"امکان حل کردن درایور برای پرس و جو وجود ندارد: بانک اطلاعات {0} وجود ندارد."
+
+"Cannot use :fields :all in join against source query unless it has :source-metadata."
+"استفاده از فیلدها امکان پذیر نیست: زمینه ها: همه در مقابل جستجوی منبع به هم پیوسته اند ، مگر اینکه دارای: منبع فرا داده باشد."
+
+"Bad :joined-field clause: join with alias ''{0}'' does not exist. Found: {1}"
+"بد: بند پیوستن به فیلد: پیوستن به نام مستعار '' {0} '' وجود ندارد. یافت شده: {1}"
+
+"Invalid :source-table ''{0}'': should be resolved to a Table ID by now."
+"نامعتبر: جدول مبدأ '' {0} '' ': اکنون باید به شناسه جدول حل شود."
+
+"Cannot store Tables or Fields before Database is stored."
+"جداول یا فیلدها را قبل از ذخیره سازی پایگاه داده ذخیره نکنید."
+
+"Attempting to fetch second Database. Queries can only reference one Database."
+"تلاش برای دستیابی به پایگاه داده دوم. نمایش داده شد فقط می تواند به یک بانک اطلاعاتی مراجعه کند."
+
+"Failed to fetch Table {0}: Table does not exist, or belongs to a different Database."
+"جدول {0} انجام نشد: جدول وجود ندارد ، یا به یک پایگاه داده دیگر تعلق دارد."
+
+"Failed to fetch Field {0}: Field does not exist, or belongs to a different Database."
+"واگذاری زمینه {0} انجام نشد: فیلد وجود ندارد ، یا به یک پایگاه داده دیگر تعلق دارد."
+
+"Failed to load template ''{0}''. Did you remember to build the Metabase frontend?"
+"الگوی '' {0} '' بارگیری نشد. یادتان هست که جبهه Metabase را بسازید؟"
+
+"Found new tables:"
+"جداول جدید یافت:"
+
+"Marking tables as inactive:"
+"علامت گذاری جداول به عنوان غیرفعال:"
+
+"Updating description for tables:"
+"به روزرسانی توضیحات برای جداول:"
+
+"Rescheduling job {0}"
+"تنظیم مجدد کار {0}"
+
+"Error rescheduling job"
+"خطا در تنظیم مجدد کار"
+
+"Starting Pulse Execution: {0}"
+"شروع اجرای پالس: {0}"
+
+"Finished Pulse Execution: {0}"
+"اجرای پالس به پایان رسید: {0}"
+
+"Failed to schedule tasks for Database {0}"
+"برنامه ریزی وظایف برای بانک اطلاعات {0} انجام نشد"
+
+"All elements must be distinct."
+"همه عناصر باید مشخص باشند."
+
+"Don't know how to alias {0}, expected an Identifier."
+"نمی دانید چگونه شناسه {0} ، انتظار می رود شناسه."
+
+"Error adding User {0} to Group {1}"
+"خطا در افزودن کاربر {0} به گروه {1}"
+
+"Changing Table & Field names humanization strategy from ''{0}'' to ''{1}''"
+"تغییر استراتژی انسان سازی جدول و زمینه از '' {0} ''به ''{1}''"
+
+"Infinite loop detected: recursively preprocessed query {0} times."
+"حلقه نامتناهی تشخیص داده شد: پرس و جو قبل از پردازش بازگشتی {0} بار."
+
+"Warning: cannot determine fields for an explicit `source-query` unless you also include `source-metadata`."
+"هشدار: نمی توانید زمینه هایی برای \"پرس و جو منبع\" صریح تعیین کنید ، مگر اینکه \"source-query\" نیز در آن قرار بگیرید."
+
+"Unhandled exception, expected `catch-exceptions` middleware to handle it."
+"استثناء نامحدود ، انتظار می رود واسطه میانجی \"گرفتن استثناء\" برای رسیدگی به آن."
+
+"All"
+"همه"
+
+"An error occurred while running the query."
+"هنگام اجرای پرس و جو خطایی روی داد."
+
+"Output H2 database already exists: %s, removing."
+"بانک اطلاعاتی خروجی H2 از قبل وجود دارد: %s ، در حال حذف."
+
+"Don't need to migrate, just use the existing H2 file"
+"نیازی به مهاجرت نیست ، فقط از پرونده H2 موجود استفاده کنید"
+
+"Target DB is already populated!"
+"Target DB از قبل جمعیت شده است!"
+
+"System info:n {0}"
+"اطلاعات سیستم: {0}"
+
+"Database setup"
+"راه اندازی پایگاه داده"
+
+"Invalid '{{...}}' clause: expected a param name"
+"بند \"{{...}}\" نامعتبر است: انتظار نام یک پارم"
+
+"'{{...}}' clauses cannot be empty."
+"بندهای \"{{...}}\" نمی توانند خالی باشند."
+
+"'[[...]]' clauses must contain at least one '{{...}}' clause."
+"بندهای '[[...]]' باید حداقل یک بند '{{...}}' داشته باشند."
+
+"Invalid query: found '[[' or '{{' with no matching ']]' or '}}'"
+"جستجوی نامعتبر: \"[[\" یا \"{{\" بدون تطبیق \"]]\" یا \"}}\" یافت شد"
+
+"You''ll need to pick a value for ''{0}'' before this query can run."
+"قبل از اجرای این درخواست باید مقداری برای  \"{0}\" انتخاب کنید."
+
+"Can''t find field with ID: {0}"
+"فیلد با شناسه {0} یافت نشد:"
+
+"Error loading driver namespace"
+"خطا در بارگیری فضای نام درایور"
+
+"Could not load {0} driver."
+"درایور {0} بارگیری نشد."
+
+"Don''t know how to parse {0} {1}"
+"نمی دانم چگونه به تجزیه {0} {1}"
+
+"Don''t know how to alias {0}, expected an Identifier."
+"نمی دانید چگونه شناسه {0} ، انتظار  شناسه می رود ."
+
+"Don''t know how to unprepare values of class {0}"
+"نمی دانید چگونه مقادیر کلاس را آماده کنید {0}"
+
+"Creating new connection pool for {0} database {1} ..."
+"ایجاد استخر اتصال جدید برای {0} بانک اطلاعاتی {1} ..."
+
+"Invalid timezone ''{0}''"
+"منطقه زمانی نامعتبر \" {0} \""
+
+"Cannot set timezone: invalid or missing SQL format string for driver {0}."
+"منطقه زمانی امکان پذیر نیست: رشته با فرمت SQL نامعتبر یا مفقود شده برای راننده {0}."
+
+"Did you implement set-timezone-sql?"
+"آیا مجموعه منطقه زمانی-sql را پیاده سازی کرده اید؟"
+
+"Failed to set timezone ''{0}''"
+"تنظیم منطقه زمانی \"\" {0} \"\" انجام نشد"
+
+"Error parsing JSON"
+"خطا در بازیابی JSON"
+
+"Whether or not to display data on the homepage. Admins might turn this off in order to direct users to better content than raw data"
+"نمایش داده نشدن اطلاعات در صفحه اصلی. ممکن است سرپرست ها این امر را خاموش کنند تا کاربران به محتوای بهتر از داده های خام هدایت کنند"
+
+"Whether or not to display x-ray suggestions on the homepage. They will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"نمایش یا نبودن پیشنهادات اشعه ایکس در صفحه اصلی. در صورت پین کردن هر داشبورد نیز مخفی خواهند شد. ممکن است مدیر سایت این امر را هدایت کند تا کاربران به محتوای بهتر از داده های خام هدایت کنند"
+
+"Identify the source of HTTP requests by this header's value, instead of its remote address."
+"به جای آدرس از راه دور ، منبع درخواست های HTTP را با مقدار این هدر مشخص کنید."
+
+"Could not resolve Setting {0}/{1}"
+"تنظیمات حل نشد {0}/{1}"
+
+"Invalid Setting: {0}/{1}"
+"تنظیم نامعتبر: {0} / {1"
+
+"reached its goal"
+"به هدف خود رسید"
+
+"gone below its goal"
+"زیر هدف خود رفته است"
+
+"Sending Pulse ({0}: {1}) via email"
+"ارسال پالس ({0}: {1}) از طریق ایمیل"
+
+"Pulse: {0}"
+"نبض: {0}"
+
+"Sending Pulse ({0}: {1}) via Slack"
+"ارسال پالس ({0}: {1}) از طریق Slack"
+
+"Sending Alert ({0}: {1}) via email"
+"ارسال هشدار ({0}: {1}) از طریق ایمیل"
+
+"Sending Alert ({0}: {1}) via Slack"
+"ارسال هشدار ({0}: {1}) از طریق Slack"
+
+"Alert: {0}"
+"توجه: {0}"
+
+"Can''t find JS color selector at ''{0}''"
+"انتخاب رنگ JS در '' '{0}' 'یافت نشد"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attemping to format them as such?"
+"FIXME: این ادبیات موقت معتبر نیستند: {0} {1}. چرا ما در تلاش هستیم تا آنها را به این صورت قالب بندی کنیم؟"
+
+"No matching info found for join against Table {0} ''{1}'' on Field {2} ''{3}'' via FK {4} ''{5}''"
+"هیچ اطلاعات مطابقی برای پیوستن به جدول {0} '' {1} '' در زمینه {2} '' {3} '' از طریق {5}{4} یافت نشد"
+
+"Don''t know how to get information about Field: {0}"
+"نمی دانید چگونه می توانید اطلاعات مربوط به زمینه را بدست آورید: {0}"
+
+"Query timed out after {0}"
+"زمان پرس و جو بعد از {0} به پایان رسید"
+
+"Formatting rows with results timezone ID {0}"
+"قالب بندی ردیف ها با ID منطقه زمانی نتایج {0}"
+
+"Invalid timezone ID ''{0}''"
+"شناسه منطقه زمانی نامعتبر \"\" {0} \"\""
+
+"Saving fingerprint for {0}"
+"صرفه جویی در اثر انگشت برای {0}"
+
+"Sending abandoment email!"
+"ارسال ایمیل رها!"
+
+"Resulting transforms do not conform to expectations.nExpected: {0}"
+"تبدیل نتیجه با انتظارات مطابقت ندارد. اکسپرس: {0}"
+
+"Timed out after {0}"
+"به پایان رسید پس از {0}"
+
+"No temporal adjuster named {0}"
+"هیچ تنظیم کننده موقت به نام {0}"
+
+"Invalid unit: {0}"
+"واحد نامعتبر: {0}"
+
+"Don''t know how to parse {0} using format {1}"
+"نمی دانید چگونه {0} را با استفاده از قالب {1} تجزیه کنید"
+
+"Token is missing value for keypath {0}"
+"نشانه ارزش برای صفحه کلید {0} گمشده است"
+
+"Sending usage stats FAILED"
+"ارسال آمار استفاده با خطا مواجه شد."
+
+"or"
+"یا"
+
+"Metabase can scan the values present in each field in this database to enable checkbox filters in dashboards and questions. This can be a somewhat resource-intensive process, particularly if you have a very large database."
+"Metabase می تواند مقادیر موجود در هر فیلد را در این پایگاه داده اسکن کند تا فیلترهای جعبه کادر در داشبورد و سؤالات را فعال کند. این می تواند یک فرآیند تا حدی پرانرژی باشد ، به خصوص اگر پایگاه داده ای بسیار بزرگ داشته باشید"
+
+"Connection to ''{0}:{1}'' successful, but could not connect to DB."
+"اتصال به '' {0}: {1} '' موفقیت آمیز است ، اما نتوانست به DB متصل شود."
+
+"Connection to host ''{0}'' successful, but port {1} is invalid."
+"اتصال به میزبان '' {0} '' موفقیت آمیز است ، اما پورت {1} نامعتبر است."
+
+"Host ''{0}'' is not reachable"
+"میزبان '' {0}'' قابل دسترسی نیست"
+
+"Unable to connect to database."
+"ناتوانی در اتصال به پایگاه داده ها."
+
+"Cannot connect to Database"
+"اتصال به پایگاه داده امکان پذیر نیست"
+
+"You''re not allowed to specify a value for {0}."
+"شما مجاز به تعیین مقداری برای {0} نیستید."
+
+"You can''t specify a value for {0} if it''s already set in the JWT."
+"اگر قبلاً در JWT تنظیم شده باشد ، نمی توانید مقدار {0} را تعیین کنید."
+
+"You must specify a value for {0} in the JWT."
+"شما باید یک مقدار برای {0} در JWT تعیین کنید."
+
+"You can only specify a value for {0} in the JWT."
+"فقط می توانید مقداری برای {0} در JWT تعیین کنید."
+
+"Error searching field values"
+"خطا در جستجوی مقادیر زمینه"
+
+"Error searching for remapping"
+"خطا در جستجوی مجدد"
+
+"Double check that it matches in Google and Metabase."
+"دوبار بررسی کنید که در Google و Metabase مطابقت دارد."
+
+"Everything else"
+"همه چیز دیگر"
+
+"WARNING: You have enabled namespace tracing, which could log sensitive information like db passwords."
+"اخطار: شما ردیابی فضای نام را فعال کرده اید ، که می تواند اطلاعات حساس مانند گذرواژه های db را وارد کنید."
+
+"Database Upgrade Required"
+"به روزرسانی پایگاه داده مورد نیاز است"
+
+"NOTICE: Your database requires updates to work with this version of Metabase."
+"توجه: بانک اطلاعاتی شما برای کار با این نسخه از Metabase به روز رسانی نیاز دارد."
+
+"Please execute the following sql commands on your database before proceeding."
+"لطفاً قبل از شروع دستورات sql زیر را در پایگاه داده خود اجرا کنید."
+
+"Once your database is updated try running the application again."
+"پس از به روزرسانی پایگاه داده خود ، دوباره برنامه را اجرا کنید."
+
+"Database requires manual upgrade."
+"بانک اطلاعاتی نیاز به به روزرسانی دستی دارد."
+
+"Successfully verified {0} {1} application database connection."
+"با موفقیت اتصال {0} {1} پایگاه داده برنامه تأیید شد."
+
+"Don''t know how to parse date param ''{0}'' — invalid format"
+"نمی دانید چگونه پارامترهای '' {0} '' را تجزیه کنید - قالب نامعتبر است"
+
+"The sub-query from referenced question #{0} failed with the following error: {1}"
+"جستجوی زیر از سوال ارجاع شده # {0 with با خطای زیر انجام نشد: {1"
+
+"WARNING: Metabase only officially supports MySQL {0}/MariaDB {1} and above."
+"اخطار: Metabase فقط بطور رسمی از MySQL {0 / MariaDB {1} و بالاتر پشتیبانی می کند."
+
+"All Metabase features may not work properly when using an unsupported version."
+"ممکن است تمام ویژگی های Metabase هنگام استفاده از نسخه پشتیبانی نشده به درستی کار نکند."
+
+"Cannot run the query: missing required parameters: {0}"
+"نمی توان پرس و جو را اجرا کرد: پارامترهای لازم وجود ندارد: {0}"
+
+"Don''t know how to parse {0} {1} as a temporal literal"
+"نمی دانید چگونه {0} {1} را به عنوان یک لفظ موقت تجزیه کنید"
+
+"Setting {0} database timezone with statement: {1}"
+"تنظیم منطقه زمانی پایگاه داده {0} با عبارت: {1}"
+
+"Error setting connection to readwrite"
+"خطا در تنظیم اتصال به readwrite"
+
+"Failed to set timezone ''{0}'' for {1} database"
+"تنظیم منطقه زمانی ''{0}'' برای پایگاه داده {1} انجام نشد"
+
+"Error setting transaction isolation level for {0} database to {1}"
+"خطا در تعیین سطح ایزوله تراکنش برای} 0} بانک اطلاعاتی به {1}"
+
+"Error setting connection to read-only"
+"خطا در تنظیم اتصال فقط برای خواندن"
+
+"Error setting default holdability for connection"
+"خطا در تنظیم قابلیت پیش فرض اتصال"
+
+"Query canceled, calling PreparedStatement.cancel()"
+"پرس و جو لغو شد و با ()PreparedStatement.cancel تماس گرفت"
+
+"Failed to connect to database"
+"اتصال به پایگاه داده انجام نشد"
+
+"Unable to determine connection properties for driver {0}"
+"تعیین خصوصیات اتصال برای درایور {0} امکان پذیر نیست"
+
+"Error fetching field values"
+"خطا در واگذاری مقادیر زمینه"
+
+"You cannot set {0}; it is a read-only setting."
+"شما نمی توانید {0} را تنظیم کنید. این یک تنظیم فقط خواندنی است."
+
+"defsetting descriptions strings must have `:visibilty` `:internal`, `:setter` `:none`, or internationalized, found: `{0}`"
+"رشته های توضیحات حذف شده باید دارای: `visibilty``: داخلی` ، `: setter``: none` ، یا بین المللی یافت شود: `{0}`"
+
+"Setting {0} is internal"
+"تنظیم {0} داخلی است"
+
+"Loading local plugin manifest at {0}"
+"بارگیری پلاگین محلی در {0}"
+
+"Google Analytics tracking code."
+"کد رهگیری Google Analytics."
+
+"Sending Pulse ({0}: {1}) with {2} Cards via email"
+"ارسال پالس ({0}: {1}) با کارت {2} از طریق ایمیل"
+
+"Sending Pulse ({0}: {1}) with {2} Cards via Slack"
+"ارسال پالس ({0}: {1}) با کارت 2 {از طریق Slack"
+
+"Rendering pulse card with chart-type {0} and render-type {1}"
+"ارائه کارت نبض با نمودار از نوع {0} و نوع رندر {1"
+
+"FIXME: These aren''t valid temporal literals: {0} {1}. Why are we attempting to format them as such?"
+"FIXME: این ادبیات موقت معتبر نیستند: {0} {1. چرا ما در تلاش هستیم تا آنها را به این صورت قالب بندی کنیم؟"
+
+"Error reducing result rows"
+"خطا در کاهش ردیف های نتیجه"
+
+"Unexpected nil result"
+"نتیجه غیر منتظره صفر"
+
+"Query timed out after {0} ms, raising timeout exception."
+"زمان پرس و جو بعد از {0} ms پایان یافت ، استثناء زمان پایان است."
+
+"Timed out after {0}."
+"به پایان رسید پس از {0."
+
+"Query canceled before finishing."
+"قبل از اتمام پرس و جو لغو شد."
+
+"Unknown query type {0}"
+"نوع سؤال ناشناس {0}"
+
+"Caching results for next time for query with hash {0}."
+"نتایج ذخیره سازی برای بار بعدی برای پرس و جو با هش {0}."
+
+"Error saving query results to cache."
+"خطایی در ذخیره نتایج جستجو در حافظه نهان"
+
+"Query took {0} to run; miminum for cache eligibility is {1}"
+"پرس و جو {0} را اجرا کرد. حداقل صلاحیت حافظه پنهان {1} است."
+
+"Results are too large to cache."
+"نتایج برای ذخیره بسیار زیاد است."
+
+"Error parsing serialized results"
+"خطا در تجزیه نتایج سریالی"
+
+"Error purging old cache entries"
+"خطایی در پاک کردن ورودی های حافظه پنهان قدیمی"
+
+"Caching results for query with hash {0}."
+"ذخیره نتایج برای پرس و جو با هش {0}."
+
+"Cannot save QueryExecution, missing :context"
+"ذخیره QueryException ، از دست رفته: زمینه امکان پذیر نیست"
+
+"Error saving query execution info"
+"خطای ذخیره سازی اطلاعات اجرای پرس و جو"
+
+"Unable to resolve database for query: missing or invalid `:database` ID."
+"مشکل شناسایی دیتابیس پرس و جو: شناسه دیتابیس نامعتبر یا ناشناس است."
+
+"Unable to resolve driver for query"
+"مشکل شناسایی درایور برای پرس و جو"
+
+"Referenced question #{0} could not be found"
+"سؤال ارجاع شده # {0} یافت نشد"
+
+"Referenced query is from a different database"
+"پرس و جو مرجع از یک پایگاه داده دیگر است"
+
+"This query has circular referencing sub-queries. "
+"این پرس و جو دارای زیر پرس و جوهای زیر استعلامی است. "
+
+"These questions seem to be part of the problem: \"{0}\" and \"{1}\"."
+"به نظر می رسد این سوالات بخشی از مشکل هستند: \"{0}\" و \"{1}\"."
+
+"Error recording results metadata for query"
+"خطا در ضبط داده های فوق برای پرس و جو نتیجه می دهد"
+
+"Query result"
+"نتایج پرس و جو"
+
+"Error generating insights for column:"
+"خطا در ایجاد بینش برای ستون:"
+
+"Sending abandonment email!"
+"ارسال ایمیل رها!"
+
+"SSH Authentication"
+"احراز هویت SSH"
+
+"SSH Key"
+"کلید SSH"
+
+"Server SSL certificate chain"
+"زنجیره گواهی SSL سرور"
+
+"Question''s average execution duration is {0}; using ''magic'' TTL of {1}"
+"میانگین مدت زمان اجرای سوال 0 {} است. استفاده از TTL \"Magic\" از {1"
+
+"A snippet with that name already exists. Please pick a different name."
+"قطعه قطعه ای با این نام در حال حاضر وجود دارد. لطفاً نام دیگری را انتخاب کنید"
+
+"[Unknown Metric]"
+"[متریک ناشناخته]"
+
+"[Unknown Segment]"
+"[بخش ناشناخته]"
+
+"Error writing error to output stream"
+"خطا در نوشتن خطا در خروجی جریان"
+
+"Caught unexpected Exception in streaming response body"
+"استثناء غیر منتظره در بدنه پاسخ جریان است"
+
+"bound-fn caught unexpected Exception"
+"مرز fn گرفتار استثناء غیر منتظره"
+
+"Error determining whether HTTP request was canceled"
+"خطایی در مورد لغو درخواست HTTP"
+
+"Check cancelation status timed out after {0}"
+"وضعیت انصراف بعد از {0 ed به پایان رسیده است"
+
+"Unexpected exception in do-f-async"
+"استثناء غیر منتظره در do-f-async"
+
+"Unexpected exception writing error response"
+"استثناء غیر منتظره پاسخ خطای نوشتن"
+
+"Server certificate not trusted - did you specify the correct SSL certificate chain?"
+"گواهی سرور مورد اعتماد نیست - آیا شما زنجیره صحیح گواهی SSL را مشخص کردید؟"
+
+"Server appears to require SSL - please enable SSL above"
+"به نظر می رسد سرور به SSL نیاز دارد - لطفا SSL را در بالا فعال کنید"
+
+"Username"
+"نام کاربری"
+
+"Don''t know how to parse parameter of type {0}"
+"نمی دانید چگونه پارامتر از نوع {0 p را تجزیه کنید"
+
+"Invalid :card parameter: missing `:card-id`"
+"نامعتبر: پارامتر کارت: از دست رفته `: card-id`"
+
+"Unable to resolve Snippet: missing `:snippet-id`"
+"امکان حل کردن قطعه قطعی وجود ندارد: از دست رفته `: snippet-id`"
+
+"Snippet {0} {1} not found."
+"Snippet 0} 1} یافت نشد."
+
+"Error determining value for parameter"
+"خطا در تعیین مقدار پارامتر"
+
+"Error building query parameter map"
+"خطا در ساخت نقشه پارامتر پرس و جو"
+
+"ASYNC"
+"ASYNC"
+
+"{0} ({1} DB calls)"
+"{0} (1 {تماس DB)"
+
+"App DB connections: {0}/{1}"
+"اتصالات برنامه DB: {0} / {1"
+
+"Jetty threads: {0}/{1} ({2} idle, {3} queued)"
+"موضوعات جت: {0} / {1} (2 {بیکار ، 3 پوند در حالت آماده باش)"
+
+"({0} total active threads)"
+"(0 {کل موضوعات فعال)"
+
+"Queries in flight: {0}"
+"نمایش داده شد در پرواز: {0"
+
+"({0} queued)"
+"({0} صف)"
+
+"Collection must be in the same namespace as its parent"
+"مجموعه باید در همان فضای نام و نام خانوادگی خود باشد"
+
+"Personal Collections must be in the default namespace"
+"مجموعه های شخصی باید در فضای نام پیش فرض قرار داشته باشند"
+
+"You cannot move a Collection to a different namespace once it has been created."
+"پس از ایجاد ، نمی توانید یک مجموعه را به یک نام دیگر تغییر دهید."
+
+"Collection does not exist."
+"مجموعه وجود ندارد."
+
+"A {0} can only go in Collections in the {1} namespace."
+"{0} فقط می تواند در مجموعه نامها در فضای نام {1 go برود."
+
+"Error sending database deletion notification"
+"خطا در ارسال اعلان حذف پایگاه داده"
+
+"You cannot update the creator_id of a NativeQuerySnippet."
+"شما نمی توانید creator_id یک NativeQuerySnippet را به روز کنید."
+
+"Error fetching value of Setting"
+"خطا در واکشی مقدار تنظیمات"
+
+"The language that should be used for Metabase's UI, system emails, pulses, and alerts."
+"زبانی که باید برای UI UA Metabase ، ایمیل های سیستم ، پالس ها و هشدارها استفاده شود."
+
+"This is also the default language for all users, which they can change from their own account settings."
+"این همچنین زبان پیش فرض برای همه کاربران است که می توانند از طریق تنظیمات حساب کاربری خود تغییر دهند."
+
+"Invalid locale {0}"
+"محلی نامعتبر {0"
+
+"Force all traffic to use HTTPS via a redirect, if the site URL is HTTPS"
+"اگر آدرس سایت HTTPS باشد ، تمام ترافیک را مجبور به استفاده از HTTPS از طریق تغییر مسیر می کند"
+
+"Cannot redirect requests to HTTPS unless `site-url` is HTTPS."
+"نمی توان درخواستها را به HTTPS هدایت کرد مگر اینکه \"سایت-آدرس\" HTTPS باشد."
+
+"Error registering fonts: Metabase will not be able to send Pulses."
+"خطا در ثبت فونت ها: Metabase قادر به ارسال پالس نیست."
+
+"This is a known issue with certain JVMs. See {0} and for more details."
+"این یک مسئله شناخته شده با JVM های خاص است. برای جزئیات بیشتر به {0} مراجعه کنید."
+
+"Error rendering Pulse"
+"خطایی در ارائه پالس"
+
+"Query timed out after {0}, raising timeout exception."
+"زمان پرس و جو بعد از {0 {به پایان رسید و استثناء زمان پایان را افزایش داد."
+
+"No fields found for table {0}."
+"هیچ زمینه ای برای جدول {0 found یافت نشد."
+
+"Case"
+"مورد"
+
+"Variance of {0}"
+"واریانس {0}"
+
+"Median of {0}"
+"متوسط {0"
+
+"{0}th percentile of {1}"
+"percent 0} صدک of 1 {"
+
+"Not caching results: results are larger than {0} KB"
+"نتایج نهان ذخیره سازی: نتایج بزرگتر از {0} KB است"
+
+"Cannot cache results: expected byte array, got {0}"
+"نتایج حافظه پنهان امکان پذیر نیست: آرایه بایت مورد انتظار ، got 0 got"
+
+"Request is closed; no one to return cached results to"
+"درخواست بسته است؛ هیچ کس برای بازگشت نتایج ذخیره شده به"
+
+"Error preparing statement to fetch cached query results"
+"خطا در تهیه عبارت برای واکشی نتایج جستجوی ذخیره شده خطایی"
+
+"Error processing query: {0}"
+"خطای پردازش خطا: {0"
+
+"Unexpected exception in endpoint"
+"استثناء غیر منتظره در نقطه پایانی"
+
+"Unexpected Exception in API request handler"
+"استثناء غیر منتظره در کنترل کننده درخواست API"
+
+"Error reducing {0}"
+"خطا در کاهش {0"
+
+"Error generating timeseries insight keyed by: {0}"
+"خطایی در ایجاد بینش زمانی که توسط: {0 ایجاد شده است"
+
+"Database position of {0} has changed from ''{1}'' to ''{2}''."
+"موقعیت پایگاه داده {0 from از '' {1} '' به '' {2} '' تغییر کرده است."
+
+"Unscheduling task for Database {0}: trigger: {1}"
+"وظیفه عدم اجرای پایگاه داده {0: ماشه: {1"
+
+"value must be a keyword or string."
+"مقدار باید یک کلمه کلیدی یا رشته باشد."
+
+"String must be a valid two-letter ISO language or language-country code e.g. 'en' or 'en_US'."
+"رشته باید یک زبان ISO معتبر دو حرف یا کد کشور-کشور مثلاً باشد. 'en' یا 'en_US'."
+
+"Dashboard does not have a parameter with the ID {0}"
+"داشبورد پارامتری با شناسه ندارد {0}"
+
+"Parameter {0} does not have any Fields associated with it"
+"پارامتر {0} هیچ فیلدی با آن مرتبط نیست"
+
+"include must be either empty or the value 'tables'"
+"شامل باید خالی باشد یا مقدار \"جداول\""
+
+"`database` is required for all queries whose type is not `internal`."
+"`بانک اطلاعاتی` برای همه درخواستهایی که نوع آنها“ داخلی ”نیست لازم است."
+
+"Password login is disabled for this instance."
+"ورود به سیستم گذرواژه برای این نمونه غیرفعال است."
+
+"Your account is disabled. Please contact your administrator."
+"حساب شما غیرفعال است لطفاً با سرپرست خود تماس بگیرید."
+
+"Your account is disabled."
+"حساب شما غیرفعال است"
+
+"Invalid Slack token."
+"رمز Slack نامعتبر است."
+
+"The ''{0}'' command is only available in Metabase Enterprise Edition."
+"دستور \"\" {0} \"فقط در نسخه سازمانی Metabase در دسترس است."
+
+"Metabase Enterprise Edition extensions are PRESENT."
+"افزونه های نسخه سازمانی Metabase در حال حاضر هستند."
+
+"Usage of Metabase Enterprise Edition features are subject to the Metabase Commercial License."
+"استفاده از ویژگی های نسخه سازمانی Metabase منوط به مجوز بازرگانی Metabase است."
+
+"See {0} for details."
+"برای جزئیات بیشتر به {0} مراجعه کنید."
+
+"Metabase Enterprise Edition extensions are NOT PRESENT."
+"برنامه های افزودنی Metabase Enterprise Edition موجود نیستند."
+
+"You''re invited to join {0}''s {1}"
+"از شما دعوت شده است به {0} \"{1}\" بپیوندید"
+
+"{0} created a {1} account"
+"{0} یک حساب {1} ایجاد کرد"
+
+"{0} accepted their {1} invite"
+"{0} دعوت {1} خود را پذیرفت"
+
+"[{0}] Password Reset Request"
+"[{0}] درخواست بازنشانی گذرواژه"
+
+"[{0}] Notification"
+"[{0}] اعلان"
+
+"[{0}] Help make [{1}] better."
+"[{0}] به بهتر شدن [{1}] کمک کنید."
+
+"[{0}] Tell us how things are going."
+"[{0}] به ما بگویید اوضاع چگونه پیش می رود."
+
+"Error starting events listener"
+"خطا در شروع شنونده رویدادها"
+
+"Should we sync user attributes when someone logs in via LDAP?"
+"آیا وقتی کسی از طریق LDAP وارد سیستم می شود ، باید ویژگی های کاربر را همگام سازی کنیم؟"
+
+"Comma-separated list of user attributes to skip syncing for LDAP users."
+"لیستی از ویژگی های کاربر با کاما جدا شده تا از همگام سازی برای کاربران LDAP رد شوید."
+
+"Invalid token"
+"رمز نامعتبر است"
+
+"Slack API error: {0}"
+"خطای API اسلک: {0}"
+
+"Please create or unarchive the channel in order to complete the Slack integration."
+"برای تکمیل ادغام Slack لطفاً کانال را ایجاد یا بایگانی کنید."
+
+"Uploaded image"
+"تصویر بارگذاری شده"
+
+"Invalid session. Expected an instance of Session."
+"جلسه نامعتبر است. نمونه ای از جلسه انتظار می رود."
+
+"Top folder"
+"پوشه بالا"
+
+":parameters must be a sequence of maps with String :id keys"
+": پارامترها باید دنباله ای از نقشه ها با کلیدهای String: id باشند"
+
+"Invalid human-readable-values: values must be a sequence; each item must be nil or a string"
+"مقادیر قابل خواندن توسط انسان نامعتبر است: مقادیر باید یک توالی باشند. هر مورد باید صفر یا رشته ای باشد"
+
+":values must be present to fetch :human_readable_values"
+": برای واکشی: مقادیر_خواننده_ انسانی باید مقادیر وجود داشته باشد"
+
+"Field values total length is > {0}."
+"مقادیر طول کل> {0} است."
+
+"snippet names cannot include '}' or start with spaces"
+"نام قطعه نمی تواند \"}\" باشد یا با فاصله شروع شود"
+
+"Error executing chain filter query"
+"خطا در اجرای درخواست فیلتر زنجیره ای"
+
+"Field {0} does not exist."
+"قسمت {0} وجود ندارد."
+
+"Cannot search against non-Text Field {0} {1}"
+"نمی توان در برابر فیلد غیر متنی جستجو کرد {0} {1}"
+
+"Granting permissions for group {0}: {1}"
+"اعطای مجوزها برای گروه {0}: {1}"
+
+"Revoking permissions for group {0}: {1}"
+"لغو مجوزها برای گروه {0}: {1}"
+
+"Invalid DB permissions: if you have write access for native queries, you must have full data access."
+"مجوزهای DB نامعتبر: اگر برای نوشتارهای بومی دسترسی نوشتن دارید ، باید به داده کامل دسترسی داشته باشید."
+
+"Invalid DB permissions: if you have readonly native query access, you must also have data access."
+"مجوزهای DB نامعتبر: اگر فقط به جستجوی بومی دسترسی دارید فقط باید به داده دسترسی داشته باشید."
+
+"Changing permissions from: {0} to: {1}"
+"تغییر مجوزها از: {0} به: {1}"
+
+"login attribute keys must be a keyword or string"
+"کلیدهای ویژگی ورود باید یک کلمه کلیدی یا رشته باشند"
+
+"The default language for all users across the Metabase UI, system emails, pulses, and alerts."
+"زبان پیش فرض برای همه کاربران در سراسر رابط کاربری پایگاه داده ، ایمیل های سیستم ، پالس ها و هشدارها."
+
+"Users can individually override this default language from their own account settings."
+"کاربران می توانند به صورت جداگانه از تنظیمات حساب خود این زبان پیش فرض را نادیده بگیرند."
+
+"Default page to show the user"
+"صفحه پیش فرض برای نمایش کاربر"
+
+"Allow this origin to embed the full Metabase application"
+"اجازه دهید این مبدا برنامه کامل Metabase را در خود جای دهد"
+
+"Values greater than {0} ({1}) are not allowed."
+"مقادیر بیشتر از {0} ({1}) مجاز نیستند."
+
+"This will replace the word \"Metabase\" wherever it appears."
+"این هر کجا که ظاهر شود جایگزین کلمه \"Metabase\" می شود."
+
+"These are the primary colors used in charts and throughout Metabase. You might need to refresh your browser to see your changes take effect."
+"اینها رنگهای اصلی هستند که در نمودارها و در کل Metabase استفاده می شوند. برای دیدن تأثیرگذاری ممکن است لازم باشد مرورگر خود را تازه کنید."
+
+"For best results, use an SVG file with a transparent background."
+"برای بهترین نتیجه ، از یک فایل SVG با پس زمینه شفاف استفاده کنید."
+
+"The url or image that you want to use as the favicon."
+"آدرس اینترنتی یا تصویری که می خواهید به عنوان نماد استفاده کنید."
+
+"Allow logging in by email and password."
+"ورود به سیستم از طریق ایمیل و گذرواژه را مجاز کنید."
+
+"Unable to validate token"
+"اعتبار سنجی امکان پذیر نیست"
+
+"Token format is invalid."
+"قالب رمز نامعتبر است."
+
+"Error validating token"
+"خطا در اعتبار سنجی رمز"
+
+"Error filtering against {0} Field: unable to parse String {1} to a {2}"
+"خطا در فیلتر کردن در برابر {0} فیلد: امکان تجزیه رشته {1} به {2} وجود ندارد"
+
+"Error fetching details for Job: {0}"
+"خطا در واکشی جزئیات برای Job: {0}"
+
+"Starting sync task for Database {0}."
+"شروع کار همگام سازی برای پایگاه داده {0}."
+
+"Cannot sync Database {0}: Database does not exist."
+"همگام سازی پایگاه داده امکان پذیر نیست {0}: پایگاه داده وجود ندارد."
+
+"Update Field values task triggered for Database {0}."
+"وظیفه مقادیر زمینه را که برای پایگاه داده فعال شده به روز کنید."
+
+"Skipping update, automatic Field value updates are disabled for Database {0}."
+"رد شدن از به روزرسانی ، به روزرسانی خودکار مقدار فیلد برای پایگاه داده غیرفعال است {0}."
+
+"Periodically refingerprint tables"
+"جداول چاپ دوره ای را به صورت دوره ای چاپ کنید"
+
+"Unable to run internal query function: cannot resolve {0}"
+"عملکرد درخواست داخلی قابل اجرا نیست: نمی تواند {0} را حل کند"
+
+"Audit App queries are not enabled on this instance."
+"نمایش داده های برنامه حسابرسی در این نمونه فعال نیست."
+
+"Invalid internal query function: {0} is not marked as an ^:internal-query-fn"
+"عملکرد جستجوی داخلی نامعتبر است: {0} به عنوان ^: internal-query-fn علامت گذاری نشده است"
+
+"Error: sandboxing is not enabled for this instance."
+"خطا: جعبه شن برای این نمونه فعال نیست."
+
+"Please check you have set a valid Enterprise token and try again."
+"لطفاً بررسی کنید که یک رمز Enterprise معتبر تنظیم کرده اید و دوباره امتحان کنید."
+
+"No permissions found for current user"
+"هیچ اجازه ای برای کاربر فعلی یافت نشد"
+
+"User ''{0}'' attempted to access an inaccessible field. Accessible fields {1}, fields in query {2}"
+"کاربر \"\" {0} \"تلاش کرد به یک قسمت غیرقابل دسترسی دسترسی پیدا کند. قسمتهای قابل دسترسی {1} ، قسمتهای جستجوی {2}"
+
+"User not able to query field"
+"کاربر قادر به جستجوی قسمت نیست"
+
+"Found more than one group table access policy for user ''{0}''"
+"بیش از یک سیاست دسترسی به جدول گروه برای کاربر \"\" {0} \"یافت شده است"
+
+"Query requires user attribute `{0}`"
+"درخواست به ویژگی کاربر \"{0}\" نیاز دارد"
+
+"invalid --mode value"
+"مقدار - حالت نامعتبر است"
+
+"invalid --on-error value"
+"مقدار نامعتبر - خطا"
+
+"invalid context seed value"
+"مقدار بذر زمینه نامعتبر است"
+
+"Dump was produced using a different version of Metabase. Things may break!"
+"دامپ با استفاده از نسخه دیگری از Metabase تولید شده است. ممکن است همه چیز خراب شود!"
+
+"Error loading dump: {0}"
+"خطا در بارگیری محل تخلیه: {0}"
+
+"{0} is not a valid user"
+"{0} کاربر معتبری نیست"
+
+"Error dumping {0}"
+"خطا در تخلیه {0}"
+
+"No admin users found! At least one admin user is needed to act as the owner for all the loaded entities."
+"هیچ کاربر مدیریتی پیدا نشد! حداقل یک کاربر مدیر لازم است تا به عنوان مالک تمام موجودات بارگذاری شده عمل کند."
+
+"Error loading dependencies: reference to an unknown entity {0}"
+"خطا در بارگیری وابستگی ها: مراجعه به موجودی ناشناخته {0}"
+
+"Can''t resolve {0} in fully qualified name {1}"
+"نمی توان {0} را به نام کاملاً واجد شرایط حل کرد {1}"
+
+"Model {0} does not support upsert"
+"مدل {0} از پشتیبانی پشتیبانی نمی کند"
+
+"Error inserting {0}"
+"خطا در قرار دادن {0}"
+
+"Inserting {0}"
+"درج {0}"
+
+"{0} already exists -- skipping"
+"{0} از قبل وجود دارد - رد شدن"
+
+"Skipping {0} (nothing to update)"
+"رد شدن از {0} (چیزی برای به روزرسانی نیست)"
+
+"Updating {0}"
+"درحال به روزرسانی {0}"
+
+"Error updating {0}"
+"خطا در به روزرسانی {0}"
+
+"SSO has not been enabled and/or configured"
+"SSO فعال و / یا پیکربندی نشده است"
+
+"SSO requires a valid token"
+"SSO به یک رمز معتبر نیاز دارد"
+
+"Error returning SSO entry point"
+"خطا در بازگشت نقطه ورود SSO"
+
+"Error logging in"
+"خطای ورود به سیستم"
+
+"Can't create new JWT user when JWT is not configured"
+"وقتی JWT پیکربندی نشده باشد ، کاربر جدید JWT ایجاد نمی شود"
+
+"JWT SSO has not been enabled and/or configured"
+"JWT SSO فعال و یا پیکربندی نشده است"
+
+"Invalid SAML configuration: could not find user email."
+"پیکربندی SAML نامعتبر است: ایمیل کاربر یافت نشد."
+
+"We tried looking for {0}, but couldn't find the attribute."
+"ما سعی کردیم به دنبال {0} بگردیم ، اما ویژگی را پیدا نکردیم."
+
+"Please make sure your SAML IdP is properly configured."
+"لطفاً از پیکربندی صحیح SAML IdP خود اطمینان حاصل کنید."
+
+"SAML has not been enabled and/or configured"
+"SAML فعال و / یا پیکربندی نشده است"
+
+"Warning: expected `redirect` param, but none is present"
+"هشدار: پارامتر \"تغییر مسیر\" انتظار می رود ، اما هیچ یک وجود ندارد"
+
+"Error generating SAML request"
+"خطا در ایجاد درخواست SAML"
+
+"Unable to log in: SAML IdP certificate is not set."
+"ورود به سیستم امکان پذیر نیست: گواهی SAML IdP تنظیم نشده است."
+
+"SAML response validation failed"
+"اعتبار سنجی پاسخ SAML ناموفق بود"
+
+"Unable to log in: SAML response validation failed"
+"ورود به سیستم امکان پذیر نیست: اعتبار سنجی پاسخ SAML ناموفق بود"
+
+"Unable to log in: SAML info does not contain user attributes."
+"ورود به سیستم امکان پذیر نیست: اطلاعات SAML حاوی ویژگی های کاربر نیست."
+
+"Enable SAML authentication."
+"احراز هویت SAML را فعال کنید."
+
+"This is the URL where your users go to log in to your identity provider. Depending on which IdP you''re\nusing, this usually looks like https://your-org-name.example.com or https://example.com/app/my_saml_app/abc123/sso/saml"
+"این نشانی اینترنتی است که کاربران شما برای ورود به سیستم ارائه دهنده هویت شما می روند. بسته به IDP شما باشد\nبا استفاده از این ، معمولاً به نظر می رسد https://your-org-name.example.com یا https://example.com/app/my_saml_app/abc123/sso/saml"
+
+"Error parsing SAML identity provider certificate"
+"خطا در تجزیه گواهی ارائه دهنده هویت SAML"
+
+"Invalid identity provider certificate. Certificate should be a base-64 encoded string."
+"گواهی ارائه دهنده هویت نامعتبر است. گواهی باید یک رشته کدگذاری شده با پایه 64 باشد."
+
+"Encoded certificate for the identity provider. Depending on your IdP, you might need to download this,\nopen it in a text editor, then copy and paste the certificate's contents here."
+"گواهی رمزگذاری شده برای ارائه دهنده هویت. بسته به IdP خود ، ممکن است لازم باشد این مورد را بارگیری کنید ،\nآن را در یک ویرایشگر متن باز کنید ، سپس محتوای گواهی را کپی و جایگذاری کنید."
+
+"This is a unique identifier for the IdP. Often referred to as Entity ID or simply 'Issuer'. Depending\non your IdP, this usually looks something like http://www.example.com/141xkex604w0Q5PN724v"
+"این یک شناسه منحصر به فرد برای IdP است. اغلب به عنوان شناسه نهاد یا به سادگی \"صادر کننده\" نامیده می شود. بستگی دارد\nدر IdP شما ، معمولاً چیزی شبیه به http://www.example.com/141xkex604w0Q5PN724v"
+
+"This application name will be used for requests to the Identity Provider"
+"این نام برنامه برای درخواست به Identity Provider استفاده خواهد شد"
+
+"Absolute path to the Keystore file to use for signing SAML requests"
+"مسیر مطلق به پرونده Keystore برای استفاده برای امضای درخواستهای SAML"
+
+"Password for opening the keystore"
+"گذرواژه برای باز کردن keystore"
+
+"Alias for the key that Metabase should use for signing SAML requests"
+"نام مستعار برای کلیدی که Metabase باید برای امضای درخواست های SAML استفاده کند"
+
+"SAML attribute for the user''s email address"
+"ویژگی SAML برای آدرس ایمیل کاربر"
+
+"SAML attribute for the user''s first name"
+"ویژگی SAML برای نام کاربر"
+
+"SAML attribute for the user''s last name"
+"ویژگی SAML برای نام خانوادگی کاربر"
+
+"Enable group membership synchronization with SAML."
+"همگام سازی عضویت گروه را با SAML فعال کنید."
+
+"SAML attribute for group syncing"
+"ویژگی SAML برای همگام سازی گروهی"
+
+"JSON containing SAML to Metabase group mappings."
+"JSON حاوی نگاشت های گروه SAML به Metabase است."
+
+"Enable JWT based authentication"
+"احراز هویت مبتنی بر JWT را فعال کنید"
+
+"URL of JWT based login page"
+"URL صفحه ورود به سیستم JWT"
+
+"String used to seed the private key used to validate JWT messages"
+"رشته ای که برای کاشت کلید خصوصی مورد استفاده برای تأیید پیام های JWT استفاده می شود"
+
+"Key to retrieve the JWT user's email address"
+"کلید بازیابی آدرس ایمیل کاربر JWT"
+
+"Key to retrieve the JWT user's first name"
+"کلید بازیابی نام کاربر JWT"
+
+"Key to retrieve the JWT user's last name"
+"کلید بازیابی نام خانوادگی کاربر JWT"
+
+"Key to retrieve the JWT user's groups"
+"کلید بازیابی گروههای کاربران JWT"
+
+"Enable group membership synchronization with JWT."
+"همگام سازی عضویت گروه را با JWT فعال کنید."
+
+"JSON containing JWT to Metabase group mappings."
+"JSON حاوی نگاشت های گروه JWT به Metabase است."
+
+"Should new email notifications be sent to admins, for all new SSO users?"
+"آیا اعلان های ایمیل جدید برای همه کاربران جدید SSO به مدیران ارسال می شود؟"
+
+"New SSO user created: {0} ({1})"
+"کاربر جدید SSO ایجاد شد: {0} ({1})"
+
+"Invalid Alert: Alert does not have a Card associated with it"
+"هشدار نامعتبر: هشدار کارت مرتبط با آن ندارد"
+
+"Error determining whether Database supports nested queries"
+"خطا در تعیین اینکه آیا پایگاه داده از نمایش داده های تو در تو پشتیبانی می کند یا خیر"
+
+"Invalid query params: could not determine slug for parameter with ID {0}"
+"پارامهای جستجوی نامعتبر: نمی توان حلزون حرکت برای پارامتر با شناسه {0} را تعیین کرد"
+
+"Cannot search for values: {0} is not an enabled parameter."
+"نمی توان مقادیر را جستجو کرد: {0} یک پارامتر فعال نیست."
+
+"You can''t specify a value for {0} if it's already set in the JWT."
+"اگر این مقدار در {0} از قبل در JWT تنظیم شده باشد ، نمی توانید مقداری تعیین کنید."
+
+"Error compiling HoneySQL form"
+"خطا در تنظیم فرم HoneySQL"
+
+"Not a valid Database/Database ID/JDBC spec"
+"مشخصات پایگاه داده / شناسه پایگاه داده / JDBC معتبر نیست"
+
+"value must be a map with the keys `{0}`, `{1}`, `{2}`, and `{3}`."
+"مقدار باید یک نقشه با کلیدهای \"{0}\" ، \"{1}\" ، \"{2}\" و \"{3}\" باشد."
+
+"Not creating proxy JDBC driver for class {0} -- original driver was loaded by system ClassLoader"
+"درایور پروکسی JDBC برای کلاس {0} ایجاد نمی شود - درایور اصلی توسط سیستم ClassLoader بارگیری شده است"
+
+"Query took {0} to run; minimum for cache eligibility is {1}"
+"پرس و جو برای اجرا {0} طول کشید. حداقل صلاحیت حافظه پنهان {1} است"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to wrap field references in explicit :joined-field clauses."
+"به دلیل پیوستن های مبهم نمی توان قسمت پیوست را حل کرد: جدول {0} (ID {1}) چندین بار پیوست. شما باید منابع فیلد را در بندهای صریح و پیوسته بپیچید."
+
+"Error normalizing form."
+"خطا در عادی سازی فرم."
+
+"Error canonicalizing query"
+"خطا در قانونی کردن درخواست"
+
+"Error performing whole query transformations"
+"خطا در انجام کل تحولات پرس و جو"
+
+"Error normalizing query"
+"خطا در عادی سازی درخواست"
+
+"Sandbox Cards can''t return columns that aren't present in the Table they are sandboxing."
+"کارتهای Sandbox نمی توانند ستونهایی را که در جدول موجود نیستند ، برگردانند."
+
+"Sandbox Cards can''t return columns that have different types than the Table they are sandboxing."
+"کارتهای Sandbox نمیتوانند ستونهایی را که انواع مختلفی نسبت به جدول موجود در جعبه شن و ماسه دارند ، برگردانند."
+
+"Cannot update Card: Card is used for Sandboxing, and updates would violate sandbox rules."
+"کارت به روز نمی شود: کارت برای Sandboxing استفاده می شود و به روزرسانی قوانین Sandbox را نقض می کند."
+
+"You cannot change the Table ID of a GTAP once it has been created."
+"نمی توانید شناسه جدول یک GTAP را ایجاد کنید."
+
+"`database` is required for all queries."
+"`پایگاه داده` برای همه درخواست ها لازم است."
+
+"copied {0} instances."
+"{0} نمونه را کپی کرد."
+
+"Copying instances of {0}..."
+"کپی کردن موارد از {0} ..."
+
+"Error copying instances of {0}"
+"خطا در کپی کردن نمونه های {0}"
+
+"Temporarily disabling DB constraints..."
+"غیرفعال کردن موقت محدودیت های DB ..."
+
+"Re-enabling DB constraints..."
+"فعال کردن مجدد محدودیت های DB ..."
+
+"Setting Postgres sequence ids to proper values..."
+"تنظیم شناسه های توالی Postgres بر روی مقادیر مناسب ..."
+
+"Set up {0} source database and run migrations..."
+"{0} پایگاه داده منبع را تنظیم کنید و مهاجرت ها را اجرا کنید ..."
+
+"Set up {0} target database and run migrations..."
+"{0} پایگاه داده هدف را تنظیم کرده و مهاجرت ها را اجرا کنید ..."
+
+"Testing if target {0} database is already populated..."
+"در حال آزمایش اگر پایگاه داده هدف {0} از قبل پر شده باشد ..."
+
+"Unsupported application database type: {0} is not currently supported."
+"نوع پایگاه داده پشتیبانی نشده از برنامه: {0} در حال حاضر پشتیبانی نمی شود."
+
+"Check the value of MB_DB_CONNECTION_URI."
+"مقدار MB_DB_CONNECTION_URI را بررسی کنید."
+
+"Driver {0} does not support {1}"
+"درایور {0} از {1} پشتیبانی نمی کند"
+
+"No magnitude known for {0}"
+"بزرگی برای {0} مشخص نیست"
+
+"Error resolving source query"
+"خطا در حل پرس و جو منبع"
+
+"Invalid GeoJSON file location: must either start with http:// or https:// or be a relative path to a file on the classpath."
+"مکان پرونده GeoJSON نامعتبر است: یا باید با http: // یا https: // شروع شود یا مسیر نسبی یک فایل در مسیر class باشد."
+
+"URLs referring to hosts that supply internal hosting metadata are prohibited."
+"URL هایی که به میزبان هایی که فراداده میزبانی داخلی را ارائه می دهند ممنوع است."
+
+"Invalid custom GeoJSON."
+"GeoJSON سفارشی نامعتبر است."
+
+"Invalid {0}: specified breakout at index {1}, but we only have {2} breakouts"
+"{0} نامعتبر: برک آوت مشخص شده در فهرست {1} ، اما ما فقط {2} برک آوت داریم"
+
+"Error generating pivot queries"
+"خطا در ایجاد نمایشگرهای محوری"
+
+"Sync the admin group?"
+"گروه سرپرست همگام سازی شود؟"
+
+"Sandbox Questions can''t return columns that have different types than the Table they are sandboxing."
+"سboxالات Sandbox نمی تواند ستونهایی را که دارای انواع مختلفی هستند نسبت به جدول موجود در sandbox."
+
+"Error preprocessing source query when applying GTAP"
+"هنگام استفاده از GTAP خطای پیش پردازش پرس و جو منبع"
+
+"Error running query to determine metadata"
+"خطا در اجرای درخواست برای تعیین فراداده"
+
+"Can't create new SAML user when SAML is not configured"
+"وقتی SAML پیکربندی نشده باشد نمی توان کاربر جدید SAML ایجاد کرد"
+
+"Error setting prepared statement fetch direction to FETCH_FORWARD"
+"خطا در تنظیم دستورالعمل واکشی بیانیه آماده شده به FETCH_FORWARD وجود دارد"
+
+"Error setting statement fetch direction to FETCH_FORWARD"
+"خطا در تنظیم جهت واکشی دستور به FETCH_FORWARD"
+
+"You cannot save this Question because you do not have permissions to run its query."
+"شما نمی توانید این س saveال را ذخیره کنید زیرا مجوز اجرای درخواست آن را ندارید."
+
+"Authentication endpoint error"
+"خطای نقطه پایانی احراز هویت"
+
+"SSH tunnel can only be established for H2 connections using the TCP protocol"
+"تونل SSH فقط برای اتصالات H2 با استفاده از پروتکل TCP قابل ایجاد است"
+
+"ssh tunnel for database {0} looks closed; marking pool invalid to reopen it"
+"ssh tunnel برای پایگاه داده {0} بسته به نظر می رسد؛ استخر علامت گذاری برای بازگشایی نامعتبر است"
+
+"Query canceled, calling Statement.cancel()"
+"درخواست با تماس با Statement.cancel () لغو شد"
+
+"Select statement did not produce a ResultSet for native query"
+"دستور Select برای پرس و جو بومی ResultSet تولید نکرد"
+
+"We''ve Noticed a New {0} Login, {1}"
+"ما متوجه یک {0} ورود به سیستم جدید ، {1} شده ایم"
+
+"Don''t know how to process event with model {0}"
+"نمی دانید که چگونه رویداد را با مدل {0} پردازش کنید"
+
+"Failed to process activity event {0}"
+"پردازش رویداد فعالیت انجام نشد {0}"
+
+"Error sending ''login from new device'' notification email"
+"خطا در ارسال ایمیل اعلان \"ورود به سیستم از دستگاه جدید\""
+
+"You can''t update a LoginHistory after it has been created."
+"بعد از ایجاد LoginHistory نمی توانید آن را به روز کنید."
+
+"Setting {0} already registered in {1}"
+"تنظیم {0} قبلاً در {1} ثبت شده است"
+
+"Controls how often the heartbeats are sent when an SSH tunnel is established (in seconds)."
+"تعداد دفعات ارسال ضربان قلب هنگام ایجاد تونل SSH (در چند ثانیه) را کنترل می کند."
+
+"Cannot find matching FK Table ID for FK Field {0}"
+"شناسه جدول FK منطبق با FK Field پیدا نمی شود {0}"
+
+"Error optimizing temporal filter clause"
+"خطا در بهینه سازی بند فیلتر زمانی"
+
+"Cannot resolve joined field due to ambiguous joins: table {0} (ID {1}) joined multiple times. You need to specify an explicit `:join-alias` in the field reference."
+"به دلیل پیوستنهای مبهم نمی توان قسمت پیوست را حل کرد: جدول {0} (شناسه {1}) چندین بار پیوست. شما باید صریحاً `: join-alias` را در مرجع زمینه مشخص کنید."
+
+"Unsupported temporal bucketing: You can''t bucket a {0} Field by {1}."
+"سطل زمانی پشتیبانی نشده: نمی توانید یک سطل {0} فیلد تا {1} را سطل کنید."
+
+"Error processing additional pivot table query"
+"خطا در پردازش درخواست اضافی جدول محوری"
+
+"Invalid cell format"
+"قالب سلول نامعتبر است"
+
+"Enable typeahead search in the Metabase navbar?"
+"جستجوی typeahead را در نوار نامی پایگاه داده فعال کنید؟"
+
+"Login request is missing user-agent information"
+"درخواست ورود اطلاعات کاربر عامل را از دست داده است"
+
+"Unable to determine login request IP address"
+"تعیین آدرس IP درخواست ورود امکان پذیر نیست"
+
+"Error determining login history for request"
+"خطا در تعیین تاریخچه ورود به سیستم برای درخواست"
+
+"unknown"
+"ناشناس"
+
+"Unknown device type"
+"نوع دستگاه ناشناخته"
+
+"Unknown OS"
+"سیستم عامل ناشناخته"
+
+"Unknown browser"
+"مرورگر ناشناخته"
+
+"Error geocoding IP addresses"
+"خطا در کدگذاری آدرسهای IP"
+
+"Semantic type of {0} has changed from ''{1}'' to ''{2}''."
+"نوع معنایی {0} از \"\" {1} \"\" \"به\" {2} \"تغییر کرده است."
+
+"Name of {0} has changed from ''{1}'' to ''{2}''."
+"نام {0} از \"\" {1} \"\" \"به\" {2} \"تغییر کرده است."
+
+"Don''t know how to format a {0} as a human-readable date/time"
+"نمی دانید چگونه قالب {0} را به عنوان تاریخ / زمان قابل خواندن توسط انسان قالب بندی کنید"
+
+"Valid coercion strategy"
+"استراتژی اجبار معتبر"
+
+"value must be a valid coercion strategy."
+"مقدار باید یک استراتژی اجبار معتبر باشد."
+
+"Saved Questions"
+"سوالات ذخیره شده"
+
+"Group membership lookup filter. The placeholders '{dn}' and '{uid}' will be replaced by the user''s Distinguished Name and UID, respectively."
+"فیلتر جستجوی عضویت در گروه. متغیرهای متغیر \"dn}\" و \"{uid}\" به ترتیب با نام برجسته و UID کاربر جایگزین می شوند."
+
+"Error deleting Sandboxes: {0}"
+"خطا در حذف جعبه های شن و ماسه: {0}"
+
+"BEGIN LOAD from {0} with context {1}"
+"شروع بارگیری از {0} با زمینه {1}"
+
+"Finished first pass of load; now performing second pass"
+"اولین بار حمل به پایان رسید اکنون پاس دوم را انجام می دهیم"
+
+"END LOAD from {0} with context {1}"
+"پایان بارگیری از {0} با زمینه {1}"
+
+"ERROR LOAD from {0}: {1}"
+"بارگیری خطا از {0}: {1}"
+
+"BEGIN DUMP to {0} via user {1}"
+"شروع DUMP به {0} از طریق کاربر {1}"
+
+"END DUMP to {0} via user {1}"
+"پایان دادن به DUMP به {0} از طریق کاربر {1}"
+
+"Could not find context for fully qualified card name {0}"
+"زمینه برای نام کارت کاملاً واجد شرایط یافت نشد {0}"
+
+"Could not find context for fully qualified snippet name {0}"
+"زمینه برای نام قطعه کاملاً واجد شرایط یافت نشد {0}"
+
+"Failed to execute query for loaded card \"{0}\": {1}"
+"درخواست برای کارت بارگذاری شده \"{0}\" انجام نشد: {1}"
+
+"Cannot connect to database ''{0}'' in order to sync unhidden tables"
+"برای همگام سازی جداول غیر مخفی نمی توان به پایگاه داده \"\" {0} \"متصل شد"
+
+"Can't decrypt app db with MB_ENCRYPTION_SECRET_KEY"
+"رمزگشایی برنامه db با MB_ENCRYPTION_SECRET_KEY امکان پذیر نیست"
+
+"Invalid domain"
+"دامنه نامعتبر است"
+
+"User lookup filter. The placeholder '{login}' will be replaced by the user supplied login."
+"فیلتر جستجوی کاربر. محل ورود \"{login}\" با ورود به سیستم کاربر ارائه می شود."
+
+"Attribute to use for the user''s email. (usually ''mail'', ''email'' or ''userPrincipalName'')"
+"صفتی که برای ایمیل کاربر استفاده می شود. (معمولاً \"نامه\" ، \"ایمیل\" یا \"userPrincipalName\")"
+
+"Search base for groups. Not required for LDAP directories that provide a ''memberOf'' overlay, such as Active Directory. (Will be searched recursively)"
+"پایگاه جستجو برای گروه ها برای فهرستهای LDAP که پوشش \"\" memberOf \"را ارائه می دهند ، مانند Active Directory ، لازم نیست. (بصورت بازگشتی جستجو خواهد شد)"
+
+"You are not allowed to change the owner of a Personal Collection."
+"شما مجاز به تغییر مالک مجموعه شخصی نیستید."
+
+"You are not allowed to change the authority level of a Personal Collection."
+"شما مجاز به تغییر سطح اختیارات یک مجموعه شخصی نیستید."
+
+"You are not allowed to move a Personal Collection."
+"شما مجاز به انتقال مجموعه شخصی نیستید."
+
+"You cannot update a CollectionPermissionGraphRevision!"
+"شما نمی توانید CollectionPermissionGraphRevision را به روز کنید!"
+
+"Invalid Field {0} {1}: falling back to {2}"
+"فیلد نامعتبر {0} {1}: برگشتن به {2}"
+
+"To make table and field names more human-friendly, Metabase will replace dashes and underscores in them with spaces."
+"برای ایجاد نام های جداول و زمینه ها برای انسان پسندتر ، Metabase جایگزین خط تیره و زیر خط در آنها را با فاصله می کند."
+
+"We’ll capitalize each word while at it, so ‘last_visited_at’ will become ‘Last Visited At’."
+"ما هر کلمه را هنگام استفاده از آن بزرگ می کنیم ، بنابراین \"last_visited_at\" به \"Last Visited At\" تبدیل می شود."
+
+"Setting names in would collide: {0} and {1}"
+"تنظیم نام ها با هم برخورد می کنند: {0} و {1}"
+
+"Indicates when Metabase last checked for new versions."
+"نشان می دهد آخرین زمان بررسی پایگاه داده برای نسخه های جدید."
+
+"This URL is used for things like creating links in emails, auth redirects,"
+"این URL برای مواردی مانند ایجاد پیوند در ایمیل ، هدایت مجدد خودکار ،"
+
+"and in some embedding scenarios, so changing it could break functionality or get you locked out of this instance."
+"و در برخی از سناریوهای جاسازی ، بنابراین تغییر آن می تواند عملکرد را از بین ببرد یا شما را از این نمونه قفل کند."
+
+"When set, enforces the use of session cookies for all users which expire when the browser is closed."
+"هنگام تنظیم ، استفاده از کوکی های جلسه را برای همه کاربران اعمال می کند که با بسته شدن مرورگر منقضی می شوند."
+
+"Error parsing paging parameters: {0}"
+"خطا در تجزیه پارامترهای صفحه بندی: {0}"
+
+"Error running sync step"
+"خطا در اجرای مرحله همگام سازی"
+
+"Error in sync step {0}"
+"خطا در مرحله همگام سازی {0}"
+
+"Error fetching version info; setting version-info value to nil"
+"خطا در واکشی اطلاعات نسخه ؛ تنظیم مقدار نسخه اطلاعات به صفر"
+
+"Valid field semantic type"
+"نوع معنایی درست است"
+
+"value must be a valid field semantic type."
+"مقدار باید از نوع معنایی درست معتبر باشد."
+
+"Valid field relation type"
+"نوع رابطه درست درست است"
+
+"value must be a valid field relation type."
+"مقدار باید یک نوع رابطه درست درست باشد."
+
+"Valid field semantic or relation type"
+"نوع معنایی یا رابطه ای درست معتبر است"
+
+"value must be a valid field semantic or relation type."
+"مقدار باید یک نوع معنایی یا نوع درست معتبر باشد."
+
+"Valid field data type (keyword or string)"
+"نوع داده درست (کلمه کلیدی یا رشته) معتبر"
+
+"value must be a valid field data type (keyword or string)."
+"مقدار باید یک نوع داده درست (کلمه کلیدی یا رشته) معتبر باشد."
+
+"Valid field semantic type (keyword or string)"
+"نوع معنایی درست (کلمه کلیدی یا رشته)"
+
+"value must be a valid field semantic type (keyword or string)."
+"مقدار باید از نوع معنایی درست (کلمه کلیدی یا رشته) باشد."
+
+"Valid field relation type (keyword or string)"
+"نوع رابطه درست فیلد معتبر (کلمه کلیدی یا رشته)"
+
+"value must be a valid field relation type (keyword or string)."
+"مقدار باید یک نوع رابطه درست درست (کلمه کلیدی یا رشته) باشد."
+
+"Valid field semantic or relation type (keyword or string)"
+"نوع معنایی یا رابطه ای فیلد معتبر (کلمه کلیدی یا رشته)"
+
+"value must be a valid field semantic or relation type (keyword or string)."
+"مقدار باید از نوع معنایی یا رابطه ای درست (کلمه کلیدی یا رشته) معتبر باشد."
+
+"value must be a valid coercion strategy (keyword or string)."
+"مقدار باید یک استراتژی اجبار معتبر باشد (کلمه کلیدی یا رشته)."
+
+"password is too common."
+"رمز عبور بیش از حد معمول است."
+
+"Invalid custom GeoJSON"
+"GeoJSON سفارشی نامعتبر است"
+
+"GeoJSON URL failed to load"
+"نشانی وب GeoJSON بارگیری نشد"
+
+"Error building query parameter map: {0}"
+"خطا در ساخت نقشه پارامتر پرس و جو: {0}"
+
+"Plugin ''{0}'' depends on environment variable ''{1}'' being set to something"
+"افزونه '' {0} '' بستگی به این دارد که متغیر محیط '' {1} '' روی چیزی تنظیم شده باشد"
+
+"Down"
+"پایین"
+
+"Up"
+"بالا"
+
+"Allowed email address domain(s) for new DashboardSubscriptions and Alerts. Does not affect existing subscriptions."
+"دامنه (های) آدرس ایمیل مجاز برای DashboardSubscriptions و Alerts. بر اشتراک های موجود تأثیر نمی گذارد."
+
+"Invalid email address: {0}"
+"آدرس ایمیل نامعتبر: {0}"
+
+"You cannot create new subscriptions for the domain {0}. Allowed domains are: {1}"
+"نمی توانید اشتراک جدیدی برای دامنه {0} ایجاد کنید. دامنه های مجاز عبارتند از: {1}"
+
+"This API endpoint is only enabled if you have a premium token with the {0} feature."
+"این نقطه پایانی API فقط در صورتی فعال می شود که دارای نشان برتر با ویژگی {0} باشید."
+
+"Error compiling audit query: {0}"
+"خطا در تنظیم پرسش حسابرسی: {0}"
+
+"Error running audit query: {0}"
+"خطا در اجرای عبارت حسابرسی: {0}"
+
+"Error parsing Pulse parameters: {0}"
+"خطا در تجزیه پارامترهای نبض: {0}"
+
+"Blocked: you are not allowed to run queries against Database {0}."
+"مسدود شده است: شما مجاز نیستید درخواستهای مربوط به پایگاه داده {0} را اجرا کنید."
+
+"Cannot parse permissions graph because it is invalid: {0}"
+"نمی توان نمودار مجوزها را تجزیه کرد زیرا نامعتبر است: {0}"
+
+"Hash of database {0} details changed; marking pool invalid to reopen it"
+"جزئیات هش پایگاه داده {0} تغییر کرد ؛ علامت گذاری استخر برای بازگشایی نامعتبر است"
+
+"Invalid DB permissions: If you have write access for native queries, you must have full data access."
+"مجوزهای DB نامعتبر: اگر دسترسی به نوشتن برای درخواستهای اصلی را دارید ، باید دسترسی کامل به داده داشته باشید."
+
+"Error parsing permissions tree {0}"
+"خطا در تجزیه درخت مجوزها {0}"
+
+"collection ID of a dashboard subscription cannot be directly modified"
+"شناسه مجموعه اشتراک داشبورد را نمی توان مستقیماً تغییر داد"
+
+"dashboard ID of a dashboard subscription cannot be modified"
+"شناسه داشبورد اشتراک داشبورد قابل تغییر نیست"
+
+"Javascript resource not found: {0}"
+"منبع جاوا اسکریپت یافت نشد: {0}"
+
+"Found new version for DB: {0}"
+"نسخه جدید برای DB پیدا شد: {0}"
+
+"Rerun queries for simple explorations"
+"پرس و جوها را برای کاوش های ساده دوباره اجرا کنید"
+
+"Choose when syncs and scans happen"
+"زمان انجام همگام‌سازی و اسکن را انتخاب کنید"
+
+"By default, Metabase does a lightweight hourly sync and an intensive daily scan of field values. If you have a large database, turn this on to make changes."
+"به‌طور پیش‌فرض، Metabase یک همگام‌سازی ساعتی سبک و اسکن روزانه فشرده مقادیر فیلد را انجام می‌دهد. اگر پایگاه داده بزرگی دارید، برای ایجاد تغییرات، آن را روشن کنید."
+
+"This enables Metabase to scan for additional field values during syncs allowing smarter behavior, like improved auto-binning on your bar charts."
+"این امکان را به Metabase می‌دهد تا مقادیر فیلد اضافی را در طول همگام‌سازی‌ها اسکن کند و رفتار هوشمندانه‌تری را امکان‌پذیر می‌کند، مانند بهبود یافته‌سازی خودکار در نمودارهای میله‌ای شما."
+
+"By default \"Site Url\" is used in notification links, but can be overridden."
+"به‌طور پیش‌فرض «آدرس سایت» در پیوندهای اعلان استفاده می‌شود، اما می‌توان آن را لغو کرد."
+
+"Error preprocessing source query when applying GTAP: {0}"
+"خطا در پیش پردازش درخواست منبع هنگام اعمال GTAP: {0}"
+
+"Unique identifier to be used in Snowplow analytics, to identify this instance of Metabase."
+"شناسه منحصر به فرد برای استفاده در تجزیه و تحلیل Snowplow، برای شناسایی این نمونه از Metabase."
+
+"This is a public setting since some analytics events are sent prior to initial setup."
+"این یک تنظیم عمومی است زیرا برخی رویدادهای تحلیلی قبل از راه اندازی اولیه ارسال می شوند."
+
+"Boolean indicating whether a Snowplow collector is available to receive analytics events."
+"Boolean نشان می دهد که آیا یک جمع کننده Snowplow برای دریافت رویدادهای تجزیه و تحلیل در دسترس است یا خیر."
+
+"Should be set via environment variable in Cypress tests or during local development."
+"باید از طریق متغیر محیطی در تست های سرو یا در طول توسعه محلی تنظیم شود."
+
+"Boolean indicating whether analytics events are being sent to Snowplow."
+"Boolean نشان می‌دهد که آیا رویدادهای تحلیلی به Snowplow ارسال می‌شوند یا خیر."
+
+"True if anonymous tracking is enabled for this instance, and a Snowplow collector is available."
+"درست است اگر ردیابی ناشناس برای این مثال فعال باشد، و یک جمع‌آورنده برف پاک‌کن در دسترس باشد."
+
+"The URL of the Snowplow collector to send analytics events to."
+"URL مجموعه برف پاک کن برای ارسال رویدادهای تجزیه و تحلیل به."
+
+"Error sending Snowplow analytics event {0}"
+"خطا در ارسال رویداد تجزیه و تحلیل Snowplow {0}"
+
+"The approximate timestamp at which this instance of Metabase was created, for inclusion in analytics."
+"مهر زمانی تقریبی که در آن این نمونه از Metabase ایجاد شد، برای گنجاندن در تجزیه و تحلیل."
+
+"Unverified due to edit"
+"به دلیل ویرایش تایید نشد"
+
+"Card {0} does not exist or does not have a valid query."
+"کارت {0} وجود ندارد یا درخواست معتبری ندارد."
+
+"You must have data permissions to add a parameter referencing the Table {0}."
+"برای افزودن پارامتری که به جدول {0} ارجاع می دهد، باید مجوز داده داشته باشید."
+
+"No matching parameter with slug {0}. Found: {1}"
+"هیچ پارامتر منطبقی با Slug {0} وجود ندارد. یافت شد: {1}"
+
+"Could not invite user because email is not configured."
+"نمی‌توان کاربر را دعوت کرد زیرا ایمیل پیکربندی نشده است."
+
+"Does your team use Slack? If so, you can send automated updates via dashboard subscriptions."
+"آیا تیم شما از Slack استفاده می کند؟ اگر چنین است، می‌توانید به‌روزرسانی‌های خودکار را از طریق اشتراک داشبورد ارسال کنید."
+
+"invalid token"
+"نشانه نامعتبر"
+
+"Slack channel not found."
+"کانال شل پیدا نشد."
+
+"channel not found"
+"کانال پیدا نشد"
+
+"Unrecognized modal: {0}"
+"مدال ناشناخته: {0}"
+
+"Can't decrypt secret value with MB_ENCRYPTION_SECRET_KEY"
+"نمی توان مقدار مخفی را با MB_ENCRYPTION_SECRET_KEY رمزگشایی کرد"
+
+"Your database's IP address (e.g. 98.137.149.56) or its domain name (e.g. esc.mydatabase.com)."
+"آدرس IP پایگاه داده شما (به عنوان مثال 98.137.149.56) یا نام دامنه آن (به عنوان مثال esc.mydatabase.com)."
+
+"username"
+"نام کاربری"
+
+"Use a secure connection (SSL)"
+"استفاده از اتصال امن (SSL)"
+
+"Use an SSH tunnel"
+"از یک تونل SSH استفاده کنید"
+
+"Enable this ssh tunnel?"
+"این تونل ssh فعال شود؟"
+
+"SSH tunnel host"
+"میزبان تونل SSH"
+
+"The hostname that you use to connect to connect to SSH tunnels."
+"نام میزبانی که برای اتصال به تونل های SSH استفاده می کنید."
+
+"SSH tunnel port"
+"پورت تونل SSH"
+
+"SSH tunnel username"
+"نام کاربری تونل SSH"
+
+"The username you use to login to your SSH tunnel."
+"نام کاربری که برای ورود به تونل SSH خود استفاده می کنید."
+
+"SSH tunnel password"
+"رمز عبور تونل SSH"
+
+"SSH private key to connect to the tunnel"
+"کلید خصوصی SSH برای اتصال به تونل"
+
+"Paste the contents of an ssh private key here"
+"محتویات یک کلید خصوصی ssh را در اینجا قرار دهید"
+
+"Passphrase for SSH private key"
+"عبارت عبور برای کلید خصوصی SSH"
+
+"We execute the underlying query when you explore data using Summarize or Filter."
+"هنگامی که داده‌ها را با استفاده از خلاصه یا فیلتر کاوش می‌کنید، پرس‌وجو اساسی را اجرا می‌کنیم."
+
+"This is on by default but you can turn it off if performance is slow."
+"این به طور پیش فرض روشن است، اما اگر عملکرد کند است، می توانید آن را خاموش کنید."
+
+"This is a lightweight process that checks for updates to this database’s schema."
+"این یک فرآیند سبک وزن است که به‌روزرسانی‌های طرح این پایگاه داده را بررسی می‌کند."
+
+"In most cases, you should be fine leaving this set to sync hourly."
+"در بیشتر موارد، شما باید این مجموعه را به صورت ساعتی همگام کنید."
+
+"If your database is behind a firewall, you may need to allow connections from our Metabase Cloud IP addresses:"
+"اگر پایگاه داده شما پشت فایروال قرار دارد، ممکن است لازم باشد اتصالات را از آدرس های IP ابری متابیس ما مجاز کنید:"
+
+"Error querying database {0} for current time: {1}"
+"خطا در جستجوی پایگاه داده {0} برای زمان فعلی: {1}"
+
+"Error: multiple values specified for parameter; non-Field Filter parameters can only have one value."
+"خطا: چندین مقدار مشخص شده برای پارامتر. پارامترهای غیر فیلد فیلتر فقط می توانند یک مقدار داشته باشند."
+
+"The local path relative to where Metabase is running from. Your string should not include the .mv.db extension."
+"مسیر محلی نسبت به جایی که Metabase از آنجا اجرا می شود. رشته شما نباید شامل پسوند mv.db باشد."
+
+"SSL Mode"
+"حالت SSL"
+
+"SSL Root Certificate (PEM)"
+"گواهی ریشه SSL (PEM)"
+
+"Authenticate client certificate?"
+"گواهی مشتری تایید شود؟"
+
+"SSL Client Certificate (PEM)"
+"گواهی مشتری SSL (PEM)"
+
+"SSL Client Key (PKCS-8/DER or PKCS-12)"
+"کلید کلاینت SSL (PKCS-8/DER یا PKCS-12)"
+
+"SSL Client Key Password"
+"رمز عبور کلید کلاینت SSL"
+
+"Unable to substitute parameters: {0}"
+"امکان جایگزینی پارامترها وجود ندارد: {0}"
+
+"Expected native source query to be a string, got: {0}"
+"پرس و جو منبع بومی انتظار می رود که یک رشته باشد، دریافت شد: {0}"
+
+"Expected native source query parameters to be sequential, got: {0}"
+"انتظار می رود پارامترهای پرس و جو منبع بومی متوالی باشند، دریافت شد: {0}"
+
+"No expression named {0} at this level of the query"
+"هیچ عبارتی با نام {0} در این سطح از جستار وجود ندارد"
+
+"Error compiling :field clause: {0}"
+"خطا در کامپایل :فیلد بند: {0}"
+
+"Warning: Driver {0} is using {1}. This method was deprecated in {2} and will be removed in a future release."
+"هشدار: درایور {0} از {1} استفاده می کند. این روش در {2} منسوخ شد و در نسخه بعدی حذف خواهد شد."
+
+"Error setting connection to autoCommit false"
+"خطا در تنظیم اتصال به AutoCommit false"
+
+"Error setting prepared statement fetch size to fetch-size"
+"خطا در تنظیم اندازه واکشی بیانیه آماده به Fetch-size"
+
+"Error setting statement fetch size to fetch-size"
+"خطا در تنظیم عبارت fetch size به fetch-size"
+
+"Error executing query: {0}"
+"خطا در اجرای پرس و جو: {0}"
+
+"Local file path"
+"مسیر فایل محلی"
+
+"Uploaded file path"
+"مسیر فایل آپلود شده"
+
+"File path"
+"مسیر فایل"
+
+"Error invoking getter for connection property {0}"
+"خطا در فراخوانی گیرنده برای ویژگی اتصال {0}"
+
+"Only these..."
+"فقط اینها..."
+
+"All except..."
+"همه بجز..."
+
+"Comma separated names of {0} that <strong>should</strong> appear in Metabase"
+"نام‌های جداشده با کاما از {0} که <strong>باید</strong> در Metabase ظاهر شوند"
+
+"You can use patterns like <strong>auth*</strong> to match multiple {0}"
+"می‌توانید از الگوهایی مانند <strong>auth*</strong> برای تطبیق چند {0} استفاده کنید."
+
+"Comma separated names of {0} that <strong>should NOT</strong> appear in Metabase"
+"نام‌های {0} با کاما از هم جدا شده‌اند که <strong>نباید</strong> در Metabase ظاهر شوند"
+
+"Your Slack connection stopped working"
+"اتصال Slack شما از کار افتاد"
+
+"Client ID for Google Sign-In. If this is set, Google Sign-In is considered to be enabled."
+"شناسه مشتری برای ورود به سیستم Google. اگر این تنظیم شود، ورود به سیستم Google فعال در نظر گرفته می شود."
+
+"Invalid Google Sign-In Client ID: must end with \".apps.googleusercontent.com\""
+"شناسه مشتری ورود به سیستم Google نامعتبر: باید به «.apps.googleusercontent.com» ختم شود"
+
+"Invalid Google Sign-In token."
+"نشانه ورود به سیستم Google نامعتبر است."
+
+"Google Sign-In token appears to be incorrect. "
+"به نظر می رسد نشانه ورود به سیستم Google نادرست است. "
+
+"Successfully authenticated Google Sign-In token for: {0} {1}"
+"کد ورود به سیستم Google برای: {0} {1} با موفقیت احراز هویت شد"
+
+"Deprecated Slack API token for connecting the Metabase Slack bot."
+"رمز Slack API برای اتصال ربات Metabase Slack منسوخ شده است."
+
+"Please use a new Slack app integration instead."
+"لطفاً به جای آن از یک ادغام برنامه Slack جدید استفاده کنید."
+
+"Bot user OAuth token for connecting the Metabase Slack app."
+"توکن کاربر ربات OAuth برای اتصال برنامه Metabase Slack."
+
+"This should be used for all new Slack integrations starting in Metabase v0.42.0."
+"این باید برای همه ادغام های Slack جدید که در Metabase نسخه 0.42.0 شروع می شود استفاده شود."
+
+"Whether the current Slack app token, if set, is valid."
+"آیا رمز فعلی برنامه Slack، در صورت تنظیم، معتبر است یا خیر."
+
+"Set to 'false' if a Slack API request returns an auth error."
+"اگر درخواست Slack API یک خطای احراز هویت را برمی‌گرداند، روی \"false\" تنظیم کنید."
+
+"The name of the channel to which Metabase files should be initially uploaded"
+"نام کانالی که فایل های متابیس ابتدا باید در آن آپلود شوند"
+
+"🔒 Your Slack authorization token is invalid or has been revoked. Please update your integration in Admin Settings -> Slack."
+"🔒 توکن مجوز Slack شما نامعتبر است یا لغو شده است. لطفاً ادغام خود را در تنظیمات مدیریت -> Slack به‌روزرسانی کنید."
+
+"Slack channel named `{0}` is missing!"
+"کانال شل به نام \"{0}\" وجود ندارد!"
+
+"The channel is used for storing images that are included in dashboard subscriptions."
+"این کانال برای ذخیره تصاویری که در اشتراک داشبورد گنجانده شده اند استفاده می شود."
+
+"You do not have curate permissions for this Collection."
+"شما مجوزهای سرپرستی این مجموعه را ندارید."
+
+"Dashboard {0} does not have a DashboardCard with ID {1}"
+"داشبورد {0} داشبورد کارت با شناسه {1} ندارد"
+
+"Deleting secret ID {0} from app DB because the owning database ({1}) is being deleted"
+"در حال حذف شناسه مخفی {0} از برنامه DB زیرا پایگاه داده مالک ({1}) در حال حذف است"
+
+"Invalid value for Field column {0}: {1} is not a descendant of any of these types: {2}"
+"مقدار نامعتبر برای ستون فیلد {0}: {1} نسب هیچ یک از این انواع نیست: {2}"
+
+"Can''t use block permissions without having the advanced-permissions premium feature"
+"بدون داشتن ویژگی حق بیمه مجوزهای پیشرفته، نمی توان از مجوزهای مسدود استفاده کرد"
+
+"User {0} does not exist."
+"کاربر {0} وجود ندارد."
+
+"Wrong email address for User {0}."
+"آدرس ایمیل کاربر {0} اشتباه است."
+
+"Secret ID {0}"
+"شناسه مخفی {0}"
+
+"File path for {0}"
+"مسیر فایل برای {0}"
+
+"Path"
+"مسیر"
+
+"{0} points to non-existent file: {1}"
+"{0} به فایلی که وجود ندارد اشاره می کند: {1}"
+
+"{0} (a local file path) cannot be used in Metabase hosted environment"
+"{0} (یک مسیر فایل محلی) را نمی توان در محیط میزبانی Metabase استفاده کرد"
+
+"Error parsing Setting {0}: {1}"
+"خطا در تجزیه تنظیم {0}: {1}"
+
+"Site-wide values are not allowed for Setting {0}"
+"مقادیر کل سایت برای تنظیم {0} مجاز نیستند"
+
+"Setting {0} is deprecated as of Metabase {1} and may be removed in a future version."
+"تنظیم {0} از Metabase {1} منسوخ شده است و ممکن است در نسخه بعدی حذف شود."
+
+"Setting name ''{0}'' is retired; use a different name instead"
+"نام تنظیم \"{0}\" بازنشسته شده است. به جای آن از نام دیگری استفاده کنید"
+
+"Boolean indicating whether analytics data should be sent to Google Analytics on the frontend"
+"Boolean نشان می‌دهد که آیا داده‌های تحلیلی باید به Google Analytics در فرانت‌اند ارسال شود یا خیر"
+
+"Metabase version for which a notice about usage of deprecated features has been shown."
+"نسخه متابیس که برای آن اطلاعیه ای در مورد استفاده از ویژگی های منسوخ نشان داده شده است."
+
+"Whether or not to display a message about pinning dashboards. It will also be hidden if any dashboards are pinned. Admins might hide this to direct users to better content than raw data"
+"اینکه آیا پیامی درباره سنجاق کردن داشبوردها نمایش داده شود یا خیر. همچنین اگر هر داشبورد پین شود، پنهان خواهد شد. مدیران ممکن است این را پنهان کنند تا کاربران را به سمت محتوای بهتر نسبت به داده های خام هدایت کنند"
+
+"This will affect things like grouping by week or filtering in GUI queries."
+"این بر مواردی مانند گروه بندی بر اساس هفته یا فیلتر کردن در جستارهای رابط کاربری گرافیکی تأثیر می گذارد."
+
+"It won''t affect most SQL queries,"
+"بر اکثر پرس و جوهای SQL تأثیر نمی گذارد،"
+
+" although it is used to set the WEEK_START session variable in Snowflake."
+" اگرچه برای تنظیم متغیر جلسه WEEK_START در Snowflake استفاده می شود."
+
+"Error fetching Metabase Cloud gateway IP addresses:"
+"خطا در واکشی آدرس های IP دروازه ابری Metabase:"
+
+"Metabase Cloud gateway IP addresses, to configure connections to DBs behind firewalls"
+"آدرس های IP دروازه متابیس ابر، برای پیکربندی اتصالات به DB در پشت فایروال ها"
+
+"Whether an introductory modal should be shown after the next database connection is added."
+"آیا پس از افزودن اتصال پایگاه داده بعدی باید یک مدال مقدماتی نشان داده شود یا خیر."
+
+"Defaults to false if any non-default database has already finished syncing for this instance."
+"اگر پایگاه داده غیرپیش‌فرض قبلاً همگام‌سازی را برای این نمونه تمام کرده باشد، پیش‌فرض نادرست است."
+
+"Alert: {0} has {1}"
+"هشدار: {0} دارای {1} است"
+
+"Nothing to compare to."
+"چیزی برای مقایسه نیست."
+
+"Invalid parameter type {0} for parameter {1}. Parameter type must be one of: {2}"
+"نوع پارامتر {0} برای پارامتر {1} نامعتبر است. نوع پارامتر باید یکی از این موارد باشد: {2}"
+
+"Invalid parameter: Card {0} does not have a template tag named {1}."
+"پارامتر نامعتبر: کارت {0} برچسب الگویی به نام {1} ندارد."
+
+"Unable to resolve invalid query parameter: parameter is missing :id"
+"حل کردن پارامتر پرس و جو نامعتبر امکان پذیر نیست: پارامتر وجود ندارد :id"
+
+"Dashboard does not have a parameter with ID {0}."
+"داشبورد پارامتری با شناسه {0} ندارد."
+
+"Query: {0}"
+"پرس و جو: {0}"
+
+"Error determining expected columns for query: {0}"
+"خطا در تعیین ستون های مورد انتظار برای پرس و جو: {0}"
+
+"Nested queries are disabled"
+"جستارهای تودرتو غیرفعال هستند"
+
+"Bad :field clause {0} for field {1} at {2}: clause should have a :join-alias."
+"عبارت بد :field {0} برای فیلد {1} در {2}: عبارت باید یک :join-alias داشته باشد."
+
+"Guessing join {0}"
+"حدس زدن پیوستن به {0}"
+
+"Unable to infer an appropriate join. Query may not work as expected."
+"امکان استنباط پیوستن مناسب وجود ندارد. پرس و جو ممکن است آنطور که انتظار می رود کار نکند."
+
+"Error resolving Fields in query: {0}"
+"خطا در حل فیلدها در جستار: {0}"
+
+"Warning: clause {0} does not match a column in the source query. Attempting to correct this to {1}"
+"هشدار: بند {0} با ستونی در جستار منبع مطابقت ندارد. تلاش برای اصلاح این به {1}"
+
+"Warning: clause {0} refers to a Field that may not be present in the source query. Query may not work as expected. Found: {1}"
+"هشدار: بند {0} به فیلدی اشاره دارد که ممکن است در جستار منبع وجود نداشته باشد. پرس و جو ممکن است آنطور که انتظار می رود کار نکند. یافت شد: {1}"
+
+"Expected :aggregation-options clause, got {0}"
+"مورد انتظار :aggregation-options clause، دریافت {0}"
+
+"Cannot determine the source table or query for Field clause {0}"
+"نمی توان جدول منبع یا پرس و جو را برای عبارت فیلد {0} تعیین کرد"
+
+"Aggregation does not exist at index {0}"
+"تجمع در نمایه {0} وجود ندارد"
+
+"No expression named {0}"
+"هیچ عبارتی به نام {0} وجود ندارد"
+
+"Sample database DB file ''{0}'' cannot be found."
+"نمونه فایل DB پایگاه داده ''{0}'' یافت نشد."
+
+"Loading sample database"
+"در حال بارگیری پایگاه داده نمونه"
+
+"Failed to load sample database"
+"پایگاه داده نمونه بارگیری نشد"
+
+"Session cookie's SameSite is configured to \"None\", but site is served over an insecure connection. Some browsers will reject cookies under these conditions."
+"SameSite کوکی جلسه روی \"هیچکدام\" پیکربندی شده است، اما سایت از طریق یک اتصال ناامن ارائه می شود. برخی از مرورگرها کوکی ها را تحت این شرایط رد می کنند."
+
+"Login request is missing device ID information"
+"درخواست ورود اطلاعات شناسه دستگاه را ندارد"
+
+"Cannot decrypt encrypted {0}. Have you changed or forgot to set MB_ENCRYPTION_SECRET_KEY?"
+"رمزگشایی {0} رمزگذاری شده امکان پذیر نیست. آیا تنظیم MB_ENCRYPTION_SECRET_KEY را تغییر داده اید یا فراموش کرده اید؟"
+
+"Enable this SSH tunnel?"
+"این تونل SSH فعال شود؟"
+
+"The hostname that you use to connect to SSH tunnels."
+"نام میزبانی که برای اتصال به تونل های SSH استفاده می کنید."
+
+"Paste the contents of an SSH private key here"
+"محتویات یک کلید خصوصی SSH را در اینجا قرار دهید"
+
+"Allow using a saved question or Model as the source for other queries?"
+"اجازه استفاده از یک سؤال یا مدل ذخیره شده به عنوان منبع برای سایر جستارها را می دهید؟"
+
+"Pulse card query error"
+"خطای درخواست کارت پالس"
+
+"There was a problem with this question."
+"این سوال مشکلی داشت."
+
+"Copy of "
+"یک نسخه از "
+
+"The /api/setup route can only be used to create the first user, however a user currently exists."
+"مسیر /api/setup فقط می تواند برای ایجاد اولین کاربر استفاده شود، با این حال کاربر در حال حاضر وجود دارد."
+
+"Maximum number of rows to return specifically on :rows type queries via the API."
+"حداکثر تعداد ردیف هایی که باید به طور خاص در :rows بازگردانده شوند، عبارت های جستجو را از طریق API تایپ کنید."
+
+"Allowed email address domain(s) for new Dashboard Subscriptions and Alerts. To specify multiple domains, separate each domain with a comma, with no space in between (e.g., \"domain1,domain2\"). To allow all domains, leave the field empty. This setting doesn't affect existing subscriptions."
+"دامنه(های) آدرس ایمیل مجاز برای اشتراک ها و هشدارهای داشبورد جدید. برای تعیین چندین دامنه، هر دامنه را با کاما جدا کنید، بدون فاصله بین آن (به عنوان مثال، \"domain1,domain2\"). برای اجازه دادن به همه دامنه ها، فیلد را خالی بگذارید. این تنظیم بر اشتراک‌های موجود تأثیری ندارد."
+
+"You do not have permissions to download the results of this query."
+"شما مجوز دانلود نتایج این پرس و جو را ندارید."
+
+"Non-admin users without monitoring or subscription permissions are only allowed to update alerts that they created"
+"کاربران غیر سرپرست بدون مجوز نظارت یا اشتراک فقط مجاز به به روز رسانی هشدارهایی هستند که ایجاد کرده اند"
+
+"Non-admin users without monitoring or subscription permissions are not allowed to modify the channels for an alert"
+"کاربران غیر سرپرست بدون مجوز نظارت یا اشتراک مجاز به تغییر کانال ها برای هشدار نیستند."
+
+"Non-admin users without subscription permissions are not allowed to add recipients"
+"کاربران غیر مدیر بدون مجوز اشتراک مجاز به افزودن گیرندگان نیستند"
+
+"Group Manager is only enabled if you have a premium token with the advanced permissions feature."
+"مدیر گروه تنها در صورتی فعال می‌شود که یک توکن ممتاز با ویژگی مجوزهای پیشرفته داشته باشید."
+
+"Admin cant be a group manager."
+"ادمین نمی تواند مدیر گروه باشد."
+
+"Timeline with id {0} not found"
+"جدول زمانی با شناسه {0} یافت نشد"
+
+"Timestamp cannot be null"
+"مهر زمانی نمی تواند تهی باشد"
+
+"ERROR {0}: {1}"
+"خطای {0}: {1}"
+
+"Clearing default entries created by Liquibase migrations..."
+"پاک کردن ورودی های پیش فرض ایجاد شده توسط Liquibase migrations..."
+
+"Don''t know how to parse date string {0}"
+"نمی دانم چگونه رشته تاریخ {0} را تجزیه کنم"
+
+"Invalid values provided for operator: {0}"
+"مقادیر نامعتبر ارائه شده برای اپراتور: {0}"
+
+"Unrecognized operation: {0}"
+"عملیات ناشناخته: {0}"
+
+"Error determining value for parameter {0}: {1}"
+"خطا در تعیین مقدار پارامتر {0}: {1}"
+
+"You cannot update a ApplicationPermissionsRevision!"
+"شما نمی توانید یک ApplicationPermissionsRevision را به روز کنید!"
+
+"Invalid Field Filter: Field {0} belongs to Database {1}, but the query is against Database {2}"
+"فیلتر فیلد نامعتبر: فیلد {0} متعلق به پایگاه داده {1} است، اما درخواست مخالف پایگاه داده {2} است."
+
+"The engine on a sample database cannot be changed."
+"موتور موجود در پایگاه داده نمونه را نمی توان تغییر داد."
+
+"The {0} permissions functionality is only enabled if you have a premium token with the advanced-permissions feature."
+"عملکرد مجوزهای {0} تنها در صورتی فعال می‌شود که یک نشانه ممتاز با ویژگی مجوزهای پیشرفته داشته باشید."
+
+"Unknown setting: {0}"
+"تنظیم ناشناخته: {0}"
+
+"You do not have access to the setting {0}"
+"شما به تنظیمات {0} دسترسی ندارید"
+
+"Setting {0} allows both user-local and database-local values; this is not supported"
+"تنظیم {0} به هر دو مقدار کاربر محلی و پایگاه داده محلی اجازه می دهد. این پشتیبانی نمی شود"
+
+"Error purging old cache entries: {0}"
+"خطا در پاک کردن ورودی‌های حافظه پنهان قدیمی: {0}"
+
+"Error saving query results to cache: {0}"
+"خطا در ذخیره نتایج جستجو در حافظه پنهان: {0}"
+
+"Error attempting to fetch cached results for query with hash {0}: {1}"
+"خطا در تلاش برای واکشی نتایج حافظه پنهان برای پرس و جو با هش {0}: {1}"
+
+"Slack user/channel startup cache refreshed with {0} entries, took {1}ms."
+"حافظه پنهان راه‌اندازی کاربر/کانال ضعیف با {0} ورودی به‌روزرسانی شد، {1} میلی‌ثانیه طول کشید."
+
+"Slack is not configured, not refreshing slack user/channel cache."
+"Slack پیکربندی نشده است، حافظه نهان کاربر/کانال slack را تازه نمی کند."
+
+"value must be a valid date string"
+"مقدار باید یک رشته تاریخ معتبر باشد"
+
+"Not allowed to edit group memberships"
+"مجاز به ویرایش عضویت در گروه نیست"
+
+"Connected to"
+"مرتبط با"
+
+}
