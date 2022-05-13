@@ -20,6 +20,7 @@
             [metabase.driver.sql.util.unprepare :as unprepare]
             [metabase.models.field :as field]
             [metabase.models.secret :as secret]
+            [metabase.driver.postgres.callable-statement :as callable-stmt]
             [metabase.query-processor.store :as qp.store]
             [metabase.query-processor.util.add-alias-info :as add]
             [metabase.util :as u]
@@ -567,3 +568,33 @@
   [driver prepared-statement i t]
   (let [local-time (t/local-time (t/with-offset-same-instant t (t/zone-offset 0)))]
     (sql-jdbc.execute/set-parameter driver prepared-statement i local-time)))
+
+(defmethod sql-jdbc.execute/connection-with-timezone :postgres
+  [driver database ^String timezone-id]
+  (let [conn (.getConnection (sql-jdbc.execute/datasource-with-diagnostic-info! driver database))]
+    (try
+      (sql-jdbc.execute/set-best-transaction-level! driver conn)
+      (sql-jdbc.execute/set-time-zone-if-supported! driver conn timezone-id)
+      (try
+        ;; set autocommit to false so that pg honors fetchSize. Otherwise it commits the transaction and needs the
+        ;; entire realized result set
+        (.setAutoCommit conn false)
+        (catch Throwable e
+          (log/debug e (trs "Error setting connection to autoCommit false"))))
+      (try
+        (.setHoldability conn ResultSet/CLOSE_CURSORS_AT_COMMIT)
+        (catch Throwable e
+          (log/debug e (trs "Error setting default holdability for connection"))))
+      conn
+      (catch Throwable e
+        (.close conn)
+        (throw e)))))
+
+(defmethod driver/execute-reducible-query :postgres
+  ([driver {{sql :query, params :params} :native, :as query} context respond]
+   {:pre [(string? sql) (seq sql)]}
+   (if (str/starts-with? (str/lower-case sql) "call ")
+     ; CALL STUFF
+     (callable-stmt/execute-callable-query driver sql params context respond)
+     ; SELECT STUFF
+   ((get-method driver/execute-reducible-query :sql-jdbc) driver query context respond))))
