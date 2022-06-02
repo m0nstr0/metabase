@@ -690,26 +690,26 @@ export const initializeQB = (location, params) => {
 
     // if we have loaded up a card that we can run then lets kick that off as well
     // but don't bother for "notebook" mode
-    if (question && uiControls.queryBuilderMode !== "notebook") {
-      if (question.canRun()) {
+    //if (question && uiControls.queryBuilderMode !== "notebook") {
+    //  if (question.canRun()) {
         // NOTE: timeout to allow Parameters widget to set parameterValues
-        setTimeout(
+        /*setTimeout(
           () =>
             // TODO Atte Keinänen 5/31/17: Check if it is dangerous to create a question object without metadata
             dispatch(runQuestionQuery({ shouldUpdateUrl: false })),
           0,
-        );
-      }
+        );*/
+    //  }
 
       // clean up the url and make sure it reflects our card state
-      dispatch(
+      /*dispatch(
         updateUrl(card, {
           replaceState: true,
           preserveParameters,
           objectId,
         }),
-      );
-    }
+      );*/
+    //}
   };
 };
 

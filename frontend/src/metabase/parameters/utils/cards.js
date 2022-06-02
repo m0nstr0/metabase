@@ -15,6 +15,12 @@ import {
 export function getTemplateTagParameters(tags) {
   function getTemplateTagType(tag) {
     const { type } = tag;
+    if (tag.output) {
+      if (type === "number") {
+        return "number";
+      }
+      return "text";
+    }
     if (type === "date") {
       return "date/single";
     } else if (type === "string") {
@@ -35,6 +41,7 @@ export function getTemplateTagParameters(tags) {
       return {
         id: tag.id,
         type: tag["widget-type"] || getTemplateTagType(tag),
+        output: tag.output,
         target:
           tag.type === "dimension"
             ? ["dimension", ["template-tag", tag.name]]

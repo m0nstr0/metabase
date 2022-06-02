@@ -52,6 +52,7 @@
       (try
         (execute-callable-statement conn stmt)
            (catch Throwable e
+             (.rollback conn)
              (throw (ex-info (tru "Error executing query: {0}" (ex-message e)) {:sql sql, :params params, :type qp.error-type/invalid-query} e))))
       (finally
         (.close stmt)

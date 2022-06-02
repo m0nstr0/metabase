@@ -60,6 +60,15 @@ export default class TagEditorParam extends Component {
     }
   }
 
+  setOutput(output) {
+    const { tag, setTemplateTag } = this.props;
+
+    if (tag.output !== output) {
+      setTemplateTag({ ...tag, output: output, required: false, default: undefined, dimension: undefined, "widget-type": undefined, type: "text"});
+    }
+  }
+
+
   setParameterAttribute(attr, val) {
     // only register an update if the value actually changes
     if (this.props.tag[attr] !== val) {
@@ -109,33 +118,47 @@ export default class TagEditorParam extends Component {
     return isOldWidgetType ? "string/=" : widgetType;
   };
 
-  render() {
-    const { tag, database, databases, metadata, parameter } = this.props;
-    let widgetOptions = [];
-    let field = null;
-    let table = null;
-    let fieldMetadataLoaded = false;
-    if (tag.type === "dimension" && Array.isArray(tag.dimension)) {
-      field = metadata.field(tag.dimension[1]);
-      if (field) {
-        widgetOptions = getParameterOptionsForField(field);
-        table = field.table;
-        fieldMetadataLoaded = true;
-      }
-    }
-
-    const isDimension = tag.type === "dimension";
-    const hasSelectedDimensionField =
-      isDimension && Array.isArray(tag.dimension);
-    const hasWidgetOptions = widgetOptions && widgetOptions.length > 0;
-    const hasNoWidgetType =
-      tag["widget-type"] === "none" || !tag["widget-type"];
-
+  getOutputTag(tag, database, databases, metadata, parameter, widgetOptions, field, table, fieldMetadataLoaded, isDimension, hasSelectedDimensionField, hasWidgetOptions, hasNoWidgetType)
+  {
     return (
-      <div className="px3 pt3 mb1 border-top">
-        <h4 className="text-medium py1">{t`Variable name`}</h4>
-        <h3 className="text-heavy text-brand align-self-end mb4">{tag.name}</h3>
+        <div>
+          <div className="pb4">
+            <h4 className="text-medium pb1">{t`Variable type`}</h4>
+            <Select
+              className="block"
+              value={tag.type}
+              onChange={e => this.setType(e.target.value)}
+              isInitiallyOpen={!tag.type}
+              placeholder={t`Select…`}
+              height={300}
+            >
+              <Option value="text">{t`Text`}</Option>
+              <Option value="number">{t`Number`}</Option>
+            </Select>
+          </div>
 
+          {(hasWidgetOptions || !isDimension) && (
+            <div className="pb4">
+              <h4 className="text-medium pb1">{t`Filter widget label`}</h4>
+              <InputBlurChange
+                type="text"
+                value={tag["display-name"]}
+                className="AdminSelect p1 text-bold text-dark bordered border-medium rounded full"
+                style={{ fontSize: "14px" }}
+                onBlurChange={e =>
+                  this.setParameterAttribute("display-name", e.target.value)
+                }
+              />
+            </div>
+          )}
+      </div>
+    );
+  }
+
+  getNormalTag(tag, database, databases, metadata, parameter, widgetOptions, field, table, fieldMetadataLoaded, isDimension, hasSelectedDimensionField, hasWidgetOptions, hasNoWidgetType)
+  {
+    return (
+      <div>
         <div className="pb4">
           <h4 className="text-medium pb1">{t`Variable type`}</h4>
           <Select
@@ -148,8 +171,8 @@ export default class TagEditorParam extends Component {
           >
             <Option value="text">{t`Text`}</Option>
             <Option value="number">{t`Number`}</Option>
-            <Option value="date">{t`Date`}</Option>
-            <Option value="dimension">{t`Field Filter`}</Option>
+            {!tag.output && (<Option value="date">{t`Date`}</Option>)}
+            {!tag.output && (<Option value="dimension">{t`Field Filter`}</Option>)}
           </Select>
         </div>
 
@@ -289,5 +312,53 @@ export default class TagEditorParam extends Component {
         )}
       </div>
     );
+  }
+
+  render() {
+    const { tag, database, databases, metadata, parameter } = this.props;
+    let widgetOptions = [];
+    let field = null;
+    let table = null;
+    let fieldMetadataLoaded = false;
+    if (tag.type === "dimension" && Array.isArray(tag.dimension)) {
+      field = metadata.field(tag.dimension[1]);
+      if (field) {
+        widgetOptions = getParameterOptionsForField(field);
+        table = field.table;
+        fieldMetadataLoaded = true;
+      }
+    }
+
+    const isDimension = tag.type === "dimension";
+    const hasSelectedDimensionField =
+      isDimension && Array.isArray(tag.dimension);
+    const hasWidgetOptions = widgetOptions && widgetOptions.length > 0;
+    const hasNoWidgetType =
+      tag["widget-type"] === "none" || !tag["widget-type"];
+
+    let tag_contet = '';
+    if (!tag.output) {
+      tag_contet = this.getNormalTag(tag, database, databases, metadata, parameter, widgetOptions, field, table, fieldMetadataLoaded, isDimension, hasSelectedDimensionField, hasWidgetOptions, hasNoWidgetType);
+    } else {
+      tag_contet = this.getOutputTag(tag, database, databases, metadata, parameter, widgetOptions, field, table, fieldMetadataLoaded, isDimension, hasSelectedDimensionField, hasWidgetOptions, hasNoWidgetType);
+    }
+
+    return (
+      <div className="px3 pt3 mb1 border-top">
+      <h4 className="text-medium py1">{t`Variable name`}</h4>
+      <h3 className="text-heavy text-brand align-self-end mb4">{tag.name}</h3>
+     
+      <div className="pb3">
+        <h4 className="text-medium pb1">Output parameter?</h4>
+        <Toggle
+          value={tag.output}
+          onChange={value => this.setOutput(value)}
+        />
+      </div>
+      
+      {tag_contet}
+
+      </div>
+    )
   }
 }

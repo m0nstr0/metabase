@@ -88,7 +88,7 @@ function ParametersList({
       onSortStart={handleSortStart}
       onSortEnd={handleSortEnd}
     >
-      {visibleValuePopulatedParameters.map((valuePopulatedParameter, index) => (
+      {visibleValuePopulatedParameters.filter((param) => param.output == false || param.output == undefined).map((valuePopulatedParameter, index) => (
         <ParameterWidget
           key={valuePopulatedParameter.id}
           className={cx({ mb2: vertical })}

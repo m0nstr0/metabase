@@ -57,6 +57,7 @@ export type TemplateTag = {
   dimension?: LocalFieldReference;
   "widget-type"?: ParameterType;
   required?: boolean;
+  output?: boolean;
   default?: string;
 };
 

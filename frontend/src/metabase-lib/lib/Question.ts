@@ -1089,15 +1089,19 @@ export default class Question {
     const canUseCardApiEndpoint = !isDirty && this.isSaved();
     const parameters = this.parameters()
       // include only parameters that have a value applied
-      .filter(param => _.has(param, "value"))
+      .filter(param => _.has(param, "value") || (param.output == true))
       // only the superset of parameters object that API expects
-      .map(param => _.pick(param, "type", "target", "value", "id"))
-      .map(({ type, value, target, id }) => {
+      .map(param => _.pick(param, "type", "target", "value", "id", "output"))
+      .map(({ type, value, target, id, output }) => {
+        if (value == undefined && output) {
+          value = "output"
+        }
         return {
           type,
           value: normalizeParameterValue(type, value),
           target,
           id,
+          output
         };
       });
 
