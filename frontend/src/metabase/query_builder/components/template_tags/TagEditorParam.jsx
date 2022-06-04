@@ -64,7 +64,7 @@ export default class TagEditorParam extends Component {
     const { tag, setTemplateTag } = this.props;
 
     if (tag.output !== output) {
-      setTemplateTag({ ...tag, output: output, required: false, default: undefined, dimension: undefined, "widget-type": undefined, type: "text"});
+      setTemplateTag({ ...tag, output: output, required: false, default: "output", dimension: undefined, "widget-type": undefined, type: "text"});
     }
   }
 
